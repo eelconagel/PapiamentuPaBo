@@ -23,7 +23,7 @@
         { "id": "w2_01", "woord": "Kon ta bai?", "uitspraak": "kon ta bai", "vertaling": "Hoe gaat het?" },
         { "id": "w2_02", "woord": "Mi ta bon", "uitspraak": "mi ta bon", "vertaling": "Het gaat goed met mij" },
         { "id": "w2_03", "woord": "Mi ta hopi bon", "uitspraak": "mi ta ho-pi bon", "vertaling": "Het gaat heel goed" },
-        { "id": "w2_04", "woord": "Mas o menos", "uitspraak": "mas o me-nos", "vertaling": "Zo zo" },
+        { "id": "w2_04", "woord": "Mas o ménos", "uitspraak": "mas o me-nos", "vertaling": "Zo zo" },
         { "id": "w2_05", "woord": "Masha danki", "uitspraak": "ma-sha dan-ki", "vertaling": "Hartelijk bedankt" },
         { "id": "w2_06", "woord": "Di nada", "uitspraak": "di na-da", "vertaling": "Graag gedaan" },
         { "id": "w2_07", "woord": "Te aweró", "uitspraak": "te a-we-ro", "vertaling": "Tot straks" },
@@ -37,7 +37,7 @@
       "naam": "Onderweg",
       "woorden": [
         { "id": "w3_01", "woord": "Unda e baño ta?", "uitspraak": "oen-da e ban-jo ta", "vertaling": "Waar is het toilet?" },
-        { "id": "w3_02", "woord": "Mi ta busca un taxi", "uitspraak": "mi ta boes-ka oen tak-si", "vertaling": "Ik zoek een taxi" },
+        { "id": "w3_02", "woord": "Mi ta buska un taxi", "uitspraak": "mi ta boes-ka oen tak-si", "vertaling": "Ik zoek een taxi" },
         { "id": "w3_03", "woord": "Unda e hotel ta?", "uitspraak": "oen-da e ho-tel ta", "vertaling": "Waar is het hotel?" },
         { "id": "w3_04", "woord": "Mi ta bai playa", "uitspraak": "mi ta bai pla-ja", "vertaling": "Ik ga naar het strand" },
         { "id": "w3_05", "woord": "Playa", "uitspraak": "pla-ja", "vertaling": "Strand" },
@@ -76,8 +76,8 @@
         { "id": "w5_06", "woord": "Mi ta studia", "uitspraak": "mi ta stoe-dia", "vertaling": "Ik studeer" },
         { "id": "w5_07", "woord": "Mi tin famia", "uitspraak": "mi tin fa-mia", "vertaling": "Ik heb familie" },
         { "id": "w5_08", "woord": "Mi tin kas", "uitspraak": "mi tin kas", "vertaling": "Ik heb een huis" },
-        { "id": "w5_09", "woord": "Ku masha placer", "uitspraak": "koe ma-sha pla-ser", "vertaling": "Aangenaam kennis te maken" },
-        { "id": "w5_10", "woord": "Mi ta felis di konose bo", "uitspraak": "mi ta fe-lis di ko-no-se bo", "vertaling": "Ik ben blij je te kennen" }
+        { "id": "w5_09", "woord": "Ku masha plaser", "uitspraak": "koe ma-sha pla-ser", "vertaling": "Aangenaam kennis te maken" },
+        { "id": "w5_10", "woord": "Mi ta felis di konosé bo", "uitspraak": "mi ta fe-lis di ko-no-se bo", "vertaling": "Ik ben blij je te kennen" }
       ]
     },
     {
