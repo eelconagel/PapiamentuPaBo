@@ -3,7 +3,7 @@
   "blok": 3,
   "titel": "Scenario-koppeling 3: Gezondheid, Routines en Toekomstplannen",
   "grammatica": {
-    "uitleg": "In deze les pas je alles uit Blok 3 toe op contexten die dagelijks voorkomen: gezondheid bespreken, routines beschrijven en toekomstplannen delen.\n\nDEZE LES BOUWT OP:\n• Verleden tijd 'a' (les 21): Wat is er gisteren/vorige week gebeurd\n• Toekomstige tijd 'lo' (les 22): Plannen, afspraken, verwachtingen\n• Modaliteit mester/por/kier (les 23): Verplichtingen, mogelijkheden\n• Tabata / lo ta (les 24): Beschrijvingen in verleden en toekomst\n• Voorzetsels (les 25): Locatie, richting, doel\n• Indirect object (les 26): Iets voor iemand doen\n• Geavanceerde vragen (les 27): Hoeveel, welke, wie\n• Relatiefzinnen (les 28): Beschrijven wie/wat iets deed\n\nGEZONDHEIDSCONVERSATIE:\n1. Hoe voel je je: 'Kon bo ta sinti bo?'\n2. Klacht beschrijven: 'Mi tin doló di kabes / mi ta sinti malo'\n3. Advies geven: 'Bo mester bai na doktor'\n4. Verleden klacht: 'Ayera mi a sinti masha malo'\n5. Toekomstplan: 'Mayan mi lo bai na hospital'\n\nTOEKOMSTPLANNEN:\n• 'Ki bo lo hasi proximo siman?'\n• 'Mi lo mester studia pa mi ekzamen'\n• 'Nos lo bai na playa si e tempu ta bon'",
+    "uitleg": "In deze les pas je alles uit Blok 3 toe op contexten die dagelijks voorkomen: gezondheid bespreken, routines beschrijven en toekomstplannen delen.\n\nDEZE LES BOUWT OP:\n• Verleden tijd 'a' (les 21): Wat is er gisteren/vorige week gebeurd\n• Toekomstige tijd 'lo' (les 22): Plannen, afspraken, verwachtingen\n• Modaliteit mester/por/kier (les 23): Verplichtingen, mogelijkheden\n• Tabata / lo ta (les 24): Beschrijvingen in verleden en toekomst\n• Voorzetsels (les 25): Locatie, richting, doel\n• Indirect object (les 26): Iets voor iemand doen\n• Geavanceerde vragen (les 27): Hoeveel, welke, wie\n• Relatiefzinnen (les 28): Beschrijven wie/wat iets deed\n\nGEZONDHEIDSCONVERSATIE:\n1. Hoe voel je je: 'Kon bo ta sinti bo?'\n2. Klacht beschrijven: 'Mi tin doló di kabes / mi ta sinti malo'\n3. Advies geven: 'Bo mester bai na doktor'\n4. Verleden klacht: 'Ayera mi a sinti masha malo'\n5. Toekomstplan: 'Mayan mi lo bai na hospital'\n\nTOEKOMSTPLANNEN:\n• 'Ki bo lo hasi proximo siman?'\n• 'Mi lo mester studia pa mi eksamen'\n• 'Nos lo bai na playa si e tempu ta bon'",
     "voorbeelden": [
       { "papiamentu": "Kon bo ta sinti bo awe? — No masha bon; mi tin doló di kabes.", "vertaling": "Hoe voel jij je vandaag? — Niet zo goed; ik heb hoofdpijn." },
       { "papiamentu": "Ayera mi a bai na doktor — e a dal mi un reseta pa e doló.", "vertaling": "Gisteren ging ik naar de dokter — hij/zij gaf me een recept voor de pijn." },
@@ -41,7 +41,7 @@
     { "woord": "Reseta", "uitspraak": "re-se-ta", "vertaling": "Recept (medisch)" },
     { "woord": "Opera", "uitspraak": "o-pe-ra", "vertaling": "Opereren" },
     { "woord": "Rekumindá", "uitspraak": "re-koe-min-da", "vertaling": "Aanbevelen" },
-    { "woord": "Ekzamen", "uitspraak": "ek-sa-men", "vertaling": "Examen / onderzoek" },
+    { "woord": "Eksamen", "uitspraak": "ek-sa-men", "vertaling": "Examen / onderzoek" },
     { "woord": "Gana", "uitspraak": "ga-na", "vertaling": "Winnen / verdienen" },
     { "woord": "Subi", "uitspraak": "soe-bie", "vertaling": "Omhoog gaan / stijgen / klimmen" },
     { "woord": "Dal", "uitspraak": "dal", "vertaling": "Geven (informeel/spreektaal) / slaan / uitdelen" }
@@ -63,7 +63,7 @@
     { "vraag": "Hoe zeg je 'voordat de prijs omhoog gaat'?", "opties": ["Promé di e preis lo subi", "Antes di e preis lo subi", "Si e preis lo subi", "Ku e preis lo subi"], "correct": 0 },
     { "vraag": "Wat is 'gana'?", "opties": ["Winnen / verdienen", "Verliezen", "Geven", "Werken"], "correct": 0 },
     { "vraag": "Hoe zeg je 'Wij gaan naar het strand als het weer goed is'?", "opties": ["Nos lo bai na playa si e tempu ta bon", "Nos ta bai na playa si e tempu lo ta bon", "Si e tempu ta bon nos ta bai na playa", "Alle drie zijn correct"], "correct": 3 },
-    { "vraag": "Wat is 'ekzamen'?", "opties": ["Examen / onderzoek", "Document", "Recept", "Test"], "correct": 0 },
+    { "vraag": "Wat is 'eksamen'?", "opties": ["Examen / onderzoek", "Document", "Recept", "Test"], "correct": 0 },
     { "vraag": "Hoe zeg je 'Ben je beter geworden?'", "opties": ["Bo a keda bon?", "Bo ta bon awor?", "Bo lo ta bon?", "Bon bo a keda?"], "correct": 0 },
     { "vraag": "Wat is 'subi'?", "opties": ["Omhoog gaan / stijgen", "Omlaag gaan", "Stoppen", "Beginnen"], "correct": 0 },
     { "vraag": "Hoe zeg je 'Ik zal morgen naar het ziekenhuis moeten'?", "opties": ["Mi lo mester bai na hospital mayan", "Mi mester lo bai na hospital mayan", "Mayan mi lo mester bai na hospital", "Beide a en c zijn correct"], "correct": 3 },

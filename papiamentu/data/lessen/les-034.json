@@ -3,7 +3,7 @@
   "blok": 4,
   "titel": "Formeel Register: Zakelijk en Officieel Taalgebruik",
   "grammatica": {
-    "uitleg": "Papiamentu heeft geen formeel 'u'-pronomen zoals het Nederlands. Formaliteit zit in woordkeuze, titels, zinsopbouw en toon — niet in een apart voornaamwoord.\n\nFORMELE TITELS:\n• Señor (dhr.) — voor mannen\n• Señora (mevr.) — voor vrouwen\n• Señorita (juffr.) — voor jonge vrouwen\n• Doktor (Dr.) — voor artsen en gepromoveerden\n• Direktor / Direktora (directeur/directrice)\n• Maestro / Maestra — meester/meesteres (leraar/lerares)\n\nFORMEEL VOCABULAIRE (tegenover informeel):\n• Informeel → Formeel\n• 'bai' → 'dirigí na'\n• 'kumpra' → 'adkiri'\n• 'buska' → 'solisitá'\n• 'ke' → 'desea'\n• 'bon' → 'satisfaktorio'\n• 'problema' → 'situashon problemátiko'\n\nFORMELE ZINSPATRONEN:\n• Opening: 'Ku masha respèt, Señor/Señora X,...'\n• Verzoek: 'Mi lo desea di solisitá bo asistencia.'\n• Sluiting: 'Na bo dispo, keda ku respèt.'\n• Dankbetuiging: 'Mi ta apresiá bo asistencia na e asunto aki.'\n\nFORMELE BRIEF/E-MAIL STRUCTUUR:\n1. Saludasion (begroeting)\n2. Referensia (onderwerp)\n3. Kontenido (inhoud)\n4. Pedido/Konklusion (verzoek/conclusie)\n5. Despedida (afsluiting)",
+    "uitleg": "Papiamentu heeft geen formeel 'u'-pronomen zoals het Nederlands. Formaliteit zit in woordkeuze, titels, zinsopbouw en toon — niet in een apart voornaamwoord.\n\nFORMELE TITELS:\n• Señor (dhr.) — voor mannen\n• Señora (mevr.) — voor vrouwen\n• Señorita (juffr.) — voor jonge vrouwen\n• Doktor (Dr.) — voor artsen en gepromoveerden\n• Direktor / Direktora (directeur/directrice)\n• Maestro / Maestra — meester/meesteres (leraar/lerares)\n\nFORMEEL VOCABULAIRE (tegenover informeel):\n• Informeel → Formeel\n• 'bai' → 'dirigí na'\n• 'kumpra' → 'adkiri'\n• 'buska' → 'solisitá'\n• 'ke' → 'desea'\n• 'bon' → 'satisfaktorio'\n• 'problema' → 'situashon problemátiko'\n\nFORMELE ZINSPATRONEN:\n• Opening: 'Ku masha respèt, Señor/Señora X,...'\n• Verzoek: 'Mi lo desea di solisitá bo asistensia.'\n• Sluiting: 'Na bo dispo, keda ku respèt.'\n• Dankbetuiging: 'Mi ta apresiá bo asistensia na e asunto aki.'\n\nFORMELE BRIEF/E-MAIL STRUCTUUR:\n1. Saludasion (begroeting)\n2. Referensia (onderwerp)\n3. Kontenido (inhoud)\n4. Pedido/Konklusion (verzoek/conclusie)\n5. Despedida (afsluiting)",
     "voorbeelden": [
       { "papiamentu": "Apresabel Señora Directora, mi ta skribi bo pa solisitá un entrevista.", "vertaling": "Geachte mevrouw de directrice, ik schrijf u om een gesprek te verzoeken." },
       { "papiamentu": "Ku masha respèt, mi ta dirigí mi na bo kompania pa trata di e asunto aki.", "vertaling": "Met groot respect richt ik mij tot uw bedrijf om dit onderwerp te behandelen." },
@@ -15,7 +15,7 @@
   "e_asina_ta": [
     {
       "nuance": "Formaliteit zit in woordkeuze, niet in een aparte 'u'-vorm",
-      "voorbeeld": "INFORMEEL: 'Bo por yuda mi?' vs. FORMEEL: 'Mi lo desea di solisitá bo asistencia'",
+      "voorbeeld": "INFORMEEL: 'Bo por yuda mi?' vs. FORMEEL: 'Mi lo desea di solisitá bo asistensia'",
       "toelichting": "Dit is het meest fundamentele verschil met het Nederlands. Papiamentu heeft geen T/V-distinctie. Dezelfde 'bo' wordt gebruikt voor iedereen. De formaliteit wordt bereikt door langere, meer complexe zinnen, Latijnse leenwoorden en beleefde formules."
     },
     {
@@ -41,7 +41,7 @@
     { "woord": "Apresiá", "uitspraak": "a-pre-sia", "vertaling": "Waarderen / appreciëren" },
     { "woord": "Respèt", "uitspraak": "res-pet", "vertaling": "Respect" },
     { "woord": "Dispo", "uitspraak": "dis-po", "vertaling": "Beschikking / ter beschikking" },
-    { "woord": "Asistencia", "uitspraak": "a-sis-ten-sia", "vertaling": "Assistentie / hulp / bijstand" },
+    { "woord": "Asistensia", "uitspraak": "a-sis-ten-sia", "vertaling": "Assistentie / hulp / bijstand" },
     { "woord": "Regulashon", "uitspraak": "re-gu-la-sjon", "vertaling": "Regelgeving / regulering" },
     { "woord": "Formulario", "uitspraak": "for-mu-la-rio", "vertaling": "Formulier" },
     { "woord": "Kooperashon", "uitspraak": "ko-o-pe-ra-sjon", "vertaling": "Samenwerking / medewerking" }
@@ -51,7 +51,7 @@
   "eindoefening": [
     { "vraag": "Hoe verschilt formaliteit in Papiamentu van het Nederlands?", "opties": ["In woordkeuze en formules — niet in een apart 'u'-voornaamwoord", "Papiamentu heeft 'usted' voor formeel", "Formaliteit is hetzelfde als in het Nederlands", "Papiamentu heeft geen formeel register"], "correct": 0 },
     { "vraag": "Wat is de formele aanspreekvorm in schrijftaal?", "opties": ["Apresabel Señor/Señora", "Bon dia Señor/Señora", "Respetabel Señor/Señora", "Masha bon Señor/Señora"], "correct": 0 },
-    { "vraag": "Hoe zeg je 'Ik verzoek uw assistentie'?", "opties": ["Mi lo desea di solisitá bo asistencia", "Mi kier bo yuda mi", "Por bo yuda mi?", "Mi ta buska asistencia"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik verzoek uw assistentie'?", "opties": ["Mi lo desea di solisitá bo asistensia", "Mi kier bo yuda mi", "Por bo yuda mi?", "Mi ta buska asistensia"], "correct": 0 },
     { "vraag": "Wat betekent 'Na bo dispo'?", "opties": ["Ter uw beschikking", "Tot jouw recht", "In jouw naam", "Bij jou thuis"], "correct": 0 },
     { "vraag": "Wat is 'solisitá'?", "opties": ["Verzoeken / aanvragen", "Helpen", "Vragen (informeel)", "Sturen"], "correct": 0 },
     { "vraag": "Hoe sluit je een formele brief af?", "opties": ["Keda na bo dispo, ku respèt", "Ayó, bo bida", "Masha danki pa alles", "Kuidá bo mes"], "correct": 0 },
@@ -66,7 +66,7 @@
     { "vraag": "Hoe zeg je 'Ik richt mij tot uw bedrijf'?", "opties": ["Mi ta dirigí mi na bo kompania", "Mi ta bai na bo kompania", "Mi ta papia ku bo kompania", "Mi ta skribe bo kompania"], "correct": 0 },
     { "vraag": "Wat is 'kooperashon'?", "opties": ["Samenwerking / medewerking", "Hulp (incidenteel)", "Organisatie", "Communicatie"], "correct": 0 },
     { "vraag": "Hoe heten de 5 onderdelen van een formele brief?", "opties": ["Saludasion, Referensia, Kontenido, Pedido, Despedida", "Opening, Inhoud, Afsluiting, Handtekening, Datum", "Titel, Tekst, Conclusie, Afsluiting", "Begroeting, Vraag, Antwoord, Dank, Afscheid"], "correct": 0 },
-    { "vraag": "Wat is 'asistencia'?", "opties": ["Assistentie / hulp / bijstand", "Aanwezigheid", "Samenwerking", "Service"], "correct": 0 },
+    { "vraag": "Wat is 'asistensia'?", "opties": ["Assistentie / hulp / bijstand", "Aanwezigheid", "Samenwerking", "Service"], "correct": 0 },
     { "vraag": "Hoe zeg je 'het formulier moet tijdig worden ingediend'?", "opties": ["E formulario mester wòrdu entregá na tempu", "E formulario ta wòrdu entregá na tempu", "Mester entregá e formulario na tempu", "Alle drie zijn correct afhankelijk van register"], "correct": 3 },
     { "vraag": "Waarom is formeel Papiamentu minder afstandelijk dan formeel Nederlands?", "opties": ["De Curaçaose formele toon is respectvol maar menselijk — nooit koud", "Formaliteit bestaat niet echt op Curaçao", "Papiamentu heeft minder formele woorden", "Het is historisch gegroeid door koloniale invloed"], "correct": 0 }
   ]
