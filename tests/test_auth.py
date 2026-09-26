@@ -62,8 +62,9 @@ def fake_token(app, monkeypatch, provider, userinfo=None, me=None):
     return c
 
 
-def login_as(client, app, monkeypatch, provider="google", sub="123", name="Ana", email="ana@example.com"):
-    fake_token(app, monkeypatch, provider, {"sub": sub, "given_name": name, "email": email})
+def login_as(client, app, monkeypatch, provider="google", sub="123", name="Ana", email="ana@example.com",
+             verified=True):
+    fake_token(app, monkeypatch, provider, {"sub": sub, "given_name": name, "email": email, "email_verified": verified})
     return client.get(f"/auth/{provider}/callback?code=x&state=y")
 
 

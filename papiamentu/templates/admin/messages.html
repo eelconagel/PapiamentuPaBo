@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% from "admin/_macros.html" import message_card with context %}
+{% block title %}Berichten · Beheer{% endblock %}
+{% block back_url %}{{ url_for('admin.dashboard') }}{% endblock %}
+{% block main_class %}wide{% endblock %}
+{% block content %}
+<h1 class="title left">Berichten</h1>
+{% include "admin/_nav.html" %}
+<p class="small muted">{{ messages | length }} bericht{{ 'en' if messages | length != 1 }}, nieuwste eerst.</p>
+{% for m in messages %}
+  {{ message_card(m) }}
+{% else %}
+  <p class="muted">Nog geen berichten.</p>
+{% endfor %}
+{% endblock %}
+
+{% block scripts %}{% include "admin/_confirm.html" %}{% endblock %}

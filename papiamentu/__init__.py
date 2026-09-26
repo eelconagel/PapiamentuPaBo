@@ -6,6 +6,7 @@ import click
 from markupsafe import escape
 from flask import Flask, abort, flash, jsonify, redirect, render_template, request, url_for
 
+from .admin import init_admin
 from .auth import PROVIDERS, init_auth
 from .content import NIVEAU_COLOR, NIVEAU_LABEL, Content
 from .db import backup_to, count_messages_since, get_db, init_db, save_contact_message
@@ -23,6 +24,9 @@ SCREEN_TITLES = {
     "privacy": "Privacy",
     "instellingen": "Instellingen",
     "auth.login_page": "Inloggen",
+    "admin.dashboard": "Beheer",
+    "admin.messages": "Beheer · Berichten",
+    "admin.users": "Beheer · Gebruikers",
 }
 
 
@@ -49,6 +53,9 @@ def create_app(test_config=None):
         NOTIFY_EMAIL=env("NOTIFY_EMAIL", ""),
         PERMANENT_SESSION_LIFETIME=timedelta(days=90),
         PUBLIC_BASE_URL=env("PUBLIC_BASE_URL", ""),
+        # Admin panel: only this Google account (verified e-mail) gets in. Empty = panel off.
+        ADMIN_EMAIL=env("ADMIN_EMAIL", ""),
+        ADMIN_PATH=env("ADMIN_PATH", "/dit/is/admin/panel"),
     )
     # OAuth keys: a provider is shown only when all of its settings are filled in.
     for spec in PROVIDERS.values():
@@ -61,6 +68,7 @@ def create_app(test_config=None):
     init_security(app)
     init_db(app)
     init_auth(app)
+    init_admin(app)
     content = Content()
     app.extensions["content"] = content
 

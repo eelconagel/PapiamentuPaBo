@@ -35,6 +35,11 @@
         <span class="lbl">Gekoppeld met {{ PROVIDER_LABELS[p] }}</span>
       </div>
     {% endfor %}
+    {% if is_admin %}
+    <a class="option-row" href="{{ url_for('admin.dashboard') }}" style="text-decoration:none">
+      <span class="ico">🛠️</span><span class="lbl">Beheer</span><span class="muted">›</span>
+    </a>
+    {% endif %}
     <form method="post" action="{{ url_for('auth.logout') }}">
       <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
       <button type="submit" class="option-row"><span class="ico">🚪</span><span class="lbl">Uitloggen</span></button>

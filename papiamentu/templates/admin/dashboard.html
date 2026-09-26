@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% from "admin/_macros.html" import message_card with context %}
+{% block title %}Beheer · Papiamentu Pa Bo{% endblock %}
+{% block main_class %}wide{% endblock %}
+{% block content %}
+<h1 class="title left">Beheer</h1>
+{% include "admin/_nav.html" %}
+
+<div class="stat-grid">
+  <div class="stat"><div class="stat-num">{{ stats.users }}</div><div class="stat-lbl">accounts</div><div class="stat-sub">+{{ stats.users_new_week }} deze week</div></div>
+  <div class="stat"><div class="stat-num">{{ stats.users_active_week }}</div><div class="stat-lbl">ingelogd (7 dagen)</div></div>
+  <div class="stat"><div class="stat-num">{{ stats.synced }}</div><div class="stat-lbl">met voortgang</div><div class="stat-sub">{{ stats.synced_week }} actief deze week</div></div>
+  <div class="stat"><div class="stat-num">{{ stats.messages }}</div><div class="stat-lbl">berichten</div><div class="stat-sub">+{{ stats.messages_week }} deze week</div></div>
+</div>
+
+{% if stats.providers %}
+<p class="small muted">Logins per dienst:
+  {% for p in stats.providers %}{{ PROVIDER_LABELS.get(p.provider, p.provider) }} {{ p.n }}{{ ', ' if not loop.last }}{% endfor %}
+</p>
+{% endif %}
+<p class="small muted">Bezoekers zonder account worden niet bijgehouden; hun voortgang staat alleen in hun eigen browser.</p>
+
+<h2 class="blok-heading">Laatste berichten</h2>
+{% for m in messages %}
+  {{ message_card(m, full=false) }}
+{% else %}
+  <p class="muted">Nog geen berichten.</p>
+{% endfor %}
+{% if messages %}<p><a href="{{ url_for('admin.messages') }}">Alle berichten →</a></p>{% endif %}
+{% endblock %}

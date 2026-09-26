@@ -1,0 +1,5 @@
+<nav class="admin-nav" aria-label="Beheer">
+  <a href="{{ url_for('admin.dashboard') }}" class="{{ 'active' if section == 'dashboard' }}">Overzicht</a>
+  <a href="{{ url_for('admin.messages') }}" class="{{ 'active' if section == 'berichten' }}">Berichten</a>
+  <a href="{{ url_for('admin.users') }}" class="{{ 'active' if section == 'gebruikers' }}">Gebruikers</a>
+</nav>

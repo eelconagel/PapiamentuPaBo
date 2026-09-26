@@ -202,9 +202,10 @@ def _identity(provider: str, client, token) -> dict:
             pass
         return {"subject": info["sub"], "name": name, "email": info.get("email") or ""}
 
-    # google
+    # google: only trust the address if Google says it is verified (the admin check relies on it).
+    email = info.get("email") if info.get("email_verified") is True else ""
     return {"subject": info["sub"], "name": info.get("given_name") or info.get("name") or "",
-            "email": info.get("email") or ""}
+            "email": email or ""}
 
 
 def _finish_login(provider: str, identity: dict):

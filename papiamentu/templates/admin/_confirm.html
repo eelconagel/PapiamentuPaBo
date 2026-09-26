@@ -1,0 +1,5 @@
+<script nonce="{{ csp_nonce }}">
+  document.querySelectorAll('form.confirm-form').forEach((form) => {
+    form.addEventListener('submit', (e) => { if (!confirm(form.dataset.confirm)) e.preventDefault(); });
+  });
+</script>

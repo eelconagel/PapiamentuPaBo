@@ -100,6 +100,12 @@ After editing `.env`, run `docker compose up -d` to apply.
 
 How accounts work: an account is tied to the provider's user id, not the e-mail address. Someone who is logged in can link extra providers under *Instellingen*. On login, progress made anonymously in that browser is merged into the account. On logout, the browser's copy is cleared (it stays safe on the server). Visitors can delete their account themselves under *Instellingen*.
 
+### Admin panel
+
+A small admin panel at `ADMIN_PATH` (default `/dit/is/admin/panel/`) shows sign-up stats, the contact messages and the accounts with their progress, and lets you delete messages and accounts.
+
+Only one person gets in: the logged-in user whose **Google** login has the verified e-mail address `ADMIN_EMAIL`. Set it in `.env` and restart (`docker compose up -d`); leave it empty to switch the panel off. Google login must be configured. Not logged in → you're sent to the login page and back; logged in as anyone else → a plain 404. The admin sees a *Beheer* link under *Instellingen*.
+
 ### Backups
 
 The database lives in the Docker volume `papiamentu-data`, so it survives rebuilds, but not a lost disk. `scripts/backup.sh` copies it out of the running container into `./backups/` and keeps 30 days. Run it daily from cron:
@@ -148,6 +154,7 @@ papiamentu/
   content.py         loads the JSON content
   db.py              contact-message storage, backups
   auth.py            optional OAuth login + progress sync API
+  admin.py           mini admin panel (one Google account, set via ADMIN_EMAIL)
   sync.py            validating and merging progress between devices
   security.py        proxy handling, CSRF, security headers, static versioning
   notify.py          optional e-mail notification

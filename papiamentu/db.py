@@ -169,6 +169,59 @@ def delete_progress(user_id: int):
     db.commit()
 
 
+# ---------- admin ----------
+
+def has_google_email(user_id: int, email: str) -> bool:
+    row = get_db().execute(
+        "SELECT 1 FROM identities WHERE user_id = ? AND provider = 'google' AND lower(email) = lower(?)",
+        (user_id, email),
+    ).fetchone()
+    return row is not None
+
+
+def admin_stats() -> dict:
+    db = get_db()
+    week = _iso(_now() - timedelta(days=7))
+    one = lambda sql, *args: db.execute(sql, args).fetchone()[0]
+    return {
+        "users": one("SELECT COUNT(*) FROM users"),
+        "users_new_week": one("SELECT COUNT(*) FROM users WHERE created_at >= ?", week),
+        "users_active_week": one("SELECT COUNT(*) FROM users WHERE last_login_at >= ?", week),
+        "synced": one("SELECT COUNT(*) FROM progress"),
+        "synced_week": one("SELECT COUNT(*) FROM progress WHERE updated_at >= ?", week),
+        "messages": one("SELECT COUNT(*) FROM contact_messages"),
+        "messages_week": one("SELECT COUNT(*) FROM contact_messages WHERE created_at >= ?", week),
+        "providers": db.execute(
+            "SELECT provider, COUNT(*) AS n FROM identities GROUP BY provider ORDER BY n DESC"
+        ).fetchall(),
+    }
+
+
+def admin_users(limit: int = 500) -> list:
+    return get_db().execute(
+        """SELECT u.id, u.name, u.email, u.created_at, u.last_login_at,
+                  (SELECT group_concat(provider, ',') FROM identities i WHERE i.user_id = u.id) AS providers,
+                  p.data AS progress, p.updated_at AS progress_at
+           FROM users u LEFT JOIN progress p ON p.user_id = u.id
+           ORDER BY u.id DESC LIMIT ?""",
+        (limit,),
+    ).fetchall()
+
+
+def admin_messages(limit: int = 500) -> list:
+    return get_db().execute(
+        "SELECT id, name, email, subject, message, created_at FROM contact_messages ORDER BY id DESC LIMIT ?",
+        (limit,),
+    ).fetchall()
+
+
+def delete_message(message_id: int) -> bool:
+    db = get_db()
+    cur = db.execute("DELETE FROM contact_messages WHERE id = ?", (message_id,))
+    db.commit()
+    return cur.rowcount == 1
+
+
 def backup_to(path: str):
     """Consistent copy of the live database, safe while the site is running."""
     dest = sqlite3.connect(path)

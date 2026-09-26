@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% from "admin/_macros.html" import when %}
+{% block title %}Gebruikers · Beheer{% endblock %}
+{% block back_url %}{{ url_for('admin.dashboard') }}{% endblock %}
+{% block main_class %}wide{% endblock %}
+{% block content %}
+<h1 class="title left">Gebruikers</h1>
+{% include "admin/_nav.html" %}
+<p class="small muted">{{ users | length }} account{{ 's' if users | length != 1 }}, nieuwste eerst.</p>
+
+<div class="table-wrap">
+<table class="admin-table">
+  <thead>
+    <tr>
+      <th>#</th><th>Naam / e-mail</th><th>Login via</th><th>Voortgang</th><th>Aangemaakt</th><th>Laatst ingelogd</th><th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for u in users %}
+    <tr>
+      <td class="muted">{{ u.id }}</td>
+      <td><strong>{{ u.name or '—' }}</strong><br><span class="small muted">{{ u.email or 'geen e-mail' }}</span></td>
+      <td class="small">{% for p in (u.providers or '').split(',') if p %}{{ PROVIDER_LABELS.get(p, p) }}{{ ', ' if not loop.last }}{% endfor %}</td>
+      <td class="small">
+        {% if u.summary %}{{ u.summary.xp }} XP · {{ u.summary.lessen }} lessen · {{ u.summary.scenarios }} scen. · {{ u.summary.woorden }} woorden
+        {% else %}<span class="muted">nog niets</span>{% endif %}
+      </td>
+      <td class="small">{{ when(u.created_at) }}</td>
+      <td class="small">{{ when(u.last_login_at) }}</td>
+      <td>
+        {% if u.id != current_user.id %}
+        <form method="post" action="{{ url_for('admin.delete_user', user_id=u.id) }}" class="confirm-form"
+              data-confirm="Gebruiker #{{ u.id }} ({{ u.name }}) en alle voortgang definitief verwijderen?">
+          <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+          <button type="submit" class="btn btn-secondary btn-sm">Verwijderen</button>
+        </form>
+        {% else %}<span class="small muted">jij</span>{% endif %}
+      </td>
+    </tr>
+    {% else %}
+    <tr><td colspan="7" class="muted">Nog geen accounts.</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+<p class="small muted">Tijden in UTC.</p>
+{% endblock %}
+
+{% block scripts %}{% include "admin/_confirm.html" %}{% endblock %}

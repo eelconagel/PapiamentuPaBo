@@ -1,0 +1,24 @@
+{% macro when(iso) -%}
+  {%- if iso -%}<time datetime="{{ iso }}">{{ iso[:16] | replace('T', ' ') }}</time>{%- else -%}—{%- endif -%}
+{%- endmacro %}
+
+{% macro message_card(m, full=true) -%}
+<article class="admin-card">
+  <header class="admin-card-head">
+    <strong>{{ m.subject }}</strong>
+    <span class="small muted">#{{ m.id }} · {{ when(m.created_at) }} UTC</span>
+  </header>
+  <div class="small muted">
+    {{ m.name or 'Anoniem' }}
+    {% if m.email %} · <a href="mailto:{{ m.email }}?subject={{ ('Re: ' ~ m.subject) | urlencode }}">{{ m.email }}</a>{% endif %}
+  </div>
+  <p class="admin-message">{{ m.message if full else (m.message[:200] ~ ('…' if m.message|length > 200 else '')) }}</p>
+  {% if full %}
+  <form method="post" action="{{ url_for('admin.delete_message', message_id=m.id) }}" class="confirm-form"
+        data-confirm="Bericht #{{ m.id }} verwijderen?">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+    <button type="submit" class="btn btn-secondary btn-sm">Verwijderen</button>
+  </form>
+  {% endif %}
+</article>
+{%- endmacro %}
