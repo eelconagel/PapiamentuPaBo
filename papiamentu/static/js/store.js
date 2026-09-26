@@ -15,6 +15,8 @@
     nieuws: {},             // artikelId -> completedAt ISO string
     theme: 'dark',          // 'system' | 'light' | 'dark' (per device, not synced)
     weekXp: { week: '', xp: 0 },  // XP earned in the current ISO week (per device, not synced)
+    profielKeuze: null,     // 'kort' | 'middel' | 'blijvend' — hoe lang iemand op Curaçao
+                            // blijft (per device, niet gesynct: puur een UI-voorkeur)
   });
 
   // ISO 8601 week key ("2026-W39") from a local date, so "this week" resets every Monday.
@@ -73,6 +75,7 @@
     const copy = Object.assign({}, state);
     delete copy.theme;
     delete copy.weekXp;
+    delete copy.profielKeuze;
     return copy;
   }
 
@@ -103,7 +106,7 @@
         retryDelay = 5000;
         if (!dirty) {
           // Nothing changed while we were saving: adopt the server's (possibly merged) state.
-          writeJson(KEY, Object.assign(DEFAULTS(), data.state, { theme: load().theme, weekXp: load().weekXp }));
+          writeJson(KEY, Object.assign(DEFAULTS(), data.state, { theme: load().theme, weekXp: load().weekXp, profielKeuze: load().profielKeuze }));
           writeJson(SYNC_KEY, { uid: USER.id, rev: data.rev });
         }
         // If something did change meanwhile, keep the old revision so the next save merges.
@@ -182,6 +185,12 @@
       applyTheme(theme);
     },
 
+    setProfielKeuze(keuze) {
+      const s = load();
+      s.profielKeuze = keuze;
+      writeJson(KEY, s);  // device preference: no sync needed
+    },
+
     exportJson() {
       return JSON.stringify(Object.assign({ exportedAt: new Date().toISOString() }, load()), null, 2);
     },
@@ -190,7 +199,7 @@
       try { data = JSON.parse(text); } catch (e) { throw new Error('Dit is geen geldig back-upbestand.'); }
       if (!data || data.version !== 1) throw new Error('Onbekend back-upformaat.');
       delete data.exportedAt;
-      writeJson(KEY, Object.assign(DEFAULTS(), data, { theme: load().theme, weekXp: load().weekXp }));
+      writeJson(KEY, Object.assign(DEFAULTS(), data, { theme: load().theme, weekXp: load().weekXp, profielKeuze: load().profielKeuze }));
       if (USER) await push({ replace: true });
     },
     async reset() {

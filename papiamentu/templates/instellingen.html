@@ -18,6 +18,9 @@
   <a class="option-row" href="{{ url_for('profiel') }}" style="text-decoration:none">
     <span class="ico">🌡️</span><span class="lbl">Je XP van deze week en je medaille</span><span class="muted">›</span>
   </a>
+  <button type="button" class="option-row" id="wijzig-verblijf" style="text-decoration:none">
+    <span class="ico">🧳</span><span class="lbl">Wijzig hoe lang je op Curaçao blijft</span><span class="muted">›</span>
+  </button>
 </div>
 
 {% if login_providers or current_user %}
@@ -129,6 +132,11 @@
       b.setAttribute('aria-pressed', on);
     });
   }
+
+  document.getElementById('wijzig-verblijf').addEventListener('click', () => {
+    Store.setProfielKeuze(null);
+    window.location.href = homeUrl;
+  });
 
   document.getElementById('name-form').addEventListener('submit', (e) => {
     e.preventDefault();

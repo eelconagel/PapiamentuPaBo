@@ -36,6 +36,7 @@
 <section id="dashboard" hidden>
   <h1 class="title">Papiamentu Pa Bo</h1>
   <p class="welcome">Bon bini, <span id="profile-name"></span>!</p>
+  <p class="muted small center intake-note" id="intake-note" hidden></p>
 
   <a class="continue-card" id="continue" href="#" hidden>
     <span class="continue-kicker" id="continue-kicker">Ga verder</span>
@@ -102,6 +103,27 @@
     </div>
   {% endif %}
 </section>
+
+<section id="intake" class="onboarding" hidden>
+  <div class="hero-badge">👋 Fijn dat je er bent</div>
+  <h1 class="title">Hoe lang blijf je op Curaçao?</h1>
+  <p class="subtitle">Dan stellen we voor waar je het beste kunt beginnen. Je kunt dit later altijd wijzigen bij Instellingen.</p>
+  <div class="intake-opties">
+    <button type="button" class="intake-optie" data-keuze="kort">
+      <span class="intake-optie-titel">🧳 Kort — een paar maanden</span>
+      <span class="intake-optie-sub">We beginnen met het noodwoordenboek en de eenvoudige scenario's.</span>
+    </button>
+    <button type="button" class="intake-optie" data-keuze="middel">
+      <span class="intake-optie-titel">📦 Een tijdje — 1 tot een paar jaar</span>
+      <span class="intake-optie-sub">Scenario's, lessen en nieuws lezen, in je eigen tempo.</span>
+    </button>
+    <button type="button" class="intake-optie" data-keuze="blijvend">
+      <span class="intake-optie-titel">🏝️ Ik blijf — dit wordt thuis</span>
+      <span class="intake-optie-sub">Het volledige traject, met oog voor cultuur en verdieping.</span>
+    </button>
+  </div>
+  <button type="button" class="btn-link" id="intake-skip" style="margin-top:8px">Liever meteen naar het overzicht</button>
+</section>
 {% endblock %}
 
 {% block scripts %}
@@ -113,6 +135,7 @@
   const lesUrl = (id) => {{ url_for('lessen') | tojson }} + '/' + id;
   const onboarding = document.getElementById('onboarding');
   const dashboard = document.getElementById('dashboard');
+  const intake = document.getElementById('intake');
 
   function renderProgress(s) {
     const lessenDone = LESSEN.filter((l) => (s.lessen[l.id] || []).length >= 4).length;
@@ -156,13 +179,35 @@
     const s = Store.get();
     if (!s.profile) {
       onboarding.hidden = false;
+      intake.hidden = true;
       dashboard.hidden = true;
       return;
     }
     onboarding.hidden = true;
+    if (!s.profielKeuze) {
+      intake.hidden = false;
+      dashboard.hidden = true;
+      return;
+    }
+    intake.hidden = true;
     dashboard.hidden = false;
     document.getElementById('profile-name').textContent = s.profile.name;
+    renderIntakeNote(s.profielKeuze);
     renderProgress(s);
+  }
+
+  // Kleine, niet-opdringerige aanpassing van het dashboard op basis van de intakekeuze —
+  // geen aparte lay-outs, gewoon een passende openingszin.
+  function renderIntakeNote(keuze) {
+    const el = document.getElementById('intake-note');
+    const teksten = {
+      kort: '🧳 Je gaf aan dat je hier kort blijft — het noodwoordenboek en de eenvoudige scenario\'s zijn een goed startpunt.',
+      middel: null,
+      blijvend: '🏝️ Je gaf aan dat je blijft — na de lessen en scenario\'s voegen we later meer verdieping en cultuur toe.',
+    };
+    const tekst = teksten[keuze];
+    el.hidden = !tekst;
+    if (tekst) el.textContent = tekst;
   }
 
   document.getElementById('name-form').addEventListener('submit', (e) => {
@@ -170,6 +215,17 @@
     const name = document.getElementById('name-input').value.trim();
     if (!name) { Store.toast('Vul je naam in om te beginnen.'); return; }
     Store.setName(name);
+    render();
+  });
+
+  document.querySelectorAll('.intake-optie').forEach((btn) => btn.addEventListener('click', () => {
+    const keuze = btn.dataset.keuze;
+    Store.setProfielKeuze(keuze);
+    if (keuze === 'kort') { window.location.href = {{ url_for('eerste_week') | tojson }}; return; }
+    render();
+  }));
+  document.getElementById('intake-skip').addEventListener('click', () => {
+    Store.setProfielKeuze('middel');
     render();
   });
 
