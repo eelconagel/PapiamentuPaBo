@@ -7,6 +7,8 @@
   Dit overzicht staat alleen in je eigen browser. We houden er niets extra's van je bij.
 </p>
 
+<p class="streak-badge" id="streak-badge" hidden></p>
+
 <div class="week-xp-card">
   <div class="week-xp-num" id="week-xp">0</div>
   <div class="week-xp-label">XP deze week (sinds maandag)</div>
@@ -60,6 +62,11 @@
   const MEDAL_NAAM = { brons: 'Brons', zilver: 'Zilver', goud: 'Goud' };
 
   function render() {
+    const streak = Store.streakInfo();
+    const badge = document.getElementById('streak-badge');
+    badge.hidden = streak.lengte < 1;
+    if (streak.lengte >= 1) badge.textContent = `🔥 ${streak.lengte} dag${streak.lengte === 1 ? '' : 'en'} op rij`;
+
     document.getElementById('week-xp').textContent = Store.currentWeekXp();
 
     const { tiers, thresholds, xp, medaille } = Store.medailleVoortgang(ITEMS);

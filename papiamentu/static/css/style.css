@@ -1089,3 +1089,24 @@ main.wide { max-width: 1040px; }
 .intake-optie-titel { display: block; font-weight: 700; font-size: 16px; margin-bottom: 3px; }
 .intake-optie-sub { display: block; font-size: 13px; color: var(--muted); }
 .intake-note { margin: -6px 0 14px; }
+
+/* ---------- Streak (Fase 5) ---------- */
+.streak-badge {
+  display: table;
+  margin: 0 auto 10px;
+  padding: 5px 14px;
+  border-radius: 999px;
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  font-size: 13px;
+  font-weight: 700;
+}
+.streak-terugkom {
+  background: var(--ok-bg);
+  border-left: 4px solid var(--green);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 0 0 14px;
+  font-size: 14px;
+  font-weight: 600;
+}

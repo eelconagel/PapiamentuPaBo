@@ -36,6 +36,10 @@
 <section id="dashboard" hidden>
   <h1 class="title">Papiamentu Pa Bo</h1>
   <p class="welcome">Bon bini, <span id="profile-name"></span>!</p>
+  <p class="streak-badge" id="streak-badge" hidden></p>
+  <div class="streak-terugkom" id="streak-terugkom" hidden>
+    <span id="streak-terugkom-tekst"></span>
+  </div>
   <p class="muted small center intake-note" id="intake-note" hidden></p>
 
   <a class="continue-card" id="continue" href="#" hidden>
@@ -193,7 +197,23 @@
     dashboard.hidden = false;
     document.getElementById('profile-name').textContent = s.profile.name;
     renderIntakeNote(s.profielKeuze);
+    renderStreak();
     renderProgress(s);
+  }
+
+  // Geen pushmeldingen (geen contactgegevens/device-tokens nodig): alleen een badge zolang
+  // de streak leeft, en een zachte uitnodiging als die net is gestopt.
+  function renderStreak() {
+    const info = Store.streakInfo();
+    const badge = document.getElementById('streak-badge');
+    const terugkom = document.getElementById('streak-terugkom');
+    badge.hidden = info.lengte < 1;
+    if (info.lengte >= 1) badge.textContent = `🔥 ${info.lengte} dag${info.lengte === 1 ? '' : 'en'} op rij`;
+    terugkom.hidden = !info.verbroken || !info.vorigeLengte;
+    if (info.verbroken && info.vorigeLengte) {
+      document.getElementById('streak-terugkom-tekst').textContent =
+        `Je streak van ${info.vorigeLengte} dag${info.vorigeLengte === 1 ? '' : 'en'} is gestopt — vandaag weer beginnen?`;
+    }
   }
 
   // Kleine, niet-opdringerige aanpassing van het dashboard op basis van de intakekeuze —

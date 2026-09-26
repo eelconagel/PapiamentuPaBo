@@ -17,7 +17,16 @@
     weekXp: { week: '', xp: 0 },  // XP earned in the current ISO week (per device, not synced)
     profielKeuze: null,     // 'kort' | 'middel' | 'blijvend' — hoe lang iemand op Curaçao
                             // blijft (per device, niet gesynct: puur een UI-voorkeur)
+    streak: { laatsteDag: '', lengte: 0 },  // opeenvolgende dagen met XP (per device, niet gesynct)
   });
+
+  // "YYYY-MM-DD" van een lokale datum (geen tijdzone-gedoe: puur voor dag-vergelijking).
+  function dayKey(d) {
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  }
+  function daysBetween(dayKeyA, dayKeyB) {
+    return Math.round((new Date(dayKeyB + 'T00:00:00') - new Date(dayKeyA + 'T00:00:00')) / 86400000);
+  }
 
   // ISO 8601 week key ("2026-W39") from a local date, so "this week" resets every Monday.
   function isoWeekKey(d) {
@@ -76,6 +85,7 @@
     delete copy.theme;
     delete copy.weekXp;
     delete copy.profielKeuze;
+    delete copy.streak;
     return copy;
   }
 
@@ -106,7 +116,7 @@
         retryDelay = 5000;
         if (!dirty) {
           // Nothing changed while we were saving: adopt the server's (possibly merged) state.
-          writeJson(KEY, Object.assign(DEFAULTS(), data.state, { theme: load().theme, weekXp: load().weekXp, profielKeuze: load().profielKeuze }));
+          writeJson(KEY, Object.assign(DEFAULTS(), data.state, { theme: load().theme, weekXp: load().weekXp, profielKeuze: load().profielKeuze, streak: load().streak }));
           writeJson(SYNC_KEY, { uid: USER.id, rev: data.rev });
         }
         // If something did change meanwhile, keep the old revision so the next save merges.
@@ -142,7 +152,24 @@
         const week = isoWeekKey(new Date());
         if (!s.weekXp || s.weekXp.week !== week) s.weekXp = { week, xp: 0 };
         s.weekXp.xp += n;
+
+        const today = dayKey(new Date());
+        if (!s.streak || !s.streak.laatsteDag) s.streak = { laatsteDag: today, lengte: 1 };
+        else if (s.streak.laatsteDag !== today) {
+          const gap = daysBetween(s.streak.laatsteDag, today);
+          s.streak = gap === 1 ? { laatsteDag: today, lengte: s.streak.lengte + 1 } : { laatsteDag: today, lengte: 1 };
+        }
       }).xp;
+    },
+    // { lengte, actiefVandaag, verbroken, vorigeLengte }: hoe de streak er NU voor staat,
+    // zonder 'm te wijzigen — pas addXp() zelf telt door of reset.
+    streakInfo() {
+      const s = load();
+      if (!s.streak || !s.streak.laatsteDag) return { lengte: 0, actiefVandaag: false, verbroken: false };
+      const gap = daysBetween(s.streak.laatsteDag, dayKey(new Date()));
+      if (gap <= 0) return { lengte: s.streak.lengte, actiefVandaag: true, verbroken: false };
+      if (gap === 1) return { lengte: s.streak.lengte, actiefVandaag: false, verbroken: false };
+      return { lengte: 0, actiefVandaag: false, verbroken: true, vorigeLengte: s.streak.lengte };
     },
     // XP earned since this ISO week started (Monday); 0 if nothing was earned yet this week.
     currentWeekXp() {
@@ -199,7 +226,7 @@
       try { data = JSON.parse(text); } catch (e) { throw new Error('Dit is geen geldig back-upbestand.'); }
       if (!data || data.version !== 1) throw new Error('Onbekend back-upformaat.');
       delete data.exportedAt;
-      writeJson(KEY, Object.assign(DEFAULTS(), data, { theme: load().theme, weekXp: load().weekXp, profielKeuze: load().profielKeuze }));
+      writeJson(KEY, Object.assign(DEFAULTS(), data, { theme: load().theme, weekXp: load().weekXp, profielKeuze: load().profielKeuze, streak: load().streak }));
       if (USER) await push({ replace: true });
     },
     async reset() {
