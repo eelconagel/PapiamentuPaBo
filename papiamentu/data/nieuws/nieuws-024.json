@@ -1,0 +1,140 @@
+{
+  "id": "nieuws-024",
+  "titel": "Kantante hóben ta saka kantika nobo",
+  "nivo": "Easy",
+  "kategoria": "Farándula",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Een jonge zangeres brengt een nieuw liedje uit over haar oma.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Kantante Kaylee Doran a saka un kantika nobo.",
+          "nl": "Zangeres Kaylee Doran heeft een nieuw liedje uitgebracht.",
+          "opties": [
+            "Zangeres Kaylee Doran heeft een nieuw liedje uitgebracht.",
+            "Zangeres Kaylee Doran stopt met zingen.",
+            "Kaylee Doran heeft een oud liedje gezongen.",
+            "Kaylee Doran heeft een radiostation."
+          ],
+          "correct": 0,
+          "uitleg": "'Kantante' = zanger(es), 'saka' = uitbrengen (letterlijk: eruit halen), 'kantika' = lied."
+        },
+        {
+          "pap": "E kantika ta yama \"Wela\".",
+          "nl": "Het liedje heet \"Wela\".",
+          "opties": [
+            "Het album heet 'Wela'.",
+            "Het liedje heet 'Wela' (oma).",
+            "Haar oma heet Kaylee.",
+            "Het liedje gaat over opa."
+          ],
+          "correct": 1,
+          "uitleg": "'Yama' = heten, 'wela' = oma."
+        },
+        {
+          "pap": "E ta kanta di su wela ku a fayesé.",
+          "nl": "Ze zingt over haar oma die overleden is.",
+          "opties": [
+            "Ze zingt over haar oma's verjaardag.",
+            "Haar oma heeft het liedje geschreven.",
+            "Ze zingt over haar overleden oma.",
+            "Ze zingt samen met haar oma."
+          ],
+          "correct": 2,
+          "uitleg": "'Kanta di' = zingen over, 'fayesé' = overlijden."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een zangeres die een prijs wint",
+        "Een oma die een liedje zingt",
+        "Een concert in het theater",
+        "Een nieuw liedje van een zangeres over haar overleden oma"
+      ],
+      "correct": 3,
+      "uitleg": "Kaylee Doran bracht het liedje 'Wela' uit, over haar overleden oma."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Hopi hende ta tende e kantika riba radio.",
+          "nl": "Veel mensen luisteren naar het liedje op de radio.",
+          "opties": [
+            "Veel mensen luisteren naar het liedje op de radio.",
+            "Het liedje mag niet op de radio.",
+            "Weinig mensen kennen het liedje.",
+            "Ze zingt het liedje live op de radio."
+          ],
+          "correct": 0,
+          "uitleg": "'Tende' = horen/luisteren."
+        },
+        {
+          "pap": "Den un siman, e video a haña 50.000 bishita.",
+          "nl": "In één week kreeg de video 50.000 views.",
+          "opties": [
+            "De video werd verwijderd.",
+            "In één week werd de video 50.000 keer bekeken.",
+            "De video werd 5.000 keer bekeken.",
+            "Er komt volgende week een video."
+          ],
+          "correct": 1,
+          "uitleg": "'Den un siman' = binnen een week, 'bishita' = bezoek (hier: weergave)."
+        },
+        {
+          "pap": "Kaylee ta bisa: \"Mi ta felis ku hende gusta e kantika.\"",
+          "nl": "Kaylee zegt: \"Ik ben blij dat mensen het liedje mooi vinden.\"",
+          "opties": [
+            "Ze vindt het liedje zelf niet mooi.",
+            "Ze wil geen liedjes meer maken.",
+            "Ze is blij dat mensen het liedje mooi vinden.",
+            "Ze is verdrietig dat niemand het liedje hoort."
+          ],
+          "correct": 2,
+          "uitleg": "'Felis' = blij/gelukkig, 'gusta' = mooi vinden/houden van."
+        }
+      ],
+      "vraag": "Hoe reageren mensen?",
+      "opties": [
+        "Negatief: veel kritiek",
+        "Niemand heeft het nog gehoord",
+        "Het liedje is verboden op de radio",
+        "Heel positief: veel radio en 50.000 views in een week"
+      ],
+      "correct": 3,
+      "uitleg": "Het liedje wordt veel gedraaid en bekeken, en Kaylee is daar blij mee."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "kantante",
+      "uitspraak": "kan-tan-te",
+      "vertaling": "zanger(es)"
+    },
+    {
+      "woord": "kantika",
+      "uitspraak": "kan-ti-ka",
+      "vertaling": "lied"
+    },
+    {
+      "woord": "wela",
+      "uitspraak": "we-la",
+      "vertaling": "oma"
+    },
+    {
+      "woord": "radio",
+      "uitspraak": "ra-dio",
+      "vertaling": "radio"
+    },
+    {
+      "woord": "bunita",
+      "uitspraak": "bu-ni-ta",
+      "vertaling": "mooi"
+    },
+    {
+      "woord": "tende",
+      "uitspraak": "ten-de",
+      "vertaling": "horen, luisteren"
+    }
+  ]
+}

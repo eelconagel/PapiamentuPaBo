@@ -1,0 +1,140 @@
+{
+  "id": "nieuws-002",
+  "titel": "Awa ta bini e fin di siman aki",
+  "nivo": "Easy",
+  "kategoria": "Tempu",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "De weerdienst verwacht regen en wind tijdens het weekend.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Servisio Meteorológiko ta spera awa e djasabra aki.",
+          "nl": "De meteorologische dienst verwacht deze zaterdag regen.",
+          "opties": [
+            "De weerdienst is zaterdag gesloten.",
+            "De weerdienst verwacht zaterdag regen.",
+            "De weerdienst verwacht zaterdag veel zon.",
+            "Er was afgelopen zaterdag veel regen."
+          ],
+          "correct": 1,
+          "uitleg": "'Ta spera' = verwacht, 'awa' = water of regen, 'djasabra' = zaterdag."
+        },
+        {
+          "pap": "Tambe lo tin hopi bientu.",
+          "nl": "Er komt ook veel wind.",
+          "opties": [
+            "Het wordt ook erg warm.",
+            "Er komen ook veel wolken.",
+            "Er komt ook veel wind.",
+            "Er is bijna geen wind."
+          ],
+          "correct": 2,
+          "uitleg": "'Tambe' = ook, 'lo tin' = er zal zijn (lo = toekomende tijd), 'bientu' = wind."
+        },
+        {
+          "pap": "Djadumingu lo yobe ménos.",
+          "nl": "Zondag gaat het minder regenen.",
+          "opties": [
+            "Zondag regent het meer.",
+            "Zondag regent het helemaal niet meer.",
+            "Zondag komt er storm.",
+            "Zondag regent het minder."
+          ],
+          "correct": 3,
+          "uitleg": "'Djadumingu' = zondag, 'yobe' = regenen, 'ménos' = minder."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Regen en wind in het weekend",
+        "Een hittegolf in het weekend",
+        "Een week lang droog en zonnig weer",
+        "Een storm op maandag"
+      ],
+      "correct": 0,
+      "uitleg": "Zaterdag regen en veel wind, zondag minder regen."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E servisio ta konsehá hende pa tene kuidou riba kaminda.",
+          "nl": "De dienst raadt mensen aan voorzichtig te zijn op de weg.",
+          "opties": [
+            "Mensen moeten meer water drinken.",
+            "Mensen moeten voorzichtig zijn op de weg.",
+            "Mensen moeten niet naar buiten gaan.",
+            "De wegen worden gerepareerd."
+          ],
+          "correct": 1,
+          "uitleg": "'Konsehá' = aanraden, 'tene kuidou' = oppassen, 'kaminda' = weg."
+        },
+        {
+          "pap": "Kaminda por ta peligroso ora awa kai.",
+          "nl": "Wegen kunnen gevaarlijk zijn als het regent.",
+          "opties": [
+            "Er valt water uit de lucht op de weg.",
+            "Na de regen is de weg weer veilig.",
+            "Wegen kunnen gevaarlijk zijn als het regent.",
+            "Wegen zijn altijd gevaarlijk."
+          ],
+          "correct": 2,
+          "uitleg": "'Por' = kan/kunnen, 'peligroso' = gevaarlijk, 'ora' = als/wanneer, 'awa kai' = het regent (letterlijk: water valt)."
+        },
+        {
+          "pap": "Djaluna solo lo sali atrobe.",
+          "nl": "Maandag komt de zon weer tevoorschijn.",
+          "opties": [
+            "Maandag regent het opnieuw.",
+            "Maandag is het bewolkt.",
+            "De zon komt pas volgende week terug.",
+            "Maandag schijnt de zon weer."
+          ],
+          "correct": 3,
+          "uitleg": "'Solo' = zon, 'sali' = naar buiten komen, 'atrobe' = weer/opnieuw."
+        }
+      ],
+      "vraag": "Wat is het advies en hoe gaat het verder?",
+      "opties": [
+        "Een waarschuwing voor de weg en beter weer op maandag",
+        "Een oproep om thuis te blijven tot dinsdag",
+        "Een advies om water te besparen",
+        "Tips voor een dagje strand op zaterdag"
+      ],
+      "correct": 0,
+      "uitleg": "Pas op op de weg als het regent; maandag wordt het weer zonnig."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "awa",
+      "uitspraak": "a-wa",
+      "vertaling": "water, regen"
+    },
+    {
+      "woord": "bientu",
+      "uitspraak": "bien-tu",
+      "vertaling": "wind"
+    },
+    {
+      "woord": "yobe",
+      "uitspraak": "jo-be",
+      "vertaling": "regenen"
+    },
+    {
+      "woord": "solo",
+      "uitspraak": "so-lo",
+      "vertaling": "zon"
+    },
+    {
+      "woord": "kaminda",
+      "uitspraak": "ka-min-da",
+      "vertaling": "weg"
+    },
+    {
+      "woord": "tene kuidou",
+      "uitspraak": "te-ne kwi-dou",
+      "vertaling": "oppassen"
+    }
+  ]
+}

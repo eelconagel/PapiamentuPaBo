@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-014",
+  "titel": "Bisiñanan ta pidi lus di kaya den bario",
+  "nivo": "Hard",
+  "kategoria": "Lokal",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Bewoners van een wijk vragen met een petitie om straatverlichting.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Mas ku 400 bisiña di bario Kaya Mango a firma un petishon pa pidi lus di kaya.",
+          "nl": "Meer dan 400 bewoners van de wijk Kaya Mango hebben een petitie getekend om straatverlichting te vragen.",
+          "opties": [
+            "Ruim 400 buurtbewoners tekenden een petitie voor straatverlichting.",
+            "Ruim 400 bewoners klagen over te veel licht op straat.",
+            "40 bewoners hebben zelf lantaarnpalen geplaatst.",
+            "De wijk krijgt 400 nieuwe lantaarnpalen."
+          ],
+          "correct": 0,
+          "uitleg": "'Bisiña' = buurtbewoner, 'firma' = tekenen, 'lus di kaya' = straatverlichting."
+        },
+        {
+          "pap": "Den e kayanan prinsipal, mas di mitar di e lusnan no ta sende for di aña pasá.",
+          "nl": "In de hoofdstraten doet meer dan de helft van de lampen het sinds vorig jaar niet.",
+          "opties": [
+            "Vorig jaar waren er geen lampen.",
+            "Sinds vorig jaar doet meer dan de helft van de lampen het niet.",
+            "Sinds vorig jaar zijn alle lampen vervangen.",
+            "De helft van de lampen brandt de hele dag."
+          ],
+          "correct": 1,
+          "uitleg": "'Kaya prinsipal' = hoofdstraat, 'mitar' = helft, 'sende' = aangaan/branden, 'for di' = sinds."
+        },
+        {
+          "pap": "Ora ta bira skur, hende ta keda paden pasobra nan no ta sinti nan sigur.",
+          "nl": "Als het donker wordt, blijven mensen binnen omdat ze zich niet veilig voelen.",
+          "opties": [
+            "Mensen blijven binnen omdat het te warm is.",
+            "Mensen voelen zich veilig in het donker.",
+            "In het donker blijven mensen binnen, omdat ze zich onveilig voelen.",
+            "In het donker gaan mensen juist graag wandelen."
+          ],
+          "correct": 2,
+          "uitleg": "'Bira skur' = donker worden, 'paden' = binnen, 'sinti' = voelen, 'sigur' = veilig."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Bewoners willen minder licht om de sterren te zien",
+        "De gemeente heeft nieuwe lampen geplaatst",
+        "Er zijn inbraken geweest in de wijk",
+        "Bewoners vragen om licht omdat kapotte lampen hen onveilig laten voelen"
+      ],
+      "correct": 3,
+      "uitleg": "Veel straatlampen zijn kapot, mensen voelen zich onveilig en tekenen een petitie."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E iniciativa a sali di Mireille Rosaria, un maestra retirá ku ta biba einan 30 aña kaba.",
+          "nl": "Het initiatief kwam van Mireille Rosaria, een gepensioneerde lerares die er al 30 jaar woont.",
+          "opties": [
+            "Een gepensioneerde lerares die er al 30 jaar woont, begon het initiatief.",
+            "Een jonge lerares die net in de wijk woont, begon het initiatief.",
+            "De gemeente begon het initiatief 30 jaar geleden.",
+            "Een politieagent begon het initiatief."
+          ],
+          "correct": 0,
+          "uitleg": "'Iniciativa' = initiatief, 'maestra' = lerares, 'retirá' = gepensioneerd, 'einan' = daar, 'kaba' = al."
+        },
+        {
+          "pap": "Djis den dos siman, e i algun bisiña a bai kas pa kas pa kolektá firma.",
+          "nl": "In slechts twee weken gingen zij en een paar buren van huis tot huis om handtekeningen te verzamelen.",
+          "opties": [
+            "Ze deed het twee maanden lang alleen.",
+            "In twee weken haalde zij met buren huis aan huis handtekeningen op.",
+            "In twee dagen haalde ze alle handtekeningen online op.",
+            "Twee buren weigerden hun handtekening te zetten."
+          ],
+          "correct": 1,
+          "uitleg": "'Djis' = slechts/net, 'kas pa kas' = huis aan huis, 'kolektá' = verzamelen."
+        },
+        {
+          "pap": "\"Nos no ta pidi nada spesial, djis e mesun kos ku otro bario tin,\" e ta bisa.",
+          "nl": "\"We vragen niets bijzonders, alleen hetzelfde als wat andere wijken hebben,\" zegt ze.",
+          "opties": [
+            "Ze zegt dat andere wijken ook geen licht hebben.",
+            "Ze wil iets heel bijzonders voor haar wijk.",
+            "Ze vraagt alleen wat andere wijken ook hebben.",
+            "Ze vindt dat haar wijk meer verdient dan andere wijken."
+          ],
+          "correct": 2,
+          "uitleg": "'Nada' = niets, 'djis' = alleen, 'mesun' = dezelfde/hetzelfde."
+        }
+      ],
+      "vraag": "Wie zit er achter de petitie?",
+      "opties": [
+        "Een politieke partij die stemmen zoekt",
+        "Het energiebedrijf",
+        "Leerlingen van de lagere school",
+        "Een gepensioneerde lerares die met buren handtekeningen verzamelde"
+      ],
+      "correct": 3,
+      "uitleg": "Mireille Rosaria begon het, ging met buren langs de deuren en vraagt niets bijzonders."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Djaluna nan a entregá e petishon na e minister di Obra Públiko.",
+          "nl": "Maandag hebben ze de petitie aan de minister van Openbare Werken overhandigd.",
+          "opties": [
+            "Maandag gaven ze de petitie aan de minister van Openbare Werken.",
+            "Maandag stuurde de minister hen een brief.",
+            "Maandag gaan ze de petitie aanbieden.",
+            "De minister weigerde de petitie aan te nemen."
+          ],
+          "correct": 0,
+          "uitleg": "'Entregá' = overhandigen, 'Obra Públiko' = Openbare Werken."
+        },
+        {
+          "pap": "E minister a primintí ku e lusnan lo keda drecha promé ku fin di aña.",
+          "nl": "De minister beloofde dat de lampen vóór het einde van het jaar gerepareerd worden.",
+          "opties": [
+            "De minister belooft extra politie in de wijk.",
+            "De minister belooft de lampen vóór het eind van het jaar te laten repareren.",
+            "De minister zegt dat er geen geld is voor lampen.",
+            "De lampen worden volgend jaar pas vervangen."
+          ],
+          "correct": 1,
+          "uitleg": "'Primintí' = beloven, 'drecha' = repareren/in orde maken, 'promé ku' = vóór."
+        },
+        {
+          "pap": "Pero e bisiñanan ta bisa ku nan lo sigui wak bon si esei ta sosodé.",
+          "nl": "Maar de buren zeggen dat ze goed in de gaten blijven houden of dat gebeurt.",
+          "opties": [
+            "De buren gaan zelf de lampen repareren.",
+            "De buren stoppen nu met hun actie.",
+            "De buren blijven controleren of de belofte wordt nagekomen.",
+            "De buren geloven de minister volledig."
+          ],
+          "correct": 2,
+          "uitleg": "'Sigui' = doorgaan, 'wak bon' = goed opletten, 'sosodé' = gebeuren."
+        }
+      ],
+      "vraag": "Wat is het resultaat tot nu toe?",
+      "opties": [
+        "De lampen zijn al gerepareerd",
+        "De petitie is afgewezen",
+        "De buren hebben de minister aangeklaagd",
+        "Een belofte van de minister, maar de buren blijven opletten"
+      ],
+      "correct": 3,
+      "uitleg": "De minister belooft reparatie voor het eind van het jaar; de buren houden het in de gaten."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "bisiña",
+      "uitspraak": "bi-si-nja",
+      "vertaling": "buurman, buurvrouw"
+    },
+    {
+      "woord": "lus di kaya",
+      "uitspraak": "lus di ka-ja",
+      "vertaling": "straatverlichting"
+    },
+    {
+      "woord": "petishon",
+      "uitspraak": "pe-ti-sjon",
+      "vertaling": "petitie"
+    },
+    {
+      "woord": "firma",
+      "uitspraak": "fir-ma",
+      "vertaling": "handtekening"
+    },
+    {
+      "woord": "skur",
+      "uitspraak": "skur",
+      "vertaling": "donker"
+    },
+    {
+      "woord": "sigur",
+      "uitspraak": "si-gur",
+      "vertaling": "veilig"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "nieuws-021",
+  "titel": "Hende a kore pa yuda mucha malu",
+  "nivo": "Easy",
+  "kategoria": "Deporte",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Honderden mensen liepen een sponsorloop voor zieke kinderen.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Djadumingu mainta 800 hende a kore pa karidat.",
+          "nl": "Zondagochtend liepen 800 mensen voor het goede doel.",
+          "opties": [
+            "Zondagochtend liepen 800 mensen voor het goede doel.",
+            "Zondagochtend liepen 80 mensen een wedstrijd.",
+            "Zondag gingen 800 mensen fietsen.",
+            "Zondag liepen 800 mensen een marathon voor een prijs."
+          ],
+          "correct": 0,
+          "uitleg": "'Kore' = rennen, 'karidat' = liefdadigheid/goed doel."
+        },
+        {
+          "pap": "E kaminda tabata 5 kilometer.",
+          "nl": "De route was 5 kilometer.",
+          "opties": [
+            "Ze liepen vijf uur lang.",
+            "De route was vijf kilometer lang.",
+            "De route was vijftien kilometer lang.",
+            "De route ging langs vijf scholen."
+          ],
+          "correct": 1,
+          "uitleg": "'Kaminda' = weg/route, 'tabata' = was."
+        },
+        {
+          "pap": "Tambe tabatin hende ku a kana.",
+          "nl": "Er waren ook mensen die liepen (wandelden).",
+          "opties": [
+            "Niemand wilde wandelen.",
+            "Er waren ook mensen die fietsten.",
+            "Er waren ook mensen die wandelden.",
+            "Iedereen moest rennen."
+          ],
+          "correct": 2,
+          "uitleg": "'Tabatin' = er waren, 'kana' = lopen/wandelen."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een wandeltocht van vijftig kilometer",
+        "Een hardloopwedstrijd voor profs",
+        "Een fietstocht voor kinderen",
+        "Een sponsorloop van vijf kilometer met rennen en wandelen"
+      ],
+      "correct": 3,
+      "uitleg": "800 mensen liepen of wandelden vijf kilometer voor het goede doel."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Kada persona a paga dies florin.",
+          "nl": "Iedere persoon betaalde tien gulden.",
+          "opties": [
+            "Iedereen betaalde tien gulden.",
+            "Iedereen kreeg tien gulden.",
+            "Kinderen mochten gratis meedoen.",
+            "Iedereen betaalde honderd gulden."
+          ],
+          "correct": 0,
+          "uitleg": "'Kada persona' = iedere persoon, 'paga' = betalen, 'florin' = gulden."
+        },
+        {
+          "pap": "Tur e plaka ta pa e hospital di mucha.",
+          "nl": "Al het geld is voor het kinderziekenhuis.",
+          "opties": [
+            "Het geld is voor nieuwe hardloopschoenen.",
+            "Al het geld gaat naar het kinderziekenhuis.",
+            "Het geld gaat naar een sportclub.",
+            "De helft van het geld gaat naar het ziekenhuis."
+          ],
+          "correct": 1,
+          "uitleg": "'Tur e plaka' = al het geld, 'hospital di mucha' = kinderziekenhuis."
+        },
+        {
+          "pap": "Na final, nan a kolektá 8.000 florin.",
+          "nl": "Uiteindelijk hebben ze 8.000 gulden opgehaald.",
+          "opties": [
+            "Ze hopen 8.000 gulden op te halen.",
+            "Ze gaven 8.000 gulden uit.",
+            "Uiteindelijk haalden ze 8.000 gulden op.",
+            "Uiteindelijk haalden ze 800 gulden op."
+          ],
+          "correct": 2,
+          "uitleg": "'Na final' = uiteindelijk, 'kolektá' = inzamelen/ophalen."
+        }
+      ],
+      "vraag": "Wat heeft de loop opgeleverd?",
+      "opties": [
+        "Een nieuwe sporthal",
+        "800 gulden voor de sportclub",
+        "Nieuwe medailles voor de lopers",
+        "8.000 gulden voor het kinderziekenhuis"
+      ],
+      "correct": 3,
+      "uitleg": "Iedereen betaalde tien gulden; samen 8.000 gulden voor het kinderziekenhuis."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "kore",
+      "uitspraak": "ko-re",
+      "vertaling": "rennen"
+    },
+    {
+      "woord": "kilometer",
+      "uitspraak": "ki-lo-me-ter",
+      "vertaling": "kilometer"
+    },
+    {
+      "woord": "karidat",
+      "uitspraak": "ka-ri-dat",
+      "vertaling": "goed doel"
+    },
+    {
+      "woord": "kaminata",
+      "uitspraak": "ka-mi-na-ta",
+      "vertaling": "wandeltocht"
+    },
+    {
+      "woord": "kaba",
+      "uitspraak": "ka-ba",
+      "vertaling": "eindigen, klaar"
+    },
+    {
+      "woord": "paga",
+      "uitspraak": "pa-ga",
+      "vertaling": "betalen"
+    }
+  ]
+}

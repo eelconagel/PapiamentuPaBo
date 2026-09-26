@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-006",
+  "titel": "Boluntarionan a konta mas ku 3.000 chogogo",
+  "nivo": "Intermediate",
+  "kategoria": "Boneiru",
+  "lugá": "KRALENDIJK",
+  "beschrijving": "Vrijwilligers tellen flamingo's bij de zoutpannen van Bonaire.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Djasabra pasá, 40 boluntario a konta chogogo den e salinanan di Boneiru.",
+          "nl": "Afgelopen zaterdag telden 40 vrijwilligers flamingo's in de zoutpannen van Bonaire.",
+          "opties": [
+            "Er werden 40 flamingo's gevonden.",
+            "Vorige zaterdag telden 40 vrijwilligers flamingo's.",
+            "Volgende zaterdag gaan 40 vrijwilligers flamingo's tellen.",
+            "40 vrijwilligers maakten de zoutpannen schoon."
+          ],
+          "correct": 1,
+          "uitleg": "'Pasá' = afgelopen/vorige, 'boluntario' = vrijwilliger, 'konta' = tellen, 'chogogo' = flamingo, 'salina' = zoutpan."
+        },
+        {
+          "pap": "Nan a kana den grupo chikí rondó di e salinanan.",
+          "nl": "Ze liepen in kleine groepen rond de zoutpannen.",
+          "opties": [
+            "Ze gingen met één grote groep met de bus.",
+            "Ze bleven de hele dag op één plek staan.",
+            "Ze liepen in kleine groepjes rond de zoutpannen.",
+            "Ze zwommen in kleine groepjes in de zoutpannen."
+          ],
+          "correct": 2,
+          "uitleg": "'Kana' = lopen, 'grupo chikí' = kleine groep, 'rondó di' = rondom."
+        },
+        {
+          "pap": "Na final nan a konta 3.214 chogogo.",
+          "nl": "Uiteindelijk telden ze 3.214 flamingo's.",
+          "opties": [
+            "Ze telden uiteindelijk 314 flamingo's.",
+            "Aan het eind waren er geen flamingo's meer.",
+            "Ze konden de flamingo's niet tellen.",
+            "Uiteindelijk telden ze ruim drieduizend flamingo's."
+          ],
+          "correct": 3,
+          "uitleg": "'Na final' = uiteindelijk/aan het eind."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Vrijwilligers die flamingo's tellen bij de zoutpannen",
+        "Een nieuwe zoutfabriek op Bonaire",
+        "Toeristen die flamingo's voeren",
+        "Flamingo's die van Bonaire verdwijnen"
+      ],
+      "correct": 0,
+      "uitleg": "Veertig vrijwilligers telden in groepjes ruim 3.000 flamingo's."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Esaki ta mas ku e aña pasá.",
+          "nl": "Dat is meer dan vorig jaar.",
+          "opties": [
+            "Vorig jaar werd er niet geteld.",
+            "Dat is meer dan vorig jaar.",
+            "Dat is minder dan vorig jaar.",
+            "Dat is evenveel als vorig jaar."
+          ],
+          "correct": 1,
+          "uitleg": "'Esaki' = dit, 'mas ku' = meer dan, 'e aña pasá' = vorig jaar."
+        },
+        {
+          "pap": "Segun biólogo Ruben Kock di fundashon Salina Biba, e bestianan tin sufisiente kuminda.",
+          "nl": "Volgens bioloog Ruben Kock van stichting Salina Biba hebben de dieren genoeg voedsel.",
+          "opties": [
+            "Een bioloog wil de dieren gaan voeren.",
+            "De stichting verkoopt voer voor flamingo's.",
+            "Volgens een bioloog hebben de dieren genoeg eten.",
+            "Volgens een bioloog hebben de dieren honger."
+          ],
+          "correct": 2,
+          "uitleg": "'Fundashon' = stichting, 'bestia' = dier, 'sufisiente' = genoeg, 'kuminda' = eten."
+        },
+        {
+          "pap": "Pero e ta preokupá pa e sushi den naturalesa.",
+          "nl": "Maar hij maakt zich zorgen over het afval in de natuur.",
+          "opties": [
+            "Maar hij is blij met de schone natuur.",
+            "Maar hij maakt zich zorgen over het weer.",
+            "Maar hij wil minder toeristen in de natuur.",
+            "Maar hij maakt zich zorgen over afval in de natuur."
+          ],
+          "correct": 3,
+          "uitleg": "'Preokupá' = bezorgd, 'sushi' = vuil/afval, 'naturalesa' = natuur."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Het resultaat vergeleken met vorig jaar, en een zorg over afval",
+        "Een tekort aan voedsel voor flamingo's",
+        "Waarom de telling mislukt is",
+        "Een nieuwe stichting die opgericht wordt"
+      ],
+      "correct": 0,
+      "uitleg": "Er zijn meer flamingo's dan vorig jaar en genoeg voedsel, maar afval is een probleem."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Chogogo por spanta fásilmente di hende i outo.",
+          "nl": "Flamingo's kunnen makkelijk schrikken van mensen en auto's.",
+          "opties": [
+            "Flamingo's lopen graag langs de weg.",
+            "Flamingo's schrikken snel van mensen en auto's.",
+            "Flamingo's zijn niet bang voor mensen.",
+            "Mensen schrikken vaak van flamingo's."
+          ],
+          "correct": 1,
+          "uitleg": "'Spanta' = schrikken, 'fásilmente' = makkelijk, 'outo' = auto."
+        },
+        {
+          "pap": "P'esei e fundashon ta pidi turistanan pa keda leu di e bestianan.",
+          "nl": "Daarom vraagt de stichting toeristen om ver van de dieren te blijven.",
+          "opties": [
+            "Daarom zijn toeristen niet meer welkom op Bonaire.",
+            "Daarom brengt de stichting de dieren naar een andere plek.",
+            "Daarom moeten toeristen afstand houden van de dieren.",
+            "Daarom mogen toeristen de dieren voeren."
+          ],
+          "correct": 2,
+          "uitleg": "'P'esei' = daarom, 'pidi' = vragen, 'keda' = blijven, 'leu' = ver."
+        },
+        {
+          "pap": "E siguiente konteo lo ta na mart.",
+          "nl": "De volgende telling is in maart.",
+          "opties": [
+            "De vorige telling was in maart.",
+            "In maart worden de flamingo's verhuisd.",
+            "Er komt geen volgende telling meer.",
+            "De volgende telling is in maart."
+          ],
+          "correct": 3,
+          "uitleg": "'Siguiente' = volgende, 'konteo' = telling, 'mart' = maart."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een oproep aan toeristen en wanneer de volgende telling is",
+        "Een verbod op auto's op heel Bonaire",
+        "Hoe je zelf een flamingo kunt adopteren",
+        "Een verhaal over een ongeluk met een flamingo"
+      ],
+      "correct": 0,
+      "uitleg": "Toeristen moeten afstand houden; in maart wordt er opnieuw geteld."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "chogogo",
+      "uitspraak": "cho-go-go",
+      "vertaling": "flamingo"
+    },
+    {
+      "woord": "boluntario",
+      "uitspraak": "bo-lun-ta-rio",
+      "vertaling": "vrijwilliger"
+    },
+    {
+      "woord": "konta",
+      "uitspraak": "kon-ta",
+      "vertaling": "tellen"
+    },
+    {
+      "woord": "salina",
+      "uitspraak": "sa-li-na",
+      "vertaling": "zoutpan"
+    },
+    {
+      "woord": "sushi",
+      "uitspraak": "shu-shi",
+      "vertaling": "afval, vuil"
+    },
+    {
+      "woord": "leu",
+      "uitspraak": "leu",
+      "vertaling": "ver"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-029",
+  "titel": "Sargaso ta yena playanan di kosta nort",
+  "nivo": "Hard",
+  "kategoria": "Naturalesa",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Grote hoeveelheden zeewier spoelen aan op de noordkust. Vissers en bewoners hebben er last van.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Den e último siman, kantidat grandi di sargaso a yega e kosta nort di Kòrsou.",
+          "nl": "De afgelopen week is een grote hoeveelheid sargassum op de noordkust van Curaçao aangespoeld.",
+          "opties": [
+            "De afgelopen week spoelde er veel zeewier aan op de noordkust.",
+            "De afgelopen week werd er zeewier geoogst aan de zuidkust.",
+            "Er is een nieuwe soort vis gevonden aan de noordkust.",
+            "Het zeewier is de afgelopen week verdwenen."
+          ],
+          "correct": 0,
+          "uitleg": "'Kantidat' = hoeveelheid, 'yega' = aankomen/bereiken, 'kosta nort' = noordkust."
+        },
+        {
+          "pap": "Na algun baai, e sargaso ta forma un kapa di mas ku un meter di haltura.",
+          "nl": "In sommige baaien vormt het sargassum een laag van meer dan een meter hoog.",
+          "opties": [
+            "Het zeewier ligt een meter onder water.",
+            "In sommige baaien ligt een laag zeewier van ruim een meter hoog.",
+            "In sommige baaien ligt een dun laagje zeewier.",
+            "Het zeewier groeit een meter per dag."
+          ],
+          "correct": 1,
+          "uitleg": "'Baai' = baai, 'kapa' = laag, 'haltura' = hoogte."
+        },
+        {
+          "pap": "Ora e sargaso pudri, e ta laga un holó fuerte manera webu pudri.",
+          "nl": "Als het sargassum rot, geeft het een sterke geur af, zoals van rotte eieren.",
+          "opties": [
+            "Het zeewier wordt gebruikt om eieren te koken.",
+            "Rottend zeewier ruikt nergens naar.",
+            "Rottend zeewier stinkt naar rotte eieren.",
+            "Het zeewier ruikt naar bloemen."
+          ],
+          "correct": 2,
+          "uitleg": "'Pudri' = rotten/rot, 'holó' = geur, 'fuerte' = sterk."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een olielek voor de kust",
+        "Een nieuwe zeewierboerderij",
+        "Schoongemaakte stranden",
+        "Veel stinkend zeewier dat aanspoelt op de noordkust"
+      ],
+      "correct": 3,
+      "uitleg": "Grote hoeveelheden zeewier spoelen aan, liggen soms metershoog en stinken als ze rotten."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Piskadónan di Playa Grandi no por sali ku nan boto, pasobra e sargaso ta blòkia e entrada di e baai.",
+          "nl": "Vissers van Playa Grandi kunnen niet uitvaren met hun boten, omdat het zeewier de ingang van de baai blokkeert.",
+          "opties": [
+            "Vissers kunnen niet uitvaren, omdat het zeewier de baai blokkeert.",
+            "Vissers vangen meer vis dankzij het zeewier.",
+            "Vissers mogen niet uitvaren van de overheid.",
+            "De boten zijn beschadigd door een storm."
+          ],
+          "correct": 0,
+          "uitleg": "'Sali' = uitvaren/naar buiten gaan, 'blòkia' = blokkeren, 'entrada' = ingang."
+        },
+        {
+          "pap": "Algun di nan no a traha kasi dos siman, loke ta nifiká ku nan no tin entrada.",
+          "nl": "Sommigen van hen hebben bijna twee weken niet gewerkt, wat betekent dat ze geen inkomen hebben.",
+          "opties": [
+            "De vissers werken twee weken extra.",
+            "Sommige vissers werken al bijna twee weken niet en hebben geen inkomen.",
+            "Sommige vissers hebben twee weken vakantie genomen.",
+            "De vissers verdienen nu meer dan anders."
+          ],
+          "correct": 1,
+          "uitleg": "'Nifiká' = betekenen, 'entrada' = inkomen (en ook: ingang/toegang)."
+        },
+        {
+          "pap": "Tambe bisiñanan ku ta biba serka ta keha di dolor di kabes i problema ku rosea.",
+          "nl": "Ook bewoners die dichtbij wonen klagen over hoofdpijn en ademhalingsproblemen.",
+          "opties": [
+            "Bewoners hebben last van muggen.",
+            "Alleen toeristen hebben klachten.",
+            "Bewoners in de buurt klagen over hoofdpijn en ademhalingsproblemen.",
+            "Bewoners zijn blij met het zeewier."
+          ],
+          "correct": 2,
+          "uitleg": "'Serka' = dichtbij, 'keha' = klagen, 'rosea' = ademen."
+        }
+      ],
+      "vraag": "Wie hebben er last van en hoe?",
+      "opties": [
+        "Alleen hotels verliezen gasten",
+        "Vissers vangen minder, maar verdienen meer",
+        "Niemand heeft echt last van het zeewier",
+        "Vissers kunnen niet werken en buurtbewoners krijgen gezondheidsklachten"
+      ],
+      "correct": 3,
+      "uitleg": "Vissers zitten zonder inkomen en omwonenden hebben hoofdpijn en ademhalingsklachten."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Gobièrnu a manda máquina pesá pa kita e sargaso di e playanan mas afektá.",
+          "nl": "De overheid heeft zware machines gestuurd om het zeewier van de zwaarst getroffen stranden te halen.",
+          "opties": [
+            "De overheid stuurt zware machines om het zeewier weg te halen.",
+            "De overheid vraagt vissers het zeewier zelf op te ruimen.",
+            "De overheid doet niets aan het zeewier.",
+            "Het zeewier wordt verbrand op het strand."
+          ],
+          "correct": 0,
+          "uitleg": "'Manda' = sturen, 'máquina pesá' = zware machine, 'kita' = weghalen, 'afektá' = getroffen."
+        },
+        {
+          "pap": "Siendifiko ta bisa ku kalentamentu di laman ta un di e kousanan ku tin mas sargaso tur aña.",
+          "nl": "Wetenschappers zeggen dat opwarming van de zee een van de oorzaken is dat er elk jaar meer sargassum is.",
+          "opties": [
+            "Wetenschappers weten niet waar het zeewier vandaan komt.",
+            "Opwarming van de zee is volgens wetenschappers een oorzaak van meer zeewier.",
+            "Wetenschappers zeggen dat het zeewier uit rivieren komt.",
+            "Volgens wetenschappers neemt het zeewier af."
+          ],
+          "correct": 1,
+          "uitleg": "'Siendifiko' = wetenschapper, 'kalentamentu' = opwarming, 'kousa' = oorzaak."
+        },
+        {
+          "pap": "Nan ta spera ku e problema lo repetí kada verano.",
+          "nl": "Ze verwachten dat het probleem elke zomer terugkomt.",
+          "opties": [
+            "Het probleem komt alleen in de winter.",
+            "Ze verwachten dat het probleem snel verdwijnt.",
+            "Ze verwachten dat dit elke zomer terugkomt.",
+            "Ze verwachten dat het nooit meer gebeurt."
+          ],
+          "correct": 2,
+          "uitleg": "'Spera' = verwachten, 'repetí' = herhalen/terugkomen, 'verano' = zomer."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een nieuwe wet tegen zeewier",
+        "Hoe je zeewier kunt eten",
+        "Waarom de vissers verhuizen",
+        "Wat de overheid doet en waarom het probleem blijft terugkomen"
+      ],
+      "correct": 3,
+      "uitleg": "Machines ruimen op, maar door de opwarming van de zee komt het zeewier elke zomer terug."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "sargaso",
+      "uitspraak": "sar-ga-so",
+      "vertaling": "sargassum (zeewier)"
+    },
+    {
+      "woord": "kosta nort",
+      "uitspraak": "kos-ta nort",
+      "vertaling": "noordkust"
+    },
+    {
+      "woord": "holó",
+      "uitspraak": "ho-lo",
+      "vertaling": "geur, stank"
+    },
+    {
+      "woord": "limpia",
+      "uitspraak": "lim-pia",
+      "vertaling": "schoonmaken"
+    },
+    {
+      "woord": "piskadó",
+      "uitspraak": "pis-ka-do",
+      "vertaling": "visser"
+    },
+    {
+      "woord": "kalentamentu",
+      "uitspraak": "ka-len-ta-men-tu",
+      "vertaling": "opwarming"
+    }
+  ]
+}

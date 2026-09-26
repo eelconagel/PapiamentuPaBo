@@ -1,0 +1,140 @@
+{
+  "id": "nieuws-033",
+  "titel": "Stòf di Sahara riba Kòrsou",
+  "nivo": "Easy",
+  "kategoria": "Tempu",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Stof uit de Sahara maakt de lucht boven Curaçao grijs en heiig.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "E shelu di Kòrsou ta gris awe.",
+          "nl": "De lucht boven Curaçao is vandaag grijs.",
+          "opties": [
+            "De lucht boven Curaçao is vandaag grijs.",
+            "De lucht boven Curaçao is vandaag heel blauw.",
+            "Het regent vandaag op Curaçao.",
+            "Het is vandaag nacht op Curaçao."
+          ],
+          "correct": 0,
+          "uitleg": "'Shelu' = lucht/hemel, 'gris' = grijs, 'awe' = vandaag."
+        },
+        {
+          "pap": "Esei ta pa motibu di stòf for di Sahara.",
+          "nl": "Dat komt door stof uit de Sahara.",
+          "opties": [
+            "Dat komt door de zee.",
+            "Dat komt door stof uit de Sahara.",
+            "Dat komt door rook van een brand.",
+            "Dat komt door wolken uit Venezuela."
+          ],
+          "correct": 1,
+          "uitleg": "'Pa motibu di' = vanwege/door, 'stòf' = stof."
+        },
+        {
+          "pap": "E bientu a trese e stòf over di laman.",
+          "nl": "De wind heeft het stof over de zee meegebracht.",
+          "opties": [
+            "Het stof komt uit de grond.",
+            "Het stof bleef in de Sahara.",
+            "De wind bracht het stof over de zee mee.",
+            "Een schip bracht het stof mee."
+          ],
+          "correct": 2,
+          "uitleg": "'Trese' = (mee)brengen, 'over di laman' = over de zee."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een grote storm op zee",
+        "Een brand in de haven",
+        "Veel regen en onweer",
+        "Grijze lucht door stof uit de Sahara"
+      ],
+      "correct": 3,
+      "uitleg": "Het stof uit de Sahara is met de wind over zee gekomen en kleurt de lucht grijs."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Hende ku asma mester keda den kas.",
+          "nl": "Mensen met astma moeten binnen blijven.",
+          "opties": [
+            "Mensen met astma moeten binnen blijven.",
+            "Mensen met astma moeten gaan sporten.",
+            "Iedereen moet binnen blijven.",
+            "Mensen met astma moeten naar het strand."
+          ],
+          "correct": 0,
+          "uitleg": "'Asma' = astma, 'keda den kas' = thuis/binnen blijven."
+        },
+        {
+          "pap": "Tapa bo bentananan pa e stòf no drenta.",
+          "nl": "Doe je ramen dicht zodat het stof niet binnenkomt.",
+          "opties": [
+            "Doe je deur op slot.",
+            "Doe je ramen dicht zodat het stof niet binnenkomt.",
+            "Zet je ramen open voor frisse lucht.",
+            "Maak je ramen schoon."
+          ],
+          "correct": 1,
+          "uitleg": "'Tapa' = dichtdoen, 'bentana' = raam, 'drenta' = binnenkomen."
+        },
+        {
+          "pap": "Mañan e shelu lo ta blou atrobe.",
+          "nl": "Morgen is de lucht weer blauw.",
+          "opties": [
+            "Morgen gaat het regenen.",
+            "Morgen is de lucht geel.",
+            "Morgen is de lucht weer blauw.",
+            "Morgen is er nog meer stof."
+          ],
+          "correct": 2,
+          "uitleg": "'Mañan' = morgen, 'blou' = blauw, 'atrobe' = weer."
+        }
+      ],
+      "vraag": "Wat is het advies?",
+      "opties": [
+        "Iedereen moet een mondkapje kopen",
+        "Scholen gaan dicht",
+        "Niet naar buiten tot volgende week",
+        "Mensen met astma binnen, ramen dicht; morgen wordt het weer beter"
+      ],
+      "correct": 3,
+      "uitleg": "Astmapatiënten binnen blijven, ramen dicht, en morgen is de lucht weer blauw."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "stòf",
+      "uitspraak": "stof",
+      "vertaling": "stof"
+    },
+    {
+      "woord": "shelu",
+      "uitspraak": "sje-lu",
+      "vertaling": "lucht, hemel"
+    },
+    {
+      "woord": "gris",
+      "uitspraak": "gris",
+      "vertaling": "grijs"
+    },
+    {
+      "woord": "rosea",
+      "uitspraak": "ro-se-a",
+      "vertaling": "ademen"
+    },
+    {
+      "woord": "tapa",
+      "uitspraak": "ta-pa",
+      "vertaling": "afdekken, dicht"
+    },
+    {
+      "woord": "den kas",
+      "uitspraak": "den kas",
+      "vertaling": "binnen, thuis"
+    }
+  ]
+}

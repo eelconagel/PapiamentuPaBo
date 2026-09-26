@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-023",
+  "titel": "Kampaña kontra sangura promé ku temporada di awa",
+  "nivo": "Hard",
+  "kategoria": "Salú",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "De gezondheidsdienst start een campagne tegen muggen, omdat het regenseizoen eraan komt.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Promé ku temporada di awa kuminsá, Servisio di Salú Públiko ta lansa un kampaña kontra sangura.",
+          "nl": "Voordat het regenseizoen begint, start de Openbare Gezondheidsdienst een campagne tegen muggen.",
+          "opties": [
+            "Voor het regenseizoen start de gezondheidsdienst een campagne tegen muggen.",
+            "Na het regenseizoen stopt de campagne tegen muggen.",
+            "De gezondheidsdienst verkoopt nieuwe muggennetten.",
+            "De campagne tegen muggen is mislukt."
+          ],
+          "correct": 0,
+          "uitleg": "'Promé ku' = voordat, 'lansa' = lanceren/starten, 'sangura' = mug."
+        },
+        {
+          "pap": "Sangura por transmití malesa manera dengue i chikungunya.",
+          "nl": "Muggen kunnen ziektes overbrengen zoals dengue en chikungunya.",
+          "opties": [
+            "Dengue wordt overgedragen via water.",
+            "Muggen kunnen ziektes als dengue en chikungunya overbrengen.",
+            "Dengue en chikungunya zijn soorten muggen.",
+            "Muggen zijn niet gevaarlijk voor mensen."
+          ],
+          "correct": 1,
+          "uitleg": "'Transmití' = overbrengen, 'malesa' = ziekte, 'manera' = zoals."
+        },
+        {
+          "pap": "Aña pasá, mas ku 500 persona a bira malu ku dengue, sobretodo den luna di novèmber i desèmber.",
+          "nl": "Vorig jaar werden meer dan 500 mensen ziek door dengue, vooral in november en december.",
+          "opties": [
+            "Vorig jaar was er geen dengue.",
+            "Dit jaar zijn al 500 mensen ziek.",
+            "Vorig jaar kregen ruim 500 mensen dengue, vooral eind van het jaar.",
+            "Vorig jaar kregen 50 mensen dengue in de zomer."
+          ],
+          "correct": 2,
+          "uitleg": "'Bira malu' = ziek worden, 'sobretodo' = vooral."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een nieuw vaccin tegen dengue",
+        "Waarom het regenseizoen later begint",
+        "Een tekort aan artsen",
+        "Een campagne tegen muggen omdat ze ziektes overbrengen"
+      ],
+      "correct": 3,
+      "uitleg": "Muggen verspreiden ziektes als dengue; vorig jaar werden veel mensen ziek, dus komt er een campagne."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Sangura ta pone webu den awa stanká, hasta den un tapa di bòter.",
+          "nl": "Muggen leggen eieren in stilstaand water, zelfs in een flessendop.",
+          "opties": [
+            "Muggen leggen eieren in stilstaand water, zelfs in een dopje.",
+            "Muggen leggen eieren alleen in de zee.",
+            "Muggen leggen eieren in bloemen.",
+            "Muggen hebben stromend water nodig."
+          ],
+          "correct": 0,
+          "uitleg": "'Awa stanká' = stilstaand water, 'hasta' = zelfs, 'tapa di bòter' = flessendop."
+        },
+        {
+          "pap": "P'esei e servisio ta pidi tur hende pa bashí bleki, tayer bieu i otro kos ku awa por keda aden.",
+          "nl": "Daarom vraagt de dienst iedereen om blikken, oude banden en andere dingen waar water in kan blijven staan leeg te maken.",
+          "opties": [
+            "De dienst haalt alle oude banden zelf op.",
+            "Iedereen moet blikken, oude banden en dergelijke leegmaken.",
+            "Iedereen moet water opsparen in blikken.",
+            "Oude banden moeten gevuld worden met water."
+          ],
+          "correct": 1,
+          "uitleg": "'Bashí' = leegmaken, 'bleki' = blik, 'tayer' = band, 'aden' = erin."
+        },
+        {
+          "pap": "Den e siman ku ta bini, trahadónan lo pasa den bario pa fumigá i duna informashon.",
+          "nl": "De komende week komen medewerkers langs in de wijken om te sproeien en informatie te geven.",
+          "opties": [
+            "Medewerkers komen alleen langs bij zieke mensen.",
+            "Er wordt vanuit een vliegtuig gesproeid.",
+            "Volgende week sproeien medewerkers in de wijken en geven ze informatie.",
+            "Volgende week moeten bewoners zelf gaan sproeien."
+          ],
+          "correct": 2,
+          "uitleg": "'Pasa' = langskomen, 'fumigá' = (insecticide) sproeien, 'duna informashon' = informatie geven."
+        }
+      ],
+      "vraag": "Wat kunnen bewoners doen?",
+      "opties": [
+        "Binnen blijven tot het regenseizoen voorbij is",
+        "Muggen vangen en inleveren",
+        "Zich laten vaccineren",
+        "Stilstaand water opruimen; medewerkers komen sproeien en informatie geven"
+      ],
+      "correct": 3,
+      "uitleg": "Muggen broeden in stilstaand water, dus bakjes en banden leegmaken; er wordt ook gesproeid."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Si bo tin keintura haltu, dolor di kabes i dolor den bo wesunan, bai serka dòkter.",
+          "nl": "Als je hoge koorts, hoofdpijn en pijn in je botten hebt, ga dan naar de dokter.",
+          "opties": [
+            "Bij hoge koorts, hoofdpijn en botpijn moet je naar de dokter.",
+            "Bij koorts moet je veel sporten.",
+            "Bij hoofdpijn moet je naar de apotheek voor muggenspray.",
+            "Bij botpijn hoef je niets te doen."
+          ],
+          "correct": 0,
+          "uitleg": "'Keintura' = koorts, 'dolor di kabes' = hoofdpijn, 'wesu' = bot, 'serka' = naar/bij."
+        },
+        {
+          "pap": "No tuma aspirina sin konsultá un dòkter promé, pasobra esei por hasi e malesa mas peligroso.",
+          "nl": "Neem geen aspirine zonder eerst een dokter te raadplegen, want dat kan de ziekte gevaarlijker maken.",
+          "opties": [
+            "De dokter geeft iedereen aspirine.",
+            "Neem geen aspirine zonder dokter, want dat kan gevaarlijk zijn.",
+            "Neem altijd aspirine bij koorts.",
+            "Aspirine beschermt tegen muggen."
+          ],
+          "correct": 1,
+          "uitleg": "'Tuma' = nemen, 'sin' = zonder, 'konsultá' = raadplegen."
+        },
+        {
+          "pap": "Mas informashon ta disponibel riba e website i na e telefòn gratis di e servisio.",
+          "nl": "Meer informatie is beschikbaar op de website en via het gratis telefoonnummer van de dienst.",
+          "opties": [
+            "Het telefoonnummer kost geld.",
+            "Er is nog geen informatie beschikbaar.",
+            "Meer informatie staat op de website en via een gratis nummer.",
+            "Informatie is alleen verkrijgbaar bij de huisarts."
+          ],
+          "correct": 2,
+          "uitleg": "'Disponibel' = beschikbaar."
+        }
+      ],
+      "vraag": "Welk medisch advies geeft de dienst?",
+      "opties": [
+        "Muggenbeten zelf behandelen met aspirine",
+        "Alleen bij koorts langer dan een week naar de dokter",
+        "Nooit naar de dokter gaan met dengue",
+        "Bij klachten naar de dokter, geen aspirine zonder overleg, en meer info online"
+      ],
+      "correct": 3,
+      "uitleg": "Ga bij koorts, hoofd- en botpijn naar de dokter en neem niet zomaar aspirine."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "sangura",
+      "uitspraak": "san-gu-ra",
+      "vertaling": "mug"
+    },
+    {
+      "woord": "kampaña",
+      "uitspraak": "kam-pa-nja",
+      "vertaling": "campagne"
+    },
+    {
+      "woord": "malesa",
+      "uitspraak": "ma-le-sa",
+      "vertaling": "ziekte"
+    },
+    {
+      "woord": "awa stanká",
+      "uitspraak": "a-wa stan-ka",
+      "vertaling": "stilstaand water"
+    },
+    {
+      "woord": "prevení",
+      "uitspraak": "pre-ve-ni",
+      "vertaling": "voorkomen"
+    },
+    {
+      "woord": "temporada di awa",
+      "uitspraak": "tem-po-ra-da di a-wa",
+      "vertaling": "regenseizoen"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "nieuws-007",
+  "titel": "Gobièrnu ta anunsiá preis máksimo pa diesdos produkto básiko",
+  "nivo": "Hard",
+  "kategoria": "Ekonomia",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "De overheid legt maximumprijzen vast voor basisproducten; winkeliers en klanten reageren verschillend.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Minister di Asuntu Ekonómiko a anunsiá djaweps ku for di promé di novèmber, diesdos produkto básiko lo tin un preis máksimo.",
+          "nl": "De minister van Economische Zaken maakte donderdag bekend dat twaalf basisproducten vanaf 1 november een maximumprijs krijgen.",
+          "opties": [
+            "De minister wil twaalf producten verbieden.",
+            "Vanaf 1 november krijgen twaalf basisproducten een maximumprijs.",
+            "Twaalf basisproducten worden vanaf 1 november duurder.",
+            "Vanaf donderdag zijn twaalf producten gratis."
+          ],
+          "correct": 1,
+          "uitleg": "'Anunsiá' = aankondigen, 'for di' = vanaf, 'promé di novèmber' = 1 november, 'diesdos' = twaalf, 'preis máksimo' = maximumprijs."
+        },
+        {
+          "pap": "Entre otro, pan, aros, lechi i webu ta riba e lista.",
+          "nl": "Onder andere brood, rijst, melk en eieren staan op de lijst.",
+          "opties": [
+            "Alleen brood en melk staan op de lijst.",
+            "Er staat geen voedsel op de lijst.",
+            "Brood, rijst, melk en eieren staan onder meer op de lijst.",
+            "Brood, rijst, melk en eieren worden duurder."
+          ],
+          "correct": 2,
+          "uitleg": "'Entre otro' = onder andere, 'aros' = rijst, 'lechi' = melk, 'webu' = ei(eren)."
+        },
+        {
+          "pap": "Segun e minister, e medida ta nesesario pasobra kosto di bida a subi muchu den e último añanan.",
+          "nl": "Volgens de minister is de maatregel nodig omdat de kosten van levensonderhoud de laatste jaren te sterk zijn gestegen.",
+          "opties": [
+            "De maatregel is nodig omdat winkels te weinig verkopen.",
+            "De minister vindt dat de prijzen de laatste jaren gedaald zijn.",
+            "De maatregel geldt alleen voor de laatste jaren.",
+            "De maatregel is nodig omdat het leven de laatste jaren te duur is geworden."
+          ],
+          "correct": 3,
+          "uitleg": "'Medida' = maatregel, 'nesesario' = nodig, 'kosto di bida' = kosten van levensonderhoud, 'subi' = stijgen, 'muchu' = te veel."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een nieuwe maatregel met maximumprijzen en de reden daarvoor",
+        "Een belastingverhoging op voedsel",
+        "Een tekort aan brood en melk",
+        "Het aftreden van de minister"
+      ],
+      "correct": 0,
+      "uitleg": "De minister kondigt maximumprijzen aan voor basisproducten omdat het leven te duur is geworden."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Organisashon di komersiantenan no ta kontentu ku e desishon.",
+          "nl": "De organisatie van winkeliers is niet blij met het besluit.",
+          "opties": [
+            "De winkeliers weten nog niets van het besluit.",
+            "De winkeliersorganisatie is niet blij met het besluit.",
+            "De winkeliers zijn erg blij met het besluit.",
+            "De winkeliers hebben het besluit zelf genomen."
+          ],
+          "correct": 1,
+          "uitleg": "'Komersiante' = winkelier/handelaar, 'no ta kontentu' = is niet tevreden, 'desishon' = besluit."
+        },
+        {
+          "pap": "Nan ta teme ku tiendanan chikí lo no por kubri nan gastu mas.",
+          "nl": "Ze vrezen dat kleine winkels hun kosten niet meer kunnen dekken.",
+          "opties": [
+            "Ze willen dat kleine winkels hun deuren sluiten.",
+            "Ze vrezen dat grote winkels failliet gaan.",
+            "Ze zijn bang dat kleine winkels hun kosten niet meer kunnen betalen.",
+            "Ze verwachten dat kleine winkels meer gaan verdienen."
+          ],
+          "correct": 2,
+          "uitleg": "'Teme' = vrezen, 'tienda' = winkel, 'kubri' = dekken, 'gastu' = kosten, 'no ... mas' = niet meer."
+        },
+        {
+          "pap": "'Nos ta komprondé e problema, pero e solushon aki ta muchu simpel,' un bosero a bisa.",
+          "nl": "'We begrijpen het probleem, maar deze oplossing is te simpel,' zei een woordvoerder.",
+          "opties": [
+            "Een woordvoerder zegt dat er geen probleem is.",
+            "Een woordvoerder vindt de oplossing heel goed.",
+            "Een woordvoerder begrijpt de maatregel niet.",
+            "Een woordvoerder begrijpt het probleem, maar vindt de oplossing te simpel."
+          ],
+          "correct": 3,
+          "uitleg": "'Komprondé' = begrijpen, 'solushon' = oplossing, 'muchu simpel' = te simpel, 'bosero' = woordvoerder."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Kritiek van winkeliers op de maatregel",
+        "Winkeliers die de minister steunen",
+        "Kleine winkels die hun prijzen verhogen",
+        "Een nieuwe winkelketen op Curaçao"
+      ],
+      "correct": 0,
+      "uitleg": "De winkeliers begrijpen het probleem, maar vrezen voor kleine winkels."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Riba kaya, konsumidónan a reakshoná mayoria positivo.",
+          "nl": "Op straat reageerden consumenten overwegend positief.",
+          "opties": [
+            "Consumenten wilden niet reageren.",
+            "Op straat reageerden de meeste mensen positief.",
+            "Op straat reageerden de meeste mensen negatief.",
+            "Op straat werd er gedemonstreerd."
+          ],
+          "correct": 1,
+          "uitleg": "'Riba kaya' = op straat, 'konsumidó' = consument, 'reakshoná' = reageren, 'mayoria' = merendeels."
+        },
+        {
+          "pap": "Un mama di tres yu a bisa ku e ta gasta kasi mitar di su salario na kuminda.",
+          "nl": "Een moeder van drie kinderen zei dat ze bijna de helft van haar salaris aan eten uitgeeft.",
+          "opties": [
+            "Een moeder heeft drie banen om eten te kunnen kopen.",
+            "Een moeder geeft een derde van haar salaris uit aan eten.",
+            "Een moeder geeft bijna de helft van haar loon uit aan eten.",
+            "Een moeder verdient de helft minder dan vroeger."
+          ],
+          "correct": 2,
+          "uitleg": "'Yu' = kind, 'gasta' = uitgeven, 'kasi' = bijna, 'mitar' = helft, 'kuminda' = eten."
+        },
+        {
+          "pap": "Parlamento lo papia riba e medida den e siman ku ta bini.",
+          "nl": "Het parlement praat volgende week over de maatregel.",
+          "opties": [
+            "Het parlement heeft de maatregel vorige week besproken.",
+            "Het parlement wil niet over de maatregel praten.",
+            "Het parlement heeft de maatregel al goedgekeurd.",
+            "Het parlement bespreekt de maatregel volgende week."
+          ],
+          "correct": 3,
+          "uitleg": "'Papia riba' = praten over, 'e siman ku ta bini' = volgende week (letterlijk: de week die komt)."
+        },
+        {
+          "pap": "Te ora ei, e lista final por kambia ainda.",
+          "nl": "Tot die tijd kan de definitieve lijst nog veranderen.",
+          "opties": [
+            "Tot dan kan de lijst nog veranderen.",
+            "De lijst is definitief en verandert niet meer.",
+            "De lijst verandert elke week.",
+            "De lijst wordt daarna geschrapt."
+          ],
+          "correct": 0,
+          "uitleg": "'Te ora ei' = tot dan, 'kambia' = veranderen, 'ainda' = nog."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Waarom het parlement de maatregel afwijst",
+        "Reacties van consumenten en wat er nog gaat gebeuren",
+        "Een protestactie van moeders",
+        "De definitieve lijst met producten"
+      ],
+      "correct": 1,
+      "uitleg": "Consumenten zijn vooral positief; het parlement moet er nog over praten."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "preis",
+      "uitspraak": "preis",
+      "vertaling": "prijs"
+    },
+    {
+      "woord": "kosto di bida",
+      "uitspraak": "kos-to di bi-da",
+      "vertaling": "kosten van levensonderhoud"
+    },
+    {
+      "woord": "komersiante",
+      "uitspraak": "ko-mer-sian-te",
+      "vertaling": "winkelier"
+    },
+    {
+      "woord": "teme",
+      "uitspraak": "te-me",
+      "vertaling": "vrezen"
+    },
+    {
+      "woord": "bosero",
+      "uitspraak": "bo-se-ro",
+      "vertaling": "woordvoerder"
+    },
+    {
+      "woord": "mitar",
+      "uitspraak": "mi-tar",
+      "vertaling": "helft"
+    }
+  ]
+}

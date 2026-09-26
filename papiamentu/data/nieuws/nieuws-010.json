@@ -1,0 +1,177 @@
+{
+  "id": "nieuws-010",
+  "titel": "Nayeli Martina ta gana oro den landamentu",
+  "nivo": "Intermediate",
+  "kategoria": "Deporte",
+  "lugá": "SANTO DOMINGO",
+  "beschrijving": "Een jonge zwemster uit Curaçao wint goud op een regionaal toernooi.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Nayeli Martina (17) a gana un medaya di oro na e Wega Karibense di Hóben.",
+          "nl": "Nayeli Martina (17) heeft een gouden medaille gewonnen op de Caribische Jeugdspelen.",
+          "opties": [
+            "Nayeli Martina is zeventien keer kampioen geworden.",
+            "Nayeli Martina won een gouden medaille op de Caribische Jeugdspelen.",
+            "Nayeli Martina won een zilveren medaille.",
+            "Nayeli Martina organiseert de Caribische Jeugdspelen."
+          ],
+          "correct": 1,
+          "uitleg": "'Medaya di oro' = gouden medaille, 'Karibense' = Caribisch, 'hóben' = jongeren."
+        },
+        {
+          "pap": "E a landa 100 meter liber den 58 sekonde.",
+          "nl": "Ze zwom de 100 meter vrije slag in 58 seconden.",
+          "opties": [
+            "Ze zwom 58 meter in 100 seconden.",
+            "Ze zwom de 100 meter in ruim een minuut.",
+            "Ze zwom de 100 meter vrije slag in 58 seconden.",
+            "Ze liep de 100 meter in 58 seconden."
+          ],
+          "correct": 2,
+          "uitleg": "'Landa' = zwemmen, 'liber' = vrij (hier: vrije slag), 'sekonde' = seconde."
+        },
+        {
+          "pap": "Esaki ta un rekòrt nobo pa Kòrsou.",
+          "nl": "Dit is een nieuw record voor Curaçao.",
+          "opties": [
+            "Het oude record van Curaçao blijft staan.",
+            "Curaçao heeft nog nooit een record gehad.",
+            "Het is een wereldrecord.",
+            "Dat is een nieuw record voor Curaçao."
+          ],
+          "correct": 3,
+          "uitleg": "'Esaki' = dit, 'rekòrt' = record."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een zwemster die goud wint en een nieuw record zwemt",
+        "Een zwemster die net naast de medailles grijpt",
+        "Een nieuw zwembad op Curaçao",
+        "De opening van de Jeugdspelen"
+      ],
+      "correct": 0,
+      "uitleg": "Nayeli wint goud en zet een nieuw Curaçaos record neer."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Nayeli ta entrená seis dia pa siman, mayoria di biaha mainta tempran.",
+          "nl": "Nayeli traint zes dagen per week, meestal vroeg in de ochtend.",
+          "opties": [
+            "Ze traint 's ochtends op school.",
+            "Ze traint zes dagen per week, meestal vroeg in de ochtend.",
+            "Ze traint zes uur per dag, meestal 's avonds.",
+            "Ze traint één keer per week."
+          ],
+          "correct": 1,
+          "uitleg": "'Entrená' = trainen, 'pa siman' = per week, 'mayoria di biaha' = meestal, 'tempran' = vroeg."
+        },
+        {
+          "pap": "Su tata ta hib'é na piscina promé ku e bai skol.",
+          "nl": "Haar vader brengt haar naar het zwembad voordat ze naar school gaat.",
+          "opties": [
+            "Haar vader haalt haar na school op.",
+            "Ze fietst zelf naar het zwembad.",
+            "Haar vader brengt haar vóór school naar het zwembad.",
+            "Haar vader is haar zwemtrainer."
+          ],
+          "correct": 2,
+          "uitleg": "'Tata' = vader, 'hib'é' = haar/hem brengen (hiba + e), 'promé ku' = voordat."
+        },
+        {
+          "pap": "\"Sin mi famia, esaki no tabata posibel,\" e di.",
+          "nl": "\"Zonder mijn familie was dit niet mogelijk geweest,\" zei ze.",
+          "opties": [
+            "Ze zegt dat haar familie niet kon komen kijken.",
+            "Ze zegt dat ze alles alleen heeft gedaan.",
+            "Ze zegt dat haar familie ook zwemt.",
+            "Ze zegt dat het zonder haar familie niet gelukt was."
+          ],
+          "correct": 3,
+          "uitleg": "'Sin' = zonder, 'posibel' = mogelijk, 'e di' = ze zei."
+        }
+      ],
+      "vraag": "Wat vertelt deze alinea over Nayeli?",
+      "opties": [
+        "Hoe hard ze traint en hoe haar familie helpt",
+        "Waarom ze wil stoppen met zwemmen",
+        "Welke school ze bezoekt",
+        "Hoe haar vader vroeger zwom"
+      ],
+      "correct": 0,
+      "uitleg": "Ze traint bijna elke dag vroeg, en haar familie steunt haar."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Den aprel Nayeli lo landa na un kompetensia grandi na Merka.",
+          "nl": "In april zwemt Nayeli op een grote wedstrijd in Amerika.",
+          "opties": [
+            "Ze heeft in april in Amerika gezwommen.",
+            "In april zwemt ze op een grote wedstrijd in Amerika.",
+            "In april verhuist ze naar Amerika.",
+            "In april stopt ze met wedstrijden."
+          ],
+          "correct": 1,
+          "uitleg": "'Lo' = zal (toekomst), 'kompetensia' = wedstrijd, 'Merka' = Amerika."
+        },
+        {
+          "pap": "Su sonjo ta pa landa un dia na Wega Olímpiko.",
+          "nl": "Haar droom is om ooit op de Olympische Spelen te zwemmen.",
+          "opties": [
+            "Ze wil trainer worden bij de Olympische Spelen.",
+            "Ze droomt ervan om te gaan duiken.",
+            "Ze droomt ervan ooit op de Olympische Spelen te zwemmen.",
+            "Ze heeft al op de Olympische Spelen gezwommen."
+          ],
+          "correct": 2,
+          "uitleg": "'Sonjo' = droom, 'un dia' = op een dag/ooit."
+        }
+      ],
+      "vraag": "Wat zijn haar plannen?",
+      "opties": [
+        "Stoppen en naar de universiteit gaan",
+        "Een zwemschool openen op Curaçao",
+        "Volgend jaar pas weer zwemmen",
+        "Een grote wedstrijd in april en later misschien de Olympische Spelen"
+      ],
+      "correct": 3,
+      "uitleg": "Eerst een wedstrijd in Amerika, en haar grote droom zijn de Olympische Spelen."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "landa",
+      "uitspraak": "lan-da",
+      "vertaling": "zwemmen"
+    },
+    {
+      "woord": "medaya",
+      "uitspraak": "me-da-ja",
+      "vertaling": "medaille"
+    },
+    {
+      "woord": "oro",
+      "uitspraak": "o-ro",
+      "vertaling": "goud"
+    },
+    {
+      "woord": "kompetensia",
+      "uitspraak": "kom-pe-ten-sia",
+      "vertaling": "wedstrijd, competitie"
+    },
+    {
+      "woord": "sonjo",
+      "uitspraak": "so-njo",
+      "vertaling": "droom"
+    },
+    {
+      "woord": "entrená",
+      "uitspraak": "en-tre-na",
+      "vertaling": "trainen"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-013",
+  "titel": "Studiantenan ta mustra pelíkula kòrtiku",
+  "nivo": "Intermediate",
+  "kategoria": "Farándula",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Scholieren laten hun eigen korte films zien op een festival in de stad.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "E fin di siman aki tin un festival di pelíkula kòrtiku den e sentro di stat.",
+          "nl": "Dit weekend is er een festival met korte films in het centrum van de stad.",
+          "opties": [
+            "Dit weekend is er een kortefilmfestival in het centrum.",
+            "Dit weekend gaat de bioscoop in het centrum dicht.",
+            "Vorig weekend was er een filmfestival in het centrum.",
+            "Dit weekend worden er films opgenomen in het centrum."
+          ],
+          "correct": 0,
+          "uitleg": "'Fin di siman' = weekend, 'pelíkula kòrtiku' = korte film, 'sentro di stat' = stadscentrum."
+        },
+        {
+          "pap": "Tur e pelíkulanan ta traha pa studiantenan di skol sekundario.",
+          "nl": "Alle films zijn gemaakt door leerlingen van middelbare scholen.",
+          "opties": [
+            "Leraren hebben alle films gemaakt.",
+            "Alle films zijn gemaakt door middelbare scholieren.",
+            "De films zijn gemaakt voor kleine kinderen.",
+            "De films komen uit het buitenland."
+          ],
+          "correct": 1,
+          "uitleg": "'Traha' = maken, 'pa' = hier: door, 'skol sekundario' = middelbare school."
+        },
+        {
+          "pap": "Nan a traha nan pelíkula ku telefòn so.",
+          "nl": "Ze hebben hun films alleen met een telefoon gemaakt.",
+          "opties": [
+            "Ze hebben de films op de telefoon bekeken.",
+            "Ze mochten geen telefoon gebruiken.",
+            "Ze hebben hun films alleen met hun telefoon gemaakt.",
+            "Ze hebben dure camera's gekregen."
+          ],
+          "correct": 2,
+          "uitleg": "'Telefòn' = telefoon, 'so' = alleen (achter het woord)."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een nieuwe bioscoop in het centrum",
+        "Een telefoonwinkel die films verkoopt",
+        "Een filmcursus voor leraren",
+        "Een festival met korte films die scholieren met hun telefoon maakten"
+      ],
+      "correct": 3,
+      "uitleg": "Scholieren maakten met hun telefoon korte films, die dit weekend te zien zijn."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Tin dieshete pelíkula, di dos te sinku minüt.",
+          "nl": "Er zijn zeventien films, van twee tot vijf minuten.",
+          "opties": [
+            "Er zijn zeventien films van twee tot vijf minuten.",
+            "Er zijn zeven films van twintig minuten.",
+            "Er zijn vijf films van twee uur.",
+            "Er zijn zeventig films van één minuut."
+          ],
+          "correct": 0,
+          "uitleg": "'Dieshete' = zeventien, 'di ... te ...' = van ... tot ..., 'sinku' = vijf."
+        },
+        {
+          "pap": "Hopi di nan ta papia di bida den bario i di famia.",
+          "nl": "Veel ervan gaan over het leven in de wijk en over familie.",
+          "opties": [
+            "Veel films gaan over dieren.",
+            "Veel films gaan over het leven in de buurt en over familie.",
+            "De meeste films gaan over sport.",
+            "Veel films spelen in het buitenland."
+          ],
+          "correct": 1,
+          "uitleg": "'Papia di' = gaan over (letterlijk: praten over), 'bida' = leven, 'bario' = wijk."
+        },
+        {
+          "pap": "Un hurado lo duna premio na e tres mihó pelíkula.",
+          "nl": "Een jury geeft prijzen aan de drie beste films.",
+          "opties": [
+            "Alle films krijgen een prijs.",
+            "De drie slechtste films vallen af.",
+            "Een jury geeft prijzen aan de drie beste films.",
+            "Het publiek kiest de beste film."
+          ],
+          "correct": 2,
+          "uitleg": "'Hurado' = jury, 'duna' = geven, 'mihó' = beste/beter."
+        }
+      ],
+      "vraag": "Wat voor films zijn er te zien?",
+      "opties": [
+        "Lange speelfilms over sport",
+        "Oude films uit de jaren zeventig",
+        "Films die alleen op internet te zien zijn",
+        "Zeventien korte films over het dagelijks leven, met prijzen voor de beste drie"
+      ],
+      "correct": 3,
+      "uitleg": "Korte films over bario en familie; een jury kiest de drie beste."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Entrada ta gratis, pero bo mester reservá un lugá riba internet.",
+          "nl": "De toegang is gratis, maar je moet een plaats reserveren op internet.",
+          "opties": [
+            "Het is gratis, maar je moet online een plek reserveren.",
+            "Je betaalt entree aan de deur.",
+            "Je hoeft niets te reserveren.",
+            "Het festival is alleen online te zien."
+          ],
+          "correct": 0,
+          "uitleg": "'Reservá' = reserveren, 'lugá' = plaats."
+        },
+        {
+          "pap": "E organisadó, sr. Dion Isenia, kier mustra ku mucha tin hopi talento.",
+          "nl": "De organisator, meneer Dion Isenia, wil laten zien dat jongeren veel talent hebben.",
+          "opties": [
+            "De organisator zoekt nieuwe sponsors.",
+            "De organisator wil laten zien dat jongeren veel talent hebben.",
+            "De organisator vindt dat jongeren meer moeten leren.",
+            "De organisator is zelf een bekende acteur."
+          ],
+          "correct": 1,
+          "uitleg": "'Organisadó' = organisator, 'mustra' = laten zien, 'mucha' = kinderen/jongeren."
+        },
+        {
+          "pap": "E ta spera ku otro aña lo tin mas skol ku ta partisipá.",
+          "nl": "Hij hoopt dat volgend jaar meer scholen meedoen.",
+          "opties": [
+            "Volgend jaar is er geen festival.",
+            "Alle scholen hebben dit jaar meegedaan.",
+            "Hij hoopt dat er volgend jaar meer scholen meedoen.",
+            "Hij verwacht dat volgend jaar minder scholen meedoen."
+          ],
+          "correct": 2,
+          "uitleg": "'Spera' = hopen/verwachten, 'otro aña' = volgend jaar, 'partisipá' = meedoen."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Kritiek op de kwaliteit van de films",
+        "Waarom het festival verhuist",
+        "De winnaars van vorig jaar",
+        "Praktische informatie en de wensen van de organisator"
+      ],
+      "correct": 3,
+      "uitleg": "Gratis toegang met reservering, en de organisator wil talent laten zien en hoopt op meer scholen."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "pelíkula",
+      "uitspraak": "pe-li-ku-la",
+      "vertaling": "film"
+    },
+    {
+      "woord": "kòrtiku",
+      "uitspraak": "kor-ti-ku",
+      "vertaling": "kort"
+    },
+    {
+      "woord": "mustra",
+      "uitspraak": "mus-tra",
+      "vertaling": "laten zien"
+    },
+    {
+      "woord": "premio",
+      "uitspraak": "pre-mio",
+      "vertaling": "prijs"
+    },
+    {
+      "woord": "studiante",
+      "uitspraak": "stu-dian-te",
+      "vertaling": "student, scholier"
+    },
+    {
+      "woord": "entrada",
+      "uitspraak": "en-tra-da",
+      "vertaling": "toegang"
+    }
+  ]
+}

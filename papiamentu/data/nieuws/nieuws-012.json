@@ -1,0 +1,140 @@
+{
+  "id": "nieuws-012",
+  "titel": "Djaweps tabata e dia di mas kalor di aña",
+  "nivo": "Easy",
+  "kategoria": "Tempu",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Het was de warmste dag van het jaar. Wat doen mensen tegen de hitte?",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Djaweps tabata e dia di mas kalor di e aña aki.",
+          "nl": "Donderdag was de warmste dag van dit jaar.",
+          "opties": [
+            "Donderdag was de warmste dag van dit jaar.",
+            "Donderdag was de koudste dag van het jaar.",
+            "Donderdag wordt de warmste dag van het jaar.",
+            "Donderdag regende het de hele dag."
+          ],
+          "correct": 0,
+          "uitleg": "'Djaweps' = donderdag, 'di mas kalor' = het warmst."
+        },
+        {
+          "pap": "Na Hato e termómetro a marka 36 grado.",
+          "nl": "Bij Hato gaf de thermometer 36 graden aan.",
+          "opties": [
+            "Het wordt morgen 36 graden bij Hato.",
+            "Bij Hato was het 36 graden.",
+            "Bij Hato was het 26 graden.",
+            "Bij Hato is de thermometer kapot."
+          ],
+          "correct": 1,
+          "uitleg": "'Marka' = aangeven/meten, 'grado' = graad. Hato is het gebied van het vliegveld."
+        },
+        {
+          "pap": "Hopi hende a bai playa pa fresku.",
+          "nl": "Veel mensen gingen naar het strand om af te koelen.",
+          "opties": [
+            "Veel mensen gingen naar het strand om te werken.",
+            "Het strand was gesloten.",
+            "Veel mensen gingen naar het strand om af te koelen.",
+            "Veel mensen bleven binnen."
+          ],
+          "correct": 2,
+          "uitleg": "'Bai playa' = naar het strand gaan, 'pa fresku' = om af te koelen (fresku = koel/fris)."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een koude dag met veel regen",
+        "Een nieuwe thermometer op het vliegveld",
+        "Een strand dat dicht moet",
+        "Een erg warme dag en mensen die naar het strand gaan"
+      ],
+      "correct": 3,
+      "uitleg": "Het was 36 graden en veel mensen zochten verkoeling op het strand."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Dòkter ta konsehá hende pa bebe hopi awa.",
+          "nl": "Dokters raden mensen aan veel water te drinken.",
+          "opties": [
+            "Dokters raden aan veel water te drinken.",
+            "Dokters raden aan minder water te drinken.",
+            "Dokters zeggen dat je binnen moet blijven.",
+            "Dokters drinken zelf veel water."
+          ],
+          "correct": 0,
+          "uitleg": "'Konsehá' = aanraden, 'bebe' = drinken."
+        },
+        {
+          "pap": "Tambe ta bon pa keda den sombra entre dies i kuater or.",
+          "nl": "Het is ook goed om tussen tien en vier uur in de schaduw te blijven.",
+          "opties": [
+            "Ga om vier uur naar het strand.",
+            "Blijf tussen tien en vier uur in de schaduw.",
+            "Ga tussen tien en vier uur in de zon zitten.",
+            "Blijf tot tien uur 's ochtends binnen."
+          ],
+          "correct": 1,
+          "uitleg": "'Keda' = blijven, 'sombra' = schaduw, 'entre' = tussen, 'kuater' = vier."
+        },
+        {
+          "pap": "Riba djabièrnè e temperatura lo baha un tiki.",
+          "nl": "Op vrijdag daalt de temperatuur een beetje.",
+          "opties": [
+            "Vrijdag gaat het hard regenen.",
+            "Vrijdag is het weer net zo warm.",
+            "Vrijdag wordt het een beetje minder warm.",
+            "Vrijdag wordt het nog warmer."
+          ],
+          "correct": 2,
+          "uitleg": "'Djabièrnè' = vrijdag, 'baha' = dalen/zakken, 'un tiki' = een beetje."
+        }
+      ],
+      "vraag": "Wat is het advies?",
+      "opties": [
+        "Niet naar buiten gaan tot volgende week",
+        "Zo veel mogelijk sporten in de zon",
+        "Het strand vermijden",
+        "Veel water drinken, in de schaduw blijven; vrijdag wordt het iets koeler"
+      ],
+      "correct": 3,
+      "uitleg": "Drink water, zoek de schaduw op, en vrijdag zakt de temperatuur een beetje."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "kalor",
+      "uitspraak": "ka-lor",
+      "vertaling": "warm, warmte"
+    },
+    {
+      "woord": "grado",
+      "uitspraak": "gra-do",
+      "vertaling": "graad"
+    },
+    {
+      "woord": "sombra",
+      "uitspraak": "som-bra",
+      "vertaling": "schaduw"
+    },
+    {
+      "woord": "bebe",
+      "uitspraak": "be-be",
+      "vertaling": "drinken"
+    },
+    {
+      "woord": "sòpi",
+      "uitspraak": "so-pi",
+      "vertaling": "soep"
+    },
+    {
+      "woord": "playa",
+      "uitspraak": "pla-ja",
+      "vertaling": "strand"
+    }
+  ]
+}

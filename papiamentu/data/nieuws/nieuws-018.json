@@ -1,0 +1,140 @@
+{
+  "id": "nieuws-018",
+  "titel": "Ora di lesa pa mucha den biblioteka",
+  "nivo": "Easy",
+  "kategoria": "Kultura",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "De bibliotheek begint met een voorleesuur voor kinderen op zaterdag.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Biblioteka públiko a kuminsá ku un ora di lesa pa mucha.",
+          "nl": "De openbare bibliotheek is begonnen met een leesuur voor kinderen.",
+          "opties": [
+            "De bibliotheek is begonnen met een leesuur voor kinderen.",
+            "De bibliotheek gaat dicht voor kinderen.",
+            "Kinderen mogen geen boeken meer lenen.",
+            "De bibliotheek verkoopt kinderboeken."
+          ],
+          "correct": 0,
+          "uitleg": "'Biblioteka públiko' = openbare bibliotheek, 'ora di lesa' = leesuur."
+        },
+        {
+          "pap": "Tur djasabra mainta un señora ta lesa kuenta na bos haltu.",
+          "nl": "Elke zaterdagochtend leest een mevrouw verhalen hardop voor.",
+          "opties": [
+            "Elke dag leest een mevrouw de krant voor.",
+            "Elke zaterdagochtend leest een mevrouw verhalen voor.",
+            "Elke zaterdagavond vertelt een meneer grappen.",
+            "Op zaterdag lezen de kinderen zelf een boek."
+          ],
+          "correct": 1,
+          "uitleg": "'Kuenta' = verhaal, 'na bos haltu' = hardop (letterlijk: met hoge stem)."
+        },
+        {
+          "pap": "E kuentanan ta na papiamentu.",
+          "nl": "De verhalen zijn in het Papiamentu.",
+          "opties": [
+            "De verhalen gaan over Papiamentu.",
+            "De verhalen zijn in het Nederlands vertaald.",
+            "De verhalen zijn in het Papiamentu.",
+            "De verhalen zijn in het Engels."
+          ],
+          "correct": 2,
+          "uitleg": "'Na papiamentu' = in het Papiamentu."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een bibliotheek die sluit",
+        "Een schrijfwedstrijd voor kinderen",
+        "Een nieuwe boekwinkel",
+        "Een voorleesuur voor kinderen in de bibliotheek"
+      ],
+      "correct": 3,
+      "uitleg": "Elke zaterdag worden er Papiamentstalige verhalen voorgelezen voor kinderen."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Despues di e kuenta, e muchanan ta pinta.",
+          "nl": "Na het verhaal gaan de kinderen tekenen.",
+          "opties": [
+            "Na het verhaal gaan de kinderen tekenen.",
+            "Na het verhaal gaan de kinderen naar huis.",
+            "Voor het verhaal gaan de kinderen tekenen.",
+            "Na het verhaal krijgen de kinderen een boek."
+          ],
+          "correct": 0,
+          "uitleg": "'Despues di' = na, 'pinta' = tekenen/verven."
+        },
+        {
+          "pap": "Mayornan por keda i tende tambe.",
+          "nl": "Ouders mogen blijven en ook luisteren.",
+          "opties": [
+            "Ouders mogen niet meekomen.",
+            "Ouders mogen blijven en meeluisteren.",
+            "Ouders moeten buiten wachten.",
+            "Ouders lezen ook een verhaal voor."
+          ],
+          "correct": 1,
+          "uitleg": "'Mayornan' = ouders, 'keda' = blijven, 'tende' = luisteren."
+        },
+        {
+          "pap": "E ora di lesa ta gratis.",
+          "nl": "Het leesuur is gratis.",
+          "opties": [
+            "Alleen leden mogen gratis komen.",
+            "De boeken zijn gratis.",
+            "Het leesuur is gratis.",
+            "Het leesuur kost geld."
+          ],
+          "correct": 2,
+          "uitleg": "'Gratis' = gratis."
+        }
+      ],
+      "vraag": "Wat is er verder te weten?",
+      "opties": [
+        "Kinderen moeten een boek meenemen",
+        "Het leesuur is alleen voor kinderen van leden",
+        "Ouders moeten betalen",
+        "De kinderen tekenen na het verhaal, ouders mogen blijven en het is gratis"
+      ],
+      "correct": 3,
+      "uitleg": "Na het verhaal wordt er getekend; ouders zijn welkom en het kost niets."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "biblioteka",
+      "uitspraak": "bi-bli-o-te-ka",
+      "vertaling": "bibliotheek"
+    },
+    {
+      "woord": "buki",
+      "uitspraak": "bu-ki",
+      "vertaling": "boek"
+    },
+    {
+      "woord": "lesa",
+      "uitspraak": "le-sa",
+      "vertaling": "lezen"
+    },
+    {
+      "woord": "kuenta",
+      "uitspraak": "kwen-ta",
+      "vertaling": "verhaal"
+    },
+    {
+      "woord": "mucha",
+      "uitspraak": "mu-tsja",
+      "vertaling": "kind"
+    },
+    {
+      "woord": "siman",
+      "uitspraak": "si-man",
+      "vertaling": "week"
+    }
+  ]
+}

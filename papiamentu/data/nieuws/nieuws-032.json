@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-032",
+  "titel": "Seleshon di basketbal ta klasifiká pa torneo regional",
+  "nivo": "Hard",
+  "kategoria": "Deporte",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Het nationale basketbalteam plaatst zich voor een regionaal toernooi na een spannende wedstrijd.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "E seleshon di basketbal di Kòrsou a klasifiká pa e torneo regional despues di un wega emoshonante kontra Trinidad.",
+          "nl": "Het basketbalteam van Curaçao heeft zich geplaatst voor het regionale toernooi na een spannende wedstrijd tegen Trinidad.",
+          "opties": [
+            "Curaçao plaatste zich na een spannende wedstrijd tegen Trinidad.",
+            "Curaçao werd uitgeschakeld door Trinidad.",
+            "Curaçao speelt volgende week tegen Trinidad.",
+            "Curaçao organiseert het regionale toernooi."
+          ],
+          "correct": 0,
+          "uitleg": "'Seleshon' = nationale ploeg, 'klasifiká' = zich plaatsen, 'emoshonante' = spannend."
+        },
+        {
+          "pap": "Den e último sekondenan, Jurich Leito a tira un tiro di tres punto ku a disidí e wega.",
+          "nl": "In de laatste seconden gooide Jurich Leito een driepunter die de wedstrijd besliste.",
+          "opties": [
+            "De wedstrijd werd beslist in de verlenging.",
+            "Een driepunter in de laatste seconden besliste de wedstrijd.",
+            "Een vrije worp in de eerste minuut besliste de wedstrijd.",
+            "Jurich Leito miste de beslissende worp."
+          ],
+          "correct": 1,
+          "uitleg": "'Tira' = gooien/schieten, 'tiro di tres punto' = driepunter, 'disidí' = beslissen."
+        },
+        {
+          "pap": "E resultado final tabata 78-76.",
+          "nl": "De eindstand was 78-76.",
+          "opties": [
+            "Het werd gelijkspel.",
+            "De eindstand was 87-67.",
+            "De eindstand was 78-76.",
+            "De eindstand was 76-78."
+          ],
+          "correct": 2,
+          "uitleg": "'Resultado final' = eindstand."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een ruime nederlaag tegen Trinidad",
+        "Een wedstrijd die werd afgelast",
+        "De selectie van nieuwe spelers",
+        "Een spannende overwinning met een beslissende driepunter"
+      ],
+      "correct": 3,
+      "uitleg": "Curaçao won met 78-76 dankzij een driepunter in de slotseconden en plaatste zich."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E sala di deporte tabata yen; mas ku 2.000 fanátiko a gritá durante henter e wega.",
+          "nl": "De sporthal zat vol; meer dan 2.000 fans schreeuwden de hele wedstrijd.",
+          "opties": [
+            "Ruim 2.000 fans moedigden luidkeels aan in een volle sporthal.",
+            "De sporthal was halfleeg.",
+            "De wedstrijd was zonder publiek.",
+            "200 fans zaten stil op de tribune."
+          ],
+          "correct": 0,
+          "uitleg": "'Sala di deporte' = sporthal, 'yen' = vol, 'gritá' = schreeuwen."
+        },
+        {
+          "pap": "Entrenadó Gregory Maduro a bisa ku e públiko tabata \"e di seis hungadó\".",
+          "nl": "Trainer Gregory Maduro zei dat het publiek \"de zesde speler\" was.",
+          "opties": [
+            "De trainer zei dat hij zes spelers miste.",
+            "De trainer noemde het publiek 'de zesde speler'.",
+            "De trainer klaagde over het publiek.",
+            "De trainer zette een zesde speler in."
+          ],
+          "correct": 1,
+          "uitleg": "'E di seis' = de zesde, 'hungadó' = speler. In basketbal staan er vijf spelers per team op het veld."
+        },
+        {
+          "pap": "Hopi di e hungadónan ta hunga normalmente den ekstranhero, i nan a bin Kòrsou spesialmente pa e wega aki.",
+          "nl": "Veel van de spelers spelen normaal in het buitenland, en ze kwamen speciaal voor deze wedstrijd naar Curaçao.",
+          "opties": [
+            "De spelers wonen allemaal in Trinidad.",
+            "Veel spelers konden niet komen.",
+            "Veel spelers spelen in het buitenland en kwamen speciaal voor deze wedstrijd.",
+            "Alle spelers spelen bij clubs op Curaçao."
+          ],
+          "correct": 2,
+          "uitleg": "'Normalmente' = normaal gesproken, 'ekstranhero' = buitenland, 'spesialmente' = speciaal."
+        }
+      ],
+      "vraag": "Wat droeg bij aan de sfeer?",
+      "opties": [
+        "Een lege zaal en weinig spelers",
+        "Nieuwe shirts en een nieuwe trainer",
+        "Muziek van een bekende band",
+        "Een vol huis met luid publiek en spelers die speciaal uit het buitenland kwamen"
+      ],
+      "correct": 3,
+      "uitleg": "Het publiek was 'de zesde speler', en spelers uit het buitenland kwamen speciaal over."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E torneo regional ta tuma lugá na mart, na Puerto Rico.",
+          "nl": "Het regionale toernooi vindt in maart plaats in Puerto Rico.",
+          "opties": [
+            "Het toernooi is in maart in Puerto Rico.",
+            "Het toernooi is in maart op Curaçao.",
+            "Het toernooi was vorig jaar in Puerto Rico.",
+            "Het toernooi is in mei in Trinidad."
+          ],
+          "correct": 0,
+          "uitleg": "'Tuma lugá' = plaatsvinden."
+        },
+        {
+          "pap": "E federashon ta buska sponsor pa kubri e gastu di biahe i hotèl.",
+          "nl": "De bond zoekt sponsors om de reis- en hotelkosten te dekken.",
+          "opties": [
+            "De bond verkoopt het hotel.",
+            "De bond zoekt sponsors voor de reis- en hotelkosten.",
+            "De bond heeft al genoeg geld.",
+            "De spelers betalen alles zelf."
+          ],
+          "correct": 1,
+          "uitleg": "'Federashon' = bond, 'kubri' = dekken, 'gastu' = kosten."
+        },
+        {
+          "pap": "Si nan no haña sufisiente plaka, nan lo mester biaha ku ménos hungadó.",
+          "nl": "Als ze niet genoeg geld vinden, moeten ze met minder spelers reizen.",
+          "opties": [
+            "Met meer geld nemen ze minder spelers mee.",
+            "Ze reizen hoe dan ook met het hele team.",
+            "Zonder genoeg geld reizen ze met minder spelers.",
+            "Zonder geld gaat het toernooi niet door."
+          ],
+          "correct": 2,
+          "uitleg": "'Sufisiente' = genoeg, 'ménos' = minder."
+        }
+      ],
+      "vraag": "Wat is het volgende probleem?",
+      "opties": [
+        "Een nieuwe trainer vinden",
+        "Een sporthal vinden voor de training",
+        "Spelers overtuigen om mee te gaan",
+        "Geld vinden voor de reis naar Puerto Rico, anders gaan er minder spelers mee"
+      ],
+      "correct": 3,
+      "uitleg": "Het toernooi is in maart; zonder sponsors kan niet het hele team mee."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "seleshon",
+      "uitspraak": "se-le-sjon",
+      "vertaling": "nationale ploeg"
+    },
+    {
+      "woord": "klasifiká",
+      "uitspraak": "kla-si-fi-ka",
+      "vertaling": "zich plaatsen"
+    },
+    {
+      "woord": "punto",
+      "uitspraak": "pun-to",
+      "vertaling": "punt"
+    },
+    {
+      "woord": "torneo",
+      "uitspraak": "tor-ne-o",
+      "vertaling": "toernooi"
+    },
+    {
+      "woord": "entrenadó",
+      "uitspraak": "en-tre-na-do",
+      "vertaling": "trainer"
+    },
+    {
+      "woord": "públiko",
+      "uitspraak": "pu-bli-ko",
+      "vertaling": "publiek"
+    }
+  ]
+}

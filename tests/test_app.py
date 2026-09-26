@@ -37,7 +37,7 @@ def message_count(app):
 # ---------- pages & content ----------
 
 @pytest.mark.parametrize("path", [
-    "/", "/scenarios", "/woorden", "/lessen", "/contact", "/privacy", "/instellingen", "/healthz",
+    "/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/contact", "/privacy", "/instellingen", "/healthz",
 ])
 def test_pages_ok(client, path):
     assert client.get(path).status_code == 200
@@ -49,9 +49,11 @@ def test_every_scenario_and_lesson_renders(app, client):
         assert client.get(f"/scenarios/{sid}").status_code == 200, sid
     for les in content.lessen:
         assert client.get(f"/lessen/{les['id']}").status_code == 200, les["id"]
+    for aid in content.nieuws:
+        assert client.get(f"/nieuws/{aid}").status_code == 200, aid
 
 
-@pytest.mark.parametrize("path", ["/nope", "/scenarios/scenario-999", "/lessen/999"])
+@pytest.mark.parametrize("path", ["/nope", "/scenarios/scenario-999", "/lessen/999", "/nieuws/nieuws-999"])
 def test_not_found(client, path):
     assert client.get(path).status_code == 404
 
@@ -74,6 +76,40 @@ def test_content_integrity(app):
             assert sid in c.scenarios and sid in listed
     word_ids = [w["id"] for l in c.woordenlijsten for w in l["woorden"]]
     assert len(word_ids) == len(set(word_ids))
+
+
+def test_nieuws_integrity(app):
+    from papiamentu.content import KATEGORIA_NL, NIVEAU_LABEL
+    c = app.extensions["content"]
+    assert c.nieuws, "at least one article"
+
+    def check_question(where, q):
+        assert 3 <= len(q["opties"]) <= 6 and 0 <= q["correct"] < len(q["opties"]), where
+        assert len({o.strip().lower() for o in q["opties"]}) == len(q["opties"]), where
+        assert all(o.strip() for o in q["opties"]), where
+
+    # Unlocking goes by position, so ids must be a gap-free sequence nieuws-001, nieuws-002, ...
+    assert list(c.nieuws) == [f"nieuws-{i:03d}" for i in range(1, len(c.nieuws) + 1)]
+    for aid, a in c.nieuws.items():
+        assert aid.startswith("nieuws-") and len(aid) <= 40
+        assert a["titel"].strip() and a["beschrijving"].strip(), aid
+        assert a["nivo"] in NIVEAU_LABEL and a["kategoria"] in KATEGORIA_NL, aid
+        assert a["paragrafen"], aid
+        for pi, p in enumerate(a["paragrafen"]):
+            check_question((aid, pi), p)
+            assert p["vraag"].strip() and p["uitleg"].strip(), (aid, pi)
+            assert p["zinnen"], (aid, pi)
+            for z in p["zinnen"]:
+                assert z["pap"].strip() and z["nl"].strip() and z["uitleg"].strip(), (aid, z["pap"])
+                check_question((aid, z["pap"]), z)
+        for w in a.get("sleutelwoorden", []):
+            assert w["woord"] and w["uitspraak"] and w["vertaling"], aid
+
+
+def test_home_and_sitemap_link_nieuws(app, client):
+    assert 'href="/nieuws"' in client.get("/").get_data(as_text=True)
+    sitemap = client.get("/sitemap.xml").get_data(as_text=True)
+    assert "/nieuws/nieuws-001" in sitemap
 
 
 # ---------- contact form ----------

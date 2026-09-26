@@ -1,0 +1,140 @@
+{
+  "id": "nieuws-030",
+  "titel": "Skol tin un hòfi di berdura",
+  "nivo": "Easy",
+  "kategoria": "Enseñansa",
+  "lugá": "SANTA ROSA",
+  "beschrijving": "Leerlingen van een basisschool kweken hun eigen groente.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Skol Kolibri tin un hòfi di berdura nobo.",
+          "nl": "School Kolibri heeft een nieuwe groentetuin.",
+          "opties": [
+            "School Kolibri heeft een nieuwe groentetuin.",
+            "School Kolibri heeft een nieuw sportveld.",
+            "School Kolibri verkoopt groente.",
+            "School Kolibri heeft geen tuin meer."
+          ],
+          "correct": 0,
+          "uitleg": "'Hòfi' = tuin, 'berdura' = groente."
+        },
+        {
+          "pap": "E muchanan a planta tomati, konkomber i promèntò.",
+          "nl": "De kinderen hebben tomaten, komkommers en paprika's geplant.",
+          "opties": [
+            "De kinderen kochten groente.",
+            "De kinderen plantten tomaten, komkommers en paprika's.",
+            "De kinderen aten tomaten en komkommers.",
+            "De kinderen plantten bomen."
+          ],
+          "correct": 1,
+          "uitleg": "'Planta' = planten, 'konkomber' = komkommer, 'promèntò' = paprika."
+        },
+        {
+          "pap": "Tur mainta nan ta duna e plantanan awa.",
+          "nl": "Elke ochtend geven ze de planten water.",
+          "opties": [
+            "Ze geven de planten één keer per week water.",
+            "De juf geeft de planten water.",
+            "Elke ochtend geven ze de planten water.",
+            "Elke avond geven ze de planten water."
+          ],
+          "correct": 2,
+          "uitleg": "'Duna awa' = water geven."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een school die groente koopt",
+        "Een tuin die kapot is",
+        "Een nieuwe juf op school",
+        "Kinderen die zelf groente kweken op school"
+      ],
+      "correct": 3,
+      "uitleg": "De kinderen plantten groente en geven die elke ochtend water."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Despues di dos luna, nan a kohe e promé tomatinan.",
+          "nl": "Na twee maanden plukten ze de eerste tomaten.",
+          "opties": [
+            "Na twee maanden plukten ze de eerste tomaten.",
+            "Na twee weken plukten ze de eerste tomaten.",
+            "De tomaten zijn nog niet rijp.",
+            "Na twee maanden gingen de tomaten dood."
+          ],
+          "correct": 0,
+          "uitleg": "'Luna' = maand, 'kohe' = plukken/pakken."
+        },
+        {
+          "pap": "E maestra a kushiná sòpi ku e berdura.",
+          "nl": "De juf kookte soep met de groente.",
+          "opties": [
+            "De juf nam de groente mee naar huis.",
+            "De juf maakte soep van de groente.",
+            "De juf verkocht de groente.",
+            "De kinderen maakten salade."
+          ],
+          "correct": 1,
+          "uitleg": "'Maestra' = juf/lerares, 'kushiná' = koken, 'sòpi' = soep."
+        },
+        {
+          "pap": "Tur mucha a kome i nan a bisa: \"Danki!\"",
+          "nl": "Alle kinderen aten mee en ze zeiden: \"Dank je!\"",
+          "opties": [
+            "De kinderen namen de soep mee naar huis.",
+            "De kinderen maakten zelf ook soep.",
+            "Alle kinderen aten mee en bedankten.",
+            "Niemand wilde de soep eten."
+          ],
+          "correct": 2,
+          "uitleg": "'Kome' = eten, 'danki' = dank je."
+        }
+      ],
+      "vraag": "Wat gebeurde er met de groente?",
+      "opties": [
+        "De groente werd verkocht op de markt",
+        "De groente ging weg naar een restaurant",
+        "De groente werd weggegooid",
+        "De juf kookte er soep van en alle kinderen aten mee"
+      ],
+      "correct": 3,
+      "uitleg": "Na twee maanden oogsten ze tomaten en de juf kookte soep voor iedereen."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "hòfi",
+      "uitspraak": "ho-fi",
+      "vertaling": "tuin, boomgaard"
+    },
+    {
+      "woord": "berdura",
+      "uitspraak": "ber-du-ra",
+      "vertaling": "groente"
+    },
+    {
+      "woord": "planta",
+      "uitspraak": "plan-ta",
+      "vertaling": "planten, plant"
+    },
+    {
+      "woord": "awa",
+      "uitspraak": "a-wa",
+      "vertaling": "water (geven)"
+    },
+    {
+      "woord": "tomati",
+      "uitspraak": "to-ma-ti",
+      "vertaling": "tomaat"
+    },
+    {
+      "woord": "kushiná",
+      "uitspraak": "ku-sji-na",
+      "vertaling": "koken"
+    }
+  ]
+}

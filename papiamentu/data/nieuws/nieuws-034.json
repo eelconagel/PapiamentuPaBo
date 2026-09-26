@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-034",
+  "titel": "Mucha ta grabá nòmbernan bieu di Boneiru",
+  "nivo": "Intermediate",
+  "kategoria": "Boneiru",
+  "lugá": "RINCON",
+  "beschrijving": "Kinderen op Bonaire nemen oude plaatsnamen op met de hulp van hun grootouders.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Studiantenan di un skol na Rincon ta grabá nòmbernan bieu di lugánan na Boneiru.",
+          "nl": "Leerlingen van een school in Rincon nemen oude namen van plaatsen op Bonaire op.",
+          "opties": [
+            "Leerlingen in Rincon nemen oude plaatsnamen van Bonaire op.",
+            "Leerlingen in Rincon bedenken nieuwe plaatsnamen.",
+            "Leerlingen in Rincon maken een film over Bonaire.",
+            "Een school in Rincon krijgt een nieuwe naam."
+          ],
+          "correct": 0,
+          "uitleg": "'Grabá' = opnemen, 'nòmber bieu' = oude naam, 'lugá' = plaats."
+        },
+        {
+          "pap": "Hopi di e nòmbernan aki no ta riba ningun mapa.",
+          "nl": "Veel van deze namen staan op geen enkele kaart.",
+          "opties": [
+            "De namen staan op oude kaarten.",
+            "Veel van deze namen staan op geen enkele kaart.",
+            "Alle namen staan op de kaart.",
+            "De kaarten zijn verloren gegaan."
+          ],
+          "correct": 1,
+          "uitleg": "'Ningun' = geen enkel(e), 'mapa' = kaart."
+        },
+        {
+          "pap": "Nan ta biba solamente den memoria di hende grandi.",
+          "nl": "Ze leven alleen voort in het geheugen van oudere mensen.",
+          "opties": [
+            "Iedereen kent ze nog.",
+            "Ze zijn bedacht door kinderen.",
+            "Ze bestaan alleen nog in het geheugen van ouderen.",
+            "Ze staan in een oud boek."
+          ],
+          "correct": 2,
+          "uitleg": "'Solamente' = alleen, 'memoria' = geheugen, 'hende grandi' = volwassenen/ouderen."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een nieuwe kaart van Bonaire",
+        "Ouderen die hun geheugen verliezen",
+        "Een school die gaat verhuizen",
+        "Leerlingen die oude plaatsnamen vastleggen die nergens zijn opgeschreven"
+      ],
+      "correct": 3,
+      "uitleg": "De namen staan niet op kaarten en leven alleen in het geheugen van ouderen."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Kada mucha a entrevistá su wela òf su welo.",
+          "nl": "Elk kind heeft zijn oma of opa geïnterviewd.",
+          "opties": [
+            "Elk kind interviewde zijn oma of opa.",
+            "De kinderen interviewden de burgemeester.",
+            "Oma's en opa's kwamen lesgeven.",
+            "Elk kind schreef een brief aan zijn opa."
+          ],
+          "correct": 0,
+          "uitleg": "'Entrevistá' = interviewen, 'wela' = oma, 'welo' = opa."
+        },
+        {
+          "pap": "Nan a haña mas ku 120 nòmber, manera \"Pos di Mangel\" i \"Seru Kabritu\".",
+          "nl": "Ze vonden meer dan 120 namen, zoals \"Pos di Mangel\" en \"Seru Kabritu\".",
+          "opties": [
+            "Ze vonden geen enkele naam.",
+            "Ze verzamelden ruim 120 namen.",
+            "Ze vonden twaalf namen.",
+            "Ze verzamelden 120 verhalen over geiten."
+          ],
+          "correct": 1,
+          "uitleg": "'Haña' = vinden, 'pos' = put/bron, 'seru' = heuvel."
+        },
+        {
+          "pap": "Tras di kada nòmber tin un historia.",
+          "nl": "Achter elke naam zit een verhaal.",
+          "opties": [
+            "Alleen de oudste namen hebben een verhaal.",
+            "Het verhaal komt uit een boek.",
+            "Achter elke naam zit een verhaal.",
+            "De namen hebben geen betekenis."
+          ],
+          "correct": 2,
+          "uitleg": "'Tras di' = achter, 'historia' = verhaal/geschiedenis."
+        }
+      ],
+      "vraag": "Hoe hebben ze de namen verzameld?",
+      "opties": [
+        "Door in de bibliotheek te zoeken",
+        "Door rond te vragen bij toeristen",
+        "Door oude kaarten te bestuderen",
+        "Door oma's en opa's te interviewen; ze vonden ruim 120 namen met elk een verhaal"
+      ],
+      "correct": 3,
+      "uitleg": "Interviews met grootouders leverden ruim 120 namen op, elk met een eigen verhaal."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E maestro, sr. Elvis Thodé, ta bisa ku idioma ta parti di nos identidat.",
+          "nl": "De leraar, meneer Elvis Thodé, zegt dat taal een deel van onze identiteit is.",
+          "opties": [
+            "De leraar zegt dat taal een deel van onze identiteit is.",
+            "De leraar zegt dat taal niet belangrijk is.",
+            "De leraar wil een nieuwe taal leren.",
+            "De leraar schrijft een boek over identiteit."
+          ],
+          "correct": 0,
+          "uitleg": "'Idioma' = taal, 'parti' = deel, 'identidat' = identiteit."
+        },
+        {
+          "pap": "\"Si nos no skibi e nòmbernan awor, nan lo pèrdí,\" e ta bisa.",
+          "nl": "\"Als we de namen nu niet opschrijven, gaan ze verloren,\" zegt hij.",
+          "opties": [
+            "Hij wil de namen geheimhouden.",
+            "Als we de namen nu niet opschrijven, gaan ze verloren.",
+            "De namen zijn al opgeschreven.",
+            "De namen gaan niet verloren."
+          ],
+          "correct": 1,
+          "uitleg": "'Skibi' = schrijven, 'pèrdí' = verloren gaan."
+        },
+        {
+          "pap": "E proyekto lo bira un mapa digital ku tur hende por usa.",
+          "nl": "Het project wordt een digitale kaart die iedereen kan gebruiken.",
+          "opties": [
+            "Het project stopt na dit jaar.",
+            "Alleen de leraar mag de kaart gebruiken.",
+            "Er komt een digitale kaart voor iedereen.",
+            "Er komt een papieren boek alleen voor de school."
+          ],
+          "correct": 2,
+          "uitleg": "'Bira' = worden, 'usa' = gebruiken."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Waarom de leraar stopt",
+        "Hoe duur het project is",
+        "Welke namen fout zijn",
+        "Waarom het project belangrijk is en wat het oplevert"
+      ],
+      "correct": 3,
+      "uitleg": "Taal hoort bij je identiteit; de namen worden vastgelegd op een digitale kaart voor iedereen."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "nòmber",
+      "uitspraak": "nom-ber",
+      "vertaling": "naam"
+    },
+    {
+      "woord": "grabá",
+      "uitspraak": "gra-ba",
+      "vertaling": "opnemen"
+    },
+    {
+      "woord": "welo",
+      "uitspraak": "we-lo",
+      "vertaling": "opa"
+    },
+    {
+      "woord": "historia",
+      "uitspraak": "is-to-ria",
+      "vertaling": "geschiedenis, verhaal"
+    },
+    {
+      "woord": "pèrdí",
+      "uitspraak": "per-di",
+      "vertaling": "verloren gaan"
+    },
+    {
+      "woord": "mapa",
+      "uitspraak": "ma-pa",
+      "vertaling": "kaart"
+    }
+  ]
+}

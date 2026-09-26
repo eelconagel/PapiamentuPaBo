@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-031",
+  "titel": "App nobo ta mustra ki ora bùs ta yega",
+  "nivo": "Intermediate",
+  "kategoria": "Ekonomia",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Een nieuwe app laat zien waar de bus is en wanneer hij aankomt.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Kompania di bùs a lansa un app nobo pa pasaheronan.",
+          "nl": "Het busbedrijf heeft een nieuwe app voor passagiers gelanceerd.",
+          "opties": [
+            "Het busbedrijf lanceerde een nieuwe app voor passagiers.",
+            "Het busbedrijf stopt met de bussen.",
+            "De passagiers hebben zelf een app gemaakt.",
+            "Het busbedrijf verkoopt nieuwe telefoons."
+          ],
+          "correct": 0,
+          "uitleg": "'Lansa' = lanceren, 'pasahero' = passagier."
+        },
+        {
+          "pap": "Riba un mapa bo por mira unda e bùs ta na e momento ei.",
+          "nl": "Op een kaart kun je zien waar de bus op dat moment is.",
+          "opties": [
+            "Je kunt de bus op de kaart bestellen.",
+            "Op een kaart zie je waar de bus nu is.",
+            "Op een kaart zie je alle haltes van vroeger.",
+            "De kaart laat zien waar je woont."
+          ],
+          "correct": 1,
+          "uitleg": "'Mapa' = kaart, 'unda' = waar, 'e momento ei' = dat moment."
+        },
+        {
+          "pap": "E app ta bisa tambe kuantu minüt ainda bo mester warda.",
+          "nl": "De app zegt ook hoeveel minuten je nog moet wachten.",
+          "opties": [
+            "De app zegt hoeveel de rit kost.",
+            "De app vertelt of de bus vol is.",
+            "De app vertelt hoeveel minuten je nog moet wachten.",
+            "De app laat je sneller instappen."
+          ],
+          "correct": 2,
+          "uitleg": "'Kuantu' = hoeveel, 'ainda' = nog, 'warda' = wachten."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een app om een taxi te bestellen",
+        "Een app om buskaartjes te kopen",
+        "Nieuwe bussen met wifi",
+        "Een app die laat zien waar de bus is en hoe lang je moet wachten"
+      ],
+      "correct": 3,
+      "uitleg": "De app toont de bus live op een kaart en de wachttijd."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Te awor, hopi hende tabata warda te un ora sin sa si e bùs lo bini.",
+          "nl": "Tot nu toe wachtten veel mensen soms een uur zonder te weten of de bus zou komen.",
+          "opties": [
+            "Tot nu toe wachtten mensen soms een uur zonder te weten of de bus kwam.",
+            "Tot nu toe kwam de bus altijd op tijd.",
+            "Mensen hoefden nooit langer dan vijf minuten te wachten.",
+            "Er reden tot nu toe geen bussen."
+          ],
+          "correct": 0,
+          "uitleg": "'Te awor' = tot nu toe, 'sin sa' = zonder te weten, 'si' = of."
+        },
+        {
+          "pap": "\"Awor mi por keda den kas te ora e bùs ta serka,\" un studiante ta bisa.",
+          "nl": "\"Nu kan ik thuis blijven tot de bus dichtbij is,\" zegt een student.",
+          "opties": [
+            "Een student loopt nu liever.",
+            "Een student kan nu thuis wachten tot de bus dichtbij is.",
+            "Een student zegt dat hij nu vaker te laat komt.",
+            "Een student gebruikt de app niet."
+          ],
+          "correct": 1,
+          "uitleg": "'Keda den kas' = thuis blijven, 'serka' = dichtbij."
+        },
+        {
+          "pap": "Na un siman, 15.000 persona a baha e app kaba.",
+          "nl": "In een week hebben al 15.000 mensen de app gedownload.",
+          "opties": [
+            "15.000 mensen hebben geklaagd over de app.",
+            "De app is nog niet te downloaden.",
+            "In een week downloadden al 15.000 mensen de app.",
+            "In een week werd de app 1.500 keer gedownload."
+          ],
+          "correct": 2,
+          "uitleg": "'Baha' = downloaden (letterlijk: omlaag halen), 'kaba' = al."
+        }
+      ],
+      "vraag": "Waarom is de app populair?",
+      "opties": [
+        "De bus wordt er goedkoper door",
+        "Je krijgt er gratis ritten mee",
+        "Hij werkt ook zonder internet",
+        "Mensen hoeven niet meer onzeker lang bij de halte te wachten"
+      ],
+      "correct": 3,
+      "uitleg": "Vroeger was wachten onzeker; nu wacht je thuis. Al 15.000 downloads in een week."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E app ta gratis, pero bo mester tin internet riba bo telefòn.",
+          "nl": "De app is gratis, maar je moet internet op je telefoon hebben.",
+          "opties": [
+            "De app is gratis, maar je hebt internet op je telefoon nodig.",
+            "De app kost geld en werkt zonder internet.",
+            "De app werkt alleen op de computer.",
+            "Je krijgt gratis internet bij de app."
+          ],
+          "correct": 0,
+          "uitleg": "'Mester tin' = moeten hebben."
+        },
+        {
+          "pap": "Pa hende sin telefòn, e kompania lo pone pantaya den e paradanan mas grandi.",
+          "nl": "Voor mensen zonder telefoon plaatst het bedrijf schermen bij de grootste haltes.",
+          "opties": [
+            "Er komen schermen in de bussen.",
+            "Voor mensen zonder telefoon komen er schermen bij de grote haltes.",
+            "Mensen zonder telefoon krijgen een gratis telefoon.",
+            "Mensen zonder telefoon mogen niet meer mee."
+          ],
+          "correct": 1,
+          "uitleg": "'Pantaya' = scherm, 'parada' = halte."
+        },
+        {
+          "pap": "E promé pantayanan lo ta na Punda i Otrobanda.",
+          "nl": "De eerste schermen komen in Punda en Otrobanda.",
+          "opties": [
+            "Er komen alleen schermen in Bándabou.",
+            "Er komen geen schermen.",
+            "De eerste schermen komen in Punda en Otrobanda.",
+            "De eerste schermen staan op het vliegveld."
+          ],
+          "correct": 2,
+          "uitleg": "'Promé' = eerste."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Hoe je de app betaalt",
+        "Welke telefoon je moet kopen",
+        "Waarom de app offline is",
+        "Wat je nodig hebt en de schermen voor mensen zonder telefoon"
+      ],
+      "correct": 3,
+      "uitleg": "Gratis met internet; mensen zonder telefoon krijgen schermen bij grote haltes."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "app",
+      "uitspraak": "ep",
+      "vertaling": "app"
+    },
+    {
+      "woord": "yega",
+      "uitspraak": "je-ga",
+      "vertaling": "aankomen"
+    },
+    {
+      "woord": "warda",
+      "uitspraak": "war-da",
+      "vertaling": "wachten"
+    },
+    {
+      "woord": "gratis",
+      "uitspraak": "gra-tis",
+      "vertaling": "gratis"
+    },
+    {
+      "woord": "pasahero",
+      "uitspraak": "pa-sa-he-ro",
+      "vertaling": "passagier"
+    },
+    {
+      "woord": "mapa",
+      "uitspraak": "ma-pa",
+      "vertaling": "kaart"
+    }
+  ]
+}

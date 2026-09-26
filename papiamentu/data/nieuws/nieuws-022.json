@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-022",
+  "titel": "Kachó pèrdí a bolbe kas despues di un siman",
+  "nivo": "Intermediate",
+  "kategoria": "Lokal",
+  "lugá": "SANTA MARIA",
+  "beschrijving": "Een hond die een week kwijt was, is teruggevonden dankzij sociale media.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Siman pasá e kachó Bobby a kore sali den un fiesta di fuego.",
+          "nl": "Vorige week rende de hond Bobby weg tijdens vuurwerk.",
+          "opties": [
+            "Vorige week rende de hond Bobby weg door vuurwerk.",
+            "Vorige week kreeg de familie een nieuwe hond, Bobby.",
+            "Bobby rende vorige week mee in een wedstrijd.",
+            "Bobby werd vorige week ziek door vuurwerk."
+          ],
+          "correct": 0,
+          "uitleg": "'Siman pasá' = vorige week, 'kore sali' = wegrennen, 'fiesta di fuego' = vuurwerk."
+        },
+        {
+          "pap": "Su doño, Shurandy (9), tabata hopi tristu.",
+          "nl": "Zijn baasje, Shurandy (9), was erg verdrietig.",
+          "opties": [
+            "Zijn baasje was niet thuis.",
+            "Zijn baasje van negen was erg verdrietig.",
+            "Zijn baasje van negen was boos.",
+            "De hond was negen jaar oud."
+          ],
+          "correct": 1,
+          "uitleg": "'Doño' = eigenaar/baasje, 'tristu' = verdrietig."
+        },
+        {
+          "pap": "E famia a buska henter bario, pero nan no a hañ'é.",
+          "nl": "De familie zocht de hele wijk af, maar ze vonden hem niet.",
+          "opties": [
+            "De familie zocht niet, omdat ze op vakantie waren.",
+            "De buren vonden hem in hun tuin.",
+            "De familie zocht de hele wijk af, maar vond hem niet.",
+            "De familie vond hem meteen in de wijk."
+          ],
+          "correct": 2,
+          "uitleg": "'Henter bario' = de hele wijk, 'hañ'é' = hem vinden (haña + e)."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een hond die gestolen wordt",
+        "Een kind dat een hond cadeau krijgt",
+        "Een familie die verhuist",
+        "Een hond die wegloopt door vuurwerk en een verdrietig kind"
+      ],
+      "correct": 3,
+      "uitleg": "Bobby rende weg door het vuurwerk en de familie kon hem niet vinden."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Su ruman grandi a pone un foto di Bobby riba media sosial.",
+          "nl": "Zijn oudere broer of zus zette een foto van Bobby op sociale media.",
+          "opties": [
+            "Het oudere broertje of zusje zette een foto van Bobby online.",
+            "Een buurman zette een foto van Bobby in de krant.",
+            "De politie deelde een foto van Bobby.",
+            "Shurandy maakte posters met een foto."
+          ],
+          "correct": 0,
+          "uitleg": "'Ruman' = broer of zus, 'ruman grandi' = oudere broer/zus, 'pone' = zetten."
+        },
+        {
+          "pap": "Den dos dia, mas ku 2.000 hende a kompartí e foto.",
+          "nl": "Binnen twee dagen deelden meer dan 2.000 mensen de foto.",
+          "opties": [
+            "Twee mensen deelden de foto.",
+            "Binnen twee dagen deelden ruim 2.000 mensen de foto.",
+            "Binnen twee dagen zagen 200 mensen de foto.",
+            "Na twee weken deelden 2.000 mensen de foto."
+          ],
+          "correct": 1,
+          "uitleg": "'Den dos dia' = binnen twee dagen, 'kompartí' = delen."
+        },
+        {
+          "pap": "Djabièrnè un señora di Santa Maria a yama: e kachó tabata den su kurá.",
+          "nl": "Vrijdag belde een mevrouw uit Santa Maria: de hond was in haar tuin.",
+          "opties": [
+            "Een mevrouw heeft de hond naar het asiel gebracht.",
+            "Vrijdag zag een mevrouw de hond op tv.",
+            "Vrijdag belde een mevrouw: de hond zat in haar tuin.",
+            "Vrijdag belde de dierenarts over de hond."
+          ],
+          "correct": 2,
+          "uitleg": "'Djabièrnè' = vrijdag, 'kurá' = (achter)tuin/erf."
+        }
+      ],
+      "vraag": "Hoe werd Bobby gevonden?",
+      "opties": [
+        "Via een oproep op de radio",
+        "De hond kwam zelf terug naar huis",
+        "Via een chip bij de dierenarts",
+        "Via een foto op sociale media die heel vaak gedeeld werd"
+      ],
+      "correct": 3,
+      "uitleg": "De foto werd massaal gedeeld en een mevrouw vond hem in haar tuin."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Bobby tabata kansá i tin hamber, pero salú.",
+          "nl": "Bobby was moe en had honger, maar was gezond.",
+          "opties": [
+            "Bobby was moe en hongerig, maar gezond.",
+            "Bobby was gewond en moest naar de dierenarts.",
+            "Bobby was vrolijk en had al gegeten.",
+            "Bobby was erg ziek."
+          ],
+          "correct": 0,
+          "uitleg": "'Kansá' = moe, 'tin hamber' = honger hebben, 'salú' = gezond(heid)."
+        },
+        {
+          "pap": "Shurandy a hari i brasa su kachó un bon rato.",
+          "nl": "Shurandy lachte en knuffelde zijn hond een hele tijd.",
+          "opties": [
+            "Shurandy wilde de hond niet meer zien.",
+            "Shurandy lachte en knuffelde zijn hond lang.",
+            "Shurandy huilde van verdriet.",
+            "Shurandy gaf de hond een koekje."
+          ],
+          "correct": 1,
+          "uitleg": "'Hari' = lachen, 'brasa' = omhelzen/knuffelen, 'un bon rato' = een hele tijd."
+        },
+        {
+          "pap": "E famia ta gradisí tur hende ku a yuda.",
+          "nl": "De familie bedankt iedereen die geholpen heeft.",
+          "opties": [
+            "De familie is boos op de buurt.",
+            "De familie biedt een beloning aan.",
+            "De familie bedankt iedereen die hielp.",
+            "De familie vraagt nog steeds om hulp."
+          ],
+          "correct": 2,
+          "uitleg": "'Gradisí' = bedanken, 'yuda' = helpen."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een hond die opnieuw wegloopt",
+        "Een beloning voor de vinder",
+        "Een ruzie met de mevrouw uit Santa Maria",
+        "Een blij weerzien en dankbaarheid voor de hulp"
+      ],
+      "correct": 3,
+      "uitleg": "Bobby is moe maar gezond, Shurandy is blij en de familie bedankt iedereen."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "kachó",
+      "uitspraak": "ka-tsjo",
+      "vertaling": "hond"
+    },
+    {
+      "woord": "pèrdí",
+      "uitspraak": "per-di",
+      "vertaling": "verloren, kwijt"
+    },
+    {
+      "woord": "buska",
+      "uitspraak": "bus-ka",
+      "vertaling": "zoeken"
+    },
+    {
+      "woord": "media sosial",
+      "uitspraak": "me-dia so-sial",
+      "vertaling": "sociale media"
+    },
+    {
+      "woord": "feliz",
+      "uitspraak": "fe-lis",
+      "vertaling": "blij, gelukkig"
+    },
+    {
+      "woord": "foto",
+      "uitspraak": "fo-to",
+      "vertaling": "foto"
+    }
+  ]
+}

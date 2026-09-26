@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-037",
+  "titel": "Grandinan ta baila pa keda salú",
+  "nivo": "Intermediate",
+  "kategoria": "Salú",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "In een buurthuis dansen ouderen twee keer per week om fit en vrolijk te blijven.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Dos biaha pa siman, un grupo di grandi ta baila den e sentro di bario di Seru Fortuna.",
+          "nl": "Twee keer per week danst een groep ouderen in het buurthuis van Seru Fortuna.",
+          "opties": [
+            "Twee keer per week dansen ouderen in het buurthuis.",
+            "Twee keer per jaar is er een dansfeest voor ouderen.",
+            "Ouderen geven dansles aan kinderen.",
+            "Het buurthuis sluit twee keer per week."
+          ],
+          "correct": 0,
+          "uitleg": "'Dos biaha' = twee keer, 'grandi' = oudere, 'sentro di bario' = buurthuis."
+        },
+        {
+          "pap": "E hende di mas bieu den e grupo tin 91 aña.",
+          "nl": "De oudste persoon in de groep is 91 jaar.",
+          "opties": [
+            "Er zijn 91 mensen in de groep.",
+            "De oudste in de groep is 91 jaar.",
+            "De jongste in de groep is 91 jaar.",
+            "De groep bestaat al 91 jaar."
+          ],
+          "correct": 1,
+          "uitleg": "'Di mas bieu' = oudste, 'tin 91 aña' = is 91 jaar (letterlijk: heeft 91 jaar)."
+        },
+        {
+          "pap": "Nan ta baila tumba, wals i merengue.",
+          "nl": "Ze dansen tumba, wals en merengue.",
+          "opties": [
+            "Ze kijken naar tumba en merengue.",
+            "Ze leren salsa.",
+            "Ze dansen tumba, wals en merengue.",
+            "Ze dansen alleen moderne dans."
+          ],
+          "correct": 2,
+          "uitleg": "'Baila' = dansen. Tumba is een typische dans en muziekstijl van Curaçao."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een dansschool voor kinderen",
+        "Een tumbafestival",
+        "Een buurthuis dat sluit",
+        "Een dansgroep voor ouderen in het buurthuis"
+      ],
+      "correct": 3,
+      "uitleg": "Ouderen dansen twee keer per week verschillende dansen; de oudste is 91."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Segun e dòkter ku ta yuda e grupo, baila ta bon pa kurason i pa memoria.",
+          "nl": "Volgens de dokter die de groep helpt, is dansen goed voor het hart en het geheugen.",
+          "opties": [
+            "Volgens de dokter is dansen goed voor hart en geheugen.",
+            "Volgens de dokter is dansen slecht voor het hart.",
+            "De dokter danst zelf mee.",
+            "De dokter zegt dat ouderen niet moeten dansen."
+          ],
+          "correct": 0,
+          "uitleg": "'Kurason' = hart, 'memoria' = geheugen."
+        },
+        {
+          "pap": "E grandinan ta kai ménos, pasobra nan balans ta mihó.",
+          "nl": "De ouderen vallen minder, omdat hun evenwicht beter is.",
+          "opties": [
+            "De ouderen dansen minder dan vroeger.",
+            "De ouderen vallen minder, omdat hun evenwicht beter is.",
+            "De ouderen vallen vaker tijdens het dansen.",
+            "De ouderen hebben last van hun knieën."
+          ],
+          "correct": 1,
+          "uitleg": "'Kai' = vallen, 'ménos' = minder, 'mihó' = beter."
+        },
+        {
+          "pap": "I tambe nan ta sinti nan ménos so.",
+          "nl": "En ze voelen zich ook minder eenzaam.",
+          "opties": [
+            "Ze willen liever alleen dansen.",
+            "Ze voelen zich moe.",
+            "Ze voelen zich ook minder eenzaam.",
+            "Ze voelen zich eenzamer."
+          ],
+          "correct": 2,
+          "uitleg": "'Sinti' = voelen, 'so' = alleen/eenzaam."
+        }
+      ],
+      "vraag": "Wat zijn de voordelen van het dansen?",
+      "opties": [
+        "Ze verdienen er geld mee",
+        "Ze hoeven niet meer naar de dokter",
+        "Ze worden beroemd",
+        "Goed voor hart en geheugen, minder vallen en minder eenzaamheid"
+      ],
+      "correct": 3,
+      "uitleg": "Beter voor hart, geheugen en evenwicht, en ze voelen zich minder alleen."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Señora Chabela (84) ta bisa ku e ta spera e dianan aki henter siman.",
+          "nl": "Mevrouw Chabela (84) zegt dat ze de hele week naar deze dagen uitkijkt.",
+          "opties": [
+            "Mevrouw Chabela kijkt de hele week uit naar de dansdagen.",
+            "Mevrouw Chabela vindt de dansdagen te vermoeiend.",
+            "Mevrouw Chabela danst elke dag.",
+            "Mevrouw Chabela is de dansleraar."
+          ],
+          "correct": 0,
+          "uitleg": "'Spera' = wachten op/uitkijken naar, 'henter siman' = de hele week."
+        },
+        {
+          "pap": "\"Ora mi tende muzik, mi ta lubidá mi dolor,\" e ta hari.",
+          "nl": "\"Als ik muziek hoor, vergeet ik mijn pijn,\" lacht ze.",
+          "opties": [
+            "Ze vergeet vaak de danspasjes.",
+            "Als ze muziek hoort, vergeet ze haar pijn.",
+            "Muziek geeft haar hoofdpijn.",
+            "Ze houdt niet van muziek."
+          ],
+          "correct": 1,
+          "uitleg": "'Ora' = als/wanneer, 'lubidá' = vergeten, 'dolor' = pijn."
+        },
+        {
+          "pap": "E sentro ta buska mas boluntario pa e grupo por krese.",
+          "nl": "Het buurthuis zoekt meer vrijwilligers zodat de groep kan groeien.",
+          "opties": [
+            "De groep mag niet groter worden.",
+            "Het buurthuis zoekt een nieuwe dokter.",
+            "Het buurthuis zoekt vrijwilligers zodat de groep kan groeien.",
+            "Het buurthuis heeft te veel vrijwilligers."
+          ],
+          "correct": 2,
+          "uitleg": "'Pa' = zodat, 'krese' = groeien."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Klachten van de buren over de muziek",
+        "De kosten van de danslessen",
+        "Een nieuwe dansleraar",
+        "Wat het dansen voor een deelnemer betekent, en een oproep voor vrijwilligers"
+      ],
+      "correct": 3,
+      "uitleg": "Voor Chabela is het het hoogtepunt van de week; het buurthuis zoekt vrijwilligers om te groeien."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "grandi",
+      "uitspraak": "gran-di",
+      "vertaling": "oudere (grandinan = ouderen)"
+    },
+    {
+      "woord": "baila",
+      "uitspraak": "bai-la",
+      "vertaling": "dansen"
+    },
+    {
+      "woord": "sentro di bario",
+      "uitspraak": "sen-tro di ba-rio",
+      "vertaling": "buurthuis"
+    },
+    {
+      "woord": "muzik",
+      "uitspraak": "mu-sik",
+      "vertaling": "muziek"
+    },
+    {
+      "woord": "amistat",
+      "uitspraak": "a-mis-tat",
+      "vertaling": "vriendschap"
+    },
+    {
+      "woord": "salú",
+      "uitspraak": "sa-lu",
+      "vertaling": "gezond"
+    }
+  ]
+}

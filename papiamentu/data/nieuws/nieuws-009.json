@@ -1,0 +1,140 @@
+{
+  "id": "nieuws-009",
+  "titel": "Bùs nobo pa Bándabou",
+  "nivo": "Easy",
+  "kategoria": "Lokal",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Er rijdt een nieuwe buslijn naar het westen van het eiland, ook in het weekend.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "For di djaluna tin un bùs nobo pa Bándabou.",
+          "nl": "Vanaf maandag is er een nieuwe bus naar Bándabou.",
+          "opties": [
+            "Op maandag gaat iedereen met de bus naar Bándabou.",
+            "Vanaf maandag rijdt er een nieuwe bus naar Bándabou.",
+            "Vanaf maandag rijdt er geen bus meer naar Bándabou.",
+            "Maandag is de bus naar Bándabou kapot gegaan."
+          ],
+          "correct": 1,
+          "uitleg": "'For di' = vanaf, 'djaluna' = maandag, 'tin' = er is/zijn, 'nobo' = nieuw."
+        },
+        {
+          "pap": "E bùs ta sali tur ora for di Otrobanda.",
+          "nl": "De bus vertrekt elk uur vanuit Otrobanda.",
+          "opties": [
+            "De bus rijdt de hele dag naar Otrobanda.",
+            "De bus vertrekt elk half uur uit Punda.",
+            "De bus vertrekt elk uur uit Otrobanda.",
+            "De bus vertrekt maar één keer per dag."
+          ],
+          "correct": 2,
+          "uitleg": "'Sali' = vertrekken/naar buiten gaan, 'tur ora' = elk uur."
+        },
+        {
+          "pap": "Tambe djasabra i djadumingu e ta kore.",
+          "nl": "Ook op zaterdag en zondag rijdt hij.",
+          "opties": [
+            "Op zaterdag en zondag rijdt hij niet.",
+            "Hij rijdt alleen op zaterdag.",
+            "Op zondag rijdt er een andere bus.",
+            "Hij rijdt ook op zaterdag en zondag."
+          ],
+          "correct": 3,
+          "uitleg": "'Tambe' = ook. Een bus 'ta kore' = rijdt (letterlijk: rent)."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een nieuwe buslijn, die elk uur rijdt, ook in het weekend",
+        "Een buslijn die gaat verdwijnen",
+        "Een nieuwe busstation in Bándabou",
+        "Een staking van buschauffeurs"
+      ],
+      "correct": 0,
+      "uitleg": "De alinea vertelt dat er een nieuwe bus is, hoe vaak hij rijdt en op welke dagen."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Chofer Rudsel ta kontentu ku e ruta nobo.",
+          "nl": "Chauffeur Rudsel is blij met de nieuwe route.",
+          "opties": [
+            "Chauffeur Rudsel heeft de route bedacht.",
+            "Chauffeur Rudsel is blij met de nieuwe route.",
+            "Chauffeur Rudsel vindt de nieuwe route te lang.",
+            "Chauffeur Rudsel gaat met pensioen."
+          ],
+          "correct": 1,
+          "uitleg": "'Kontentu ku' = blij/tevreden met."
+        },
+        {
+          "pap": "\"Hende no mester warda muchu mas na parada,\" e ta bisa.",
+          "nl": "\"Mensen hoeven niet veel meer te wachten bij de halte,\" zegt hij.",
+          "opties": [
+            "Er komen meer haltes bij.",
+            "Mensen moeten bij de halte een kaartje kopen.",
+            "Mensen hoeven niet lang meer te wachten bij de halte.",
+            "Mensen moeten nu langer wachten bij de halte."
+          ],
+          "correct": 2,
+          "uitleg": "'No mester' = hoeven niet, 'warda' = wachten, 'muchu mas' = veel langer/meer, 'parada' = halte."
+        },
+        {
+          "pap": "E promé dia, e bùs tabata yen.",
+          "nl": "De eerste dag was de bus vol.",
+          "opties": [
+            "De eerste dag was de bus leeg.",
+            "De eerste dag kwam de bus te laat.",
+            "De eerste dag reed de bus niet.",
+            "De eerste dag zat de bus vol."
+          ],
+          "correct": 3,
+          "uitleg": "'Promé' = eerste, 'tabata' = was, 'yen' = vol."
+        }
+      ],
+      "vraag": "Wat vinden de mensen ervan?",
+      "opties": [
+        "De chauffeur is blij, mensen hoeven minder te wachten en de bus was meteen vol",
+        "Niemand wil met de nieuwe bus",
+        "De chauffeur klaagt over de drukte",
+        "De passagiers vinden de bus te duur"
+      ],
+      "correct": 0,
+      "uitleg": "De reacties zijn positief: minder wachten en een volle bus op dag één."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "bùs",
+      "uitspraak": "bus",
+      "vertaling": "bus"
+    },
+    {
+      "woord": "ruta",
+      "uitspraak": "ru-ta",
+      "vertaling": "route"
+    },
+    {
+      "woord": "parada",
+      "uitspraak": "pa-ra-da",
+      "vertaling": "halte"
+    },
+    {
+      "woord": "chofer",
+      "uitspraak": "sjo-fer",
+      "vertaling": "chauffeur"
+    },
+    {
+      "woord": "trankil",
+      "uitspraak": "tran-kil",
+      "vertaling": "rustig"
+    },
+    {
+      "woord": "fin di siman",
+      "uitspraak": "fin di si-man",
+      "vertaling": "weekend"
+    }
+  ]
+}

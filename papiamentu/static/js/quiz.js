@@ -1,4 +1,5 @@
-// Multiple-choice quiz used by scenarios (5 questions) and lessons (20 questions).
+// Multiple-choice quiz used by scenarios (5 questions) and lessons (20 questions),
+// plus Quiz.ask for single questions (news reader).
 // questions: [{ question, options, correct, explanation? }]
 (function () {
   function el(tag, cls, text) {
@@ -127,6 +128,65 @@
 
     this.start = start;
   }
+
+  /**
+   * One stand-alone question (used by the news reader): shuffled options, instant feedback,
+   * optional explanation, then a "next" button.
+   * q: { question, options, correct, explanation? }
+   * opts.onAnswer(isCorrect), opts.nextLabel, opts.onNext, opts.before (node shown under the question)
+   */
+  let activeAsk = null;
+  Quiz.ask = function (root, q, opts) {
+    const [p] = prepare([q]);
+    let answered = false;
+    root.innerHTML = '';
+    root.append(el('h2', 'quiz-question', p.question));
+    if (opts.before) root.append(opts.before);
+    const buttons = p.options.map((opt, i) => {
+      const b = el('button', 'option');
+      b.type = 'button';
+      b.append(el('span', 'option-key', LETTERS[i]), el('span', null, opt));
+      b.addEventListener('click', () => choose(i));
+      root.append(b);
+      return b;
+    });
+    const after = el('div', 'quiz-after');
+    root.append(after);
+
+    function choose(i) {
+      if (answered) return;
+      answered = true;
+      const ok = i === p.correctIdx;
+      buttons.forEach((b, j) => {
+        b.disabled = true;
+        if (j === p.correctIdx) b.classList.add('correct');
+        else if (j === i) b.classList.add('wrong');
+      });
+      after.append(el('div', 'feedback ' + (ok ? 'ok' : 'bad'), ok ? 'Goed!' : 'Helaas, dat klopt niet.'));
+      if (p.explanation) after.append(el('div', 'explanation', p.explanation));
+      if (opts.onAnswer) opts.onAnswer(ok);
+      const next = el('button', 'btn btn-primary block', opts.nextLabel || 'Verder');
+      next.type = 'button';
+      next.addEventListener('click', () => { activeAsk = null; opts.onNext(); });
+      after.append(next);
+      next.focus({ preventScroll: true });
+    }
+    activeAsk = { root, buttons, isAnswered: () => answered };
+  };
+
+  // Keyboard for Quiz.ask: a-d or 1-4 picks an answer.
+  document.addEventListener('keydown', (e) => {
+    if (!activeAsk || activeAsk.isAnswered() || !activeAsk.root.offsetParent) return;
+    if (e.altKey || e.ctrlKey || e.metaKey) return;
+    const tag = (e.target.tagName || '').toLowerCase();
+    if (tag === 'input' || tag === 'textarea') return;
+    const key = e.key.toLowerCase();
+    const n = LETTERS.includes(key) ? LETTERS.indexOf(key) + 1 : Number(key);
+    if (n >= 1 && n <= activeAsk.buttons.length) {
+      e.preventDefault();
+      activeAsk.buttons[n - 1].click();
+    }
+  });
 
   window.Quiz = Quiz;
 })();

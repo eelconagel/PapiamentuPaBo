@@ -47,6 +47,7 @@ def _progress_summary(raw):
         "xp": data.get("xp", 0),
         "lessen": sum(1 for steps in data.get("lessen", {}).values() if len(steps) >= 4),
         "scenarios": len(data.get("scenarios", {})),
+        "nieuws": len(data.get("nieuws", {})),
         "woorden": sum(1 for w in data.get("woorden", {}).values() if w.get("is_mastered")),
     }
 

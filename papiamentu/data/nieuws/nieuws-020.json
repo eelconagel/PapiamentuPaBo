@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-020",
+  "titel": "Rekòrt di barku krusero, pero no tur hende ta kontentu",
+  "nivo": "Hard",
+  "kategoria": "Ekonomia",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Er komen meer cruiseschepen dan ooit. Winkeliers zijn blij, bewoners klagen over drukte.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "E temporada aki, 310 barku krusero lo bishitá Kòrsou, mas ku nunka promé.",
+          "nl": "Dit seizoen zullen 310 cruiseschepen Curaçao bezoeken, meer dan ooit tevoren.",
+          "opties": [
+            "Dit seizoen komen er 310 cruiseschepen, meer dan ooit.",
+            "Dit seizoen komen er minder cruiseschepen dan vorig jaar.",
+            "Er komen 31 cruiseschepen per week.",
+            "Vorig seizoen kwamen er 310 cruiseschepen."
+          ],
+          "correct": 0,
+          "uitleg": "'Temporada' = seizoen, 'bishitá' = bezoeken, 'mas ku nunka promé' = meer dan ooit tevoren."
+        },
+        {
+          "pap": "Riba algun dia, tres barku grandi ta mara na mesun tempu, ku te ku 12.000 pasahero.",
+          "nl": "Op sommige dagen liggen er drie grote schepen tegelijk aan, met tot wel 12.000 passagiers.",
+          "opties": [
+            "Soms liggen er twaalf schepen tegelijk.",
+            "Soms liggen er drie schepen tegelijk, met tot 12.000 passagiers.",
+            "Er ligt nooit meer dan één schip tegelijk.",
+            "Elke dag komen er 12.000 passagiers."
+          ],
+          "correct": 1,
+          "uitleg": "'Mara' = aanmeren, 'mesun tempu' = tegelijk, 'te ku' = tot (wel)."
+        },
+        {
+          "pap": "Pa e komersio den Punda i Otrobanda esaki ta un bon notisia.",
+          "nl": "Voor de winkels in Punda en Otrobanda is dit goed nieuws.",
+          "opties": [
+            "De winkels in Punda gaan sluiten.",
+            "Het nieuws is alleen goed voor de haven.",
+            "Voor de winkels in Punda en Otrobanda is dit goed nieuws.",
+            "De winkels in Punda en Otrobanda zijn er niet blij mee."
+          ],
+          "correct": 2,
+          "uitleg": "'Komersio' = handel/winkels, 'notisia' = nieuws(bericht)."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Minder cruiseschepen door slecht weer",
+        "Een nieuwe haven in Otrobanda",
+        "Winkels die klagen over te weinig toeristen",
+        "Een recordaantal cruiseschepen, goed nieuws voor de winkels"
+      ],
+      "correct": 3,
+      "uitleg": "Er komen meer schepen dan ooit, soms met duizenden passagiers tegelijk; winkels profiteren."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Un doño di tienda di rekuerdo ta konta ku su benta a dobla kompará ku aña pasá.",
+          "nl": "Een eigenaar van een souvenirwinkel vertelt dat zijn verkoop verdubbeld is vergeleken met vorig jaar.",
+          "opties": [
+            "Een souvenirwinkel verkoopt twee keer zoveel als vorig jaar.",
+            "Een souvenirwinkel verkoopt de helft van vorig jaar.",
+            "Een souvenirwinkel is vorig jaar geopend.",
+            "De eigenaar wil zijn winkel verkopen."
+          ],
+          "correct": 0,
+          "uitleg": "'Tienda di rekuerdo' = souvenirwinkel, 'benta' = verkoop, 'dobla' = verdubbelen, 'kompará ku' = vergeleken met."
+        },
+        {
+          "pap": "Chofernan di taxi i guia di tour tambe ta haña mas trabou.",
+          "nl": "Taxichauffeurs en gidsen krijgen ook meer werk.",
+          "opties": [
+            "Gidsen mogen niet meer in de stad werken.",
+            "Ook taxichauffeurs en gidsen hebben meer werk.",
+            "Taxichauffeurs verliezen hun werk.",
+            "Er zijn te weinig gidsen."
+          ],
+          "correct": 1,
+          "uitleg": "'Guia' = gids, 'haña' = krijgen."
+        },
+        {
+          "pap": "Segun Kámara di Komersio, kada pasahero ta gasta mas o ménos 90 dòler na tera.",
+          "nl": "Volgens de Kamer van Koophandel geeft elke passagier ongeveer 90 dollar uit aan land.",
+          "opties": [
+            "Passagiers geven samen 90 dollar per dag uit.",
+            "Passagiers geven aan boord 90 dollar uit.",
+            "Elke passagier geeft aan land zo'n 90 dollar uit.",
+            "Elke passagier betaalt 90 dollar havengeld."
+          ],
+          "correct": 2,
+          "uitleg": "'Kada' = elke, 'gasta' = uitgeven, 'na tera' = aan land."
+        }
+      ],
+      "vraag": "Wie profiteren ervan?",
+      "opties": [
+        "Alleen de rederijen",
+        "Vooral hotels en restaurants buiten de stad",
+        "Niemand, want passagiers blijven aan boord",
+        "Winkeliers, taxichauffeurs en gidsen, dankzij de uitgaven van passagiers"
+      ],
+      "correct": 3,
+      "uitleg": "Souvenirwinkels, taxi's en gidsen hebben meer werk; passagiers geven gemiddeld 90 dollar uit."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Pero habitantenan di Otrobanda ta keha di tráfiko i di bulla.",
+          "nl": "Maar bewoners van Otrobanda klagen over verkeer en lawaai.",
+          "opties": [
+            "Bewoners van Otrobanda klagen over verkeer en lawaai.",
+            "Bewoners van Otrobanda zijn blij met de drukte.",
+            "Bewoners klagen over te weinig bussen.",
+            "Bewoners van Punda klagen over de hitte."
+          ],
+          "correct": 0,
+          "uitleg": "'Habitante' = bewoner, 'keha' = klagen, 'bulla' = lawaai."
+        },
+        {
+          "pap": "Riba dianan ku tin hopi barku, ta dura mas ku un ora pa krusa e brug.",
+          "nl": "Op dagen met veel schepen duurt het meer dan een uur om de brug over te steken.",
+          "opties": [
+            "Het duurt een uur om naar de haven te lopen.",
+            "Op drukke dagen kost het meer dan een uur om de brug over te gaan.",
+            "De brug is op drukke dagen gesloten.",
+            "De schepen varen onder de brug door."
+          ],
+          "correct": 1,
+          "uitleg": "'Dura' = duren, 'krusa' = oversteken, 'brug' = brug."
+        },
+        {
+          "pap": "Un grupo di habitante ta pidi gobièrnu un plan di tráfiko prome ku e siguiente temporada.",
+          "nl": "Een groep bewoners vraagt de overheid om een verkeersplan vóór het volgende seizoen.",
+          "opties": [
+            "De overheid heeft al een verkeersplan.",
+            "Bewoners willen een nieuwe brug.",
+            "Bewoners willen vóór het volgende seizoen een verkeersplan.",
+            "Bewoners willen minder schepen in de haven."
+          ],
+          "correct": 2,
+          "uitleg": "'Pidi' = vragen, 'plan di tráfiko' = verkeersplan, 'siguiente' = volgende."
+        }
+      ],
+      "vraag": "Wat is de keerzijde?",
+      "opties": [
+        "Toeristen klagen over de prijzen",
+        "De haven is te klein voor zoveel schepen",
+        "De winkels krijgen te weinig klanten",
+        "Bewoners hebben last van verkeer en lawaai en willen een verkeersplan"
+      ],
+      "correct": 3,
+      "uitleg": "Bewoners hebben last van files en lawaai, en vragen om een verkeersplan."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "barku krusero",
+      "uitspraak": "bar-ku kru-se-ro",
+      "vertaling": "cruiseschip"
+    },
+    {
+      "woord": "pasahero",
+      "uitspraak": "pa-sa-he-ro",
+      "vertaling": "passagier"
+    },
+    {
+      "woord": "komersio",
+      "uitspraak": "ko-mer-sio",
+      "vertaling": "handel, winkels"
+    },
+    {
+      "woord": "tráfiko",
+      "uitspraak": "tra-fi-ko",
+      "vertaling": "verkeer"
+    },
+    {
+      "woord": "sosten",
+      "uitspraak": "sos-ten",
+      "vertaling": "steun"
+    },
+    {
+      "woord": "desaroyo",
+      "uitspraak": "de-sa-ro-jo",
+      "vertaling": "ontwikkeling"
+    }
+  ]
+}

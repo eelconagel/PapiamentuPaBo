@@ -1,0 +1,140 @@
+{
+  "id": "nieuws-015",
+  "titel": "Un buriku chikí a nase na Boneiru",
+  "nivo": "Easy",
+  "kategoria": "Boneiru",
+  "lugá": "KRALENDIJK",
+  "beschrijving": "In een opvang voor ezels op Bonaire is een babyezel geboren.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Den e santuario di buriku na Boneiru un buriku chikí a nase.",
+          "nl": "In de ezelopvang op Bonaire is een kleine ezel geboren.",
+          "opties": [
+            "In de ezelopvang op Bonaire is een babyezel geboren.",
+            "Op Bonaire is een ezel uit de opvang ontsnapt.",
+            "In de opvang is een oude ezel overleden.",
+            "Er zijn nieuwe ezels naar Bonaire gebracht."
+          ],
+          "correct": 0,
+          "uitleg": "'Santuario' = opvang/reservaat, 'buriku' = ezel, 'nase' = geboren worden."
+        },
+        {
+          "pap": "E mama ta yama Rosita.",
+          "nl": "De moeder heet Rosita.",
+          "opties": [
+            "Rosita is de eigenaar van de opvang.",
+            "De moeder heet Rosita.",
+            "De verzorger heet Rosita.",
+            "Het babyezeltje heet Rosita."
+          ],
+          "correct": 1,
+          "uitleg": "'Yama' = heten (en ook: roepen/bellen)."
+        },
+        {
+          "pap": "E buriku chikí ta kana kaba i e ta hopi kurioso.",
+          "nl": "De kleine ezel loopt al en hij is erg nieuwsgierig.",
+          "opties": [
+            "Het ezeltje is erg bang.",
+            "Het ezeltje slaapt de hele dag.",
+            "Het ezeltje loopt al en is erg nieuwsgierig.",
+            "Het ezeltje kan nog niet lopen."
+          ],
+          "correct": 2,
+          "uitleg": "'Kana' = lopen, 'kaba' = al, 'kurioso' = nieuwsgierig."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een ezel die ziek is",
+        "Een nieuwe opvang voor ezels",
+        "Een ezel die weggelopen is",
+        "De geboorte van een nieuwsgierig ezeltje"
+      ],
+      "correct": 3,
+      "uitleg": "Er is een ezeltje geboren; het loopt al rond en is nieuwsgierig."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E santuario ta buska un nòmber pa e buriku.",
+          "nl": "De opvang zoekt een naam voor de ezel.",
+          "opties": [
+            "De opvang zoekt een naam voor het ezeltje.",
+            "De opvang zoekt een nieuwe verzorger.",
+            "Het ezeltje heeft al een naam.",
+            "De opvang zoekt een huis voor het ezeltje."
+          ],
+          "correct": 0,
+          "uitleg": "'Buska' = zoeken, 'nòmber' = naam."
+        },
+        {
+          "pap": "Bishitantenan por skibi un nòmber riba un karchi.",
+          "nl": "Bezoekers kunnen een naam op een kaartje schrijven.",
+          "opties": [
+            "Bezoekers krijgen een kaartje met de naam.",
+            "Bezoekers kunnen een naam op een kaartje schrijven.",
+            "Bezoekers moeten een kaartje kopen.",
+            "Bezoekers mogen het ezeltje niet zien."
+          ],
+          "correct": 1,
+          "uitleg": "'Bishitante' = bezoeker, 'skibi' = schrijven, 'karchi' = kaart(je)."
+        },
+        {
+          "pap": "Djasabra nan lo skohe e mihó nòmber.",
+          "nl": "Zaterdag kiezen ze de beste naam.",
+          "opties": [
+            "Zaterdag is de opvang gesloten.",
+            "Vorige zaterdag kozen ze een naam.",
+            "Zaterdag kiezen ze de beste naam.",
+            "Zaterdag krijgt het ezeltje een broertje."
+          ],
+          "correct": 2,
+          "uitleg": "'Skohe' = kiezen, 'mihó' = beste."
+        }
+      ],
+      "vraag": "Wat kun je als bezoeker doen?",
+      "opties": [
+        "Het ezeltje mee naar huis nemen",
+        "Helpen met het voeren van de moeder",
+        "Een foto kopen van het ezeltje",
+        "Een naam voor het ezeltje bedenken; zaterdag wordt er gekozen"
+      ],
+      "correct": 3,
+      "uitleg": "Bezoekers schrijven een naam op een kaartje en zaterdag wordt de beste gekozen."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "buriku",
+      "uitspraak": "bu-ri-ku",
+      "vertaling": "ezel"
+    },
+    {
+      "woord": "nase",
+      "uitspraak": "na-se",
+      "vertaling": "geboren worden"
+    },
+    {
+      "woord": "nòmber",
+      "uitspraak": "nom-ber",
+      "vertaling": "naam"
+    },
+    {
+      "woord": "santuario",
+      "uitspraak": "san-tua-rio",
+      "vertaling": "opvang, reservaat"
+    },
+    {
+      "woord": "bishitante",
+      "uitspraak": "bi-sji-tan-te",
+      "vertaling": "bezoeker"
+    },
+    {
+      "woord": "tur dia",
+      "uitspraak": "tur di-a",
+      "vertaling": "elke dag"
+    }
+  ]
+}

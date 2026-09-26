@@ -8,7 +8,7 @@ from flask import Flask, abort, flash, jsonify, redirect, render_template, reque
 
 from .admin import init_admin
 from .auth import PROVIDERS, init_auth
-from .content import NIVEAU_COLOR, NIVEAU_LABEL, Content
+from .content import KATEGORIA_NL, NIEUWS_UNLOCK, NIVEAU_COLOR, NIVEAU_LABEL, Content
 from .db import backup_to, count_messages_since, get_db, init_db, save_contact_message
 from .notify import notify_new_message
 from .richtext import rich
@@ -20,6 +20,8 @@ SCREEN_TITLES = {
     "woorden": "Woorden Oefenen",
     "lessen": "Leer met lessen",
     "les": "Les",
+    "nieuws": "Nieuws lezen",
+    "nieuws_artikel": "Nieuws",
     "contact": "Contact",
     "privacy": "Privacy",
     "instellingen": "Instellingen",
@@ -83,6 +85,7 @@ def create_app(test_config=None):
             "is_home": endpoint == "home",
             "NIVEAU_LABEL": NIVEAU_LABEL,
             "NIVEAU_COLOR": NIVEAU_COLOR,
+            "KATEGORIA_NL": KATEGORIA_NL,
         }
 
     @app.get("/")
@@ -91,7 +94,8 @@ def create_app(test_config=None):
             "home.html",
             words=content.all_words(),
             lessen=[{"id": l["id"], "titel": l["titel"]} for l in content.lessen],
-            totals={"scenarios": len(content.scenarios), "woorden": len(content.all_words())},
+            totals={"scenarios": len(content.scenarios), "woorden": len(content.all_words()),
+                    "nieuws": len(content.nieuws)},
         )
 
     @app.get("/scenarios")
@@ -107,6 +111,22 @@ def create_app(test_config=None):
             abort(404)
         return render_template("scenario.html", s=data,
                                screen_title=f"Scenario · {NIVEAU_LABEL.get(data['difficulty'], '')}")
+
+    @app.get("/nieuws")
+    def nieuws():
+        items = [{"id": a["id"], "number": i, "titel": a["titel"], "nivo": a["nivo"],
+                  "kategoria": a["kategoria"], "beschrijving": a["beschrijving"],
+                  "alineas": len(a["paragrafen"]), "zinnen": sum(len(p["zinnen"]) for p in a["paragrafen"])}
+                 for i, a in enumerate(content.nieuws.values(), start=1)]
+        return render_template("nieuws.html", artikelen=items, unlock=NIEUWS_UNLOCK)
+
+    @app.get("/nieuws/<artikel_id>")
+    def nieuws_artikel(artikel_id):
+        data = content.nieuws.get(artikel_id)
+        if not data:
+            abort(404)
+        return render_template("nieuws_artikel.html", a=data, ids=list(content.nieuws), unlock=NIEUWS_UNLOCK,
+                               screen_title=f"Nieuws · {NIVEAU_LABEL.get(data['nivo'], '')}")
 
     @app.get("/woorden")
     def woorden():
@@ -185,9 +205,10 @@ def create_app(test_config=None):
 
     @app.get("/sitemap.xml")
     def sitemap():
-        paths = ["/", "/scenarios", "/woorden", "/lessen", "/privacy", "/contact"]
+        paths = ["/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/privacy", "/contact"]
         paths += [url_for("scenario", scenario_id=sid) for sid in content.scenarios]
         paths += [url_for("les", les_id=l["id"]) for l in content.lessen]
+        paths += [url_for("nieuws_artikel", artikel_id=aid) for aid in content.nieuws]
         urls = "".join(f"<url><loc>{escape(site_url(p))}</loc></url>" for p in paths)
         xml = f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>'
         return app.response_class(xml, mimetype="application/xml")

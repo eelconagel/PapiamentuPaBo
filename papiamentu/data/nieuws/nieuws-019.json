@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-019",
+  "titel": "Turtuga a pone webu riba playa di Kas Abou",
+  "nivo": "Intermediate",
+  "kategoria": "Naturalesa",
+  "lugá": "KAS ABOU",
+  "beschrijving": "Een zeeschildpad heeft eieren gelegd op een populair strand. Het strand wordt deels afgezet.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Djamars anochi un turtuga grandi a sali for di laman i pone webu riba playa.",
+          "nl": "Dinsdagavond kwam een grote schildpad uit zee en legde eieren op het strand.",
+          "opties": [
+            "Dinsdagavond legde een grote schildpad eieren op het strand.",
+            "Dinsdagavond werd er een dode schildpad gevonden.",
+            "Een schildpad at dinsdag eieren op het strand.",
+            "Dinsdagavond werden er schildpadden in zee gezet."
+          ],
+          "correct": 0,
+          "uitleg": "'Djamars' = dinsdag, 'anochi' = avond/nacht, 'sali for di' = komen uit, 'pone webu' = eieren leggen."
+        },
+        {
+          "pap": "Un famia ku tabata piknik einan a mira tur kos.",
+          "nl": "Een familie die daar aan het picknicken was, zag alles.",
+          "opties": [
+            "Een familie heeft de eieren opgegeten.",
+            "Een familie die daar picknickte, heeft alles gezien.",
+            "Een familie heeft de schildpad meegenomen.",
+            "Niemand heeft de schildpad gezien."
+          ],
+          "correct": 1,
+          "uitleg": "'Tabata piknik' = was aan het picknicken, 'einan' = daar, 'mira' = zien, 'tur kos' = alles."
+        },
+        {
+          "pap": "Nan a yama fundashon Turtuga Kòrsou mesora.",
+          "nl": "Ze belden meteen de stichting Turtuga Kòrsou.",
+          "opties": [
+            "Ze schreven een brief aan de stichting.",
+            "De stichting belde hen.",
+            "Ze belden meteen een stichting voor schildpadden.",
+            "Ze belden de volgende dag de politie."
+          ],
+          "correct": 2,
+          "uitleg": "'Yama' = bellen, 'mesora' = meteen/direct."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een schildpad die vastzit in een net",
+        "Een familie die een schildpad als huisdier neemt",
+        "Een strand dat schoongemaakt wordt",
+        "Een schildpad die eieren legt, gezien door een familie die hulp belt"
+      ],
+      "correct": 3,
+      "uitleg": "De schildpad legde eieren; een familie zag het en belde meteen de stichting."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Boluntarionan a marka e nèshi ku palu i kabuya.",
+          "nl": "Vrijwilligers hebben het nest gemarkeerd met stokken en touw.",
+          "opties": [
+            "Vrijwilligers hebben het nest afgezet met stokken en touw.",
+            "Vrijwilligers hebben het nest verplaatst.",
+            "Vrijwilligers hebben de eieren uitgegraven.",
+            "Het nest werd met een hek afgesloten."
+          ],
+          "correct": 0,
+          "uitleg": "'Marka' = markeren/afzetten, 'nèshi' = nest, 'palu' = stok/paal, 'kabuya' = touw."
+        },
+        {
+          "pap": "E webunan lo kibra den mas o ménos 60 dia.",
+          "nl": "De eieren komen over ongeveer 60 dagen uit.",
+          "opties": [
+            "De eieren komen over zestig weken uit.",
+            "De eieren komen over ongeveer zestig dagen uit.",
+            "De eieren komen over zes dagen uit.",
+            "De eieren zijn al uitgekomen."
+          ],
+          "correct": 1,
+          "uitleg": "'Kibra' = breken (hier: uitkomen), 'mas o ménos' = ongeveer."
+        },
+        {
+          "pap": "Te e tempu ei, bishitantenan mester keda leu di e parti marká.",
+          "nl": "Tot die tijd moeten bezoekers wegblijven van het afgezette deel.",
+          "opties": [
+            "Het hele strand is gesloten.",
+            "Bezoekers moeten het nest bewaken.",
+            "Tot dan moeten bezoekers wegblijven van het afgezette stuk.",
+            "Bezoekers mogen bij het nest komen kijken."
+          ],
+          "correct": 2,
+          "uitleg": "'Te e tempu ei' = tot die tijd, 'leu di' = ver van, 'parti' = deel."
+        }
+      ],
+      "vraag": "Wat gebeurt er nu met het nest?",
+      "opties": [
+        "Het nest wordt naar een ander strand gebracht",
+        "De eieren worden in een laboratorium uitgebroed",
+        "Er gebeurt niets met het nest",
+        "Het is afgezet; over zo'n 60 dagen komen de eieren uit"
+      ],
+      "correct": 3,
+      "uitleg": "Het nest is afgezet en bezoekers moeten afstand houden tot de eieren uitkomen."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E fundashon ta pidi pa no usa lus fuerte na playa anochi.",
+          "nl": "De stichting vraagt om 's nachts geen fel licht te gebruiken op het strand.",
+          "opties": [
+            "De stichting vraagt om 's nachts geen fel licht op het strand.",
+            "De stichting vraagt om 's nachts lampen aan te zetten.",
+            "De stichting wil het strand 's nachts verlichten.",
+            "De stichting vraagt om overdag geen muziek te maken."
+          ],
+          "correct": 0,
+          "uitleg": "'Usa' = gebruiken, 'lus fuerte' = fel licht."
+        },
+        {
+          "pap": "E turtuganan chikí ta sigui e lus di luna pa yega laman.",
+          "nl": "De kleine schildpadjes volgen het licht van de maan om de zee te bereiken.",
+          "opties": [
+            "De moeder brengt de jongen naar de zee.",
+            "De jonge schildpadden volgen het maanlicht naar de zee.",
+            "De jonge schildpadden zijn bang voor de maan.",
+            "De jonge schildpadden blijven op het strand."
+          ],
+          "correct": 1,
+          "uitleg": "'Sigui' = volgen, 'lus di luna' = maanlicht, 'yega' = bereiken/aankomen."
+        },
+        {
+          "pap": "Lampi di kas òf di telefòn por hiba nan den direkshon robes.",
+          "nl": "Lampen van huizen of telefoons kunnen ze de verkeerde kant op sturen.",
+          "opties": [
+            "Lampen maken de eieren warm.",
+            "Huizen staan te ver weg om te storen.",
+            "Lampen van huizen of telefoons kunnen ze de verkeerde kant op leiden.",
+            "Telefoons helpen de schildpadjes de zee te vinden."
+          ],
+          "correct": 2,
+          "uitleg": "'Lampi' = lamp, 'hiba' = brengen/leiden, 'robes' = verkeerd."
+        }
+      ],
+      "vraag": "Waarom mag er geen fel licht zijn?",
+      "opties": [
+        "Omdat licht de eieren beschadigt",
+        "Omdat de moeder terug wil komen",
+        "Omdat er 's nachts gevist wordt",
+        "Jonge schildpadden volgen het maanlicht en raken door lampen de weg kwijt"
+      ],
+      "correct": 3,
+      "uitleg": "De jongen zoeken de zee via het maanlicht; kunstlicht stuurt ze de verkeerde kant op."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "turtuga",
+      "uitspraak": "tur-tu-ga",
+      "vertaling": "schildpad"
+    },
+    {
+      "woord": "pone webu",
+      "uitspraak": "po-ne we-bu",
+      "vertaling": "eieren leggen"
+    },
+    {
+      "woord": "nèshi",
+      "uitspraak": "ne-sji",
+      "vertaling": "nest"
+    },
+    {
+      "woord": "santu",
+      "uitspraak": "san-tu",
+      "vertaling": "zand"
+    },
+    {
+      "woord": "marka",
+      "uitspraak": "mar-ka",
+      "vertaling": "markeren, afzetten"
+    },
+    {
+      "woord": "respetá",
+      "uitspraak": "res-pe-ta",
+      "vertaling": "respecteren"
+    }
+  ]
+}

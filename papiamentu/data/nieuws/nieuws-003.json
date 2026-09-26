@@ -1,0 +1,140 @@
+{
+  "id": "nieuws-003",
+  "titel": "Hóbennan di Club Solito ta gana kopa",
+  "nivo": "Easy",
+  "kategoria": "Deporte",
+  "lugá": "SANTA ROSA",
+  "beschrijving": "Een jeugdvoetbalteam wint een toernooi met een doelpunt in de laatste minuut.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Djadumingu Club Solito a hunga e final di e toneo di hóben.",
+          "nl": "Zondag speelde Club Solito de finale van het jeugdtoernooi.",
+          "opties": [
+            "Club Solito speelt zondag voor het eerst.",
+            "Zondag speelde Club Solito de finale van het jeugdtoernooi.",
+            "Zondag trainde Club Solito voor een toernooi.",
+            "Club Solito organiseert zondag een toernooi."
+          ],
+          "correct": 1,
+          "uitleg": "'Hunga' = spelen, 'final' = finale, 'toneo' = toernooi, 'hóben' = jongere(n)."
+        },
+        {
+          "pap": "E wega tabata hopi difísil.",
+          "nl": "De wedstrijd was erg moeilijk.",
+          "opties": [
+            "De wedstrijd duurde erg lang.",
+            "De wedstrijd was erg leuk.",
+            "De wedstrijd was erg moeilijk.",
+            "De wedstrijd was heel makkelijk."
+          ],
+          "correct": 2,
+          "uitleg": "'Wega' = wedstrijd, 'tabata' = was, 'difísil' = moeilijk."
+        },
+        {
+          "pap": "Den e último minüt, Kevin (12) a marka un gol.",
+          "nl": "In de laatste minuut maakte Kevin (12) een doelpunt.",
+          "opties": [
+            "In de eerste minuut scoorde Kevin.",
+            "Kevin miste in de laatste minuut een kans.",
+            "Kevin is twaalf minuten ingevallen.",
+            "In de laatste minuut scoorde Kevin."
+          ],
+          "correct": 3,
+          "uitleg": "'Último' = laatste, 'minüt' = minuut, 'marka un gol' = een doelpunt maken."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een moeilijke finale met een doelpunt in de laatste minuut",
+        "Een training van een jeugdteam",
+        "Een speler die geblesseerd raakt",
+        "Een toernooi dat wordt afgelast"
+      ],
+      "correct": 0,
+      "uitleg": "Het gaat om de finale: een zware wedstrijd, beslist in de laatste minuut."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Asina Club Solito a gana ku 2-1.",
+          "nl": "Zo won Club Solito met 2-1.",
+          "opties": [
+            "Club Solito won met 2-0.",
+            "Zo won Club Solito met 2-1.",
+            "Zo verloor Club Solito met 2-1.",
+            "Het werd 1-1."
+          ],
+          "correct": 1,
+          "uitleg": "'Asina' = zo/op die manier, 'gana' = winnen."
+        },
+        {
+          "pap": "E fanátikonan a kanta i baila riba e tribuna.",
+          "nl": "De fans zongen en dansten op de tribune.",
+          "opties": [
+            "De fans gingen stil naar huis.",
+            "De spelers dansten op de tribune.",
+            "De fans zongen en dansten op de tribune.",
+            "De fans renden het veld op."
+          ],
+          "correct": 2,
+          "uitleg": "'Fanátikonan' = fans, 'kanta' = zingen, 'baila' = dansen."
+        },
+        {
+          "pap": "Entrenador Mirna Pieters ta masha orguyoso di su hungadónan.",
+          "nl": "Trainer Mirna Pieters is heel trots op haar spelers.",
+          "opties": [
+            "De trainer is teleurgesteld in haar spelers.",
+            "De trainer stopt na dit seizoen.",
+            "De spelers zijn trots op hun trainer.",
+            "De trainer is heel trots op haar spelers."
+          ],
+          "correct": 3,
+          "uitleg": "'Masha' = heel/erg, 'orguyoso' = trots, 'su' = zijn/haar, 'hungadó' = speler."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "De overwinning en de blije reacties",
+        "Een nederlaag en boze fans",
+        "De nieuwe trainer van het team",
+        "Het volgende toernooi van de club"
+      ],
+      "correct": 0,
+      "uitleg": "Club Solito wint, de fans feesten en de trainer is trots."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "wega",
+      "uitspraak": "we-ga",
+      "vertaling": "wedstrijd"
+    },
+    {
+      "woord": "gana",
+      "uitspraak": "ga-na",
+      "vertaling": "winnen"
+    },
+    {
+      "woord": "gol",
+      "uitspraak": "gol",
+      "vertaling": "doelpunt"
+    },
+    {
+      "woord": "hungadó",
+      "uitspraak": "hun-ga-do",
+      "vertaling": "speler"
+    },
+    {
+      "woord": "entrenador",
+      "uitspraak": "en-tre-na-dor",
+      "vertaling": "trainer"
+    },
+    {
+      "woord": "orguyoso",
+      "uitspraak": "or-gu-jo-so",
+      "vertaling": "trots"
+    }
+  ]
+}

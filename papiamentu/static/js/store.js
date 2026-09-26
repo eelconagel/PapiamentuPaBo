@@ -11,6 +11,7 @@
     lijsten: [1],           // unlocked word list ids
     lessen: {},             // lesId -> [completed step numbers 1..4]
     scenarios: {},          // scenarioId -> completedAt ISO string
+    nieuws: {},             // artikelId -> completedAt ISO string
     theme: 'dark',          // 'system' | 'light' | 'dark' (per device, not synced)
   });
 
@@ -141,6 +142,10 @@
       update((s) => { if (!s.scenarios[id]) s.scenarios[id] = new Date().toISOString(); });
     },
 
+    completeNieuws(id) {
+      update((s) => { if (!s.nieuws[id]) s.nieuws[id] = new Date().toISOString(); });
+    },
+
     setTheme(theme) {
       const s = load();
       s.theme = theme;
@@ -191,6 +196,14 @@
   // True when an answer refers to the others ("Alle bovenstaande", "Beide a en c", ...).
   Store.refersToOthers = function (options) {
     return options.some((o) => /\b(alle|beide|geen van)\b|bovenstaande|\b[a-e] en [a-e]\b/i.test(o));
+  };
+
+  // News articles unlock in order: rule.open at first, then rule.per more for every rule.per read.
+  // Returns how many (from the start of ids) are available; already-read ones always stay open.
+  Store.nieuwsOpen = function (ids, rule) {
+    const done = load().nieuws;
+    const read = ids.filter((id) => done[id]).length;
+    return Math.min(ids.length, rule.open + rule.per * Math.floor(read / rule.per));
   };
 
   Store.toast = function (msg, ms) {

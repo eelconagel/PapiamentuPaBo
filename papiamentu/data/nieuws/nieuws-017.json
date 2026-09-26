@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-017",
+  "titel": "Falta di maestro na kuminsamentu di aña di skol",
+  "nivo": "Hard",
+  "kategoria": "Enseñansa",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Aan het begin van het schooljaar ontbreken tientallen leraren. Het ministerie komt met een plan.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Riba e promé dia di e aña di skol, 65 vakatura di maestro no tabata yená ainda.",
+          "nl": "Op de eerste dag van het schooljaar waren 65 vacatures voor leraren nog niet vervuld.",
+          "opties": [
+            "Bij de start van het schooljaar stonden er nog 65 lerarenvacatures open.",
+            "Aan het begin van het schooljaar waren er 65 nieuwe leraren.",
+            "65 scholen zijn aan het begin van het schooljaar gesloten.",
+            "Er waren 65 leerlingen te veel."
+          ],
+          "correct": 0,
+          "uitleg": "'Vakatura' = vacature, 'yená' = gevuld/vervuld, 'ainda' = nog."
+        },
+        {
+          "pap": "Mayoria di e falta ta den matemátika, siensia i idioma.",
+          "nl": "Het grootste deel van het tekort zit in wiskunde, natuurwetenschappen en talen.",
+          "opties": [
+            "Het tekort zit alleen bij de talen.",
+            "Het tekort zit vooral bij wiskunde, natuurwetenschappen en talen.",
+            "Er is vooral een tekort aan gymleraren.",
+            "Er zijn te veel leraren wiskunde."
+          ],
+          "correct": 1,
+          "uitleg": "'Mayoria' = het grootste deel, 'matemátika' = wiskunde, 'siensia' = wetenschap, 'idioma' = taal."
+        },
+        {
+          "pap": "Na algun skol, studiantenan a haña nan horario ku oranan bashí.",
+          "nl": "Op sommige scholen kregen leerlingen hun rooster met lege uren.",
+          "opties": [
+            "Alle scholen hebben een vol rooster.",
+            "Sommige scholen hebben geen rooster.",
+            "Op sommige scholen hebben leerlingen tussenuren in hun rooster.",
+            "Op sommige scholen hebben leerlingen extra lessen gekregen."
+          ],
+          "correct": 2,
+          "uitleg": "'Algun' = sommige, 'horario' = rooster, 'bashí' = leeg."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een nieuw schoolgebouw dat opent",
+        "Leerlingen die niet naar school willen",
+        "Een staking van leraren",
+        "Een groot lerarentekort bij de start van het schooljaar"
+      ],
+      "correct": 3,
+      "uitleg": "65 vacatures, vooral bij exacte vakken en talen, met lege uren in roosters als gevolg."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Segun e sindikato di maestro, e problema ta bini di hopi aña kaba.",
+          "nl": "Volgens de lerarenvakbond speelt het probleem al vele jaren.",
+          "opties": [
+            "Volgens de vakbond bestaat het probleem al jaren.",
+            "Volgens de vakbond is het een nieuw probleem.",
+            "De vakbond zegt dat er geen probleem is.",
+            "De vakbond geeft de leerlingen de schuld."
+          ],
+          "correct": 0,
+          "uitleg": "'Sindikato' = vakbond, 'bini di hopi aña kaba' = speelt al vele jaren."
+        },
+        {
+          "pap": "Hopi maestro hóben ta bai Hulanda pasobra ei nan ta gana mas i tin mas oportunidat.",
+          "nl": "Veel jonge leraren gaan naar Nederland omdat ze daar meer verdienen en meer kansen hebben.",
+          "opties": [
+            "Jonge leraren gaan in Nederland studeren en komen terug.",
+            "Veel jonge leraren vertrekken naar Nederland voor meer loon en kansen.",
+            "Veel Nederlandse leraren komen naar Curaçao.",
+            "Jonge leraren verdienen op Curaçao meer dan in Nederland."
+          ],
+          "correct": 1,
+          "uitleg": "'Hulanda' = Nederland, 'gana' = verdienen (ook: winnen), 'oportunidat' = kans."
+        },
+        {
+          "pap": "Ademas, e trabou ta pisá: klasnan grandi i hopi trabou di papel.",
+          "nl": "Bovendien is het werk zwaar: grote klassen en veel papierwerk.",
+          "opties": [
+            "Leraren hoeven weinig administratie te doen.",
+            "Er zijn te weinig leerlingen per klas.",
+            "Het werk is bovendien zwaar door grote klassen en veel papierwerk.",
+            "Het werk is makkelijk en de klassen zijn klein."
+          ],
+          "correct": 2,
+          "uitleg": "'Ademas' = bovendien, 'pisá' = zwaar, 'trabou di papel' = papierwerk."
+        }
+      ],
+      "vraag": "Wat zijn volgens de vakbond de oorzaken?",
+      "opties": [
+        "Leraren willen liever in het bedrijfsleven werken",
+        "Er zijn te weinig opleidingen voor leraren",
+        "De scholen zijn te oud",
+        "Jonge leraren vertrekken naar Nederland en het werk is zwaar"
+      ],
+      "correct": 3,
+      "uitleg": "Een oud probleem: vertrek naar Nederland voor meer loon en kansen, en zware werkomstandigheden."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E ministerio di Enseñansa a presentá un plan ku ta kuminsá e siguiente luna.",
+          "nl": "Het ministerie van Onderwijs heeft een plan gepresenteerd dat volgende maand begint.",
+          "opties": [
+            "Het ministerie van Onderwijs start volgende maand met een plan.",
+            "Het ministerie heeft nog geen plan.",
+            "Het plan is vorige maand mislukt.",
+            "Het ministerie start een plan over vijf jaar."
+          ],
+          "correct": 0,
+          "uitleg": "'Enseñansa' = onderwijs, 'presentá' = presenteren, 'siguiente luna' = volgende maand."
+        },
+        {
+          "pap": "Studiantenan universitario lo por duna les parsial, i maestronan retirá por bolbe traha pa un tempu.",
+          "nl": "Universiteitsstudenten kunnen deeltijds lesgeven, en gepensioneerde leraren kunnen tijdelijk terugkomen.",
+          "opties": [
+            "Leerlingen gaan elkaar zelf lesgeven.",
+            "Studenten mogen deels lesgeven en gepensioneerde leraren kunnen tijdelijk terugkomen.",
+            "Studenten moeten stoppen met hun studie om les te geven.",
+            "Gepensioneerde leraren krijgen een bonus om thuis te blijven."
+          ],
+          "correct": 1,
+          "uitleg": "'Parsial' = deeltijds/gedeeltelijk, 'retirá' = gepensioneerd, 'bolbe' = terug-/opnieuw, 'pa un tempu' = een tijdje."
+        },
+        {
+          "pap": "E sindikato ta yama e plan un bon promé paso, pero ta insistí ku e salarionan mester subi tambe.",
+          "nl": "De vakbond noemt het plan een goede eerste stap, maar houdt vol dat ook de salarissen omhoog moeten.",
+          "opties": [
+            "De vakbond vindt dat de salarissen omlaag kunnen.",
+            "De vakbond heeft het plan zelf geschreven.",
+            "De vakbond is positief, maar wil ook hogere salarissen.",
+            "De vakbond wijst het plan helemaal af."
+          ],
+          "correct": 2,
+          "uitleg": "'Paso' = stap, 'insistí' = aandringen/volhouden, 'subi' = stijgen."
+        }
+      ],
+      "vraag": "Hoe wil men het probleem oplossen, en wat vindt de vakbond?",
+      "opties": [
+        "Klassen samenvoegen; de vakbond is tegen",
+        "Leraren uit Nederland halen; de vakbond is blij",
+        "Scholen tijdelijk sluiten; de vakbond vindt het goed",
+        "Studenten en gepensioneerde leraren inzetten; de vakbond wil daarnaast hogere salarissen"
+      ],
+      "correct": 3,
+      "uitleg": "Tijdelijke oplossingen met studenten en gepensioneerden; de vakbond wil ook meer loon."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "maestro",
+      "uitspraak": "ma-es-tro",
+      "vertaling": "leraar"
+    },
+    {
+      "woord": "falta",
+      "uitspraak": "fal-ta",
+      "vertaling": "tekort, gebrek"
+    },
+    {
+      "woord": "aña di skol",
+      "uitspraak": "a-nja di skol",
+      "vertaling": "schooljaar"
+    },
+    {
+      "woord": "vakatura",
+      "uitspraak": "va-ka-tu-ra",
+      "vertaling": "vacature"
+    },
+    {
+      "woord": "salario",
+      "uitspraak": "sa-la-rio",
+      "vertaling": "salaris"
+    },
+    {
+      "woord": "solushon",
+      "uitspraak": "so-lu-sjon",
+      "vertaling": "oplossing"
+    }
+  ]
+}

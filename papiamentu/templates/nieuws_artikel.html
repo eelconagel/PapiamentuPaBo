@@ -1,0 +1,260 @@
+{% extends "base.html" %}
+{% block title %}{{ a.titel }} · Nieuws lezen · Papiamentu Pa Bo{% endblock %}
+{% block description %}{{ a.beschrijving }}{% endblock %}
+{% block back_url %}{{ url_for('nieuws') }}{% endblock %}
+{% block main_class %}flush{% endblock %}
+{% block content %}
+<div class="dots-bar">
+  <div class="progress-bar news-progress" aria-hidden="true"><div class="progress-fill" id="progress-fill" style="width:0"></div></div>
+  <div class="dots-label" id="step-label" aria-live="polite">Introductie</div>
+</div>
+
+<div class="pad">
+  <section id="intro">
+    <div class="completed-banner" id="completed-banner" hidden>Gelezen</div>
+    <p class="page-label">Nieuws · {{ a.kategoria }}{% if KATEGORIA_NL.get(a.kategoria) and KATEGORIA_NL[a.kategoria] != a.kategoria %} ({{ KATEGORIA_NL[a.kategoria] }}){% endif %}</p>
+    <h1 class="scenario-title" lang="pap">{{ a.titel }}</h1>
+    <p class="intro">{{ a.beschrijving }}</p>
+
+    <div class="callout">
+      <div class="callout-title">Zo werkt het</div>
+      <p class="body-text">Je leest het bericht alinea voor alinea. Na elke alinea krijg je per zin de vraag wat daar gezegd wordt, en daarna een vraag over de hele alinea. Kom je er niet uit? Klik op <em>Toon vertaling</em>.</p>
+    </div>
+
+    {% if a.sleutelwoorden %}
+      <h2 class="section-title">Sleutelwoorden</h2>
+      {% for w in a.sleutelwoorden %}
+        <div class="word-row">
+          <div class="word-pap" lang="pap">{{ w.woord }}</div>
+          <div class="word-pron">[{{ w.uitspraak }}]</div>
+          <div class="word-nl">{{ w.vertaling }}</div>
+        </div>
+      {% endfor %}
+    {% endif %}
+    <button type="button" class="btn btn-primary block news-start" id="start">Begin met lezen →</button>
+    <div class="callout news-locked" id="locked" hidden>
+      <div class="callout-title">🔒 Dit bericht is nog op slot</div>
+      <p class="body-text" id="locked-text"></p>
+      <a class="btn btn-secondary btn-sm" href="{{ url_for('nieuws') }}">Naar het nieuwsoverzicht</a>
+    </div>
+  </section>
+
+  <section id="reader" hidden>
+    <article class="news-text" id="news-text" lang="pap">
+      <h2 class="news-headline">{{ a.titel }}</h2>
+    </article>
+    <div class="news-task" id="task">
+      <p class="page-label" id="task-label"></p>
+      <div id="task-body"></div>
+    </div>
+  </section>
+
+  <section id="result" hidden>
+    <div class="result">
+      <p class="page-label">Resultaat</p>
+      <div class="score" id="score"></div>
+      <p class="body-text" id="result-text"></p>
+      <p class="unlock-hint" id="result-unlock" hidden></p>
+      <a class="btn btn-primary block" href="{{ url_for('nieuws') }}">Terug naar het nieuws</a>
+      <button type="button" class="btn-link" id="again">Opnieuw lezen</button>
+    </div>
+    <h2 class="section-title">Het hele bericht</h2>
+    <p class="muted small">Klik op een zin om de vertaling te zien.</p>
+    <article class="news-text review" id="review" lang="pap"></article>
+  </section>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script nonce="{{ csp_nonce }}" src="{{ url_for('static', filename='js/quiz.js') }}"></script>
+<script nonce="{{ csp_nonce }}">
+(function () {
+  const A = {{ a | tojson }};
+  const PARAS = A.paragrafen;
+  const TOTAL = PARAS.reduce((n, p) => n + p.zinnen.length + 1, 0);  // questions: every sentence + every paragraph
+  const $ = (id) => document.getElementById(id);
+  const el = (tag, cls, text) => {
+    const e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  };
+  const IDS = {{ ids | tojson }};
+  const UNLOCK = {{ unlock | tojson }};
+  const wasDone = !!Store.get().nieuws[A.id];
+  $('completed-banner').hidden = !wasDone;
+
+  function checkLock() {
+    const open = Store.nieuwsOpen(IDS, UNLOCK);
+    const locked = !Store.get().nieuws[A.id] && IDS.indexOf(A.id) >= open;
+    $('start').hidden = locked;
+    $('locked').hidden = !locked;
+    if (locked) {
+      const read = IDS.filter((id) => Store.get().nieuws[id]).length;
+      const need = UNLOCK.per * Math.ceil((IDS.indexOf(A.id) + 1 - UNLOCK.open) / UNLOCK.per) - read;
+      $('locked-text').textContent = `Lees eerst nog ${need} ander${need === 1 ? '' : 'e'} bericht${need === 1 ? '' : 'en'}. Elke ${UNLOCK.per} gelezen berichten komen er ${UNLOCK.per} nieuwe vrij.`;
+    }
+  }
+  checkLock();
+  document.addEventListener('papiamentu:synced', checkLock);
+
+  // ---------- article text (built once, revealed paragraph by paragraph) ----------
+  function buildText(root, clickable) {
+    return PARAS.map((p, pi) => {
+      const para = el('p', 'news-p');
+      if (pi === 0 && A.lugá) para.append(el('strong', 'news-dateline', A.lugá + '.- '));
+      const spans = p.zinnen.map((z) => {
+        const s = el('span', 'news-s', z.pap);
+        if (clickable) {
+          // An inline span (a <button> can't wrap like running text), made keyboard-accessible.
+          Object.assign(s, { tabIndex: 0, title: 'Toon vertaling' });
+          s.setAttribute('role', 'button');
+          s.setAttribute('aria-expanded', 'false');
+          const nl = el('span', 'news-nl', z.nl);
+          nl.lang = 'nl';
+          nl.hidden = true;
+          const toggle = () => {
+            nl.hidden = !nl.hidden;
+            s.setAttribute('aria-expanded', String(!nl.hidden));
+          };
+          s.addEventListener('click', toggle);
+          s.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+          });
+          para.append(s, nl, ' ');
+        } else {
+          para.append(s, ' ');
+        }
+        return s;
+      });
+      root.append(para);
+      return { para, spans };
+    });
+  }
+  const view = buildText($('news-text'), false);
+
+  // ---------- flow: read paragraph → one question per sentence → paragraph question ----------
+  let pi, si, phase, score, answered;
+
+  function setProgress(label) {
+    $('step-label').textContent = label;
+    $('progress-fill').style.width = Math.round((answered / TOTAL) * 100) + '%';
+  }
+
+  function paint() {
+    view.forEach((v, i) => {
+      v.para.hidden = i > pi;
+      v.para.classList.toggle('past', i < pi);
+      v.spans.forEach((s, j) => {
+        s.classList.toggle('current', i === pi && phase === 'zin' && j === si);
+        s.classList.toggle('done', i < pi || (i === pi && (phase === 'alinea' || (phase === 'zin' && j < si))));
+      });
+    });
+    view[pi].para.classList.toggle('focus', phase === 'alinea' || phase === 'read');
+  }
+
+  function translationToggle(text) {
+    const wrap = el('div', 'news-hint');
+    const btn = el('button', 'hint-btn', 'Toon vertaling');
+    btn.type = 'button';
+    const out = el('div', 'hint-text', text);
+    out.hidden = true;
+    btn.addEventListener('click', () => {
+      out.hidden = !out.hidden;
+      btn.textContent = out.hidden ? 'Toon vertaling' : 'Verberg vertaling';
+    });
+    wrap.append(btn, out);
+    return wrap;
+  }
+
+  function step() {
+    const p = PARAS[pi];
+    const where = `Alinea ${pi + 1} van ${PARAS.length}`;
+    const body = $('task-body');
+    paint();
+
+    if (phase === 'read') {
+      setProgress(where + ' · Lezen');
+      $('task-label').textContent = where;
+      body.innerHTML = '';
+      body.append(el('p', 'body-text', 'Lees eerst de hele alinea rustig door. Daarna krijg je een vraag per zin.'));
+      const go = el('button', 'btn btn-primary block', 'Ik heb de alinea gelezen →');
+      go.type = 'button';
+      go.addEventListener('click', () => { phase = 'zin'; si = 0; step(); });
+      body.append(go);
+      go.focus({ preventScroll: true });
+      window.scrollTo({ top: 0 });
+      return;
+    }
+
+    if (phase === 'zin') {
+      const z = p.zinnen[si];
+      setProgress(`${where} · Zin ${si + 1} van ${p.zinnen.length}`);
+      $('task-label').textContent = `Zin ${si + 1} van ${p.zinnen.length}`;
+      const quote = el('blockquote', 'news-quote', z.pap);
+      quote.lang = 'pap';
+      const extra = el('div');
+      extra.append(quote, translationToggle(z.nl));
+      Quiz.ask(body, { question: z.vraag || 'Wat wordt hier gezegd?', options: z.opties, correct: z.correct, explanation: z.uitleg }, {
+        before: extra,
+        onAnswer: (ok) => { answered++; if (ok) score++; setProgress($('step-label').textContent); },
+        nextLabel: si + 1 < p.zinnen.length ? 'Volgende zin →' : 'Vraag over de alinea →',
+        onNext: () => {
+          if (si + 1 < p.zinnen.length) si++; else phase = 'alinea';
+          step();
+        },
+      });
+    } else {
+      setProgress(`${where} · Waar gaat dit over?`);
+      $('task-label').textContent = `${where} · Waar gaat dit over?`;
+      const last = pi + 1 >= PARAS.length;
+      Quiz.ask(body, { question: p.vraag || 'Waar gaat deze alinea over?', options: p.opties, correct: p.correct, explanation: p.uitleg }, {
+        onAnswer: (ok) => { answered++; if (ok) score++; setProgress($('step-label').textContent); },
+        nextLabel: last ? 'Bekijk resultaat' : 'Volgende alinea →',
+        onNext: () => {
+          if (last) return finish();
+          pi++; phase = 'read';
+          step();
+        },
+      });
+    }
+    $('task').scrollIntoView({ block: 'nearest' });
+  }
+
+  function start() {
+    pi = 0; si = 0; phase = 'read'; score = 0; answered = 0;
+    $('intro').hidden = true;
+    $('result').hidden = true;
+    $('reader').hidden = false;
+    step();
+  }
+
+  function finish() {
+    const first = !Store.get().nieuws[A.id];
+    const openBefore = Store.nieuwsOpen(IDS, UNLOCK);
+    Store.completeNieuws(A.id);
+    const freed = Store.nieuwsOpen(IDS, UNLOCK) - openBefore;
+    $('result-unlock').hidden = !freed;
+    $('result-unlock').textContent = freed ? `🔓 Er ${freed === 1 ? 'is 1 nieuw bericht' : `zijn ${freed} nieuwe berichten`} vrijgekomen!` : '';
+    if (first && score) Store.addXp(score);
+    setProgress('Klaar');
+    $('reader').hidden = true;
+    $('result').hidden = false;
+    const pct = score / TOTAL;
+    $('score').textContent = `${score} / ${TOTAL}`;
+    $('score').className = 'score ' + (pct >= 0.6 ? 'pass' : 'fail');
+    const praise = pct >= 0.9 ? 'Uitstekend! Je begrijpt dit bericht bijna helemaal.'
+      : pct >= 0.6 ? 'Goed gedaan! Je hebt de kern van het bericht begrepen.'
+      : 'Dit was nog lastig. Lees het bericht hieronder nog eens met de vertalingen erbij.';
+    $('result-text').textContent = praise + (first && score ? ` Je verdient ${score} XP.` : '');
+    const review = $('review');
+    review.innerHTML = '';
+    buildText(review, true);
+    window.scrollTo({ top: 0 });
+  }
+
+  $('start').addEventListener('click', start);
+  $('again').addEventListener('click', start);
+})();
+</script>
+{% endblock %}

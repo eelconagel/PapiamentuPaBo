@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-016",
+  "titel": "Chèk di salú gratis den sentro di kumpra",
+  "nivo": "Intermediate",
+  "kategoria": "Salú",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Verpleegkundigen doen een week lang gratis gezondheidschecks in een winkelcentrum.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Henter e siman aki, enfermeranan ta hasi chèk di salú gratis den un sentro di kumpra.",
+          "nl": "Deze hele week doen verpleegkundigen gratis gezondheidschecks in een winkelcentrum.",
+          "opties": [
+            "Deze week doen verpleegkundigen gratis gezondheidschecks in een winkelcentrum.",
+            "Deze week is het ziekenhuis gesloten.",
+            "Verpleegkundigen doen boodschappen in het winkelcentrum.",
+            "De gezondheidscheck kost deze week minder."
+          ],
+          "correct": 0,
+          "uitleg": "'Henter' = heel/gehele, 'enfermera' = verpleegkundige, 'hasi' = doen, 'sentro di kumpra' = winkelcentrum."
+        },
+        {
+          "pap": "Bo por laga midi bo preshon i bo suku den sanger.",
+          "nl": "Je kunt je bloeddruk en je bloedsuiker laten meten.",
+          "opties": [
+            "Je kunt er alleen je gewicht laten meten.",
+            "Je kunt je bloeddruk en bloedsuiker laten meten.",
+            "Je kunt er suiker en zout kopen.",
+            "Je kunt er bloed geven."
+          ],
+          "correct": 1,
+          "uitleg": "'Laga' = laten, 'midi' = meten, 'preshon' = (bloed)druk, 'suku den sanger' = bloedsuiker."
+        },
+        {
+          "pap": "No tin mester di hasi sita.",
+          "nl": "Je hoeft geen afspraak te maken.",
+          "opties": [
+            "Er zijn geen afspraken meer vrij.",
+            "Je moet de dokter bellen.",
+            "Je hoeft geen afspraak te maken.",
+            "Je moet eerst een afspraak maken."
+          ],
+          "correct": 2,
+          "uitleg": "'No tin mester di' = het is niet nodig om, 'sita' = afspraak."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een nieuw ziekenhuis in een winkelcentrum",
+        "Een tekort aan verpleegkundigen",
+        "Een winkel die medicijnen verkoopt",
+        "Gratis gezondheidschecks zonder afspraak in een winkelcentrum"
+      ],
+      "correct": 3,
+      "uitleg": "Een week lang gratis bloeddruk en bloedsuiker laten meten, zonder afspraak."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Segun e organisashon, hopi hende no sa ku nan tin preshon haltu.",
+          "nl": "Volgens de organisatie weten veel mensen niet dat ze een hoge bloeddruk hebben.",
+          "opties": [
+            "Veel mensen weten niet dat ze een hoge bloeddruk hebben.",
+            "Veel mensen hebben een te lage bloeddruk.",
+            "Iedereen weet wat zijn bloeddruk is.",
+            "Veel mensen willen hun bloeddruk niet weten."
+          ],
+          "correct": 0,
+          "uitleg": "'Sa' = weten, 'preshon haltu' = hoge bloeddruk."
+        },
+        {
+          "pap": "Esei por ta peligroso, spesialmente pa hende di mas ku 40 aña.",
+          "nl": "Dat kan gevaarlijk zijn, vooral voor mensen boven de 40 jaar.",
+          "opties": [
+            "Dat is gevaarlijk voor mensen onder de 40.",
+            "Dat kan gevaarlijk zijn, vooral voor mensen ouder dan 40.",
+            "Dat is alleen gevaarlijk voor kinderen.",
+            "Dat is niet gevaarlijk."
+          ],
+          "correct": 1,
+          "uitleg": "'Esei' = dat, 'spesialmente' = vooral, 'mas ku 40 aña' = ouder dan 40."
+        },
+        {
+          "pap": "Ayera, e promé dia, mas ku 300 persona a pasa.",
+          "nl": "Gisteren, de eerste dag, kwamen er meer dan 300 mensen langs.",
+          "opties": [
+            "Er komen morgen 300 mensen langs.",
+            "Er waren 30 mensen op de eerste dag.",
+            "Op de eerste dag kwamen er meer dan 300 mensen langs.",
+            "Op de eerste dag kwam er bijna niemand."
+          ],
+          "correct": 2,
+          "uitleg": "'Ayera' = gisteren, 'pasa' = langskomen, 'persona' = persoon."
+        }
+      ],
+      "vraag": "Waarom is de actie nuttig?",
+      "opties": [
+        "Omdat het ziekenhuis vol zit",
+        "Omdat de metingen in het winkelcentrum beter zijn",
+        "Omdat er medicijnen worden uitgedeeld",
+        "Veel mensen weten niet dat ze een hoge bloeddruk hebben, en de opkomst is groot"
+      ],
+      "correct": 3,
+      "uitleg": "Een hoge bloeddruk wordt vaak niet opgemerkt; al op dag één kwamen ruim 300 mensen."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Ken ku tin un resultado malu, ta haña un karta pa su dòkter di kas.",
+          "nl": "Wie een slechte uitslag heeft, krijgt een brief voor zijn huisarts.",
+          "opties": [
+            "Bij een slechte uitslag krijg je een brief voor je huisarts.",
+            "Bij een slechte uitslag moet je direct naar het ziekenhuis.",
+            "Iedereen krijgt een brief van de huisarts.",
+            "Een slechte uitslag wordt niet doorgegeven."
+          ],
+          "correct": 0,
+          "uitleg": "'Ken ku' = wie, 'resultado' = uitslag, 'malu' = slecht, 'dòkter di kas' = huisarts."
+        },
+        {
+          "pap": "E enfermeranan ta duna tambe konseho tokante kuminda salú.",
+          "nl": "De verpleegkundigen geven ook advies over gezond eten.",
+          "opties": [
+            "Ze geven advies over sporten.",
+            "Ze geven ook advies over gezond eten.",
+            "Ze delen gratis eten uit.",
+            "Ze verkopen gezonde snacks."
+          ],
+          "correct": 1,
+          "uitleg": "'Konseho' = advies, 'tokante' = over, 'kuminda salú' = gezond eten."
+        },
+        {
+          "pap": "E aktividat ta sigui te djasabra.",
+          "nl": "De activiteit loopt door tot zaterdag.",
+          "opties": [
+            "De actie stopt vandaag.",
+            "De actie is elke zaterdag.",
+            "De actie duurt tot en met zaterdag.",
+            "De actie is zaterdag begonnen."
+          ],
+          "correct": 2,
+          "uitleg": "'Sigui' = doorgaan, 'te' = tot."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Hoe je een afspraak maakt bij de huisarts",
+        "Welke medicijnen je moet nemen",
+        "Waarom de actie eerder stopt",
+        "Wat er gebeurt na een slechte uitslag, extra advies en tot wanneer het loopt"
+      ],
+      "correct": 3,
+      "uitleg": "Een brief voor de huisarts, advies over gezond eten, en het loopt tot zaterdag."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "salú",
+      "uitspraak": "sa-lu",
+      "vertaling": "gezondheid"
+    },
+    {
+      "woord": "enfermera",
+      "uitspraak": "en-fer-me-ra",
+      "vertaling": "verpleegkundige"
+    },
+    {
+      "woord": "preshon",
+      "uitspraak": "pre-sjon",
+      "vertaling": "bloeddruk"
+    },
+    {
+      "woord": "suku",
+      "uitspraak": "su-ku",
+      "vertaling": "suiker"
+    },
+    {
+      "woord": "sentro di kumpra",
+      "uitspraak": "sen-tro di kum-pra",
+      "vertaling": "winkelcentrum"
+    },
+    {
+      "woord": "kuidá",
+      "uitspraak": "kwi-da",
+      "vertaling": "zorgen voor, oppassen"
+    }
+  ]
+}

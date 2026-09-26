@@ -313,6 +313,23 @@ def test_merge_keeps_best_of_both():
     assert m["scenarios"] == {"s1": "2026-01-01", "s2": "2026-02-01"}
 
 
+def test_nieuws_sanitized_and_merged():
+    a = sanitize({"nieuws": {"nieuws-001": "2026-03-02", "": "x", "n2": None}})
+    assert a["nieuws"] == {"nieuws-001": "2026-03-02"}
+    b = sanitize({"nieuws": {"nieuws-001": "2026-03-01", "nieuws-002": "2026-04-01"}})
+    assert merge(a, b)["nieuws"] == {"nieuws-001": "2026-03-01", "nieuws-002": "2026-04-01"}
+
+
+def test_old_client_without_nieuws_keeps_it():
+    # A tab running stale JavaScript sends no "nieuws" key: don't wipe what the server has.
+    stored = json.dumps(sanitize({"xp": 5, "nieuws": {"nieuws-001": "2026-03-01"}}))
+    new, _ = resolve(stored, 2, {"xp": 6}, 2, replace=False)
+    assert new["xp"] == 6 and new["nieuws"] == {"nieuws-001": "2026-03-01"}
+    # ...but an explicit empty map (e.g. a restored backup) does replace it.
+    new, _ = resolve(stored, 2, {"xp": 6, "nieuws": {}}, 2, replace=False)
+    assert new["nieuws"] == {}
+
+
 def test_replace_keeps_profile():
     stored = json.dumps(sanitize({"xp": 5, "profile": {"name": "Ana"}}))
     new, rev = resolve(stored, 3, {"xp": 0}, None, replace=True)

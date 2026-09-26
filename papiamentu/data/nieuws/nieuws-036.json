@@ -1,0 +1,140 @@
+{
+  "id": "nieuws-036",
+  "titel": "Muchanan ta limpia playa",
+  "nivo": "Easy",
+  "kategoria": "Naturalesa",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Honderd kinderen hebben samen een strand schoongemaakt.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Djasabra 100 mucha a limpia un playa.",
+          "nl": "Zaterdag hebben 100 kinderen een strand schoongemaakt.",
+          "opties": [
+            "Zaterdag maakten 100 kinderen een strand schoon.",
+            "Zaterdag gingen 100 kinderen zwemmen.",
+            "Zaterdag werd het strand gesloten voor kinderen.",
+            "10 kinderen maakten de school schoon."
+          ],
+          "correct": 0,
+          "uitleg": "'Limpia' = schoonmaken."
+        },
+        {
+          "pap": "Nan a haña hopi plèstik i bòter.",
+          "nl": "Ze vonden veel plastic en flessen.",
+          "opties": [
+            "Ze vonden vissen.",
+            "Ze vonden veel plastic en flessen.",
+            "Ze vonden veel schelpen.",
+            "Ze vonden bijna niets."
+          ],
+          "correct": 1,
+          "uitleg": "'Haña' = vinden, 'bòter' = fles."
+        },
+        {
+          "pap": "Na final tabatin 60 saku yen di sushi.",
+          "nl": "Aan het eind waren er 60 zakken vol afval.",
+          "opties": [
+            "Ze hadden 60 lege zakken.",
+            "Ze verkochten 60 zakken.",
+            "Aan het eind waren er 60 volle zakken afval.",
+            "Aan het eind waren er 6 zakken."
+          ],
+          "correct": 2,
+          "uitleg": "'Saku' = zak, 'yen' = vol, 'sushi' = vuil/afval."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Kinderen die leren zwemmen",
+        "Een nieuw strand voor toeristen",
+        "Een wedstrijd op het strand",
+        "Kinderen die een strand schoonmaken en veel afval vinden"
+      ],
+      "correct": 3,
+      "uitleg": "100 kinderen ruimden het strand op: 60 zakken vol plastic en flessen."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E plèstik ta malu pa e piskanan den laman.",
+          "nl": "Het plastic is slecht voor de vissen in de zee.",
+          "opties": [
+            "Plastic is slecht voor de vissen in de zee.",
+            "Plastic is goed voor de vissen.",
+            "De vissen eten geen plastic.",
+            "Plastic komt uit de zee."
+          ],
+          "correct": 0,
+          "uitleg": "'Malu pa' = slecht voor, 'piska' = vis."
+        },
+        {
+          "pap": "Un mucha a bisa: \"Nos mester kuida nos isla.\"",
+          "nl": "Een kind zei: \"We moeten voor ons eiland zorgen.\"",
+          "opties": [
+            "Een kind zei dat het moe was.",
+            "Een kind zei dat we voor ons eiland moeten zorgen.",
+            "Een kind zei dat het strand vies mag zijn.",
+            "Een kind wil naar een ander eiland."
+          ],
+          "correct": 1,
+          "uitleg": "'Kuida' = zorgen voor, 'isla' = eiland."
+        },
+        {
+          "pap": "Otro luna nan lo limpia un otro playa.",
+          "nl": "Volgende maand maken ze een ander strand schoon.",
+          "opties": [
+            "Ze doen het nooit meer.",
+            "Volgende week maken ze de school schoon.",
+            "Volgende maand maken ze een ander strand schoon.",
+            "Volgende maand gaan ze naar hetzelfde strand zwemmen."
+          ],
+          "correct": 2,
+          "uitleg": "'Otro luna' = volgende maand, 'un otro' = een ander(e)."
+        }
+      ],
+      "vraag": "Wat is de boodschap?",
+      "opties": [
+        "Het strand is nu voor altijd schoon",
+        "Vissen zijn gevaarlijk voor kinderen",
+        "Kinderen mogen niet meer op het strand",
+        "Plastic is slecht voor vissen, dus zorg voor het eiland; volgende maand weer"
+      ],
+      "correct": 3,
+      "uitleg": "Plastic schaadt de vissen; de kinderen willen voor het eiland zorgen en gaan door."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "limpia",
+      "uitspraak": "lim-pia",
+      "vertaling": "schoonmaken"
+    },
+    {
+      "woord": "sushi",
+      "uitspraak": "su-sji",
+      "vertaling": "vuil, afval"
+    },
+    {
+      "woord": "saku",
+      "uitspraak": "sa-ku",
+      "vertaling": "zak"
+    },
+    {
+      "woord": "plèstik",
+      "uitspraak": "ples-tik",
+      "vertaling": "plastic"
+    },
+    {
+      "woord": "laman",
+      "uitspraak": "la-man",
+      "vertaling": "zee"
+    },
+    {
+      "woord": "yuda",
+      "uitspraak": "ju-da",
+      "vertaling": "helpen"
+    }
+  ]
+}

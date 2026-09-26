@@ -117,8 +117,9 @@
     const lessen = Object.values(s.lessen).filter((d) => d.length >= 4).length;
     const scen = Object.keys(s.scenarios).length;
     const woorden = Object.values(s.woorden).filter((w) => w.is_mastered).length;
+    const nieuws = Object.keys(s.nieuws || {}).length;
     document.getElementById('stats-label').textContent =
-      `${s.xp} XP · ${lessen} lessen · ${scen} scenario's · ${woorden} woorden gemeesterd`;
+      `${s.xp} XP · ${lessen} lessen · ${scen} scenario's · ${nieuws} nieuwsberichten · ${woorden} woorden gemeesterd`;
     document.querySelectorAll('#theme-picker button').forEach((b) => {
       const on = b.dataset.theme === s.theme;
       b.classList.toggle('active', on);

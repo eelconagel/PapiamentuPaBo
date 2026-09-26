@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-026",
+  "titel": "Parti grandi di Kòrsou sin awa i koriente",
+  "nivo": "Hard",
+  "kategoria": "Lokal",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Een storing liet een groot deel van het eiland zonder water en stroom. Wat ging er mis?",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Djarason atardi, un interupshon grandi a laga mitar di Kòrsou sin koriente pa kasi sinku ora.",
+          "nl": "Woensdagmiddag liet een grote storing de helft van Curaçao bijna vijf uur zonder stroom.",
+          "opties": [
+            "Woensdagmiddag zat half Curaçao bijna vijf uur zonder stroom.",
+            "Woensdag zat heel Curaçao vijf dagen zonder stroom.",
+            "Woensdagochtend ging de stroom vijf minuten uit.",
+            "De storing trof alleen het vliegveld."
+          ],
+          "correct": 0,
+          "uitleg": "'Djarason' = woensdag, 'atardi' = middag, 'laga' = laten, 'sin' = zonder, 'kasi' = bijna."
+        },
+        {
+          "pap": "Pasobra e pòmpnan di awa ta traha ku koriente, hopi bario tampoko no tabatin awa.",
+          "nl": "Omdat de waterpompen op stroom werken, hadden veel wijken ook geen water.",
+          "opties": [
+            "De waterpompen werken op zonne-energie.",
+            "Omdat de waterpompen stroom nodig hebben, hadden veel wijken ook geen water.",
+            "Door een lekkende waterleiding viel de stroom uit.",
+            "De wijken hadden wel water, maar geen stroom."
+          ],
+          "correct": 1,
+          "uitleg": "'Pòmp' = pomp, 'traha ku' = werken op, 'tampoko no' = ook niet."
+        },
+        {
+          "pap": "Semáfòrnan no tabata funshoná, loke a kousa tráfiko kaótiko den e stat.",
+          "nl": "De verkeerslichten werkten niet, wat zorgde voor chaotisch verkeer in de stad.",
+          "opties": [
+            "Er was nauwelijks verkeer in de stad.",
+            "De politie sloot de stad af.",
+            "Omdat de verkeerslichten uitvielen, was het verkeer chaotisch.",
+            "De verkeerslichten bleven werken dankzij een generator."
+          ],
+          "correct": 2,
+          "uitleg": "'Semáfòr' = verkeerslicht, 'funshoná' = werken, 'loke' = wat, 'kousa' = veroorzaken."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een geplande onderhoudsbeurt van het net",
+        "Een nieuwe energiecentrale die opent",
+        "Een tekort aan brandstof voor auto's",
+        "Een grote stroomstoring met gevolgen voor water en verkeer"
+      ],
+      "correct": 3,
+      "uitleg": "Een storing trof half Curaçao; ook water en verkeerslichten vielen uit."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E kompania di awa i koriente ta splika ku un kabel importante a kima den un subestashon.",
+          "nl": "Het water- en stroombedrijf legt uit dat een belangrijke kabel is doorgebrand in een onderstation.",
+          "opties": [
+            "Volgens het bedrijf is een belangrijke kabel in een onderstation doorgebrand.",
+            "Volgens het bedrijf heeft iemand de stroom expres afgesloten.",
+            "Het bedrijf weet nog niet wat de oorzaak is.",
+            "Een storm heeft de kabels beschadigd."
+          ],
+          "correct": 0,
+          "uitleg": "'Splika' = uitleggen, 'kima' = (door)branden, 'subestashon' = onderstation."
+        },
+        {
+          "pap": "Esei a pone otro parti di e sistema bai afó tambe, pa protehá e generadónan.",
+          "nl": "Daardoor gingen andere delen van het systeem ook uit, om de generatoren te beschermen.",
+          "opties": [
+            "De generatoren werden expres uitgezet om brandstof te sparen.",
+            "Daarna schakelden andere delen uit om de generatoren te beschermen.",
+            "Daardoor ontplofte een generator.",
+            "Andere delen van het systeem bleven gewoon werken."
+          ],
+          "correct": 1,
+          "uitleg": "'Bai afó' = uitvallen/uitschakelen, 'protehá' = beschermen."
+        },
+        {
+          "pap": "E kompania a pidi despensa i ta bisa ku lo tin un investigashon kompleto.",
+          "nl": "Het bedrijf bood excuses aan en zegt dat er een volledig onderzoek komt.",
+          "opties": [
+            "Het bedrijf is al klaar met het onderzoek.",
+            "Het bedrijf weigert commentaar te geven.",
+            "Het bedrijf biedt excuses aan en belooft een volledig onderzoek.",
+            "Het bedrijf zegt dat het niet hun schuld was."
+          ],
+          "correct": 2,
+          "uitleg": "'Pidi despensa' = excuses aanbieden, 'investigashon' = onderzoek."
+        }
+      ],
+      "vraag": "Wat was de oorzaak volgens het bedrijf?",
+      "opties": [
+        "Een cyberaanval op het netwerk",
+        "Te veel airco's tegelijk aan",
+        "Werkzaamheden aan de weg",
+        "Een doorgebrande kabel in een onderstation, waarna andere delen uitschakelden"
+      ],
+      "correct": 3,
+      "uitleg": "Een kabel brandde door; om schade te voorkomen schakelden andere delen ook uit. Er komt onderzoek."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Negoshinan chikí, manera panaderia i restorant, a pèrdè hopi kuminda ku mester a keda friu.",
+          "nl": "Kleine bedrijven, zoals bakkerijen en restaurants, verloren veel eten dat koel had moeten blijven.",
+          "opties": [
+            "Kleine zaken zoals bakkerijen en restaurants verloren veel gekoeld eten.",
+            "Grote supermarkten sloten voor een week.",
+            "Restaurants gaven gratis eten weg.",
+            "Bakkerijen konden gewoon doorwerken."
+          ],
+          "correct": 0,
+          "uitleg": "'Negoshi' = zaak/bedrijf, 'pèrdè' = verliezen, 'friu' = koud."
+        },
+        {
+          "pap": "Organisashon di negoshi ta eksigí kompensashon pa e daño.",
+          "nl": "De ondernemersorganisatie eist compensatie voor de schade.",
+          "opties": [
+            "De ondernemers betalen de schade zelf.",
+            "De ondernemers eisen een vergoeding voor de schade.",
+            "De ondernemers zijn tevreden met de excuses.",
+            "De ondernemers willen een nieuwe stroomleverancier."
+          ],
+          "correct": 1,
+          "uitleg": "'Eksigí' = eisen, 'kompensashon' = compensatie, 'daño' = schade."
+        },
+        {
+          "pap": "E kompania no a disidí ainda si lo paga algu.",
+          "nl": "Het bedrijf heeft nog niet besloten of het iets gaat betalen.",
+          "opties": [
+            "Het bedrijf weigert te betalen.",
+            "De overheid betaalt de schade.",
+            "Het bedrijf heeft nog niet besloten of het iets betaalt.",
+            "Het bedrijf betaalt iedereen volledig terug."
+          ],
+          "correct": 2,
+          "uitleg": "'Disidí' = besluiten, 'ainda' = nog, 'algu' = iets."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Nieuwe koelkasten voor restaurants",
+        "Het einde van het onderzoek",
+        "Een boete voor het bedrijf",
+        "De schade voor kleine bedrijven en hun eis om compensatie"
+      ],
+      "correct": 3,
+      "uitleg": "Kleine zaken verloren gekoeld eten en eisen compensatie; het bedrijf beslist nog."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "koriente",
+      "uitspraak": "ko-rien-te",
+      "vertaling": "stroom, elektriciteit"
+    },
+    {
+      "woord": "interupshon",
+      "uitspraak": "in-te-rup-sjon",
+      "vertaling": "storing, onderbreking"
+    },
+    {
+      "woord": "generadó",
+      "uitspraak": "he-ne-ra-do",
+      "vertaling": "generator"
+    },
+    {
+      "woord": "restourá",
+      "uitspraak": "res-tou-ra",
+      "vertaling": "herstellen"
+    },
+    {
+      "woord": "investigashon",
+      "uitspraak": "in-ves-ti-ga-sjon",
+      "vertaling": "onderzoek"
+    },
+    {
+      "woord": "kompensashon",
+      "uitspraak": "kom-pen-sa-sjon",
+      "vertaling": "compensatie"
+    }
+  ]
+}

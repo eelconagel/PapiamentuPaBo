@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-025",
+  "titel": "Aruba ta habri kaminda nobo pa bisikleta",
+  "nivo": "Intermediate",
+  "kategoria": "Aruba",
+  "lugá": "ORANJESTAD",
+  "beschrijving": "Op Aruba is een nieuw fietspad langs de kust geopend.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Na Aruba un kaminda nobo pa bisikleta a habri djasabra.",
+          "nl": "Op Aruba is zaterdag een nieuw fietspad geopend.",
+          "opties": [
+            "Op Aruba is zaterdag een nieuw fietspad geopend.",
+            "Op Aruba is zaterdag een fietspad gesloten.",
+            "Op Aruba worden fietsen verboden.",
+            "Op Aruba is een fietsenwinkel geopend."
+          ],
+          "correct": 0,
+          "uitleg": "'Kaminda pa bisikleta' = fietspad, 'habri' = openen."
+        },
+        {
+          "pap": "E kaminda ta kana 12 kilometer lats di kosta.",
+          "nl": "Het pad loopt 12 kilometer langs de kust.",
+          "opties": [
+            "Het pad loopt dwars over het eiland.",
+            "Het pad loopt twaalf kilometer langs de kust.",
+            "Het pad loopt twaalf kilometer door de bergen.",
+            "Het pad is twee kilometer lang."
+          ],
+          "correct": 1,
+          "uitleg": "'Kana' = lopen (ook van een weg), 'lats di' = langs, 'kosta' = kust."
+        },
+        {
+          "pap": "E ta konektá e stat ku e playanan den nort.",
+          "nl": "Het verbindt de stad met de stranden in het noorden.",
+          "opties": [
+            "Het loopt van het vliegveld naar de haven.",
+            "Het gaat alleen langs de stranden, niet naar de stad.",
+            "Het verbindt de stad met de stranden in het noorden.",
+            "Het verbindt twee dorpen in het zuiden."
+          ],
+          "correct": 2,
+          "uitleg": "'Konektá' = verbinden, 'stat' = stad, 'nort' = noorden."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een fietswedstrijd op Aruba",
+        "Een nieuwe weg voor auto's",
+        "Een strand dat gesloten wordt",
+        "Een nieuw fietspad langs de kust van Aruba"
+      ],
+      "correct": 3,
+      "uitleg": "Een fietspad van 12 kilometer langs de kust, van de stad naar de noordelijke stranden."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Promé, hende riba bisikleta mester a kore riba e kaminda grandi huntu ku outo.",
+          "nl": "Vroeger moesten fietsers op de grote weg rijden, samen met auto's.",
+          "opties": [
+            "Vroeger moesten fietsers tussen de auto's op de grote weg rijden.",
+            "Vroeger mochten fietsers niet op de weg.",
+            "Vroeger was er een fietspad in de bergen.",
+            "Vroeger waren er geen auto's op de grote weg."
+          ],
+          "correct": 0,
+          "uitleg": "'Promé' = vroeger, 'mester a' = moesten, 'kaminda grandi' = hoofdweg, 'huntu ku' = samen met."
+        },
+        {
+          "pap": "Esei tabata peligroso, spesialmente anochi.",
+          "nl": "Dat was gevaarlijk, vooral 's avonds.",
+          "opties": [
+            "Niemand vond het gevaarlijk.",
+            "Dat was gevaarlijk, vooral 's avonds.",
+            "Dat was veilig, behalve 's ochtends.",
+            "Dat was alleen 's middags gevaarlijk."
+          ],
+          "correct": 1,
+          "uitleg": "'Peligroso' = gevaarlijk, 'anochi' = 's avonds/'s nachts."
+        },
+        {
+          "pap": "E kaminda nobo tin lus i un muraya chikí entre bisikleta i outo.",
+          "nl": "Het nieuwe pad heeft verlichting en een klein muurtje tussen fietsen en auto's.",
+          "opties": [
+            "Auto's mogen ook op het nieuwe pad rijden.",
+            "Er staat een hoge muur langs het hele strand.",
+            "Het nieuwe pad heeft verlichting en een muurtje tussen fietsen en auto's.",
+            "Het nieuwe pad heeft geen verlichting."
+          ],
+          "correct": 2,
+          "uitleg": "'Lus' = licht/verlichting, 'muraya' = muur."
+        }
+      ],
+      "vraag": "Waarom is het nieuwe pad een verbetering?",
+      "opties": [
+        "Het pad is korter dan de oude weg",
+        "Auto's mogen er sneller rijden",
+        "Fietsers hoeven geen helm meer te dragen",
+        "Fietsers hoeven niet meer tussen de auto's en het pad is verlicht en afgeschermd"
+      ],
+      "correct": 3,
+      "uitleg": "Vroeger was fietsen op de hoofdweg gevaarlijk; nu is er licht en een scheiding."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E promé dia, famianan ku mucha i turistanan a hasi uso di dje.",
+          "nl": "Op de eerste dag maakten gezinnen met kinderen en toeristen er gebruik van.",
+          "opties": [
+            "De eerste dag gebruikten gezinnen en toeristen het pad.",
+            "De eerste dag was het pad leeg.",
+            "Alleen wielrenners gebruikten het pad.",
+            "Toeristen mochten het pad niet gebruiken."
+          ],
+          "correct": 0,
+          "uitleg": "'Hasi uso di' = gebruik maken van."
+        },
+        {
+          "pap": "Tin tambe un lugá pa hür bisikleta na kada banda.",
+          "nl": "Er is aan elke kant ook een plek om fietsen te huren.",
+          "opties": [
+            "Er is één fietsverhuur in de stad.",
+            "Aan beide kanten kun je fietsen huren.",
+            "Je moet je eigen fiets meenemen.",
+            "Je kunt er fietsen kopen."
+          ],
+          "correct": 1,
+          "uitleg": "'Hür' = huren, 'kada banda' = elke kant."
+        },
+        {
+          "pap": "Gobièrnu ta plania pa ekspandé e kaminda te Arikok.",
+          "nl": "De regering is van plan het pad uit te breiden tot Arikok.",
+          "opties": [
+            "Het pad loopt al tot Arikok.",
+            "Arikok krijgt een eigen fietspad.",
+            "De regering wil het pad doortrekken tot Arikok.",
+            "De regering wil het pad weer sluiten."
+          ],
+          "correct": 2,
+          "uitleg": "'Plania' = plannen, 'ekspandé' = uitbreiden, 'te' = tot."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Klachten van toeristen over het pad",
+        "Waarom het pad duur was",
+        "Een ongeluk op het nieuwe pad",
+        "Wie het pad gebruiken, fietsverhuur en plannen voor uitbreiding"
+      ],
+      "correct": 3,
+      "uitleg": "Gezinnen en toeristen fietsen er al, je kunt fietsen huren en het pad wordt misschien langer."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "bisikleta",
+      "uitspraak": "bi-si-kle-ta",
+      "vertaling": "fiets"
+    },
+    {
+      "woord": "kaminda",
+      "uitspraak": "ka-min-da",
+      "vertaling": "weg, pad"
+    },
+    {
+      "woord": "kosta",
+      "uitspraak": "kos-ta",
+      "vertaling": "kust"
+    },
+    {
+      "woord": "sigur",
+      "uitspraak": "si-gur",
+      "vertaling": "veilig"
+    },
+    {
+      "woord": "habri",
+      "uitspraak": "ha-bri",
+      "vertaling": "openen"
+    },
+    {
+      "woord": "ekspandé",
+      "uitspraak": "eks-pan-de",
+      "vertaling": "uitbreiden"
+    }
+  ]
+}

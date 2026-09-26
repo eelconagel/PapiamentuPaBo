@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+{% block title %}Nieuws lezen · Papiamentu Pa Bo{% endblock %}
+{% block description %}Oefen je leesbegrip met korte nieuwsberichten in het Papiamentu: lees zin voor zin, beantwoord vragen en krijg meteen uitleg.{% endblock %}
+{% block main_class %}wide{% endblock %}
+{% block content %}
+<h1 class="title">Nieuws lezen</h1>
+<p class="subtitle">Korte nieuwsberichten in het Papiamentu. Lees zin voor zin en test of je het begrijpt.</p>
+<p class="muted small center">De berichten zijn verzonnen en bedoeld om te oefenen: namen, plaatsen en gebeurtenissen bestaan niet echt.</p>
+
+<div class="filter-chips" role="group" aria-label="Filter op niveau">
+  <button type="button" class="chip active" data-level="">Alle</button>
+  {% for level, label in NIVEAU_LABEL.items() if artikelen | selectattr('nivo', 'equalto', level) | list %}
+    <button type="button" class="chip" data-level="{{ level }}">{{ label }}</button>
+  {% endfor %}
+</div>
+<p class="muted small center" id="nieuws-progress"></p>
+<p class="unlock-hint" id="unlock-hint" hidden></p>
+
+{% for level in NIVEAU_LABEL if artikelen | selectattr('nivo', 'equalto', level) | list %}
+  <section class="level-section" data-level="{{ level }}">
+    <h2 class="blok-heading"><span class="badge" style="background:{{ NIVEAU_COLOR[level] }}">{{ NIVEAU_LABEL[level] }}</span> <span class="level-count"></span></h2>
+    <div class="card-grid" data-list="open"></div>
+    <div class="mini-list" data-list="done"></div>
+    <div class="mini-list" data-list="locked"></div>
+  </section>
+{% endfor %}
+{% endblock %}
+
+{% block scripts %}
+<script nonce="{{ csp_nonce }}">
+(function () {
+  const ARTIKELEN = {{ artikelen | tojson }};
+  const UNLOCK = {{ unlock | tojson }};
+  const KATEGORIA_NL = {{ KATEGORIA_NL | tojson }};
+  const IDS = ARTIKELEN.map((a) => a.id);
+  const urlFor = (id) => {{ url_for('nieuws') | tojson }} + '/' + id;
+  const el = (tag, cls, text) => {
+    const e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  };
+
+  function kategoria(a) {
+    const nl = KATEGORIA_NL[a.kategoria];
+    return nl && nl !== a.kategoria ? `${a.kategoria} (${nl})` : a.kategoria;
+  }
+  const meta = (a) => `${a.alineas} alinea's · ${a.zinnen} zinnen`;
+
+  function openCard(a) {
+    const card = el('a', 'card');
+    card.href = urlFor(a.id);
+    const head = el('div', 'card-header');
+    head.append(el('span', 'card-number', `#${a.number} · ${kategoria(a)}`));
+    const title = el('h3', 'card-title', a.titel);
+    title.lang = 'pap';
+    card.append(head, title, el('p', 'card-desc', a.beschrijving), el('p', 'card-meta', meta(a)));
+    return card;
+  }
+
+  // Read: small, title only; click to unfold the details.
+  function doneItem(a) {
+    const d = el('details', 'mini-item done');
+    const sum = el('summary');
+    const title = el('span', 'mini-title', a.titel);
+    title.lang = 'pap';
+    sum.append(el('span', 'mini-icon', '✓'), title, el('span', 'mini-num', '#' + a.number));
+    const body = el('div', 'mini-body');
+    const again = el('a', 'btn btn-secondary btn-sm', 'Opnieuw lezen');
+    again.href = urlFor(a.id);
+    body.append(el('p', 'card-number', kategoria(a)), el('p', 'card-desc', a.beschrijving),
+                el('p', 'card-meta', meta(a)), again);
+    d.append(sum, body);
+    return d;
+  }
+
+  function lockedItem(a) {
+    const d = el('div', 'mini-item locked');
+    const title = el('span', 'mini-title', a.titel);
+    title.lang = 'pap';
+    d.append(el('span', 'mini-icon', '🔒'), title, el('span', 'mini-num', '#' + a.number));
+    return d;
+  }
+
+  function render() {
+    const done = Store.get().nieuws;
+    const open = Store.nieuwsOpen(IDS, UNLOCK);
+    let total = 0, read = 0, locked = 0;
+    document.querySelectorAll('.level-section').forEach((section) => {
+      const lists = {};
+      section.querySelectorAll('[data-list]').forEach((l) => { l.innerHTML = ''; lists[l.dataset.list] = l; });
+      let n = 0, d = 0;
+      ARTIKELEN.forEach((a, i) => {
+        if (a.nivo !== section.dataset.level) return;
+        n++;
+        if (done[a.id]) { d++; lists.done.append(doneItem(a)); }
+        else if (i < open) lists.open.append(openCard(a));
+        else { locked++; lists.locked.append(lockedItem(a)); }
+      });
+      Object.values(lists).forEach((l) => { l.hidden = !l.children.length; });
+      section.querySelector('.level-count').textContent = `${d} van ${n} gelezen`;
+      total += n; read += d;
+    });
+    document.getElementById('nieuws-progress').textContent =
+      read ? `Je hebt ${read} van de ${total} berichten gelezen.` : '';
+    const hint = document.getElementById('unlock-hint');
+    hint.hidden = !locked;
+    if (locked) {
+      const need = UNLOCK.per - (read % UNLOCK.per);
+      hint.textContent = `🔒 Lees nog ${need} bericht${need === 1 ? '' : 'en'} om ${Math.min(UNLOCK.per, locked)} nieuwe vrij te spelen.`;
+    }
+  }
+
+  const chips = document.querySelectorAll('.chip');
+  chips.forEach((chip) => chip.addEventListener('click', () => {
+    chips.forEach((c) => c.classList.toggle('active', c === chip));
+    document.querySelectorAll('.level-section').forEach((section) => {
+      section.hidden = !!chip.dataset.level && section.dataset.level !== chip.dataset.level;
+    });
+  }));
+
+  render();
+  document.addEventListener('papiamentu:synced', render);
+})();
+</script>
+{% endblock %}

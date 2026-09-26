@@ -23,6 +23,7 @@
       <li><strong>💬 20 scenario's</strong> — oefen situaties uit het dagelijks leven, van begroeten tot een sollicitatiegesprek.</li>
       <li><strong>✍️ Woorden oefenen</strong> — leer woordjes schrijven en lezen; nieuwe lijsten ontgrendelen zich vanzelf.</li>
       <li><strong>📚 40 lessen</strong> — grammatica, woordjes, cultuur en een oefening per les.</li>
+      <li><strong>📰 Nieuws lezen</strong> — korte nieuwsberichten in het Papiamentu, met vragen per zin en per alinea.</li>
     </ul>
     <p class="small muted">Een account is niet nodig. Inloggen is optioneel en dient alleen om je voortgang te bewaren. Lees hoe we met je gegevens omgaan in onze <a href="{{ url_for('privacy') }}">privacyverklaring</a>.</p>
   </div>
@@ -74,6 +75,16 @@
       <span class="option-progress" data-progress="lessen"></span>
     </span>
   </a>
+  {% if totals.nieuws %}
+  <a class="option-btn" style="background:var(--fill-purple)" href="{{ url_for('nieuws') }}">
+    <span class="option-icon">📰</span>
+    <span class="option-text">
+      <span class="option-title">Nieuws lezen</span>
+      <span class="option-sub">Lees korte nieuwsberichten in het Papiamentu en test je leesbegrip</span>
+      <span class="option-progress" data-progress="nieuws"></span>
+    </span>
+  </a>
+  {% endif %}
 
   {% if login_providers and not current_user %}
     <div class="save-card">
@@ -101,15 +112,18 @@
     const lessenDone = LESSEN.filter((l) => (s.lessen[l.id] || []).length >= 4).length;
     const mastered = Object.values(s.woorden).filter((w) => w.is_mastered).length;
     const scen = Object.keys(s.scenarios).length;
+    const nieuws = Object.keys(s.nieuws || {}).length;
     const text = {
       scenarios: `${scen} van ${TOTALS.scenarios} voltooid`,
       woorden: `${mastered} van ${TOTALS.woorden} woorden gemeesterd`,
       lessen: `${lessenDone} van ${LESSEN.length} lessen voltooid`,
+      nieuws: `${nieuws} van ${TOTALS.nieuws} berichten gelezen`,
     };
     const pct = {
       scenarios: scen / TOTALS.scenarios,
       woorden: mastered / TOTALS.woorden,
       lessen: lessenDone / LESSEN.length,
+      nieuws: TOTALS.nieuws ? Math.min(1, nieuws / TOTALS.nieuws) : 0,
     };
     document.querySelectorAll('[data-progress]').forEach((el) => {
       const k = el.dataset.progress;

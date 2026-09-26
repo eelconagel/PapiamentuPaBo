@@ -1,0 +1,190 @@
+{
+  "id": "nieuws-005",
+  "titel": "Koro di skol ta prepará pa konsierto di aguinaldo",
+  "nivo": "Intermediate",
+  "kategoria": "Kultura",
+  "lugá": "BARBER",
+  "beschrijving": "Een schoolkoor oefent al weken voor een kerstconcert op het dorpsplein.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "E koro di skol Bon Futuro ta sayá tur dia pa e konsierto di aguinaldo.",
+          "nl": "Het koor van school Bon Futuro repeteert elke dag voor het aguinaldo-concert.",
+          "opties": [
+            "Het koor heeft het concert afgezegd.",
+            "Het schoolkoor repeteert elke dag voor een concert.",
+            "Het schoolkoor geeft elke dag een concert.",
+            "De school zoekt nieuwe leden voor het koor."
+          ],
+          "correct": 1,
+          "uitleg": "'Koro' = koor, 'sayá' = repeteren, 'tur dia' = elke dag."
+        },
+        {
+          "pap": "Aguinaldo ta kantika tradishonal di Pasku.",
+          "nl": "Aguinaldo zijn traditionele kerstliederen.",
+          "opties": [
+            "Aguinaldo is een traditioneel gerecht met Kerst.",
+            "Aguinaldo is een dans voor Oud en Nieuw.",
+            "Aguinaldo zijn traditionele kerstliederen.",
+            "Aguinaldo is een nieuwe popgroep."
+          ],
+          "correct": 2,
+          "uitleg": "'Kantika' = lied, 'tradishonal' = traditioneel, 'Pasku' = Kerstmis."
+        },
+        {
+          "pap": "E muchanan ta kanta na spañó i na papiamentu.",
+          "nl": "De kinderen zingen in het Spaans en in het Papiamentu.",
+          "opties": [
+            "De kinderen leren Spaans op school.",
+            "De kinderen zingen alleen in het Nederlands.",
+            "De kinderen zingen samen met Spaanse gasten.",
+            "De kinderen zingen in het Spaans en het Papiamentu."
+          ],
+          "correct": 3,
+          "uitleg": "'Muchanan' = kinderen, 'kanta' = zingen, 'na spañó' = in het Spaans."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een schoolkoor dat kerstliederen oefent",
+        "Een school die een nieuwe taal invoert",
+        "Een concert dat al voorbij is",
+        "Een wedstrijd tussen twee koren"
+      ],
+      "correct": 0,
+      "uitleg": "Het koor oefent aguinaldo's (kerstliederen) in twee talen."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E konsierto lo ta riba 14 di desèmber na e plasa di Barber.",
+          "nl": "Het concert is op 14 december op het plein van Barber.",
+          "vraag": "Wanneer en waar is het concert?",
+          "opties": [
+            "Het concert is op 4 december in de school.",
+            "Het concert is op 14 december op het plein.",
+            "Het concert was op 14 november in de kerk.",
+            "Het concert duurt veertien dagen."
+          ],
+          "correct": 1,
+          "uitleg": "'Lo ta' = zal zijn, 'desèmber' = december, 'plasa' = plein."
+        },
+        {
+          "pap": "Entrada ta liber, pero bo por duna un donashon.",
+          "nl": "De toegang is gratis, maar je kunt een donatie geven.",
+          "opties": [
+            "Je moet een donatie geven om binnen te komen.",
+            "Alleen ouders mogen naar binnen.",
+            "De toegang is gratis, maar een gift mag.",
+            "Een kaartje is verplicht."
+          ],
+          "correct": 2,
+          "uitleg": "'Entrada' = toegang/entree, 'liber' = vrij/gratis, 'duna' = geven."
+        },
+        {
+          "pap": "E plaka ta bai na un biaha di e koro pa Aruba.",
+          "nl": "Het geld gaat naar een reis van het koor naar Aruba.",
+          "opties": [
+            "Het geld gaat naar een school op Aruba.",
+            "Het koor komt uit Aruba.",
+            "Het geld is voor nieuwe kostuums.",
+            "Het geld is voor een reis van het koor naar Aruba."
+          ],
+          "correct": 3,
+          "uitleg": "'Plaka' = geld, 'biaha' = reis."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Praktische informatie over het concert en waar het geld heen gaat",
+        "Hoe je lid wordt van het koor",
+        "Waarom het concert naar Aruba verhuist",
+        "De prijs van de kaartjes"
+      ],
+      "correct": 0,
+      "uitleg": "Datum, plaats, gratis toegang en een donatie voor de reis naar Aruba."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Direktora di skol, sra. Ivette Doran, ta bisa ku e muchanan ta hopi nervioso.",
+          "nl": "De directrice van de school, mevrouw Ivette Doran, zegt dat de kinderen erg zenuwachtig zijn.",
+          "opties": [
+            "De directrice zingt zelf ook mee.",
+            "De directrice zegt dat de kinderen zenuwachtig zijn.",
+            "De directrice zegt dat de kinderen moe zijn.",
+            "De kinderen zeggen dat de directrice streng is."
+          ],
+          "correct": 1,
+          "uitleg": "'Direktora' = directrice, 'ta bisa ku' = zegt dat, 'nervioso' = zenuwachtig."
+        },
+        {
+          "pap": "Pero nan ta kanta mas bon ku nunka.",
+          "nl": "Maar ze zingen beter dan ooit.",
+          "opties": [
+            "Maar ze zingen minder goed dan vorig jaar.",
+            "Maar ze willen niet meer zingen.",
+            "Maar ze zingen beter dan ooit.",
+            "Maar ze hebben nog nooit gezongen."
+          ],
+          "correct": 2,
+          "uitleg": "'Mas bon ku nunka' = beter dan ooit (letterlijk: beter dan nooit)."
+        },
+        {
+          "pap": "E ta invitá tur hende di bario pa bini tende.",
+          "nl": "Ze nodigt iedereen uit de wijk uit om te komen luisteren.",
+          "opties": [
+            "Ze vraagt de buurt om stil te zijn.",
+            "Alleen mensen uit de wijk mogen komen.",
+            "Ze vraagt buurtbewoners om mee te zingen.",
+            "Ze nodigt de hele buurt uit om te komen luisteren."
+          ],
+          "correct": 3,
+          "uitleg": "'Invitá' = uitnodigen, 'tur hende' = iedereen, 'bario' = wijk, 'tende' = horen/luisteren."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Wat de directrice over het koor zegt en haar uitnodiging",
+        "Waarom het concert niet doorgaat",
+        "Klachten van buren over het geluid",
+        "De geschiedenis van de school"
+      ],
+      "correct": 0,
+      "uitleg": "De kinderen zijn zenuwachtig maar zingen goed; iedereen is welkom."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "koro",
+      "uitspraak": "ko-ro",
+      "vertaling": "koor"
+    },
+    {
+      "woord": "sayá",
+      "uitspraak": "sa-ja",
+      "vertaling": "repeteren"
+    },
+    {
+      "woord": "kantika",
+      "uitspraak": "kan-ti-ka",
+      "vertaling": "lied"
+    },
+    {
+      "woord": "Pasku",
+      "uitspraak": "pas-ku",
+      "vertaling": "Kerstmis"
+    },
+    {
+      "woord": "liber",
+      "uitspraak": "li-ber",
+      "vertaling": "vrij, gratis"
+    },
+    {
+      "woord": "bario",
+      "uitspraak": "ba-rio",
+      "vertaling": "wijk"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-035",
+  "titel": "Hóbennan ta konvertí aloe den negoshi eksitoso",
+  "nivo": "Hard",
+  "kategoria": "Ekonomia",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Drie jonge ondernemers maken zeep en crème van aloë en willen gaan exporteren.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Tres hóben di entre 22 i 25 aña a kuminsá un negoshi ku ta traha sabon i krema di aloe.",
+          "nl": "Drie jongeren tussen 22 en 25 jaar zijn een bedrijf begonnen dat zeep en crème van aloë maakt.",
+          "opties": [
+            "Drie jonge mensen begonnen een bedrijf in zeep en crème van aloë.",
+            "Drie jongeren werken in een fabriek in het buitenland.",
+            "Drie jongeren verkopen aloëplanten op de markt.",
+            "Een bedrijf heeft drie jongeren ontslagen."
+          ],
+          "correct": 0,
+          "uitleg": "'Entre' = tussen, 'kuminsá' = beginnen, 'krema' = crème."
+        },
+        {
+          "pap": "Nan ta kultivá e aloe mes riba un tereno di un tio di un di nan.",
+          "nl": "Ze kweken de aloë zelf op een stuk grond van een oom van een van hen.",
+          "opties": [
+            "Hun oom verkoopt hen aloë.",
+            "Ze kweken de aloë zelf op grond van een oom.",
+            "Ze kopen de aloë uit het buitenland.",
+            "Ze hebben een grote plantage gekocht."
+          ],
+          "correct": 1,
+          "uitleg": "'Kultivá' = verbouwen, 'mes' = zelf, 'tereno' = stuk grond, 'tio' = oom."
+        },
+        {
+          "pap": "E idea a nase durante e pandemia, ora nan tabata sin trabou.",
+          "nl": "Het idee ontstond tijdens de pandemie, toen ze zonder werk zaten.",
+          "opties": [
+            "Ze hadden het idee al als kind.",
+            "Het idee kwam na een reis naar het buitenland.",
+            "Het idee ontstond tijdens de pandemie, toen ze geen werk hadden.",
+            "Het idee kwam van hun school."
+          ],
+          "correct": 2,
+          "uitleg": "'Nase' = ontstaan (letterlijk: geboren worden), 'sin trabou' = zonder werk."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een groot buitenlands bedrijf dat aloë koopt",
+        "Een tekort aan aloë op het eiland",
+        "Jongeren die hun baan kwijtraken",
+        "Drie jongeren die een aloëbedrijf begonnen, met eigen teelt"
+      ],
+      "correct": 3,
+      "uitleg": "Het idee ontstond in de pandemie; ze kweken zelf en maken zeep en crème."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Na promé, nan tabata bende djis na famia i amigu.",
+          "nl": "Eerst verkochten ze alleen aan familie en vrienden.",
+          "opties": [
+            "In het begin verkochten ze alleen aan familie en vrienden.",
+            "In het begin verkochten ze meteen aan hotels.",
+            "Ze hebben nooit aan familie verkocht.",
+            "Ze gaven alles gratis weg."
+          ],
+          "correct": 0,
+          "uitleg": "'Na promé' = eerst/in het begin, 'djis' = alleen, 'amigu' = vriend."
+        },
+        {
+          "pap": "Awor nan produktonan ta den dies tienda i sinku hotèl riba e isla.",
+          "nl": "Nu liggen hun producten in tien winkels en vijf hotels op het eiland.",
+          "opties": [
+            "Ze verkopen nu alleen online.",
+            "Nu liggen hun producten in tien winkels en vijf hotels.",
+            "Nu hebben ze vijf winkels en tien hotels.",
+            "Hun producten liggen alleen in hun eigen winkel."
+          ],
+          "correct": 1,
+          "uitleg": "'Awor' = nu, 'isla' = eiland."
+        },
+        {
+          "pap": "Turistanan ta gusta e idea di kumpra un produkto lokal i natural.",
+          "nl": "Toeristen houden van het idee om een lokaal en natuurlijk product te kopen.",
+          "opties": [
+            "Toeristen kopen liever producten uit hun eigen land.",
+            "Toeristen mogen geen zeep mee in het vliegtuig.",
+            "Toeristen kopen graag iets lokaals en natuurlijks.",
+            "Toeristen vinden lokale producten te duur."
+          ],
+          "correct": 2,
+          "uitleg": "'Gusta' = houden van, 'lokal' = lokaal."
+        }
+      ],
+      "vraag": "Hoe is het bedrijf gegroeid?",
+      "opties": [
+        "Het bedrijf is kleiner geworden",
+        "Het bedrijf verkoopt nu alleen aan de overheid",
+        "Het bedrijf is verkocht aan een hotel",
+        "Van familie en vrienden naar winkels en hotels, mede dankzij toeristen"
+      ],
+      "correct": 3,
+      "uitleg": "Eerst verkochten ze aan bekenden, nu in winkels en hotels; toeristen waarderen het lokale product."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E siguiente paso ta pa eksportá nan produktonan pa Hulanda i Merka.",
+          "nl": "De volgende stap is hun producten naar Nederland en Amerika te exporteren.",
+          "opties": [
+            "Ze willen gaan exporteren naar Nederland en Amerika.",
+            "Ze willen hun bedrijf naar Nederland verhuizen.",
+            "Ze gaan producten uit Amerika importeren.",
+            "Ze willen stoppen met exporteren."
+          ],
+          "correct": 0,
+          "uitleg": "'Siguiente paso' = volgende stap, 'eksportá' = exporteren."
+        },
+        {
+          "pap": "Pa esei nan mester di mas kapital i un permiso spesial pa produkto kosmétiko.",
+          "nl": "Daarvoor hebben ze meer kapitaal en een speciale vergunning voor cosmetische producten nodig.",
+          "opties": [
+            "Ze hebben een diploma in scheikunde nodig.",
+            "Ze hebben meer geld en een speciale vergunning nodig.",
+            "Ze hebben al alles wat ze nodig hebben.",
+            "Ze hebben meer personeel en een grotere winkel nodig."
+          ],
+          "correct": 1,
+          "uitleg": "'Mester di' = nodig hebben, 'permiso' = vergunning."
+        },
+        {
+          "pap": "Un fondo pa empresario hóben a primintí di yuda nan ku un fiansa.",
+          "nl": "Een fonds voor jonge ondernemers heeft beloofd hen te helpen met een lening.",
+          "opties": [
+            "Ze krijgen geld van hun oom.",
+            "De overheid koopt hun bedrijf.",
+            "Een fonds voor jonge ondernemers belooft een lening.",
+            "Een bank heeft de lening geweigerd."
+          ],
+          "correct": 2,
+          "uitleg": "'Fondo' = fonds, 'empresario' = ondernemer, 'fiansa' = lening/krediet."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Het einde van het bedrijf",
+        "Een ruzie tussen de drie oprichters",
+        "Een nieuwe winkel in Punda",
+        "Plannen om te exporteren en wat daarvoor nodig is"
+      ],
+      "correct": 3,
+      "uitleg": "Ze willen exporteren; daarvoor is geld en een vergunning nodig, en een fonds wil helpen."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "aloe",
+      "uitspraak": "a-lo-e",
+      "vertaling": "aloë vera"
+    },
+    {
+      "woord": "sabon",
+      "uitspraak": "sa-bon",
+      "vertaling": "zeep"
+    },
+    {
+      "woord": "negoshi",
+      "uitspraak": "ne-go-sji",
+      "vertaling": "bedrijf, zaak"
+    },
+    {
+      "woord": "eksportá",
+      "uitspraak": "eks-por-ta",
+      "vertaling": "exporteren"
+    },
+    {
+      "woord": "kapital",
+      "uitspraak": "ka-pi-tal",
+      "vertaling": "kapitaal, startgeld"
+    },
+    {
+      "woord": "empresario",
+      "uitspraak": "em-pre-sa-rio",
+      "vertaling": "ondernemer"
+    }
+  ]
+}

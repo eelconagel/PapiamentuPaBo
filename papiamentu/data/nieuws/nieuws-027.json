@@ -1,0 +1,140 @@
+{
+  "id": "nieuws-027",
+  "titel": "Panadero di Bándabou ta gana konkurso",
+  "nivo": "Easy",
+  "kategoria": "Lokal",
+  "lugá": "BARBER",
+  "beschrijving": "Een bakker uit Barber wint een wedstrijd met zijn traditionele brood.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Panadero Edsel di Barber a gana e konkurso di pan mas sabroso.",
+          "nl": "Bakker Edsel uit Barber heeft de wedstrijd voor het lekkerste brood gewonnen.",
+          "opties": [
+            "Bakker Edsel won de wedstrijd voor het lekkerste brood.",
+            "Bakker Edsel verloor de broodwedstrijd.",
+            "Bakker Edsel was jurylid bij de wedstrijd.",
+            "Bakker Edsel opent een nieuwe bakkerij."
+          ],
+          "correct": 0,
+          "uitleg": "'Panadero' = bakker, 'konkurso' = wedstrijd, 'mas sabroso' = lekkerste."
+        },
+        {
+          "pap": "E a traha pan di koko.",
+          "nl": "Hij heeft kokosbrood gemaakt.",
+          "opties": [
+            "Hij kocht kokosbrood.",
+            "Hij maakte kokosbrood.",
+            "Hij maakte chocoladebrood.",
+            "Hij maakte een taart."
+          ],
+          "correct": 1,
+          "uitleg": "'Traha' = maken, 'koko' = kokos."
+        },
+        {
+          "pap": "E resèt ta di su wela.",
+          "nl": "Het recept is van zijn oma.",
+          "opties": [
+            "Zijn oma heeft het brood gebakken.",
+            "Het recept is nieuw.",
+            "Het recept komt van zijn oma.",
+            "Het recept komt uit een boek."
+          ],
+          "correct": 2,
+          "uitleg": "'Resèt' = recept, 'wela' = oma."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een bakkerij die sluit",
+        "Een oma die een wedstrijd wint",
+        "Een nieuw soort brood uit het buitenland",
+        "Een bakker die wint met kokosbrood naar oma's recept"
+      ],
+      "correct": 3,
+      "uitleg": "Edsel won met kokosbrood, gemaakt naar het recept van zijn oma."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Edsel ta traha den su panaderia for di kuater or di mardugá.",
+          "nl": "Edsel werkt vanaf vier uur 's nachts in zijn bakkerij.",
+          "opties": [
+            "Edsel werkt vanaf vier uur 's nachts in zijn bakkerij.",
+            "Edsel begint om tien uur 's ochtends.",
+            "Edsel werkt 's avonds tot vier uur.",
+            "Edsel werkt vier dagen per week."
+          ],
+          "correct": 0,
+          "uitleg": "'Mardugá' = vroeg in de ochtend/nacht, 'kuater or' = vier uur."
+        },
+        {
+          "pap": "Awor hende ta bini for di henter Kòrsou pa kumpra su pan.",
+          "nl": "Nu komen er mensen van heel Curaçao om zijn brood te kopen.",
+          "opties": [
+            "Mensen komen uit het buitenland voor zijn brood.",
+            "Nu komen mensen van heel het eiland zijn brood kopen.",
+            "Nu verkoopt hij zijn brood in heel Curaçao.",
+            "Nu komt er niemand meer."
+          ],
+          "correct": 1,
+          "uitleg": "'Henter' = heel, 'kumpra' = kopen."
+        },
+        {
+          "pap": "E ta hopi orguyoso i kontentu.",
+          "nl": "Hij is erg trots en blij.",
+          "opties": [
+            "Hij is verdrietig.",
+            "Hij is zenuwachtig.",
+            "Hij is erg trots en blij.",
+            "Hij is moe en boos."
+          ],
+          "correct": 2,
+          "uitleg": "'Orguyoso' = trots, 'kontentu' = blij/tevreden."
+        }
+      ],
+      "vraag": "Wat is er veranderd sinds de wedstrijd?",
+      "opties": [
+        "Hij is gestopt met werken",
+        "Hij gaat nu later beginnen",
+        "Hij heeft zijn recept verkocht",
+        "Mensen van heel het eiland komen zijn brood kopen, en hij is trots"
+      ],
+      "correct": 3,
+      "uitleg": "Hij begint nog steeds vroeg, maar nu komt heel Curaçao naar zijn bakkerij."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "panadero",
+      "uitspraak": "pa-na-de-ro",
+      "vertaling": "bakker"
+    },
+    {
+      "woord": "konkurso",
+      "uitspraak": "kon-kur-so",
+      "vertaling": "wedstrijd"
+    },
+    {
+      "woord": "resèt",
+      "uitspraak": "re-set",
+      "vertaling": "recept"
+    },
+    {
+      "woord": "oven",
+      "uitspraak": "o-ven",
+      "vertaling": "oven"
+    },
+    {
+      "woord": "orguyoso",
+      "uitspraak": "or-gu-jo-so",
+      "vertaling": "trots"
+    },
+    {
+      "woord": "pan",
+      "uitspraak": "pan",
+      "vertaling": "brood"
+    }
+  ]
+}

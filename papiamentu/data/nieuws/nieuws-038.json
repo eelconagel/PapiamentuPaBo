@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-038",
+  "titel": "Radio Kaya Grandi ta selebrá 50 aña",
+  "nivo": "Hard",
+  "kategoria": "Kultura",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Een lokaal radiostation bestaat vijftig jaar en blikt terug en vooruit.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Radio Kaya Grandi, un di e emisoranan mas bieu di Kòrsou, ta selebrá su di 50 aniversario e siman aki.",
+          "nl": "Radio Kaya Grandi, een van de oudste zenders van Curaçao, viert deze week zijn 50-jarig jubileum.",
+          "opties": [
+            "Een van de oudste radiozenders van Curaçao bestaat deze week vijftig jaar.",
+            "Een nieuwe radiozender is deze week begonnen.",
+            "Radio Kaya Grandi stopt na vijftig jaar.",
+            "Radio Kaya Grandi heeft vijftig luisteraars."
+          ],
+          "correct": 0,
+          "uitleg": "'Emisora' = zender, 'selebrá' = vieren, 'di 50 aniversario' = vijftigste verjaardag/jubileum."
+        },
+        {
+          "pap": "E emisora a kuminsá den un kamber chikí patras di un kas na Otrobanda, ku djis un mikrofon i un tokadó di plachi.",
+          "nl": "De zender begon in een kamertje achter een huis in Otrobanda, met alleen een microfoon en een platenspeler.",
+          "opties": [
+            "De zender begon op een schip.",
+            "De zender begon klein, in een kamer met een microfoon en een platenspeler.",
+            "De zender begon in een groot gebouw in Punda.",
+            "De zender begon met een televisiestudio."
+          ],
+          "correct": 1,
+          "uitleg": "'Kamber' = kamer, 'patras di' = achter, 'tokadó di plachi' = platenspeler."
+        },
+        {
+          "pap": "Awendia e ta transmití 24 ora pa dia, tambe riba internet.",
+          "nl": "Tegenwoordig zendt hij 24 uur per dag uit, ook op internet.",
+          "opties": [
+            "Hij is gestopt met uitzenden op de radio.",
+            "Hij zendt alleen nog uit op internet.",
+            "Nu zendt hij dag en nacht uit, ook online.",
+            "Nu zendt hij alleen 's ochtends uit."
+          ],
+          "correct": 2,
+          "uitleg": "'Awendia' = tegenwoordig, 'transmití' = uitzenden."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "De opening van een nieuwe radiozender",
+        "Een radiozender die gaat stoppen",
+        "Een ruzie tussen twee zenders",
+        "Het vijftigjarig bestaan van een zender die heel klein begon"
+      ],
+      "correct": 3,
+      "uitleg": "Radio Kaya Grandi viert 50 jaar; begonnen in een kamertje, nu 24 uur per dag en online."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Durante dékada, e programa di mainta tabata e kaminda pa hende tende e notisianan importante di e isla.",
+          "nl": "Decennialang was het ochtendprogramma dé manier voor mensen om het belangrijke nieuws van het eiland te horen.",
+          "opties": [
+            "Het ochtendprogramma was jarenlang dé bron van belangrijk eilandnieuws.",
+            "Het ochtendprogramma ging alleen over muziek.",
+            "Niemand luisterde naar het ochtendprogramma.",
+            "Het ochtendprogramma begon pas vorig jaar."
+          ],
+          "correct": 0,
+          "uitleg": "'Dékada' = decennium, 'kaminda' = hier: manier/weg, 'notisia' = nieuws."
+        },
+        {
+          "pap": "Hopi oyente ta kòrda kon nan a tende di eventonan grandi pa promé biaha den e emisora aki.",
+          "nl": "Veel luisteraars herinneren zich hoe ze via deze zender voor het eerst over grote gebeurtenissen hoorden.",
+          "opties": [
+            "Luisteraars belden de zender met nieuws.",
+            "Veel luisteraars hoorden grote gebeurtenissen voor het eerst via deze zender.",
+            "Luisteraars herinneren zich de zender niet.",
+            "De zender bracht nooit groot nieuws."
+          ],
+          "correct": 1,
+          "uitleg": "'Oyente' = luisteraar, 'kòrda' = zich herinneren, 'evento' = gebeurtenis."
+        },
+        {
+          "pap": "E emisora a yuda tambe pa papiamentu bira un idioma ku ta wòrdu usá den medionan públiko.",
+          "nl": "De zender heeft er ook aan bijgedragen dat Papiamentu een taal werd die in de media wordt gebruikt.",
+          "opties": [
+            "De zender was tegen het gebruik van Papiamentu.",
+            "De zender gaf lessen Papiamentu op school.",
+            "De zender hielp om Papiamentu een gewone mediataal te maken.",
+            "De zender zond vooral in het Nederlands uit."
+          ],
+          "correct": 2,
+          "uitleg": "'Bira' = worden, 'wòrdu usá' = gebruikt worden, 'medio' = medium."
+        }
+      ],
+      "vraag": "Wat betekende de zender voor het eiland?",
+      "opties": [
+        "Vooral een muziekzender voor toeristen",
+        "Een zender die alleen reclame uitzond",
+        "Een zender voor Nederlandse expats",
+        "Een belangrijke nieuwsbron en een stem voor Papiamentu in de media"
+      ],
+      "correct": 3,
+      "uitleg": "Mensen hoorden er het nieuws, en de zender hielp Papiamentu in de media een plek te geven."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Pa e aniversario, e emisora lo organisá un konsierto gratis riba Brionplein djasabra anochi.",
+          "nl": "Voor het jubileum organiseert de zender zaterdagavond een gratis concert op het Brionplein.",
+          "opties": [
+            "Zaterdagavond is er een gratis jubileumconcert op het Brionplein.",
+            "Zaterdagavond is er een betaald concert in het theater.",
+            "Het concert was vorige zaterdag.",
+            "Er is geen feest voor het jubileum."
+          ],
+          "correct": 0,
+          "uitleg": "'Organisá' = organiseren. Het Brionplein ligt in Otrobanda."
+        },
+        {
+          "pap": "E direktor ta bisa ku e reto grandi awor ta pa atraé e generashon hóben, ku ta tende mas podcast ku radio.",
+          "nl": "De directeur zegt dat de grote uitdaging nu is om de jonge generatie te trekken, die meer naar podcasts dan naar de radio luistert.",
+          "opties": [
+            "De directeur zegt dat er geen uitdagingen zijn.",
+            "De uitdaging is jongeren te bereiken, die liever podcasts luisteren.",
+            "Jongeren luisteren meer radio dan ooit.",
+            "De directeur wil stoppen met podcasts."
+          ],
+          "correct": 1,
+          "uitleg": "'Reto' = uitdaging, 'atraé' = aantrekken, 'generashon' = generatie."
+        },
+        {
+          "pap": "P'esei e emisora lo lansa su promé podcast na papiamentu otro luna.",
+          "nl": "Daarom lanceert de zender volgende maand zijn eerste podcast in het Papiamentu.",
+          "opties": [
+            "De zender maakt al jaren podcasts.",
+            "De podcast wordt in het Engels.",
+            "Volgende maand komt de zender met een eerste Papiamentstalige podcast.",
+            "De zender stopt volgende maand met uitzenden."
+          ],
+          "correct": 2,
+          "uitleg": "'Lansa' = lanceren, 'otro luna' = volgende maand."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "De verkoop van de zender",
+        "Een nieuwe directeur",
+        "Waarom radio verdwijnt",
+        "Het jubileumfeest en de plannen om jongeren te bereiken"
+      ],
+      "correct": 3,
+      "uitleg": "Een gratis concert op zaterdag, en een podcast om de jonge generatie te bereiken."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "radio",
+      "uitspraak": "ra-dio",
+      "vertaling": "radio"
+    },
+    {
+      "woord": "transmishon",
+      "uitspraak": "trans-mi-sjon",
+      "vertaling": "uitzending"
+    },
+    {
+      "woord": "oyente",
+      "uitspraak": "o-jen-te",
+      "vertaling": "luisteraar"
+    },
+    {
+      "woord": "aniversario",
+      "uitspraak": "a-ni-ver-sa-rio",
+      "vertaling": "jubileum, verjaardag"
+    },
+    {
+      "woord": "generashon",
+      "uitspraak": "he-ne-ra-sjon",
+      "vertaling": "generatie"
+    },
+    {
+      "woord": "podcast",
+      "uitspraak": "pot-kast",
+      "vertaling": "podcast"
+    }
+  ]
+}

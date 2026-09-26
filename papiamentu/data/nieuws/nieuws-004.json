@@ -1,0 +1,190 @@
+{
+  "id": "nieuws-004",
+  "titel": "Merkado nobo di piska ta habri na Punda",
+  "nivo": "Intermediate",
+  "kategoria": "Ekonomia",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Vissers openen elke zaterdagochtend een nieuwe markt aan de waterkant.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Un grupo di piskadó a habri un merkado nobo na kantu di awa na Punda.",
+          "nl": "Een groep vissers heeft een nieuwe markt aan de waterkant in Punda geopend.",
+          "opties": [
+            "Een groep vissers protesteert aan de waterkant.",
+            "Vissers hebben een nieuwe markt aan het water geopend.",
+            "Vissers hebben een nieuwe boot gekocht in Punda.",
+            "Een oude vismarkt in Punda gaat dicht."
+          ],
+          "correct": 1,
+          "uitleg": "'Piskadó' = visser, 'habri' = openen, 'nobo' = nieuw, 'kantu di awa' = waterkant."
+        },
+        {
+          "pap": "Tur djasabra, for di shete or di mainta, nan ta bende piska fresku.",
+          "nl": "Elke zaterdag, vanaf zeven uur 's ochtends, verkopen ze verse vis.",
+          "vraag": "Wanneer is de markt open?",
+          "opties": [
+            "Elke dag om zeven uur gaan ze vissen.",
+            "Op zaterdag verkopen ze zeven soorten vis.",
+            "Elke zaterdag vanaf zeven uur verkopen ze verse vis.",
+            "Elke zaterdag tot zeven uur verkopen ze verse vis."
+          ],
+          "correct": 2,
+          "uitleg": "'Tur' = elke/alle, 'for di' = vanaf, 'shete' = zeven, 'or' = uur, 'bende' = verkopen."
+        },
+        {
+          "pap": "Segun e piskadónan, e piska ta sali direkt for di laman.",
+          "nl": "Volgens de vissers komt de vis rechtstreeks uit zee.",
+          "opties": [
+            "De vissers zeggen dat de vis uit het buitenland komt.",
+            "Volgens de klanten is de vis niet vers.",
+            "De vis wordt eerst ingevroren.",
+            "Volgens de vissers komt de vis rechtstreeks uit zee."
+          ],
+          "correct": 3,
+          "uitleg": "'Segun' = volgens, 'sali' = komen uit, 'laman' = zee."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een nieuwe vismarkt in Punda en wanneer die open is",
+        "Vissers die stoppen met hun werk",
+        "Een tekort aan vis op Curaçao",
+        "Een visrestaurant dat opent in Punda"
+      ],
+      "correct": 0,
+      "uitleg": "De alinea vertelt wie de markt opent, waar, wanneer, en dat de vis vers is."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Den meimei tin tambe puesto di fruta i berdura di kunukeronan lokal.",
+          "nl": "In het midden zijn er ook kraampjes met fruit en groente van lokale tuinders.",
+          "opties": [
+            "Lokale boeren kopen er vis voor hun familie.",
+            "Er zijn ook kraampjes met fruit en groente van lokale boeren.",
+            "Er worden ook bloemen en planten verkocht.",
+            "Fruit en groente zijn verboden op de markt."
+          ],
+          "correct": 1,
+          "uitleg": "'Meimei' = midden, 'puesto' = kraam, 'berdura' = groente, 'kunukero' = iemand met een kunuku (akker of moestuin)."
+        },
+        {
+          "pap": "Kosnan ta kosta ménos ku den supermerkado, nan ta bisa.",
+          "nl": "De spullen kosten minder dan in de supermarkt, zeggen ze.",
+          "opties": [
+            "De prijzen zijn hetzelfde als in de supermarkt.",
+            "De supermarkt verlaagt zijn prijzen.",
+            "Volgens hen is het goedkoper dan in de supermarkt.",
+            "Volgens hen is het duurder dan in de supermarkt."
+          ],
+          "correct": 2,
+          "uitleg": "'Kosnan' = dingen/spullen, 'kosta' = kosten, 'ménos ku' = minder dan, 'bisa' = zeggen."
+        },
+        {
+          "pap": "Hopi kliente a bini e promé djasabra.",
+          "nl": "Veel klanten kwamen de eerste zaterdag.",
+          "opties": [
+            "De eerste zaterdag kwam er bijna niemand.",
+            "Klanten moeten de eerste zaterdag betalen.",
+            "Er komen pas volgende zaterdag klanten.",
+            "De eerste zaterdag kwamen er veel klanten."
+          ],
+          "correct": 3,
+          "uitleg": "'Promé' = eerste, 'bini' = komen."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Wat er nog meer te koop is en hoe de start verliep",
+        "Waarom de supermarkt duurder wordt",
+        "Klachten van klanten over de markt",
+        "Hoe je zelf kunt leren vissen"
+      ],
+      "correct": 0,
+      "uitleg": "Naast vis zijn er fruit en groente, het is goedkoop en de eerste dag was druk."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E grupo kier pa e merkado yuda e piskadónan chikí.",
+          "nl": "De groep wil dat de markt de kleine vissers helpt.",
+          "opties": [
+            "De groep wil dat kinderen leren vissen.",
+            "De groep wil dat de markt kleine vissers helpt.",
+            "De groep wil kleine vissen verkopen.",
+            "De groep zoekt hulp van grote bedrijven."
+          ],
+          "correct": 1,
+          "uitleg": "'Kier pa' = wil dat, 'yuda' = helpen, 'chikí' = klein."
+        },
+        {
+          "pap": "Pasobra ta difísil pa nan kompetí ku kompanianan grandi.",
+          "nl": "Want het is moeilijk voor hen om te concurreren met grote bedrijven.",
+          "opties": [
+            "Want ze willen zelf een groot bedrijf worden.",
+            "Want grote bedrijven verkopen geen vis.",
+            "Want het is lastig om tegen grote bedrijven op te boksen.",
+            "Want grote bedrijven willen met hen samenwerken."
+          ],
+          "correct": 2,
+          "uitleg": "'Pasobra' = omdat/want, 'difísil' = moeilijk, 'kompetí' = concurreren, 'kompania' = bedrijf."
+        },
+        {
+          "pap": "Si tur kos bai bon, lo tin merkado tambe djarason.",
+          "nl": "Als alles goed gaat, komt er ook op woensdag een markt.",
+          "opties": [
+            "Als het slecht gaat, stopt de markt op woensdag.",
+            "Op woensdag is de markt altijd gesloten.",
+            "De markt verhuist naar woensdag.",
+            "Als het goed gaat, komt er ook een markt op woensdag."
+          ],
+          "correct": 3,
+          "uitleg": "'Si' = als, 'tur kos' = alles, 'bai bon' = goed gaan, 'djarason' = woensdag."
+        }
+      ],
+      "vraag": "Wat wil de groep bereiken?",
+      "opties": [
+        "Het doel van de markt en de plannen voor later",
+        "Waarom de markt weer dichtgaat",
+        "Een ruzie tussen vissers en supermarkten",
+        "De openingstijden op woensdag en zondag"
+      ],
+      "correct": 0,
+      "uitleg": "De markt moet kleine vissers helpen; misschien komt er ook een woensdagmarkt."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "piska",
+      "uitspraak": "pis-ka",
+      "vertaling": "vis"
+    },
+    {
+      "woord": "piskadó",
+      "uitspraak": "pis-ka-do",
+      "vertaling": "visser"
+    },
+    {
+      "woord": "merkado",
+      "uitspraak": "mer-ka-do",
+      "vertaling": "markt"
+    },
+    {
+      "woord": "bende",
+      "uitspraak": "ben-de",
+      "vertaling": "verkopen"
+    },
+    {
+      "woord": "kunukero",
+      "uitspraak": "ku-nu-ke-ro",
+      "vertaling": "tuinder, kleine boer"
+    },
+    {
+      "woord": "pasobra",
+      "uitspraak": "pa-so-bra",
+      "vertaling": "omdat, want"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-011",
+  "titel": "Boto rápido pa Boneiru ta keda atrasá",
+  "nivo": "Hard",
+  "kategoria": "Ekonomia",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Een nieuwe snelle bootverbinding tussen Curaçao en Bonaire begint later dan gepland.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "E konekshon nobo ku boto rápido entre Kòrsou i Boneiru lo no kuminsá na desèmber manera tabata plania.",
+          "nl": "De nieuwe verbinding met een snelle boot tussen Curaçao en Bonaire begint niet in december, zoals gepland was.",
+          "opties": [
+            "De snelle bootverbinding begint niet in december, zoals eerst gepland was.",
+            "De snelle boot vaart vanaf december elke dag.",
+            "De bootverbinding met Bonaire wordt helemaal geschrapt.",
+            "De boot vaart in december alleen naar Aruba."
+          ],
+          "correct": 0,
+          "uitleg": "'Kuminsá' = beginnen, 'manera' = zoals, 'tabata plania' = gepland was."
+        },
+        {
+          "pap": "Segun e kompania Mar Kla, e trabounan den haf di Kralendijk a tuma mas tempu ku nan a kalkulá.",
+          "nl": "Volgens het bedrijf Mar Kla hebben de werkzaamheden in de haven van Kralendijk meer tijd gekost dan ze hadden berekend.",
+          "opties": [
+            "De werkzaamheden zijn sneller klaar dan gedacht.",
+            "De werkzaamheden in de haven van Kralendijk duren langer dan verwacht.",
+            "De haven van Kralendijk is te klein voor de boot.",
+            "Het bedrijf heeft de haven van Kralendijk gekocht."
+          ],
+          "correct": 1,
+          "uitleg": "'Tuma tempu' = tijd kosten, 'mas ... ku' = meer ... dan, 'kalkulá' = berekenen."
+        },
+        {
+          "pap": "Awor e promé biahe lo ta den promé luna di aña ku ta bini.",
+          "nl": "Nu wordt de eerste reis in de eerste maand van volgend jaar.",
+          "opties": [
+            "De eerste reis is nog onbekend.",
+            "De eerste reis is in december, maar alleen voor vracht.",
+            "De eerste reis is nu in januari volgend jaar.",
+            "De eerste reis was vorige maand."
+          ],
+          "correct": 2,
+          "uitleg": "'Awor' = nu, 'biahe' = reis/tocht, 'e promé luna di aña ku ta bini' = de eerste maand van volgend jaar."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "De bootverbinding is een groot succes",
+        "Er komt een brug tussen Curaçao en Bonaire",
+        "Het bedrijf Mar Kla gaat failliet",
+        "De bootverbinding begint later omdat werk in de haven uitloopt"
+      ],
+      "correct": 3,
+      "uitleg": "De start schuift op naar januari, omdat de werkzaamheden in de haven meer tijd kosten."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Hopi hende di Boneiru ta kontando dia pa e konekshon aki.",
+          "nl": "Veel mensen op Bonaire tellen de dagen af tot deze verbinding er is.",
+          "opties": [
+            "Veel Bonairianen kijken reikhalzend uit naar deze verbinding.",
+            "Veel mensen op Bonaire willen deze verbinding niet.",
+            "Veel Bonairianen hebben al een kaartje gekocht.",
+            "Niemand op Bonaire weet van de verbinding."
+          ],
+          "correct": 0,
+          "uitleg": "'Konta dia' = de dagen aftellen, reikhalzend uitkijken naar iets. 'Ta kontando' = zijn aan het tellen."
+        },
+        {
+          "pap": "Awor mester bula, i kosto di un bilchete di avion ta haltu.",
+          "nl": "Nu moet je vliegen, en een vliegticket is duur.",
+          "opties": [
+            "De boot wordt duurder dan het vliegtuig.",
+            "Nu moet je vliegen, en vliegtickets zijn duur.",
+            "Vliegen is goedkoper dan de boot.",
+            "Er vliegen geen vliegtuigen meer naar Bonaire."
+          ],
+          "correct": 1,
+          "uitleg": "'Mester' = moeten, 'bula' = vliegen, 'bilchete' = kaartje, 'haltu' = hoog (hier: duur)."
+        },
+        {
+          "pap": "E boto lo por hiba 200 biahero i tambe outo, i e biahe lo dura kasi tres ora.",
+          "nl": "De boot kan 200 reizigers en ook auto's meenemen, en de reis duurt bijna drie uur.",
+          "opties": [
+            "De boot neemt alleen auto's mee, geen reizigers.",
+            "De reis duurt ruim drie uur en er mogen geen auto's mee.",
+            "De boot kan 200 reizigers en auto's meenemen; de reis duurt bijna drie uur.",
+            "De boot kan 300 reizigers meenemen; de reis duurt twee uur."
+          ],
+          "correct": 2,
+          "uitleg": "'Hiba' = meenemen/vervoeren, 'dura' = duren, 'kasi' = bijna."
+        }
+      ],
+      "vraag": "Waarom is de verbinding belangrijk?",
+      "opties": [
+        "De boot is sneller dan het vliegtuig",
+        "Bonaire heeft geen vliegveld",
+        "Toeristen willen niet meer vliegen",
+        "Vliegen is duur, en de boot kan veel mensen en auto's vervoeren"
+      ],
+      "correct": 3,
+      "uitleg": "Veel mensen wachten erop, omdat vliegen duur is en de boot ook auto's meeneemt."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Mar Kla a pidi despensa na e kliente nan ku a kumpra bilchete kaba.",
+          "nl": "Mar Kla heeft excuses aangeboden aan de klanten die al een kaartje hadden gekocht.",
+          "opties": [
+            "Het bedrijf bood excuses aan klanten die al een kaartje hadden.",
+            "Het bedrijf verkoopt vanaf nu geen kaartjes meer.",
+            "Klanten eisten hun geld terug bij het bedrijf.",
+            "Het bedrijf geeft gratis kaartjes aan iedereen."
+          ],
+          "correct": 0,
+          "uitleg": "'Pidi despensa' = excuses aanbieden, 'kaba' = al (na het werkwoord)."
+        },
+        {
+          "pap": "Nan por haña nan plaka bèk, òf kambia nan bilchete pa un otro fecha.",
+          "nl": "Ze kunnen hun geld terugkrijgen of hun kaartje omruilen voor een andere datum.",
+          "opties": [
+            "Hun kaartje blijft geldig voor december.",
+            "Ze krijgen hun geld terug of kiezen een andere datum.",
+            "Ze krijgen alleen een tegoedbon.",
+            "Ze moeten extra betalen voor een nieuwe datum."
+          ],
+          "correct": 1,
+          "uitleg": "'Haña bèk' = terugkrijgen, 'òf' = of, 'kambia' = veranderen/omruilen, 'fecha' = datum."
+        },
+        {
+          "pap": "E kompania ta primintí ku e no ta bai kambia e fecha atrobe.",
+          "nl": "Het bedrijf belooft dat het de datum niet nog eens gaat veranderen.",
+          "opties": [
+            "Het bedrijf belooft goedkopere kaartjes.",
+            "Het bedrijf heeft de datum al twee keer veranderd.",
+            "Het bedrijf belooft de datum niet nog eens te veranderen.",
+            "Het bedrijf zegt dat de datum misschien weer verandert."
+          ],
+          "correct": 2,
+          "uitleg": "'Primintí' = beloven, 'atrobe' = opnieuw."
+        }
+      ],
+      "vraag": "Wat gebeurt er met klanten die al een kaartje hebben?",
+      "opties": [
+        "Ze moeten een nieuw kaartje kopen",
+        "Ze mogen in december toch varen",
+        "Ze krijgen een gratis vliegticket",
+        "Ze krijgen excuses en kunnen kiezen tussen geld terug of een andere datum"
+      ],
+      "correct": 3,
+      "uitleg": "Excuses, geld terug of omruilen, en de belofte dat de datum niet weer verschuift."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "boto rápido",
+      "uitspraak": "bo-to ra-pi-do",
+      "vertaling": "snelle boot"
+    },
+    {
+      "woord": "atrasá",
+      "uitspraak": "a-tra-sa",
+      "vertaling": "vertraagd"
+    },
+    {
+      "woord": "trabou",
+      "uitspraak": "tra-bou",
+      "vertaling": "werk"
+    },
+    {
+      "woord": "haf",
+      "uitspraak": "haf",
+      "vertaling": "haven"
+    },
+    {
+      "woord": "biahero",
+      "uitspraak": "bia-he-ro",
+      "vertaling": "reiziger"
+    },
+    {
+      "woord": "konekshon",
+      "uitspraak": "ko-nek-sjon",
+      "vertaling": "verbinding"
+    }
+  ]
+}

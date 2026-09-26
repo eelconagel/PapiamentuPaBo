@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-028",
+  "titel": "Fiesta di Seú ta bolbe na Bándabou",
+  "nivo": "Intermediate",
+  "kategoria": "Kultura",
+  "lugá": "SINT WILLIBRORDUS",
+  "beschrijving": "Na een paar jaar pauze keert een oogstfeest terug in een dorp in Bándabou.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Despues di tres aña, e fiesta di seú ta bolbe den e pueblo.",
+          "nl": "Na drie jaar komt het oogstfeest terug in het dorp.",
+          "opties": [
+            "Na drie jaar keert het oogstfeest terug in het dorp.",
+            "Het oogstfeest wordt na drie jaar afgeschaft.",
+            "Het oogstfeest duurt drie dagen.",
+            "Het dorp viert voor het eerst een oogstfeest."
+          ],
+          "correct": 0,
+          "uitleg": "'Despues di' = na, 'bolbe' = terugkomen, 'pueblo' = dorp."
+        },
+        {
+          "pap": "Seú ta un fiesta tradishonal pa selebrá e kosecha.",
+          "nl": "Seú is een traditioneel feest om de oogst te vieren.",
+          "opties": [
+            "Seú is een markt voor groente.",
+            "Seú is een traditioneel feest om de oogst te vieren.",
+            "Seú is een nieuw muziekfestival.",
+            "Seú is een feest voor het begin van het jaar."
+          ],
+          "correct": 1,
+          "uitleg": "'Selebrá' = vieren, 'kosecha' = oogst."
+        },
+        {
+          "pap": "Hende ta kana den kaya ku mais i otro produkto di kunuku.",
+          "nl": "Mensen lopen door de straat met maïs en andere producten van de akker.",
+          "opties": [
+            "Mensen gooien maïs naar elkaar.",
+            "Mensen planten maïs in de straat.",
+            "Mensen lopen door de straat met maïs en andere oogst.",
+            "Mensen verkopen maïs langs de straat."
+          ],
+          "correct": 2,
+          "uitleg": "'Kaya' = straat, 'mais' = maïs, 'produkto di kunuku' = producten van het land/de akker."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een nieuwe markt in het dorp",
+        "Een mislukte oogst",
+        "Een dorp dat nieuwe inwoners zoekt",
+        "De terugkeer van een traditioneel oogstfeest"
+      ],
+      "correct": 3,
+      "uitleg": "Het oogstfeest seú keert terug; mensen lopen met de oogst door de straten."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Durante e optocht, grupo ta baila e wapa riba ritmo di tambú.",
+          "nl": "Tijdens de optocht dansen groepen de wapa op het ritme van de tambú.",
+          "opties": [
+            "Tijdens de optocht dansen groepen op het ritme van trommels.",
+            "Tijdens de optocht is het stil.",
+            "Groepen spelen gitaar tijdens de optocht.",
+            "Na de optocht is er een dansles."
+          ],
+          "correct": 0,
+          "uitleg": "'Durante' = tijdens, 'baila' = dansen, 'tambú' = trommel (en muziekstijl)."
+        },
+        {
+          "pap": "E baile ta mustra kon antes hende tabata traha den kunuku.",
+          "nl": "De dans laat zien hoe mensen vroeger op het land werkten.",
+          "opties": [
+            "De dans laat zien hoe je maïs kookt.",
+            "De dans laat zien hoe men vroeger op het land werkte.",
+            "De dans gaat over vissen op zee.",
+            "De dans is net bedacht."
+          ],
+          "correct": 1,
+          "uitleg": "'Baile' = dans, 'mustra' = laten zien, 'kon' = hoe, 'antes' = vroeger."
+        },
+        {
+          "pap": "Hopi mayó ta pèrdè lágrima ora nan mira e tradishon.",
+          "nl": "Veel ouderen worden emotioneel als ze de traditie zien.",
+          "opties": [
+            "Ouderen mogen niet meedoen.",
+            "Veel ouderen zijn te moe om te komen.",
+            "Veel ouderen worden ontroerd als ze de traditie weer zien.",
+            "Veel ouderen zijn boos over de traditie."
+          ],
+          "correct": 2,
+          "uitleg": "'Mayó' = oudere, 'pèrdè lágrima' = tranen laten (ontroerd raken)."
+        }
+      ],
+      "vraag": "Wat maakt de optocht bijzonder?",
+      "opties": [
+        "Er zijn veel toeristen",
+        "Er wordt nieuwe popmuziek gespeeld",
+        "Het is de langste optocht van het jaar",
+        "Dansen op trommels die het oude werk op het land uitbeelden, wat ouderen ontroert"
+      ],
+      "correct": 3,
+      "uitleg": "De wapa beeldt het oude boerenwerk uit en raakt de ouderen."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E organisadónan kier pa mas hóben siña e tradishon.",
+          "nl": "De organisatoren willen dat meer jongeren de traditie leren.",
+          "opties": [
+            "De organisatoren willen dat meer jongeren de traditie leren.",
+            "De organisatoren willen alleen ouderen laten meedoen.",
+            "De jongeren organiseren het feest.",
+            "De organisatoren willen de traditie veranderen."
+          ],
+          "correct": 0,
+          "uitleg": "'Siña' = leren, 'hóben' = jongeren."
+        },
+        {
+          "pap": "P'esei nan ta duna les di tambú gratis na dos skol.",
+          "nl": "Daarom geven ze gratis trommelles op twee scholen.",
+          "opties": [
+            "Daarom geven ze betaalde lessen.",
+            "Daarom geven ze gratis trommelles op twee scholen.",
+            "Daarom verkopen ze trommels op school.",
+            "Daarom sluiten ze twee scholen voor het feest."
+          ],
+          "correct": 1,
+          "uitleg": "'P'esei' = daarom, 'les' = les."
+        },
+        {
+          "pap": "E fiesta ta djadumingu, for di dos or di atardi.",
+          "nl": "Het feest is op zondag, vanaf twee uur 's middags.",
+          "opties": [
+            "Het feest duurt tot twee uur 's nachts.",
+            "Het feest was vorige zondag.",
+            "Het feest is zondag vanaf twee uur 's middags.",
+            "Het feest is zaterdag vanaf twaalf uur."
+          ],
+          "correct": 2,
+          "uitleg": "'Djadumingu' = zondag, 'for di' = vanaf, 'atardi' = middag."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Waarom jongeren niet mogen trommelen",
+        "De kosten van het feest",
+        "Klachten over het lawaai",
+        "Hoe de traditie wordt doorgegeven en wanneer het feest is"
+      ],
+      "correct": 3,
+      "uitleg": "Gratis trommelles op scholen om jongeren te betrekken; het feest is zondagmiddag."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "seú",
+      "uitspraak": "se-oe",
+      "vertaling": "oogstfeest"
+    },
+    {
+      "woord": "kosecha",
+      "uitspraak": "ko-se-tsja",
+      "vertaling": "oogst"
+    },
+    {
+      "woord": "wapa",
+      "uitspraak": "wa-pa",
+      "vertaling": "(landbouw)dans met trommels"
+    },
+    {
+      "woord": "tradishon",
+      "uitspraak": "tra-di-sjon",
+      "vertaling": "traditie"
+    },
+    {
+      "woord": "mayó",
+      "uitspraak": "ma-jo",
+      "vertaling": "oudere, ouder"
+    },
+    {
+      "woord": "kunuku",
+      "uitspraak": "ku-nu-ku",
+      "vertaling": "akker, landje"
+    }
+  ]
+}

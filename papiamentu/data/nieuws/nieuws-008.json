@@ -1,0 +1,189 @@
+{
+  "id": "nieuws-008",
+  "titel": "Buzonan ta planta koral pa salba e rif",
+  "nivo": "Hard",
+  "kategoria": "Naturalesa",
+  "lugá": "KAS ABOU",
+  "beschrijving": "Een stichting kweekt koraal onder water en plant het terug op beschadigde riffen.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Desde aña 2023, fundashon Rif Bibu ta kria koral den un 'kunuku' bou di awa.",
+          "nl": "Sinds 2023 kweekt stichting Rif Bibu koraal in een 'tuin' onder water.",
+          "opties": [
+            "Sinds 2023 verkoopt een stichting koraal aan toeristen.",
+            "Tot 2023 groeide er koraal in de tuin.",
+            "Sinds 2023 kweekt een stichting koraal onder water.",
+            "In 2023 werd er onder water een boerderij gebouwd."
+          ],
+          "correct": 2,
+          "uitleg": "'Desde' = sinds, 'kria' = kweken/opvoeden, 'kunuku' = akker of tuin, 'bou di awa' = onder water."
+        },
+        {
+          "pap": "Riba strukturanan di metal, pida chikí di koral ta krese durante seis luna.",
+          "nl": "Op metalen constructies groeien kleine stukjes koraal zes maanden lang.",
+          "opties": [
+            "Het koraal groeit zes jaar op metalen rekken.",
+            "Er worden zes metalen rekken in zee gelegd.",
+            "Het koraal groeit op de bodem, zonder hulp.",
+            "Kleine stukjes koraal groeien zes maanden op metalen rekken."
+          ],
+          "correct": 3,
+          "uitleg": "'Pida' = stuk, 'krese' = groeien, 'durante' = gedurende, 'luna' = maand (en ook maan)."
+        },
+        {
+          "pap": "Despues, buzonan boluntario ta plant'é bèk riba e rif.",
+          "nl": "Daarna planten vrijwillige duikers het terug op het rif.",
+          "opties": [
+            "Daarna planten vrijwillige duikers het terug op het rif.",
+            "Daarna halen duikers het koraal van het rif.",
+            "Daarna wordt het koraal verkocht.",
+            "Voordat het groeit, zetten duikers het op het strand."
+          ],
+          "correct": 0,
+          "uitleg": "'Despues' = daarna, 'buzo' = duiker, 'plant'é' = het planten (plantá + e), 'bèk' = terug."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een wedstrijd tussen duikers",
+        "Hoe de stichting koraal kweekt en terugplant",
+        "Waarom duiken verboden wordt",
+        "Een nieuwe haven in Kas Abou"
+      ],
+      "correct": 1,
+      "uitleg": "Koraal groeit eerst in een onderwatertuin en wordt dan teruggeplant op het rif."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E rif ta importante pa piska, pero tambe pa turismo i pa protehá kosta kontra ola.",
+          "nl": "Het rif is belangrijk voor vissen, maar ook voor toerisme en om de kust tegen golven te beschermen.",
+          "opties": [
+            "Het rif veroorzaakt grote golven aan de kust.",
+            "Vissers vinden het rif gevaarlijk.",
+            "Het rif is belangrijk voor vis, toerisme en bescherming van de kust.",
+            "Het rif is alleen belangrijk voor toeristen."
+          ],
+          "correct": 2,
+          "uitleg": "'Protehá' = beschermen, 'kosta' = kust, 'kontra' = tegen, 'ola' = golf."
+        },
+        {
+          "pap": "Den e último dies aña, un parti grandi di koral a muri pa motibu di awa di laman ku ta bira mas kalor.",
+          "nl": "In de afgelopen tien jaar is een groot deel van het koraal gestorven doordat het zeewater warmer wordt.",
+          "opties": [
+            "Het koraal is de laatste tien jaar sterk gegroeid.",
+            "Veel koraal is doodgegaan door te koud zeewater.",
+            "Tien jaar geleden was er nog geen koraal.",
+            "Veel koraal is de laatste tien jaar doodgegaan doordat de zee warmer wordt."
+          ],
+          "correct": 3,
+          "uitleg": "'Parti' = deel, 'muri' = sterven, 'pa motibu di' = vanwege, 'bira' = worden, 'kalor' = warm/warmte."
+        },
+        {
+          "pap": "Koordinadó Shanaya Everts ta splika ku nan no por para e kambio di klima so.",
+          "nl": "Coördinator Shanaya Everts legt uit dat ze klimaatverandering niet in hun eentje kunnen stoppen.",
+          "opties": [
+            "De coördinator zegt dat ze klimaatverandering niet alleen kunnen stoppen.",
+            "De coördinator zegt dat klimaatverandering geen probleem is.",
+            "De coördinator zegt dat ze klimaatverandering al gestopt hebben.",
+            "De coördinator wil stoppen met het project."
+          ],
+          "correct": 0,
+          "uitleg": "'Splika' = uitleggen, 'para' = stoppen, 'kambio di klima' = klimaatverandering, 'so' = alleen."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Waarom de stichting stopt",
+        "Waarom het rif belangrijk is en welk probleem er speelt",
+        "Hoeveel toeristen er naar het rif komen",
+        "Een nieuwe soort vis op het rif"
+      ],
+      "correct": 1,
+      "uitleg": "Het rif is belangrijk, maar warmer zeewater doodt koraal; de stichting kan dat niet alleen oplossen."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "'Nos ta kumpra tempu pa e rif,' e ta bisa.",
+          "nl": "'We kopen tijd voor het rif,' zegt ze.",
+          "opties": [
+            "Ze zegt dat ze geen tijd hebben voor het rif.",
+            "Ze zegt dat het rif te duur is.",
+            "Ze zegt dat ze tijd winnen voor het rif.",
+            "Ze zegt dat ze het rif hebben gekocht."
+          ],
+          "correct": 2,
+          "uitleg": "'Kumpra tempu' = tijd kopen/winnen. Het rif krijgt zo meer kans om te overleven."
+        },
+        {
+          "pap": "Te awor, e fundashon a planta mas ku 8.000 pida di koral.",
+          "nl": "Tot nu toe heeft de stichting meer dan 8.000 stukjes koraal geplant.",
+          "opties": [
+            "De stichting wil 8.000 stukjes koraal planten.",
+            "Er zijn 8.000 stukjes koraal doodgegaan.",
+            "De stichting heeft 800 stukjes koraal geplant.",
+            "Tot nu toe zijn er meer dan 8.000 stukjes koraal geplant."
+          ],
+          "correct": 3,
+          "uitleg": "'Te awor' = tot nu toe, 'mas ku' = meer dan."
+        },
+        {
+          "pap": "Hende ku sa sambuyá i ku kier yuda, por inskribí riba nan website.",
+          "nl": "Mensen die kunnen duiken en willen helpen, kunnen zich inschrijven op hun website.",
+          "opties": [
+            "Wie kan duiken en wil helpen, kan zich aanmelden via de website.",
+            "Iedereen moet eerst leren duiken bij de stichting.",
+            "De website verkoopt duikcursussen.",
+            "Alleen professionele duikers mogen helpen."
+          ],
+          "correct": 0,
+          "uitleg": "'Sa' = kunnen (een vaardigheid), 'sambuyá' = duiken/onderduiken, 'kier' = willen, 'inskribí' = inschrijven."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een waarschuwing voor gevaarlijke duikplekken",
+        "Wat er tot nu toe bereikt is en hoe je kunt helpen",
+        "Waarom het project mislukt is",
+        "Hoe je koraal kunt kopen"
+      ],
+      "correct": 1,
+      "uitleg": "Ruim 8.000 stukjes koraal zijn geplant, en duikers kunnen zich aanmelden om te helpen."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "koral",
+      "uitspraak": "ko-ral",
+      "vertaling": "koraal"
+    },
+    {
+      "woord": "rif",
+      "uitspraak": "rif",
+      "vertaling": "rif"
+    },
+    {
+      "woord": "buzo",
+      "uitspraak": "bu-so",
+      "vertaling": "duiker"
+    },
+    {
+      "woord": "kria",
+      "uitspraak": "kri-a",
+      "vertaling": "kweken, opvoeden"
+    },
+    {
+      "woord": "sambuyá",
+      "uitspraak": "sam-bu-ja",
+      "vertaling": "duiken"
+    },
+    {
+      "woord": "kambio di klima",
+      "uitspraak": "kam-bio di kli-ma",
+      "vertaling": "klimaatverandering"
+    }
+  ]
+}

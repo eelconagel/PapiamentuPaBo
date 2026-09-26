@@ -22,7 +22,7 @@
       <td><strong>{{ u.name or '—' }}</strong><br><span class="small muted">{{ u.email or 'geen e-mail' }}</span></td>
       <td class="small">{% for p in (u.providers or '').split(',') if p %}{{ PROVIDER_LABELS.get(p, p) }}{{ ', ' if not loop.last }}{% endfor %}</td>
       <td class="small">
-        {% if u.summary %}{{ u.summary.xp }} XP · {{ u.summary.lessen }} lessen · {{ u.summary.scenarios }} scen. · {{ u.summary.woorden }} woorden
+        {% if u.summary %}{{ u.summary.xp }} XP · {{ u.summary.lessen }} lessen · {{ u.summary.scenarios }} scen. · {{ u.summary.nieuws }} nieuws · {{ u.summary.woorden }} woorden
         {% else %}<span class="muted">nog niets</span>{% endif %}
       </td>
       <td class="small">{{ when(u.created_at) }}</td>

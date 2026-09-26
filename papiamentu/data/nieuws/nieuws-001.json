@@ -1,0 +1,140 @@
+{
+  "id": "nieuws-001",
+  "titel": "Kabritu ta bai kumpra den supermerkado",
+  "nivo": "Easy",
+  "kategoria": "Lokal",
+  "lugá": "WILLEMSTAD",
+  "beschrijving": "Een geit loopt een supermarkt binnen en zorgt voor een vrolijke ochtend.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Djaluna mainta un kabritu a drenta supermerkado Bon Kompra na Otrobanda.",
+          "nl": "Maandagochtend liep een geit supermarkt Bon Kompra in Otrobanda binnen.",
+          "opties": [
+            "Een supermarkt in Otrobanda gaat op maandag geiten verkopen.",
+            "Maandagochtend liep een geit een supermarkt binnen.",
+            "Maandagavond werd er een geit verkocht in een supermarkt.",
+            "Op maandag at een geit gras naast de supermarkt."
+          ],
+          "correct": 1,
+          "uitleg": "'Djaluna' = maandag, 'mainta' = ochtend, 'a drenta' = ging/liep binnen. Het woordje 'a' voor een werkwoord maakt de verleden tijd."
+        },
+        {
+          "pap": "E kabritu a kome lechuga i pan.",
+          "nl": "De geit at sla en brood.",
+          "opties": [
+            "De geit gooide sla en brood op de grond.",
+            "De geit wilde geen sla eten.",
+            "De geit at sla en brood.",
+            "De geit kocht sla en brood."
+          ],
+          "correct": 2,
+          "uitleg": "'Kome' = eten, 'lechuga' = sla, 'pan' = brood."
+        },
+        {
+          "pap": "Klientenan a hari hopi.",
+          "nl": "De klanten lachten veel.",
+          "opties": [
+            "De klanten schrokken erg.",
+            "De klanten gingen snel naar huis.",
+            "Veel klanten werden boos.",
+            "De klanten moesten erg lachen."
+          ],
+          "correct": 3,
+          "uitleg": "'Klientenan' = de klanten (-nan maakt een meervoud), 'hari' = lachen, 'hopi' = veel."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Een geit die in een supermarkt eet en de klanten laat lachen",
+        "Een nieuwe supermarkt die geiten verkoopt",
+        "Klanten die klagen over dure groente",
+        "Een boer die zijn geit kwijt is en de politie belt"
+      ],
+      "correct": 0,
+      "uitleg": "De geit loopt naar binnen, eet sla en brood en de klanten vinden het grappig."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Un trahadó a yama e doño di e kabritu.",
+          "nl": "Een medewerker belde de eigenaar van de geit.",
+          "opties": [
+            "Een medewerker joeg de geit naar buiten.",
+            "Een medewerker belde de eigenaar van de geit.",
+            "Een medewerker belde de politie.",
+            "De eigenaar belde naar de supermarkt."
+          ],
+          "correct": 1,
+          "uitleg": "'Trahadó' = werknemer, 'yama' = (op)bellen of roepen, 'doño' = eigenaar."
+        },
+        {
+          "pap": "E doño, sr. Frido Martis, a bini buska e bestia.",
+          "nl": "De eigenaar, meneer Frido Martis, kwam het dier ophalen.",
+          "opties": [
+            "De eigenaar was het dier al een week kwijt.",
+            "De eigenaar kwam boodschappen doen.",
+            "De eigenaar kwam het dier ophalen.",
+            "De eigenaar wilde het dier verkopen."
+          ],
+          "correct": 2,
+          "uitleg": "'Bini buska' = komen (op)halen, 'bestia' = dier."
+        },
+        {
+          "pap": "E di: 'E kabritu gusta pan fresku!'",
+          "nl": "Hij zei: 'De geit houdt van vers brood!'",
+          "opties": [
+            "Hij zei dat de geit honger had.",
+            "Hij zei dat hij het brood zou betalen.",
+            "Hij zei dat de geit oud brood eet.",
+            "Hij zei dat de geit van vers brood houdt."
+          ],
+          "correct": 3,
+          "uitleg": "'E di' = hij/zij zei, 'gusta' = houden van, 'fresku' = vers."
+        }
+      ],
+      "vraag": "Hoe loopt het verhaal af?",
+      "opties": [
+        "De eigenaar haalt de geit op en maakt een grapje",
+        "De geit blijft in de supermarkt wonen",
+        "De politie neemt de geit mee",
+        "De supermarkt gaat een week dicht"
+      ],
+      "correct": 0,
+      "uitleg": "Een medewerker belt de eigenaar, die de geit ophaalt en grapt dat ze van vers brood houdt."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "kabritu",
+      "uitspraak": "ka-bri-tu",
+      "vertaling": "geit"
+    },
+    {
+      "woord": "drenta",
+      "uitspraak": "dren-ta",
+      "vertaling": "binnengaan"
+    },
+    {
+      "woord": "kome",
+      "uitspraak": "ko-me",
+      "vertaling": "eten"
+    },
+    {
+      "woord": "klientenan",
+      "uitspraak": "kli-en-te-nan",
+      "vertaling": "klanten"
+    },
+    {
+      "woord": "doño",
+      "uitspraak": "do-njo",
+      "vertaling": "eigenaar"
+    },
+    {
+      "woord": "hari",
+      "uitspraak": "ha-ri",
+      "vertaling": "lachen"
+    }
+  ]
+}
