@@ -1,0 +1,110 @@
+{
+  "id": "scenario-001",
+  "title": "Iemand verwelkomen",
+  "difficulty": "Easy",
+  "category": "Dagelijks contact",
+  "intro": "Je bent net gearriveerd op Curaçao en loopt een toko (buurtwinkel) binnen. Iedereen kijkt je aan. Op dit eiland begroet je altijd — het is een teken van respect en verbondenheid.",
+  "introWords": [
+    { "papiamentu": "Bon dia", "dutch": "Goedemorgen", "pronunciation": "bon dee-a" },
+    { "papiamentu": "Bonbiní", "dutch": "Welkom", "pronunciation": "bon-bi-nee" },
+    { "papiamentu": "Danki", "dutch": "Dank je", "pronunciation": "dan-ki" },
+    { "papiamentu": "Pasa denter", "dutch": "Kom binnen", "pronunciation": "pa-sa den-ter" }
+  ],
+  "grammar": {
+    "title": "Begroetingen per tijdstip",
+    "explanation": [
+      "Papiamentu heeft drie tijdsbegroetingen: 'Bon dia' (tot ~12:00), 'Bon tardi' (~12:00–18:00) en 'Bon nochi' (vanaf ~18:00 uur).",
+      "Na een begroeting volgt vaak 'Kon ta bai?' (Hoe gaat het?). Een typisch antwoord is 'Tur kos ta bon, danki' (Alles gaat goed, dank je).",
+      "Het is op Curaçao gebruikelijk dat je iedereen groet als je een ruimte binnenloopt — ook vreemden."
+    ],
+    "exercises": [
+      {
+        "question": "Je loopt een winkel binnen om 10:00 uur. Wat zeg je?",
+        "options": ["Bon dia", "Bon tardi", "Bon nochi", "Danki"],
+        "correct": 0,
+        "explanation": "'Bon dia' gebruik je 's ochtends tot ongeveer 12:00 uur."
+      },
+      {
+        "question": "Iemand zegt 'Kon ta bai?'. Wat is een passend antwoord?",
+        "options": ["Tur kos ta bon, danki", "Bon dia!", "Pasa denter", "Bonbiní"],
+        "correct": 0,
+        "explanation": "'Tur kos ta bon, danki' betekent 'Alles gaat goed, dank je'."
+      },
+      {
+        "question": "Je wilt een gast uitnodigen om binnen te komen. Wat zeg je?",
+        "options": ["Bonbiní, pasa denter", "Bon nochi, danki", "Bon tardi, bai", "Danki, tur kos ta bon"],
+        "correct": 0,
+        "explanation": "'Bonbiní' is welkom en 'pasa denter' is kom binnen."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Bon dia", "dutch": "Goedemorgen", "pronunciation": "bon dee-a", "example": "Bon dia! Kon ta bai?" },
+    { "papiamentu": "Bon tardi", "dutch": "Goedemiddag", "pronunciation": "bon tar-di", "example": "Bon tardi, tur kos ta bon?" },
+    { "papiamentu": "Bon nochi", "dutch": "Goedenavond", "pronunciation": "bon no-chi", "example": "Bon nochi, te mayan." },
+    { "papiamentu": "Bonbiní", "dutch": "Welkom", "pronunciation": "bon-bi-nee", "example": "Bonbiní na Kòrsou!" },
+    { "papiamentu": "Kon ta bai?", "dutch": "Hoe gaat het?", "pronunciation": "kon ta bay", "example": "Bon dia! Kon ta bai?" },
+    { "papiamentu": "Tur kos ta bon", "dutch": "Alles gaat goed", "pronunciation": "tur kos ta bon", "example": "Tur kos ta bon, danki!" },
+    { "papiamentu": "Pasa denter", "dutch": "Kom binnen", "pronunciation": "pa-sa den-ter", "example": "Pasa denter, por fabor." },
+    { "papiamentu": "Danki", "dutch": "Dank je", "pronunciation": "dan-ki", "example": "Danki pa bo yudansa." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Bon nochi tijdsspanne",
+      "detail": "'Bon nochi' gebruik je vanaf het vallen van de avond (~18:00 uur). Het wordt ook gebruikt als afscheidsgroet in de avond.",
+      "remember": "Na zonsondergang → altijd Bon nochi"
+    },
+    {
+      "trap": "Niet begroeten",
+      "detail": "Op Curaçao is het onbeleefd om een winkel, kantoor of wachtruimte binnen te lopen zonder te groeten. Het wordt gezien als een gebrek aan erkenning van de aanwezigen.",
+      "remember": "Altijd groeten bij binnenkomst!"
+    },
+    {
+      "trap": "Danki vs. Dushi",
+      "detail": "'Danki' betekent 'dank je'. 'Dushi' is een term voor 'lekker', 'lief' of 'schat'. Verwar deze twee niet.",
+      "remember": "Bedanken = Danki, niet Dushi"
+    }
+  ],
+  "culture": {
+    "title": "De kunst van begroeten op Curaçao",
+    "intro": "Op Curaçao is begroeten meer dan een formaliteit — het is een uitdrukking van verbondenheid en respect.",
+    "facts": [
+      "Het is gebruikelijk om iedereen te groeten als je een toko, kantoor of lift binnenloopt, ook vreemden.",
+      "Bij familie en vrienden gaat de begroeting vaak gepaard met een kus op de wang of een omhelzing.",
+      "Het begrip 'Yu di Kòrsou' (kind van Curaçao) staat voor een sterke eilandidentiteit waarbij begroeten de sociale cohesie versterkt."
+    ],
+    "didYouKnow": "Het wordt op Curaçao als onbeleefd ervaren om iemand op straat te passeren zonder een korte groet, zelfs als je elkaar niet kent."
+  },
+  "quiz": [
+    {
+      "question": "Welke begroeting gebruik je om 15:30 uur?",
+      "options": ["Bon tardi", "Bon dia", "Bon nochi", "Bonbiní"],
+      "correct": 0,
+      "explanation": "'Bon tardi' gebruik je van 12:00 tot ~18:00 uur."
+    },
+    {
+      "question": "Wat betekent 'Pasa denter'?",
+      "options": ["Kom binnen", "Ga weg", "Welkom", "Dank je"],
+      "correct": 0,
+      "explanation": "'Pasa' = passeren/gaan, 'denter' = binnen."
+    },
+    {
+      "question": "Hoe vraag je 'Hoe gaat het?' in Papiamentu?",
+      "options": ["Kon ta bai?", "Unda bo ta?", "Kiko bo ke?", "Kiko tin?"],
+      "correct": 0,
+      "explanation": "'Kon ta bai?' is de standaard informele vraag voor 'Hoe gaat het?'."
+    },
+    {
+      "question": "Wat betekent 'Bonbiní'?",
+      "options": ["Welkom", "Goedemorgen", "Tot ziens", "Dank je"],
+      "correct": 0,
+      "explanation": "'Bonbiní' is de standaard vertaling voor 'welkom'."
+    },
+    {
+      "question": "Wat is het standaard antwoord op 'Kon ta bai?'",
+      "options": ["Tur kos ta bon, danki", "Bon dia, mi ta bai", "Bonbiní, pasa denter", "Danki, bon nochi"],
+      "correct": 0,
+      "explanation": "'Tur kos ta bon, danki' is de standaard beleefde reactie."
+    }
+  ]
+}

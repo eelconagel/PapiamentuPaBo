@@ -1,0 +1,73 @@
+{
+  "id": 36,
+  "blok": 4,
+  "titel": "Solliciteren & Werk: Van CV tot Arbeidscontract",
+  "grammatica": {
+    "uitleg": "Werken op Curaçao vraagt kennis van specifiek zakelijk vocabulaire. In deze les leer je de taal voor sollicitaties, het werkplek en professionele communicatie.\n\nSOLLICITATIE-VOCABULAIRE:\n• Mi ta buska trabou. (Ik zoek werk.)\n• Mi tin eksperensia na... (Ik heb ervaring in...)\n• Mi a studia... / Mi tin diploma di... (Ik heb gestudeerd / ik heb een diploma in...)\n• Por bo duna mi mas informashon tokante di e vakature? (Kunt u mij meer informatie geven over de vacature?)\n• Ki ta e kondishonnan di trabou? (Wat zijn de arbeidsvoorwaarden?)\n\nWERKPLEK-VOCABULAIRE:\n• Jefe / Jefa (baas, man/vrouw)\n• Kolega (collega)\n• Reunión / Meeting (vergadering)\n• Salario / Sueldo (salaris / loon)\n• Vakánsia (vakantie)\n• Horario (werkrooster / schema)\n• Kontrato (contract)\n• Departamento (afdeling)\n• Entrevista (sollicitatiegesprek)\n\nPROFESSIONELE FRASES:\n• 'Na mi eksperensia...' (In mijn ervaring...)\n• 'Segun mi opinion...' (Naar mijn mening...)\n• 'Mi ta propone di...' (Ik stel voor om...)\n• 'Ki ta e deadline?' (Wat is de deadline?)\n• 'Nos ta den bon pista' (We zijn op de goede weg)",
+    "voorbeelden": [
+      { "papiamentu": "Bon dia, mi ta solisitá e vakature pa kontador ku bo kompania a publika.", "vertaling": "Goedemorgen, ik solliciteer naar de boekhoudvacature die uw bedrijf heeft gepubliceerd." },
+      { "papiamentu": "Mi tin tres aña di eksperensia na e sèkto finansiero i mi ta papia tres idioma.", "vertaling": "Ik heb drie jaar ervaring in de financiële sector en ik spreek drie talen." },
+      { "papiamentu": "Ki ta e horario di trabou i kuantu ta e vakánsia pa aña?", "vertaling": "Wat is het werkrooster en hoeveel vakantiedagen zijn er per jaar?" },
+      { "papiamentu": "Mi ta propone di tene un reunión proximo siman pa diskutí e prosèkto.", "vertaling": "Ik stel voor om volgende week een vergadering te houden om het project te bespreken." },
+      { "papiamentu": "E kontrato mester wòrdu firma pa e dos parti antes di e fecha di kuminsamentu.", "vertaling": "Het contract moet door beide partijen worden ondertekend vóór de startdatum." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "Curaçaose arbeidsmarkt: 'kennen' gaat voor vacatures",
+      "voorbeeld": "Een vacature via 'mi buur a bisa mi' (mijn buur vertelde me) is net zo legitiem als een offici&euml;le aankondiging",
+      "toelichting": "Op Curaçao zijn informele netwerken centraal in de arbeidsmarkt. Veel banen worden via persoonlijke contacten gevonden — 'mi ta konosé un persona ku...' (ik ken iemand die...). Dit is geen vriendjespolitiek maar een eilandgemeenschap-dynamiek. Een goede reputatie en netwerk zijn net zo waardevol als je CV."
+    },
+    {
+      "nuance": "'Jefe' heeft geen negatieve klank — het is gewoon de baas",
+      "voorbeeld": "'Mi jefe ta masha bon' (mijn baas is heel goed) — neutrale of positieve beschrijving",
+      "toelichting": "In Papiamentu is 'jefe' (van het Spaans 'jefe' = hoofd/baas) een neutrale aanduiding. De relatie met de baas is op Curaçao vaak persoonlijk — 'mi jefe ta mi amigo tambe' (mijn baas is ook mijn vriend) is niet ongewoon. Hiërarchie bestaat maar is minder scherp dan in formele Nederlandse contexten."
+    },
+    {
+      "nuance": "'Na mi eksperensia' — zeggenswaardigheid onderbouwen",
+      "voorbeeld": "'Na mi eksperensia den e sèkto aki...' (In mijn ervaring in deze sector...) — signaal van competentie",
+      "toelichting": "In professionele Papiamentse communicatie gebruik je 'na mi eksperensia' of 'segun mi opinion' om je zeggenswaardigheid te signaleren. Dit is niet opschepperig maar professioneel. Het legitimeert je inbreng."
+    },
+    {
+      "nuance": "Nederlandstalige vakjargon is volledig geaccepteerd",
+      "voorbeeld": "'E meeting ta over e budget' — gemengd Papiamentu/Nederlands/Engels is normaal in zakelijke context",
+      "toelichting": "Op Curaçao is code-switching in zakelijke context de norm, niet de uitzondering. Technische termen worden in het Nederlands of Engels gezegd, de zinsstructuur is Papiamentu. Dit is een pragmatisch antwoord op de drietalige realiteit van het eiland."
+    }
+  ],
+  "woorden": [
+    { "woord": "Trabou", "uitspraak": "tra-bou", "vertaling": "Werk / baan / arbeid" },
+    { "woord": "Eksperensia", "uitspraak": "ek-spe-ren-sia", "vertaling": "Ervaring" },
+    { "woord": "Entrevista", "uitspraak": "en-tre-vis-ta", "vertaling": "Sollicitatiegesprek / interview" },
+    { "woord": "Salario", "uitspraak": "sa-la-rio", "vertaling": "Salaris / loon" },
+    { "woord": "Kontrato", "uitspraak": "kon-tra-to", "vertaling": "Contract" },
+    { "woord": "Vakánsia", "uitspraak": "va-kan-sia", "vertaling": "Vakantie / vacantie" },
+    { "woord": "Jefe", "uitspraak": "he-fe", "vertaling": "Baas / chef" },
+    { "woord": "Kolega", "uitspraak": "ko-le-ga", "vertaling": "Collega" },
+    { "woord": "Prosèkto", "uitspraak": "pro-sek-to", "vertaling": "Project" },
+    { "woord": "Idioma", "uitspraak": "ie-dio-ma", "vertaling": "Taal / idioom" }
+  ],
+  "culturele_context": "De economie van Curaçao rust op drie pijlers: toerisme, olieraffinage en de financiële sector. Werken in deze sectoren vraagt taalvaardigheid — Papiamentu, Nederlands én Engels zijn noodzakelijk. Drietaligheid is geen extra maar een basisvereiste.\n\nArbeidsethiek op Curaçao combineert professionaliteit met menselijkheid. Een werknemer die 'tin bon maneras' (goede manieren heeft) en zijn collega's respecteert, wordt gewaardeerd naast puur technische competentie. 'E ta bon pa werka ku dje' (hij/zij is prettig om mee te werken) is een compliment dat even zwaar weegt als 'e ta competente'.\n\nDe 'Dia di Trabou' (dag van de arbeid, 1 mei) is op Curaçao een officiële feestdag. Het is een dag van erkenning voor degenen die het eiland draaiende houden — van de bouwvakker tot de bankier.",
+  "scenario_links": ["scenario-017", "scenario-018"],
+  "eindoefening": [
+    { "vraag": "Hoe zeg je 'Ik zoek werk'?", "opties": ["Mi ta buska trabou", "Mi kier trabou", "Mi mester trabou", "Mi ta solisitá trabou"], "correct": 0 },
+    { "vraag": "Hoe solliciteer je formeel?", "opties": ["Mi ta solisitá e vakature pa...", "Mi ta buska di trabou na...", "Mi kier di traha na...", "Mi ta pregunta pa e trabou di..."], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik heb drie jaar ervaring'?", "opties": ["Mi tin tres aña di eksperensia", "Mi tin tres aña di trabou", "Mi a traha tres aña", "Mi eksperensia ta tres aña"], "correct": 0 },
+    { "vraag": "Hoe vraag je naar de arbeidsvoorwaarden?", "opties": ["Ki ta e kondishonnan di trabou?", "Kuantu ta e salario?", "Ki ta e kontrato?", "Ki ta e benefishionan?"], "correct": 0 },
+    { "vraag": "Wat is 'entrevista'?", "opties": ["Sollicitatiegesprek / interview", "Contract", "Vacature", "Diploma"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik stel voor om een vergadering te houden'?", "opties": ["Mi ta propone di tene un reunión", "Mi kier un reunión", "Nos mester un reunión", "Alle drie zijn correct maar met verschillende nuance"], "correct": 3 },
+    { "vraag": "Wat is 'kolega'?", "opties": ["Collega", "Baas", "Medewerker", "Klant"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'naar mijn mening'?", "opties": ["Segun mi opinion", "Na mi eksperensia", "Tokante di mi", "Mi ta pensa ku"], "correct": 0 },
+    { "vraag": "Hoe vraag je hoeveel vakantiedagen er zijn?", "opties": ["Kuantu ta e vakánsia pa aña?", "Ki ta e vakánsia?", "Kuantu dia ta e vakánsia?", "Zowel a als c zijn correct"], "correct": 3 },
+    { "vraag": "Wat is 'prosèkto'?", "opties": ["Project", "Proces", "Programma", "Idee"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'het contract moet worden ondertekend'?", "opties": ["E kontrato mester wòrdu firma", "E kontrato ta wòrdu firma", "Mester firma e kontrato", "Zowel a als c zijn correct"], "correct": 3 },
+    { "vraag": "Wat is 'idioma'?", "opties": ["Taal / idioom", "Accent", "Dialect", "Uitdrukking"], "correct": 0 },
+    { "vraag": "Hoe is de Curaçaose arbeidsmarkt typisch anders dan de Nederlandse?", "opties": ["Informele netwerken spelen een grote rol — vacatures worden vaak via contacten gevonden", "Er zijn geen informele contacten", "Alles verloopt via recruiters", "Er zijn alleen grote bedrijven"], "correct": 0 },
+    { "vraag": "Wat is 'salario'?", "opties": ["Salaris / loon", "Bonus", "Vergoeding", "Toeslag"], "correct": 0 },
+    { "vraag": "Wat is de derde economische pijler van Curaçao naast toerisme en olieraffinage?", "opties": ["De financiële sector", "Landbouw", "Visserij", "Scheepsbouw"], "correct": 0 },
+    { "vraag": "Hoe is 'jefe' anders dan de Nederlandse 'baas'?", "opties": ["'Jefe' heeft geen negatieve klank en verwijst ook naar een persoonlijke relatie", "'Jefe' is formeler", "'Jefe' is alleen voor managers", "Er is geen verschil"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik spreek drie talen'?", "opties": ["Mi ta papia tres idioma", "Mi sabi tres idioma", "Mi tin tres idioma", "Mi konosé tres idioma"], "correct": 0 },
+    { "vraag": "Wat is 'vakánsia'?", "opties": ["Vakantie", "Vacature", "Vrije dag", "Verlof"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'we zijn op de goede weg'?", "opties": ["Nos ta den bon pista", "Nos ta na bon kaminda", "Nos ta bai bon", "Alle drie zijn gangbaar"], "correct": 3 },
+    { "vraag": "Wat doet 'Dia di Trabou' (1 mei) op Curaçao?", "opties": ["Erkent alle werkenden op het eiland — van bouwvakker tot bankier", "Is een vakantiedag voor alleen kantoorbanen", "Is een Nederlandstalige feestdag", "Is een lokale sportdag"], "correct": 0 }
+  ]
+}

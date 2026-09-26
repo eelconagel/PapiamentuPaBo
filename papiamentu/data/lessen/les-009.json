@@ -1,0 +1,73 @@
+{
+  "id": 9,
+  "blok": 1,
+  "titel": "Basis Voorzetsels: De 'Na' en 'Di' logica",
+  "grammatica": {
+    "uitleg": "Twee voorzetsels vormen de ruggengraat van ruimtelijke oriëntatie in Papiamentu: 'na' en 'di'. Begrijp deze twee goed en je kunt de meeste locatie- en bezitszinnen bouwen.\n\n'NA' — locatie, richting, tijdstip:\n• Locatie (waar iets/iemand IS):\n  E ta na kas. (Hij/zij is thuis.)\n• Richting (waar iets/iemand NAARTOE GAAT):\n  Mi ta bai na trabou. (Ik ga naar het werk.)\n• Tijdstip:\n  Na tres ora. (Om drie uur.)\n\n'DI' — herkomst, bezit, materiaal, beschrijving:\n• Herkomst (waar iemand vandaan KOMT):\n  Mi ta di Hulanda. (Ik kom uit Nederland.)\n• Bezit/kenmerk (van wie iets is of bij wie het hoort):\n  E outo di mi tata. (De auto van mijn vader.)\n• Materiaal:\n  Un baso di awa. (Een glas water.)\n\nBELANGRIJK VERSCHIL MET NEDERLANDS:\n'Di' + plaatsnaam = afkomst ('di Kòrsou' = van/uit Curaçao)\n'Na' + plaatsnaam = locatie of bestemming ('na Kòrsou' = op Curaçao)",
+    "voorbeelden": [
+      { "papiamentu": "E ta na kas", "vertaling": "Hij/zij is thuis" },
+      { "papiamentu": "Mi ta di Kòrsou", "vertaling": "Ik kom van Curaçao (afkomst)" },
+      { "papiamentu": "E outo ta na strea", "vertaling": "De auto staat op straat" },
+      { "papiamentu": "Un kòfi di Kòrsou", "vertaling": "Een koffie van/uit Curaçao (beschrijving)" },
+      { "papiamentu": "Mi ta bai na doktor na dies ora", "vertaling": "Ik ga om tien uur naar de dokter" }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'na' valt weg voor bekende plaatsen in spreektaal",
+      "voorbeeld": "Formeel: 'E ta na Willemstad' → Spreektaal: 'E ta Willemstad'",
+      "toelichting": "Dit is de bekendste spreektaalregel: 'na' valt weg voor plaatsnamen die iedereen kent. In formele tekst en bij onbekende locaties gebruik je 'na' altijd."
+    },
+    {
+      "nuance": "'di' voor beschrijving gaat verder dan bezit",
+      "voorbeeld": "'Un pida karni' vs. 'un pida di karni' — beide zijn correct; 'di' maakt het explicieter",
+      "toelichting": "Soms is 'di' optioneel bij beschrijvende combinaties. Native speakers variëren. Als je twijfelt: voeg 'di' toe — het is nooit fout."
+    },
+    {
+      "nuance": "'Na' voor tijdstippen werkt anders dan 'om' in het Nederlands",
+      "voorbeeld": "'Na tres' = om drie uur | 'Na mainta' = 's ochtends | 'Na Djasabra' = op zaterdag",
+      "toelichting": "'Na' is het veelzijdige tijdsvoorzetsel in Papiamentu. Het werkt voor uren, dagdelen én dagen van de week — terwijl het Nederlands 'om', ''s', en 'op' gebruikt."
+    },
+    {
+      "nuance": "Dubbel 'na' in één zin is normaal",
+      "voorbeeld": "'Mi ta bai na doktor na dies ora.' (Ik ga om tien uur naar de dokter.) — twee 'na' met verschillende functies",
+      "toelichting": "De eerste 'na' geeft richting (naar), de tweede geeft tijdstip (om). Dit ziet er raar uit voor Nederlandstaligen maar is volkomen normaal in Papiamentu."
+    }
+  ],
+  "woorden": [
+    { "woord": "Na", "uitspraak": "na", "vertaling": "In / op / naar / om (veelzijdig voorzetsel)" },
+    { "woord": "Di", "uitspraak": "die", "vertaling": "Van / uit / van ... gemaakt (herkomst, bezit, beschrijving)" },
+    { "woord": "Kas", "uitspraak": "kas", "vertaling": "Huis / thuis" },
+    { "woord": "Strea", "uitspraak": "stre-a", "vertaling": "Straat" },
+    { "woord": "Doktor", "uitspraak": "dok-tor", "vertaling": "Dokter / arts" },
+    { "woord": "Tata", "uitspraak": "ta-ta", "vertaling": "Vader (informeel)" },
+    { "woord": "Mama", "uitspraak": "ma-ma", "vertaling": "Moeder" },
+    { "woord": "Baso", "uitspraak": "ba-so", "vertaling": "Glas (drinkglas)" },
+    { "woord": "Ora", "uitspraak": "o-ra", "vertaling": "Uur / moment / toen" },
+    { "woord": "Sali", "uitspraak": "sa-lie", "vertaling": "Uitgaan / verlaten / eruit komen" }
+  ],
+  "culturele_context": "Op Curaçao is 'kas' (huis) een ankerpunt in het dagelijkse leven. 'Mi ta na kas' betekent niet alleen dat je thuis bent — het zegt ook dat je beschikbaar bent, dat je ontvangt. Gastvrijheid is een kernwaarde; een open deur is een uitnodiging.\n\n'Di Kòrsou' is meer dan een aanduiding van afkomst — het is een identiteitsmarkering. 'Yu di Kòrsou' (kind van Curaçao) is een geuzentitel, een uitdrukking van trots op het eiland en zijn cultuur. De 'di' is hier niet alleen grammaticaal, maar cultureel beladen.\n\nDe markt ('merkado') en toko zijn locaties die een speciale 'na' verdienen. 'Mi ta bai na merkado' is het ritueel van dagelijkse boodschappen — een sociale activiteit waarbij je buren ontmoet, nieuws uitwisselt en verbonden blijft met de buurt.",
+  "scenario_links": ["scenario-001", "scenario-003", "scenario-009"],
+  "eindoefening": [
+    { "vraag": "Welk voorzetsel gebruik je voor locatie in Papiamentu?", "opties": ["Na", "Di", "Ku", "Pa"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Hij is thuis'?", "opties": ["E ta na kas", "E ta di kas", "E kas ta", "Na kas e ta"], "correct": 0 },
+    { "vraag": "Wat geeft 'di' aan in 'Mi ta di Kòrsou'?", "opties": ["Afkomst (ik kom van Curaçao)", "Locatie (ik ben op Curaçao)", "Richting (ik ga naar Curaçao)", "Bezit (ik heb Curaçao)"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De auto van mijn vader'?", "opties": ["E outo di mi tata", "E outo na mi tata", "Mi tata di outo", "E outo ku mi tata"], "correct": 0 },
+    { "vraag": "Wat betekent 'na tres ora'?", "opties": ["Om drie uur", "Op drie plaatsen", "In drie stappen", "Naar drie uur"], "correct": 0 },
+    { "vraag": "Hoe verdwijnt 'na' in spreektaal?", "opties": ["Voor bekende plaatsnamen: 'E ta Willemstad' i.p.v. 'E ta na Willemstad'", "'Na' verdwijnt altijd in spreektaal", "'Na' wordt vervangen door 'di'", "'Na' verschuift naar het einde"], "correct": 0 },
+    { "vraag": "Wat is het verschil tussen 'di Kòrsou' en 'na Kòrsou'?", "opties": ["'di' = afkomst (van/uit), 'na' = locatie/richting (op/naar)", "'di' = richting, 'na' = afkomst", "Ze betekenen hetzelfde", "'di' is formeel, 'na' is informeel"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Een glas water'?", "opties": ["Un baso di awa", "Un baso na awa", "Un baso ku awa", "Un awa baso"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik ga om tien uur naar de dokter'?", "opties": ["Mi ta bai na doktor na dies ora", "Mi ta bai doktor na dies ora", "Mi ta bai na dies ora na doktor", "Na dies ora mi ta bai doktor"], "correct": 0 },
+    { "vraag": "Is dubbel 'na' in één zin correct?", "opties": ["Ja, als beide een andere functie hebben (richting + tijdstip)", "Nee, altijd fout", "Alleen in informele tekst", "Alleen bij werkwoord 'bai'"], "correct": 0 },
+    { "vraag": "Wat betekent 'strea'?", "opties": ["Straat", "Steeg", "Weg", "Plein"], "correct": 0 },
+    { "vraag": "Hoe gebruik je 'na' bij dagen van de week?", "opties": ["Na Djasabra = op zaterdag", "Di Djasabra = op zaterdag", "Ku Djasabra = op zaterdag", "Pa Djasabra = op zaterdag"], "correct": 0 },
+    { "vraag": "Wat is 'tata'?", "opties": ["Vader (informeel)", "Opa", "Oom", "Man"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik kom uit Nederland'?", "opties": ["Mi ta di Hulanda", "Mi ta na Hulanda", "Mi bai na Hulanda", "Di Hulanda mi ta"], "correct": 0 },
+    { "vraag": "Wat is 'sali'?", "opties": ["Uitgaan / verlaten / eruit komen", "Binnengaan", "Blijven", "Wachten"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'op straat' met het juiste voorzetsel?", "opties": ["Na strea", "Di strea", "Ku strea", "Pa strea"], "correct": 0 },
+    { "vraag": "Waarvoor gebruik je 'di' bij materialen?", "opties": ["Om aan te geven waaruit iets gemaakt is of bestaat: 'un baso di awa'", "Om bezit aan te geven", "Om afkomst aan te geven", "Om richting aan te geven"], "correct": 0 },
+    { "vraag": "Wat betekent 'Yu di Kòrsou'?", "opties": ["Kind van Curaçao — een geuzentitel", "Jong iemand van Curaçao", "Geboren op Curaçao", "Inwoner van Curaçao"], "correct": 0 },
+    { "vraag": "Is 'di' optioneel bij beschrijvende combinaties?", "opties": ["Soms, maar als je twijfelt: voeg 'di' toe — het is nooit fout", "Ja, altijd optioneel", "Nee, altijd verplicht", "Alleen bij plaatsnamen"], "correct": 0 },
+    { "vraag": "Wat maakt de 'na merkado' meer dan alleen een locatie?", "opties": ["Het is een sociaal ritueel — boodschappen doen is verbinding zoeken", "Het is een formele uitdrukking", "Het verwijst alleen naar de fysieke markt", "Het is een militaire term"], "correct": 0 }
+  ]
+}

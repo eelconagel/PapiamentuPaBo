@@ -1,0 +1,103 @@
+{
+  "id": "scenario-020",
+  "title": "Een formeel gesprek voeren",
+  "difficulty": "Native Speaker",
+  "category": "Formeel",
+  "intro": "Je hebt een afspraak met een autoriteit, een functionaris of een zakelijke partner. Op Curaçao is een formeel gesprek een unieke balans: het vereist respect voor de hiërarchie, maar verliest nooit de menselijke maat uit het oog.",
+  "introWords": [
+    { "papiamentu": "Mi lo gusta di trata e puntonan di agènda", "dutch": "Ik zou graag de agendapunten bespreken", "pronunciation": "mie lo goes-ta die tra-ta e poen-to-nan die a-gjen-da" },
+    { "papiamentu": "Mi ta gradisí bo pa e tempu", "dutch": "Ik dank u voor uw tijd", "pronunciation": "mie ta gra-die-sie bo pa e tem-poo" },
+    { "papiamentu": "Kiko ta e vishon di e organisashon?", "dutch": "Wat is de visie van de organisatie?", "pronunciation": "kee-ko ta e vie-shon die e or-ga-ni-za-shon" },
+    { "papiamentu": "Nos por yega na un akuerdo?", "dutch": "Kunnen we tot een akkoord komen?", "pronunciation": "nos por je-ga na oen a-kwer-do" }
+  ],
+  "grammar": {
+    "title": "Formele communicatiestijl",
+    "explanation": [
+      "Gebruik constructies zoals 'Mi lo gusta...' (Ik zou graag...) voor een beleefde toon.",
+      "Autoriteit wordt vaak erkend door de ander uit te laten spreken en te wachten tot de ander het gesprek opent.",
+      "Gebruik 'akuerdo' (akkoord) voor zakelijke besluitvorming."
+    ],
+    "exercises": [
+      {
+        "question": "Hoe zeg je: 'Mag ik een voorstel doen?'",
+        "options": ["Mi por hasi un proposishon?", "Mi ta hasi proposishon?", "Bo ta hasi proposishon?", "Kiko ta proposishon?"],
+        "correct": 0,
+        "explanation": "'Proposishon' is het formele woord voor voorstel."
+      },
+      {
+        "question": "Wat betekent 'Gradisí'?",
+        "options": ["Bedanken", "Vragen", "Werken", "Eindigen"],
+        "correct": 0,
+        "explanation": "'Gradisí' is de formele manier om iemand te bedanken."
+      },
+      {
+        "question": "Wat betekent 'Puntonan di agènda'?",
+        "options": ["Agendapunten", "Vergadering", "Beslissingen", "Conclusies"],
+        "correct": 0,
+        "explanation": "Het zijn de punten die op de agenda staan voor bespreking."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Akuerdo", "dutch": "Akkoord", "pronunciation": "a-kwer-do", "example": "Nos a yega na un akuerdo." },
+    { "papiamentu": "Gradisí", "dutch": "Bedanken", "pronunciation": "gra-die-sie", "example": "Mi ta gradisí bo pa e oportunidat." },
+    { "papiamentu": "Proposishon", "dutch": "Voorstel", "pronunciation": "pro-po-si-shon", "example": "E proposishon ta interesante." },
+    { "papiamentu": "Organisashon", "dutch": "Organisatie", "pronunciation": "or-ga-ni-za-shon", "example": "E organisashon ta hopi grandi." },
+    { "papiamentu": "Vishon", "dutch": "Visie", "pronunciation": "vie-shon", "example": "Kiko ta e vishon?" },
+    { "papiamentu": "Punto", "dutch": "Punt", "pronunciation": "poen-to", "example": "Esaki ta un punto importante." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Te veel focussen op het resultaat",
+      "detail": "In een formeel gesprek op Curaçao is het proces (de beleefde interactie) vaak net zo belangrijk als het resultaat. Wees niet te haastig.",
+      "remember": "Menselijkheid gaat voor efficiëntie."
+    },
+    {
+      "trap": "Directief taalgebruik",
+      "detail": "Vermijd gebiedende wijzen ('doe dit', 'zeg dat'). Gebruik vragende vormen of beleefdheidsvormen zoals 'seria posibel...' (zou het mogelijk zijn...).",
+      "remember": "Vragen is sterker dan bevelen."
+    }
+  ],
+  "culture": {
+    "title": "Formele omgangsvormen op Curaçao",
+    "intro": "Zakelijkheid en hiërarchie zijn aanwezig, maar worden altijd verzacht door de lokale behoefte aan harmonie.",
+    "facts": [
+      "Tijdens formele gesprekken wordt er vaak eerst even informeel gesproken; dit is cruciaal om het ijs te breken.",
+      "Titels worden af en toe gebruikt in zeer formele settings (zoals bij de overheid of in de advocatuur), maar het gebruik neemt af.",
+      "Oogcontact is belangrijk, maar moet niet te indringend of uitdagend zijn; het toont betrokkenheid."
+    ],
+    "didYouKnow": "Wist je dat een handdruk aan het begin en einde van een formeel gesprek op Curaçao bijna universeel is en een teken van wederzijds respect?"
+  },
+  "quiz": [
+    {
+      "question": "Wat is een beleefde manier om een gesprek te openen?",
+      "options": ["Bon dia, danki pa e oportunidat", "Kiko bo ke?", "Ta kiko tin?", "Mi ke papia"],
+      "correct": 0,
+      "explanation": "Het toont waardering voor de tijd van de ander."
+    },
+    {
+      "question": "Wat betekent 'Oportunidat'?",
+      "options": ["Gelegenheid/Kans", "Afspraak", "Document", "Vraag"],
+      "correct": 0,
+      "explanation": "Een oportunidat is een kans of gelegenheid."
+    },
+    {
+      "question": "Hoe zeg je: 'Ik ga akkoord'?",
+      "options": ["Mi ta di akuerdo", "Mi ta kla", "Mi ta gradisí", "Mi ta proposishon"],
+      "correct": 0,
+      "explanation": "'Di akuerdo' betekent eensgezind/akkoord."
+    },
+    {
+      "question": "Is het beleefd om tijdens een formeel gesprek aantekeningen te maken?",
+      "options": ["Ja, dat toont professionaliteit", "Nee, dat leidt af", "Alleen als de ander het doet", "Nooit doen"],
+      "correct": 0,
+      "explanation": "Het laat zien dat je de inhoud serieus neemt."
+    },
+    {
+      "question": "Wat betekent 'Importante'?",
+      "options": ["Belangrijk", "Interessant", "Groot", "Moeilijk"],
+      "correct": 0,
+      "explanation": "Het wordt in het Papiaments hetzelfde gebruikt als in het Nederlands."
+    }
+  ]
+}

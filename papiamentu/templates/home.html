@@ -1,0 +1,169 @@
+{% extends "base.html" %}
+{% from "_providers.html" import provider_buttons %}
+{% block title %}Papiamentu Pa Bo — Leer Papiamentu stap voor stap{% endblock %}
+{% block content %}
+<section id="onboarding" class="onboarding" hidden>
+  <div class="hero-badge">☀️ Bon bini!</div>
+  <h1 class="title">Papiamentu Pa Bo</h1>
+  <p class="subtitle">Leer Papiamentu stap voor stap: met situaties uit het dagelijks leven op Curaçao, woordjes en lessen.</p>
+  <form id="name-form" autocomplete="off">
+    <label class="field-label left" for="name-input">Hoe mogen we je noemen?</label>
+    <input class="input" id="name-input" name="name" placeholder="Jouw naam" maxlength="60" autocapitalize="words">
+    <button class="btn btn-primary block" type="submit">Start leren</button>
+  </form>
+  {% if login_providers and not current_user %}
+    <div class="divider-text"><span>of log in om je voortgang te bewaren</span></div>
+    {{ provider_buttons(login_providers) }}
+  {% endif %}
+</section>
+
+<section id="dashboard" hidden>
+  <h1 class="title">Papiamentu Pa Bo</h1>
+  <p class="welcome">Bon bini, <span id="profile-name"></span>!</p>
+
+  <a class="continue-card" id="continue" href="#" hidden>
+    <span class="continue-kicker" id="continue-kicker">Ga verder</span>
+    <span class="continue-title" id="continue-title"></span>
+    <span class="continue-arrow" aria-hidden="true">→</span>
+  </a>
+
+  <div class="wotd" id="wotd">
+    <div class="wotd-header">
+      <span class="wotd-label">📖 Woord van de dag</span>
+      <button class="icon-btn" id="wotd-refresh" type="button" aria-label="Ander woord" title="Ander woord">🔄</button>
+    </div>
+    <div class="wotd-word" id="wotd-word"></div>
+    <div class="wotd-pron" id="wotd-pron"></div>
+    <div class="wotd-trans" id="wotd-trans"></div>
+  </div>
+
+  <p class="section-label">Wat wil je doen?</p>
+
+  <a class="option-btn" style="background:var(--fill-teal)" href="{{ url_for('scenarios') }}">
+    <span class="option-icon">💬</span>
+    <span class="option-text">
+      <span class="option-title">Papiamentu Pa Bo</span>
+      <span class="option-sub">Oefen met praktische scenario's, van eenvoudig tot expert</span>
+      <span class="option-progress" data-progress="scenarios"></span>
+    </span>
+  </a>
+  <a class="option-btn" style="background:var(--fill-orange)" href="{{ url_for('woorden') }}">
+    <span class="option-icon">✍️</span>
+    <span class="option-text">
+      <span class="option-title">Woorden Oefenen</span>
+      <span class="option-sub">Leer woordjes schrijven — nieuwe lijsten ontgrendelen zich automatisch</span>
+      <span class="option-progress" data-progress="woorden"></span>
+    </span>
+  </a>
+  <a class="option-btn" style="background:var(--fill-green)" href="{{ url_for('lessen') }}">
+    <span class="option-icon">📚</span>
+    <span class="option-text">
+      <span class="option-title">Leer met lessen</span>
+      <span class="option-sub">Gestructureerde lessen: grammatica, woordjes, cultuur en oefening</span>
+      <span class="option-progress" data-progress="lessen"></span>
+    </span>
+  </a>
+
+  {% if login_providers and not current_user %}
+    <div class="save-card">
+      <div>
+        <strong>Bewaar je voortgang</strong>
+        <div class="small muted">Log in met Google, Microsoft of een ander account en ga verder op elk apparaat.</div>
+      </div>
+      <a class="btn btn-secondary" href="{{ url_for('auth.login_page') }}">Inloggen</a>
+    </div>
+  {% endif %}
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script nonce="{{ csp_nonce }}">
+(function () {
+  const WORDS = {{ words | tojson }};
+  const LESSEN = {{ lessen | tojson }};
+  const TOTALS = {{ totals | tojson }};
+  const lesUrl = (id) => {{ url_for('lessen') | tojson }} + '/' + id;
+  const onboarding = document.getElementById('onboarding');
+  const dashboard = document.getElementById('dashboard');
+
+  function renderProgress(s) {
+    const lessenDone = LESSEN.filter((l) => (s.lessen[l.id] || []).length >= 4).length;
+    const mastered = Object.values(s.woorden).filter((w) => w.is_mastered).length;
+    const scen = Object.keys(s.scenarios).length;
+    const text = {
+      scenarios: `${scen} van ${TOTALS.scenarios} voltooid`,
+      woorden: `${mastered} van ${TOTALS.woorden} woorden gemeesterd`,
+      lessen: `${lessenDone} van ${LESSEN.length} lessen voltooid`,
+    };
+    const pct = {
+      scenarios: scen / TOTALS.scenarios,
+      woorden: mastered / TOTALS.woorden,
+      lessen: lessenDone / LESSEN.length,
+    };
+    document.querySelectorAll('[data-progress]').forEach((el) => {
+      const k = el.dataset.progress;
+      el.innerHTML = '<span class="mini-bar"><span></span></span><span class="mini-txt"></span>';
+      el.querySelector('.mini-bar span').style.width = Math.round(pct[k] * 100) + '%';
+      el.querySelector('.mini-txt').textContent = text[k];
+    });
+
+    // "Ga verder": first lesson that isn't finished yet.
+    const next = LESSEN.find((l) => (s.lessen[l.id] || []).length < 4);
+    const card = document.getElementById('continue');
+    if (next) {
+      const started = (s.lessen[next.id] || []).length > 0;
+      card.hidden = false;
+      card.href = lesUrl(next.id);
+      document.getElementById('continue-kicker').textContent = started || next.id > 1 ? `Ga verder · Les ${next.id}` : 'Begin hier · Les 1';
+      document.getElementById('continue-title').textContent = next.titel;
+    } else {
+      card.hidden = true;
+    }
+  }
+
+  function render() {
+    const s = Store.get();
+    if (!s.profile) {
+      onboarding.hidden = false;
+      dashboard.hidden = true;
+      return;
+    }
+    onboarding.hidden = true;
+    dashboard.hidden = false;
+    document.getElementById('profile-name').textContent = s.profile.name;
+    renderProgress(s);
+  }
+
+  document.getElementById('name-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = document.getElementById('name-input').value.trim();
+    if (!name) { Store.toast('Vul je naam in om te beginnen.'); return; }
+    Store.setName(name);
+    render();
+  });
+
+  // Same rotation as the app: days since 2000-01-01 modulo word count.
+  function dayIndex(d) {
+    const epoch = Date.UTC(2000, 0, 1);
+    const today = Date.UTC(d.getFullYear(), d.getMonth(), d.getDate());
+    return Math.floor((today - epoch) / 86400000);
+  }
+  let current = WORDS[dayIndex(new Date()) % WORDS.length];
+
+  function showWord(w) {
+    current = w;
+    document.getElementById('wotd-word').textContent = w.word;
+    document.getElementById('wotd-pron').textContent = '[' + w.pronunciation + ']';
+    document.getElementById('wotd-trans').textContent = w.translation;
+  }
+  document.getElementById('wotd-refresh').addEventListener('click', () => {
+    const pool = WORDS.filter((w) => w.word !== current.word);
+    showWord(pool[Math.floor(Math.random() * pool.length)]);
+  });
+
+  showWord(current);
+  render();
+  document.addEventListener('papiamentu:synced', render);
+})();
+</script>
+{% endblock %}

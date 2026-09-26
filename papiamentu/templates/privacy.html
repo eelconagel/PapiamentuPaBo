@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="title left">Privacy</h1>
+<p class="muted">Papiamentu Pa Bo verzamelt zo min mogelijk gegevens. Hieronder staat precies wat, waarom en hoe je het weer verwijdert.</p>
+
+<h2 class="section-title">1. Zonder account</h2>
+<ul class="bullets">
+  <li>Je naam en leervoortgang (XP, woorden, lessen, scenario's) worden <strong>alleen in je eigen browser</strong> opgeslagen (localStorage). Ze worden niet naar onze server gestuurd.</li>
+</ul>
+
+<h2 class="section-title">2. Met een account (inloggen is optioneel)</h2>
+<ul class="bullets">
+  <li>Als je inlogt met Google, Microsoft, Apple of Facebook, ontvangen we van die dienst alleen je <strong>voornaam, e-mailadres en een gebruikersnummer</strong>. Je wachtwoord zien we nooit.</li>
+  <li>We bewaren dan je leervoortgang op onze server, zodat je op elk apparaat verder kunt.</li>
+  <li>We gebruiken je e-mailadres niet voor nieuwsbrieven of reclame.</li>
+</ul>
+
+<h2 class="section-title">3. Contactformulier</h2>
+<ul class="bullets">
+  <li>Berichten die je stuurt (met de naam en het e-mailadres dat je zelf invult) bewaren we om ze te kunnen lezen en beantwoorden.</li>
+  <li>Om spam te beperken bewaren we bij een bericht een onomkeerbare code die van je IP-adres is afgeleid (een hash). Je IP-adres zelf slaan we niet op.</li>
+</ul>
+
+<h2 class="section-title">4. Cookies</h2>
+<p class="body-text">We gebruiken één functionele cookie: die houdt bij of je bent ingelogd en beveiligt formulieren. Er zijn geen tracking- of advertentiecookies en de website laadt geen externe scripts of lettertypes.</p>
+
+<h2 class="section-title">5. Delen met derden</h2>
+<p class="body-text">We verkopen of delen je gegevens <strong>niet</strong>. Alleen bij het inloggen praat je browser met de dienst die je zelf kiest (Google, Microsoft, Apple of Facebook); daarvoor geldt hun eigen privacybeleid.</p>
+
+<h2 class="section-title" id="verwijderen">6. Gegevens bekijken of verwijderen (AVG)</h2>
+<ul class="bullets">
+  <li><strong>Voortgang exporteren:</strong> via <a href="{{ url_for('instellingen') }}">Instellingen → Exporteer voortgang</a>.</li>
+  <li><strong>Voortgang wissen:</strong> via <a href="{{ url_for('instellingen') }}">Instellingen → Voortgang wissen</a>.</li>
+  <li><strong>Account verwijderen:</strong> log in en kies <a href="{{ url_for('instellingen') }}">Instellingen → Account verwijderen</a>. Je account, gekoppelde logins en voortgang worden direct en definitief gewist.</li>
+  <li>Wil je een contactbericht laten verwijderen, of heb je een andere vraag? Gebruik het <a href="{{ url_for('contact') }}">contactformulier</a>.</li>
+</ul>
+{% endblock %}

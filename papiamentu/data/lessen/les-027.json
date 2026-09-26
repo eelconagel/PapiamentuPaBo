@@ -1,0 +1,73 @@
+{
+  "id": 27,
+  "blok": 3,
+  "titel": "Vragen (Geavanceerd): Kuantu, Ki, Ken en Ingebedde Vragen",
+  "grammatica": {
+    "uitleg": "In Blok 1 (les 6) leerde je de basisvraagwoorden: kiko, unda, ki ora, dikon, kon. Nu verdiep je je in complexere vraagvorming.\n\nNIEUWE VRAAGWOORDEN:\n• Kuantu (hoeveel): 'Kuantu e ta kosta?' (Hoeveel kost het?)\n• Ki (welke): 'Ki outo bo kier?' (Welke auto wil jij?)\n• Ki sorto (wat voor soort): 'Ki sorto kuminda ta?' (Wat voor soort eten is het?)\n• Ken (wie — als subject): 'Ken a yega?' (Wie is er aangekomen?)\n• Ku kende (met wie): 'Ku kende bo a bai?' (Met wie ging jij?)\n• Pa kende (voor wie): 'Pa kende ta e regalo?' (Voor wie is het cadeau?)\n• Di kende (van wie): 'Di kende ta e kas aki?' (Van wie is dit huis?)\n\nINGEBEDDE VRAGEN (indirecte vraagzinnen):\nNa werkwoorden als 'sabi' (weten), 'konta' (vertellen), 'buska' (zoeken), 'pregunta' (vragen) kun je een vraagzin inbedden:\n• Mi no sabi ken ta e hende ei. (Ik weet niet wie die persoon is.)\n• Dimi ki ora e lo yega. (Vertel me hoe laat hij/zij aankomt.)\n• Mi ta buska kiko bo a kome. (Ik zoek uit wat jij hebt gegeten.)\n\nRHETORISCHE VRAGEN met nadruk:\n• 'Kiko?!' = Wat?! (verrassing)\n• 'Dikon?!' = Waarom toch?!\n• 'Kon ta posibel?!' = Hoe is dat mogelijk?!",
+    "voorbeelden": [
+      { "papiamentu": "Kuantu e kasnan ta kosta na bario aki?", "vertaling": "Hoeveel kosten de huizen in deze buurt?" },
+      { "papiamentu": "Ki sorto di trabou bo ta hasi?", "vertaling": "Wat voor soort werk doe jij?" },
+      { "papiamentu": "Ken a yama anochi? Mi no tabata na kas.", "vertaling": "Wie belde gisteravond? Ik was niet thuis." },
+      { "papiamentu": "Mi no sabi ku kende e ta biba, pero e ta masha bunita.", "vertaling": "Ik weet niet met wie hij/zij woont, maar hij/zij is heel mooi." },
+      { "papiamentu": "Dimi di kende ta e outo dilanti kas.", "vertaling": "Vertel mij van wie de auto voor het huis is." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'Ken' vs. 'kende' — wie als subject vs. wie als object van een voorzetsel",
+      "voorbeeld": "'Ken ta e persona?' (Wie is de persoon?) vs. 'Ku kende bo a bai?' (Met wie ging jij?)",
+      "toelichting": "'Ken' staat altijd als zelfstandig vraagwoord voor een werkwoord. 'Kende' (van 'ken' + extra -de) volgt een voorzetsel: 'di kende', 'pa kende', 'ku kende'. Dit onderscheid is subtiel maar consistent."
+    },
+    {
+      "nuance": "Ingebedde vragen verliezen de omkering — volgorde blijft SVO",
+      "voorbeeld": "Directe vraag: 'Ki ora e lo yega?' vs. Ingebedde vraag: 'Mi no sabi ki ora e lo yega' (geen inversie)",
+      "toelichting": "In ingebedde vragen (na 'sabi', 'konta', etc.) blijft de standaard SVO-volgorde bewaard. Er is geen inversie zoals in het Nederlands of Engels. Dit maakt Papiamentse ingebedde vragen makkelijker dan in veel andere talen."
+    },
+    {
+      "nuance": "'Kuantu' als hoeveelheids- én duurvraag",
+      "voorbeeld": "'Kuantu e ta kosta?' (hoeveel kost het?) vs. 'Kuantu tempu bo a keda?' (hoe lang ben jij gebleven?)",
+      "toelichting": "'Kuantu' kan zowel getal (prijs, aantallen) als duur (hoelang) vragen. 'Kuantu tempu' (hoe lang — letterlijk: hoeveel tijd) is een veelgebruikte combinatie. Dit tweeledige gebruik vraagt aandacht."
+    },
+    {
+      "nuance": "Retorische 'Kiko?!' als verrassing — met stijgende intonatie",
+      "voorbeeld": "— 'Mi a kumpra un kas nobo.' — 'Kiko?!' (Wat?! — pure verrassing)",
+      "toelichting": "'Kiko?!' als alleenstaand is een van de meest expressieve uitroepen in Papiamentu. De stijgende intonatie signaleert verrassing of ongeloof. Het is niet agressief maar kan ook ontzag uitdrukken. Gebruik het vrij — native speakers waarderen de expressiviteit."
+    }
+  ],
+  "woorden": [
+    { "woord": "Kuantu", "uitspraak": "kwan-toe", "vertaling": "Hoeveel" },
+    { "woord": "Ki sorto", "uitspraak": "kie sor-to", "vertaling": "Wat voor soort / welk type" },
+    { "woord": "Kende", "uitspraak": "ken-de", "vertaling": "Wie (na voorzetsel: di kende, ku kende)" },
+    { "woord": "Sabi", "uitspraak": "sa-bie", "vertaling": "Weten / kunnen" },
+    { "woord": "Pregunta", "uitspraak": "pre-goen-ta", "vertaling": "Vragen / vraag" },
+    { "woord": "Posibel", "uitspraak": "po-sie-bel", "vertaling": "Mogelijk" },
+    { "woord": "Trabou", "uitspraak": "tra-bou", "vertaling": "Werk / arbeid" },
+    { "woord": "Regalo", "uitspraak": "re-ga-lo", "vertaling": "Cadeau / geschenk" },
+    { "woord": "Kosta", "uitspraak": "kos-ta", "vertaling": "Kosten / kust" },
+    { "woord": "Tempu", "uitspraak": "tem-poe", "vertaling": "Tijd / duur / tijdperk" }
+  ],
+  "culturele_context": "Vraagstellen op Curaçao is een kunst. Direct en nieuwsgierig zijn wordt gewaardeerd — maar de toon bepaalt of het als interesse of als inmenging wordt ervaren. 'Di unda bo ta?' (Waar kom jij vandaan?) is een vriendelijke ijsbreker. 'Di kende ta e kas?' (Van wie is dat huis?) is informatie zoeken — acceptabel bij buren.\n\n'Sabi' (weten/kunnen) is een veelzijdig werkwoord. 'Bo sabi Papiamentu?' betekent letterlijk 'weet jij Papiamentu?' maar functioneert als 'kun jij Papiamentu?' — een combinatie van kennis en vaardigheid die het Nederlands in twee werkwoorden zou uitdrukken ('weten' en 'kunnen').\n\nRhetorische uitroepen als 'Kiko?!' en 'Dikon?!' zijn deel van het sociale weefsel. Ze zijn niet beledigend — ze zijn expressief. Op Curaçao is expressiviteit een sociaal gebaar van betrokkenheid.",
+  "scenario_links": ["scenario-006", "scenario-013"],
+  "eindoefening": [
+    { "vraag": "Hoe vraag je 'hoeveel'?", "opties": ["Kuantu", "Hopi", "Kiko", "Kuanto"], "correct": 0 },
+    { "vraag": "Hoe vraag je 'welke auto'?", "opties": ["Ki outo", "Kiko outo", "Kuantu outo", "Unda outo"], "correct": 0 },
+    { "vraag": "Hoe vraag je 'met wie'?", "opties": ["Ku kende", "Ku ken", "Ki kende", "Ku persona"], "correct": 0 },
+    { "vraag": "Hoe vraag je 'van wie'?", "opties": ["Di kende", "Di ken", "Ki kende", "Di kiko"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik weet niet wie dat is'?", "opties": ["Mi no sabi ken ta esei", "Mi no sabi kiko ta esei", "Mi no sabi ku kende ta esei", "Mi no sabi unda esei ta"], "correct": 0 },
+    { "vraag": "Verandert de woordvolgorde in een ingebedde vraag?", "opties": ["Nee — SVO blijft; geen inversie", "Ja — vraagwoord gaat naar het einde", "Ja — inversie zoals in directe vragen", "Ja — werkwoord gaat naar het begin"], "correct": 0 },
+    { "vraag": "Hoe vraag je 'hoe lang ben jij gebleven'?", "opties": ["Kuantu tempu bo a keda?", "Ki tempu bo a keda?", "Kon tempu bo a keda?", "Unda tempu bo a keda?"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Vertel mij hoe laat hij aankomt'?", "opties": ["Dimi ki ora e lo yega", "Dimi kuantu ora e lo yega", "Dimi e lo yega ki ora", "Ki ora dimi e lo yega"], "correct": 0 },
+    { "vraag": "Wat betekent 'sabi'?", "opties": ["Weten / kunnen", "Denken", "Begrijpen", "Geloven"], "correct": 0 },
+    { "vraag": "Hoe vraag je 'Hoeveel kosten de huizen'?", "opties": ["Kuantu e kasnan ta kosta?", "Ki e kasnan ta kosta?", "Kon hopi e kasnan ta kosta?", "Kiko e kasnan ta kosta?"], "correct": 0 },
+    { "vraag": "Hoe gebruik je 'ki sorto'?", "opties": ["Voor type/soort: 'Ki sorto di trabou bo ta hasi?'", "Voor hoeveelheid: 'Ki sorto plaka?'", "Voor locatie: 'Ki sorto unda?'", "Voor tijd: 'Ki sorto ora?'"], "correct": 0 },
+    { "vraag": "Wat is 'trabou'?", "opties": ["Werk / arbeid", "Taak", "Probleem", "Baan"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wie belde gisteravond?'", "opties": ["Ken a yama ayera anochi?", "Kende a yama ayera anochi?", "Ken ta yama ayera anochi?", "Ku ken a yama ayera anochi?"], "correct": 0 },
+    { "vraag": "Hoe vraag je 'Voor wie is het cadeau'?", "opties": ["Pa kende ta e regalo?", "Pa ken ta e regalo?", "Kende ta pa e regalo?", "Di kende ta e regalo?"], "correct": 0 },
+    { "vraag": "Wat is 'regalo'?", "opties": ["Cadeau / geschenk", "Prijs", "Verrassing", "Bericht"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wat voor soort werk doe jij?'", "opties": ["Ki sorto di trabou bo ta hasi?", "Kuantu trabou bo ta hasi?", "Ki trabou bo ta hasi?", "Kiko trabou bo ta hasi?"], "correct": 0 },
+    { "vraag": "Wat betekent 'Kiko?!' als alleenstaande uitroep?", "opties": ["Verrassing / ongeloof (Wat?!)", "Vraag om herhaling", "Formele vraag", "Protest"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Is dat mogelijk?'", "opties": ["Esei ta posibel?", "Ta posibel esei?", "Kon ta posibel esei?", "Esei ta kon posibel?"], "correct": 0 },
+    { "vraag": "Wat is 'posibel'?", "opties": ["Mogelijk", "Noodzakelijk", "Waarschijnlijk", "Zeker"], "correct": 0 },
+    { "vraag": "Wat maakt 'Sabi Papiamentu' breder dan 'weten' of 'kunnen' apart?", "opties": ["Het combineert kennis en vaardigheid in één werkwoord", "Het is een formele constructie", "Het geldt alleen voor talen", "Het is een regionale variant"], "correct": 0 }
+  ]
+}

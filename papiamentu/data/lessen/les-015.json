@@ -1,0 +1,73 @@
+{
+  "id": 15,
+  "blok": 2,
+  "titel": "Adjectieven: Post-positie en Intensivering",
+  "grammatica": {
+    "uitleg": "In Papiamentu staat het bijvoeglijk naamwoord ACHTER het zelfstandig naamwoord — het omgekeerde van het Nederlands. Dit is de post-positie en is consistent door de hele taal.\n\nDE BASISREGEL (attributief — bij het zelfstandig naamwoord):\n[lidwoord] + [zelfstandig naamwoord] + [bijvoeglijk naamwoord]\n• Un kas grandi. (Een groot huis.) — NIET: 'un grandi kas'\n• Un mucha bon. (Een goed kind.)\n• Awa fresku. (Fris water.)\n\nPREDICATIEF — met 'ta' (beschrijft het onderwerp):\n[onderwerp] + ta + [bijvoeglijk naamwoord]\n• E kas ta grandi. (Het huis is groot.)\n• E mucha ta bon. (Het kind is goed.)\n\nGEEN GESLACHTSAANPASSING:\nBijvoeglijke naamwoorden verbuigen niet voor geslacht of getal.\n• Un mucha bunita. / E muchanan ta bunita. (Een mooi kind. / De kinderen zijn mooi.)\n\nINTENSIVEERDERS — komen vóór het bijvoeglijk naamwoord:\n• masha (heel, zeer): 'un kas masha grandi' (een heel groot huis)\n• hopi (erg, veel): 'E ta hopi bon' (hij/zij is erg goed)\n• den (tamelijk): 'E ta den bon' (hij/zij is tamelijk goed)\n\nMEERDERE ADJECTIEVEN: verbonden met 'i' (en)\n• Un mucha bon i bunita. (Een goed en mooi kind.)",
+    "voorbeelden": [
+      { "papiamentu": "Mi tin un kas nobo na Kòrsou.", "vertaling": "Ik heb een nieuw huis op Curaçao." },
+      { "papiamentu": "E awa ta masha fresku awe.", "vertaling": "Het water is vandaag heel fris." },
+      { "papiamentu": "E ta un hende bon i masha amabel.", "vertaling": "Hij/zij is een goed en heel vriendelijk persoon." },
+      { "papiamentu": "Nos bario ta hopi dushi pero un pokito lama.", "vertaling": "Onze buurt is heel fijn maar een beetje luidruchtig." },
+      { "papiamentu": "E kuminda ta fresku i dushi.", "vertaling": "Het eten is vers en lekker." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "Post-positie is de enige optie — geen pre-positie voor nadruk",
+      "voorbeeld": "'Un bieu man' is FOUT — het moet 'un man bieu' zijn (een oude man)",
+      "toelichting": "Anders dan in het Engels (waar je 'a great big house' kunt zeggen met pre-positie voor nadruk) geldt in Papiamentu altijd de post-positie. Voor nadruk gebruik je 'masha' of 'hopi' vóór het bijvoeglijk naamwoord."
+    },
+    {
+      "nuance": "'Dushi' is het meest veelzijdige bijvoeglijk naamwoord",
+      "voorbeeld": "'Dushi kuminda' (lekker eten), 'mi dushi' (mijn lieverd), 'Bon dia, dushi!' (Goedemorgen, schat!)",
+      "toelichting": "'Dushi' (letterlijk: zoet) heeft de rijkste semantische lading van alle Papiamentse adjectieven. Het kan 'lekker', 'fijn', 'lief', 'aangenaam' of 'geliefde' betekenen, afhankelijk van context. Beheers dit woord en je klinkt direct meer als een native speaker."
+    },
+    {
+      "nuance": "'Bon' en 'malo' zijn de universele positief-negatief-paar",
+      "voorbeeld": "'Bon dia' (goedemorgen), 'ta bon' (het is goed / prima), 'E ta malo' (hij/zij is ziek OF slecht)",
+      "toelichting": "'Malo' kan zowel 'slecht' als 'ziek' betekenen. De context maakt het verschil: 'E ta malo' over eten = het eten is slecht; over een persoon = hij/zij is ziek. Vraag altijd door bij onduidelijkheid."
+    },
+    {
+      "nuance": "'Grandi' voor leeftijd van mensen, 'bieu' voor oudheid van dingen",
+      "voorbeeld": "'Un man grandi' (een volwassen man / grote man) vs. 'un kas bieu' (een oud huis)",
+      "toelichting": "In het Nederlands is 'oud' voor zowel mensen als dingen. In Papiamentu is 'grandi' voor mensen (groot / volwassen) en 'bieu' voor objecten (oud). 'Un man bieu' klinkt oud als in: de man is verouderd — gebruik 'grandi' voor leeftijdsrespect."
+    }
+  ],
+  "woorden": [
+    { "woord": "Grandi", "uitspraak": "gran-die", "vertaling": "Groot / volwassen" },
+    { "woord": "Chikitu", "uitspraak": "chi-kie-toe", "vertaling": "Klein" },
+    { "woord": "Bon", "uitspraak": "bon", "vertaling": "Goed / prima" },
+    { "woord": "Malo", "uitspraak": "ma-lo", "vertaling": "Slecht / ziek" },
+    { "woord": "Dushi", "uitspraak": "doe-shi", "vertaling": "Lekker / fijn / lief / zoet" },
+    { "woord": "Fresku", "uitspraak": "fres-koe", "vertaling": "Fris / koel / vers" },
+    { "woord": "Nobo", "uitspraak": "no-bo", "vertaling": "Nieuw" },
+    { "woord": "Bieu", "uitspraak": "bie-oe", "vertaling": "Oud (voor dingen)" },
+    { "woord": "Bunita", "uitspraak": "boe-nie-ta", "vertaling": "Mooi" },
+    { "woord": "Masha", "uitspraak": "ma-sha", "vertaling": "Heel / zeer / erg" }
+  ],
+  "culturele_context": "'Dushi' is meer dan een woord — het is een culturele spiegel. Op Curaçao wordt schoonheid, warmte en aangenaamheid samengepakt in dit ene woordje. 'Dushi Kòrsou' (lief/fijn Curaçao) is de naam van een populair lied en de manier waarop Curaçaoënaars hun eiland liefdevol benoemen.\n\nBijvoeglijke naamwoorden in Papiamentu zijn direct en pragmatisch: er is geen ingewikkelde buigingssystematiek. Dit maakt de taal toegankelijk. De kleurrijkheid van Willemstad — de felgekleurde handelskade — weerspiegelt de directe kleurrijkheid van het Papiamentse adjectief. 'Un kas kolorá' (een kleurrijk huis) volstaat als beschrijving.\n\nComplimenten zijn een sociale kunst op Curaçao. 'Bo ta masha bunita awe' (je bent heel mooi vandaag) is een acceptabel compliment op straat. De warmte van het adjectief 'dushi' maakt zulke uitwisselingen natuurlijk.",
+  "scenario_links": ["scenario-003", "scenario-004"],
+  "eindoefening": [
+    { "vraag": "Waar staat het bijvoeglijk naamwoord in Papiamentu?", "opties": ["Na het zelfstandig naamwoord (post-positie)", "Voor het zelfstandig naamwoord (pre-positie)", "Aan het begin van de zin", "Na het werkwoord"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'een groot huis'?", "opties": ["Un kas grandi", "Un grandi kas", "E kas grandi", "Grandi kas un"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het water is fris'?", "opties": ["E awa ta fresku", "E fresku awa ta", "E awa fresku ta", "Fresku ta e awa"], "correct": 0 },
+    { "vraag": "Verandert het bijvoeglijk naamwoord voor geslacht?", "opties": ["Nee — altijd dezelfde vorm", "Ja — -a voor vrouwelijk", "Ja — -o voor mannelijk", "Ja — -nan voor meervoud"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'heel groot'?", "opties": ["Masha grandi", "Grandi masha", "Hopi masha grandi", "Ta masha grandi"], "correct": 0 },
+    { "vraag": "Wat betekent 'dushi'?", "opties": ["Lekker / fijn / lief / zoet", "Mooi / aantrekkelijk", "Goed / prima", "Nieuw / vers"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'een mooi en goed kind'?", "opties": ["Un mucha bunita i bon", "Un bunita bon mucha", "Un mucha bon bunita", "Bunita i bon mucha un"], "correct": 0 },
+    { "vraag": "Wat is het verschil tussen 'grandi' en 'bieu' voor leeftijd?", "opties": ["'Grandi' voor mensen (volwassen), 'bieu' voor dingen (oud)", "Ze zijn hetzelfde", "'Bieu' is respectvoller", "'Grandi' is alleen voor dingen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De kinderen zijn mooi'?", "opties": ["E muchanan ta bunita", "E bunita muchanan ta", "E muchanan bunita ta", "Bunita ta e muchanan"], "correct": 0 },
+    { "vraag": "Wat betekent 'malo'?", "opties": ["Slecht / ziek", "Oud", "Klein", "Lelijk"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'nieuw'?", "opties": ["Nobo", "Nobu", "Noebu", "Nuebo"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'vers water'?", "opties": ["Awa fresku", "Fresku awa", "Un awa fresku", "E awa ta fresku"], "correct": 0 },
+    { "vraag": "Wanneer kan 'malo' 'ziek' betekenen?", "opties": ["Als het over een persoon gaat: 'E ta malo' = hij/zij is ziek", "Nooit — 'malo' betekent altijd 'slecht'", "Alleen bij kinderen", "Alleen in combinatie met 'hopi'"], "correct": 0 },
+    { "vraag": "Wat is 'masha'?", "opties": ["Heel / zeer / erg", "Bijna / bijna", "Heel wat / veel", "Een beetje"], "correct": 0 },
+    { "vraag": "Hoe intensiveer je een bijvoeglijk naamwoord?", "opties": ["Zet 'masha' of 'hopi' VOOR het bijvoeglijk naamwoord", "Verdubbel het bijvoeglijk naamwoord", "Zet het bijvoeglijk naamwoord voor het naamwoord", "Voeg '-nan' toe"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'een oud huis'?", "opties": ["Un kas bieu", "Un bieu kas", "Un kas grandi", "Un kas oud"], "correct": 0 },
+    { "vraag": "Wat is 'chikitu'?", "opties": ["Klein", "Jong", "Dun", "Laag"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het eten is lekker en vers'?", "opties": ["E kuminda ta dushi i fresku", "E kuminda dushi i fresku ta", "Dushi i fresku e kuminda ta", "E ta kuminda dushi i fresku"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'bunita' correct uit?", "opties": ["boe-nie-ta", "boen-ta", "boe-ni-ta", "boen-ie-ta"], "correct": 0 },
+    { "vraag": "Wat maakt 'dushi Kòrsou' bijzonder?", "opties": ["Het is een liefdevolle benaming voor het eiland — fijn/lief Curaçao", "Het is de officiële naam", "Het betekent 'zoet strand'", "Het is een oude koloniale term"], "correct": 0 }
+  ]
+}

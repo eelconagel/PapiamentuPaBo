@@ -1,0 +1,73 @@
+{
+  "id": 16,
+  "blok": 2,
+  "titel": "Vergelijkingen: Mas...ku, Ménos...ku en Superlatief",
+  "grammatica": {
+    "uitleg": "Vergelijken in Papiamentu is direct en elegant. Je hebt twee hoofdpatronen: de vergrotende trap (comparatief) en de overtreffende trap (superlatief).\n\nVERGROTENDE TRAP — mas...ku (meer...dan) / ménos...ku (minder...dan):\n[Subject] + ta + mas/ménos + [adjectief] + ku + [het vergelijkingspunt]\n• E ta mas haltu ku mi. (Hij/zij is groter/langer dan ik.)\n• E kòfi ta mas dushi ku awa. (Koffie is lekkerder dan water.)\n• E ta ménos fresku ku e otro. (Het is minder fris dan de andere.)\n\nGELIJKHEID — mesun manera ku / tantu...ku:\n• E tas ta mesun preis ku e otro. (De tassen zijn even duur als de andere.)\n• E ta mesunamente bon ku su ruman. (Hij/zij is even goed als zijn/haar broer/zus.)\n\nOVERTREFFENDE TRAP — e mas/ménos + [adjectief] (+ di):\n[Subject] + ta + e + mas/ménos + [adjectief] (+ di + groep)\n• E ta e mucha mas bon di klas. (Hij/zij is het beste kind van de klas.)\n• E kas ta e mas grandi di bario. (Het huis is het grootste van de buurt.)\n• E ta e ménos fresku di tur. (Het is het minst frisse van allemaal.)\n\nINTENSITEIT IN VERGELIJKING:\n• Hopi mas (veel meer): 'E ta hopi mas grandi ku bo.'\n• Un pokito mas (iets meer): 'E ta un pokito mas fresku.'",
+    "voorbeelden": [
+      { "papiamentu": "Mi kas ta mas grandi ku su kas.", "vertaling": "Mijn huis is groter dan zijn/haar huis." },
+      { "papiamentu": "E ta e mas bon studiante di klas.", "vertaling": "Hij/zij is de beste student van de klas." },
+      { "papiamentu": "Kòrsou ta mas dushi ku tur otro isla.", "vertaling": "Curaçao is mooier/fijner dan elk ander eiland." },
+      { "papiamentu": "E ta ménos hopi plaka ku mi tata.", "vertaling": "Hij/zij heeft minder geld dan mijn vader." },
+      { "papiamentu": "E dos ta mesunamente bunita.", "vertaling": "De twee zijn even mooi." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'Ku' is het scharnierpunt — niet 'dan'",
+      "voorbeeld": "'Mas grandi ku mi' — NOOIT: 'mas grandi dan mi'",
+      "toelichting": "'Dan' (het Nederlandse vergelijkingswoord) bestaat niet in Papiamentu. Het Portugese/Spaanse 'ku' (= as/than) neemt die rol over. Dit is een van de meest gemaakte interferentiefouten."
+    },
+    {
+      "nuance": "Superlatief heeft altijd een 'e' (bepaald lidwoord) vóór 'mas'",
+      "voorbeeld": "'E ta e mas grandi' — NIET: 'E ta mas grandi' (dat is comparatief!)",
+      "toelichting": "Het bepaald lidwoord 'e' voor 'mas' signaleert de superlatief. Zonder 'e' is het een vergelijking (comparatief). Dit subtiele verschil maakt een groot semantisch verschil."
+    },
+    {
+      "nuance": "'Di' in de superlatief geeft de vergelijkingsgroep aan",
+      "voorbeeld": "'Di klas', 'di bario', 'di tur' — de groep waarbinnen je de superlatief stelt",
+      "toelichting": "'E ta e mas bon di tur' (hij/zij is de beste van allemaal). De 'di' is hier niet bezit maar 'van' als in 'van de groep'. Dit gebruik van 'di' is hetzelfde als in de voorzetsellessen."
+    },
+    {
+      "nuance": "Vergelijken zonder adjectief: 'mas ku' alleen",
+      "voorbeeld": "'Tin mas ku sien hende' = Er zijn meer dan honderd mensen",
+      "toelichting": "'Mas ku' kan ook puur kwantitatief worden gebruikt, zonder adjectief. 'Mi a kome mas ku bo' = Ik heb meer gegeten dan jij. Dit patroon mist soms het tussenliggende adjectief maar is volkomen grammaticaal."
+    }
+  ],
+  "woorden": [
+    { "woord": "Mas", "uitspraak": "mas", "vertaling": "Meer / meer dan" },
+    { "woord": "Ménos", "uitspraak": "me-nos", "vertaling": "Minder / minder dan" },
+    { "woord": "Ku", "uitspraak": "koe", "vertaling": "Dan / met / als (vergelijkingswoord)" },
+    { "woord": "Mesun", "uitspraak": "me-soen", "vertaling": "Hetzelfde / gelijk" },
+    { "woord": "Haltu", "uitspraak": "hal-toe", "vertaling": "Hoog / lang (van personen)" },
+    { "woord": "Largu", "uitspraak": "lar-goe", "vertaling": "Lang (van dingen / afstand)" },
+    { "woord": "Mihó", "uitspraak": "mie-ho", "vertaling": "Beter (onregelmatige comparatief)" },
+    { "woord": "Peó", "uitspraak": "pe-o", "vertaling": "Slechter / erger (onregelmatige comparatief)" },
+    { "woord": "Hopi mas", "uitspraak": "ho-pie mas", "vertaling": "Veel meer" },
+    { "woord": "Tur otro", "uitspraak": "toer o-tro", "vertaling": "Alle andere(n)" }
+  ],
+  "culturele_context": "Op Curaçao wordt vergelijken nooit gebruikt om iemand kleiner te maken — het is een middel voor beschrijving en trots. 'Kòrsou ta e mas dushi isla' (Curaçao is het mooiste eiland) zegt een Curaçaoënaar met een glimlach, niet als opschepperij maar als liefde voor thuis.\n\n'Mihó' (beter) is een hoopvol woord in de Curaçaose cultuur. 'Ta bai mihó' (het gaat beter) is wat mensen zeggen over zieken, over economische situaties, over relaties. De beweging naar beter is altijd aanwezig.\n\nPrijsvergelijkingen op de merkado zijn een dagelijkse vaardigheid: 'E uno akí ta mas chèp ku e otro' (deze is goedkoper dan de andere). De onderhandeling is een sociale dans waarbij vergelijkingen beleefd worden uitgesproken, nooit als aanval.",
+  "scenario_links": ["scenario-004", "scenario-006"],
+  "eindoefening": [
+    { "vraag": "Hoe zeg je 'Hij is groter dan ik'?", "opties": ["E ta mas grandi ku mi", "E ta mas grandi dan mi", "E ta grandi mas ku mi", "E mas grandi ku mi ta"], "correct": 0 },
+    { "vraag": "Wat is het Papiamentse vergelijkingswoord (i.p.v. 'dan')?", "opties": ["Ku", "Dan", "Ke", "Ki"], "correct": 0 },
+    { "vraag": "Hoe maak je de superlatief?", "opties": ["E + mas + adjectief: 'e mas grandi'", "Mas + adjectief: 'mas grandi'", "Tur + mas + adjectief", "Adjectief + mas"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'minder fris dan de andere'?", "opties": ["Ménos fresku ku e otro", "Mas ménos fresku ku e otro", "E otro ta mas fresku", "Ménos fresku dan e otro"], "correct": 0 },
+    { "vraag": "Wat is het verschil tussen 'mas grandi' en 'e mas grandi'?", "opties": ["'mas grandi' = comparatief (groter), 'e mas grandi' = superlatief (het grootst)", "Ze zijn hetzelfde", "'e mas grandi' is informeler", "'mas grandi' is de superlatief"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Curaçao is het mooiste eiland'?", "opties": ["Kòrsou ta e mas dushi isla", "Kòrsou ta mas dushi isla", "Kòrsou e mas dushi isla ta", "E mas dushi isla ta Kòrsou"], "correct": 0 },
+    { "vraag": "Wat geeft 'di' aan in de superlatief: 'e mas bon di klas'?", "opties": ["De vergelijkingsgroep: van de klas", "Bezit: het bezit van de klas", "Richting: naar de klas", "Herkomst: uit de klas"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'even mooi als'?", "opties": ["Mesunamente bunita ku", "Mas bunita ku", "Mesun bunita dan", "Bunita mesun ku"], "correct": 0 },
+    { "vraag": "Wat betekent 'mihó'?", "opties": ["Beter (onregelmatige comparatief)", "Meer", "Minder", "Goed"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'veel meer'?", "opties": ["Hopi mas", "Mas hopi", "Masha mas", "Hopi ménos mas"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'het beste kind van de klas'?", "opties": ["E mucha mas bon di klas", "E mas bon mucha di klas", "E mucha e mas bon di klas", "Mas bon mucha di klas"], "correct": 0 },
+    { "vraag": "Wat betekent 'peó'?", "opties": ["Slechter / erger", "Beter", "Hetzelfde", "Minder"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Er zijn meer dan honderd mensen'?", "opties": ["Tin mas ku sien hende", "Tin hendi mas ku sien", "Mas ku sien hende tin", "Sien mas ku hende tin"], "correct": 0 },
+    { "vraag": "Wat is 'haltu'?", "opties": ["Hoog / lang (van personen)", "Breed", "Zwaar", "Snel"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Koffie is lekkerder dan water'?", "opties": ["E kòfi ta mas dushi ku awa", "E kòfi ta dushi mas ku awa", "Kòfi ta mas dushi dan awa", "E kòfi mas dushi ku awa ta"], "correct": 0 },
+    { "vraag": "Wat is 'largu'?", "opties": ["Lang (voor dingen/afstand)", "Lang (voor personen)", "Breed", "Ver"], "correct": 0 },
+    { "vraag": "Hoe maak je een vergelijking met 'ménos'?", "opties": ["[Subject] + ta + ménos + [adj] + ku + [vergelijkingspunt]", "[Subject] + ménos + [adj] + ta + ku", "[Subject] + ta + [adj] + ménos + ku", "Ménos + [adj] + [subject] + ta"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Mijn huis is groter dan het jouwe'?", "opties": ["Mi kas ta mas grandi ku bo kas", "Mi kas mas grandi ku bo kas", "Mi kas ta grandi mas ku bo kas", "Mas grandi mi kas ku bo kas"], "correct": 0 },
+    { "vraag": "Wat betekent 'Ta bai mihó' cultureel gezien?", "opties": ["Het gaat beter — een uitdrukking van hoop en vooruitgang", "Het is beter te gaan", "Ga maar beter", "Beter gaan dan blijven"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'de twee zijn even mooi'?", "opties": ["E dos ta mesunamente bunita", "E dos ta mas bunita ku mekí", "E dos ta bunita igual", "Bunita ta e dos mesun"], "correct": 0 }
+  ]
+}

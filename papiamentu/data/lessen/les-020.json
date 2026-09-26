@@ -1,0 +1,73 @@
+{
+  "id": 20,
+  "blok": 2,
+  "titel": "Recap Blok 2: Structuren in Levend Taalgebruik",
+  "grammatica": {
+    "uitleg": "Blok 2 heeft je taal gegeven om te beschrijven, te bezitten, te vergelijken en opdrachten te geven. In deze les brengen we de structuren samen en kijken we hoe ze in levend taalgebruik samenvloeien.\n\nDE 9 STRUCTUREN VAN BLOK 2:\n1. MEERVOUD: kas → kasnan (voeg -nan toe)\n2. BEZIT: e kas di mi tata / su kas / nos kas\n3. TIN: mi tin / tin un problema (hebben + existentieel)\n4. TIJD & GETALLEN: ta tres ora i mèdia / Djasabra / kuater di Yüli\n5. ADJECTIEVEN: un kas grandi (post-positie) / masha dushi\n6. VERGELIJKING: mas grandi ku / ménos fresku ku / e mas bon di\n7. REFLEXIEF: mi ta bisti mi mes / di su mes (vanzelf)\n8. IMPERATIEF: Bin! / No bai! / Dami e libro / Por fabor, sinta\n9. COMBINATIE: alle bovenstaande tegelijk in één gesprek\n\nTYPISCHE SPREEKTAALPATRONEN:\n• Ellips: 'Bo?' i.p.v. 'Kon ta bai ku bo?' (jij? = en jij?)\n• Herhaling voor nadruk: 'Masha, masha bon!' (echt heel goed!)\n• 'Esei' (dat) als verwijzer: 'Esei ta bon' (dat is goed)\n• 'Bèk' (terug/weer) als intensiveerder: 'E ta hasi esei bèk' (hij doet dat weer)\n• 'Nada' en 'algu' in combinatie: 'Si tin algu, mi lo yuda — no tin nada pa preokupá'",
+    "voorbeelden": [
+      { "papiamentu": "Su kas nobo ta mas grandi ku tur e kasnan bieu di bario.", "vertaling": "Zijn/haar nieuwe huis is groter dan alle oude huizen van de buurt." },
+      { "papiamentu": "Tin dos muchanan bunita di su buur — nan ta hunga di nan mes na tuin.", "vertaling": "Er zijn twee mooie kinderen van zijn/haar buur — ze spelen uit zichzelf in de tuin." },
+      { "papiamentu": "Por fabor, dami e lista di e tur palabranan nobo.", "vertaling": "Geef me alsjeblieft de lijst van alle nieuwe woorden." },
+      { "papiamentu": "E tin bente-tres aña i e ta e mas grandi di su famia.", "vertaling": "Hij/zij is drieëntwintig jaar en is de oudste van zijn/haar familie." },
+      { "papiamentu": "Masha, masha danki pa tur kos — esei ta hopi dushi di bo parti.", "vertaling": "Heel erg bedankt voor alles — dat is heel aardig van jouw kant." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "Spreektaalellips: weggooien wat duidelijk is",
+      "voorbeeld": "— 'Kon ta bai?' — 'Bon. Bo?' (weggooien van 'Kon ta bai ku bo?')",
+      "toelichting": "In levend gesprek laat Papiamentu veel weg wat al duidelijk is uit context. De taal vertrouwt de luisteraar. Dit is geen slordigheid maar efficiëntie. Leer de ellipsen herkennen — ze zijn overal."
+    },
+    {
+      "nuance": "Herhaling als emotionele intensivering",
+      "voorbeeld": "'Masha masha bon!' / 'Hopi hopi danki!' — herhaling versterkt meer dan een ander woord",
+      "toelichting": "Waar het Nederlands 'heel erg goed' zegt, zegt Papiamentu soms gewoon 'bon bon bon!' De herhaling is muzikaal én semantisch. Het signaleert oprechtheid en emotionele betrokkenheid."
+    },
+    {
+      "nuance": "'Esei' als brug tussen zinnen",
+      "voorbeeld": "'E ta bon, esei ta masha importante.' (Dat is heel belangrijk.) — 'esei' verbindt de vorige observatie aan de nieuwe",
+      "toelichting": "'Esei' (dat) is het meest gebruikte verwijswoord in Papiamentu. Het knikt terug naar wat net gezegd is en bouwt de conversatie voort. Beheers 'esei' en je klinkt direct meer als een native speaker."
+    },
+    {
+      "nuance": "Structuren nestelen: meerdere Blok 2-elementen in één zin",
+      "voorbeeld": "'Tin tres kas nobo, mas grandi ku tur otro, na e bario chikitu di mi mama' — meervoud + adjectief + vergelijking + bezit in één",
+      "toelichting": "Dit is het doel van taalverwerving: niet losse structuren kennen, maar ze vlot combineren. Blok 2 geeft je de bouwblokken. De kunst is ze te zien als één vloeiend systeem, niet als aparte regels."
+    }
+  ],
+  "woorden": [
+    { "woord": "Esei", "uitspraak": "e-sei", "vertaling": "Dat (aanwijzend voornaamwoord)" },
+    { "woord": "Aki", "uitspraak": "a-kie", "vertaling": "Hier / dit (nabij)" },
+    { "woord": "Bèk", "uitspraak": "bek", "vertaling": "Terug / opnieuw / weer" },
+    { "woord": "Algun vez", "uitspraak": "al-goen ves", "vertaling": "Soms / ooit / een keer" },
+    { "woord": "Semper", "uitspraak": "sem-per", "vertaling": "Altijd" },
+    { "woord": "Nunka", "uitspraak": "noen-ka", "vertaling": "Nooit" },
+    { "woord": "Parti", "uitspraak": "par-tie", "vertaling": "Deel / kant / zijde" },
+    { "woord": "Lista", "uitspraak": "lis-ta", "vertaling": "Lijst / klaar / gereed" },
+    { "woord": "Importante", "uitspraak": "im-por-tan-te", "vertaling": "Belangrijk" },
+    { "woord": "Preokupá", "uitspraak": "pre-o-koe-pa", "vertaling": "Zich zorgen maken / verontrust" }
+  ],
+  "culturele_context": "Blok 2 geeft je de beschrijvende taal om Curaçao echt te zien en te benoemen. Wanneer je 'un kas kolorá masha bunita na un bario chikitu' kunt zeggen (een heel mooi kleurrijk huis in een kleine buurt), beschrijf je niet alleen een huis — je beschrijft een gevoel, een sfeer.\n\nDe Curaçaose taal is economisch maar expressief. Weinig woorden, veel betekenis. De spreektaalellipsen, de herhalingen voor nadruk, het gebruik van 'esei' als brug — het zijn allemaal tekenen van een taal die vertrouwt op haar sprekers.\n\nAls je Blok 2 beheerst, kun je dagelijks Curaçao functioneel begrijpen en worden begrepen. Je kunt je huis beschrijven, je buren begroeten, naar de tijd vragen en je mening geven. Dat is geen klein iets — het is de kern van sociale integratie.",
+  "scenario_links": ["scenario-003", "scenario-004", "scenario-012"],
+  "eindoefening": [
+    { "vraag": "Welk achtervoegsel gebruik je voor meervoud?", "opties": ["-nan: 'kasnan', 'muchanam'", "-s: 'kasas'", "-en: 'kasen'", "Geen achtervoegsel — meervoud is altijd contextgebonden"], "correct": 0 },
+    { "vraag": "Hoe druk je bezit uit met een naam?", "opties": ["[Bezit] + di + [Bezitter]: 'e kas di Eelco'", "[Bezitter] + [Bezit]: 'Eelco kas'", "[Bezit] + su + [Bezitter]: 'e kas su Eelco'", "Met apostrof: 'Eelco's kas'"], "correct": 0 },
+    { "vraag": "Wat zijn de twee functies van 'tin'?", "opties": ["Hebben (bezit) EN existentieel 'er is/zijn'", "Zijn (copula) EN hebben", "Hebben EN gaan", "Er zijn EN taak uitvoeren"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'kwart over drie'?", "opties": ["Ta tres ora i kwartu", "Ta kwartu over tres", "Ta tres kwartu", "Ta tres i kwartu ora"], "correct": 0 },
+    { "vraag": "Waar staat een bijvoeglijk naamwoord in Papiamentu?", "opties": ["Na het zelfstandig naamwoord: 'un kas grandi'", "Voor het zelfstandig naamwoord: 'un grandi kas'", "Aan het begin van de zin", "Na 'ta'"], "correct": 0 },
+    { "vraag": "Hoe maak je een vergrotende trap?", "opties": ["Mas + adjectief + ku: 'mas grandi ku mi'", "Adjectief + mas + ku", "Ku + mas + adjectief", "Mas + ku + adjectief"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'mezelf'?", "opties": ["Mi mes", "Mesun mi", "Mi zelf", "Mi su mes"], "correct": 0 },
+    { "vraag": "Hoe maak je de imperatief in Papiamentu?", "opties": ["Gebruik de werkwoordstam direct: 'Bai!'", "Voeg '-a' toe: 'Baia!'", "Gebruik 'por' + werkwoord: 'Por bai'", "Gebruik 'ta' + werkwoord: 'Ta bai'"], "correct": 0 },
+    { "vraag": "Wat betekent 'esei'?", "opties": ["Dat (aanwijzend voornaamwoord)", "Dit (nabij)", "Het (bepaald)", "Hier (locatie)"], "correct": 0 },
+    { "vraag": "Hoe gebruik je spreektaalellips?", "opties": ["Weglaten wat duidelijk is uit context: 'Bo?' i.p.v. 'Kon ta bai ku bo?'", "Altijd volledige zinnen gebruiken", "Alleen in formele tekst", "Verkorten door -nan weg te laten"], "correct": 0 },
+    { "vraag": "Hoe geeft herhaling nadruk?", "opties": ["'Masha masha bon!' — herhaling van intensiveerder benadrukt gevoel", "Door -nan toe te voegen", "Door langer te praten", "Door 'ta' te herhalen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Dat is heel belangrijk'?", "opties": ["Esei ta masha importante", "Ta importante esei", "Esei importante ta masha", "Importante ta esei"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Hij/zij heeft drieëntwintig jaar'?", "opties": ["E tin bente-tres aña", "E ta bente-tres aña oud", "E es bente-tres", "E tin bente tres"], "correct": 0 },
+    { "vraag": "Wat is 'semper'?", "opties": ["Altijd", "Soms", "Nooit", "Meestal"], "correct": 0 },
+    { "vraag": "Wat is 'nunka'?", "opties": ["Nooit", "Altijd", "Soms", "Niet meer"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Dat is heel aardig van jouw kant'?", "opties": ["Esei ta hopi dushi di bo parti", "Esei ta dushi di bo", "Bo parti ta masha dushi esei", "Ta dushi esei di bo parti"], "correct": 0 },
+    { "vraag": "Wat betekent 'bèk'?", "opties": ["Terug / opnieuw / weer", "Snel / direct", "Goed / prima", "Anders"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'er is nooit een probleem'?", "opties": ["Nunka tin un problema", "Tin nunka problema", "No tin nunka un problema", "Problema ta nunka"], "correct": 0 },
+    { "vraag": "Wat is het doel van structuren combineren?", "opties": ["Ze vloeiend samen gebruiken als één systeem, niet als aparte regels", "Zoveel mogelijk structuren in één zin proppen", "Ze afwisselend gebruiken per zin", "Altijd de simpelste structuur kiezen"], "correct": 0 },
+    { "vraag": "Wat is 'importante'?", "opties": ["Belangrijk", "Interessant", "Nodig", "Speciaal"], "correct": 0 }
+  ]
+}

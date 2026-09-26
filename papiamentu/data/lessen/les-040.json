@@ -1,0 +1,73 @@
+{
+  "id": 40,
+  "blok": 4,
+  "titel": "Scenario-koppeling 4: Integratie — Leven op Curaçao",
+  "grammatica": {
+    "uitleg": "In deze finale les pas je alle 39 voorgaande lessen toe in realistische, geïntegreerde situaties. Dit is de 'examenzitting' van de cursus — niet met toetsvragen maar met levensechte taalgebruik.\n\nDE VOLLEDIGE CONVERSATIECYCLUS OP CURAÇAO:\n\n1. AANKOMEN EN BEGROETEN (Blok 1)\n   • Bon dia! Ku masha placer di konosé bo.\n   • Mi ta yama... / Mi ta di Hulanda pero mi ta biba na Kòrsou awor.\n\n2. DAGELIJKS LEVEN REGELEN (Blok 2)\n   • Tin un tienda nobo na mi bario — nan tin tur kos.\n   • E muchanan di mi buur ta masha bon i bunita.\n\n3. ERVARINGEN DELEN EN PLANNEN MAKEN (Blok 3)\n   • Ayera mi a bishitá e merkado — a yega masha tempran.\n   • Proximo siman mi lo mester bai na doktor pasobra mi tin un analisa.\n\n4. PROFESSIONEEL EN FORMEEL COMMUNICEREN (Blok 4)\n   • Ku masha respèt, mi ta solisitá bo asistencia tokante di e vakature.\n   • Si tin un problema ku e servisio, por bo duna mi un reembolso?\n\nSAMEN IN ÉÉN GESPREK:\nEen echte Curaçaose interactie beweegt moeiteloos door deze niveaus — van begroeting naar dagelijks nieuws naar professionele kwesties naar warm afscheid. De taal volgt de relatie.",
+    "voorbeelden": [
+      { "papiamentu": "Bon dia, Señora! Kon ta bai? Tin hopi tempu ku mi no a mira bo!", "vertaling": "Goedemorgen, mevrouw! Hoe gaat het? Het is lang geleden dat ik u gezien heb!" },
+      { "papiamentu": "Ayera mi a bishitá bo buur — e a konta mi ku bo tabata malo. Ta mihó awor?", "vertaling": "Gisteren bezocht ik je buur — hij/zij vertelde me dat jij ziek was. Ben je nu beter?" },
+      { "papiamentu": "Si bo tin algu ku mi por hasi pa bo, yama mi, mi ta na bo dispo tur momento.", "vertaling": "Als er iets is wat ik voor jou kan doen, bel me, ik sta altijd tot uw beschikking." },
+      { "papiamentu": "Nos a yega un akuerdo — proximo luna nos lo kuminsá e prosèkto nobo huntu.", "vertaling": "We hebben een overeenkomst bereikt — volgende maand starten we samen het nieuwe project." },
+      { "papiamentu": "Bai! Kuidá bo mes, i si Dios kier, nos lo mira ekí bèk pronto. Biba Kòrsou!", "vertaling": "Doei! Zorg goed voor jezelf, en als God het wil, zien we elkaar hier snel terug. Lang leve Curaçao!" }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "Taal is relatie — de structuren volgen de verbinding",
+      "voorbeeld": "Van formeel (Señora, Ku masha respèt) naar informeel (Bon dia, Kon ta bai?) in één gesprek — de taal past zich aan de warmte aan",
+      "toelichting": "Op Curaçao is taalgebruik vloeibaar. Een gesprek begint misschien formeel maar wordt warmer als vertrouwen groeit. Wees bereid om mee te bewegen. Vasthouden aan formaliteit als de ander al is overgeschakeld klinkt afstandelijk."
+    },
+    {
+      "nuance": "'Tin hopi tempu' — tijdsafstand uitdrukken als sociale verbinding",
+      "voorbeeld": "'Tin hopi tempu ku mi no a mira bo' (Het is lang geleden dat ik je zag) — de afwezigheid wordt erkend als een soort schuld die nu ingelost wordt",
+      "toelichting": "'Tin hopi tempu' is meer dan een tijdsaanduiding — het is een erkenning van de relatie. Door te zeggen 'ik heb je gemist' (impliciet) geef je de ander warmte. Dit is een van de meest sociale uitdrukkingen in Papiamentu."
+    },
+    {
+      "nuance": "'Si Dios kier' als afscheidsformule — openheid en hoop",
+      "voorbeeld": "'Nos lo mira ekí bèk, si Dios kier' — de belofte van wederzien met de bescheidenheid van de conditie",
+      "toelichting": "Een afscheid met 'si Dios kier' (als God het wil) verbindt het toekomstplan met een bewustzijn van menselijke beperkingen. Het is niet pessimistisch — het is realistisch en hopen tegelijk. Het is de Curaçaose manier om 'tot ziens!' te zeggen met diepte."
+    },
+    {
+      "nuance": "'Huntu' — samen als waarde op Curaçao",
+      "voorbeeld": "'Nos lo kuminsá e prosèkto huntu' (we starten het project samen) — 'huntu' maakt het meer dan zakelijk",
+      "toelichting": "'Huntu' (samen) is een signaalwoord in Papiamentu. Het transformeert een zakelijke mededeling in een verbindingsverklaring. Op een eiland waar communale waarden diep liggen, heeft 'huntu' een sociale resonantie die verder gaat dan zijn letterlijke betekenis."
+    }
+  ],
+  "woorden": [
+    { "woord": "Huntu", "uitspraak": "hoen-toe", "vertaling": "Samen / gezamenlijk" },
+    { "woord": "Momento", "uitspraak": "mo-men-to", "vertaling": "Moment / tijdstip" },
+    { "woord": "Tempran", "uitspraak": "tem-pran", "vertaling": "Vroeg / tijdig" },
+    { "woord": "Mira", "uitspraak": "mie-ra", "vertaling": "Zien / kijken / bezichtigen" },
+    { "woord": "Ekí", "uitspraak": "e-kie", "vertaling": "Hier (nadruk op plek)" },
+    { "woord": "Mihó", "uitspraak": "mie-ho", "vertaling": "Beter" },
+    { "woord": "Huntu ku", "uitspraak": "hoen-toe koe", "vertaling": "Samen met" },
+    { "woord": "Tur momento", "uitspraak": "toer mo-men-to", "vertaling": "Altijd / op elk moment" },
+    { "woord": "Kuminsá huntu", "uitspraak": "koe-min-sa hoen-toe", "vertaling": "Samen beginnen" },
+    { "woord": "Ta mihó awor", "uitspraak": "ta mie-ho a-wor", "vertaling": "Gaat nu beter / is nu beter" }
+  ],
+  "culturele_context": "Dit is het einde van de cursus — en het begin van je Papiamentu-leven. De 40 lessen hebben je de tools gegeven. Nu zijn de scenario's van het echte leven je leraar.\n\nCuraçao is een eiland van verbinding. Iedereen kent iedereen, of kent iemand die iemand kent. 'Mi ta konosé bo buur' (ik ken jouw buur) is geen toeval maar eilandlogica. In deze gemeenschap heb je de taal geleerd die deze verbindingen mogelijk maakt.\n\n'Biba Kòrsou!' — deze twee woorden vatten samen waarom de taal de moeite waard is. Het eiland is klein maar zijn cultuur is groot. De muziek, de kleuren, de mensen, de keuken, de zee — en de taal die dit alles vasthoudt: Papiamentu. Je spreekt nu een stukje van dit eiland.\n\nGo forth and papia Papiamentu.",
+  "scenario_links": ["scenario-019", "scenario-020"],
+  "eindoefening": [
+    { "vraag": "Hoe begroet je iemand die je lang niet gezien hebt?", "opties": ["'Bon dia! Tin hopi tempu ku mi no a mira bo!'", "'Bon dia, kon ta bai?'", "'Ayó! Te mayan!'", "Alle drie zijn correcte begroetingen"], "correct": 0 },
+    { "vraag": "Hoe vraag je of iemand beter is na ziekte?", "opties": ["Ta mihó awor?", "Bo ta bon awor?", "Bo a keda bon?", "Alle drie zijn gangbaar"], "correct": 3 },
+    { "vraag": "Hoe zeg je 'Ik sta altijd tot uw beschikking'?", "opties": ["Mi ta na bo dispo tur momento", "Mi ta semper klár pa bo", "Mi ta na bo servisio", "Alle drie zijn correct"], "correct": 3 },
+    { "vraag": "Hoe sluit je een zakelijk gesprek af met een overeenkomst?", "opties": ["Nos a yega un akuerdo", "Nos ta di akuerdo", "Nos a akorda", "Alle drie zijn correct"], "correct": 3 },
+    { "vraag": "Hoe zeg je een warm afscheid?", "opties": ["Kuidá bo mes, i si Dios kier, nos lo mira bèk", "Ayó, te mayan", "Bai! Bon nochi", "Alle varianten zijn gepast afhankelijk van de relatie"], "correct": 3 },
+    { "vraag": "Wat is 'huntu'?", "opties": ["Samen / gezamenlijk", "Direct", "Eerlijk", "Goed"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Lang geleden dat ik je zag'?", "opties": ["Tin hopi tempu ku mi no a mira bo", "Tin hopi tempu ku mi no a konosé bo", "Tin hopi tempu ku mi a mira bo", "Tin hopi tempu ku mi ta mira bo"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'we starten samen het project'?", "opties": ["Nos lo kuminsá e prosèkto huntu", "Nos ta kuminsá e prosèkto huntu", "Huntu nos lo kuminsá e prosèkto", "Alle drie zijn correct"], "correct": 3 },
+    { "vraag": "Hoe combineert 'Si Dios kier' hoop en bescheidenheid?", "opties": ["Het belooft een ontmoeting maar erkent menselijke beperkingen — hopen met realisme", "Het is een religieuze verplichting", "Het is pessimistisch", "Het vermijdt verantwoordelijkheid"], "correct": 0 },
+    { "vraag": "Wat is 'tempran'?", "opties": ["Vroeg / tijdig", "Laat", "Op tijd", "Binnenkort"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Als er iets is wat ik kan doen, bel me'?", "opties": ["Si tin algu ku mi por hasi, yama mi", "Si tin algu, mi ta na bo dispo", "Beide zijn correct", "Geen van beide"], "correct": 2 },
+    { "vraag": "Hoe beweeg je van formeel naar informeel in een gesprek?", "opties": ["Door mee te bewegen als de ander informeler wordt — taal past zich aan de warmte aan", "Door expliciet te vragen of het mag", "Nooit — kies één register en houd dat vast", "Door gebruik te maken van spreektaalkortingen"], "correct": 0 },
+    { "vraag": "Wat is het belang van 'huntu' op Curaçao?", "opties": ["Het transformeert een zakelijke mededeling in een verbindingsverklaring — samen is een kernwaarde", "Het is alleen een bijwoord", "Het is een formele toevoeging", "Het heeft geen extra betekenis"], "correct": 0 },
+    { "vraag": "Wat is 'mira'?", "opties": ["Zien / kijken", "Horen", "Voelen", "Begrijpen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'volgende maand'?", "opties": ["Proximo luna", "E luna lo bini", "Mayan luna", "Luna proximo"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Gaat het nu beter?'", "opties": ["Ta mihó awor?", "Ta bon awor?", "Ta mihó e awor?", "Alle drie zijn gangbaar"], "correct": 3 },
+    { "vraag": "Hoe zeg je 'Ik bezocht je buur gisteren'?", "opties": ["Ayera mi a bishitá bo buur", "Mi a bishitá bo buur ayera", "Beide zijn correct", "Geen van beide"], "correct": 2 },
+    { "vraag": "Wat is de diepste betekenis van 'Tin hopi tempu ku mi no a mira bo'?", "opties": ["Erkenning van de relatie — de afwezigheid wordt benoemd als een schuld die nu ingelost wordt met aanwezigheid", "Alleen een tijdsaanduiding", "Een verontschuldiging", "Een beschrijving van de kalender"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Bel me, ik sta altijd klaar'?", "opties": ["Yama mi, mi ta na bo dispo tur momento", "Yama mi, mi ta semper na bo servisio", "Beide zijn correct", "Geen van beide"], "correct": 2 },
+    { "vraag": "Wat is de finale boodschap van de cursus?", "opties": ["Papia Papiamentu — spreek, maak fouten, verbind", "Leer meer grammatica", "Herhaal alle lessen opnieuw", "Wacht tot je perfect bent"], "correct": 0 }
+  ]
+}

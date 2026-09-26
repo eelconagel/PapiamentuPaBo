@@ -1,0 +1,73 @@
+{
+  "id": 25,
+  "blok": 3,
+  "titel": "Voorzetsel-verdieping: Pa, Serka, Dilanti, Patras en Meer",
+  "grammatica": {
+    "uitleg": "In les 9 leerde je 'na' en 'di'. Nu verdiep je je in de rijkere voorzetsellayer van Papiamentu, die precisie biedt voor richting, positie en doel.\n\n'PA' — voor / ten behoeve van / om te:\n• Doel: 'E buki ta pa bo.' (Het boek is voor jou.)\n• Richting: 'Mi ta bai pa merka.' (Ik ga naar de markt toe.)\n• Doel + werkwoord: 'Mi ta bai pa kome.' (Ik ga om te eten.)\n• Ontvanger: 'Tin un pakèt pa bo.' (Er is een pakket voor jou.)\n\n'SERKA' — bij / vlak bij / dichtbij:\n• 'E ta serka kas.' (Hij/zij is vlak bij huis.)\n• 'Sinta serka di mi.' (Ga naast mij zitten.)\n\n'DILANTI' — voor / aan de voorkant:\n• 'E outo ta dilanti kas.' (De auto staat voor het huis.)\n• 'Bai dilanti.' (Ga vooruit / ga naar voren.)\n\n'PATRAS' — achter / terug:\n• 'E ta patras.' (Hij/zij is achteraan / is terug.)\n• 'Bira patras.' (Keer terug.)\n\n'BANDA' — naast / zijkant:\n• 'E ta banda di mi.' (Hij/zij zit naast mij.)\n\n'ARIBA' — boven / op (oppervlakte):\n• 'E ta ariba mesa.' (Het ligt op de tafel.)\n\n'BOU' — onder / eronder:\n• 'E ta bou di kama.' (Het is onder het bed.)\n\n'ENTRE' — tussen:\n• 'E ta entre e dos kas.' (Het staat tussen de twee huizen.)",
+    "voorbeelden": [
+      { "papiamentu": "E bolsa ta ariba mesa, pa banda di bo kòfi.", "vertaling": "De tas ligt op tafel, naast jouw koffie." },
+      { "papiamentu": "Mi ta bai pa tienda pa haña kuminda pa anochi.", "vertaling": "Ik ga naar de winkel om eten te halen voor vanavond." },
+      { "papiamentu": "Sinta dilanti di mi — e vista ta mas bunita for di akí.", "vertaling": "Ga voor me zitten — het uitzicht is mooier van hieruit." },
+      { "papiamentu": "E yiu ta hunga patras kas, bou di e palo grandi.", "vertaling": "Het kind speelt achter het huis, onder de grote boom." },
+      { "papiamentu": "Entre e dos bario, tin un plasa chikitu masha dushi.", "vertaling": "Tussen de twee buurten is er een klein, heel aangenaam plein." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'Pa' doet drie dingen — onderscheid door context",
+      "voorbeeld": "'Bai pa tienda' (ga naar de winkel — richting) vs. 'ta pa bo' (is voor jou — doel) vs. 'pa kome' (om te eten — doel + werkwoord)",
+      "toelichting": "'Pa' is het meest functionele voorzetsel van Papiamentu. De drie functies (richting, begunstigde, doelzin) zijn herkenbaar door context. Als je twijfelt: de volgorde binnen de zin helpt. 'Bai pa [plek]' = richting; '[ding] ta pa [persoon]' = voor; 'pa + werkwoord' = om te."
+    },
+    {
+      "nuance": "'Patras' als uitnodiging en als geruststelling",
+      "voorbeeld": "'Bin patras!' (Kom terug!) — emotionele uitroep | 'E ta patras' (hij/zij is terug) — geruststelling",
+      "toelichting": "'Patras' heeft een affectieve lading bij terugkeer. 'E ta patras ya' (hij/zij is terug al) klinkt als opluchting. Op Curaçao, waar veel mensen en familieleden tijdelijk elders wonen, is 'patras' een woord met emotionele diepte."
+    },
+    {
+      "nuance": "'Ariba' en 'bou' voor oppervlakte vs. onderkant — ook figuurlijk",
+      "voorbeeld": "'Ariba mes' (bovenop zichzelf — baas over jezelf) | 'Bou di kontrole' (onder controle)",
+      "toelichting": "'Ariba' en 'bou' hebben ook figuurlijk gebruik. 'Ta ariba' (bovenaan zijn) kan status aanduiden. 'Ta bou' (onderaan zijn) kan kwetsbaarheid aanduiden. Ruimtelijke metaforen zijn krachtig in Papiamentu."
+    },
+    {
+      "nuance": "Combinaties van voorzetsels zijn normaal",
+      "voorbeeld": "'Dilanti di e kas bou di e palo' (voor het huis, onder de boom) — twee voorzetsels in één omschrijving",
+      "toelichting": "Papiamentu nestelt voorzetsels vrij om precieze locaties te beschrijven. Dit klinkt complex maar is logisch: elk voorzetsel geeft één dimensie. Oefen dit met concrete objecten in je omgeving."
+    }
+  ],
+  "woorden": [
+    { "woord": "Pa", "uitspraak": "pa", "vertaling": "Voor / ten behoeve van / om te / naar (richting)" },
+    { "woord": "Serka", "uitspraak": "ser-ka", "vertaling": "Bij / dichtbij / vlak naast" },
+    { "woord": "Dilanti", "uitspraak": "die-lan-tie", "vertaling": "Voor / aan de voorkant / vooruit" },
+    { "woord": "Patras", "uitspraak": "pa-tras", "vertaling": "Achter / terug / aan de achterkant" },
+    { "woord": "Banda", "uitspraak": "ban-da", "vertaling": "Naast / kant / zijde" },
+    { "woord": "Ariba", "uitspraak": "a-rie-ba", "vertaling": "Boven / op (oppervlakte)" },
+    { "woord": "Bou", "uitspraak": "bou", "vertaling": "Onder / eronder" },
+    { "woord": "Entre", "uitspraak": "en-tre", "vertaling": "Tussen" },
+    { "woord": "Vista", "uitspraak": "vis-ta", "vertaling": "Uitzicht / zicht / blik" },
+    { "woord": "Palo", "uitspraak": "pa-lo", "vertaling": "Boom / stok / paal" }
+  ],
+  "culturele_context": "Ruimtelijke oriëntatie op Curaçao heeft een eigen logica. Het eiland heeft een duidelijke oost-westas ('banda barlovent' = luwte-kant en 'banda sotavent' = windkant) en een noord-zuidindeling. Locals navigeren met landmarkgepaard: niet 'ga naar het westen' maar 'bai pa banda di Westpunt'.\n\nDe tuin ('tuin') en het erf ('patio') zijn semi-openbare ruimtes. 'Patras kas' (achter het huis) is op veel Curaçaose percelen de sociale ruimte — waar gebarbecued wordt, kinderen spelen en buren samenkomen buiten het formele zichtvenster van de voordeur.\n\n'Dilanti' (voorkant) is meer formeel — het is de presentatiezijde van het huis. 'Ariba' in de context van een terras of balkon is een bevoorrechte positie: je kijkt, observeert, geniet van de 'vista'. Ruimte heeft op Curaçao altijd een sociale dimensie.",
+  "scenario_links": ["scenario-003", "scenario-009"],
+  "eindoefening": [
+    { "vraag": "Welke drie functies heeft 'pa'?", "opties": ["Richting, begunstigde, doelzin", "Richting, locatie, bezit", "Herkomst, doel, tijd", "Bezit, richting, beschrijving"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het boek is voor jou'?", "opties": ["E buki ta pa bo", "E buki ta di bo", "E buki ta na bo", "E buki pa bo ta"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'vlak bij huis'?", "opties": ["Serka di kas", "Na serka kas", "Di serka kas", "Kas serka"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De auto staat voor het huis'?", "opties": ["E outo ta dilanti kas", "E outo ta patras kas", "E outo ta ariba kas", "E outo ta na dilanti kas"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Keer terug'?", "opties": ["Bira patras", "Bai patras", "Bin patras", "Para patras"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het ligt op de tafel'?", "opties": ["E ta ariba mesa", "E ta na mesa", "E ta bou mesa", "E ta banda mesa"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het is onder het bed'?", "opties": ["E ta bou di kama", "E ta ariba kama", "E ta dilanti kama", "E ta entre kama"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'naast mij'?", "opties": ["Banda di mi", "Serka mi", "Dilanti mi", "Entre mi"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik ga naar de winkel om eten te halen'?", "opties": ["Mi ta bai pa tienda pa haña kuminda", "Mi ta bai na tienda pa haña kuminda", "Mi ta bai pa tienda di haña kuminda", "Mi ta bai pa tienda pa kuminda haña"], "correct": 0 },
+    { "vraag": "Wat is 'entre'?", "opties": ["Tussen", "Naast", "Achter", "Voor"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'achter het huis'?", "opties": ["Patras kas", "Bou kas", "Dilanti kas", "Banda kas"], "correct": 0 },
+    { "vraag": "Wat is 'vista'?", "opties": ["Uitzicht / zicht", "Venster", "Mening", "Oog"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'tussen de twee huizen'?", "opties": ["Entre e dos kas", "Banda e dos kas", "Dilanti e dos kas", "Serka e dos kas"], "correct": 0 },
+    { "vraag": "Wat is 'palo'?", "opties": ["Boom / stok / paal", "Muur", "Steen", "Plank"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik ga om te eten'?", "opties": ["Mi ta bai pa kome", "Mi ta bai di kome", "Mi ta bai na kome", "Mi ta bai ku kome"], "correct": 0 },
+    { "vraag": "Wat is het figuurlijke gebruik van 'ariba' en 'bou'?", "opties": ["'Ariba' = hoge status / controle; 'bou' = kwetsbaarheid / ondergeschiktheid", "Ze worden nooit figuurlijk gebruikt", "'Ariba' = vroeg, 'bou' = laat", "'Ariba' = actief, 'bou' = passief"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'ga naar voren'?", "opties": ["Bai dilanti", "Bai patras", "Bai ariba", "Bai banda"], "correct": 0 },
+    { "vraag": "Hoe gebruik je 'pa' voor een richting tegenover 'na'?", "opties": ["'Pa [plek]' = richting van beweging, 'na [plek]' = locatie van bestaan", "Ze zijn hetzelfde", "'Pa' is formeler dan 'na'", "'Na' is voor richting, 'pa' voor locatie"], "correct": 0 },
+    { "vraag": "Wat maakt 'patras' emotioneel beladen op Curaçao?", "opties": ["Veel mensen wonen tijdelijk elders — 'e ta patras' (hij/zij is terug) klinkt als opluchting", "Het is een formele aankondiging", "Het is een oud woord dat mensen herkennen", "Het staat alleen in liederen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De tas ligt naast jouw koffie'?", "opties": ["E bolsa ta banda di bo kòfi", "E bolsa ta serka bo kòfi", "E bolsa ta dilanti bo kòfi", "E bolsa ta entre bo kòfi"], "correct": 0 }
+  ]
+}

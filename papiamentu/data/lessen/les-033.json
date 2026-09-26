@@ -1,0 +1,311 @@
+{
+  "id": 33,
+  "blok": 4,
+  "titel": "Idiomatische Uitdrukkingen: De Taal Achter de Woorden",
+  "grammatica": {
+    "uitleg": "Idiomatische uitdrukkingen zijn vaste combinaties waarvan de betekenis niet simpelweg de som is van de losse woorden. Ze zijn de kleur van een taal — en het bewijs dat je echt Papiamentu leert.\n\nSOCIALE UITDRUKKINGEN:\n• 'No tin problema' — Geen probleem (letterlijk: er is geen probleem)\n• 'Ta asina e ta' — Zo is het nu eenmaal (acceptatie)\n• 'Tur kos ta bon' — Alles is goed / alles komt goed\n• 'Masha bon!' / 'Mashabo!' — Heel goed! / Geweldig!\n• 'Biba!' — Hoera! / Lang leve...!\n\nACTIEUITDRUKKINGEN:\n• 'Dal un man' — Help een handje (letterlijk: geef een hand)\n• 'Haña su mes' — Herstellen / zichzelf terugvinden\n• 'Para ferme' — Stand houden / sterk blijven (letterlijk: stevig staan)\n• 'Bòl pa bo' — Omdraai voor jou / pas op jezelf (letterlijk: draai de bal naar jou)\n• 'Pone tur kos na su pleis' — Alles in orde brengen (letterlijk: alles op zijn plek leggen)\n\nKARAKTERBESCHRIJVINGEN:\n• 'Ta un yiu di Dios' — Zo'n goed/onschuldig persoon (letterlijk: een kind van God)\n• 'Ta sali di su kara' — Het lijkt sprekend op hem/haar (letterlijk: het komt uit zijn/haar gezicht)\n• 'Tin bon kurason' — Goed van hart zijn (letterlijk: heeft een goed hart)\n\nTIJDS- EN SITUATIE-UITDRUKKINGEN:\n• 'Den e ora aki' — Op dit moment / precies nu\n• 'Awor mes' — Nu meteen / onmiddellijk\n• 'E ta pasa' — Het gaat voorbij / het komt goed",
+    "voorbeelden": [
+      {
+        "papiamentu": "— Mi no sa kon di danki. — No tin problema, dal un man ta mi plaser!",
+        "vertaling": "— Ik weet niet hoe ik je moet bedanken. — Geen probleem, een handje helpen is mijn plezier!"
+      },
+      {
+        "papiamentu": "E tabata masha malo, pero awor e ta haña su mes bèk.",
+        "vertaling": "Hij/zij was heel ziek, maar nu herstelt hij/zij weer."
+      },
+      {
+        "papiamentu": "Kuidá, e kaminda ta difísil — pero para ferme, bo lo yega.",
+        "vertaling": "Pas op, de weg is moeilijk — maar houd stand, je komt er aan."
+      },
+      {
+        "papiamentu": "E mucha tin bon kurason — semper ta yuda tur hende.",
+        "vertaling": "Het kind heeft een goed hart — helpt altijd iedereen."
+      },
+      {
+        "papiamentu": "Pone tur kos na su pleis promé di kuminsá e trabou nobo.",
+        "vertaling": "Breng alles op orde voordat je het nieuwe werk begint."
+      }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'Ta asina e ta' — meer dan acceptatie, een levenshouding",
+      "voorbeeld": "Als een plan mislukt, een situatie vast zit: 'Ta asina e ta' — een zachte, niet-dramatische erkenning van de realiteit",
+      "toelichting": "Deze uitdrukking is de Papiamentse variant van het Japanse 'shoganai' of het Spaanse 'qué se puede hacer'. Het is geen overgave maar een gezonde relativering. Op Curaçao wordt het gezegd met een schouderophaal en een glimlach — het leven gaat door."
+    },
+    {
+      "nuance": "'Dal un man' — helpen als cultureel gebaar",
+      "voorbeeld": "'Por bo dal mi un man?' (Kun je me een handje helpen?) — directer dan 'kun je helpen'",
+      "toelichting": "'Dal un man' (geef een hand) is warmer en concreter dan het abstracte 'helpen'. De hand-metafoor maakt de hulp tastbaar. Als iemand je vraagt 'por bo dal mi un man?', is het niet alleen een verzoek — het is een vertrouwensgebaar."
+    },
+    {
+      "nuance": "'Haña su mes' — terugvinden na verlies",
+      "voorbeeld": "'E a haña su mes' = hij/zij heeft zichzelf teruggevonden — na ziekte, crisis, verlies",
+      "toelichting": "Dit idioom beschrijft het herstelproces op een positieve manier. Het impliceert dat je je identiteit of kracht even kwijt was, maar nu terug hebt gevonden. Het is een hoopvol woord, niet een dramatisch. Gebruik het als compliment: 'Bo ta haña bo mes ya' (Je bent jezelf aan het terugvinden, fijn!)."
+    },
+    {
+      "nuance": "'Biba!' als sociale kracht — meer dan 'hoera'",
+      "voorbeeld": "'Biba Kòrsou!' (Lang leve Curaçao!) — uitroep van collectieve trots en vreugde",
+      "toelichting": "'Biba!' heeft politieke, sociale en emotionele lading tegelijk. Op nationale feestdagen, bij sportevenementen, bij de geboorte van een kind — 'biba!' is de uitroep die eenheid uitdrukt. Het is simpel en krachtig, een van de meest gehoorde woorden in elke Curaçaose viering."
+    }
+  ],
+  "woorden": [
+    {
+      "woord": "Dal un man",
+      "uitspraak": "dal oen man",
+      "vertaling": "Een handje helpen"
+    },
+    {
+      "woord": "Para ferme",
+      "uitspraak": "pa-ra fer-me",
+      "vertaling": "Stand houden / sterk blijven"
+    },
+    {
+      "woord": "Haña su mes",
+      "uitspraak": "han-ja soe mes",
+      "vertaling": "Zichzelf terugvinden / herstellen"
+    },
+    {
+      "woord": "Tin bon kurason",
+      "uitspraak": "tin bon koe-ra-son",
+      "vertaling": "Goed van hart zijn"
+    },
+    {
+      "woord": "Pone na su pleis",
+      "uitspraak": "po-ne na soe pleis",
+      "vertaling": "Op zijn/haar plek zetten / in orde brengen"
+    },
+    {
+      "woord": "Ta asina e ta",
+      "uitspraak": "ta a-sie-na e ta",
+      "vertaling": "Zo is het nu eenmaal"
+    },
+    {
+      "woord": "Biba!",
+      "uitspraak": "bie-ba",
+      "vertaling": "Hoera! / Lang leve...!"
+    },
+    {
+      "woord": "Mashabo",
+      "uitspraak": "ma-sha-bo",
+      "vertaling": "Heel goed! / Bravo!"
+    },
+    {
+      "woord": "Kurason",
+      "uitspraak": "koe-ra-son",
+      "vertaling": "Hart"
+    },
+    {
+      "woord": "Kara",
+      "uitspraak": "ka-ra",
+      "vertaling": "Gezicht / gelaat"
+    }
+  ],
+  "culturele_context": "Idiomatische uitdrukkingen zijn de DNA van een taal — ze vertellen hoe een gemeenschap denkt, voelt en haar wereld ordent. 'Ta asina e ta' (zo is het nu eenmaal) weerspiegelt een eilandcultuur die heeft geleerd om te gaan met dingen die buiten controle zijn: het weer, het water, de economie.\n\n'Tin bon kurason' (goed van hart zijn) is de grootste sociale lof op Curaçao. Rijkdom, succes, kennis — ze worden gewaardeerd, maar een goed hart is de fundamentele deugd. Als iemand jou dit zegt, is het een compliment dat verder gaat dan prestatie.\n\n'Biba Kòrsou!' is meer dan een uitroep — het is een identiteitsverklaring. Curaçaoënaars zijn trots op hun kleine eiland met zijn rijke cultuur, en 'biba' is de spontane expressie van die trots. Leer deze uitdrukking en gebruik haar — ze opent harten.",
+  "scenario_links": [
+    "scenario-004",
+    "scenario-011"
+  ],
+  "eindoefening": [
+    {
+      "vraag": "Wat betekent 'No tin problema'?",
+      "opties": [
+        "Geen probleem (sociaal: maak je geen zorgen)",
+        "Er is een probleem",
+        "Ik heb geen problemen",
+        "Wees niet bezorgd"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat betekent 'Dal un man'?",
+      "opties": [
+        "Een handje helpen (letterlijk: een hand geven)",
+        "Stop ermee",
+        "Geef het op",
+        "Klap geven"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat betekent 'Ta asina e ta'?",
+      "opties": [
+        "Zo is het nu eenmaal — een rustige acceptatie van de realiteit",
+        "Dat is precies goed",
+        "Dat klopt helemaal",
+        "Op die manier ga je te werk"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat betekent 'Para ferme'?",
+      "opties": [
+        "Stand houden / sterk blijven",
+        "Goed stoppen",
+        "Hard lopen",
+        "Ergens op wachten"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Hoe zeg je 'Hij/zij heeft een goed hart'?",
+      "opties": [
+        "E tin bon kurason",
+        "Su kurason ta bon",
+        "E ta bon di kurason",
+        "Alle drie zijn correct"
+      ],
+      "correct": 3
+    },
+    {
+      "vraag": "Wat betekent 'Haña su mes'?",
+      "opties": [
+        "Zichzelf terugvinden / herstellen na een moeilijke periode",
+        "Iets voor zichzelf vinden",
+        "Zichzelf verliezen",
+        "Goed voor zichzelf zorgen"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat betekent 'Biba!'?",
+      "opties": [
+        "Hoera! / Lang leve...!",
+        "Ga leven!",
+        "Stop!",
+        "Goed gedaan!"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat betekent 'Tur kos ta bon'?",
+      "opties": [
+        "Alles is goed / alles komt goed",
+        "Alles is mooi",
+        "Iedereen is goed",
+        "Alles gaat naar wens"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Hoe gebruik je 'Dal un man' in een verzoek?",
+      "opties": [
+        "'Por bo dal mi un man?' — Kun je me een handje helpen?",
+        "'Dal un man pa mi' — altijd met 'pa'",
+        "'Mi ta dal un man' — aanbieding om te helpen",
+        "Alle drie zijn correct"
+      ],
+      "correct": 3
+    },
+    {
+      "vraag": "Wat betekent 'Pone tur kos na su pleis'?",
+      "opties": [
+        "Alles op orde brengen",
+        "Alles opruimen",
+        "Alles op zijn plek leggen — letterlijk en figuurlijk",
+        "Zowel b als c zijn correct"
+      ],
+      "correct": 3
+    },
+    {
+      "vraag": "Wat is 'kurason'?",
+      "opties": [
+        "Hart",
+        "Ziel",
+        "Geest",
+        "Gevoel"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat is 'kara'?",
+      "opties": [
+        "Gezicht / gelaat",
+        "Ogen",
+        "Mond",
+        "Neus"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat betekent 'Ta sali di su kara'?",
+      "opties": [
+        "Het lijkt sprekend op hem/haar (letterlijk: het komt uit zijn/haar gezicht)",
+        "Hij/zij gaat weg",
+        "Zijn/haar gezicht verandert",
+        "Hij/zij lacht"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat is 'mashabo'?",
+      "opties": [
+        "Heel goed! / Bravo!",
+        "Goed zo!",
+        "Geweldig!",
+        "Alle drie zijn correct"
+      ],
+      "correct": 3
+    },
+    {
+      "vraag": "Hoe gebruik je 'Awor mes'?",
+      "opties": [
+        "Nu meteen / onmiddellijk — urgentie uitdrukken",
+        "Op dit moment — neutraal",
+        "Het is nu — beschrijvend",
+        "Ze zijn alle drie hetzelfde"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat maakt 'Tin bon kurason' de grootste sociale lof?",
+      "opties": [
+        "Een goed hart is de fundamentele deugd — boven rijkdom, succes of kennis",
+        "Het is een formeel compliment",
+        "Het verwijst naar gezondheid",
+        "Het is een religieuze uitdrukking"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Hoe zeg je 'Hij/zij herstelt weer'?",
+      "opties": [
+        "E ta haña su mes bèk",
+        "E ta bèk bon",
+        "E ta resolve su mes",
+        "E ta para ferme bèk"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wanneer roep je 'Biba Kòrsou!'?",
+      "opties": [
+        "Bij nationale trots, festiviteiten, sportoverwinningen — spontane vreugde-uitdrukking",
+        "Alleen bij verkiezingen",
+        "Alleen bij sportevents",
+        "Het is een formele aankondiging"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat is de diepere betekenis van 'Ta asina e ta' in de Curaçaose cultuur?",
+      "opties": [
+        "Een pragmatische levenshouding: accepteer wat je niet kunt veranderen, ga door",
+        "Een uiting van pessimisme",
+        "Een sociale weigering",
+        "Een formele conclusie"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Hoe zeg je 'No tin problema, dal un man ta mi plaser'?",
+      "opties": [
+        "Geen probleem, een handje helpen is mijn plezier",
+        "Geen probleem, de hand is mijn plezier",
+        "Er is geen probleem met mijn plezier",
+        "Help mij, dat is mijn plezier"
+      ],
+      "correct": 0
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "scenario-006",
+  "title": "Eten bestellen",
+  "difficulty": "Easy",
+  "category": "Restaurant",
+  "intro": "Je schuift aan bij een gezellige Truk'i Pan (foodtruck) aan het water. De geuren komen je tegemoet en je wil je favoriete maaltijd bestellen.",
+  "introWords": [
+    { "papiamentu": "Kome", "dutch": "Eten", "pronunciation": "ko-me" },
+    { "papiamentu": "Bebe", "dutch": "Drinken", "pronunciation": "be-be" },
+    { "papiamentu": "Karni", "dutch": "Vlees", "pronunciation": "kar-ni" },
+    { "papiamentu": "Dushi", "dutch": "Lekker / Mooi / Schattig", "pronunciation": "doo-shi" }
+  ],
+  "grammar": {
+    "title": "Mi gustá — zeggen wat je lekker vindt",
+    "explanation": [
+      "Om aan te geven wat je lekker vindt, gebruik je het werkwoord 'gustá': 'Mi gustá karni' = Ik vind vlees lekker.",
+      "'Mi gustá' kan ook voor activiteiten: 'Mi gustá kome piska' = Ik eet graag vis. Het werkwoord verandert niet van persoon.",
+      "Om te zeggen wat je wilt bestellen, gebruik je 'Mi ke': 'Mi ke un batido di mango' = Ik wil een mangosmoothie."
+    ],
+    "exercises": [
+      {
+        "question": "Hoe zeg je 'Ik vind vis lekker'?",
+        "options": ["Mi gustá piska", "Mi kome piska", "E piska ta dushi", "Mi ke piska"],
+        "correct": 0,
+        "explanation": "'Mi gustá' + het woord voor wat je lekker vindt. 'Piska' = vis."
+      },
+      {
+        "question": "Je wilt een kip bestellen. Wat zeg je?",
+        "options": ["Mi ke galiña, por fabor", "Mi gustá galiña", "E galiña ta bon", "Galiña mi ke"],
+        "correct": 0,
+        "explanation": "'Mi ke' = ik wil. 'Por fabor' = alstublieft. Samen een correcte bestelling."
+      },
+      {
+        "question": "Je wil je eten zonder peper. Wat zeg je?",
+        "options": ["Sin pika, por fabor", "Ku pika, danki", "No pika esaki", "Pika sin"],
+        "correct": 0,
+        "explanation": "'Sin' = zonder, 'pika' = peper/heet. 'Sin pika, por fabor' = Zonder peper, alstublieft."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Karta di kuminda", "dutch": "Menukaart", "pronunciation": "kar-ta di koo-MIN-da", "example": "Por fabor, mi ke e karta di kuminda." },
+    { "papiamentu": "Piska fritu", "dutch": "Gebakken vis", "pronunciation": "PIS-ka FREE-too", "example": "E piska fritu ta dushi basta." },
+    { "papiamentu": "Batido", "dutch": "Smoothie / Milkshake", "pronunciation": "ba-TEE-do", "example": "Mi ke un batido di mango." },
+    { "papiamentu": "Mi ke ordena", "dutch": "Ik wil bestellen", "pronunciation": "mi ke or-DE-na", "example": "Bon tardi, mi ke ordena awe." },
+    { "papiamentu": "Sin pika", "dutch": "Zonder hete saus / zonder peper", "pronunciation": "sin PI-ka", "example": "Sin pika, por fabor, mi no por kome pika." },
+    { "papiamentu": "Por fabor", "dutch": "Alstublieft", "pronunciation": "por fa-BOR", "example": "Un awa fríu, por fabor." },
+    { "papiamentu": "Ta dushi", "dutch": "Het is lekker", "pronunciation": "ta DOO-shi", "example": "Ai, e kuminda ta dushi basta!" },
+    { "papiamentu": "La nota", "dutch": "De rekening", "pronunciation": "la NO-ta", "example": "Por fabor, mi ke la nota." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Dushi = lekker, niet 'dank je'",
+      "detail": "'Dushi' betekent 'lekker', 'mooi' of 'schattig/lief'. Gebruik het nooit als bedankje. Als je het eten lekker vindt, zeg: 'E kuminda ta dushi!'",
+      "remember": "Bedanken → Danki. Lekker → Dushi."
+    },
+    {
+      "trap": "Scherp eten is standaard",
+      "detail": "Veel Curaçaose gerechten worden standaard met pika (hete saus) bereid. Als je niet van scherp houdt, zeg dat expliciet: 'Sin pika, por fabor'.",
+      "remember": "Niet van scherp? Zeg altijd 'Sin pika' bij je bestelling."
+    },
+    {
+      "trap": "Galiña schrijf je met een ñ",
+      "detail": "'Galiña' (kip) schrijf je met de typisch Curaçaose 'ñ' die een nasale 'nj'-klank maakt. Hetzelfde geldt voor 'biña' (wijn) en 'niña' (meisje).",
+      "remember": "Kip = galiña (met ñ, klinkt als 'ga-lie-nja')"
+    }
+  ],
+  "culture": {
+    "title": "Keshi yena en de Truk'i Pan",
+    "intro": "Eten is op Curaçao veel meer dan voeding — het is een viering van cultuur, geschiedenis en smaak.",
+    "facts": [
+      "De Truk'i Pan (letterlijk: 'broodwagen') is een iconische foodtruck op Curaçao die je overal tegenkomt, van stranden tot bedrijventerreinen.",
+      "Keshi yena ('gevulde kaas') is het nationale gerecht van Curaçao: een Edam-kaasschil gevuld met gekruid vlees, olijven en rozijnen. Het weerspiegelt de Nederlandse en Caribische invloeden op de eilandkeuken.",
+      "Op Curaçao eet men traditioneel de grootste maaltijd 's middags — de 'almuerzo' (middagmaal) is een sociale aangelegenheid waarbij de familie samenkomt."
+    ],
+    "didYouKnow": "Wist je dat de naam 'Truk'i Pan' verwijst naar de oude Joodse kooplieden die in de 17e en 18e eeuw brood en andere waren op hun wagens verkochten? Die traditie leeft nog altijd voort in de moderne foodtrucks!"
+  },
+  "quiz": [
+    {
+      "question": "Hoe zeg je 'Ik vind kip lekker'?",
+      "options": ["Mi gustá galiña", "Mi ke galiña", "E galiña ta bon", "Mi kome galiña"],
+      "correct": 0,
+      "explanation": "'Mi gustá' + zelfstandig naamwoord = je vindt iets lekker/leuk."
+    },
+    {
+      "question": "Wat betekent 'Sin pika, por fabor'?",
+      "options": ["Zonder hete saus, alstublieft", "Met extra saus, alstublieft", "Geen vlees, alstublieft", "Zonder brood, alstublieft"],
+      "correct": 0,
+      "explanation": "'Sin' = zonder, 'pika' = heet/peper, 'por fabor' = alstublieft."
+    },
+    {
+      "question": "Je wil de rekening vragen. Wat zeg je?",
+      "options": ["Por fabor, mi ke la nota", "Mi ke ordena", "E kuminda ta dushi", "Sin pika, danki"],
+      "correct": 0,
+      "explanation": "'La nota' = de rekening. 'Mi ke la nota' = ik wil de rekening."
+    },
+    {
+      "question": "Wat is het nationale gerecht van Curaçao?",
+      "options": ["Keshi yena", "Piska fritu", "Batido di mango", "Galiña ku pika"],
+      "correct": 0,
+      "explanation": "'Keshi yena' (gevulde kaas) is het nationale gerecht: een Edam-kaasschil gevuld met gekruid vlees."
+    },
+    {
+      "question": "Hoe zeg je 'Het eten is lekker'?",
+      "options": ["E kuminda ta dushi", "Mi gustá kuminda", "Dushi e kuminda ta", "E kuminda ta bon gustá"],
+      "correct": 0,
+      "explanation": "'E kuminda' = het eten, 'ta dushi' = is lekker. Volgorde: onderwerp + ta + bijvoeglijk naamwoord."
+    }
+  ]
+}

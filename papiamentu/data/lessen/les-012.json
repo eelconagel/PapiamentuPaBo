@@ -1,0 +1,73 @@
+{
+  "id": 12,
+  "blok": 2,
+  "titel": "Bezit: De logica van 'Di'",
+  "grammatica": {
+    "uitleg": "Bezit uitdrukken in Papiamentu gaat met 'di' — het voorzetsel dat je al kent voor herkomst en materiaal. De logica is consistent: 'di' verbindt het bezit met de bezitter.\n\nDE BASISSTRUCTUUR:\n[Bezit] + di + [Bezitter]\n• E outo di Eelco (De auto van Eelco)\n• E kas di mi tanta (Het huis van mijn tante)\n• E libro di e mucha (Het boek van het kind)\n\nVERGELEEK MET PERSOONLIJKE BEZITTELIJKE VOORNAAMWOORDEN:\nPersonal bezittelijke voornaamwoorden staan VOOR het zelfstandig naamwoord:\n• Mi outo (mijn auto)\n• Bo kas (jouw huis)\n• Su amigo (zijn/haar vriend) — 'su' is het bezittelijk voornaamwoord voor 'e'\n• Nos trabou (ons werk)\n• Boso kuarto (jullie kamer)\n• Nan skol (hun school)\n\nBELANGRIJK: 'Su' is het bezittelijk voornaamwoord van 'e' (hij/zij). Net zoals 'e' geen geslacht heeft, heeft 'su' dat ook niet: 'su mama' = zijn moeder OF haar moeder.",
+    "voorbeelden": [
+      { "papiamentu": "E outo di mi tata ta pretu", "vertaling": "De auto van mijn vader is zwart" },
+      { "papiamentu": "Mi kas ta grandi", "vertaling": "Mijn huis is groot" },
+      { "papiamentu": "Su nòmber ta Ana", "vertaling": "Zijn/haar naam is Ana" },
+      { "papiamentu": "E libro di e mucha ta na mesa", "vertaling": "Het boek van het kind ligt op de tafel" },
+      { "papiamentu": "Nos bario ta hopi dushi", "vertaling": "Onze buurt is heel fijn" }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'Su' voor hij én zij — wennen maar waardevol",
+      "voorbeeld": "'Su kas ta kolorá.' — kan zijn huis of haar huis zijn",
+      "toelichting": "Voor Nederlandstaligen voelt dit onwennig, maar in Papiamentse context is het zelden onduidelijk. Als de bezitter al eerder in het gesprek is geïntroduceerd, weet iedereen wie 'su' is."
+    },
+    {
+      "nuance": "Dubbele bezittelijke structuur voor nadruk",
+      "voorbeeld": "'E ta su kas' vs. 'E ta e kas di dje' — de tweede vorm met 'di dje' (van hem/haar) benadrukt het bezit",
+      "toelichting": "'Di dje' (van hem/haar) is een versterkte bezitsvorm die extra nadruk geeft. Gebruik het als je echt wilt benadrukken wiens bezit het is."
+    },
+    {
+      "nuance": "Bezit zonder lidwoord in vaste uitdrukkingen",
+      "voorbeeld": "'Mi kas' (mijn huis) vs. 'E kas di mi' (het huis van mij) — eerste is vanzelfsprekend bezit, tweede benadrukt",
+      "toelichting": "In dagelijks taalgebruik gebruik je gewoon 'mi kas', 'bo kas', etc. De 'di'-constructie gebruik je als extra nadruk of als de bezitter een naam of description is, geen voornaamwoord."
+    },
+    {
+      "nuance": "Familieterminologie en bezit",
+      "voorbeeld": "'Mi mama', 'su tata', 'nos famia' — famille-relaties gebruiken altijd het persoonlijk bezittelijk voornaamwoord, nooit 'di'",
+      "toelichting": "Je zegt nooit 'e mama di mi' voor 'mijn moeder' — dat klinkt vreemd en afstandelijk. Familie-relaties gaan altijd met persoonlijke bezittelijke voornaamwoorden."
+    }
+  ],
+  "woorden": [
+    { "woord": "Di", "uitspraak": "die", "vertaling": "Van (bezit, herkomst)" },
+    { "woord": "Su", "uitspraak": "soe", "vertaling": "Zijn / haar (bezittelijk voornaamwoord)" },
+    { "woord": "Nos", "uitspraak": "nos", "vertaling": "Ons / onze (ook bezittelijk)" },
+    { "woord": "Bario", "uitspraak": "ba-rio", "vertaling": "Buurt / wijk" },
+    { "woord": "Grandi", "uitspraak": "gran-die", "vertaling": "Groot" },
+    { "woord": "Chikitu", "uitspraak": "chi-kie-toe", "vertaling": "Klein" },
+    { "woord": "Mesa", "uitspraak": "me-sa", "vertaling": "Tafel" },
+    { "woord": "Libro", "uitspraak": "lie-bro", "vertaling": "Boek" },
+    { "woord": "Tanta", "uitspraak": "tan-ta", "vertaling": "Tante" },
+    { "woord": "Di dje", "uitspraak": "die dje", "vertaling": "Van hem / van haar (benadrukt bezit)" }
+  ],
+  "culturele_context": "In de Curaçaose cultuur is bezit vaak gedeeld en communaal. 'Nos kas' (ons huis) kan verwijzen naar het familiecomplex waar meerdere generaties samenwonen — opa, oma, ouders, kinderen. Dit communale wonen is een traditioneel patroon op het eiland.\n\n'Bario' (buurt) is een kernbegrip. Je bario is niet alleen waar je woont — het is je sociale netwerk, je veiligheidsnet. 'Mi bario' zeggen is een verklaring van verbondenheid.\n\nEigendom en bezit zijn in Papiamentse gesprekken nooit ver weg, maar worden nooit opschepperig besproken. 'Su kas ta grandi' is een neutrale observatie. De Curaçaose sociale norm is bescheidenheid over persoonlijk bezit maar trots op wat de gemeenschap heeft.",
+  "scenario_links": ["scenario-003", "scenario-012"],
+  "eindoefening": [
+    { "vraag": "Hoe druk je bezit uit met een naam in Papiamentu?", "opties": ["[Bezit] + di + [Bezitter]: 'E outo di Eelco'", "[Bezitter] + di + [Bezit]: 'Eelco di e outo'", "Met een apart bezitswoord voor het naamwoord", "Met een apostrof: 'Eelco's outo'"], "correct": 0 },
+    { "vraag": "Wat is het bezittelijk voornaamwoord van 'e' (hij/zij)?", "opties": ["Su", "Di dje", "E", "Nan"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De auto van mijn vader is zwart'?", "opties": ["E outo di mi tata ta pretu", "Mi tata su outo ta pretu", "E outo mi tata ta pretu", "Di mi tata e outo ta pretu"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'mijn huis'?", "opties": ["Mi kas", "E kas di mi", "Kas mi", "Di mi kas"], "correct": 0 },
+    { "vraag": "Heeft 'su' een geslacht in Papiamentu?", "opties": ["Nee — 'su' is voor zowel hij als zij", "Ja — 'su' is alleen voor vrouwen", "Ja — 'su' is alleen voor mannen", "Het wisselt afhankelijk van context"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het boek van het kind'?", "opties": ["E libro di e mucha", "E mucha di libro", "E libro su mucha", "Di e mucha e libro"], "correct": 0 },
+    { "vraag": "Wat is 'su nòmber ta Ana'?", "opties": ["Zijn/haar naam is Ana", "De naam van Ana", "Ana's naam is dit", "Dit heet Ana"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Onze buurt is heel fijn'?", "opties": ["Nos bario ta hopi dushi", "E bario di nos ta hopi dushi", "Nos ta bario dushi", "Bario nos ta dushi"], "correct": 0 },
+    { "vraag": "Wanneer gebruik je 'di dje' i.p.v. 'su'?", "opties": ["Als je extra nadruk wilt leggen op het bezit", "Altijd bij vrouwen", "Altijd bij mannen", "Bij dingen, niet bij mensen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'haar school'?", "opties": ["Su skol", "Di dje skol", "E skol di dje", "Nan skol"], "correct": 0 },
+    { "vraag": "Wat is 'bario'?", "opties": ["Buurt / wijk", "Stad", "Dorp", "Land"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'jullie kamer'?", "opties": ["Boso kuarto", "Nan kuarto", "Su kuarto", "Boso di kuarto"], "correct": 0 },
+    { "vraag": "Waarom gebruik je nooit 'e mama di mi' voor 'mijn moeder'?", "opties": ["Klinkt vreemd en afstandelijk — gebruik 'mi mama'", "Grammaticaal fout", "Alleen in formele tekst toegestaan", "Te lang"], "correct": 0 },
+    { "vraag": "Wat is 'grandi'?", "opties": ["Groot", "Oud", "Sterk", "Breed"], "correct": 0 },
+    { "vraag": "Wat is 'chikitu'?", "opties": ["Klein", "Jong", "Dun", "Laag"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'hun werk'?", "opties": ["Nan trabou", "Su trabou", "Boso trabou", "Di nan trabou"], "correct": 0 },
+    { "vraag": "Wat is 'mesa'?", "opties": ["Tafel", "Stoel", "Bank", "Bureau"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'ons huis'?", "opties": ["Nos kas", "Mi kas", "Su kas", "Nan kas"], "correct": 0 },
+    { "vraag": "Wat is cultureel bijzonder aan 'nos kas' op Curaçao?", "opties": ["Het kan verwijzen naar een communaal familiecomplex", "Het is hetzelfde als 'mijn huis'", "Het verwijst alleen naar het gemeentehuis", "Het is een formele uitdrukking"], "correct": 0 },
+    { "vraag": "Hoe maak je het verschil duidelijk tussen 'su kas' (zijn huis) en 'su kas' (haar huis)?", "opties": ["Via context — de persoon is eerder in het gesprek geïntroduceerd", "Via een extra markering na 'su'", "Via een mannelijke/vrouwelijke vorm van 'su'", "Via intonatie"], "correct": 0 }
+  ]
+}

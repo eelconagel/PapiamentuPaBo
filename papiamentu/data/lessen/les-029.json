@@ -1,0 +1,73 @@
+{
+  "id": 29,
+  "blok": 3,
+  "titel": "Scenario-koppeling 3: Gezondheid, Routines en Toekomstplannen",
+  "grammatica": {
+    "uitleg": "In deze les pas je alles uit Blok 3 toe op contexten die dagelijks voorkomen: gezondheid bespreken, routines beschrijven en toekomstplannen delen.\n\nDEZE LES BOUWT OP:\n• Verleden tijd 'a' (les 21): Wat is er gisteren/vorige week gebeurd\n• Toekomstige tijd 'lo' (les 22): Plannen, afspraken, verwachtingen\n• Modaliteit mester/por/kier (les 23): Verplichtingen, mogelijkheden\n• Tabata / lo ta (les 24): Beschrijvingen in verleden en toekomst\n• Voorzetsels (les 25): Locatie, richting, doel\n• Indirect object (les 26): Iets voor iemand doen\n• Geavanceerde vragen (les 27): Hoeveel, welke, wie\n• Relatiefzinnen (les 28): Beschrijven wie/wat iets deed\n\nGEZONDHEIDSCONVERSATIE:\n1. Hoe voel je je: 'Kon bo ta sinti bo?'\n2. Klacht beschrijven: 'Mi tin doló di kabes / mi ta sinti malo'\n3. Advies geven: 'Bo mester bai na doktor'\n4. Verleden klacht: 'Ayera mi a sinti masha malo'\n5. Toekomstplan: 'Mayan mi lo bai na hospital'\n\nTOEKOMSTPLANNEN:\n• 'Ki bo lo hasi proximo siman?'\n• 'Mi lo mester studia pa mi ekzamen'\n• 'Nos lo bai na playa si e tempu ta bon'",
+    "voorbeelden": [
+      { "papiamentu": "Kon bo ta sinti bo awe? — No masha bon; mi tin doló di kabes.", "vertaling": "Hoe voel jij je vandaag? — Niet zo goed; ik heb hoofdpijn." },
+      { "papiamentu": "Ayera mi a bai na doktor — e a dal mi un reseta pa e doló.", "vertaling": "Gisteren ging ik naar de dokter — hij/zij gaf me een recept voor de pijn." },
+      { "papiamentu": "Kiko bo lo hasi ku e plaka ku bo lo gana?", "vertaling": "Wat ga jij doen met het geld dat jij gaat verdienen?" },
+      { "papiamentu": "E hende ku a opera mi tabata masha bon — mi ta rekumindá e pa tur hende.", "vertaling": "De persoon die me heeft geopereerd was heel goed — ik beveel hem/haar aan bij iedereen." },
+      { "papiamentu": "Nos lo mester kumpra kuminda pa proximo siman promé di e preis lo subi.", "vertaling": "Wij zullen eten moeten kopen voor volgende week voordat de prijs omhoog gaat." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'Sinti malo' vs. 'ta malo' — voelen of zijn",
+      "voorbeeld": "'Mi ta sinti mi malo' (ik voel me ziek) vs. 'Mi ta malo' (ik ben ziek — meer definitief)",
+      "toelichting": "'Sinti malo' beschrijft een gevoel of toestand die je gewaarwordt. 'Ta malo' is een toestandsbeschrijving. 'Mi ta sinti mi un pokito malo' (ik voel me een beetje ziek) is een verzachte klacht. Op Curaçao klaagt men niet te hard — de verzachte klacht is beleefd."
+    },
+    {
+      "nuance": "'Rekumindá' als sociaal vertrouwen — aanbeveling als relatieverklaring",
+      "voorbeeld": "'Mi ta rekumindá e pa bo' (ik beveel het/hem/haar aan voor jou) — een persoonlijke garantie",
+      "toelichting": "Een aanbeveling op Curaçao is een sociale garantie. 'E ta bon, mi ta rekumindá e' (hij/zij is goed, ik beveel hem/haar aan) zegt: ik zet mijn reputatie in voor deze persoon. Dit is niet licht genomen."
+    },
+    {
+      "nuance": "Toekomstplanning combineert 'lo' + 'mester' — gestapelde modaliteit",
+      "voorbeeld": "'Nos lo mester kumpra' (wij zullen moeten kopen) — toekomstige verplichting",
+      "toelichting": "In praktisch plannen gebruik je 'lo mester' (zullen moeten) constant. 'Mi lo mester bai na dokter mayan' (ik zal morgen naar de dokter moeten) combineert toekomst en noodzaak. Dit is een van de meest gebruikte combinaties in dagelijks Papiamentu."
+    },
+    {
+      "nuance": "Relatiefzin + verleden + toekomst = rijke beschrijving",
+      "voorbeeld": "'E doktor ku a yuda mi ayera lo ta na hospital mayan tambe' — meerdere lagen in één zin",
+      "toelichting": "Blok 3-structuren worden rijkst als je ze combineert. Een relatiefzin die een persoon uit het verleden beschrijft ('ku a yuda') gecombineerd met een toekomstige verwachting ('lo ta') is de kern van vloeiend Papiamentu."
+    }
+  ],
+  "woorden": [
+    { "woord": "Sinti", "uitspraak": "sin-tie", "vertaling": "Voelen / ervaren / gewaarworden" },
+    { "woord": "Doló", "uitspraak": "do-lo", "vertaling": "Pijn" },
+    { "woord": "Kabes", "uitspraak": "ka-bes", "vertaling": "Hoofd" },
+    { "woord": "Reseta", "uitspraak": "re-se-ta", "vertaling": "Recept (medisch)" },
+    { "woord": "Opera", "uitspraak": "o-pe-ra", "vertaling": "Opereren" },
+    { "woord": "Rekumindá", "uitspraak": "re-koe-min-da", "vertaling": "Aanbevelen" },
+    { "woord": "Ekzamen", "uitspraak": "ek-sa-men", "vertaling": "Examen / onderzoek" },
+    { "woord": "Gana", "uitspraak": "ga-na", "vertaling": "Winnen / verdienen" },
+    { "woord": "Subi", "uitspraak": "soe-bie", "vertaling": "Omhoog gaan / stijgen / klimmen" },
+    { "woord": "Dal", "uitspraak": "dal", "vertaling": "Geven (in formele context) / slaan / uitdelen" }
+  ],
+  "culturele_context": "Gezondheid bespreken is op Curaçao een sociaal ritueel. 'Kon bo ta sinti bo?' (hoe voel je je?) is een variant op 'hoe gaat het?' die extra zorg uitdrukt. Zieke familieleden bezoeken is een culturele verplichting — 'bishitá ku sieki' (de zieken bezoeken) staat in de sociale kalender.\n\nToekomstplannen zijn op Curaçao communaal. 'Nos lo bai na playa' (wij gaan naar het strand) is bijna nooit alleen — 'nos' is de standaard. Plannen worden gemeld, besproken, gedeeld. Solotrips zijn de uitzondering.\n\nHet ziekenhuis (SEHOS) is een sociaal knooppunt op het eiland. Je ontmoet mensen in de wachtkamer, nieuws circuleert snel. 'A keda bon?' (Ben je beter geworden?) is de vraag die volgt na een ziekenhuisbezoek — niet als nieuwsgierigheid maar als zorg.",
+  "scenario_links": ["scenario-009", "scenario-015"],
+  "eindoefening": [
+    { "vraag": "Hoe vraag je 'Hoe voel jij je?'", "opties": ["Kon bo ta sinti bo?", "Kon ta bai ku bo?", "Kiko bo ta sinti?", "Unda bo ta sinti?"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik heb hoofdpijn'?", "opties": ["Mi tin doló di kabes", "Mi ta sinti doló di kabes", "Tin doló di mi kabes", "Mi ta malo di kabes"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Gisteren ging ik naar de dokter'?", "opties": ["Ayera mi a bai na doktor", "Ayera mi ta bai na doktor", "Mi a bai na doktor ayera", "Beide a en c zijn correct"], "correct": 3 },
+    { "vraag": "Hoe zeg je 'ik voel me een beetje ziek'?", "opties": ["Mi ta sinti mi un pokito malo", "Mi ta un pokito malo", "Mi sinti mi malo un pokito", "Mi ta malo un pokito sinti"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wij zullen moeten kopen'?", "opties": ["Nos lo mester kumpra", "Nos mester lo kumpra", "Nos lo kumpra mester", "Nos lo ta mester kumpra"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De dokter die mij hielp'?", "opties": ["E doktor ku a yuda mi", "E doktor di a yuda mi", "E doktor ken a yuda mi", "E doktor a yuda mi ku"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik beveel hem/haar aan'?", "opties": ["Mi ta rekumindá e", "Mi ta yuda e", "Mi ta kuer e", "Mi ta mustra e"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wat ga jij doen'?", "opties": ["Kiko bo lo hasi?", "Kiko bo ta hasi?", "Ki bo lo hasi?", "Kiko lo bo hasi?"], "correct": 0 },
+    { "vraag": "Wat is 'doló'?", "opties": ["Pijn", "Koorts", "Moeheid", "Ziekte"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'hij/zij gaf me een recept'?", "opties": ["E a dal mi un reseta", "E a da mi un reseta", "Beide zijn correct", "Geen van beide"], "correct": 2 },
+    { "vraag": "Wat is 'kabes'?", "opties": ["Hoofd", "Buik", "Arm", "Been"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'voordat de prijs omhoog gaat'?", "opties": ["Promé di e preis lo subi", "Antes di e preis lo subi", "Si e preis lo subi", "Ku e preis lo subi"], "correct": 0 },
+    { "vraag": "Wat is 'gana'?", "opties": ["Winnen / verdienen", "Verliezen", "Geven", "Werken"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wij gaan naar het strand als het weer goed is'?", "opties": ["Nos lo bai na playa si e tempu ta bon", "Nos ta bai na playa si e tempu lo ta bon", "Si e tempu ta bon nos ta bai na playa", "Alle drie zijn correct"], "correct": 3 },
+    { "vraag": "Wat is 'ekzamen'?", "opties": ["Examen / onderzoek", "Document", "Recept", "Test"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ben je beter geworden?'", "opties": ["Bo a keda bon?", "Bo ta bon awor?", "Bo lo ta bon?", "Bon bo a keda?"], "correct": 0 },
+    { "vraag": "Wat is 'subi'?", "opties": ["Omhoog gaan / stijgen", "Omlaag gaan", "Stoppen", "Beginnen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik zal morgen naar het ziekenhuis moeten'?", "opties": ["Mi lo mester bai na hospital mayan", "Mi mester lo bai na hospital mayan", "Mayan mi lo mester bai na hospital", "Beide a en c zijn correct"], "correct": 3 },
+    { "vraag": "Hoe zeg je 'Hij/zij is aan het opereren'?", "opties": ["E ta opera", "E ta operando", "E ta ta opera", "E opera"], "correct": 0 },
+    { "vraag": "Waarom is 'bishitá ku sieki' (zieken bezoeken) een culturele verplichting?", "opties": ["Zorg voor de zieken staat centraal in de Curaçaose communale cultuur", "Het is bij wet verplicht", "Het is alleen voor familieleden", "Het is een religieus voorschrift"], "correct": 0 }
+  ]
+}

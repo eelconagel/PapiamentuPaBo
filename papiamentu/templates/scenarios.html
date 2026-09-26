@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% block title %}Scenario's · Papiamentu Pa Bo{% endblock %}
+{% block description %}20 praktische scenario's om Papiamentu te oefenen: van iemand begroeten en boodschappen doen tot een sollicitatiegesprek.{% endblock %}
+{% block main_class %}wide{% endblock %}
+{% block content %}
+<h1 class="title">Papiamentu Pa Bo</h1>
+<p class="subtitle">Oefen met praktische scenario's uit het dagelijks leven.</p>
+
+<div class="filter-chips" role="group" aria-label="Filter op niveau">
+  <button type="button" class="chip active" data-level="">Alle</button>
+  {% for level, label in NIVEAU_LABEL.items() %}
+    <button type="button" class="chip" data-level="{{ level }}">{{ label }}</button>
+  {% endfor %}
+</div>
+<p class="muted small center" id="scenario-progress"></p>
+
+{% for level in NIVEAU_LABEL %}
+  {% set items = scenarios | selectattr('difficulty', 'equalto', level) | list %}
+  {% if items %}
+  <section class="level-section" data-level="{{ level }}">
+    <h2 class="blok-heading"><span class="badge" style="background:{{ NIVEAU_COLOR[level] }}">{{ NIVEAU_LABEL[level] }}</span> <span class="level-count"></span></h2>
+    <div class="card-grid">
+      {% for s in items %}
+        {% if s.has_data %}
+        <a class="card scenario-card" data-id="{{ s.id }}" href="{{ url_for('scenario', scenario_id=s.id) }}">
+        {% else %}
+        <div class="card locked">
+        {% endif %}
+          <div class="card-header">
+            <span class="card-number">#{{ s.number }} · {{ s.category }}</span>
+            <span class="status"></span>
+          </div>
+          <h3 class="card-title">{{ s.title }}</h3>
+          <p class="card-desc">{{ s.description }}</p>
+        {% if s.has_data %}</a>{% else %}<span class="status muted">Binnenkort beschikbaar</span></div>{% endif %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+{% endfor %}
+{% endblock %}
+
+{% block scripts %}
+<script nonce="{{ csp_nonce }}">
+(function () {
+  function render() {
+    const done = Store.get().scenarios;
+    let total = 0, completed = 0;
+    document.querySelectorAll('.level-section').forEach((section) => {
+      let n = 0, d = 0;
+      section.querySelectorAll('.scenario-card').forEach((card) => {
+        n++;
+        const isDone = !!done[card.dataset.id];
+        if (isDone) d++;
+        card.classList.toggle('completed', isDone);
+        const st = card.querySelector('.status');
+        st.textContent = isDone ? '✓ Voltooid' : '';
+        st.style.color = 'var(--green)';
+      });
+      section.querySelector('.level-count').textContent = `${d} van ${n} voltooid`;
+      total += n; completed += d;
+    });
+    document.getElementById('scenario-progress').textContent =
+      completed ? `Je hebt ${completed} van de ${total} scenario's voltooid.` : '';
+  }
+
+  const chips = document.querySelectorAll('.chip');
+  chips.forEach((chip) => chip.addEventListener('click', () => {
+    chips.forEach((c) => c.classList.toggle('active', c === chip));
+    document.querySelectorAll('.level-section').forEach((section) => {
+      section.hidden = !!chip.dataset.level && section.dataset.level !== chip.dataset.level;
+    });
+  }));
+
+  render();
+  document.addEventListener('papiamentu:synced', render);
+})();
+</script>
+{% endblock %}

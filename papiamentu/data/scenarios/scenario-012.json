@@ -1,0 +1,103 @@
+{
+  "id": "scenario-012",
+  "title": "Een gesprek met de buren",
+  "difficulty": "Intermediate",
+  "category": "Wonen",
+  "intro": "Je wilt een goede band met je buren op Curaçao. Het onderhouden van sociale contacten met buren is erg belangrijk; het zorgt voor een veilig en prettig woonklimaat.",
+  "introWords": [
+    { "papiamentu": "Kon ta bai ku e kas?", "dutch": "Hoe gaat het met het huis?", "pronunciation": "kon ta bay koo e kas" },
+    { "papiamentu": "Bo tin tempu pa un kòfi?", "dutch": "Heb je tijd voor een koffie?", "pronunciation": "bo tin tem-poo pa oen ko-fie" },
+    { "papiamentu": "Mi ta biba na e kas ei banda", "dutch": "Ik woon in dat huis daarnaast", "pronunciation": "mie ta bie-ba na e kas ej ban-da" },
+    { "papiamentu": "Danki pa bo yudansa", "dutch": "Bedankt voor je hulp", "pronunciation": "dan-ki pa bo joe-dan-sa" }
+  ],
+  "grammar": {
+    "title": "Sociale omgang met buren",
+    "explanation": [
+      "Gebruik 'Bisiña' om je buurman of buurvrouw aan te spreken.",
+      "Vragen stellen naar het welzijn ('Kon ta bai?') is de standaard opening voor elk gesprek.",
+      "Het aanbieden van hulp of een kleine attentie (zoals koffie) is een sterke sociale norm."
+    ],
+    "exercises": [
+      {
+        "question": "Hoe noem je een buurman of buurvrouw?",
+        "options": ["Bisiña", "Amigu", "Maestro", "Sita"],
+        "correct": 0,
+        "explanation": "'Bisiña' is de algemene term voor buur."
+      },
+      {
+        "question": "Wat betekent 'Mi ta biba akí'?",
+        "options": ["Ik woon hier", "Ik werk hier", "Ik ben hier", "Ik kom hier"],
+        "correct": 0,
+        "explanation": "'Biba' betekent wonen."
+      },
+      {
+        "question": "Hoe vraag je: 'Heb je een fijne dag gehad?'",
+        "options": ["Bo tabatin un bon dia?", "Bo ta bon dia?", "Ki ora ta dia?", "Danki pa dia?"],
+        "correct": 0,
+        "explanation": "'Tabatin' is de verleden tijd (had)."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Bisiña", "dutch": "Buurman/vrouw", "pronunciation": "bi-si-ña", "example": "Mi bisiña ta hopi amabel." },
+    { "papiamentu": "Amabel", "dutch": "Vriendelijk/aardig", "pronunciation": "a-ma-bel", "example": "Bo ta hopi amabel." },
+    { "papiamentu": "Kòfi", "dutch": "Koffie", "pronunciation": "ko-fie", "example": "Ban bebe un kòfi." },
+    { "papiamentu": "Biba", "dutch": "Wonen", "pronunciation": "bie-ba", "example": "Mi ta biba na Kòrsou." },
+    { "papiamentu": "Yuda", "dutch": "Helpen", "pronunciation": "joe-da", "example": "Bo por yuda mi?" },
+    { "papiamentu": "Kas", "dutch": "Huis", "pronunciation": "kas", "example": "Bo kas ta bunita." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Te veel afstand bewaren",
+      "detail": "Niet groeten of alleen 'hallo' zeggen en doorlopen wordt op Curaçao als afstandelijk of zelfs hooghartig ervaren. Neem even de tijd voor een praatje.",
+      "remember": "Een praatje hoort erbij."
+    },
+    {
+      "trap": "De uitnodiging voor koffie negeren",
+      "detail": "Als een buurman/vrouw je uitnodigt voor een drankje, is dit een teken van gastvrijheid. Zeg niet zomaar nee, maar geef aan wanneer je wel kunt.",
+      "remember": "Koffie is een sociaal ritueel."
+    }
+  ],
+  "culture": {
+    "title": "Het buurtgevoel op Curaçao",
+    "intro": "Op het eiland kijken buren vaak naar elkaar om. Het is heel normaal dat buren weten wie er in de straat woont en wie er bezoek krijgt.",
+    "facts": [
+      "Buren noemen elkaar vaak bij de voornaam. Formele titels vallen snel weg.",
+      "Het is gebruikelijk om iets lekkers te delen als je iets extra's hebt gekookt.",
+      "Als er een feestje of harde muziek is, is het beleefd om dit even te melden bij de buren, of hen gewoon uit te nodigen."
+    ],
+    "didYouKnow": "Wist je dat de uitdrukking 'Un bisiña ta mas serka ku un ruman leu' betekent dat een goede buur beter is dan een verre vriend of familie?"
+  },
+  "quiz": [
+    {
+      "question": "Wat betekent 'Amabel'?",
+      "options": ["Vriendelijk", "Druk", "Luid", "Boos"],
+      "correct": 0,
+      "explanation": "'Amabel' beschrijft iemand die aardig of vriendelijk is."
+    },
+    {
+      "question": "Wat zeg je als je je buren ziet?",
+      "options": ["Bon dia, bisiña!", "Ayo!", "Bienbiní!", "Danki!"],
+      "correct": 0,
+      "explanation": "Groet altijd met de tijd van de dag en de term 'bisiña'."
+    },
+    {
+      "question": "Hoe vraag je: 'Hoe gaat het met de kinderen?'",
+      "options": ["Kon ta bai ku e yunan?", "Kon ta bai?", "E yunan ta bon?", "Kiko ta yunan?"],
+      "correct": 0,
+      "explanation": "'Yunan' betekent kinderen."
+    },
+    {
+      "question": "Is het beleefd om onaangekondigd langs te komen?",
+      "options": ["Ja, bij buren is dat vaak prima", "Nee, nooit doen", "Alleen in het weekend", "Alleen bij nood"],
+      "correct": 0,
+      "explanation": "De grens tussen privé en sociaal is bij buren op Curaçao erg dun."
+    },
+    {
+      "question": "Wat is een goede manier om je voor te stellen als nieuwe buur?",
+      "options": ["Mi ta e bisiña nobo", "Mi ta biba akí", "Bo ta bisiña?", "Bon dia, mi ta Eelco"],
+      "correct": 0,
+      "explanation": "'Nobo' betekent nieuw."
+    }
+  ]
+}

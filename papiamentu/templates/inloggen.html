@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% from "_providers.html" import provider_buttons %}
+{% block content %}
+<div class="login-card">
+  <div class="contact-icon">🔐</div>
+  <h1 class="title">Inloggen</h1>
+
+  {% if current_user %}
+    <p class="subtitle">Je bent al ingelogd als <strong>{{ current_user.name }}</strong>.</p>
+    <a class="btn btn-primary block" href="{{ url_for('home') }}">Naar home</a>
+  {% elif login_providers %}
+    <p class="subtitle">Log in met een account dat je al hebt. Je hoeft geen nieuw wachtwoord te maken.</p>
+    {{ provider_buttons(login_providers) }}
+
+    <ul class="login-benefits">
+      <li>☁️ Je voortgang wordt bewaard, ook als je je browser leegmaakt.</li>
+      <li>📱 Ga verder op je telefoon, tablet of computer.</li>
+      <li>🔒 We krijgen alleen je naam en e-mailadres, nooit je wachtwoord.</li>
+    </ul>
+    <p class="center small muted">Liever niet? Je kunt Papiamentu Pa Bo ook <a href="{{ url_for('home') }}">zonder account</a> gebruiken.</p>
+  {% else %}
+    <p class="subtitle">Inloggen is op deze website nog niet ingeschakeld. Je voortgang wordt in deze browser bewaard.</p>
+    <a class="btn btn-primary block" href="{{ url_for('home') }}">Naar home</a>
+  {% endif %}
+</div>
+{% endblock %}

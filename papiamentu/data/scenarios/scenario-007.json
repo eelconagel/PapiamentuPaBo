@@ -1,0 +1,110 @@
+{
+  "id": "scenario-007",
+  "title": "De weg vragen",
+  "difficulty": "Intermediate",
+  "category": "Onderweg",
+  "intro": "Je bent aan het toeren richting Westpunt maar weet niet zeker of je de goede afslag hebt gepakt. Je stopt om de weg te vragen aan een voorbijganger.",
+  "introWords": [
+    { "papiamentu": "Kaminda", "dutch": "Weg / Straat", "pronunciation": "ka-MIN-da" },
+    { "papiamentu": "Drechi", "dutch": "Rechts", "pronunciation": "dre-chi" },
+    { "papiamentu": "Robes", "dutch": "Links", "pronunciation": "ro-bes" },
+    { "papiamentu": "Playa", "dutch": "Strand", "pronunciation": "pla-ya" }
+  ],
+  "grammar": {
+    "title": "Richtingsvragen met 'Unda'",
+    "explanation": [
+      "Het vraagwoord 'Unda' (Waar) staat altijd aan het begin van een richtingsvraag, en het werkwoord 'ta' staat aan het einde: 'Unda e hotel ta?' = Waar is het hotel?",
+      "Dit patroon is vast: Unda + onderwerp + ta? De rest van de zin vult details in: 'Unda e supermerka grandi ta?' = Waar is de grote supermarkt?",
+      "Om te vragen waar je iets kunt vinden: 'Unda mi por haña...?' = Waar kan ik ... vinden?"
+    ],
+    "exercises": [
+      {
+        "question": "Hoe vraag je 'Waar is het strand?'",
+        "options": ["Unda e playa ta?", "E playa unda ta?", "Unda ta e playa?", "Playa unda?"],
+        "correct": 0,
+        "explanation": "De vaste volgorde is: Unda + onderwerp (e playa) + ta?"
+      },
+      {
+        "question": "Je wilt vragen 'Waar kan ik een taxi vinden?'",
+        "options": ["Unda mi por haña un taxi?", "Unda un taxi ta?", "Mi por haña taxi unda?", "Unda e taxi ta bai?"],
+        "correct": 0,
+        "explanation": "'Unda mi por haña' = Waar kan ik vinden. Voeg daarna toe wat je zoekt."
+      },
+      {
+        "question": "Iemand zegt 'Bira na man robes'. Wat moet je doen?",
+        "options": ["Linksaf slaan", "Rechtdoor gaan", "Rechtsaf slaan", "Omdraaien"],
+        "correct": 0,
+        "explanation": "'Bira' = afslaan/draaien, 'na man robes' = naar links. Dus: linksaf slaan."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Unda mi por haña...?", "dutch": "Waar kan ik ... vinden?", "pronunciation": "UN-da mi por ha-NYA", "example": "Unda mi por haña un farmasia?" },
+    { "papiamentu": "Drechi", "dutch": "Rechts", "pronunciation": "DRE-chi", "example": "Bira na man drechi na e rotònd." },
+    { "papiamentu": "Robes", "dutch": "Links", "pronunciation": "RO-bes", "example": "E supermerka ta na man robes." },
+    { "papiamentu": "Siga derechi", "dutch": "Ga rechtdoor", "pronunciation": "SI-ga de-RE-chi", "example": "Siga derechi te na e snèk." },
+    { "papiamentu": "Bira", "dutch": "Afslaan / Draaien", "pronunciation": "BEE-ra", "example": "Bira robes na e semafó." },
+    { "papiamentu": "Rotònd", "dutch": "Rotonde", "pronunciation": "ro-TOND", "example": "Pasa e rotònd i bira drechi." },
+    { "papiamentu": "Kon leu e ta?", "dutch": "Hoe ver is het?", "pronunciation": "kon lew e ta", "example": "Kon leu e playa ta di aki?" },
+    { "papiamentu": "Na unda bo ta bai?", "dutch": "Waar ga je naartoe?", "pronunciation": "na UN-da bo ta by", "example": "Na unda bo ta bai awe?" }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Drechi vs. Derechi",
+      "detail": "'Drechi' = rechts (richting). 'Derechi' = rechtdoor (rechtuit gaan). Ze lijken op elkaar maar betekenen iets anders. 'Siga derechi' = ga rechtdoor. 'Bira drechi' = sla rechtsaf.",
+      "remember": "Drechi = richting rechts. Derechi = rechtuit/rechtdoor."
+    },
+    {
+      "trap": "Navigeren op herkenningspunten",
+      "detail": "Op Curaçao geven mensen richtingen op basis van bekende plaatsen en objecten, niet straatnamen. 'Bij de grote kaktus', 'na de blauwe muur' of 'tegenover de toko van Maria' zijn heel normale aanwijzingen.",
+      "remember": "Zoek naar herkenningspunten, niet naar straatnamen!"
+    },
+    {
+      "trap": "Rotònd schrijf je met accent",
+      "detail": "'Rotònd' schrijf je met een accent op de 'ò' om de korte, open klank aan te geven. Zonder accent lees je de 'o' anders uit.",
+      "remember": "Rotònd — de 'ò' klinkt als de 'o' in het Nederlandse 'pot'"
+    }
+  ],
+  "culture": {
+    "title": "Navigeren op Curaçao: landmarks boven straatnamen",
+    "intro": "Als je op Curaçao de weg vraagt, bereid je dan voor op een andere manier van navigeren dan je gewend bent.",
+    "facts": [
+      "Straatnamen worden zelden gebruikt voor navigatie. Locals navigeren op basis van bekende landmarks: een bepaalde boom, een gekleurde muur of een welbekende toko.",
+      "GPS en Google Maps werken goed op het eiland, maar locals kennen soms adressen uit het hoofd als een verhaal: 'Rij richting Westpunt, na de blauwe brug, tweede afslag rechts.'",
+      "Curaçao heeft een rijke traditie van mondeling kennis overdragen. Vragen om hulp wordt altijd gewaardeerd — eilandbewoners helpen toeristen en nieuwkomers graag."
+    ],
+    "didYouKnow": "Wist je dat het adressysteem op Curaçao historisch gebaseerd was op plantages (landhuizen)? Adressen als 'Landhuis Brievengat' verwijzen naar eeuwenoude plantages die nu als wijkbeschrijving dienen."
+  },
+  "quiz": [
+    {
+      "question": "Hoe vraag je 'Waar is de rotonde?'",
+      "options": ["Unda e rotònd ta?", "E rotònd unda ta?", "Rotònd unda?", "Unda ta rotònd?"],
+      "correct": 0,
+      "explanation": "Volgorde: Unda + onderwerp + ta? → 'Unda e rotònd ta?'"
+    },
+    {
+      "question": "Wat betekent 'Siga derechi'?",
+      "options": ["Ga rechtdoor", "Sla rechtsaf", "Sla linksaf", "Draai om"],
+      "correct": 0,
+      "explanation": "'Siga' = ga verder/volg, 'derechi' = rechtdoor."
+    },
+    {
+      "question": "Wat betekent 'Bira na man drechi'?",
+      "options": ["Sla rechtsaf", "Sla linksaf", "Ga rechtdoor", "Ga terug"],
+      "correct": 0,
+      "explanation": "'Bira' = afslaan, 'na man drechi' = naar rechts."
+    },
+    {
+      "question": "Hoe vraag je 'Hoe ver is het strand?'",
+      "options": ["Kon leu e playa ta?", "Unda e playa ta?", "Kuanto e playa ta?", "Ki e playa ta?"],
+      "correct": 0,
+      "explanation": "'Kon leu' = hoe ver. 'Kon leu e playa ta?' = Hoe ver is het strand?"
+    },
+    {
+      "question": "Wat is kenmerkend aan navigeren op Curaçao?",
+      "options": ["Men gebruikt herkenningspunten, niet straatnamen", "Men gebruikt altijd GPS", "Straatnamen zijn altijd in het Papiamentu", "Men gebruikt nummers voor richtingen"],
+      "correct": 0,
+      "explanation": "Locals navigeren op basis van bekende plaatsen en objecten, niet straatnamen."
+    }
+  ]
+}

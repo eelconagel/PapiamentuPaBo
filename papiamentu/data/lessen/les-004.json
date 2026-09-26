@@ -1,0 +1,73 @@
+{
+  "id": 4,
+  "blok": 1,
+  "titel": "Voornaamwoorden & Aanspreekvormen",
+  "grammatica": {
+    "uitleg": "Papiamentu heeft zes voornaamwoorden, en ze zijn bijzonder eenvoudig: ze veranderen NOOIT van vorm. In het Nederlands heb je 'ik/mij', 'jij/jou', 'hij/hem', 'wij/ons' — aparte subject- en objectvormen. In Papiamentu is dat hetzelfde woord.\n\nDE ZES VOORNAAMWOORDEN:\n• Mi — ik / mij / me\n• Bo — jij / jou / je (informeel, enkelvoud)\n• E — hij / zij / het / hem / haar (geen geslacht!)\n• Nos — wij / ons / we\n• Boso — jullie / u (formeel of meervoud)\n• Nan — zij / hen (meervoud) / zij (formeel enkelvoud)\n\nDRIE BIJZONDERHEDEN:\n1. GEEN GESLACHT: 'E' is zowel 'hij', 'zij' als 'het'. De context maakt duidelijk over wie je spreekt.\n2. GEEN NAAMVALLEN: 'Mi ta wak bo' (Ik kijk naar jou) én 'Bo ta wak mi' (Jij kijkt naar mij) — mi en bo veranderen niet.\n3. FORMEEL: 'Boso' gebruik je voor formele aanspreking van één persoon (vergelijkbaar met 'u') én voor meervoud (jullie).",
+    "voorbeelden": [
+      { "papiamentu": "Mi ta yama Ana", "vertaling": "Ik heet Ana (ik word Ana genoemd)" },
+      { "papiamentu": "Bo ta un bon amigo", "vertaling": "Jij bent een goede vriend" },
+      { "papiamentu": "E ta mi mama", "vertaling": "Zij is mijn moeder (of: Hij is mijn vader — context bepaalt)" },
+      { "papiamentu": "Nos ta bai huntu", "vertaling": "Wij gaan samen" },
+      { "papiamentu": "Boso por sinta", "vertaling": "U/jullie mogen gaan zitten" }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'E' voor man én vrouw — geen verwarring nodig",
+      "voorbeeld": "'E ta mi tanta.' (Zij is mijn tante.) | 'E ta mi omo.' (Hij is mijn oom.)",
+      "toelichting": "Voor Nederlandstaligen voelt het onwennig om 'hij' en 'zij' samen te voegen in één woord. In Papiamentu is dat de norm. Wie je bedoelt is altijd duidelijk uit de context of uit de naam die je eerder noemde."
+    },
+    {
+      "nuance": "'Nan' wordt soms voor één persoon gebruikt in spreektaal",
+      "voorbeeld": "'Nan ta kla' kan verwijzen naar één persoon (formeel of respectvol)",
+      "toelichting": "In sommige spreektaalcontexten, vergelijkbaar met 'they' als singulair in het Engels, gebruikt men 'nan' voor een persoon van wie het geslacht onbekend is of als beleefdheidsvorm."
+    },
+    {
+      "nuance": "'Boso' als respect-aanspreekvorm",
+      "voorbeeld": "Tegen een oudere of in een winkel: 'Boso ta wak kiko mi mester?'",
+      "toelichting": "'Boso' is de beleefdheidsvorm in Papiamentu. In een toko, op kantoor of bij een eerste ontmoeting met ouderen gebruik je 'boso' in plaats van 'bo'. Dit is hetzelfde principe als 'u' in het Nederlands."
+    },
+    {
+      "nuance": "'Nos' kan inclusief of exclusief zijn",
+      "voorbeeld": "'Nos ta bai' kan betekenen: wij gaan (inclusief de hoorder) OF wij gaan (exclusief de hoorder)",
+      "toelichting": "Papiamentu maakt geen grammaticaal onderscheid tussen inclusief-nos (inclusief jou) en exclusief-nos (jij niet mee). De context of toon maakt het duidelijk."
+    }
+  ],
+  "woorden": [
+    { "woord": "Mi", "uitspraak": "mie", "vertaling": "Ik / mij / me" },
+    { "woord": "Bo", "uitspraak": "bo", "vertaling": "Jij / jou / je (informeel)" },
+    { "woord": "E", "uitspraak": "e", "vertaling": "Hij / zij / het / hem / haar" },
+    { "woord": "Nos", "uitspraak": "nos", "vertaling": "Wij / ons / we" },
+    { "woord": "Boso", "uitspraak": "bo-so", "vertaling": "Jullie / u (formeel)" },
+    { "woord": "Nan", "uitspraak": "nan", "vertaling": "Zij / hen (meervoud)" },
+    { "woord": "Yama", "uitspraak": "ja-ma", "vertaling": "Heten / noemen / roepen" },
+    { "woord": "Huntu", "uitspraak": "hoen-toe", "vertaling": "Samen" },
+    { "woord": "Amigo/Amiga", "uitspraak": "a-mie-go / a-mie-ga", "vertaling": "Vriend (m) / vriendin (v)" },
+    { "woord": "Sinta", "uitspraak": "sin-ta", "vertaling": "Zitten / gaan zitten" }
+  ],
+  "culturele_context": "Op Curaçao is de keuze tussen 'bo' en 'boso' meer dan grammatica — het is een sociale signaal. 'Bo' zegt: we zijn gelijk, we kennen elkaar. 'Boso' zegt: ik respecteer jouw positie of leeftijd.\n\nIn winkels, bij de overheid en bij ouderen is 'boso' de veilige keuze. Jongeren onderling en vrienden gebruiken altijd 'bo'. Als je twijfelt: begin met 'boso'. Als de ander je met 'bo' antwoordt, mag je overschakelen.\n\nHet ontbreken van geslacht in 'e' weerspiegelt een Papiamentse pragmatiek: onnodige grammaticale complexiteit wordt vermeden. In de Curaçaose cultuur staat directe, heldere communicatie centraal — taal moet verbinden, niet compliceren.",
+  "scenario_links": ["scenario-001", "scenario-002"],
+  "eindoefening": [
+    { "vraag": "Hoeveel voornaamwoorden heeft Papiamentu?", "opties": ["Zes", "Vier", "Acht", "Tien"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'ik' in Papiamentu?", "opties": ["Mi", "Yo", "Ik", "Me"], "correct": 0 },
+    { "vraag": "Welk voornaamwoord gebruik je voor zowel 'hij' als 'zij'?", "opties": ["E", "Nan", "Bo", "Nos"], "correct": 0 },
+    { "vraag": "Wat is het formele aanspreekvorm in Papiamentu?", "opties": ["Boso", "Bo", "E", "Nan"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wij gaan samen'?", "opties": ["Nos ta bai huntu", "Nos bai ta huntu", "Mi nos ta bai huntu", "Boso ta bai huntu"], "correct": 0 },
+    { "vraag": "Veranderen voornaamwoorden in Papiamentu van vorm als subject vs. object?", "opties": ["Nee, ze blijven altijd hetzelfde", "Ja, net als in het Nederlands", "Alleen 'mi' verandert", "Alleen bij formele spraak"], "correct": 0 },
+    { "vraag": "Wat betekent 'e ta mi mama'?", "opties": ["Zij/Hij is mijn moeder/vader", "Het is mijn mama", "Dit is voor mama", "Mama is er"], "correct": 0 },
+    { "vraag": "Wanneer gebruik je 'boso' voor één persoon?", "opties": ["Bij formele of respectvolle aanspreking", "Altijd voor volwassenen", "Nooit voor één persoon", "Alleen bij de overheid"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Jij bent een goede vriend'?", "opties": ["Bo ta un bon amigo", "Tu ta un bon amigo", "Boso ta un bon amigo", "E ta un bon amigo"], "correct": 0 },
+    { "vraag": "Wat betekent 'yama'?", "opties": ["Heten / noemen / roepen", "Gaan", "Zijn", "Praten"], "correct": 0 },
+    { "vraag": "Welk voornaamwoord gebruik je voor 'zij' (meervoud)?", "opties": ["Nan", "E", "Boso", "Nos"], "correct": 0 },
+    { "vraag": "Hoe verschilt Papiamentu van het Nederlands bij voornaamwoorden?", "opties": ["Geen geslacht en geen naamvallen", "Meer geslachten", "Aparte vormen voor subject/object", "Formele/informele werkwoordsvormen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'U mag gaan zitten'?", "opties": ["Boso por sinta", "Bo por sinta", "E por sinta", "Nan por sinta"], "correct": 0 },
+    { "vraag": "Wat betekent 'huntu'?", "opties": ["Samen", "Gelukkig", "Nu", "Altijd"], "correct": 0 },
+    { "vraag": "In welke situatie schakel je van 'boso' naar 'bo'?", "opties": ["Als de ander zelf 'bo' gebruikt", "Nooit", "Na twee gesprekken", "Altijd bij vrienden"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik heet Ana'?", "opties": ["Mi ta yama Ana", "Mi yama ta Ana", "Ana ta mi yama", "Mi ta Ana yama"], "correct": 0 },
+    { "vraag": "Wat is 'sinta'?", "opties": ["Zitten / gaan zitten", "Staan", "Lopen", "Liggen"], "correct": 0 },
+    { "vraag": "Welk voornaamwoord gebruik je voor 'wij'?", "opties": ["Nos", "Boso", "Nan", "Mi"], "correct": 0 },
+    { "vraag": "Wat is het informele 'jij' in Papiamentu?", "opties": ["Bo", "Boso", "E", "Tu"], "correct": 0 },
+    { "vraag": "Waarom heeft Papiamentu geen geslacht in 'e'?", "opties": ["De taal vermijdt onnodige grammaticale complexiteit", "Het is een fout in de grammatica", "Alleen in informeel taalgebruik", "Geslacht staat in de naam, niet het voornaamwoord"], "correct": 0 }
+  ]
+}

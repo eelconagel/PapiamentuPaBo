@@ -1,0 +1,103 @@
+{
+  "id": "scenario-003",
+  "title": "Jezelf voorstellen",
+  "difficulty": "Easy",
+  "category": "Sociale kennismaking",
+  "intro": "Je bent op een sociale gelegenheid of maakt kennis met nieuwe buren. Op Curaçao is een informele kennismaking de norm; wees open en vriendelijk.",
+  "introWords": [
+    { "papiamentu": "Mi nòmber ta...", "dutch": "Mijn naam is...", "pronunciation": "mie nom-ber ta" },
+    { "papiamentu": "Kon ta bai?", "dutch": "Hoe gaat het?", "pronunciation": "kon ta bay" },
+    { "papiamentu": "Muchu gustu", "dutch": "Aangenaam (kennis te maken)", "pronunciation": "moe-choe goes-toe" },
+    { "papiamentu": "Di unda bo ta?", "dutch": "Waar kom je vandaan?", "pronunciation": "die oen-da bo ta" }
+  ],
+  "grammar": {
+    "title": "Kennismakingszinnen",
+    "explanation": [
+      "Om je naam te zeggen gebruik je 'Mi nòmber ta [naam]'.",
+      "Vraag naar iemands herkomst met 'Di unda bo ta?'.",
+      "Wanneer je wordt voorgesteld aan iemand, zeg je 'Muchu gustu' (Aangenaam)."
+    ],
+    "exercises": [
+      {
+        "question": "Hoe stel je jezelf voor?",
+        "options": ["Mi nòmber ta...", "Bon dia", "Ayo", "Pasa denter"],
+        "correct": 0,
+        "explanation": "'Mi nòmber ta...' is de standaard manier om je naam te zeggen."
+      },
+      {
+        "question": "Iemand zegt 'Muchu gustu' tegen jou. Wat is een passante reactie?",
+        "options": ["Muchu gustu tambe", "Ayo", "Bon nochi", "Danki"],
+        "correct": 0,
+        "explanation": "'Muchu gustu tambe' betekent 'Aangenaam, ook'."
+      },
+      {
+        "question": "Hoe vraag je aan iemand waar die vandaan komt?",
+        "options": ["Di unda bo ta?", "Kon ta bai?", "Bonbiní", "Kiko bo ke?"],
+        "correct": 0,
+        "explanation": "'Di unda bo ta?' vraagt naar de afkomst."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Mi nòmber ta", "dutch": "Mijn naam is", "pronunciation": "mie nom-ber ta", "example": "Mi nòmber ta Eelco." },
+    { "papiamentu": "Muchu gustu", "dutch": "Aangenaam", "pronunciation": "moe-choe goes-toe", "example": "Muchu gustu di konosé bo." },
+    { "papiamentu": "Di unda bo ta?", "dutch": "Waar kom je vandaan?", "pronunciation": "die oen-da bo ta", "example": "Di unda bo ta? Mi ta di Hulanda." },
+    { "papiamentu": "Bo ta biba akí?", "dutch": "Woon je hier?", "pronunciation": "bo ta bie-ba a-kie", "example": "Bo ta biba akí na Kòrsou?" },
+    { "papiamentu": "Kon ta bai?", "dutch": "Hoe gaat het?", "pronunciation": "kon ta bay", "example": "Bon dia, kon ta bai?" },
+    { "papiamentu": "Mi ta traha na...", "dutch": "Ik werk bij...", "pronunciation": "mie ta tra-ha na", "example": "Mi ta traha na gobièrnu." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Te direct zijn",
+      "detail": "Op Curaçao is het beleefd om eerst een praatje te maken over koetjes en kalfjes (hoe gaat het, hoe vind je het eiland) voordat je direct vraagt wat iemand voor werk doet.",
+      "remember": "Eerst contact, dan details."
+    },
+    {
+      "trap": "Formeel vs. informeel",
+      "detail": "Je hoeft op Curaçao minder snel 'u' te gebruiken. 'Bo' (jij/jou) is bijna altijd de standaard, zelfs bij kennismaking.",
+      "remember": "Gebruik 'Bo', niet 'U'."
+    }
+  ],
+  "culture": {
+    "title": "Kennismaking op Curaçao",
+    "intro": "Kennismaken gaat op Curaçao vaak via via. Er is een sterke 'ons-kent-ons' cultuur.",
+    "facts": [
+      "Het is heel normaal om bij een eerste kennismaking gevraagd te worden naar familie of waar je woont.",
+      "Een glimlach en direct oogcontact bij het voorstellen zijn essentieel voor een goede eerste indruk.",
+      "Men hecht waarde aan je intentie: ben je er voor vakantie, werk, of woon je hier?"
+    ],
+    "didYouKnow": "Wist je dat als je mensen kent, je vaak bij je voornaam wordt genoemd, maar als je in een formele sector werkt, titels soms nog wel worden gebruikt?"
+  },
+  "quiz": [
+    {
+      "question": "Hoe reageer je op 'Muchu gustu'?",
+      "options": ["Muchu gustu tambe", "Ayo", "Danki", "Bonbiní"],
+      "correct": 0,
+      "explanation": "'Tambe' betekent 'ook'."
+    },
+    {
+      "question": "Wat betekent 'Mi ta traha na...'?",
+      "options": ["Ik werk bij...", "Ik woon in...", "Ik kom van...", "Ik ben..."],
+      "correct": 0,
+      "explanation": "'Traha' betekent 'werken'."
+    },
+    {
+      "question": "Wat is de meest gebruikte aanspreekvorm op Curaçao?",
+      "options": ["Bo (jij)", "U (u)", "Gij", "Jullie"],
+      "correct": 0,
+      "explanation": "'Bo' is de standaard en meest vriendelijke aanspreekvorm."
+    },
+    {
+      "question": "Wat is een goede opening bij een kennismaking?",
+      "options": ["Bon dia, mi nòmber ta...", "Kiko bo ta hasi?", "Ayo", "Pasa denter"],
+      "correct": 0,
+      "explanation": "Groet eerst, noem dan je naam."
+    },
+    {
+      "question": "Hoe vraag je aan iemand waar die woont?",
+      "options": ["Unda bo ta biba?", "Kiko bo ta biba?", "Kon ta biba?", "Danki pa biba"],
+      "correct": 0,
+      "explanation": "'Unda' = waar, 'biba' = wonen."
+    }
+  ]
+}

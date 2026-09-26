@@ -1,0 +1,73 @@
+{
+  "id": 30,
+  "blok": 3,
+  "titel": "Spreektaal-logica: Verbindingswoorden en Nuanceerders",
+  "grammatica": {
+    "uitleg": "Vloeiend Papiamentu gaat niet alleen over structuren — het gaat over hoe je die structuren verbindt en nuanceert. In deze les leer je de lijm van de taal.\n\nCONNECTOREN (verbindingswoorden):\n• I (en): 'E ta bon i bunita.' (Het is goed en mooi.)\n• Pero (maar): 'Mi kier bai, pero mi no por.' (Ik wil gaan, maar ik kan niet.)\n• Pasobra (omdat/want): 'Mi no a bai pasobra mi tabata kansa.' (Ik ging niet want ik was moe.)\n• Dunke / Dunkê (dus/daarom): 'E ta kansa, dunke e ta drumi.' (Hij is moe, dus slaapt hij.)\n• Sinembargo (maar/echter): 'E ta bon, sinembargo tin problemanan.' (Het is goed, maar er zijn problemen.)\n• Ademas (bovendien): 'Ademas di esei, tin mas.' (Bovendien is er meer.)\n• Tampoko (ook niet / evenmin): 'Mi no a bai, i bo tampoko.' (Ik ging niet, en jij ook niet.)\n\nNUANCEERDERS:\n• Nèt (net/precies/juist): 'Nèt ku mi ta papia di dje, e a yega.' (Net als ik over hem/haar praat, komt hij/zij aan.)\n• Yá (al/reeds): 'E yá a kome.' (Hij heeft al gegeten.)\n• Ainda (nog steeds): 'E ainda ta na kas.' (Hij/zij is nog steeds thuis.)\n• Sòl (alleen/enkel): 'Mi sòl a bai.' (Alleen ik ging.)\n• Awóra (nu meteen / op dit moment): 'Awóra mi mester bai.' (Nu meteen moet ik gaan.)",
+    "voorbeelden": [
+      { "papiamentu": "Mi a kumpra e buki, pero mi ainda no a lesa dje.", "vertaling": "Ik kocht het boek, maar ik heb het nog niet gelezen." },
+      { "papiamentu": "E no a yega, dunke nos a kuminsá sin dje.", "vertaling": "Hij/zij is niet aangekomen, dus begonnen we zonder hem/haar." },
+      { "papiamentu": "Mi kier bai ku boso, pero mi ta kansa, ademas mi tin trabou mayan.", "vertaling": "Ik wil met jullie meegaan, maar ik ben moe, bovendien heb ik morgen werk." },
+      { "papiamentu": "Nèt ku mi a habri e porta, e yobida a kuminsá.", "vertaling": "Net toen ik de deur opende, begon het te regenen." },
+      { "papiamentu": "E no a yama mi, i bo tampoko — dunke mi no sabi nada.", "vertaling": "Hij/zij belde mij niet, en jij ook niet — dus weet ik helemaal niets." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'Pasobra' vs. 'pasobra di' — reden vs. aanleiding",
+      "voorbeeld": "'Mi ta kansa pasobra mi a traha hopi' (ik ben moe want ik heb veel gewerkt — zin) vs. 'pasobra di e fiesta' (vanwege het feest — naamwoord)",
+      "toelichting": "'Pasobra' verbindt met een zin (+ subject + werkwoord). 'Pasobra di' verbindt met een naamwoordgroep. Dit verschil is zoals het Nederlands 'omdat' (zin) vs. 'vanwege' (naamwoord). Beheers beide varianten."
+    },
+    {
+      "nuance": "'Dunke' als logisch gevolg — sterker dan 'dus'",
+      "voorbeeld": "'E no a bini, dunke e lo mester paga bèk' — 'dunke' legt een logisch, onvermijdelijk gevolg aan",
+      "toelichting": "'Dunke' heeft een licht redenerende toon — bijna als een conclusie trekken. Het is sterker dan gewone verbinding. In een discussie of uitleg geeft 'dunke' de slotsom. Let ook op de informele uitspraakvarianten: 'dun' ke' (met korte pauze) en 'dus' (leenwoord uit het Nederlands)."
+    },
+    {
+      "nuance": "'Nèt ku' voor gelijktijdigheid — perfecte timing uitdrukken",
+      "voorbeeld": "'Nèt ku mi a sali, e a yega' (Net toen ik vertrok, arriveerde hij) — twee tegelijk",
+      "toelichting": "'Nèt ku' is het Papiamentse equivalent van het Nederlandse 'net toen' of 'precies op het moment dat'. Het wordt veel gebruikt in verhalen omdat het dramatische gelijktijdigheid uitdrukt. Oefen het als vertelgereedschap."
+    },
+    {
+      "nuance": "'Tampoko' — negatief 'ook' moet expliciet worden uitgedrukt",
+      "voorbeeld": "'Mi no ta bai, i e tampoko' (ik ga niet, en hij/zij ook niet) vs. FOUT: 'Mi no ta bai, i e tambe' (dan is 'tambe' = 'ook', niet de negatieve versie)",
+      "toelichting": "'Tambe' betekent 'ook' (positief). 'Tampoko' betekent 'ook niet' (negatief). Dit onderscheid is essentieel — de verkeerde keuze keert de betekenis om. Onthoud: als de zin negatief is, gebruik je 'tampoko'."
+    }
+  ],
+  "woorden": [
+    { "woord": "Pasobra", "uitspraak": "pa-so-bra", "vertaling": "Omdat / want / vanwege" },
+    { "woord": "Dunke", "uitspraak": "doen-ke", "vertaling": "Dus / daarom / derhalve" },
+    { "woord": "Sinembargo", "uitspraak": "sin-em-bar-go", "vertaling": "Maar / echter / desalniettemin" },
+    { "woord": "Ademas", "uitspraak": "a-de-mas", "vertaling": "Bovendien / daarnaast / ook nog" },
+    { "woord": "Tampoko", "uitspraak": "tam-po-ko", "vertaling": "Ook niet / evenmin" },
+    { "woord": "Nèt", "uitspraak": "net", "vertaling": "Net / precies / juist (tijdsaanduiding)" },
+    { "woord": "Ainda", "uitspraak": "ain-da", "vertaling": "Nog steeds / nog altijd" },
+    { "woord": "Sòl", "uitspraak": "sol", "vertaling": "Alleen / enkel" },
+    { "woord": "Yobida", "uitspraak": "jo-bie-da", "vertaling": "Regen" },
+    { "woord": "Porta", "uitspraak": "por-ta", "vertaling": "Deur" }
+  ],
+  "culturele_context": "Verbindingswoorden zijn de sociale architectuur van een gesprek. Op Curaçao wordt 'pero' (maar) zelden koud gebruikt — er volgt altijd een nuancering of uitleg. 'Mi no por bai, pero...' is een opener, niet een afsluiter. De spreker nodigt je uit zijn/haar situatie te begrijpen.\n\n'Pasobra' is het uitlegwoord bij uitstek. Op Curaçao leg je graag uit — het is geen verontschuldiging maar een gebaar van respect. Als je je reden deelt, toon je dat de ander telt in jouw besluitvorming.\n\nRegen ('yobida') is op Curaçao een bijzonder thema. Het eiland is semi-aride — regen is welkom maar zeldzaam. 'Ta yobida' (het regent) is soms bijna nieuws. 'Nèt ku e a habri, e yobida a kuminsá' — de perfecte slechte timing is een universeel menselijk verhaal.",
+  "scenario_links": ["scenario-007", "scenario-011"],
+  "eindoefening": [
+    { "vraag": "Hoe zeg je 'omdat'?", "opties": ["Pasobra", "Pero", "Dunke", "Sinembargo"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'dus / daarom'?", "opties": ["Dunke", "Pero", "Pasobra", "Tampoko"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'bovendien'?", "opties": ["Ademas", "Tambe", "Ainda", "Sòl"], "correct": 0 },
+    { "vraag": "Wat is het verschil tussen 'tambe' en 'tampoko'?", "opties": ["'Tambe' = ook (positief), 'tampoko' = ook niet (negatief)", "Ze zijn hetzelfde", "'Tampoko' is formeler", "'Tambe' is voor negatieve zinnen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik ging niet want ik was moe'?", "opties": ["Mi no a bai pasobra mi tabata kansa", "Mi no a bai pero mi tabata kansa", "Mi no a bai dunke mi tabata kansa", "Mi no a bai sinembargo mi tabata kansa"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'nog steeds'?", "opties": ["Ainda", "Nèt", "Yá", "Sòl"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Hij is nog steeds thuis'?", "opties": ["E ainda ta na kas", "E yá ta na kas", "E sòl ta na kas", "E nèt ta na kas"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Net toen ik vertrok, arriveerde hij'?", "opties": ["Nèt ku mi a sali, e a yega", "Ku mi a sali, nèt e a yega", "Mi a sali nèt ku e a yega", "Nèt mi a sali, e a yega"], "correct": 0 },
+    { "vraag": "Hoe gebruik je 'pasobra di' tegenover 'pasobra'?", "opties": ["'Pasobra di' + naamwoord; 'pasobra' + zin", "Ze zijn uitwisselbaar", "'Pasobra di' is formeler", "'Pasobra' + naamwoord; 'pasobra di' + zin"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik kocht het boek, maar ik heb het nog niet gelezen'?", "opties": ["Mi a kumpra e buki, pero mi ainda no a lesa dje", "Mi a kumpra e buki, pero mi no a lesa dje ainda", "Beide zijn correct", "Geen van beide"], "correct": 2 },
+    { "vraag": "Hoe zeg je 'alleen ik'?", "opties": ["Mi sòl", "Sòl mi", "Beide zijn correct", "Geen van beide"], "correct": 2 },
+    { "vraag": "Wat is 'yobida'?", "opties": ["Regen", "Wind", "Zon", "Wolken"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Hij/zij belde niet, en jij ook niet'?", "opties": ["E no a yama mi, i bo tampoko", "E no a yama mi, i bo tambe no", "E no a yama mi, tampoko bo", "Alle drie betekenen hetzelfde"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Maar er zijn problemen'?", "opties": ["Sinembargo tin problemanan", "Pero tin problemanan", "Beide zijn correct", "Geen van beide"], "correct": 2 },
+    { "vraag": "Wat is 'porta'?", "opties": ["Deur", "Venster", "Poort", "Muur"], "correct": 0 },
+    { "vraag": "Wat is 'awóra'?", "opties": ["Nu meteen / op dit moment", "Morgen vroeg", "Soms", "Altijd"], "correct": 0 },
+    { "vraag": "Hoe gebruik je 'dunke' in een zin?", "opties": ["Als logisch gevolg: 'E ta kansa, dunke e ta drumi'", "Als reden: 'Mi no bai dunke kansa'", "Als tegenstelling: 'E ta bon, dunke tin problema'", "Als toevoeging: 'Dunke ademas'"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Hij heeft al gegeten'?", "opties": ["E yá a kome", "E ainda a kome", "E nèt a kome", "E a kome yá"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'ik wil gaan, maar ik kan niet, bovendien heb ik morgen werk'?", "opties": ["Mi kier bai, pero mi no por, ademas mi tin trabou mayan", "Mi kier bai pero mi no por ademas mi tin trabou mayan", "Beide zijn correct (komma optioneel)", "Geen van beide"], "correct": 2 },
+    { "vraag": "Waarom volgt 'pero' in Papiamentse gesprekken bijna altijd een uitleg?", "opties": ["Een nuancering na 'pero' is een teken van respect — de ander telt in jouw redenering", "De grammatica vereist het", "Anders klinkt het te direct", "Het is een formele regel"], "correct": 0 }
+  ]
+}

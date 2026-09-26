@@ -1,0 +1,37 @@
+services:
+  web:
+    build: .
+    image: papiamentu-pa-bo:latest
+    container_name: papiamentu-pa-bo
+    restart: unless-stopped
+    ports:
+      # Only reachable from the server itself by default; the reverse proxy forwards to it.
+      - "${BIND_ADDRESS:-127.0.0.1}:${PORT:-8000}:8000"
+    environment:
+      SECRET_KEY: ${SECRET_KEY:?Set SECRET_KEY in .env}
+      PROXY_COUNT: ${PROXY_COUNT:-1}
+      COOKIE_SECURE: ${COOKIE_SECURE:-1}
+      CONTACT_LIMIT_PER_IP_HOUR: ${CONTACT_LIMIT_PER_IP_HOUR:-5}
+      CONTACT_LIMIT_PER_DAY: ${CONTACT_LIMIT_PER_DAY:-100}
+      SMTP_HOST: ${SMTP_HOST:-}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_USER: ${SMTP_USER:-}
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+      SMTP_FROM: ${SMTP_FROM:-}
+      NOTIFY_EMAIL: ${NOTIFY_EMAIL:-}
+      PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET:-}
+      MICROSOFT_CLIENT_ID: ${MICROSOFT_CLIENT_ID:-}
+      MICROSOFT_CLIENT_SECRET: ${MICROSOFT_CLIENT_SECRET:-}
+      APPLE_CLIENT_ID: ${APPLE_CLIENT_ID:-}
+      APPLE_TEAM_ID: ${APPLE_TEAM_ID:-}
+      APPLE_KEY_ID: ${APPLE_KEY_ID:-}
+      APPLE_PRIVATE_KEY: ${APPLE_PRIVATE_KEY:-}
+      FACEBOOK_CLIENT_ID: ${FACEBOOK_CLIENT_ID:-}
+      FACEBOOK_CLIENT_SECRET: ${FACEBOOK_CLIENT_SECRET:-}
+    volumes:
+      - papiamentu-data:/data
+
+volumes:
+  papiamentu-data:

@@ -1,0 +1,73 @@
+{
+  "id": 13,
+  "blok": 2,
+  "titel": "Het werkwoord 'Tin': Hebben en Existentiële zinnen",
+  "grammatica": {
+    "uitleg": "'Tin' is Papiamentu's werkwoord voor 'hebben' — maar het doet meer dan dat. Het is ook het werkwoord voor existentie: 'er is' en 'er zijn'.\n\nBEZIT:\nSubject + tin + [wat je hebt]\n• Mi tin un kas. (Ik heb een huis.)\n• E tin hopi plaka. (Hij/zij heeft veel geld.)\n• Nos tin dos outo. (Wij hebben twee auto's.)\n\nEXISTENTIEEL: 'Tin' zonder subject = 'er is/zijn'\n• Tin un problema. (Er is een probleem.)\n• Tin hopi hende na playa. (Er zijn veel mensen op het strand.)\n• No tin plaka. (Er is geen geld.)\n\nLEEFTIJD: 'Tin' + getal + 'aña'\n• Mi tin bente aña. (Ik ben twintig jaar oud.)\n• E tin sinku aña. (Hij/zij is vijf jaar oud.)\n\nLET OP: 'Tin' gebruikt NOOIT 'ta' als aspect-marker in de tegenwoordige tijd. Je zegt 'Mi tin', NIET 'Mi ta tin'.",
+    "voorbeelden": [
+      { "papiamentu": "Mi tin un pregunta", "vertaling": "Ik heb een vraag" },
+      { "papiamentu": "Tin awa na grifo?", "vertaling": "Is er water uit de kraan? (Er is water?)" },
+      { "papiamentu": "No tin problema", "vertaling": "Er is geen probleem / Geen probleem" },
+      { "papiamentu": "E tin kuater aña", "vertaling": "Hij/zij is vier jaar oud" },
+      { "papiamentu": "Tin hopi kos pa hasi awe", "vertaling": "Er is veel te doen vandaag" }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'No tin problema' als sociale smeerolie",
+      "voorbeeld": "Iemand bedankt je uitgebreid — jij: 'No tin problema!' (Geen probleem!)",
+      "toelichting": "'No tin problema' is de vriendelijke en directe manier om te zeggen dat iets geen moeite was. Het is warmer dan 'di nada' en wordt veel gebruikt in dagelijkse interacties."
+    },
+    {
+      "nuance": "'Tin' NOOIT met 'ta'",
+      "voorbeeld": "'Mi tin' (CORRECT) vs. 'Mi ta tin' (FOUT — interferentiefout van het Nederlands 'ik ben aan het hebben')",
+      "toelichting": "Dit is de meest voorkomende fout van Nederlandstaligen. 'Tin' is een stativisch werkwoord (toestandswerkwoord) en heeft geen progressieve vorm. Het staat altijd zonder 'ta'."
+    },
+    {
+      "nuance": "Existentieel 'tin' zonder onderwerp klinkt als een uitroep",
+      "voorbeeld": "'Tin carne fresku awor!' (Er is nu vers vlees!) — zoals een marktkoopman roept",
+      "toelichting": "Existentieel 'tin' zonder subject wordt ook gebruikt als aankondiging of uitroep. Je hoort dit op markten, in tokonan en bij aankondigingen."
+    },
+    {
+      "nuance": "Leeftijd met 'tin' is anders dan in het Nederlands",
+      "voorbeeld": "'E tin dies aña' = letterlijk 'hij/zij heeft tien jaar' — niet 'hij/zij is tien jaar'",
+      "toelichting": "In Papiamentu 'heb' je een leeftijd in plaats van dat je die 'bent'. Dit is een Spaans/Portugees patroon (tener años). De logica: de jaren zijn van jou."
+    }
+  ],
+  "woorden": [
+    { "woord": "Tin", "uitspraak": "tin", "vertaling": "Hebben / er is/zijn" },
+    { "woord": "Plaka", "uitspraak": "pla-ka", "vertaling": "Geld" },
+    { "woord": "Pregunta", "uitspraak": "pre-goen-ta", "vertaling": "Vraag" },
+    { "woord": "Problema", "uitspraak": "pro-ble-ma", "vertaling": "Probleem" },
+    { "woord": "Hende", "uitspraak": "hen-de", "vertaling": "Mens / mensen / iemand" },
+    { "woord": "Aña", "uitspraak": "an-ja", "vertaling": "Jaar" },
+    { "woord": "Kos", "uitspraak": "kos", "vertaling": "Ding / zaak / iets" },
+    { "woord": "Nada", "uitspraak": "na-da", "vertaling": "Niets" },
+    { "woord": "Algu", "uitspraak": "al-goe", "vertaling": "Iets / een of ander" },
+    { "woord": "Bastante", "uitspraak": "bas-tan-te", "vertaling": "Genoeg / voldoende" }
+  ],
+  "culturele_context": "'No tin problema' is meer dan een taalkundige uitdrukking — het is een Curaçaose levenshouding. Problemen worden niet ontkend, maar ze worden ook niet groter gemaakt dan ze zijn. De eerste reactie op een complicatie is vaak een glimlach en: 'No tin problema, nos lo resolve esei.' (Geen probleem, we lossen dat op.)\n\nDeze pragmatische optimisme heeft historische wortels. Een eilandgemeenschap die afhankelijk is van elkaar leert snel dat paniek niets oplost maar samenwerking wel.\n\n'Tin hopi kos' (er is veel) wordt ook gebruikt om een rijke sociale agenda te beschrijven. Op Curaçao zijn er altijd evenementen, familiebijeenkomsten, festivals en spontane samenkomsten. Het sociale leven is vol.",
+  "scenario_links": ["scenario-004", "scenario-009"],
+  "eindoefening": [
+    { "vraag": "Wat betekent 'tin' in Papiamentu?", "opties": ["Hebben / er is/zijn", "Zijn (copula)", "Doen", "Gaan"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik heb een vraag'?", "opties": ["Mi tin un pregunta", "Mi ta tin un pregunta", "Mi ta hasi un pregunta", "Tin mi un pregunta"], "correct": 0 },
+    { "vraag": "Hoe gebruik je 'tin' voor existentie?", "opties": ["Tin zonder onderwerp: 'Tin un problema'", "Met 'ta': 'Ta tin un problema'", "Met 'e': 'E tin un problema'", "Met 'nos': 'Nos tin un problema'"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Er is geen probleem'?", "opties": ["No tin problema", "Tin no problema", "Tin problema no", "No ta tin problema"], "correct": 0 },
+    { "vraag": "Hoe zeg je de leeftijd 'Ik ben 20 jaar oud'?", "opties": ["Mi tin bente aña", "Mi ta bente aña", "Mi es bente aña", "Mi ta tin bente aña"], "correct": 0 },
+    { "vraag": "Waarom zeg je NOOIT 'mi ta tin'?", "opties": ["'Tin' is een stativisch werkwoord dat geen progressieve vorm heeft", "'Tin' staat altijd aan het begin van de zin", "'Ta' is al aanwezig in 'tin'", "Het is te lang"], "correct": 0 },
+    { "vraag": "Wat betekent 'Tin hopi hende na playa'?", "opties": ["Er zijn veel mensen op het strand", "Veel mensen gaan naar het strand", "Het strand heeft veel ruimte", "Mensen houden van het strand"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'hij is vijf jaar oud'?", "opties": ["E tin sinku aña", "E ta sinku aña oud", "E ta tin sinku aña", "Sinku aña e ta"], "correct": 0 },
+    { "vraag": "Wat is 'plaka'?", "opties": ["Geld", "Plak (stuk)", "Plaat", "Ticket"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Er is veel te doen vandaag'?", "opties": ["Tin hopi kos pa hasi awe", "Awe tin hopi hasi", "Hopi kos tin pa hasi awe", "Tin hopi pa hasi kos awe"], "correct": 0 },
+    { "vraag": "Wat is 'hende'?", "opties": ["Mens / mensen / iemand", "Kind", "Familie", "Buur"], "correct": 0 },
+    { "vraag": "Hoe vraag je 'Is er water?'", "opties": ["Tin awa?", "Ta tin awa?", "E tin awa?", "Awa ta tin?"], "correct": 0 },
+    { "vraag": "Wat is 'algu'?", "opties": ["Iets / een of ander", "Alles", "Niets", "Veel"], "correct": 0 },
+    { "vraag": "Wat is de leeftijdsstructuur in Papiamentu?", "opties": ["Subject + tin + getal + aña", "Subject + ta + getal + aña oud", "Subject + ta tin + getal + aña", "Getal + aña + subject + ta"], "correct": 0 },
+    { "vraag": "Wat is 'kos'?", "opties": ["Ding / zaak / iets", "Kost / prijs", "Keuze", "Koor"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wij hebben twee auto's'?", "opties": ["Nos tin dos outo", "Nos ta tin dos outo", "Dos outo tin nos", "Nos tin dos outonan"], "correct": 0 },
+    { "vraag": "Wat betekent existentieel 'tin' als uitroep?", "opties": ["Aankondiging: 'Tin karne fresku!'", "Vraag: 'Is er vlees?'", "Klacht: 'Er is geen vlees'", "Belofte: 'Er zal vlees zijn'"], "correct": 0 },
+    { "vraag": "Wat betekent 'No tin problema' cultureel gezien?", "opties": ["Een houding van pragmatisch optimisme — we lossen het op", "Er zijn nooit problemen op Curaçao", "Problemen worden genegeerd", "Het is een beleefde weigering"], "correct": 0 },
+    { "vraag": "Hoe verschilt de leeftijdsuitdrukking in Papiamentu van het Nederlands?", "opties": ["In Papiamentu 'heb' je een leeftijd (tin), in het Nederlands 'ben' je een leeftijd", "Ze zijn gelijk", "In Papiamentu gebruik je 'ta' voor leeftijd", "Er is geen verschil"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Er is iets voor jou'?", "opties": ["Tin algu pa bo", "E tin algu pa bo", "Algu tin pa bo", "Ta tin algu pa bo"], "correct": 0 }
+  ]
+}

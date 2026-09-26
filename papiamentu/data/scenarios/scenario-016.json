@@ -1,0 +1,103 @@
+{
+  "id": "scenario-016",
+  "title": "Een gesprek met de loodgieter over lekkage",
+  "difficulty": "Hard",
+  "category": "Wonen",
+  "intro": "Je ontdekt een waterlekkage in huis en moet direct een loodgieter inschakelen. Op Curaçao is snelle actie bij lekkages cruciaal vanwege de waterschaarste en de kans op schade door vocht.",
+  "introWords": [
+    { "papiamentu": "Tin un fuga di awa", "dutch": "Er is een waterlekkage", "pronunciation": "tin oen foo-ga die a-wa" },
+    { "papiamentu": "E awa ta sali hopi", "dutch": "Het water lekt hard", "pronunciation": "e a-wa ta sa-lie ho-pie" },
+    { "papiamentu": "Por bin drecha esaki?", "dutch": "Kun je dit repareren?", "pronunciation": "por bin dre-cha e-sa-kie" },
+    { "papiamentu": "Ki dia bo por bin?", "dutch": "Welke dag kun je komen?", "pronunciation": "kie dee-a bo por bin" }
+  ],
+  "grammar": {
+    "title": "Lekkages en reparaties",
+    "explanation": [
+      "Gebruik 'Fuga' voor een lek en 'Awa' voor water.",
+      "Gebruik 'Drecha' voor repareren of herstellen.",
+      "Geef de locatie aan door 'Den...' (In...) te gebruiken, bijvoorbeeld: 'Den kusina' (in de keuken)."
+    ],
+    "exercises": [
+      {
+        "question": "Wat betekent 'E pipa ta kibrá'?",
+        "options": ["De leiding is kapot", "De kraan lekt", "De wasbak is vol", "De watermeter is stuk"],
+        "correct": 0,
+        "explanation": "'Pipa' is leiding/buis en 'kibrá' is kapot."
+      },
+      {
+        "question": "Hoe zeg je: 'Het is dringend'?",
+        "options": ["E ta urgente", "E ta kla", "E ta bon", "E ta hopi"],
+        "correct": 0,
+        "explanation": "'Urgente' wordt in deze context veel gebruikt."
+      },
+      {
+        "question": "Wat vraag je als je wilt weten wat het kost?",
+        "options": ["Kuantu esaki ta kosta?", "Ki ora bo ta bin?", "Kiko bo ta drecha?", "E ta kibrá?"],
+        "correct": 0,
+        "explanation": "'Kuantu ... kosta' vraagt naar de prijs."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Fuga", "dutch": "Lek", "pronunciation": "foo-ga", "example": "Tin un fuga grandi." },
+    { "papiamentu": "Drecha", "dutch": "Repareren", "pronunciation": "dre-cha", "example": "Bo por drecha e tiña?" },
+    { "papiamentu": "Awa", "dutch": "Water", "pronunciation": "a-wa", "example": "E awa ta kore tur kaminda." },
+    { "papiamentu": "Pipa", "dutch": "Leiding/Buis", "pronunciation": "pie-pa", "example": "E pipa tin un buraku." },
+    { "papiamentu": "Kusina", "dutch": "Keuken", "pronunciation": "koo-sie-na", "example": "E fuga ta den kusina." },
+    { "papiamentu": "Dòktor di kas (metaphor)", "dutch": "Loodgieter (loodgieter = 'plomber')", "pronunciation": "plom-ber", "example": "Mi mester di un plomber." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Het woord 'loodgieter'",
+      "detail": "Op Curaçao wordt de term 'plomber' gebruikt (afgeleid van het Engelse 'plumber'). Als je 'loodgieter' zegt, begrijpen mensen je misschien niet direct.",
+      "remember": "Vraag naar een 'plomber'."
+    },
+    {
+      "trap": "Afwachten",
+      "detail": "Wacht bij een lekkage niet op een afspraak via WhatsApp als het water overal stroomt. Bel direct en geef aan dat het 'urgente' is.",
+      "remember": "Bellen bij spoed."
+    }
+  ],
+  "culture": {
+    "title": "Onderhoud en waterbeheer",
+    "intro": "Water is kostbaar op Curaçao. Een lekkage is niet alleen vervelend voor je woning, maar ook een verspilling die men op het eiland zeer serieus neemt.",
+    "facts": [
+      "Veel huizen hebben een eigen watermeter; leer hoe je deze afsluit in geval van nood.",
+      "Goede 'plombers' hebben het vaak druk; heb een paar telefoonnummers van betrouwbare vakmensen achter de hand.",
+      "Het is sociaal geaccepteerd om buren om een aanbeveling voor een goede plomber te vragen."
+    ],
+    "didYouKnow": "Wist je dat veel lekkages op Curaçao worden veroorzaakt door kalkaanslag in de leidingen vanwege het harde water?"
+  },
+  "quiz": [
+    {
+      "question": "Hoe noem je een loodgieter op Curaçao?",
+      "options": ["Plomber", "Tekniko", "Trahador", "Bisiña"],
+      "correct": 0,
+      "explanation": "'Plomber' is de lokale term."
+    },
+    {
+      "question": "Wat betekent 'Awa ta kore'?",
+      "options": ["Water stroomt", "Water is op", "Water is koud", "Water is schoon"],
+      "correct": 0,
+      "explanation": "'Kore' is stromen/rennen."
+    },
+    {
+      "question": "Hoe zeg je: 'Sluit het water af'?",
+      "options": ["Sera e awa", "Habri e awa", "Drecha e awa", "Tira e awa"],
+      "correct": 0,
+      "explanation": "'Sera' betekent sluiten/dichtdraaien."
+    },
+    {
+      "question": "Waarom is een lekkage op Curaçao extra urgent?",
+      "options": ["Vanwege waterschaarste", "Vanwege de regen", "Vanwege de buren", "Vanwege de prijs"],
+      "correct": 0,
+      "explanation": "Water is schaars en dus kostbaar."
+    },
+    {
+      "question": "Wat betekent 'Buraku'?",
+      "options": ["Gat", "Lek", "Pijp", "Kraan"],
+      "correct": 0,
+      "explanation": "'Buraku' is een gat (bijvoorbeeld in een leiding)."
+    }
+  ]
+}

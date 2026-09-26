@@ -1,0 +1,103 @@
+{
+  "id": "scenario-014",
+  "title": "Een bankrekening openen",
+  "difficulty": "Hard",
+  "category": "Bankzaken",
+  "intro": "Je bent net gesetteld op het eiland en hebt een lokale bankrekening nodig voor je salaris en vaste lasten. Banken op Curaçao zijn strikt wat betreft documentatie, dus wees goed voorbereid.",
+  "introWords": [
+    { "papiamentu": "Mi ke habri un kuenta di banko", "dutch": "Ik wil een bankrekening openen", "pronunciation": "mie ke ha-brie oen kwen-ta die ban-ko" },
+    { "papiamentu": "Kiko ta e rekisitonan?", "dutch": "Wat zijn de vereisten?", "pronunciation": "kee-ko ta e re-ki-si-to-nan" },
+    { "papiamentu": "Mi tin mi sédula", "dutch": "Ik heb mijn ID-kaart bij me", "pronunciation": "mie tin mie se-doo-la" },
+    { "papiamentu": "Kuantu ta e kostonan mensual?", "dutch": "Wat zijn de maandelijkse kosten?", "pronunciation": "kwan-too ta e kos-to-nan men-soo-al" }
+  ],
+  "grammar": {
+    "title": "Financiële termen en vragen",
+    "explanation": [
+      "Gebruik 'Habri' (openen) voor het openen van een rekening ('kuenta').",
+      "Vraag naar de mogelijkheden met 'Kiko ta e opshonnan?' (Wat zijn de opties?).",
+      "Omdat bankzaken formeel zijn, wordt er in het begin vaak formeel gesproken, maar blijf vriendelijk."
+    ],
+    "exercises": [
+      {
+        "question": "Wat betekent 'Kuenta di spar'?",
+        "options": ["Spaarrekening", "Betaalrekening", "Creditcard", "Lening"],
+        "correct": 0,
+        "explanation": "'Spar' komt van het Nederlandse 'sparen'."
+      },
+      {
+        "question": "Hoe vraag je: 'Heb ik een bewijs van inschrijving nodig?'",
+        "options": ["Mi mester di un prueba di inskripshon?", "Mi tin inskripshon?", "E inskripshon ta kla?", "Kiko ta inskripshon?"],
+        "correct": 0,
+        "explanation": "'Prueba' is bewijs, 'inskripshon' is inschrijving."
+      },
+      {
+        "question": "Wat betekent 'Salaris' in het Papiaments?",
+        "options": ["Salaris", "Werk", "Geld", "Bank"],
+        "correct": 0,
+        "explanation": "Dit woord wordt in het Papiaments hetzelfde gebruikt als in het Nederlands."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Kuenta", "dutch": "Rekening", "pronunciation": "kwen-ta", "example": "Mi ke habri un kuenta koriente." },
+    { "papiamentu": "Habri", "dutch": "Openen", "pronunciation": "ha-brie", "example": "Mi ke habri un kuenta nobo." },
+    { "papiamentu": "Kosto", "dutch": "Kosten", "pronunciation": "kos-to", "example": "Kiko ta e kostonan?" },
+    { "papiamentu": "Sédula", "dutch": "ID-kaart", "pronunciation": "se-doo-la", "example": "Bo mester di bo sédula." },
+    { "papiamentu": "Paga", "dutch": "Betalen", "pronunciation": "pa-ga", "example": "Mi mester paga pa e servisionan." },
+    { "papiamentu": "Depósito", "dutch": "Storting", "pronunciation": "de-po-si-to", "example": "Mi ke hasi un depósito." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Onderschatten van vereiste documenten",
+      "detail": "Banken op Curaçao vereisen vaak een werkgeversverklaring, bewijs van inschrijving bij Kranshi en een geldig identiteitsbewijs. Zonder deze documenten word je direct teruggestuurd.",
+      "remember": "Check de website of bel van tevoren."
+    },
+    {
+      "trap": "Terminologie verwarring",
+      "detail": "Hoewel veel termen lijken op het Nederlands of Spaans, is de bankcultuur lokaal. Vraag naar de 'bankier' (bankmedewerker) als je er niet uitkomt.",
+      "remember": "Vraag om verduidelijking."
+    }
+  ],
+  "culture": {
+    "title": "Bankieren op Curaçao",
+    "intro": "Bankieren op het eiland is een proces waar geduld en correcte documentatie de sleutels zijn tot succes.",
+    "facts": [
+      "Persoonlijk contact met een vaste bankier is vaak mogelijk en wordt gewaardeerd.",
+      "Het is heel gebruikelijk om je bankzaken ook via mobiel bankieren te doen, maar voor het openen van een rekening is een fysiek bezoek vereist.",
+      "Wees voorbereid op vragen over de herkomst van je geld ('source of funds'); dit is internationale standaard, ook op Curaçao."
+    ],
+    "didYouKnow": "Wist je dat veel banken op Curaçao ook nauw samenwerken met internationale instellingen, waardoor je soms Engelstalige documenten moet aanleveren?"
+  },
+  "quiz": [
+    {
+      "question": "Wat betekent 'Kuenta koriente'?",
+      "options": ["Betaalrekening", "Spaarrekening", "Beleggingsrekening", "Lening"],
+      "correct": 0,
+      "explanation": "'Kuenta koriente' is de standaard betaalrekening."
+    },
+    {
+      "question": "Hoe vraag je: 'Waar moet ik tekenen?'",
+      "options": ["Unda mi mester firma?", "Kiko mi ta firma?", "Bo ta firma?", "Mi a firma?"],
+      "correct": 0,
+      "explanation": "'Firma' betekent handtekening zetten/tekenen."
+    },
+    {
+      "question": "Wat betekent 'Banko'?",
+      "options": ["Bank", "Geld", "Kantoor", "Klant"],
+      "correct": 0,
+      "explanation": "Het Papiamentse woord voor bank."
+    },
+    {
+      "question": "Is het normaal om om een afspraak te vragen bij de bank?",
+      "options": ["Ja, zeker", "Nee, gewoon binnenlopen", "Nee, alleen bellen", "Alleen per mail"],
+      "correct": 0,
+      "explanation": "Voor het openen van een rekening is een afspraak bijna altijd nodig."
+    },
+    {
+      "question": "Wat betekent 'Minimo'?",
+      "options": ["Minimum", "Maximum", "Kosten", "Tijd"],
+      "correct": 0,
+      "explanation": "Wordt vaak gebruikt voor 'saldo mínimo' (minimum saldo)."
+    }
+  ]
+}

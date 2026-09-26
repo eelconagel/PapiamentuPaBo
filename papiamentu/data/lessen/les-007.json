@@ -1,0 +1,73 @@
+{
+  "id": 7,
+  "blok": 1,
+  "titel": "Zinsbouw (SVO): De stabiele basisvolgorde",
+  "grammatica": {
+    "uitleg": "Papiamentu volgt consequent de SVO-volgorde: Subject – Verbum (werkwoord/ta) – Object. Deze volgorde is opmerkelijk stabiel — zelfs bij vragen, ontkenningen en bijzinnen wijkt de basisvolgorde nauwelijks af.\n\nDE BASISVOLGORDE:\n[Subject] + [ta] + [werkwoord] + [object/rest]\nMi ta wak e mucha. (Ik kijk naar het kind.)\n\nWAAROM ZO STABIEL?\nPapiamentu heeft geen naamvallen (geen verschil tussen subject en object in de vorm van het woord). Dus de POSITIE in de zin bepaalt wie de handeling uitvoert en wie deze ondergaat. Verander de volgorde, en je verandert de betekenis fundamenteel:\n• Mi ta yuda bo. (Ik help jou.)\n• Bo ta yuda mi. (Jij helpt mij.)\n\nTIJDSBEPALINGEN EN BIJWOORDEN:\nTijdsbepalingen staan het liefst aan het BEGIN of het EINDE van de zin — nooit midden in de kernstructuur:\n• Awe mi ta bai. (Vandaag ga ik.) — begin\n• Mi ta bai mayan. (Ik ga morgen.) — einde",
+    "voorbeelden": [
+      { "papiamentu": "Mi ta yuda bo", "vertaling": "Ik help jou" },
+      { "papiamentu": "Bo ta yuda mi", "vertaling": "Jij helpt mij" },
+      { "papiamentu": "E mucha ta kome e pan", "vertaling": "Het kind eet het brood" },
+      { "papiamentu": "Nos ta wak un pelikula awe nochi", "vertaling": "Wij kijken vanavond een film" },
+      { "papiamentu": "Mayan mi ta papia ku bo", "vertaling": "Morgen praat ik met jou" }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "Tijdsbepaling aan het begin benadrukt urgentie",
+      "voorbeeld": "'Awe mi ta bai!' vs. 'Mi ta bai awe' — eerste voelt urgenter",
+      "toelichting": "Hoewel beide grammaticaal correct zijn, geeft de tijdsbepaling aan het begin van de zin een gevoel van nadruk of urgentie. Native speakers gebruiken dit bewust."
+    },
+    {
+      "nuance": "Object kan naar voren voor nadruk (topicalisatie)",
+      "voorbeeld": "'E pan mi ta kome' (Het brood — dát eet ik) — het object staat vooraan voor nadruk",
+      "toelichting": "Dit heet topicalisatie: je zet het 'onderwerp van gesprek' vooraan, ook al is het grammaticaal het object. Dit is expressief, niet foutief."
+    },
+    {
+      "nuance": "Geen inversie bij vragen",
+      "voorbeeld": "'Bo ta kome?' — CORRECT | 'Ta bo kome?' — FOUT",
+      "toelichting": "Anders dan in het Nederlands (eet jij?) of Spaans (¿comes tú?) verandert de woordvolgorde in Papiamentse vragen niet. De SVO-orde blijft intact. Alleen de intonatie verandert."
+    },
+    {
+      "nuance": "'Ku' verbindt zinsdelen",
+      "voorbeeld": "'Mi ta papia ku bo' (ik praat met jou) — 'ku' is het verbindingselement voor 'met'",
+      "toelichting": "'Ku' betekent 'met' als voorzetsel maar ook 'dat/die' als voegwoord. Het is een van de meest veelzijdige woorden in Papiamentu."
+    }
+  ],
+  "woorden": [
+    { "woord": "Wak", "uitspraak": "wak", "vertaling": "Kijken / zien" },
+    { "woord": "Yuda", "uitspraak": "joe-da", "vertaling": "Helpen" },
+    { "woord": "Papia", "uitspraak": "pa-pia", "vertaling": "Praten / spreken" },
+    { "woord": "Ku", "uitspraak": "koe", "vertaling": "Met / dat / die (meerdere functies)" },
+    { "woord": "Mucha", "uitspraak": "moe-cha", "vertaling": "Kind" },
+    { "woord": "Pelikula", "uitspraak": "pe-lie-koe-la", "vertaling": "Film" },
+    { "woord": "Konta", "uitspraak": "kon-ta", "vertaling": "Vertellen" },
+    { "woord": "Skucha", "uitspraak": "skoe-cha", "vertaling": "Luisteren" },
+    { "woord": "Tur dia", "uitspraak": "toer dee-a", "vertaling": "Elke dag" },
+    { "woord": "Despues", "uitspraak": "des-pwes", "vertaling": "Daarna / later" }
+  ],
+  "culturele_context": "De stabiele SVO-volgorde van Papiamentu maakt de taal consistent en voorspelbaar — ideaal voor een gemeenschap met sprekers van tientallen verschillende moedertalen. De structuur is een ankerpunt.\n\nIn dagelijkse gesprekken op Curaçao is de zinsstructuur bewust eenvoudig gehouden. Complexe bijzinnen worden vaak opgebroken in meerdere korte zinnen. Dit geeft gesprekken een directe, toegankelijke kwaliteit.\n\nEen culturele noot: 'papia' (praten) staat centraal in Papiamentse sociale interactie. 'Un bon papiamentu' (een goed gesprek) is op het eiland een doel op zichzelf. Mensen nemen de tijd — ook voor een praatje bij de toko of het wachten bij een overheidsloket.",
+  "scenario_links": ["scenario-001", "scenario-002"],
+  "eindoefening": [
+    { "vraag": "Wat is de basisvolgorde van een Papiamentse zin?", "opties": ["Subject – Verbum – Object (SVO)", "Verbum – Subject – Object (VSO)", "Object – Subject – Verbum (OSV)", "Subject – Object – Verbum (SOV)"], "correct": 0 },
+    { "vraag": "Waarom is de woordvolgorde zo belangrijk in Papiamentu?", "opties": ["Omdat er geen naamvallen zijn — positie bepaalt de rol", "Omdat er geen werkwoorden zijn", "Omdat de taal SVO vereist per wet", "Om dezelfde reden als in het Spaans"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik help jou'?", "opties": ["Mi ta yuda bo", "Bo ta yuda mi", "Mi yuda ta bo", "Ta mi yuda bo"], "correct": 0 },
+    { "vraag": "Wat verandert er bij een vraag t.o.v. een mededeling?", "opties": ["Alleen de intonatie — de woordvolgorde blijft gelijk", "Het werkwoord gaat naar voren", "'ta' verdwijnt", "Subject en object wisselen"], "correct": 0 },
+    { "vraag": "Wat betekent 'E mucha ta kome e pan'?", "opties": ["Het kind eet het brood", "Het brood eet het kind", "Het kind wil het brood eten", "Het kind heeft het brood gegeten"], "correct": 0 },
+    { "vraag": "Waar staan tijdsbepalingen het liefst in een Papiamentse zin?", "opties": ["Aan het begin of einde — nooit midden in de kernstructuur", "Altijd na 'ta'", "Altijd voor het werkwoord", "Altijd aan het einde"], "correct": 0 },
+    { "vraag": "Wat betekent 'Mayan mi ta papia ku bo'?", "opties": ["Morgen praat ik met jou", "Ik praat morgen niet met jou", "Jij praat morgen met mij", "Morgen praten wij samen"], "correct": 0 },
+    { "vraag": "Wat is topicalisatie in Papiamentu?", "opties": ["Het naar voren plaatsen van een object voor nadruk", "Het weglaten van het subject", "Een fout in de woordvolgorde", "Het gebruik van vraagwoorden"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Jij helpt mij'?", "opties": ["Bo ta yuda mi", "Mi ta yuda bo", "Yuda mi ta bo", "Bo mi ta yuda"], "correct": 0 },
+    { "vraag": "Wat betekent 'wak'?", "opties": ["Kijken / zien", "Wachten", "Wakker worden", "Zoeken"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wij kijken vanavond een film'?", "opties": ["Nos ta wak un pelikula awe nochi", "Nos wak ta pelikula awe nochi", "Awe nochi ta wak nos pelikula", "Nos ta wak awe nochi pelikula"], "correct": 0 },
+    { "vraag": "Wat is 'ku' in 'Mi ta papia ku bo'?", "opties": ["Met (voorzetsel)", "Dat (voegwoord)", "Die (betrekkelijk voornaamwoord)", "Alle bovenstaande zijn mogelijke betekenissen"], "correct": 3 },
+    { "vraag": "Welke zin is FOUT?", "opties": ["Ta bo kome? (inversie)", "Bo ta kome? (geen inversie)", "Kiko bo ta kome? (vraagwoord vooraan)", "Bo no ta kome. (ontkenning)"], "correct": 0 },
+    { "vraag": "Wat betekent 'tur dia'?", "opties": ["Elke dag", "Alle dagen van de week", "Vandaag nog", "Meerdere dagen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Luisteren' in Papiamentu?", "opties": ["Skucha", "Wak", "Papia", "Konta"], "correct": 0 },
+    { "vraag": "Wat is het effect van tijdsbepaling aan het begin van de zin?", "opties": ["Nadruk of urgentie", "Formeler taalgebruik", "Verleden tijd aanduiden", "Geen verschil met einde"], "correct": 0 },
+    { "vraag": "Wat betekent 'mucha'?", "opties": ["Kind", "Meisje", "Jongen", "Baby"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Daarna / later'?", "opties": ["Despues", "Mayan", "Awe", "Awor"], "correct": 0 },
+    { "vraag": "Wat is 'konta'?", "opties": ["Vertellen", "Tellen", "Betalen", "Roepen"], "correct": 0 },
+    { "vraag": "Waarom is Papiamentu's SVO-structuur historisch handig?", "opties": ["Voor sprekers van tientallen moedertalen biedt het een consistent ankerpunt", "Omdat het gekopieerd is van het Nederlands", "Omdat het de moeilijkste structuur is", "Om de taal uniek te maken"], "correct": 0 }
+  ]
+}

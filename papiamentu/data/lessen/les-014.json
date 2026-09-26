@@ -1,0 +1,73 @@
+{
+  "id": 14,
+  "blok": 2,
+  "titel": "Getallen & Tijd: Klokkijken en Dag-indeling",
+  "grammatica": {
+    "uitleg": "Getallen in Papiamentu volgen een logisch Romaans patroon met een eigen draai.\n\nGETALLEN 1-10:\nun, dos, tres, kuater, sinku, seis, shete, ocho, nuebe, dies\n\nTIENS (11-19): dies + basiscijfer\n11-diesun, 12-disidrós, 13-diesitrès, 14-diesikuater, 15-diesisinku\n16-diesiseis, 17-diesishete, 18-diesiocho, 19-diesinuebe\n\nTIENTALLEN:\n20-bente, 30-trinta, 40-kuarenta, 50-sinkuenta\n60-sesenta, 70-shetenta, 80-ochenta, 90-nobenta\n100-sien (exact) / siento (101+), 1000-mil\n\nTUSSEN: bente un (21), trinta i tres (33)\n\nDE KLOK:\n• Ki ora ta? = Hoe laat is het?\n• Ta (las) tres ora. = Het is drie uur.\n• Ta midí. = Het is twaalf uur 's middags.\n• Ta medianochi. = Het is middernacht.\n• Ta tres ora i kwartu. = Het is kwart over drie.\n• Ta tres ora i mèdia. = Het is half vier (2:30 in Nederlandse telling — zie nuances).\n• Ta kuater ora ménos kwartu. = Het is kwart voor vier.\n\nDAGEN VAN DE WEEK:\nDjaluna (ma), Djamars (di), Djarason (wo), Djawebo (do), Djabièrnè (vr), Djasabra (za), Djadumingu (zo)\n\nMAANDEN:\nYanüari, Febrüari, Mart, April, Mei, Yüni, Yüli, Ougùstus, Sèptèmber, Òktober, Novèmber, Desèmber",
+    "voorbeelden": [
+      { "papiamentu": "Ki ora ta? — Ta sinku ora i mèdia.", "vertaling": "Hoe laat is het? — Het is half zes." },
+      { "papiamentu": "E tienda ta habri na nuebe ora di mainta.", "vertaling": "De winkel opent om negen uur 's ochtends." },
+      { "papiamentu": "Awe ta Djasabra, kuater di Yüli.", "vertaling": "Vandaag is het zaterdag, 4 juli." },
+      { "papiamentu": "Mi tin un afspraak na dies ora i kwartu.", "vertaling": "Ik heb een afspraak om kwart over tien." },
+      { "papiamentu": "Sientokuarenta i dos hende a bini na e fiesta.", "vertaling": "Honderdtweeënveertig mensen kwamen naar het feest." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'Las' is optioneel maar klinkt vloeiender",
+      "voorbeeld": "'Ta las tres ora' vs. 'Ta tres ora' — beide correct; 'las' is een Spaans residu",
+      "toelichting": "Het Spaanse meervoudslidwoord 'las' is bewaard gebleven bij tijdaanduidingen. Bij ouderen en in formeel taalgebruik hoor je het vaker. In snel spreektaal valt het weg."
+    },
+    {
+      "nuance": "'Mèdia' telt VOORUIT — omgekeerd aan het Nederlands",
+      "voorbeeld": "'Ta dos ora i mèdia' = 14:30 — letterlijk 'twee uur en half', dus half drie",
+      "toelichting": "Dit is de klassieke valstrik voor Nederlandstaligen. In Papiamentu tel je vooruit: 'dos ora i mèdia' = twee uur plus een half uur = 14:30. Het Nederlandse 'half drie' telt achteruit (een half uur voor drie). Oefen dit bewust."
+    },
+    {
+      "nuance": "Dagpatroon: mainta, tardi, anochi — informeler dan exacte tijden",
+      "voorbeeld": "'Na mainta' (ochtend), 'na tardi' (namiddag), 'na anochi' (avond)",
+      "toelichting": "'E ta bini na tardi' is informeler en gebruikelijker dan een exact tijdstip. Op Curaçao is dagdeelvaging normaal — afspraken zijn vaker 'na tardi' dan om 14:37."
+    },
+    {
+      "nuance": "Datumnotatie: dag + di + maand",
+      "voorbeeld": "'Kuater di Ougùstus' = 4 augustus | 'Trinta i un di Desèmber' = 31 december",
+      "toelichting": "De structuur is dag + 'di' + maand, zoals in het Spaans. Maandnamen zijn herkenbaar maar hebben Papiamentse uitspraakvarianten: 'Yüni' voor juni, 'Yüli' voor juli."
+    }
+  ],
+  "woorden": [
+    { "woord": "Ki ora ta?", "uitspraak": "kie o-ra ta", "vertaling": "Hoe laat is het?" },
+    { "woord": "Midí", "uitspraak": "mie-die", "vertaling": "Middag / twaalf uur" },
+    { "woord": "Medianochi", "uitspraak": "me-dia-no-chi", "vertaling": "Middernacht" },
+    { "woord": "Mèdia", "uitspraak": "me-dia", "vertaling": "Half (als in: half uur)" },
+    { "woord": "Kwartu", "uitspraak": "kwar-toe", "vertaling": "Kwartier / kwart" },
+    { "woord": "Mainta", "uitspraak": "main-ta", "vertaling": "'s Ochtends / ochtend" },
+    { "woord": "Tardi", "uitspraak": "tar-die", "vertaling": "'s Middags / namiddag" },
+    { "woord": "Anochi", "uitspraak": "a-no-chi", "vertaling": "'s Avonds / avond" },
+    { "woord": "Siman", "uitspraak": "sie-man", "vertaling": "Week" },
+    { "woord": "Aña", "uitspraak": "an-ja", "vertaling": "Jaar" }
+  ],
+  "culturele_context": "Tijdsbeleving op Curaçao heeft een eigen ritme. 'Curaçao time' is een reëel begrip: afspraken beginnen iets later dan gepland, en dat wordt geaccepteerd. Dit is geen onbeleefdheid, maar een andere verhouding tot tijd — mensen boven punctualiteit.\n\nDe wekelijkse cyclus draait rond 'Djasabra' (zaterdag): de dag van de merkado, familiebezoek en sociale activiteiten. 'Djadumingu' (zondag) is traditioneel kerkdag — geklede families op weg naar de mis is een vertrouwd straatbeeld.\n\nGetallen zijn in dagelijkse markthandel alomtegenwoordig. Het mentaal rekenen op de merkado is een sociale vaardigheid. 'Sien' (100) is een psychologische grens bij prijzen — veel producten kosten 'ménos ku sien' (minder dan honderd). Leer getallen niet alleen op papier maar via de marktsituatie.",
+  "scenario_links": ["scenario-005", "scenario-009"],
+  "eindoefening": [
+    { "vraag": "Hoe vraag je hoe laat het is?", "opties": ["Ki ora ta?", "Kiko ora ta?", "Ki ora ta bai?", "Unda ora ta?"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het is drie uur'?", "opties": ["Ta tres ora", "E ta tres ora", "Ta tres", "Tres ora ta"], "correct": 0 },
+    { "vraag": "Hoe vorm je het getal 15?", "opties": ["Diesisinku", "Sinkudies", "Kinse", "Diessinku"], "correct": 0 },
+    { "vraag": "Hoe zeg je '2:30' (half drie in het Nederlands)?", "opties": ["Ta dos ora i mèdia", "Ta mèdia tres", "Ta tres ora i mèdia", "Ta dos i mèdia"], "correct": 0 },
+    { "vraag": "Wat is de Papiamentse naam voor woensdag?", "opties": ["Djarason", "Djawebo", "Djamars", "Djaluna"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'kwart over vier'?", "opties": ["Ta kuater ora i kwartu", "Ta sinku ménos kwartu", "Ta kuater i kwartu ora", "Kwartu i kuater ora ta"], "correct": 0 },
+    { "vraag": "Wat is het getal 100 exact?", "opties": ["Sien", "Siento", "Hondert", "Sentu"], "correct": 0 },
+    { "vraag": "Wat is de naam voor vrijdag?", "opties": ["Djabièrnè", "Djasabra", "Djadumingu", "Djawebo"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'kwart voor vier' (3:45)?", "opties": ["Ta kuater ora ménos kwartu", "Ta tres ora i tres kwartu", "Ta tres kwartu pa kuater", "Ta kuater ménos kwartu"], "correct": 0 },
+    { "vraag": "Wat betekent 'na mainta'?", "opties": ["'s Ochtends", "'s Middags", "'s Avonds", "Vannacht"], "correct": 0 },
+    { "vraag": "Hoe zeg je de datum '4 juli'?", "opties": ["Kuater di Yüli", "Yüli di kuater", "Di kuater Yüli", "Kuater Yüli"], "correct": 0 },
+    { "vraag": "Wat is 'siman'?", "opties": ["Week", "Maand", "Jaar", "Dag"], "correct": 0 },
+    { "vraag": "Wat is het getal 20?", "opties": ["Bente", "Binti", "Beinte", "Venti"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'middernacht'?", "opties": ["Medianochi", "Midnochi", "Mèdianochi", "Nochi mèdia"], "correct": 0 },
+    { "vraag": "Welke dag is Djadumingu?", "opties": ["Zondag", "Zaterdag", "Maandag", "Vrijdag"], "correct": 0 },
+    { "vraag": "Hoe zeg je ''s avonds'?", "opties": ["Na anochi", "Na nochi", "Na tardi", "Na bon nochi"], "correct": 0 },
+    { "vraag": "Wat is 'midí'?", "opties": ["Middag / twaalf uur", "Ochtend", "Avond", "Tijdstip"], "correct": 0 },
+    { "vraag": "Hoe zeg je het getal 142?", "opties": ["Sientokuarenta i dos", "Sien kuarenta dos", "Un siento kuarenta dos", "Sientokuarenta dos"], "correct": 0 },
+    { "vraag": "Waarom verschilt 'half drie' in Papiamentu van het Nederlands?", "opties": ["Papiamentu telt vooruit: 'dos ora i mèdia' = 14:30", "Ze zijn gelijk", "Papiamentu zegt 'mèdia tres'", "Het Nederlands telt ook vooruit"], "correct": 0 },
+    { "vraag": "Welke maand is 'Ougùstus'?", "opties": ["Augustus", "Oktober", "Juni", "Juli"], "correct": 0 }
+  ]
+}

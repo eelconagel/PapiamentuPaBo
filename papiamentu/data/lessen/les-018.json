@@ -1,0 +1,73 @@
+{
+  "id": 18,
+  "blok": 2,
+  "titel": "Imperatief: Opdrachten, Verzoeken en Uitnodigingen",
+  "grammatica": {
+    "uitleg": "De imperatief (gebiedende wijs) in Papiamentu is elegant eenvoudig: gebruik de werkwoordstam direct, zonder verbuiging. Er is geen apart imperatief-vorming — de infinitief doet het werk.\n\nBASISIMPERATIEF:\n[werkwoord (infinitief)] (+ complement)\n• Bai! (Ga!)\n• Bin! (Kom!)\n• Sinta! (Ga zitten!)\n• Para! (Stop!)\n• Kome! (Eet!)\n• Papia! (Praat! / Spreek!)\n\nNEGATIEVE IMPERATIEF: No + werkwoord\n• No bai! (Ga niet!)\n• No kome esei! (Eet dat niet!)\n• No papia masha luga! (Praat niet zo hard!)\n\nBELEEFDE VERZOEKVORM: Por fabor + werkwoord / werkwoord + por fabor\n• Por fabor, sinta. (Ga alsjeblieft zitten.)\n• Bin akí, por fabor. (Kom hier, alsjeblieft.)\n\nIMPERATIEF MET INDIRECT OBJECT:\n• Dami e libro. (Geef mij het boek.) — da + mi = dami\n• Bishitami mayan. (Bezoek me morgen.) — bishitá + mi = bishitami\n\nGROEPSIMPERATIEF: dezelfde vorm, geen wijziging\n• Bin tur! (Kom allemaal!)\n• Sinta tur kos! (Jullie allemaal gaan zitten!)\n\nWAARSCHUWING/AANMOEDIGING met 'kuida':\n• Kuida! (Pas op! / Let op!)\n• Kuida ku e outo! (Pas op voor de auto!)",
+    "voorbeelden": [
+      { "papiamentu": "Bin akí, por fabor, mi mester papia ku bo.", "vertaling": "Kom hier alsjeblieft, ik moet met jou praten." },
+      { "papiamentu": "No bai — keda ku nos un ratu mas!", "vertaling": "Ga niet — blijf nog even bij ons!" },
+      { "papiamentu": "Dami un kòfi, por fabor.", "vertaling": "Geef me een koffie, alsjeblieft." },
+      { "papiamentu": "Para! Kuida ku e kayanan!", "vertaling": "Stop! Let op de honden!" },
+      { "papiamentu": "Sinta i kome, e kuminda ta fresku.", "vertaling": "Ga zitten en eet, het eten is vers." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "Toon maakt alles — dezelfde imperatief kan vriendelijk of streng klinken",
+      "voorbeeld": "'Bai' kan betekenen 'ga dan gerust' (uitnodigend) of 'ga weg' (afwijzend), afhankelijk van intonatie",
+      "toelichting": "De imperatief in Papiamentu is toonafhankelijk zoals nergens anders. Een zachte, stijgende intonatie maakt het een uitnodiging; een vlakke, dalende intonatie maakt het een opdracht. 'Por fabor' heft de ambiguïteit op."
+    },
+    {
+      "nuance": "'Bin' als hartelijke uitnodiging — meer dan 'kom'",
+      "voorbeeld": "'Bin, bin!' (Kom, kom!) — herhaald om warmte te benadrukken | 'Bin kome ku nos' (Kom eten met ons)",
+      "toelichting": "'Bin' is uitnodigend van aard. 'Bin kome ku nos' is een van de hartelijkste uitnodigingen in de Curaçaose cultuur — een tafeluitnodiging is nooit licht. Als iemand je 'bin kome' zegt, is het gemeend."
+    },
+    {
+      "nuance": "Verkleining van de imperatief met 'un ratu' (even)",
+      "voorbeeld": "'Warda un ratu' (Wacht even), 'Keda un ratu' (Blijf even) — 'un ratu' verzacht de opdracht",
+      "toelichting": "'Un ratu' (een momentje) is het sociale smeermiddel van de Curaçaose imperatief. Het neemt de urgentie weg en maakt van een opdracht een verzoek. Gebruik het altijd als je iets vraagt van een vreemde."
+    },
+    {
+      "nuance": "Imperatiefkluster: meerdere opdrachten achter elkaar",
+      "voorbeeld": "'Bin, sinta, kome!' — directe opéénvolging van opdrachten zonder verbindingswoorden",
+      "toelichting": "In informele taal (roepen naar kinderen, bij sport) worden meerdere imperatieven achter elkaar gezet zonder verbindingswoorden. Dit is de meest compacte expressievorm in Papiamentu."
+    }
+  ],
+  "woorden": [
+    { "woord": "Bin", "uitspraak": "bin", "vertaling": "Kom (imperatief van bini)" },
+    { "woord": "Para", "uitspraak": "pa-ra", "vertaling": "Stop / sta stil" },
+    { "woord": "Sinta", "uitspraak": "sin-ta", "vertaling": "Ga zitten" },
+    { "woord": "Warda", "uitspraak": "war-da", "vertaling": "Wacht" },
+    { "woord": "Keda", "uitspraak": "ke-da", "vertaling": "Blijf / wacht (op een plek)" },
+    { "woord": "Da", "uitspraak": "da", "vertaling": "Geef / geven" },
+    { "woord": "Por fabor", "uitspraak": "por fa-bor", "vertaling": "Alsjeblieft / graag" },
+    { "woord": "Papia", "uitspraak": "pa-pia", "vertaling": "Praat / spreek (imperatief van papiá)" },
+    { "woord": "Kuida", "uitspraak": "kwi-da", "vertaling": "Pas op / let op (imperatief van kuidá)" },
+    { "woord": "Un ratu", "uitspraak": "oen ra-toe", "vertaling": "Even / een momentje" }
+  ],
+  "culturele_context": "De Curaçaose imperatief is genereus. 'Bin kome ku nos' (kom eten met ons) is geen rituele uitnodiging — het is een echte. Weigeren vereist een goede reden. De tafel is op Curaçao een plek van verbinding en inclusie.\n\n'Papia Papiamentu!' is meer dan een opdracht — het is een aanmoediging die een brug bouwt. Als een Curaçaoënaar je dit zegt, nodigen ze je uit om deel te worden van de taalcultuur. Ze geven je toestemming om fouten te maken.\n\n'Kuida!' is een woord dat op straat, in de keuken en bij het spelen klinkt. Het is zorgzaam, niet agressief. 'Kuida ku di zon' (pas op voor de zon) is een moederlijk advies — een mix van waarschuwing en liefde.",
+  "scenario_links": ["scenario-003", "scenario-008"],
+  "eindoefening": [
+    { "vraag": "Hoe vorm je de imperatief in Papiamentu?", "opties": ["Gebruik de werkwoordstam direct (infinitief)", "Voeg '-a' toe aan het werkwoord", "Gebruik 'por fabor' altijd vooraan", "Gebruik het werkwoord + 'ta'"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ga!'?", "opties": ["Bai!", "Ta bai!", "Baiando!", "Bai ta!"], "correct": 0 },
+    { "vraag": "Hoe maak je de imperatief negatief?", "opties": ["No + werkwoord: 'No bai!'", "Werkwoord + no: 'Bai no!'", "Tin no + werkwoord", "No ta + werkwoord"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Alsjeblieft, ga zitten'?", "opties": ["Por fabor, sinta.", "Sinta, por fabor.", "Beide zijn correct.", "Geen van beide is correct."], "correct": 2 },
+    { "vraag": "Hoe zeg je 'Geef mij het boek'?", "opties": ["Dami e libro", "Da mi e libro", "Mi da e libro", "E libro dami"], "correct": 0 },
+    { "vraag": "Hoe verzacht je een imperatief?", "opties": ["Voeg 'un ratu' toe: 'Warda un ratu'", "Voeg 'masha' toe", "Gebruik de verleden tijd", "Herhaal het werkwoord"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Kom allemaal!'?", "opties": ["Bin tur!", "Tur bini!", "Bin tur kos!", "Bini nan!"], "correct": 0 },
+    { "vraag": "Wat betekent 'Kuida!'?", "opties": ["Pas op! / Let op!", "Ga weg!", "Ga zitten!", "Stop!"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Praat niet zo hard!'?", "opties": ["No papia masha luga!", "Papia no luga!", "No ta papia luga!", "Papia ménos luga!"], "correct": 0 },
+    { "vraag": "Wat is 'warda'?", "opties": ["Wachten / wacht", "Gaan", "Stoppen", "Kijken"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Blijf nog even bij ons!'?", "opties": ["Keda ku nos un ratu mas!", "Keda nos un ratu!", "Nos keda un ratu mas!", "Keda ta nos un ratu!"], "correct": 0 },
+    { "vraag": "Verandert de imperatief voor een groep?", "opties": ["Nee — dezelfde vorm voor enkelvoud en meervoud", "Ja — voeg '-nan' toe", "Ja — voeg 'tur' toe voor het werkwoord", "Ja — apart meervoudswerkwoord"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Kom hier, alsjeblieft'?", "opties": ["Bin akí, por fabor", "Bini akí, por fabor", "Por fabor bini", "Bin por fabor akí"], "correct": 0 },
+    { "vraag": "Wat doet intonatie bij de imperatief?", "opties": ["Bepaalt of het een uitnodiging of een opdracht is", "Heeft geen effect — betekenis is altijd hetzelfde", "Maakt imperatieven formeler", "Verandert de tijdsvorm"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Eet!'?", "opties": ["Kome!", "Ta kome!", "Kome ta!", "Kuminda!"], "correct": 0 },
+    { "vraag": "Wat is 'por fabor'?", "opties": ["Alsjeblieft / graag", "Dank je", "Vergeef me", "Goed gedaan"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Stop! Let op de honden!'?", "opties": ["Para! Kuida ku e kayanan!", "Stop! Kuida e kayanan!", "Para! No e kayanan!", "Kuida! Para e kayanan!"], "correct": 0 },
+    { "vraag": "Wat is 'da' als werkwoord?", "opties": ["Geven", "Nemen", "Zeggen", "Brengen"], "correct": 0 },
+    { "vraag": "Hoe gebruik je meerdere imperatieven achter elkaar?", "opties": ["Direct achter elkaar zonder verbindingswoorden: 'Bin, sinta, kome!'", "Met 'i' ertussen: 'Bin i sinta i kome'", "Elk op een nieuwe zin", "Met 'despues' ertussen"], "correct": 0 },
+    { "vraag": "Waarom is 'Bin kome ku nos' meer dan een uitnodiging?", "opties": ["Het is een echte, hartgemeende tafeluitnodiging — weigeren vereist een goede reden", "Het is een beleefde formaliteit", "Het betekent alleen 'ga eten'", "Het is een opdracht"], "correct": 0 }
+  ]
+}

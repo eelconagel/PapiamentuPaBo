@@ -1,0 +1,103 @@
+{
+  "id": "scenario-009",
+  "title": "Een afspraak maken",
+  "difficulty": "Intermediate",
+  "category": "Praktisch",
+  "intro": "Je moet een afspraak plannen voor werk of privé. Op Curaçao is flexibiliteit belangrijk, maar ook duidelijkheid over tijd. Men waardeert het als je direct en beleefd je verzoek doet.",
+  "introWords": [
+    { "papiamentu": "Kiko ta un bon momento?", "dutch": "Wat is een goed moment?", "pronunciation": "kee-ko ta oen bon mo-men-to" },
+    { "papiamentu": "Mi ke traha un sita", "dutch": "Ik wil een afspraak maken", "pronunciation": "mie ke tra-ha oen si-ta" },
+    { "papiamentu": "Por kambia e ora?", "dutch": "Kunnen we de tijd veranderen?", "pronunciation": "por kam-bi-a e o-ra" },
+    { "papiamentu": "E ora ta firme?", "dutch": "Staat de tijd vast?", "pronunciation": "e o-ra ta fir-me" }
+  ],
+  "grammar": {
+    "title": "Afspraken plannen en aanpassen",
+    "explanation": [
+      "Gebruik 'Mi ke' (ik wil) om je intentie aan te geven: 'Mi ke traha un sita' (ik wil een afspraak maken).",
+      "Vraag naar een tijdstip met 'Ki ora?' (Hoe laat / Wanneer).",
+      "Om een afspraak te verplaatsen gebruik je het werkwoord 'kambia' (veranderen/verplaatsen)."
+    ],
+    "exercises": [
+      {
+        "question": "Hoe vraag je: 'Kunnen we de afspraak verplaatsen?'",
+        "options": ["Nos por kambia e sita?", "Mi ta kla.", "Kon ta bai?", "Bonbiní"],
+        "correct": 0,
+        "explanation": "'Kambia' is het werkwoord voor veranderen of verplaatsen."
+      },
+      {
+        "question": "Wat vraag je als je zekerheid wilt over de tijd?",
+        "options": ["E ora ta firme?", "Kiko ta bo ora?", "Ora ta bai?", "Bo tin tempu?"],
+        "correct": 0,
+        "explanation": "'Firme' betekent hier vast of zeker."
+      },
+      {
+        "question": "Hoe zeg je 'Ik kan niet komen'?",
+        "options": ["Mi no por bin", "Mi no ke bin", "Mi ta bin", "Mi tin sita"],
+        "correct": 0,
+        "explanation": "'Mi no por bin' = Ik kan niet komen."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Sita", "dutch": "Afspraak", "pronunciation": "si-ta", "example": "Mi tin un sita djaluna." },
+    { "papiamentu": "Kambia", "dutch": "Veranderen/verplaatsen", "pronunciation": "kam-bi-a", "example": "Por kambia e ora?" },
+    { "papiamentu": "Firme", "dutch": "Vast/Zeker", "pronunciation": "fir-me", "example": "E sita ta firme." },
+    { "papiamentu": "Plania", "dutch": "Plannen", "pronunciation": "pla-ni-a", "example": "Nos mester plania esaki." },
+    { "papiamentu": "Ki ora?", "dutch": "Hoe laat? / Wanneer?", "pronunciation": "kie o-ra", "example": "Ki ora bo por bin?" },
+    { "papiamentu": "Djaluna", "dutch": "Maandag", "pronunciation": "dja-loo-na", "example": "Djaluna ta bon pa mi." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Tijd is relatief",
+      "detail": "Op Curaçao is een afspraak soms een richtlijn. Vraag altijd voor de zekerheid: 'E ora ta firme?' (Staat de tijd vast?) om misverstanden te voorkomen.",
+      "remember": "Dubbelcheck de tijd."
+    },
+    {
+      "trap": "Direct vs. Indirect",
+      "detail": "Hoewel je afspraak direct moet zijn, is het alsnog beleefd om te beginnen met 'Bon dia' en te vragen hoe het gaat voordat je direct over de afspraak begint.",
+      "remember": "Eerst groeten, dan plannen."
+    }
+  ],
+  "culture": {
+    "title": "Afspraken op het eiland",
+    "intro": "Op Curaçao is een afspraak een sociale verbintenis. Hoewel de formele zakelijke cultuur stiptheid waardeert, is men in de privésfeer vaak flexibeler.",
+    "facts": [
+      "Het is heel normaal om een afspraak de dag van tevoren even te bevestigen via WhatsApp.",
+      "Bij sociale afspraken is een kwartiertje later komen vaak sociaal geaccepteerd, maar bij een zakelijke afspraak wordt punctualiteit verwacht.",
+      "Als je merkt dat je te laat komt, bel of app altijd even. Dat wordt zeer gewaardeerd."
+    ],
+    "didYouKnow": "Wist je dat als je 'danki' zegt na het maken van een afspraak, dat gezien wordt als een teken dat je de tijd van de ander respecteert?"
+  },
+  "quiz": [
+    {
+      "question": "Wat betekent 'E ora ta firme'?",
+      "options": ["Staat de tijd vast?", "Hoe laat is het?", "Kom je op tijd?", "Is de afspraak klaar?"],
+      "correct": 0,
+      "explanation": "'Firme' staat voor vast of zeker."
+    },
+    {
+      "question": "Wat betekent 'Kambia'?",
+      "options": ["Veranderen", "Annuleren", "Bevestigen", "Opbellen"],
+      "correct": 0,
+      "explanation": "'Kambia' betekent veranderen of verplaatsen."
+    },
+    {
+      "question": "Hoe vraag je 'Wanneer kan je?'?",
+      "options": ["Ki ora bo por?", "Bo ta kla?", "Ki dia bo ta?", "Kiko bo ta hasi?"],
+      "correct": 0,
+      "explanation": "'Ki ora' wordt gebruikt voor tijdstippen."
+    },
+    {
+      "question": "Is het beleefd om afspraken via WhatsApp te bevestigen?",
+      "options": ["Ja, heel gebruikelijk", "Nee, alleen bellen", "Nee, nooit doen", "Alleen per brief"],
+      "correct": 0,
+      "explanation": "WhatsApp is het primaire communicatiemiddel voor afspraken op Curaçao."
+    },
+    {
+      "question": "Wat is een passende afsluiting van een afspraak-verzoek?",
+      "options": ["Danki, te despues", "Ayo", "Pasa denter", "Bon nochi"],
+      "correct": 0,
+      "explanation": "Dank je zeggen toont respect voor de afspraak."
+    }
+  ]
+}

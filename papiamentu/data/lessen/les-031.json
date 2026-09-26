@@ -1,0 +1,73 @@
+{
+  "id": 31,
+  "blok": 4,
+  "titel": "Conditionele Zinnen: Si + Lo en Hypothetische Constructies",
+  "grammatica": {
+    "uitleg": "Conditionele zinnen ('als...dan') kennen in Papiamentu twee typen: reële condities (waarschijnlijk) en hypothetische condities (onwaarschijnlijk of tegenfeitelijk).\n\nTYPE 1 — REËLE CONDITIE (waarschijnlijk, open):\nSi + [tegenwoordige tijd] + ... + lo + [werkwoord]\nÓF: Si + [voltooide tijd 'a'] + ... + lo + [werkwoord]\n• Si bo yega na tempu, nos lo kuminsá. (Als jij op tijd aankomt, beginnen we.)\n• Si e tin plaka, e lo kumpra e kas. (Als hij/zij geld heeft, koopt hij/zij het huis.)\n\nTYPE 2 — HYPOTHETISCHE CONDITIE (onwaarschijnlijk, tegenfeitelijk):\nSi + tabata + ... + lo (+ a) + [werkwoord]\n• Si mi tabata riku, mi lo a kumpra e kas. (Als ik rijk was, had ik het huis gekocht.)\n• Si e tabata na kas, e lo a bishitá nos. (Als hij/zij thuis was, had hij/zij ons bezocht.)\n\nOMGEKEERDE VOLGORDE — 'dan'-deel eerst:\nDe gevolg-zin kan ook vóórkomen:\n• Mi lo a bai, si mi tabata sabi. (Ik was gegaan, als ik het had geweten.)\n\n'KU' VOOR GELIJKTIJDIGE CONDITIES:\nKu + [werkwoord] (als/wanneer — voor zekere toekomstige momenten)\n• Ku bo yega, yama mi. (Als jij aankomt, bel me.)\n• Ku e kuminda ta klár, nos lo kome. (Als het eten klaar is, eten we.)",
+    "voorbeelden": [
+      { "papiamentu": "Si bo studia bon, bo lo pasa e ekzamen.", "vertaling": "Als jij goed studeert, slaag je voor het examen." },
+      { "papiamentu": "Si mi tabata sabi, mi no lo a bai na e fiesta.", "vertaling": "Als ik het had geweten, was ik niet naar het feest gegaan." },
+      { "papiamentu": "Ku e yobida a para, nos lo bai na playa.", "vertaling": "Als de regen stopt, gaan we naar het strand." },
+      { "papiamentu": "Si bo kier, mi lo por yuda bo — sòl yama mi.", "vertaling": "Als jij wil, kan ik je helpen — bel me gewoon." },
+      { "papiamentu": "Si nos tabata tin mas tempu, nos lo a bishitá mas lugarnan.", "vertaling": "Als we meer tijd hadden, hadden we meer plekken bezocht." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'Si' kan ook 'of' betekenen — context is beslissend",
+      "voorbeeld": "'Mi no sabi si e ta bini' (Ik weet niet OF hij/zij komt) vs. 'Si e ta bini, nos lo kome' (ALS hij/zij komt, eten we)",
+      "toelichting": "'Si' heeft twee functies: conditie (als) en indirect vraagzin (of). De positie in de zin maakt het verschil: na 'sabi', 'kier', 'pregunta' etc. = of. Aan het begin van een zin of na een pauze = als. Dit is een van de fijnste onderscheidingen in Papiamentu."
+    },
+    {
+      "nuance": "Hypothetisch verleden: 'lo + a + werkwoord' voor de onomgekeerde situatie",
+      "voorbeeld": "'Si mi tabata sabi, mi lo a bai' = als ik het HAD geweten, HAD ik gegaan — dubbel verleden hypothetisch",
+      "toelichting": "Voor een hypothetische situatie in het verleden gebruik je 'tabata' in de voorwaarde én 'lo + a' in het gevolg. 'Lo a' is de combinatie van toekomstige verwachting ('lo') met voltooide actie ('a') — wat had kunnen zijn maar niet was."
+    },
+    {
+      "nuance": "'Ku' voor zekere toekomstige momenten vs. 'si' voor onzekere",
+      "voorbeeld": "'Si bo yega...' (als je aankomt — onzeker of je komt) vs. 'Ku bo yega...' (wanneer je aankomt — zeker dat je komt)",
+      "toelichting": "'Ku' signaleert dat de spreker de voorwaarde als zeker beschouwt. 'Si' laat de vraag open of het gaat gebeuren. 'Ku bo yega, yama mi' = ik ga ervan uit dat je aankomt, dus bel me dan."
+    },
+    {
+      "nuance": "Conditionele beleefdheidsvorm: 'si bo kier' als verzachting van een verzoek",
+      "voorbeeld": "'Si bo kier, por bo yuda mi?' (Als je wil, kun je me dan helpen?) — indirect verzoek",
+      "toelichting": "'Si bo kier' (als je wil) vóór een verzoek is de meest beleefde manier om iets te vragen in Papiamentu. Het geeft de ander volledige vrijheid om te weigeren zonder verlies van gezicht. Gebruik het bij niet-vertrouwde personen of in formele situaties."
+    }
+  ],
+  "woorden": [
+    { "woord": "Si", "uitspraak": "sie", "vertaling": "Als / of (conditioneel / indirect vraagwoord)" },
+    { "woord": "Na tempu", "uitspraak": "na tem-poe", "vertaling": "Op tijd / tijdig" },
+    { "woord": "Pasa", "uitspraak": "pa-sa", "vertaling": "Slagen (examen) / passeren / voorbij gaan" },
+    { "woord": "Para", "uitspraak": "pa-ra", "vertaling": "Stoppen / ophouden" },
+    { "woord": "Lugar", "uitspraak": "loe-gar", "vertaling": "Plek / plaats / ruimte" },
+    { "woord": "Klár", "uitspraak": "klar", "vertaling": "Klaar / gereed / duidelijk" },
+    { "woord": "Riku", "uitspraak": "rie-koe", "vertaling": "Rijk" },
+    { "woord": "Sabi", "uitspraak": "sa-bie", "vertaling": "Weten / slim" },
+    { "woord": "Resultado", "uitspraak": "re-soul-ta-do", "vertaling": "Resultaat / uitslag" },
+    { "woord": "Depende", "uitspraak": "de-pen-de", "vertaling": "Afhangen van / het hangt ervan af" }
+  ],
+  "culturele_context": "Conditioneel denken is op Curaçao een teken van praktische wijsheid. 'Si e yobida ta para...' (Als de regen stopt...) is de pragmatische benadering van een eiland dat leert leven met wat het heeft en vertrouwt op wat komt.\n\n'Si Dios kier' (Als God het wil) is een veelgehoorde toevoeging aan plannen en beloften. Het is geen nalatigheid maar een bewustzijn van de grotere krachten. 'Mayan nos lo bai, si Dios kier' — zelfs de meest concrete plannen worden omgeven door deze openheid.\n\nDe hypothetische conditie is ook de taal van aspiraties. 'Si mi tabata mas nobo...' (Als ik jonger was...) — mensen dromen hardop in het conditioneel. Het is geen weeklacht maar een sociale verkenning van mogelijkheden. Luister ernaar als een uitnodiging tot medromen.",
+  "scenario_links": ["scenario-011", "scenario-015"],
+  "eindoefening": [
+    { "vraag": "Welk woord gebruik je voor een conditionele zin (als-dan)?", "opties": ["Si", "Ku", "Pero", "Pasobra"], "correct": 0 },
+    { "vraag": "Hoe maak je een reële conditie?", "opties": ["Si + tegenwoordige tijd + lo: 'Si bo yega, nos lo kuminsá'", "Si + tabata + lo: 'Si bo tabata yega, nos lo kuminsá'", "Lo + si + werkwoord", "Si + werkwoord + lo + werkwoord"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Als jij op tijd aankomt, beginnen we'?", "opties": ["Si bo yega na tempu, nos lo kuminsá", "Ku bo yega na tempu, nos lo kuminsá", "Si bo yega na tempu, nos ta kuminsá", "Si bo lo yega na tempu, nos kuminsá"], "correct": 0 },
+    { "vraag": "Hoe maak je een hypothetische (tegenfeitelijke) conditie?", "opties": ["Si + tabata + lo + (a) + werkwoord", "Si + a + lo + werkwoord", "Si + lo + tabata + werkwoord", "Si + ta + lo + werkwoord"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Als ik het had geweten, was ik niet gegaan'?", "opties": ["Si mi tabata sabi, mi no lo a bai", "Si mi sabi, mi no lo bai", "Si mi a sabi, mi lo a no bai", "Si mi tabata sabi, mi no ta bai"], "correct": 0 },
+    { "vraag": "Wanneer gebruik je 'ku' i.p.v. 'si'?", "opties": ["'Ku' voor zekere toekomst (wanneer); 'si' voor onzekere (als)", "Ze zijn altijd uitwisselbaar", "'Ku' is informeler", "'Si' is altijd voor de toekomst"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wanneer de regen stopt, gaan we naar het strand'?", "opties": ["Ku e yobida a para, nos lo bai na playa", "Si e yobida para, nos lo bai na playa", "Ku e yobida lo para, nos ta bai na playa", "Si e yobida a para, nos bai na playa"], "correct": 0 },
+    { "vraag": "Wat zijn de twee betekenissen van 'si'?", "opties": ["Conditioneel (als) en indirect vraagwoord (of)", "Als en wanneer", "Als en want", "Conditioneel en hypothetisch"], "correct": 0 },
+    { "vraag": "Hoe gebruik je 'si bo kier' als beleefde vorm?", "opties": ["Vóór een verzoek om vrijblijvendheid te signaleren: 'Si bo kier, por bo yuda mi?'", "Als afwijzing: 'Si bo kier no bai'", "Als versterker: 'Si bo kier, mester bai'", "Altijd aan het einde van een zin"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Als jij wilt, kan ik je helpen'?", "opties": ["Si bo kier, mi lo por yuda bo", "Si bo kier, mi por yuda bo", "Ku bo kier, mi lo yuda bo", "Beide a en b zijn correct"], "correct": 3 },
+    { "vraag": "Wat is 'na tempu'?", "opties": ["Op tijd / tijdig", "Op dit moment", "In de toekomst", "Te laat"], "correct": 0 },
+    { "vraag": "Wat is 'klár'?", "opties": ["Klaar / gereed / duidelijk", "Mooi", "Schoon", "Zeker"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Als jij goed studeert, slaag je'?", "opties": ["Si bo studia bon, bo lo pasa", "Si bo a studia bon, bo pasa", "Ku bo studia bon, bo lo pasa", "Alle drie zijn correct in context"], "correct": 3 },
+    { "vraag": "Wat is 'riku'?", "opties": ["Rijk", "Slap", "Groot", "Sterk"], "correct": 0 },
+    { "vraag": "Wat is 'depende'?", "opties": ["Afhangen van / het hangt ervan af", "Beslissen", "Beginnen", "Stoppen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Als we meer tijd hadden, hadden we meer plekken bezocht'?", "opties": ["Si nos tabata tin mas tempu, nos lo a bishitá mas lugarnan", "Si nos tin mas tempu, nos lo bishitá mas lugarnan", "Si nos tabata tin mas tempu, nos tabata bishitá mas lugarnan", "Si nos lo tin mas tempu, nos lo bishitá mas lugarnan"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Als de regen stopt' (reële conditie)?", "opties": ["Si e yobida a para", "Si e yobida ta para", "Ku e yobida ta para", "Alle drie zijn correct in context"], "correct": 3 },
+    { "vraag": "Wat betekent 'Si Dios kier' cultureel gezien?", "opties": ["Een openheid voor grotere krachten — plannen worden ingebed in besef van onzekerheid", "Een vrome belofte", "Een formele uitdrukking van nalatigheid", "Een religieuze eed"], "correct": 0 },
+    { "vraag": "Wat is 'lugar'?", "opties": ["Plek / plaats", "Richting", "Moment", "Reden"], "correct": 0 },
+    { "vraag": "Kan de gevolg-zin vóór de voorwaarde-zin staan?", "opties": ["Ja: 'Mi lo a bai, si mi tabata sabi'", "Nee — voorwaarde altijd eerst", "Ja maar dan verandert de betekenis", "Alleen in formele tekst"], "correct": 0 }
+  ]
+}

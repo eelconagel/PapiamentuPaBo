@@ -1,0 +1,73 @@
+{
+  "id": 19,
+  "blok": 2,
+  "titel": "Scenario-koppeling 2: Buren, Buurt en Dagelijks Contact",
+  "grammatica": {
+    "uitleg": "In deze les combineer je alles uit Blok 2 in contexten die dagelijks op Curaçao voorkomen: contact met buren, beschrijvingen van de buurt, en gesprekken over bezit en familie.\n\nDEZE LES BOUWT OP:\n• Meervoud -nan (les 11): e kasnan, e buurnan\n• Bezit di / su (les 12): e kas di mi buur, su tuin\n• Tin / existentieel (les 13): tin hopi groen, tin un problema\n• Getallen & tijd (les 14): na tres ora, e siman aki\n• Adjectieven post-positie (les 15): un kas grandi i nobo\n• Vergelijkingen (les 16): mas grandi ku nos kas\n• Reflexief mes (les 17): e ta kuida su mes bon\n• Imperatief (les 18): Bin sinta, warda un ratu\n\nEEN COMPLETE BUURGESPREKSEQUENTIE:\n1. Begroeting (Blok 1): Bon dia! Kon ta bai?\n2. Observatie: 'Bo kas ta masha bunita awe.'\n3. Informatie vragen: 'Tin algu nobo na bario?'\n4. Reactie + uitwisseling: 'Si, tin un tienda nobo na strea.'\n5. Afspraak maken: 'Nos mester bishitá mekí, bo ke bai ku mi?'\n6. Afscheid: 'Bai! Kuidá bo mes!'",
+    "voorbeelden": [
+      { "papiamentu": "Bon tardi, buur. Ki kos ta pasando na bario?", "vertaling": "Goedemiddag, buurman/-vrouw. Wat is er gaande in de buurt?" },
+      { "papiamentu": "Tin un kas nobo na mi strea — mas grandi ku tur otro.", "vertaling": "Er is een nieuw huis in mijn straat — groter dan alle andere." },
+      { "papiamentu": "Su tuin ta masha bunita; tin hopi flor fresku.", "vertaling": "Zijn/haar tuin is heel mooi; er zijn veel verse bloemen." },
+      { "papiamentu": "E muchanan di bario ta hunga na strea tur Djasabra.", "vertaling": "De kinderen van de buurt spelen elke zaterdag op straat." },
+      { "papiamentu": "Nos buurnan ta hopi bon — nan ta yuda nos si tin un problema.", "vertaling": "Onze buren zijn heel goed — ze helpen ons als er een probleem is." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'Buur' als kernrelatie in de Curaçaose sociale structuur",
+      "voorbeeld": "'Mi buur' (mijn buur) wordt gebruikt voor iedereen die dichtbij woont — niet alleen de directe naaste buur",
+      "toelichting": "Op Curaçao is 'buur' een ruimer begrip dan in Nederland. Iedereen in je straat of bario is potentieel 'buur'. Dit sociale netwerk is een veiligheidsnet: als er iets is, zijn buren de eerste die helpen."
+    },
+    {
+      "nuance": "'Ki kos ta pasando' als informeel nieuwsformulier",
+      "voorbeeld": "'Ki kos ta pasando?' (Wat is er gaande?) — neutrale vraag die gesprek opent zonder te sturen",
+      "toelichting": "'Ki kos ta pasando' is de Curaçaose verwijzing naar het algemene nieuws van de straat. Het is vriendelijk, niet nosy. Het bevestigt interesse in de gemeenschap. Gebruik het als gespreksopener bij buren."
+    },
+    {
+      "nuance": "Buurtbeschrijving combineert alle structuren uit Blok 2",
+      "voorbeeld": "'Tin tres kas nobo na mi bario — nan ta mas grandi ku e bieuwnan' (Er zijn drie nieuwe huizen in mijn buurt — ze zijn groter dan de oude)",
+      "toelichting": "In één zin zie je: existentieel 'tin', getal, adjectief post-positie, vergelijking met 'mas ku' en meervoud met '-nan'. Dit is hoe de taal echt werkt — structuren verschijnen zelden geïsoleerd."
+    },
+    {
+      "nuance": "Hulpaanbod: 'Si tin algu, yama mi'",
+      "voorbeeld": "'Si tin algu, yama mi' (Als er iets is, bel me) — open aanbieding van hulp aan buren",
+      "toelichting": "Dit aanbod is een sociaal ritueel op Curaçao. 'Yama mi' (bel me) of 'kòrda mi' (herinner me / laat het me weten) zijn uitdrukkingen die verbinding bevestigen. Het is niet loos — de verwachting is dat je werkelijk reageert als iemand belt."
+    }
+  ],
+  "woorden": [
+    { "woord": "Buur", "uitspraak": "buur", "vertaling": "Buur / buurman / buurvrouw" },
+    { "woord": "Bario", "uitspraak": "ba-rio", "vertaling": "Buurt / wijk" },
+    { "woord": "Tuin", "uitspraak": "tuin", "vertaling": "Tuin" },
+    { "woord": "Flor", "uitspraak": "flor", "vertaling": "Bloem" },
+    { "woord": "Strea", "uitspraak": "stre-a", "vertaling": "Straat" },
+    { "woord": "Hunga", "uitspraak": "hoen-ga", "vertaling": "Spelen" },
+    { "woord": "Yuda", "uitspraak": "joe-da", "vertaling": "Helpen" },
+    { "woord": "Yama", "uitspraak": "ja-ma", "vertaling": "Bellen / roepen / heten" },
+    { "woord": "Pasando", "uitspraak": "pa-san-do", "vertaling": "Gaande / happening (van 'pasa' = passeren/gebeuren)" },
+    { "woord": "Bishitá", "uitspraak": "bie-shi-ta", "vertaling": "Bezoeken" }
+  ],
+  "culturele_context": "Het buurleven is de sociale kern van Curaçao. 'Bario' is niet alleen een geografisch begrip — het is een identiteit. Mensen van hetzelfde bario herkennen elkaar, helpen elkaar en voelen een gedeelde verantwoordelijkheid.\n\nDe stoep ('stoep' is ook in Papiamentu gebruikt of 'borchi') is een semi-openbare ruimte. 's Avonds zitten buren buiten — niet om te roddelen maar om verbinding te houden. Dit is de 'ta warda' (wachten-zitten) cultuur: je bent beschikbaar voor het sociale leven.\n\nBloemen ('flernan' / 'flornan') zijn op Curaçao meer dan decoratie. Een tuin vol bloemen is een teken van zorg voor de omgeving en voor jezelf. 'Su tuin ta masha dushi' is een compliment dat dieper gaat dan de tuin zelf.",
+  "scenario_links": ["scenario-003", "scenario-012"],
+  "eindoefening": [
+    { "vraag": "Hoe begroet je een buur 's middags?", "opties": ["Bon tardi, buur!", "Bon dia, buur!", "Bon nochi, buur!", "Ayó, buur!"], "correct": 0 },
+    { "vraag": "Hoe vraag je wat er gaande is in de buurt?", "opties": ["Ki kos ta pasando na bario?", "Kiko ta na bario?", "Unda ta pasando?", "Ki bario ta hasi?"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Er is een nieuw huis in mijn straat'?", "opties": ["Tin un kas nobo na mi strea", "Ta un kas nobo na mi strea", "Un kas nobo ta na mi strea", "Mi strea tin nobo kas"], "correct": 0 },
+    { "vraag": "Hoe beschrijf je een mooie tuin?", "opties": ["Su tuin ta masha bunita", "Su bunita tuin ta masha", "Masha bunita su tuin ta", "Su tuin bunita masha ta"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De kinderen van de buurt spelen op straat'?", "opties": ["E muchanan di bario ta hunga na strea", "E bario muchanan ta hunga strea", "Muchanan ta hunga na bario strea", "E mucha di bario hunga ta strea"], "correct": 0 },
+    { "vraag": "Hoe bied je hulp aan?", "opties": ["Si tin algu, yama mi", "Si algu tin, mi yama", "Mi ta yuda si tin algu", "Yuda mi si tin algu"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Er zijn veel verse bloemen'?", "opties": ["Tin hopi flor fresku", "Tin flornan hopi fresku", "Flornan fresku ta hopi", "Tin flor hopi i fresku"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'groter dan alle andere'?", "opties": ["Mas grandi ku tur otro", "Mas grandi dan tur otro", "Grandi mas ku tur otro", "Tur otro ta ménos grandi"], "correct": 0 },
+    { "vraag": "Wat is 'yuda'?", "opties": ["Helpen", "Bellen", "Vragen", "Bezoeken"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ze helpen ons als er een probleem is'?", "opties": ["Nan ta yuda nos si tin un problema", "Nan ta yuda nos ku problema", "Si problema tin nan ta yuda nos", "Nan ta yuda nos tin problema"], "correct": 0 },
+    { "vraag": "Wat is 'hunga'?", "opties": ["Spelen", "Rennen", "Roepen", "Wachten"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wij moeten dat bezoeken'?", "opties": ["Nos mester bishitá mekí", "Nos ta bishitá mekí", "Bishitá nos mekí", "Nos ta bai bishitá"], "correct": 0 },
+    { "vraag": "Wat is 'pasando'?", "opties": ["Gaande / happening", "Passeren (voertuig)", "Gaan", "Verdwijnen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Onze buren zijn heel goed'?", "opties": ["Nos buurnan ta hopi bon", "E buurnan di nos ta bon", "Nos ta hopi bon buurnan", "Buurnan nos ta hopi bon"], "correct": 0 },
+    { "vraag": "Wat is 'flor'?", "opties": ["Bloem", "Kleur", "Tuin", "Boom"], "correct": 0 },
+    { "vraag": "Hoe vraag je iemand om je te bezoeken?", "opties": ["Bishitami, por fabor", "Bin bishitá mi", "Mi wil bo bishitá", "Bishitá pa mi"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'elke zaterdag' in een zin?", "opties": ["Tur Djasabra", "Tur e Djasabra", "Djasabra tur", "Na tur Djasabra"], "correct": 0 },
+    { "vraag": "Waarom is 'bario' meer dan een geografisch begrip?", "opties": ["Het is een identiteit — een sociaal netwerk en veiligheidsnet", "Het is alleen een bestuurlijk district", "Het is hetzelfde als 'stad'", "Het verwijst naar een gebouw"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Er zijn drie nieuwe huizen'?", "opties": ["Tin tres kas nobo", "Tres kas nobo ta", "Tin tres kasnan nobo", "Tres nobo kasnan tin"], "correct": 0 },
+    { "vraag": "Waarom is 'Si tin algu, yama mi' een belangrijk sociaal ritueel?", "opties": ["Het bevestigt beschikbaarheid en verbinding — het is gemeend, niet loos", "Het is een beleefd afscheid", "Het is een formele belofte", "Het is een waarschuwing"], "correct": 0 }
+  ]
+}

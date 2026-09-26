@@ -1,0 +1,73 @@
+{
+  "id": 2,
+  "blok": 1,
+  "titel": "Het werkwoord 'Ta': Het fundament",
+  "grammatica": {
+    "uitleg": "In Papiamentu bestaat er geen werkwoord 'zijn' dat verbuigt zoals in het Nederlands (ben, bent, is, zijn). In plaats daarvan heb je 'ta' — één onveranderlijk woord dat alles doet.\n\n'Ta' heeft drie rollen:\n\n1. COPULA: Legt een verband tussen onderwerp en eigenschap of identiteit.\n   Mi ta studiant. (Ik ben student.)\n\n2. TEGENWOORDIGE TIJDSMARKER: Plaatst een actie in het heden of als gewoonte.\n   Mi ta kome. (Ik eet. / Ik ben aan het eten.)\n\n3. STATUS/TOESTAND: Beschrijft een voortdurende staat of conditie.\n   E ta kansá. (Hij/zij is moe.)\n\nHet cruciale punt: 'ta' verbuigt NOOIT. Het is identiek voor mi, bo, e, nos, boso en nan. Dit is een van de meest bevrijdende eigenschappen van Papiamentu — je hoeft nooit na te denken over vervoeging.",
+    "voorbeelden": [
+      { "papiamentu": "Mi ta bon", "vertaling": "Ik ben goed / Het gaat goed met mij" },
+      { "papiamentu": "Bo ta hopi dushi", "vertaling": "Je bent heel lief" },
+      { "papiamentu": "E ta traha na hospital", "vertaling": "Hij/zij werkt in het ziekenhuis" },
+      { "papiamentu": "Nos ta biba na Kòrsou", "vertaling": "Wij wonen op Curaçao" },
+      { "papiamentu": "Nan ta kome awor", "vertaling": "Zij eten nu" }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'mi ta' en 'bo ta' versmelten in spreektaal",
+      "voorbeeld": "'mi ta' → klinkt als 'mita' | 'bo ta' → klinkt als 'bota'",
+      "toelichting": "In vlot gesproken Papiamentu versmelten het voornaamwoord en 'ta' tot één klankblok. Train je oor hierop — het is het ritme van de taal, geen slordigheid."
+    },
+    {
+      "nuance": "'ta' wordt bijna onhoorbaar in vluchtige begroetingen",
+      "voorbeeld": "'Mi [ta] bon, danki' — 'ta' kan zo licht zijn dat het bijna verdwijnt",
+      "toelichting": "Dit gebeurt alleen in informele flitsbegroetingen. Schrijf altijd 'ta' in tekst. Maar wees niet verbaasd als je het niet hoort bij native speakers."
+    },
+    {
+      "nuance": "Geen onderscheid in constructie tussen eigenschap en actie",
+      "voorbeeld": "'Mi ta kansá' (ik ben moe — toestand) vs. 'Mi ta drumi' (ik slaap — actie) — zelfde structuur",
+      "toelichting": "Papiamentu gebruikt 'ta' voor beide. De context bepaalt of het een toestand of een handeling is. Er is geen aparte constructie nodig."
+    },
+    {
+      "nuance": "Geen extra 'zijn' toevoegen na 'ta'",
+      "voorbeeld": "'E ta doktor.' — CORRECT | 'E ta un doktor zijn.' — FOUT",
+      "toelichting": "Nederlandstaligen proberen soms nog een extra werkwoord in te bouwen. In Papiamentu is 'ta' genoeg. Het toevoegen van meer is een interferentiefout."
+    }
+  ],
+  "woorden": [
+    { "woord": "Ta", "uitspraak": "ta", "vertaling": "Is/zijn/ben/bent — tegenwoordige marker" },
+    { "woord": "Bon", "uitspraak": "bon", "vertaling": "Goed" },
+    { "woord": "Kansá", "uitspraak": "kan-sa", "vertaling": "Moe" },
+    { "woord": "Traha", "uitspraak": "tra-ha", "vertaling": "Werken" },
+    { "woord": "Biba", "uitspraak": "bie-ba", "vertaling": "Wonen / leven" },
+    { "woord": "Kome", "uitspraak": "ko-me", "vertaling": "Eten" },
+    { "woord": "Drumi", "uitspraak": "droe-mie", "vertaling": "Slapen" },
+    { "woord": "Dushi", "uitspraak": "doe-shi", "vertaling": "Lekker / lief / fijn" },
+    { "woord": "Studiant", "uitspraak": "stoe-diant", "vertaling": "Student" },
+    { "woord": "Awor", "uitspraak": "a-wor", "vertaling": "Nu / nu meteen" }
+  ],
+  "culturele_context": "De onverbuigbaarheid van 'ta' weerspiegelt iets diepgaands in de Papiamentse taallogica: de taal is geoptimaliseerd voor helderheid en efficiëntie. Er is geen ruimte voor grammaticale ruis die de betekenis niet verrijkt.\n\nOok sociaal is dit zichtbaar. Op Curaçao groet men met 'Mi ta bon' — kort, direct, zonder franje. De nadruk ligt op inhoud en verbinding, niet op taalkundige complexiteit.\n\nHet feit dat 'ta' nooit verandert, maakt Papiamentu toegankelijk voor sprekers van alle achtergronden. Dat is historisch ook zo gegroeid: de taal moest werken in een gemeenschap met tientallen taalinvloeden.",
+  "scenario_links": ["scenario-001"],
+  "eindoefening": [
+    { "vraag": "Hoe zeg je 'Ik ben moe' in Papiamentu?", "opties": ["Mi ta kansá", "Mi kansá ta", "Mi ta siendo kansá", "Mi es kansá"], "correct": 0 },
+    { "vraag": "Wat doet 'ta' in de zin 'Nan ta kome'?", "opties": ["Markeert de tegenwoordige tijd", "Geeft verleden tijd aan", "Is een zelfstandig naamwoord", "Geeft toekomst aan"], "correct": 0 },
+    { "vraag": "Hoe verandert 'ta' bij 'nos' (wij)?", "opties": ["Het verandert niet — ta blijft ta", "Het wordt 'tamos'", "Het wordt 'tanen'", "Het wordt 'ta nos'"], "correct": 0 },
+    { "vraag": "Wat is de juiste Papiamentse zin voor 'Hij is dokter'?", "opties": ["E ta doktor", "E ta un doktor zijn", "E ta is doktor", "He ta doktor"], "correct": 0 },
+    { "vraag": "Welke zin is CORRECT?", "opties": ["Mi ta traha awor", "Mi esta traha awor", "Mi traha ta awor", "Ta mi traha awor"], "correct": 0 },
+    { "vraag": "Wat betekent 'Bo ta hopi dushi'?", "opties": ["Je bent heel lief", "Je eet heel lekker", "Jij bent heel goed", "Je doet heel goed je best"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wij wonen op Curaçao'?", "opties": ["Nos ta biba na Kòrsou", "Nos biba ta Kòrsou", "Nos ta wonen na Kòrsou", "Nos ta Kòrsou biba"], "correct": 0 },
+    { "vraag": "Wat zijn de drie rollen van 'ta'?", "opties": ["Copula, tegenwoordige marker, toestandsbeschrijving", "Verleden, heden, toekomst", "Subject, object, werkwoord", "Formeel, informeel, neutraal"], "correct": 0 },
+    { "vraag": "Wat betekent 'awor'?", "opties": ["Nu / nu meteen", "Gisteren", "Morgen", "Straks"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Zij slapen nu'?", "opties": ["Nan ta drumi awor", "Nan drumi ta awor", "Nan ta slapen awor", "Awor nan drumi"], "correct": 0 },
+    { "vraag": "Welke eigenschap is UNIEK voor 'ta'?", "opties": ["Het verbuigt nooit, voor geen enkel persoon", "Het staat altijd achteraan de zin", "Het verdwijnt in vragen", "Het verandert bij meervoud"], "correct": 0 },
+    { "vraag": "Wat is het verschil tussen 'mi ta kansá' en 'mi ta drumi'?", "opties": ["Toestand vs. actie — maar de constructie met 'ta' is gelijk", "Toestand gebruikt 'ta', actie niet", "Actie staat vooraan, toestand achteraan", "Er is geen verschil in betekenis"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ze werkt in het ziekenhuis'?", "opties": ["E ta traha na hospital", "E ta traha hospital", "Ela traha na hospital", "E traha ta hospital"], "correct": 0 },
+    { "vraag": "Wat betekent 'biba'?", "opties": ["Wonen / leven", "Eten", "Slapen", "Werken"], "correct": 0 },
+    { "vraag": "Hoe klinkt 'mi ta' in vlot gesproken Papiamentu?", "opties": ["Als 'mita' — één klankblok", "Als 'mi-ta' — duidelijk gescheiden", "Als 'ta-mi' — omgekeerd", "Als 'mita' maar alleen formeel"], "correct": 0 },
+    { "vraag": "Wat is FOUT in: 'E ta studiant zijn'?", "opties": ["'zijn' is overbodig — 'ta' is genoeg", "'ta' moet worden weggelaten", "'studiant' is fout gespeld", "E moet 'hi' zijn"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik slaap nu'?", "opties": ["Mi ta drumi awor", "Mi drumi ta awor", "Mi ta sleep awor", "Awor mi drumi ta"], "correct": 0 },
+    { "vraag": "Wat betekent 'traha'?", "opties": ["Werken", "Maken", "Bouwen", "Alle bovenstaande"], "correct": 3 },
+    { "vraag": "Welke zin toont de copula-functie van 'ta'?", "opties": ["Mi ta studiant", "Mi ta kome", "Mi ta bai", "Mi ta drumi"], "correct": 0 },
+    { "vraag": "Waarom verbuigt 'ta' nooit?", "opties": ["Omdat Papiamentu geoptimaliseerd is voor helderheid zonder grammaticale ruis", "Omdat de taal te jong is", "Omdat alle personen in Papiamentu gelijk zijn", "Omdat het een leenwoord is"], "correct": 0 }
+  ]
+}

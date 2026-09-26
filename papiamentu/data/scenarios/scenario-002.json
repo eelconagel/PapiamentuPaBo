@@ -1,0 +1,104 @@
+{
+  "id": "scenario-002",
+  "title": "Afscheid nemen",
+  "difficulty": "Easy",
+  "category": "Dagelijks contact",
+  "intro": "Je verlaat de toko of bent op bezoek bij vrienden. Op Curaçao is het niet de bedoeling dat je zomaar wegloopt; je neemt op een hartelijke manier afscheid van iedereen die aanwezig is.",
+  "introWords": [
+    { "papiamentu": "Te mañan", "dutch": "Tot morgen", "pronunciation": "te ma-jan" },
+    { "papiamentu": "Ayo", "dutch": "Doei / Tot ziens", "pronunciation": "a-joo" },
+    { "papiamentu": "Pasa bon dia", "dutch": "Nog een fijne dag", "pronunciation": "pa-sa bon dee-a" },
+    { "papiamentu": "Danki pa tur kos", "dutch": "Bedankt voor alles", "pronunciation": "dan-ki pa tur kos" }
+  ],
+  "grammar": {
+    "title": "Manieren om afscheid te nemen",
+    "explanation": [
+      "De meest gebruikte vorm is 'Ayo'. In informele situaties hoor je ook vaak 'Te despues' (tot later).",
+      "Wanneer je iemand een prettige dag of avond wenst, gebruik je 'Pasa bon dia' (overdag) of 'Pasa bon anochi' (in de avond).",
+      "Net als bij het binnenkomen, wordt het bij kleine groepen (zoals in een kantoor of kleine toko) gewaardeerd om iedereen expliciet gedag te zeggen."
+    ],
+    "exercises": [
+      {
+        "question": "Je verlaat een winkel overdag. Wat zeg je?",
+        "options": ["Ayo, pasa bon dia", "Bon dia", "Bonbiní", "Pasa denter"],
+        "correct": 0,
+        "explanation": "'Ayo' is doei, 'pasa bon dia' wens je iemand een fijne dag."
+      },
+      {
+        "question": "Je spreekt af dat je iemand morgen weer ziet. Wat zeg je?",
+        "options": ["Te mañan", "Ayo", "Te despues", "Pasa bon anochi"],
+        "correct": 0,
+        "explanation": "'Te mañan' betekent letterlijk 'tot morgen'."
+      },
+      {
+        "question": "Hoe bedank je iemand hartelijk bij het vertrek?",
+        "options": ["Danki pa tur kos", "Bonbiní", "Bon tardi", "Kon ta bai?"],
+        "correct": 0,
+        "explanation": "'Danki pa tur kos' = Bedankt voor alles."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Ayo", "dutch": "Doei / Tot ziens", "pronunciation": "a-joo", "example": "Ayo, te despues!" },
+    { "papiamentu": "Te mañan", "dutch": "Tot morgen", "pronunciation": "te ma-jan", "example": "Bon nochi, te mañan." },
+    { "papiamentu": "Te despues", "dutch": "Tot later", "pronunciation": "te des-pues", "example": "Ayo, te despues!" },
+    { "papiamentu": "Pasa bon dia", "dutch": "Nog een fijne dag", "pronunciation": "pa-sa bon dee-a", "example": "Danki, pasa bon dia!" },
+    { "papiamentu": "Pasa bon anochi", "dutch": "Nog een fijne avond", "pronunciation": "pa-sa bon a-no-chi", "example": "Ayo, pasa bon anochi." },
+    { "papiamentu": "Danki pa tur kos", "dutch": "Bedankt voor alles", "pronunciation": "dan-ki pa tur kos", "example": "Danki pa tur kos, ayo!" },
+    { "papiamentu": "Kuida bo mes", "dutch": "Pas goed op jezelf", "pronunciation": "kwi-da bo mes", "example": "Ayo, kuida bo mes." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Te 'Ayo' verwarren met boosheid",
+      "detail": "Voor Nederlanders klinkt 'Ayo' soms wat kortaf. Het is echter de standaard en meest vriendelijke manier om afscheid te nemen.",
+      "remember": "Ayo is altijd goed."
+    },
+    {
+      "trap": "Afscheid nemen van een groep",
+      "detail": "Het is onbeleefd om uit een kleine ruimte (zoals een wachtkamer of kantoor) te vertrekken zonder in ieder geval een algemeen 'Ayo' of 'Pasa bon dia' naar de groep te roepen.",
+      "remember": "Laat jezelf horen bij vertrek."
+    }
+  ],
+  "culture": {
+    "title": "Afscheid in de Curaçaose cultuur",
+    "intro": "Op Curaçao is afscheid nemen een moment van sociale erkenning. Het benadrukt de relatie die je met de ander hebt.",
+    "facts": [
+      "Het is sociaal wenselijk om bij een verjaardag of etentje iedereen persoonlijk de hand te schudden of te zoenen bij het weggaan.",
+      "Een 'snel' vertrek zonder afscheid wordt vaak geïnterpreteerd als desinteresse.",
+      "De uitdrukking 'Kuida bo mes' (pas goed op jezelf) wordt vaak gebruikt tussen vrienden en familie als uiting van zorg."
+    ],
+    "didYouKnow": "Wist je dat als je ergens op bezoek bent, het afscheid nemen soms wel een half uur kan duren omdat je nog even blijft napraten bij de deur?"
+  },
+  "quiz": [
+    {
+      "question": "Wat zeg je als je in de avond weggaat?",
+      "options": ["Pasa bon anochi", "Pasa bon dia", "Bon dia", "Bonbiní"],
+      "correct": 0,
+      "explanation": "'Pasa bon anochi' wens je iemand een fijne avond."
+    },
+    {
+      "question": "Wat betekent 'Kuida bo mes'?",
+      "options": ["Pas goed op jezelf", "Tot later", "Bedankt", "Tot ziens"],
+      "correct": 0,
+      "explanation": "Het is een warme groet die betekent: pas goed op jezelf."
+    },
+    {
+      "question": "Hoe zeg je 'Tot later'?",
+      "options": ["Te despues", "Te mañan", "Ayo", "Danki"],
+      "correct": 0,
+      "explanation": "'Te despues' = tot later."
+    },
+    {
+      "question": "Is het beleefd om zonder afscheid te zwaaien weg te lopen uit een kleine groep?",
+      "options": ["Nee, dit is onbeleefd", "Ja, dat is prima", "Alleen als je haast hebt", "Alleen bij vreemden"],
+      "correct": 0,
+      "explanation": "Afzwaaien naar de groep hoort bij de sociale norm op Curaçao."
+    },
+    {
+      "question": "Wat is de meest algemene manier om 'Doei' te zeggen?",
+      "options": ["Ayo", "Bon dia", "Bonbiní", "Pasa denter"],
+      "correct": 0,
+      "explanation": "'Ayo' is de standaard vertaling voor doei/tot ziens."
+    }
+  ]
+}

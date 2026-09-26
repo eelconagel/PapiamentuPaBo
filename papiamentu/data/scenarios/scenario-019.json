@@ -1,0 +1,103 @@
+{
+  "id": "scenario-019",
+  "title": "Een klacht indienen",
+  "difficulty": "Native Speaker",
+  "category": "Service",
+  "intro": "Je bent ontevreden over een product of dienst. Op Curaçao is de manier waarop je een klacht uit essentieel: direct boos worden werkt vaak averechts. Men waardeert een kalme, respectvolle en constructieve benadering.",
+  "introWords": [
+    { "papiamentu": "Mi ke hasi un keho", "dutch": "Ik wil een klacht indienen", "pronunciation": "mie ke ha-sie oen ke-ho" },
+    { "papiamentu": "Esaki no ta aseptabel", "dutch": "Dit is niet acceptabel", "pronunciation": "e-sa-kie no ta a-sep-ta-bel" },
+    { "papiamentu": "Mi no ta satisfecho", "dutch": "Ik ben niet tevreden", "pronunciation": "mie no ta sa-tis-fe-cho" },
+    { "papiamentu": "Kiko nos por hasi pa solushoná esaki?", "dutch": "Wat kunnen we doen om dit op te lossen?", "pronunciation": "kee-ko nos por ha-sie pa so-loo-sho-na e-sa-kie" }
+  ],
+  "grammar": {
+    "title": "Een klacht formuleren",
+    "explanation": [
+      "Gebruik 'Mi no ta satisfecho' om duidelijk te maken dat je verwachtingen niet zijn uitgekomen.",
+      "Houd het bij de feiten: 'E produkto ta kibrá' (het product is kapot).",
+      "Stuur aan op een oplossing door te vragen naar de mogelijkheden: 'Kiko nos por hasi?'"
+    ],
+    "exercises": [
+      {
+        "question": "Hoe zeg je: 'Ik ben boos'?",
+        "options": ["Mi ta rabiá", "Mi ta satisfecho", "Mi ta kla", "Mi ta keho"],
+        "correct": 0,
+        "explanation": "'Rabiá' betekent boos/geïrriteerd."
+      },
+      {
+        "question": "Wat betekent 'Solushoná'?",
+        "options": ["Oplossen", "Klacht", "Verwachting", "Probleem"],
+        "correct": 0,
+        "explanation": "Afgeleid van het Engelse/Spaanse 'solucionar'."
+      },
+      {
+        "question": "Wat is een beleefde manier om je ongenoegen te uiten?",
+        "options": ["Mi tin un keho", "Esaki ta malu!", "Mi ke bo!"],
+        "correct": 0,
+        "explanation": "'Mi tin un keho' is de meest zakelijke manier om te beginnen."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Keho", "dutch": "Klacht", "pronunciation": "ke-ho", "example": "Mi tin un keho serio." },
+    { "papiamentu": "Satisfecho", "dutch": "Tevreden", "pronunciation": "sa-tis-fe-cho", "example": "Mi no ta satisfecho ku e servisio." },
+    { "papiamentu": "Aseptabel", "dutch": "Acceptabel", "pronunciation": "a-sep-ta-bel", "example": "Esaki no ta aseptabel." },
+    { "papiamentu": "Solushon", "dutch": "Oplossing", "pronunciation": "so-loo-shon", "example": "Mi ta buska un solushon." },
+    { "papiamentu": "Rabiá", "dutch": "Boos", "pronunciation": "ra-bia", "example": "No bira rabiá." },
+    { "papiamentu": "Servisio", "dutch": "Service", "pronunciation": "ser-vi-sio", "example": "E servisio tabata malu." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Te emotioneel reageren",
+      "detail": "Op Curaçao kan een harde toon ('rabiá') ervoor zorgen dat de tegenpartij in de verdediging schiet of zich terugtrekt. Blijf rustig en zakelijk.",
+      "remember": "Kalmte wint."
+    },
+    {
+      "trap": "Niet bij de persoon zelf klagen",
+      "detail": "Als de service slecht was, klag dan bij de leidinggevende ('gerente') in plaats van tegen de eerste de beste medewerker die er misschien niets aan kan doen.",
+      "remember": "Zoek de juiste persoon."
+    }
+  ],
+  "culture": {
+    "title": "Feedbackcultuur op Curaçao",
+    "intro": "Directe confrontatie is op het eiland niet de norm. Een klacht wordt vaak via een 'omweg' (een indirecte manier) geuit om gezichtsverlies voor beide partijen te voorkomen.",
+    "facts": [
+      "Als je een klacht indient, is het vaak effectiever om te vragen: 'Hoe kunnen we dit samen oplossen?' dan te eisen wat je wilt.",
+      "Het opbouwen van een goede relatie met de verkoper of dienstverlener maakt het indienen van een klacht veel makkelijker.",
+      "Geduld is essentieel; een oplossing wordt zelden direct op de seconde geregeld."
+    ],
+    "didYouKnow": "Wist je dat in sommige zakelijke kringen op Curaçao een klacht indienen wordt gezien als een kans voor het bedrijf om te laten zien hoe goed hun klantenservice is?"
+  },
+  "quiz": [
+    {
+      "question": "Wat betekent 'Gerente'?",
+      "options": ["Manager/Leidinggevende", "Medewerker", "Klant", "Service"],
+      "correct": 0,
+      "explanation": "Een gerente is de manager."
+    },
+    {
+      "question": "Hoe vraag je: 'Kunt u mij de manager spreken?'",
+      "options": ["Por papia ku e gerente?", "Kiko ta e gerente?", "Bo ta gerente?", "Mi ke gerente"],
+      "correct": 0,
+      "explanation": "'Papia ku' betekent praten met."
+    },
+    {
+      "question": "Wat betekent 'Malu'?",
+      "options": ["Slecht", "Goed", "Kapot", "Duur"],
+      "correct": 0,
+      "explanation": "'Malu' wordt gebruikt voor slechte service of kwaliteit."
+    },
+    {
+      "question": "Wat is de beste houding bij een klacht?",
+      "options": ["Beleefd en constructief", "Agressief", "Passief", "Luid"],
+      "correct": 0,
+      "explanation": "Een constructieve houding leidt tot snellere oplossingen."
+    },
+    {
+      "question": "Wat betekent 'Koper'?",
+      "options": ["Klant/Koper", "Verkoper", "Manager", "Product"],
+      "correct": 0,
+      "explanation": "Iemand die koopt (de klant)."
+    }
+  ]
+}

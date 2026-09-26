@@ -1,0 +1,357 @@
+{% extends "base.html" %}
+{% block content %}
+<!-- Oefenen -->
+<section id="screen-oefenen">
+  <div class="header-row">
+    <h1>Woorden Oefenen</h1>
+    <div class="header-right">
+      <span class="xp-badge" id="xp">0 XP</span>
+      <button type="button" class="btn-link" id="to-voortgang" style="padding:0">Voortgang</button>
+    </div>
+  </div>
+  <p class="muted small" id="unlocked-info"></p>
+
+  <div class="mode-tabs" role="tablist">
+    <button type="button" class="mode-tab active" data-mode="schrijven">Schrijven</button>
+    <button type="button" class="mode-tab" data-mode="lezen">Lezen</button>
+    <button type="button" class="mode-tab" data-mode="combinatie">Combinatie</button>
+  </div>
+
+  <div class="unlock-banner" id="unlock-banner" hidden></div>
+
+  <div id="all-done" class="center" style="padding-top:40px" hidden>
+    <h2 id="done-title" style="margin:0 0 8px"></h2>
+    <p class="muted" id="done-text"></p>
+  </div>
+
+  <p class="muted small center" id="submode-label" hidden></p>
+
+  <!-- Schrijven -->
+  <div class="practice-card" id="card-schrijven" hidden>
+    <div class="prompt-label">Typ het Papiamentse woord voor:</div>
+    <div class="prompt-word" id="s-prompt"></div>
+    <button type="button" class="hint-btn" id="hint-btn">Hint: uitspraak (2 XP)</button>
+    <div class="hint-text" id="hint-text" hidden></div>
+    <form id="s-form" autocomplete="off">
+      <input class="input" id="s-input" placeholder="Typ het woord..." autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" aria-label="Jouw antwoord">
+      <div class="accent-keys" id="accent-keys">
+        {% for ch in ['à','á','è','é','í','ò','ó','ú','ü','ñ'] %}
+          <button type="button" class="accent-key" tabindex="-1">{{ ch }}</button>
+        {% endfor %}
+      </div>
+      <div id="s-feedback"></div>
+      <button type="submit" class="btn btn-primary block" id="s-submit">Controleer</button>
+    </form>
+  </div>
+
+  <!-- Lezen -->
+  <div class="practice-card" id="card-lezen" hidden>
+    <div class="prompt-label" id="l-label"></div>
+    <div class="prompt-word" id="l-prompt"></div>
+    <div id="l-options"></div>
+    <div id="l-feedback"></div>
+    <button type="button" class="btn btn-primary block" id="l-next" hidden>Volgend woord</button>
+  </div>
+</section>
+
+<!-- Voortgang -->
+<section id="screen-voortgang" hidden>
+  <h1 class="title left">Voortgang</h1>
+  <div id="voortgang-list"></div>
+  <button type="button" class="btn btn-secondary block" id="to-oefenen">Terug naar oefenen</button>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script nonce="{{ csp_nonce }}">
+(function () {
+  const LIJSTEN = {{ lijsten | tojson }};
+  const MASTERED_THRESHOLD = 2;
+  const XP_SCHRIJVEN = 5;
+  const XP_LEZEN = 1;
+  const XP_HINT_COST = 2;
+  const $ = (id) => document.getElementById(id);
+
+  let mode = 'schrijven';
+  let subMode = 'schrijven';
+  let woord = null;
+  let answered = false;
+  let newUnlock = null;
+  let lezenVraag = null;
+
+  // Weighted pick: newest unlocked list weight 1, previous 0.5, 0.25, ...
+  function pickWeightedWord() {
+    const s = Store.get();
+    const ids = s.lijsten.slice().sort((a, b) => a - b);
+    const entries = [];
+    ids.forEach((lijstId, i) => {
+      const lijst = LIJSTEN.find((l) => l.id === lijstId);
+      if (!lijst) return;
+      const weight = Math.pow(0.5, ids.length - 1 - i);
+      lijst.woorden.forEach((w) => { if (!s.woorden[w.id]?.is_mastered) entries.push({ w, weight }); });
+    });
+    if (!entries.length) return null;
+    let r = Math.random() * entries.reduce((sum, e) => sum + e.weight, 0);
+    for (const e of entries) { r -= e.weight; if (r <= 0) return e.w; }
+    return entries[entries.length - 1].w;
+  }
+
+  function unlockedWords() {
+    const ids = Store.get().lijsten;
+    return LIJSTEN.filter((l) => ids.includes(l.id)).flatMap((l) => l.woorden);
+  }
+
+  function makeLezenVraag(w) {
+    const nlToPap = Math.random() < 0.5;
+    const correct = nlToPap ? w.woord : w.vertaling;
+    const others = Store.shuffle(unlockedWords().filter((o) => o.id !== w.id)).slice(0, 3)
+      .map((o) => nlToPap ? o.woord : o.vertaling);
+    const opties = Store.shuffle([correct, ...others]);
+    return { prompt: nlToPap ? w.vertaling : w.woord, opties, correctIdx: opties.indexOf(correct), nlToPap };
+  }
+
+  // Punctuation, capitals and extra spaces don't count. Missing accents count as correct,
+  // with a spelling hint (typing ò or é is hard on many keyboards).
+  function normalize(text) {
+    return text.toLowerCase().replace(/[?!.,;:¿¡"'’]/g, '').replace(/\s+/g, ' ').trim();
+  }
+  function stripAccents(text) {
+    return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  }
+  function checkAnswer(given, expected) {
+    const a = normalize(given), b = normalize(expected);
+    if (!a) return 'wrong';
+    if (a === b) return 'exact';
+    if (stripAccents(a) === stripAccents(b)) return 'accents';
+    return 'wrong';
+  }
+
+  function pickSubMode() {
+    return mode === 'combinatie' ? (Math.random() < 0.5 ? 'schrijven' : 'lezen') : mode;
+  }
+
+  function renderHeader() {
+    const s = Store.get();
+    $('xp').textContent = s.xp + ' XP';
+    const n = s.lijsten.length;
+    $('unlocked-info').textContent = `${n} lijst${n !== 1 ? 'en' : ''} ontgrendeld` +
+      (n < LIJSTEN.length ? ' · volgende bij voltooien huidige lijst' : ' · alle lijsten beschikbaar');
+    $('unlock-banner').hidden = !newUnlock;
+    if (newUnlock) $('unlock-banner').textContent = `Nieuwe lijst ontgrendeld: ${newUnlock}!`;
+  }
+
+  function progressLine() {
+    const p = Store.get().woorden[woord.id];
+    const count = Math.min(p?.correct_count ?? 0, MASTERED_THRESHOLD);
+    return `Voortgang: ${count}/${MASTERED_THRESHOLD}x` + (p?.is_mastered ? ' — Gemeesterd!' : '');
+  }
+
+  function feedbackBox(ok, text) {
+    const box = document.createElement('div');
+    box.className = 'feedback ' + (ok ? 'ok' : 'bad');
+    box.textContent = text;
+    if (ok) {
+      const pr = document.createElement('div');
+      pr.className = 'fb-progress';
+      pr.textContent = progressLine();
+      box.append(pr);
+    }
+    return box;
+  }
+
+  function render() {
+    renderHeader();
+    $('card-schrijven').hidden = true;
+    $('card-lezen').hidden = true;
+    $('submode-label').hidden = true;
+    $('all-done').hidden = true;
+
+    if (!woord) {
+      const allLists = Store.get().lijsten.length >= LIJSTEN.length;
+      $('all-done').hidden = false;
+      $('done-title').textContent = allLists ? 'Alle woorden gemeesterd!' : 'Lijst voltooid!';
+      $('done-text').textContent = allLists
+        ? 'Je hebt alle woordenlijsten voltooid. Indrukwekkend!'
+        : 'Alle woorden in de huidige lijst zijn gemeesterd.';
+      return;
+    }
+
+    if (mode === 'combinatie') {
+      $('submode-label').hidden = false;
+      $('submode-label').textContent = subMode === 'schrijven' ? 'Schrijven' : 'Lezen';
+    }
+
+    if (subMode === 'schrijven') {
+      $('card-schrijven').hidden = false;
+      $('s-prompt').textContent = woord.vertaling;
+      $('hint-btn').hidden = false;
+      $('hint-text').hidden = true;
+      $('s-input').value = '';
+      $('s-input').className = 'input';
+      $('s-input').readOnly = false;
+      $('accent-keys').hidden = false;
+      $('s-feedback').innerHTML = '';
+      $('s-submit').textContent = 'Controleer';
+      $('s-input').focus();
+    } else {
+      $('card-lezen').hidden = false;
+      lezenVraag = makeLezenVraag(woord);
+      $('l-label').textContent = lezenVraag.nlToPap ? 'Wat is het Papiamentse woord voor:' : 'Wat betekent dit in het Nederlands:';
+      $('l-prompt').textContent = lezenVraag.prompt;
+      $('l-feedback').innerHTML = '';
+      $('l-next').hidden = true;
+      const opts = $('l-options');
+      opts.innerHTML = '';
+      lezenVraag.opties.forEach((o, i) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'option alt';
+        b.textContent = o;
+        b.addEventListener('click', () => answerLezen(i));
+        opts.append(b);
+      });
+    }
+  }
+
+  function nextWoord() {
+    woord = pickWeightedWord();
+    subMode = pickSubMode();
+    answered = false;
+    newUnlock = null;
+    render();
+  }
+
+  function handleCorrect(xp) {
+    const s = Store.get();
+    const count = (s.woorden[woord.id]?.correct_count ?? 0) + 1;
+    Store.setWoord(woord.id, count, count >= MASTERED_THRESHOLD);
+    Store.addXp(xp);
+
+    const after = Store.get();
+    const lijst = LIJSTEN.find((l) => after.lijsten.includes(l.id) && l.woorden.some((w) => w.id === woord.id));
+    if (lijst && lijst.woorden.every((w) => after.woorden[w.id]?.is_mastered)) {
+      const next = LIJSTEN.find((l) => l.id === lijst.id + 1);
+      if (next && !after.lijsten.includes(next.id)) {
+        Store.unlockLijst(next.id);
+        newUnlock = next.naam;
+      }
+    }
+    renderHeader();
+  }
+
+  $('s-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (answered) return nextWoord();
+    answered = true;
+    const verdict = checkAnswer($('s-input').value, woord.woord);
+    const ok = verdict !== 'wrong';
+    if (ok) handleCorrect(XP_SCHRIJVEN);
+    $('s-input').className = 'input ' + (ok ? 'correct' : 'wrong');
+    $('s-input').readOnly = true;
+    $('hint-btn').hidden = true;
+    $('accent-keys').hidden = true;
+    const msg = verdict === 'exact' ? `Goed! +${XP_SCHRIJVEN} XP`
+      : verdict === 'accents' ? `Goed! +${XP_SCHRIJVEN} XP — let op de accenten: "${woord.woord}"`
+      : `Helaas. Het juiste antwoord is: "${woord.woord}"`;
+    $('s-feedback').replaceChildren(feedbackBox(ok, msg));
+    $('s-submit').textContent = 'Volgend woord';
+    $('s-submit').focus();
+  });
+
+  $('hint-btn').addEventListener('click', () => {
+    if (!Store.spendXp(XP_HINT_COST)) {
+      Store.toast(`Niet genoeg XP — je hebt ${XP_HINT_COST} XP nodig voor een hint.`);
+      return;
+    }
+    $('hint-btn').hidden = true;
+    $('hint-text').hidden = false;
+    $('hint-text').textContent = 'Uitspraak: ' + woord.uitspraak;
+    renderHeader();
+    $('s-input').focus();
+  });
+
+  document.querySelectorAll('.accent-key').forEach((k) => k.addEventListener('mousedown', (e) => {
+    e.preventDefault(); // keep focus in the input
+    const input = $('s-input');
+    if (input.readOnly) return;
+    const start = input.selectionStart ?? input.value.length;
+    const end = input.selectionEnd ?? input.value.length;
+    input.setRangeText(k.textContent, start, end, 'end');
+    input.focus();
+  }));
+
+  function answerLezen(i) {
+    if (answered) return;
+    answered = true;
+    const ok = i === lezenVraag.correctIdx;
+    Array.from($('l-options').children).forEach((b, j) => {
+      b.disabled = true;
+      if (j === lezenVraag.correctIdx) b.classList.add('correct');
+      else if (j === i) b.classList.add('wrong');
+    });
+    if (ok) handleCorrect(XP_LEZEN);
+    $('l-feedback').replaceChildren(feedbackBox(ok, ok ? `Goed! +${XP_LEZEN} XP` : `Helaas. Het juiste antwoord is: "${lezenVraag.opties[lezenVraag.correctIdx]}"`));
+    $('l-next').hidden = false;
+    $('l-next').focus();
+  }
+  $('l-next').addEventListener('click', nextWoord);
+
+  document.querySelectorAll('.mode-tab').forEach((t) => t.addEventListener('click', () => {
+    mode = t.dataset.mode;
+    document.querySelectorAll('.mode-tab').forEach((o) => o.classList.toggle('active', o === t));
+    if (answered || !woord) { nextWoord(); return; }
+    subMode = pickSubMode();
+    render();
+  }));
+
+  // Voortgang screen
+  function renderVoortgang() {
+    const s = Store.get();
+    const root = $('voortgang-list');
+    root.innerHTML = '';
+    LIJSTEN.forEach((l) => {
+      const unlocked = s.lijsten.includes(l.id);
+      const mastered = l.woorden.filter((w) => s.woorden[w.id]?.is_mastered).length;
+      const card = document.createElement('div');
+      card.className = 'list-card' + (unlocked ? '' : ' locked');
+      const head = document.createElement('div');
+      head.className = 'list-header';
+      head.innerHTML = '<span></span><span class="score-txt"></span>';
+      head.children[0].textContent = (unlocked ? '' : '🔒 ') + `Lijst ${l.id}: ${l.naam}`;
+      head.children[1].textContent = `${mastered}/${l.woorden.length}`;
+      const bar = document.createElement('div');
+      bar.className = 'progress-bar';
+      bar.innerHTML = `<div class="progress-fill" style="width:${(mastered / l.woorden.length) * 100}%"></div>`;
+      card.append(head, bar);
+      if (unlocked) {
+        l.woorden.forEach((w) => {
+          const p = s.woorden[w.id];
+          const row = document.createElement('div');
+          row.className = 'wl-row';
+          row.innerHTML = '<span></span><span class="nl"></span><span class="cnt"></span>';
+          row.children[0].textContent = w.woord;
+          if (p?.is_mastered) row.children[0].className = 'mastered';
+          row.children[1].textContent = w.vertaling;
+          row.children[2].textContent = `${p?.correct_count ?? 0}/${MASTERED_THRESHOLD}x`;
+          card.append(row);
+        });
+      }
+      root.append(card);
+    });
+  }
+
+  $('to-voortgang').addEventListener('click', () => {
+    renderVoortgang();
+    $('screen-oefenen').hidden = true;
+    $('screen-voortgang').hidden = false;
+    window.scrollTo({ top: 0 });
+  });
+  $('to-oefenen').addEventListener('click', () => {
+    $('screen-voortgang').hidden = true;
+    $('screen-oefenen').hidden = false;
+  });
+
+  nextWoord();
+})();
+</script>
+{% endblock %}

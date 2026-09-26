@@ -1,0 +1,73 @@
+{
+  "id": 6,
+  "blok": 1,
+  "titel": "Vraagwoorden (Basis): Kiko, Unda, Ki ora, Dikon",
+  "grammatica": {
+    "uitleg": "Vragen stellen in Papiamentu is eenvoudig: het vraagwoord gaat VOORAAN de zin. De rest van de zin blijft onveranderd — geen inversie, geen hulpwerkwoorden, geen aanpassingen.\n\nDE BASISVRAAGWOORDEN:\n• Kiko = Wat (vraagt naar een zaak of activiteit)\n• Unda = Waar (vraagt naar een locatie)\n• Ki ora = Hoe laat / Wanneer (vraagt naar tijd)\n• Dikon = Waarom\n• Kon = Hoe\n• Ken = Wie\n• Kuantu = Hoeveel\n\nVORMING VAN JA/NEE-VRAGEN:\nIn Papiamentu is er geen inversie bij ja/nee-vragen. Je maakt een vraag door INTONATIE te verhogen aan het einde van de zin:\n• Mededeling: 'Bo ta kome.' (Jij eet.)\n• Vraag: 'Bo ta kome?' (Eet jij?)\n\nLET OP: 'Ki' is een algemeen vragend bijvoeglijk naamwoord dat voor zelfstandige naamwoorden staat: 'Ki dia?' (Welke dag?), 'Ki ora?' (Hoe laat?), 'Ki kolor?' (Welke kleur?)",
+    "voorbeelden": [
+      { "papiamentu": "Kiko bo ta hasi?", "vertaling": "Wat doe jij?" },
+      { "papiamentu": "Unda bo ta biba?", "vertaling": "Waar woon jij?" },
+      { "papiamentu": "Ki ora e ta yega?", "vertaling": "Hoe laat komt hij/zij aan?" },
+      { "papiamentu": "Dikon bo no ta kome?", "vertaling": "Waarom eet jij niet?" },
+      { "papiamentu": "Ken ta bo mei-mei?", "vertaling": "Wie is jouw vriend/vriendin?" }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'Kiko' krimpt in spreektaal tot 'ko'",
+      "voorbeeld": "'Ko bo ta hasi?' (snel) = 'Kiko bo ta hasi?' (correct schrijven)",
+      "toelichting": "In vlot gesproken Papiamentu wordt de eerste lettergreep van 'kiko' soms afgesnoeid. Je hoort dit vaak bij jonge sprekers in informele gesprekken. Schrijf altijd 'kiko'."
+    },
+    {
+      "nuance": "'Ki' als flexibel vragend bijvoeglijk naamwoord",
+      "voorbeeld": "'Ki dia boso tin?', 'Ki kolor bo ke?', 'Ki número bo tin?'",
+      "toelichting": "'Ki' kun je voor bijna elk zelfstandig naamwoord zetten om 'welk(e)' te vragen. Het is de meest productieve vraagvorm in de taal — als je 'ki + zelfstandig naamwoord' kent, kun je ontelbare vragen stellen."
+    },
+    {
+      "nuance": "Ja/nee-vraag alleen door intonatie",
+      "voorbeeld": "'Bo ta bon.' (mededeling) → 'Bo ta bon?' (vraag) — alleen de stem gaat omhoog",
+      "toelichting": "Er is geen grammaticale markering voor ja/nee-vragen. Dit is voor Nederlandstaligen onwennig maar snel te leren. Oefen door zinnen eerst als mededeling, dan als vraag te zeggen."
+    },
+    {
+      "nuance": "'Dikon' = waarom, maar 'Pa kiko' ook",
+      "voorbeeld": "'Dikon bo ta kansa?' en 'Pa kiko bo ta kansa?' — beide zijn correct en gangbaar",
+      "toelichting": "'Pa kiko' (letterlijk: voor wat) is de alternatieve vorm voor 'waarom'. In spreektaal hoor je beide, en ze zijn volledig uitwisselbaar."
+    }
+  ],
+  "woorden": [
+    { "woord": "Kiko", "uitspraak": "kie-ko", "vertaling": "Wat" },
+    { "woord": "Unda", "uitspraak": "oen-da", "vertaling": "Waar" },
+    { "woord": "Ki ora", "uitspraak": "kie o-ra", "vertaling": "Hoe laat / welk uur" },
+    { "woord": "Dikon", "uitspraak": "die-kon", "vertaling": "Waarom" },
+    { "woord": "Kon", "uitspraak": "kon", "vertaling": "Hoe" },
+    { "woord": "Ken", "uitspraak": "ken", "vertaling": "Wie" },
+    { "woord": "Kuantu", "uitspraak": "kwan-toe", "vertaling": "Hoeveel" },
+    { "woord": "Ki", "uitspraak": "kie", "vertaling": "Welk / welke (bijvoeglijk)" },
+    { "woord": "Yega", "uitspraak": "je-ga", "vertaling": "Aankomen / arriveren" },
+    { "woord": "Pa kiko", "uitspraak": "pa kie-ko", "vertaling": "Waarom (alternatief voor dikon)" }
+  ],
+  "culturele_context": "Op Curaçao is vragen stellen een kunst van nieuwsgierigheid zonder opdringerigheid. 'Ken bo ta?' (Wie ben jij?) is een directe vraag maar nooit als bedreigend bedoeld — mensen zijn oprecht geïnteresseerd in wie je bent en waar je vandaan komt.\n\nDe vraag 'Di unda bo ta?' (Waar kom je vandaan?) is een van de meest gestelde vragen bij een eerste ontmoeting. Het eiland heeft een rijke mix van afkomsten en culturen, en die diversiteit wordt gevierd.\n\nVragen stellen in Papiamentu is ook een manier van verbinding zoeken. Een vraag als 'Kon bo ta?' (Hoe ben je?) nodigt uit tot een gesprek, niet alleen een informatieuitwisseling. Op het eiland is sociale verbinding de context van alle taal.",
+  "scenario_links": ["scenario-001", "scenario-002", "scenario-003"],
+  "eindoefening": [
+    { "vraag": "Welk vraagwoord gebruik je voor 'Waar'?", "opties": ["Unda", "Kiko", "Kon", "Ken"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wat doe jij?'", "opties": ["Kiko bo ta hasi?", "Bo kiko ta hasi?", "Hasi kiko bo ta?", "Bo ta hasi kiko?"], "correct": 0 },
+    { "vraag": "Wat is 'Ki ora'?", "opties": ["Hoe laat / welk uur", "Welke dag", "Hoeveel uur", "Wanneer morgen"], "correct": 0 },
+    { "vraag": "Hoe maak je een ja/nee-vraag in Papiamentu?", "opties": ["Door de intonatie omhoog te laten gaan", "Door het werkwoord vooraan te zetten", "Door 'ta' te verplaatsen", "Door 'si' of 'no' toe te voegen"], "correct": 0 },
+    { "vraag": "Wat betekent 'dikon'?", "opties": ["Waarom", "Hoe", "Wat", "Wie"], "correct": 0 },
+    { "vraag": "Hoe vraag je 'Hoe laat komt hij aan'?", "opties": ["Ki ora e ta yega?", "Unda e ta yega?", "Kon e ta yega?", "Kiko ora e ta yega?"], "correct": 0 },
+    { "vraag": "Welk vraagwoord gebruik je voor 'Wie'?", "opties": ["Ken", "Kiko", "Unda", "Ki"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Waar woon jij?'", "opties": ["Unda bo ta biba?", "Kiko bo ta biba?", "Kon bo ta biba?", "Bo ta biba unda?"], "correct": 0 },
+    { "vraag": "Wat is het alternatief voor 'dikon' in spreektaal?", "opties": ["Pa kiko", "Kon kiko", "Ki dikon", "Unda dikon"], "correct": 0 },
+    { "vraag": "Hoe gebruik je 'ki' als bijvoeglijk naamwoord?", "opties": ["Ki + zelfstandig naamwoord: 'Ki dia?'", "'Ki' staat na het zelfstandig naamwoord", "'Ki' vervangt het zelfstandig naamwoord", "'Ki' staat alleen in vragen met 'ta'"], "correct": 0 },
+    { "vraag": "Wat betekent 'kuantu'?", "opties": ["Hoeveel", "Hoe laat", "Hoe groot", "Hoe oud"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Waarom eet jij niet?'", "opties": ["Dikon bo no ta kome?", "Kiko bo no ta kome?", "Kon bo no ta kome?", "Bo no ta kome dikon?"], "correct": 0 },
+    { "vraag": "Wat wordt 'kiko' soms in vlot gesproken Papiamentu?", "opties": ["'Ko' — afgekorte vorm", "'Kik' — afgekorte vorm", "'Kibi' — alternatieve vorm", "'Ki' — bijvoeglijke vorm"], "correct": 0 },
+    { "vraag": "Hoe verschilt een vraag van een mededeling in Papiamentu?", "opties": ["Alleen door intonatie — de woordvolgorde is gelijk", "Door inversie van subject en werkwoord", "Door 'ta' te verplaatsen", "Door een vraagmarkering toe te voegen"], "correct": 0 },
+    { "vraag": "Wat betekent 'yega'?", "opties": ["Aankomen / arriveren", "Gaan", "Vertrekken", "Wachten"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Hoeveel kost dit?'", "opties": ["Kuantu esaki ta kosta?", "Kiko esaki ta kosta?", "Ki prijs esaki ta?", "Kon masha esaki ta kosta?"], "correct": 0 },
+    { "vraag": "Hoe vraag je 'Hoe gaat het?'", "opties": ["Kon ta bai?", "Kiko ta bai?", "Unda ta bai?", "Ki ta bai?"], "correct": 0 },
+    { "vraag": "Waar staat het vraagwoord in een Papiamentse vraag?", "opties": ["Vooraan de zin", "Achteraan de zin", "Na het onderwerp", "Vóór 'ta'"], "correct": 0 },
+    { "vraag": "Hoe vraag je 'Welke kleur wil jij?'", "opties": ["Ki kolor bo ke?", "Kiko kolor bo ke?", "Unda kolor bo ke?", "Kon kolor bo ke?"], "correct": 0 },
+    { "vraag": "Wat is de meest gestelde vraag bij een eerste ontmoeting op Curaçao?", "opties": ["Di unda bo ta? (Waar kom je vandaan?)", "Kiko bo ta hasi? (Wat doe je?)", "Kuantu aña bo tin? (Hoe oud ben je?)", "Ken bo ta? (Wie ben jij?)"], "correct": 0 }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 10,
+  "blok": 1,
+  "titel": "Scenario-koppeling 1: Begroeten, Introductie en Afscheid",
+  "grammatica": {
+    "uitleg": "In deze les combineer je alles wat je in Blok 1 hebt geleerd en pas je het toe op de twee meest fundamentele sociale situaties op Curaçao: iemand begroeten en jezelf voorstellen.\n\nDEZE LES BOUWT OP:\n• 'Ta' als copula: Mi ta studiant. (les 2)\n• Voornaamwoorden: mi, bo, e, nos (les 4)\n• Vraagwoorden: kon, unda, ken (les 6)\n• SVO-volgorde: Mi ta yama... (les 7)\n• Na/di voorzetsels: Mi ta di... (les 9)\n\nEEN COMPLETE BEGROETINGSSEQUENTIE:\n1. Tijdsbegroeting: Bon dia / Bon tardi / Bon nochi\n2. Hoe gaat het: Kon ta bai? / Tur kos ta bon?\n3. Jijzelf: Mi ta yama... / Mi ta di...\n4. De ander: Ken bo ta? / Di unda bo ta?\n5. Afscheid: Bai! / Ayó / Te mayan / Kuidá bo kurpa!\n\nDe volgorde is flexibel maar de intentie is altijd hetzelfde: VERBINDING MAKEN voor je verder gaat met het eigenlijke gesprek.",
+    "voorbeelden": [
+      { "papiamentu": "Bon dia! Kon ta bai? — Tur kos ta bon, danki. I bo?", "vertaling": "Goedemorgen! Hoe gaat het? — Alles goed, dank je. En jij?" },
+      { "papiamentu": "Mi ta yama Eelco. I bo, ken bo ta?", "vertaling": "Ik heet Eelco. En jij, wie ben jij?" },
+      { "papiamentu": "Mi ta di Hulanda, pero mi ta biba na Kòrsou awor", "vertaling": "Ik kom uit Nederland, maar ik woon nu op Curaçao" },
+      { "papiamentu": "Ku masha placer di konosé bo", "vertaling": "Aangenaam kennis te maken" },
+      { "papiamentu": "Bai! Kuidá bo kurpa, te mayan!", "vertaling": "Doei! Pas goed op jezelf, tot morgen!" }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "Begroeting eerst — altijd",
+      "voorbeeld": "Een Curaçaoënaar die een toko binnenloopt zonder te groeten voelt als onbeleefd, zelfs als je haast hebt.",
+      "toelichting": "Op Curaçao is de begroeting geen formaliteit — het is een sociaal contract. Je erkent de aanwezige mensen voordat je je eigen behoefte stelt. Doe dit altijd, ook kort: 'Bon dia, e tenshi ta aki?'"
+    },
+    {
+      "nuance": "'Pero' voor een nuancering",
+      "voorbeeld": "'Mi ta di Hulanda, pero mi ta biba na Kòrsou' — 'pero' = maar (contrasterende verbinding)",
+      "toelichting": "'Pero' (van Spaans/Portugees) is de meest gebruikte tegenstelling in Papiamentu. Het klinkt vriendelijker en zachter dan een plotse wending — gebruik het om jezelf te nuanceren."
+    },
+    {
+      "nuance": "'Kuidá bo kurpa' als warm afscheid",
+      "voorbeeld": "Letterlijk: 'Zorg voor jouw lichaam' — maar de functie is: ik geef om je",
+      "toelichting": "Dit afscheid toont betrokkenheid. Het is warmer dan een simpel 'doei'. Gebruik het bij mensen met wie je een klik hebt gevoeld, of bij ouderen als teken van respect."
+    },
+    {
+      "nuance": "'Pero' vs. 'sinembargo'",
+      "voorbeeld": "'Pero' (informeel, dagelijks) vs. 'Sinembargo' (maar / desalniettemin — formeler)",
+      "toelichting": "'Sinembargo' gebruik je in meer formele of geschreven context. In een eerste gesprek met een nieuwe kennis gebruik je altijd 'pero' — het klinkt direct en hartelijk."
+    }
+  ],
+  "woorden": [
+    { "woord": "Bon dia", "uitspraak": "bon dee-a", "vertaling": "Goedemorgen (tot ~12:00)" },
+    { "woord": "Bon tardi", "uitspraak": "bon tar-die", "vertaling": "Goedemiddag (~12:00–18:00)" },
+    { "woord": "Bon nochi", "uitspraak": "bon no-chi", "vertaling": "Goedenavond / welterusten (vanaf ~18:00)" },
+    { "woord": "Tur kos ta bon", "uitspraak": "toer kos ta bon", "vertaling": "Alles is goed / alles gaat goed" },
+    { "woord": "Konosé", "uitspraak": "ko-no-se", "vertaling": "Kennen / ontmoeten" },
+    { "woord": "Ku masha placer", "uitspraak": "koe ma-sha pla-ser", "vertaling": "Aangenaam / met groot genoegen" },
+    { "woord": "Pero", "uitspraak": "pe-ro", "vertaling": "Maar" },
+    { "woord": "Kuidá", "uitspraak": "kwi-da", "vertaling": "Zorgen voor / passen op" },
+    { "woord": "Kurpa", "uitspraak": "kur-pa", "vertaling": "Lichaam" },
+    { "woord": "Ayó", "uitspraak": "a-jo", "vertaling": "Tot ziens / doei" }
+  ],
+  "culturele_context": "De Curaçaose begroetingscultuur is een van de rijkste en warmste ter wereld. Het is geen protocol — het is een filosofie. Door 'bon dia' te zeggen erken je de ander als mens, als aanwezige, als gelijke.\n\nDe drie tijdsbegroetingen (bon dia, bon tardi, bon nochi) volgen de zon. Ze zijn niet uitwisselbaar — de verkeerde gebruiken wordt opgemerkt, maar met een glimlach gecorrigeerd.\n\nVoor nieuwkomers op Curaçao is dit de eerste les in culturele integratie. Je kunt grammatica leren uit een boek, maar de kunst van het begroeten leer je door te doen, te observeren en je open te stellen. De Curaçaoenaar die jouw 'Bon dia' hoort en ziet dat je oprecht probeert, zal je altijd tegemoet komen.",
+  "scenario_links": ["scenario-001", "scenario-002"],
+  "eindoefening": [
+    { "vraag": "Welke begroeting gebruik je om 09:00 uur?", "opties": ["Bon dia", "Bon tardi", "Bon nochi", "Bonbiní"], "correct": 0 },
+    { "vraag": "Hoe vraag je hoe het gaat?", "opties": ["Kon ta bai?", "Kiko bo ta hasi?", "Unda bo ta?", "Ken bo ta?"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Alles gaat goed'?", "opties": ["Tur kos ta bon", "Tur kos ta bai", "Tur bon ta kos", "Kos ta tur bon"], "correct": 0 },
+    { "vraag": "Hoe stel je jezelf voor?", "opties": ["Mi ta yama...", "Mi nòmber ta...", "Beide zijn correct", "Geen van beide"], "correct": 2 },
+    { "vraag": "Hoe zeg je 'Ik kom uit Nederland maar ik woon op Curaçao'?", "opties": ["Mi ta di Hulanda, pero mi ta biba na Kòrsou", "Mi ta na Hulanda pero mi ta di Kòrsou", "Mi biba Hulanda pero mi ta Kòrsou", "Pero mi ta di Hulanda na Kòrsou"], "correct": 0 },
+    { "vraag": "Wat betekent 'Ku masha placer di konosé bo'?", "opties": ["Aangenaam kennis te maken", "Heel goed te zien", "Lekker om je te kennen", "Tot genoegen ziens"], "correct": 0 },
+    { "vraag": "Hoe neem je warm afscheid op Curaçao?", "opties": ["Kuidá bo kurpa!", "Bai snel!", "Ayó en klaar.", "Danki pa alles."], "correct": 0 },
+    { "vraag": "Waarom begroet je mensen altijd bij binnenkomst op Curaçao?", "opties": ["Het is een sociaal contract — je erkent de aanwezigen", "Het is verplicht bij wet", "Het is alleen voor toeristen", "Het is alleen in formele situaties"], "correct": 0 },
+    { "vraag": "Welke begroeting gebruik je om 20:00 uur?", "opties": ["Bon nochi", "Bon tardi", "Bon dia", "Ayó"], "correct": 0 },
+    { "vraag": "Wat betekent 'pero'?", "opties": ["Maar", "En", "Want", "Als"], "correct": 0 },
+    { "vraag": "Hoe vraag je iemands naam?", "opties": ["Ken bo ta? / Ki bo nòmber ta?", "Kiko bo ta?", "Unda bo ta yama?", "Dikon bo ta?"], "correct": 0 },
+    { "vraag": "Wat is 'konosé'?", "opties": ["Kennen / ontmoeten", "Weten", "Begrijpen", "Herkennen"], "correct": 0 },
+    { "vraag": "Welke begroeting gebruik je om 15:00 uur?", "opties": ["Bon tardi", "Bon dia", "Bon nochi", "Bonbiní"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Doei' informeel?", "opties": ["Ayó / Bai!", "Bon nochi", "Te mayan", "Kuidá"], "correct": 0 },
+    { "vraag": "Wat is de volgorde van een complete begroeting?", "opties": ["Tijdsgroet → hoe gaat het → jezelf → de ander → afscheid", "Naam → tijdsgroet → afscheid", "Hoe gaat het → tijdsgroet → naam", "Afscheid → tijdsgroet → naam"], "correct": 0 },
+    { "vraag": "Wat betekent 'kurpa'?", "opties": ["Lichaam", "Ziel", "Geest", "Gezondheid"], "correct": 0 },
+    { "vraag": "Wanneer gebruik je 'sinembargo' i.p.v. 'pero'?", "opties": ["In meer formele of geschreven context", "Altijd in spreektaal", "Ze zijn volledig uitwisselbaar", "Nooit — 'sinembargo' bestaat niet"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Tot morgen'?", "opties": ["Te mayan", "Te aworó", "Ayó", "Bai mayan"], "correct": 0 },
+    { "vraag": "Wat is 'kuidá'?", "opties": ["Zorgen voor / passen op", "Kijken naar", "Wachten op", "Nadenken over"], "correct": 0 },
+    { "vraag": "Wat leer je het snelst van de begroetingscultuur op Curaçao?", "opties": ["Door te doen, te observeren en je open te stellen", "Door een boek te lezen", "Door video's te kijken", "Door regels uit je hoofd te leren"], "correct": 0 }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "scenario-010",
+  "title": "Bij de dokter",
+  "difficulty": "Intermediate",
+  "category": "Gezondheid",
+  "intro": "Je voelt je niet goed en moet naar de huisarts of de poli. Op Curaçao is de communicatie met een arts vaak informeel en hartelijk, maar wees duidelijk en direct over je fysieke klachten.",
+  "introWords": [
+    { "papiamentu": "Mi no ta sinti mi bon", "dutch": "Ik voel me niet goed", "pronunciation": "mie no ta sin-tie mie bon" },
+    { "papiamentu": "Unda e doló ta?", "dutch": "Waar zit de pijn?", "pronunciation": "oen-da e do-lo ta" },
+    { "papiamentu": "For di ki dia?", "dutch": "Sinds wanneer?", "pronunciation": "for die kie dee-a" },
+    { "papiamentu": "Mi tin keintura", "dutch": "Ik heb koorts", "pronunciation": "mie tin ke-in-too-ra" }
+  ],
+  "grammar": {
+    "title": "Klachten beschrijven",
+    "explanation": [
+      "Gebruik 'Mi tin doló di...' (Ik heb pijn in/aan...) gevolgd door het lichaamsdeel.",
+      "Gebruik 'Mi tin...' voor symptomen zoals koorts (keintura) of misselijkheid (mòrs).",
+      "De arts zal vragen 'Kiko bo ta sinti?' (Wat voel je?). Antwoord kort en bondig."
+    ],
+    "exercises": [
+      {
+        "question": "Hoe zeg je 'Ik heb hoofdpijn'?",
+        "options": ["Mi tin doló di kabes", "Mi tin doló di barika", "Mi tin keintura", "Mi no ta bon"],
+        "correct": 0,
+        "explanation": "'Kabes' betekent hoofd."
+      },
+      {
+        "question": "Wat vraagt de dokter met 'For di ki dia?'",
+        "options": ["Sinds wanneer heb je klachten?", "Waar heb je pijn?", "Heb je koorts?", "Hoe voel je je?"],
+        "correct": 0,
+        "explanation": "'For di' betekent sinds."
+      },
+      {
+        "question": "Hoe zeg je 'Ik ben misselijk'?",
+        "options": ["Mi tin mòrs", "Mi tin keintura", "Mi tin doló", "Mi ta bon"],
+        "correct": 0,
+        "explanation": "'Mòrs' is de term voor misselijk/overgeef-gevoel."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Doló", "dutch": "Pijn", "pronunciation": "do-lo", "example": "Mi tin doló di barika." },
+    { "papiamentu": "Dòkter", "dutch": "Dokter", "pronunciation": "dok-ter", "example": "Mi mester mira dòkter." },
+    { "papiamentu": "Barika", "dutch": "Buik", "pronunciation": "ba-rie-ka", "example": "Mi barika ta hasi doló." },
+    { "papiamentu": "Kabes", "dutch": "Hoofd", "pronunciation": "ka-bes", "example": "Mi tin doló di kabes." },
+    { "papiamentu": "Keintura", "dutch": "Koorts", "pronunciation": "ke-in-too-ra", "example": "E tin hopi keintura." },
+    { "papiamentu": "Mòrs", "dutch": "Misselijk", "pronunciation": "mors", "example": "Mi ta sinti mi mòrs." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Te veel vergelijken met Nederland",
+      "detail": "De zorgstructuur op Curaçao kan anders werken. Houd er rekening mee dat medische termen in het Papiaments vaak een directe vertaling zijn, maar dat men in de zorg ook veel Engels en Nederlands spreekt.",
+      "remember": "Wees duidelijk, taalbarrières worden snel overbrugd."
+    },
+    {
+      "trap": "Expressie van pijn",
+      "detail": "Men is op Curaçao gewend om klachten met enige nadruk te beschrijven. Gebruik 'duro' (hard/hevig) om aan te geven dat de pijn erg is.",
+      "remember": "Gebruik 'duro' voor hevige pijn."
+    }
+  ],
+  "culture": {
+    "title": "Doktersbezoek op Curaçao",
+    "intro": "De verhouding met de huisarts is op Curaçao vaak persoonlijk. Het is niet ongebruikelijk dat je je arts tegenkomt in de supermarkt en dat er kort wordt gevraagd hoe het gaat.",
+    "facts": [
+      "De dokter wordt vaak kortweg 'Dòkter' genoemd, ook in de spreektaal.",
+      "Veel mensen op Curaçao gebruiken naast de officiële medische weg ook traditionele middelen ('yerba di hole' of kruiden). Wees niet verbaasd als de arts hiernaar vraagt.",
+      "Een afspraak bij de dokter loopt soms uit, net als bij andere diensten op het eiland."
+    ],
+    "didYouKnow": "Wist je dat veel termen in de zorg op Curaçao een mix zijn van Papiamentu, Spaans en Nederlands?"
+  },
+  "quiz": [
+    {
+      "question": "Wat is de beste vertaling voor 'doktersbezoek'?",
+      "options": ["Bishita na dòkter", "Bishita na kas", "Bishita na trabou", "Bishita na skol"],
+      "correct": 0,
+      "explanation": "'Bishita' = bezoek."
+    },
+    {
+      "question": "Hoe vraag je: 'Is het ernstig?'",
+      "options": ["E ta grave?", "E ta bon?", "E ta kla?", "E ta piki?"],
+      "correct": 0,
+      "explanation": "'Grave' betekent ernstig."
+    },
+    {
+      "question": "Wat betekent 'Mi mester di remedi'?",
+      "options": ["Ik heb medicijnen nodig", "Ik heb een dokter nodig", "Ik heb rust nodig", "Ik heb water nodig"],
+      "correct": 0,
+      "explanation": "'Remedi' = medicijn/medicatie."
+    },
+    {
+      "question": "Wat betekent 'Kansá'?",
+      "options": ["Vermoeid", "Pijnlijk", "Ziek", "Koortsig"],
+      "correct": 0,
+      "explanation": "'Kansá' is moe of uitgeput."
+    },
+    {
+      "question": "Is het beleefd om te vragen of de dokter ook Nederlands spreekt?",
+      "options": ["Ja, dat is heel normaal", "Nee, dat is onbeleefd", "Alleen in het ziekenhuis", "Nooit doen"],
+      "correct": 0,
+      "explanation": "Veel artsen op Curaçao spreken Nederlands, en het is volkomen acceptabel om dit te vragen."
+    }
+  ]
+}

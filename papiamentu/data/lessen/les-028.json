@@ -1,0 +1,73 @@
+{
+  "id": 28,
+  "blok": 3,
+  "titel": "Relatieve Bijzinnen: De 'Ku'-Verbinding",
+  "grammatica": {
+    "uitleg": "Relatieve bijzinnen (die, dat, wie, welke) worden in Papiamentu gevormd met 'ku'. Dit ene woord doet het werk van het Nederlands 'die', 'dat', 'wie' en 'welke' — voor mensen én dingen.\n\nBASISSYSTEEM:\n[Hoofdzin] + ku + [bijzin]\n\nSUBJECT-RELATIEFZIN (het antecedent is het subject van de bijzin):\n• E mucha ku ta papia ku mi ta mi amiga. (Het kind dat met mij praat is mijn vriendin.)\n• E hende ku a yega ayera ta doktor. (De persoon die gisteren aankwam is dokter.)\n\nOBJECT-RELATIEFZIN (het antecedent is het object van de bijzin):\n• E kas ku mi a kumpra ta grandi. (Het huis dat ik gekocht heb is groot.)\n• E buki ku e ta lesa ta interesante. (Het boek dat hij/zij leest is interessant.)\n\nLOCATIEF — met 'unda' (waar) als relatiefvoornaamwoord:\n• E kas unda mi ta biba ta na strea. (Het huis waar ik woon is op de straat.)\n\nNA VOORZETSEL — met 'kende' (persoon) of 'kual' (ding):\n• E hende ku kende mi a papia ta mi buur. (De persoon met wie ik praatte is mijn buur.)\n• E silla ariba kual bo a sinta ta nobo. (De stoel waarop jij zat is nieuw.)\n\nWEGLATEN VAN RELATIEFVOORNAAMWOORD (informeel):\nIn spreektaal kan 'ku' weggelaten worden als de betekenis duidelijk is:\n• 'E buki mi a kumpra ta bon' (informeel, het 'ku' is weggelaten)",
+    "voorbeelden": [
+      { "papiamentu": "E hende ku a bishitá nos ayera ta trabaha na hospital.", "vertaling": "De persoon die ons gisteren bezocht werkt in het ziekenhuis." },
+      { "papiamentu": "E storia ku e ta konta ta masha interesante.", "vertaling": "Het verhaal dat hij/zij vertelt is heel interessant." },
+      { "papiamentu": "E siman ku nos a bishitá e museo tabata masha dushi.", "vertaling": "De week dat wij het museum bezochten was heel aangenaam." },
+      { "papiamentu": "E amiga ku mi ta bai ku dje ta studiante di medisina.", "vertaling": "De vriendin met wie ik ga studeert medicijnen." },
+      { "papiamentu": "Tur e hende ku a yuda nos den e situashon difikil a risibí un danki.", "vertaling": "Al de mensen die ons in de moeilijke situatie hielpen ontvingen een bedankje." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'Ku' voor mensen EN dingen — geen onderscheid",
+      "voorbeeld": "'E mucha ku ta dòrmi' (het kind dat slaapt) EN 'E libro ku mi kier' (het boek dat ik wil) — dezelfde 'ku'",
+      "toelichting": "Het Nederlands maakt onderscheid tussen 'die' (voor de/het-woorden) en 'dat' (voor het-woorden), 'wie' voor mensen en 'wat' voor dingen. Papiamentu gebruikt 'ku' voor alles. Dit is een enorme vereenvoudiging die het taalgebruik soepeler maakt."
+    },
+    {
+      "nuance": "Relatiefzin met 'unda' voor locaties",
+      "voorbeeld": "'E plek unda mi a kresé' (De plek waar ik ben opgegroeid) — 'unda' neemt de locatieve rol",
+      "toelichting": "Voor locatieve relatieve bijzinnen is 'unda' het correcte relatiefvoornaamwoord, niet 'ku'. 'E kas unda mi ta biba' (het huis waar ik woon) — hier is 'unda' de verbinding. Dit is een parallel aan het Nederlandse 'waar'."
+    },
+    {
+      "nuance": "Weglating van 'ku' in spreektaal — hoe herken je de relatiefzin?",
+      "voorbeeld": "'E buki mi a kumpra ta bon' — de relatiefzin ('mi a kumpra') staat direct na het naamwoord",
+      "toelichting": "In snelle spreektaal laat Papiamentu 'ku' weg als de structuur duidelijk is. Dit is vergelijkbaar met het Engelse 'the book I bought'. Je herkent het doordat twee inhoudelijke delen (naamwoord + zin) direct naast elkaar staan zonder verbindingswoord."
+    },
+    {
+      "nuance": "Stapelen van relatiefzinnen voor verhaaldetail",
+      "voorbeeld": "'E mucha ku a yuda mi, ku mi a konosé na skol, ku tabata masha bunita' — meerdere lagen",
+      "toelichting": "In vertellingen worden meerdere relatiefzinnen gestapeld om een beschrijving steeds rijker te maken. Dit is een stilistisch kenmerk van goede Papiamentse vertelkunst — elk 'ku' voegt een dimensie toe."
+    }
+  ],
+  "woorden": [
+    { "woord": "Ku", "uitspraak": "koe", "vertaling": "Die / dat / wie / welke (relatiefvoornaamwoord)" },
+    { "woord": "Kual", "uitspraak": "kwal", "vertaling": "Welke (relatief voor dingen na voorzetsel)" },
+    { "woord": "Interesante", "uitspraak": "in-te-re-san-te", "vertaling": "Interessant" },
+    { "woord": "Medisina", "uitspraak": "me-die-sie-na", "vertaling": "Geneeskunde / medicijn" },
+    { "woord": "Hospital", "uitspraak": "hos-pi-tal", "vertaling": "Ziekenhuis" },
+    { "woord": "Museum", "uitspraak": "mu-se-um", "vertaling": "Museum" },
+    { "woord": "Situashon", "uitspraak": "sie-twa-sjon", "vertaling": "Situatie" },
+    { "woord": "Difikil", "uitspraak": "die-fie-kil", "vertaling": "Moeilijk / lastig" },
+    { "woord": "Risibí", "uitspraak": "rie-sie-bie", "vertaling": "Ontvangen" },
+    { "woord": "Lesa", "uitspraak": "le-sa", "vertaling": "Lezen" }
+  ],
+  "culturele_context": "Verhalen op Curaçao zijn gelaagd en rijk. De relatieve bijzin is het gereedschap van de gelaagdheid: 'e mucha ku a kresé na dje bario, ku ta papia Papiamentu i Holandés, ku a studia na Hulanda' — met elk 'ku' wordt de persoon rijker getekend.\n\nHet museum ('museo') en het ziekenhuis ('hospital') zijn twee sleutelinstellingen op het eiland. Het Curaçaos Museum (Museu di Kòrsou) bewaakt de historische herinnering. Het ziekenhuis (SEHOS) is de medische kern. Beide zijn locaties die je kunt beschrijven met relatiefzinnen.\n\nDe kunst van de relatiefzin is ook de kunst van het respect: 'e hende ku a yuda nos' (de persoon die ons hielp) is meer dan identificatie — het is erkenning. De persoon wordt geplaatst in relatie tot een handeling die betekenis heeft.",
+  "scenario_links": ["scenario-013", "scenario-014"],
+  "eindoefening": [
+    { "vraag": "Welk woord gebruik je voor relatieve bijzinnen in Papiamentu?", "opties": ["Ku", "Ki", "Kiku", "Ke"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'het kind dat slaapt'?", "opties": ["E mucha ku ta drumi", "E mucha ki ta drumi", "E mucha ke drumi", "E drumi mucha"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'het huis dat ik kocht'?", "opties": ["E kas ku mi a kumpra", "E kas ki mi a kumpra", "E kas mi a kumpra ku", "Ku mi a kumpra e kas"], "correct": 0 },
+    { "vraag": "Welk relatiefvoornaamwoord gebruik je voor locaties?", "opties": ["Unda", "Ku", "Kual", "Ki"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'het huis waar ik woon'?", "opties": ["E kas unda mi ta biba", "E kas ku mi ta biba", "E kas mi ta biba unda", "E kas di unda mi ta biba"], "correct": 0 },
+    { "vraag": "Maakt Papiamentu onderscheid tussen 'die' voor mensen en 'dat' voor dingen?", "opties": ["Nee — 'ku' voor alles", "Ja — 'ku' voor mensen, 'kual' voor dingen", "Ja — 'ken' voor mensen, 'ku' voor dingen", "Ja — zoals in het Nederlands"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De persoon die ons hielp'?", "opties": ["E hende ku a yuda nos", "E hende kende a yuda nos", "E hende ki a yuda nos", "E hende di a yuda nos"], "correct": 0 },
+    { "vraag": "Kan 'ku' in spreektaal worden weggelaten?", "opties": ["Ja — als de betekenis duidelijk is: 'e buki mi a kumpra'", "Nee — altijd verplicht", "Alleen bij dingen, niet bij mensen", "Alleen bij de tegenwoordige tijd"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De vriendin met wie ik ga'?", "opties": ["E amiga ku mi ta bai ku dje", "E amiga ku mi ta bai", "E amiga kende mi ta bai ku", "E amiga mi ta bai ku dje"], "correct": 0 },
+    { "vraag": "Wat is 'interesante'?", "opties": ["Interessant", "Bijzonder", "Mooi", "Aangenaam"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het boek dat hij leest is interessant'?", "opties": ["E buki ku e ta lesa ta interesante", "E buki ku ta lesa ta interesante", "E buki e ta lesa ku ta interesante", "E interesante buki ku e ta lesa"], "correct": 0 },
+    { "vraag": "Wat is 'lesa'?", "opties": ["Lezen", "Schrijven", "Vertellen", "Zeggen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De persoon over wie ik sprak'?", "opties": ["E hende di kende mi a papia", "E hende ku mi a papia", "E hende di ku mi a papia", "E hende kende mi a papia di"], "correct": 0 },
+    { "vraag": "Wat is 'difikil'?", "opties": ["Moeilijk / lastig", "Onmogelijk", "Gevaarlijk", "Vreemd"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het ziekenhuis waar hij werkt'?", "opties": ["E hospital unda e ta trabaha", "E hospital ku e ta trabaha", "E hospital di unda e ta trabaha", "E hospital e ta trabaha unda"], "correct": 0 },
+    { "vraag": "Wat is 'risibí'?", "opties": ["Ontvangen", "Geven", "Sturen", "Vinden"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Al de mensen die hielpen'?", "opties": ["Tur e hende ku a yuda", "Tur e hende di a yuda", "Tur ku hende a yuda", "E hende tur ku a yuda"], "correct": 0 },
+    { "vraag": "Hoe gebruik je 'kual' in een relatiefzin?", "opties": ["Na een voorzetsel voor een ding: 'e silla ariba kual bo a sinta'", "Als vervanging van 'ku' voor dingen", "Alleen in formele tekst", "Altijd na een persoon"], "correct": 0 },
+    { "vraag": "Wat is 'hospital'?", "opties": ["Ziekenhuis", "Hotel", "Huis", "Kantoor"], "correct": 0 },
+    { "vraag": "Waarom zijn gestapelde relatiefzinnen krachtig in Papiamentse vertelkunst?", "opties": ["Elk 'ku' voegt een beschrijvende laag toe — zo wordt een persoon of situatie rijker getekend", "Ze maken zinnen korter", "Ze zijn formeel vereist", "Ze vervangen de bijvoeglijke naamwoorden"], "correct": 0 }
+  ]
+}

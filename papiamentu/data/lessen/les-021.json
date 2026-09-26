@@ -1,0 +1,73 @@
+{
+  "id": 21,
+  "blok": 3,
+  "titel": "Verleden Tijd (A): Het Aspect-marker 'A'",
+  "grammatica": {
+    "uitleg": "Papiamentu heeft geen vervoegde werkwoordsvormen voor verleden tijd. In plaats daarvan gebruik je de aspect-marker 'a' vóór het werkwoord. Dit 'a' markeert een voltooide actie in het verleden.\n\nDE BASISSTRUCTUUR:\n[Subject] + a + [werkwoord] (+ complement)\n• Mi a bai na tienda. (Ik ging naar de winkel.)\n• E a kome. (Hij/zij at.)\n• Nos a bishitá nos famia. (Wij bezochten onze familie.)\n\nONTKENNING: No + a + werkwoord\n• Mi no a bai. (Ik ging niet.)\n• E no a kome nada. (Hij/zij at niets.)\n\nVRAGEN: vraagwoord + [subject] + a + werkwoord?\n• Unda bo a bai? (Waar ging jij naartoe?)\n• Kiko nan a kome? (Wat aten zij?)\n\nTIJDSMARKEERS VOOR VERLEDEN TIJD:\n• Ayera (gisteren): 'Mi a bai ayera.'\n• Anteayera (eergisteren): 'E a yega anteayera.'\n• Un ora pasa / dos ora pasa (een uur geleden / twee uur geleden)\n• Anochi (gisteravond, in verledentijdcontext)\n• E siman pasa (de afgelopen week)\n• E luna pasa (de afgelopen maand)\n\nBELANGRIJK — IMPERFECTIEF VERLEDEN (tabata):\n'Tabata' = was/waren (onvoltooide beschrijving in het verleden)\n• E tabata kansa. (Hij/zij was moe.) — dit leer je in les 24\nFocus nu op het voltooide 'a'.",
+    "voorbeelden": [
+      { "papiamentu": "Ayera mi a bishitá mi tanta na Otrobanda.", "vertaling": "Gisteren bezocht ik mijn tante in Otrobanda." },
+      { "papiamentu": "Nos a kome na un restoran nobo e siman pasa.", "vertaling": "We aten vorige week in een nieuw restaurant." },
+      { "papiamentu": "Kiko bo a hasi ayera na anochi?", "vertaling": "Wat deed jij gisterenavond?" },
+      { "papiamentu": "E no a bin — tin problema ku e outo di dje.", "vertaling": "Hij/zij kwam niet — er is een probleem met zijn/haar auto." },
+      { "papiamentu": "Nan a yega kuater ora pasa, ya masha kansa.", "vertaling": "Ze kwamen vier uur geleden aan, al heel moe." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'A' verandert nooit van vorm — niet voor persoon, getal of geslacht",
+      "voorbeeld": "'Mi a bai', 'e a bai', 'nan a bai' — 'a' blijft altijd 'a'",
+      "toelichting": "Dit is de elegantie van Papiamentu's tijdssysteem: geen onregelmatige werkwoorden, geen verbuiging, geen uitzonderingen. 'A' doet altijd hetzelfde werk. De werkwoordsstam verandert ook niet. Eenmaal geleerd, altijd toepasbaar."
+    },
+    {
+      "nuance": "'A' vs. 'ayera' — tijdsmarkers versterken het verleden maar zijn niet verplicht",
+      "voorbeeld": "'Mi a bai' (ik ging) — betekent al verleden; 'Mi a bai ayera' voegt precisie toe",
+      "toelichting": "'A' alleen geeft al aan dat de handeling voltooid/verleden is. Tijdsmarkers zoals 'ayera' maken het preciezer maar zijn optioneel. In een gevestigde vertelcontext kan 'a' zelfs worden weggelaten als de tijdsperiode al duidelijk is."
+    },
+    {
+      "nuance": "Vertelketen: meerdere 'a'-werkwoorden na elkaar",
+      "voorbeeld": "'E a sali, a kòrda di e tas, a bira, a haña e tas, i despues a bai bèk' — een complete vertelling",
+      "toelichting": "In vertellingen wordt 'a' herhaald voor elk nieuw voltooide actie. Dit creëert het ritme van een verhaal. De herhaling is niet overbodig — elk 'a' markeert een stap in de reeks."
+    },
+    {
+      "nuance": "Het verschil tussen 'a bai' (ging) en 'ta bai' (gaat/is gaande)",
+      "voorbeeld": "'Mi ta bai na tienda' (ik ga naar de winkel — nu) vs. 'Mi a bai na tienda' (ik ging naar de winkel — verleden)",
+      "toelichting": "De aspect-markers 'ta' (onvoltooid/huidig) en 'a' (voltooid/verleden) zijn elkaars tegenpolen. Ze staan op exact dezelfde positie in de zin. Dit maakt het systeem overzichtelijk maar vraagt aandacht."
+    }
+  ],
+  "woorden": [
+    { "woord": "A", "uitspraak": "a", "vertaling": "Voltooide verleden tijdmarker (vóór werkwoord)" },
+    { "woord": "Ayera", "uitspraak": "a-je-ra", "vertaling": "Gisteren" },
+    { "woord": "Anteayera", "uitspraak": "an-te-a-je-ra", "vertaling": "Eergisteren" },
+    { "woord": "Pasa", "uitspraak": "pa-sa", "vertaling": "Geleden / voorbij / passeren" },
+    { "woord": "Yega", "uitspraak": "je-ga", "vertaling": "Aankomen / bereiken" },
+    { "woord": "Bira", "uitspraak": "bie-ra", "vertaling": "Terugkeren / worden / draaien" },
+    { "woord": "Kòrda", "uitspraak": "kor-da", "vertaling": "Herinneren / zich herinneren" },
+    { "woord": "Haña", "uitspraak": "han-ja", "vertaling": "Vinden / krijgen / ontvangen" },
+    { "woord": "Kansa", "uitspraak": "kan-sa", "vertaling": "Moe / vermoeid" },
+    { "woord": "Yá", "uitspraak": "ja", "vertaling": "Al / reeds (tijdsaanduiding)" }
+  ],
+  "culturele_context": "Het Papiamentse verledentijdssysteem weerspiegelt een creoolse taallogica: aspectualiteit (voltooid vs. onvoltooid) is belangrijker dan tijd an sich. Dit deel je met veel creoolse talen wereldwijd. Het is geen gebrek maar een andere manier om de werkelijkheid te ordenen.\n\n'Ayera' (gisteren) is een sleutelwoord in het Curaçaose dagelijks leven. Gesprekken beginnen vaak met de vraag: 'Kiko bo a hasi ayera?' (Wat deed jij gisteren?) — niet uit nieuwsgierigheid maar als sociale check-in. Het gisteren vertelt wie je vandaag bent.\n\nVertellen ('konta') is een hoog ontwikkelde kunst op Curaçao. De 'a'-keten in vertellingen geeft een ritme dat bijna muzikaal is. Goede vertellingen in Papiamentu zijn een performance — en het verledentijdssysteem is het gereedschap.",
+  "scenario_links": ["scenario-007", "scenario-009"],
+  "eindoefening": [
+    { "vraag": "Welk aspect-marker gebruik je voor voltooide verleden tijd?", "opties": ["'A' vóór het werkwoord", "'Ta' vóór het werkwoord", "'Lo' vóór het werkwoord", "Een werkwoordsuitgang"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik ging naar de winkel'?", "opties": ["Mi a bai na tienda", "Mi ta bai na tienda", "Mi bai na tienda", "Mi lo bai na tienda"], "correct": 0 },
+    { "vraag": "Verandert 'a' voor verschillende personen?", "opties": ["Nee — altijd dezelfde vorm 'a'", "Ja — 'a' wordt 'e' voor derde persoon", "Ja — 'a' wordt 'an' voor meervoud", "Ja — 'a' wordt 'o' voor eerste persoon"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Hij/zij at niets'?", "opties": ["E no a kome nada", "E a no kome nada", "E kome no a nada", "No e a kome nada"], "correct": 0 },
+    { "vraag": "Wat betekent 'ayera'?", "opties": ["Gisteren", "Eergisteren", "Gisteravond", "De vorige keer"], "correct": 0 },
+    { "vraag": "Hoe vraag je 'Wat deed jij gisteren?'", "opties": ["Kiko bo a hasi ayera?", "Ki bo a hasi ayera?", "Kiko bo ta hasi ayera?", "Kiko a bo hasi ayera?"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'twee uur geleden'?", "opties": ["Dos ora pasa", "Dos ora a", "Dos ora pasa a", "A dos ora pasa"], "correct": 0 },
+    { "vraag": "Wat is het verschil tussen 'ta bai' en 'a bai'?", "opties": ["'ta bai' = gaat nu (huidig), 'a bai' = ging (verleden voltooid)", "'ta bai' = zal gaan, 'a bai' = gaat nu", "Ze zijn hetzelfde", "'a bai' = is gegaan (aanwezig perfect)"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'We aten vorige week in een restaurant'?", "opties": ["Nos a kome na un restoran e siman pasa", "Nos ta kome na restoran e siman pasa", "E siman pasa nos kome na restoran a", "Nos a kome restoran e siman a pasa"], "correct": 0 },
+    { "vraag": "Wat is 'yega'?", "opties": ["Aankomen / bereiken", "Gaan", "Vertrekken", "Terugkeren"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ze kwamen gisteren aan'?", "opties": ["Nan a yega ayera", "Nan yega ayera", "Nan ta yega ayera", "Ayera nan yega a"], "correct": 0 },
+    { "vraag": "Zijn tijdsmarkers verplicht bij de voltooide verleden tijd?", "opties": ["Nee — 'a' alleen geeft al het verleden aan; tijdsmarkers voegen precisie toe", "Ja — altijd 'ayera' of 'pasa'", "Ja — altijd een tijdstip", "Ja — altijd 'anochi'"], "correct": 0 },
+    { "vraag": "Wat is 'bira'?", "opties": ["Terugkeren / worden / draaien", "Gaan", "Stoppen", "Zoeken"], "correct": 0 },
+    { "vraag": "Hoe vertel je een reeks voltooide acties?", "opties": ["Herhaal 'a' voor elk werkwoord in de reeks: 'a sali, a bira, a haña...'", "Gebruik één 'a' voor de hele reeks", "Gebruik 'i' in plaats van 'a'", "Gebruik 'despues' voor elk werkwoord"], "correct": 0 },
+    { "vraag": "Wat is 'kòrda'?", "opties": ["Herinneren / zich herinneren", "Vergeten", "Zeggen", "Horen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'ik bezocht mijn tante gisteren'?", "opties": ["Ayera mi a bishitá mi tanta", "Mi a bishitá mi tanta ayera", "Beide zijn correct", "Geen van beide"], "correct": 2 },
+    { "vraag": "Wat betekent 'yá'?", "opties": ["Al / reeds", "Nog niet", "Nog steeds", "Bijna"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Zij kwamen vier uur geleden aan, al heel moe'?", "opties": ["Nan a yega kuater ora pasa, yá masha kansa", "Nan yega kuater ora pasa, masha kansa yá", "Nan a yega yá kuater ora, masha kansa pasa", "Kuater ora pasa nan a yega, ta masha kansa"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'eergisteren'?", "opties": ["Anteayera", "Ayera ayera", "Pasa dos dia", "E dia pasa pasa"], "correct": 0 },
+    { "vraag": "Wat maakt het Papiamentse tijdssysteem elegant?", "opties": ["'A' verandert nooit — geen uitzonderingen, geen verbuiging, altijd dezelfde positie", "Het heeft meer vormen dan het Nederlands", "De werkwoorden zijn onregelmatig", "Er zijn aparte vormen per persoon"], "correct": 0 }
+  ]
+}

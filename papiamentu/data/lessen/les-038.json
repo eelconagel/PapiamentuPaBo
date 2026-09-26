@@ -1,0 +1,73 @@
+{
+  "id": 38,
+  "blok": 4,
+  "titel": "Nuance & Gelaagdheid: Hedging, Register en Subtiele Betekenis",
+  "grammatica": {
+    "uitleg": "Gevorderd Papiamentu gaat over meer dan structuren — het gaat over lagen. In deze les leer je hoe je nuanceert, onzekerheid uitdrukt, indrukken beschrijft en register aanpast.\n\nHEDGING (onzekerheid uitdrukken):\n• 'Mi ta pensa ku...' (Ik denk dat...)\n• 'Ta posibel ku...' (Het is mogelijk dat...)\n• 'Ta parce ku...' (Het lijkt alsof...)\n• 'Tokante di mi...' (Wat mij betreft...)\n• 'Si mi no ta fayá...' (Als ik het me goed herinner...)\n\nEVIDENTIALITEIT (hoe je weet wat je weet):\n• 'Nan ta bisa ku...' (Ze zeggen dat... / men zegt dat...)\n• 'Segun e notisia...' (Volgens het nieuws...)\n• 'Ta lokoki mi a tende...' (Van wat ik gehoord heb...)\n• 'Mi tabata na sinti di...' (Ik had het gevoel dat...)\n\nEMOTIE EN INTONATIE uitdrukken:\n• 'Bèrdat?!' (Echt?! / Is dat waar?)\n• 'Ayai!' (Uitroep van verrassing/pijn)\n• 'Aiaiai!' (Uitroep van schrik of teleurstelling)\n• 'Wèl...' (Nou... — aarzeling)\n• 'Wèl, ta depende...' (Nou, het hangt ervan af...)\n\nIRONIE EN HUMOR:\nIronie in Papiamentu wordt gesignaleerd door toon en context, zelden door woordkeuze. Een overdreven compliment met vlakke toon kan ironisch zijn: 'Oh, masha bon trabou' (Oh, geweldig werk — sarcastisch) is dezelfde zin als het oprechte compliment.",
+    "voorbeelden": [
+      { "papiamentu": "Mi ta pensa ku e no lo yega na tempu — pero mi no ta sigur.", "vertaling": "Ik denk dat hij/zij niet op tijd zal aankomen — maar ik ben niet zeker." },
+      { "papiamentu": "Ta parce ku nan a yega un akuerdo, segun lokoki mi a tende.", "vertaling": "Het lijkt alsof ze een overeenkomst hebben bereikt, naar wat ik gehoord heb." },
+      { "papiamentu": "Bèrdat? Esei ta masha interesante! Mi no tabata sabi esei.", "vertaling": "Echt? Dat is heel interessant! Dat wist ik niet." },
+      { "papiamentu": "Wèl, ta depende di kuantu tempu nos tin — si tin mas, podria, pero awor... ta difísil.", "vertaling": "Nou, het hangt ervan af hoeveel tijd we hebben — als er meer is, zou het kunnen, maar nu... het is moeilijk." },
+      { "papiamentu": "Tokante di mi, e plan ta bon — pero mi ta komprende ku otro hende tin preguntanan.", "vertaling": "Wat mij betreft is het plan goed — maar ik begrijp dat anderen vragen hebben." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "Zekerheidsladder: sigur → pensa → parce → posibel",
+      "voorbeeld": "'Mi ta sigur' (ik ben zeker) > 'mi ta pensa' (ik denk) > 'ta parce' (het lijkt) > 'ta posibel' (het is mogelijk)",
+      "toelichting": "Papiamentu heeft een ongeschreven zekerheidsladder. Door het hedging-niveau te kiezen, signaleer je hoe sterk je ergens in gelooft. Een spreker die altijd 'mi ta sigur' zegt, klinkt arrogant. Een spreker die altijd 'ta posibel' zegt, klinkt onzeker. Kies bewust."
+    },
+    {
+      "nuance": "'Nan ta bisa' — geruchten en sociale informatie",
+      "voorbeeld": "'Nan ta bisa ku e dos ta yunta' (ze zeggen dat de twee een stel zijn) — sociale informatie circuleren",
+      "toelichting": "'Nan ta bisa ku' (ze zeggen dat) is het instrument voor het doorspelen van sociale informatie zonder persoonlijk verantwoordelijkheid te nemen. Het is niet dezelfde als roddelen — het is informatieverdeling waarbij de bron ongenoemd blijft."
+    },
+    {
+      "nuance": "'Ayai!' en 'Aiaiai!' — uitroepen als sociale signalen",
+      "voorbeeld": "'Ayai!' bij een kleine verwonding of verrassing vs. 'Aiaiai!' bij grotere teleurstelling of schrik",
+      "toelichting": "Uitroepen zijn cultureel specifiek. 'Ayai' en 'aiaiai' zijn onmiskenbaar Curaçaoënaars en worden door native speakers instinctief gebruikt. Ze zijn expressief en sociaal — als jij ze gebruikt, klinkt je Papiamentu een stuk echter."
+    },
+    {
+      "nuance": "Register-switch midden in een gesprek — signaal van intimiteit",
+      "voorbeeld": "Van formeel naar informeel wisselen in een gesprek signaleert dat er een vertrouwenslaag is bereikt",
+      "toelichting": "Als een formeel gesprek overgaat in informele taal, is dat een positief signaal — de andere persoon laat zijn/haar professionele masker zakken. Papiamentse sprekers zijn gevoelig voor deze switches. Wees bereid om mee te gaan."
+    }
+  ],
+  "woorden": [
+    { "woord": "Parce", "uitspraak": "par-se", "vertaling": "Lijken / schijnen (ta parce = het lijkt)" },
+    { "woord": "Sigur", "uitspraak": "sie-gur", "vertaling": "Zeker / waarschijnlijk" },
+    { "woord": "Posibel", "uitspraak": "po-sie-bel", "vertaling": "Mogelijk" },
+    { "woord": "Bèrdat", "uitspraak": "ber-dat", "vertaling": "Echt? / Is dat zo? (verrassing)" },
+    { "woord": "Podria", "uitspraak": "po-dria", "vertaling": "Zou kunnen / misschien" },
+    { "woord": "Ayai", "uitspraak": "a-jai", "vertaling": "Uitroep van verrassing of pijn" },
+    { "woord": "Wèl", "uitspraak": "wel", "vertaling": "Nou / wel... (aarzeling, overdenking)" },
+    { "woord": "Depende", "uitspraak": "de-pen-de", "vertaling": "Het hangt af van / afhangen" },
+    { "woord": "Komprende", "uitspraak": "kom-pren-de", "vertaling": "Begrijpen" },
+    { "woord": "Fayá", "uitspraak": "fa-ja", "vertaling": "Falen / vergissen / missen" }
+  ],
+  "culturele_context": "Gelaagd taalgebruik is op Curaçao een teken van sociale intelligentie. Iemand die 'mi ta pensa ku' (ik denk dat) zegt in plaats van altijd 'ta asina' (het is zo), toont bescheidenheid en openheid. Het is de taal van iemand die heeft geleerd dat de werkelijkheid meerdere kanten heeft.\n\n'Bèrdat?' (echt?) is de meest sociale uitroep in Papiamentu. Het nodigt de verteller uit om meer te vertellen, het bevestigt dat je luistert. Op Curaçao, waar verhalen vertellen een kunst is, is een geëngageerde luisteraar die 'bèrdat!' zegt het hoogste compliment.\n\nIronie en humor in Papiamentu zijn subtiel en contextgebonden. Curaçaoënaars zijn grappig maar niet ten koste van anderen — de humor is eerder zelfrelativerend en absurdistisch. 'Ta asina e ta!' met een glimlach is soms de grappigste reactie op de absurditeit van het leven.",
+  "scenario_links": ["scenario-011", "scenario-020"],
+  "eindoefening": [
+    { "vraag": "Hoe druk je onzekerheid uit?", "opties": ["'Mi ta pensa ku...' of 'Ta parce ku...'", "Altijd 'ta asina'", "Met 'no sabi'", "Nooit — Papiamentu is altijd zeker"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het lijkt alsof'?", "opties": ["Ta parce ku", "Ta sigur ku", "Ta posibel ku", "Ta pensa ku"], "correct": 0 },
+    { "vraag": "Hoe doorgeef je informatie zonder de bron te noemen?", "opties": ["'Nan ta bisa ku...' (ze zeggen dat...)", "'Mi a tende ku...' (ik hoorde dat...)", "Beide zijn correct", "Je kunt dat niet in Papiamentu"], "correct": 2 },
+    { "vraag": "Wat betekent 'Bèrdat?'", "opties": ["Echt? / Is dat zo? — uitnodiging om meer te vertellen", "Dat is waar", "Klopt het?", "Zeker weten?"], "correct": 0 },
+    { "vraag": "Hoe gebruik je 'wèl' in Papiamentu?", "opties": ["Als aarzelende opener: 'Wèl, ta depende...'", "Als bevestiging: 'Wèl, ta bon'", "Alleen in vragen", "Nooit — het is een Nederlands woord"], "correct": 0 },
+    { "vraag": "Wat is de zekerheidsladder van sterk naar zwak?", "opties": ["Sigur → pensa → parce → posibel", "Posibel → parce → pensa → sigur", "Pensa → sigur → parce → posibel", "Parce → pensa → posibel → sigur"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik denk dat hij niet op tijd aankomt'?", "opties": ["Mi ta pensa ku e no lo yega na tempu", "Mi ta sigur ku e no lo yega na tempu", "Ta parce ku e no lo yega na tempu", "Alle drie geven toenemende zekerheid"], "correct": 3 },
+    { "vraag": "Hoe zeg je 'wat mij betreft'?", "opties": ["Tokante di mi", "Na mi opinion", "Segun mi", "Alle drie zijn correct"], "correct": 3 },
+    { "vraag": "Wat is 'ayai'?", "opties": ["Uitroep van verrassing of pijn", "Groet", "Vreugdeuitroep", "Vraag"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Als ik het me goed herinner'?", "opties": ["Si mi no ta fayá", "Si mi ta kòrda bon", "Segun mi memoria", "Alle drie zijn correct"], "correct": 3 },
+    { "vraag": "Hoe signaleer je register-switch naar informeel?", "opties": ["Door over te schakelen op informelere woordkeuze en spreektaalkortingen", "Door expliciete aankondiging", "Door van taal te wisselen", "Door harder te praten"], "correct": 0 },
+    { "vraag": "Wat is 'podria'?", "opties": ["Zou kunnen / misschien", "Zeker weten", "Moeten", "Willen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Van wat ik gehoord heb'?", "opties": ["Ta lokoki mi a tende", "Segun lokoki mi a tende", "Beide zijn correct", "Geen van beide"], "correct": 2 },
+    { "vraag": "Wat is 'komprende'?", "opties": ["Begrijpen", "Weten", "Geloven", "Accepteren"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'het hangt ervan af'?", "opties": ["Ta depende", "Ta dependiendo", "Ta ku depende", "Depende ta"], "correct": 0 },
+    { "vraag": "Hoe werkt ironie in Papiamentu?", "opties": ["Door toon en context — dezelfde woorden kunnen oprecht of ironisch zijn", "Door speciale ironie-woorden", "Door herhaling", "Door vragen-structuur"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het is mogelijk dat ze een overeenkomst hebben bereikt'?", "opties": ["Ta posibel ku nan a yega un akuerdo", "Ta sigur ku nan a yega un akuerdo", "Nan ta parce yega un akuerdo", "Nan lo posibel yega un akuerdo"], "correct": 0 },
+    { "vraag": "Waarom is 'Bèrdat?' het hoogste compliment voor een verteller?", "opties": ["Het toont dat je actief luistert en de ander uitnodigt meer te vertellen", "Het bevestigt dat de informatie correct is", "Het is een formele bevestiging", "Het is de normale reactie"], "correct": 0 },
+    { "vraag": "Wat is 'fayá'?", "opties": ["Falen / vergissen", "Vallen", "Missen (een kans)", "Vergeten"], "correct": 0 },
+    { "vraag": "Hoe klinkt je Papiamentu echter door uitroepen te gebruiken?", "opties": ["Door 'ayai', 'aiaiai' en 'bèrdat' instinctief te gebruiken zoals native speakers", "Door meer woorden te leren", "Door formeler te spreken", "Door langzamer te spreken"], "correct": 0 }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 22,
+  "blok": 3,
+  "titel": "Toekomstige Tijd: De Marker 'Lo'",
+  "grammatica": {
+    "uitleg": "De toekomende tijd in Papiamentu wordt gevormd met de aspect-marker 'lo' vóór het werkwoord. Net als 'a' (verleden) en 'ta' (tegenwoordig) neemt 'lo' een vaste positie in.\n\nDE BASISSTRUCTUUR:\n[Subject] + lo + [werkwoord] (+ complement)\n• Mi lo bai mayan. (Ik ga morgen.)\n• E lo yega na tres ora. (Hij/zij komt om drie uur aan.)\n• Nos lo bishitá bo. (Wij zullen je bezoeken.)\n\nBELANGRIJK: 'Lo' VERVANGT 'ta' — beide samen zijn fout.\n• CORRECT: 'Mi lo kome.' (Ik zal eten.)\n• FOUT: 'Mi lo ta kome.' (De enige uitzondering is de lo+ta constructie — zie les 24.)\n\nONTKENNING:\n[Subject] + no + lo + [werkwoord] OF [Subject] + lo + no + [werkwoord]\n• Mi no lo bai. / Mi lo no bai. (Ik ga niet.)\nBeide vormen zijn correct; 'no lo' is het meest gangbaar.\n\nVRAAG met 'lo':\nVraagwoord + subject + lo + werkwoord?\n• Ki ora bo lo yega? (Hoe laat kom jij aan?)\n• Bo lo bai kú mi? (Ga jij met mij mee?)\n\nTIJDSMARKEERS VOOR TOEKOMST:\n• Mayan (morgen)\n• Promé di mayan (overmorgen — letterlijk: vóór morgen)\n• Proximo siman (volgende week)\n• Proximo luna (volgende maand)\n• Den un ratu (zo meteen / straks)\n• Pronto (binnenkort)\n• Aña k'a bini (het komende jaar)",
+    "voorbeelden": [
+      { "papiamentu": "Mayan mi lo bai na merkado ku mi mama.", "vertaling": "Morgen ga ik naar de markt met mijn moeder." },
+      { "papiamentu": "E konsierto lo kuminsá na ocho ora di anochi.", "vertaling": "Het concert begint om acht uur 's avonds." },
+      { "papiamentu": "Si e no yega den un ratu, nos lo sali sin dje.", "vertaling": "Als hij/zij niet snel aankomt, vertrekken wij zonder hem/haar." },
+      { "papiamentu": "Kiko bo lo kome mayan? — Mi lo kome bolo.", "vertaling": "Wat ga jij morgen eten? — Ik ga cake eten." },
+      { "papiamentu": "Nos lo no haña e libro aki na tienda — mester òrdena online.", "vertaling": "We zullen dit boek niet in de winkel vinden — je moet het online bestellen." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'Lo' drukt intentie en verwachting uit — zekerder dan het Nederlandse 'zullen'",
+      "voorbeeld": "'Mi lo yama bo' (Ik zal je bellen) — sterker dan een voornemen, bijna een belofte",
+      "toelichting": "In Papiamentu draagt 'lo' een sterkere belofte dan het Nederlandse 'zullen'. 'Mi lo bini' is eerder een aankondiging dan een mogelijkheid. Gebruik het bewust — in Curaçaos sociale verkeer telt een aankondiging."
+    },
+    {
+      "nuance": "'Den un ratu' — Curaçaose tijdsflexibiliteit",
+      "voorbeeld": "'Mi lo bini den un ratu' kan van over 5 minuten tot over een uur betekenen",
+      "toelichting": "Zoals eerder in de tijdslessen gezien, is de tijdsbeleving op Curaçao flexibel. 'Den un ratu' is een aanduiding van intentie, niet van exacte tijd. Vraag gerust 'Ki ora precies?' als precisie nodig is."
+    },
+    {
+      "nuance": "Conditionele kleur van 'lo' in bijzinnen",
+      "voorbeeld": "'Si mi tin plaka, mi lo bai' (Als ik geld heb, ga ik) — 'lo' geeft de voorwaardelijke toekomst aan",
+      "toelichting": "'Lo' in een bijzin na 'si' (als) geeft een hypothetische toekomst. Dit is het begin van de conditionele constructie die je in les 31 verder leert. Merk het nu op als je het tegenkomt."
+    },
+    {
+      "nuance": "Negatieve 'lo' — 'no lo' vs 'lo no' — betekenisverschil?",
+      "voorbeeld": "'Mi no lo bai' (ik ga niet) vs. 'Mi lo no haña esei' (ik zal dat zeker niet vinden)",
+      "toelichting": "In spreektaal is 'no lo' de meest gangbare volgorde. 'Lo no' klinkt iets nadrukkelijker op de ontkenning — bijna een belofte of afkeurende toon. Het verschil is subtiel maar native speakers voelen het."
+    }
+  ],
+  "woorden": [
+    { "woord": "Lo", "uitspraak": "lo", "vertaling": "Toekomst-marker (zal / gaan)" },
+    { "woord": "Mayan", "uitspraak": "ma-jan", "vertaling": "Morgen" },
+    { "woord": "Promé di mayan", "uitspraak": "pro-me die ma-jan", "vertaling": "Overmorgen" },
+    { "woord": "Proximo", "uitspraak": "pro-xi-mo", "vertaling": "Volgende / aanstaande" },
+    { "woord": "Pronto", "uitspraak": "pron-to", "vertaling": "Binnenkort / gauw" },
+    { "woord": "Den un ratu", "uitspraak": "den oen ra-toe", "vertaling": "Zo meteen / straks" },
+    { "woord": "Kuminsá", "uitspraak": "koe-min-sa", "vertaling": "Beginnen / starten" },
+    { "woord": "Konsierto", "uitspraak": "kon-sier-to", "vertaling": "Concert" },
+    { "woord": "Òrdena", "uitspraak": "or-de-na", "vertaling": "Bestellen / ordenen" },
+    { "woord": "Bolo", "uitspraak": "bo-lo", "vertaling": "Cake / gebak" }
+  ],
+  "culturele_context": "De toekomst op Curaçao wordt met voorzichtig optimisme benaderd. 'Lo' is een marker van hoop en plan — niet van zekerheid. 'Todo lo ta bon' (alles zal goed zijn) is een uitdrukking die je hoort bij moeilijke tijden: het is geen ontkenning van problemen maar een geloof in de toekomst.\n\n'Mayan' (morgen) is op Curaçao soms een metafoor voor belofte. 'Mayan lo ta bon' (morgen zal het goed zijn) weerspiegelt de veerkracht van een eilandvolk dat door droogten, orkanen en economische tegenslagen heeft geleerd: alles passeert.\n\nHet concert ('konsierto') en het festival ('festival') zijn culturele ankers. 'E festival lo kuminsá na ocho' — de aankondiging van een feest met 'lo' is een sociale bindmiddel. Curaçao feest vooruit.",
+  "scenario_links": ["scenario-007", "scenario-015"],
+  "eindoefening": [
+    { "vraag": "Welk aspect-marker gebruik je voor de toekomende tijd?", "opties": ["Lo", "Ta", "A", "E"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik ga morgen naar de winkel'?", "opties": ["Mi lo bai na tienda mayan", "Mi ta bai na tienda mayan", "Mi a bai na tienda mayan", "Mi bai na tienda lo mayan"], "correct": 0 },
+    { "vraag": "Wat is FOUT bij het gebruik van 'lo'?", "opties": ["'Mi lo ta bai' — 'lo' en 'ta' samen (behalve de lo+ta constructie)", "'Mi lo bai' — 'lo' zonder 'ta'", "'Mi no lo bai' — 'no' vóór 'lo'", "'Mi lo kome mayan' — tijdsmarker"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik ga niet'?", "opties": ["Mi no lo bai", "Mi lo ta no bai", "No mi lo bai", "Mi lo bai no"], "correct": 0 },
+    { "vraag": "Hoe vraag je 'Hoe laat kom jij aan?'", "opties": ["Ki ora bo lo yega?", "Ki ora bo ta yega?", "Ki ora lo bo yega?", "Bo lo yega ki ora?"], "correct": 0 },
+    { "vraag": "Wat betekent 'den un ratu'?", "opties": ["Zo meteen / straks", "In een uur precies", "Gisteren", "Morgen vroeg"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wij zullen je bezoeken'?", "opties": ["Nos lo bishitá bo", "Nos ta bishitá bo", "Nos a bishitá bo", "Lo nos bishitá bo"], "correct": 0 },
+    { "vraag": "Wat is 'mayan'?", "opties": ["Morgen", "Gisteren", "Vandaag", "Overmorgen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'overmorgen'?", "opties": ["Promé di mayan", "Despues di mayan", "Dos mayan", "Mayan mayan"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'binnenkort'?", "opties": ["Pronto", "Promé", "Den un ratu", "Proximo"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het concert begint om acht uur'?", "opties": ["E konsierto lo kuminsá na ocho ora", "E konsierto ta kuminsá na ocho ora", "E konsierto a kuminsá na ocho ora", "Kuminsá e konsierto na ocho ora lo"], "correct": 0 },
+    { "vraag": "Wat is 'kuminsá'?", "opties": ["Beginnen / starten", "Eindigen", "Pauzeren", "Herhalen"], "correct": 0 },
+    { "vraag": "Hoe gebruikt 'lo' de conditionale toon?", "opties": ["Na bijzinnen met 'si': 'Si mi tin plaka, mi lo bai'", "Altijd in vragen", "Alleen bij 'mayan'", "Alleen bij negatieve zinnen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'volgende week'?", "opties": ["Proximo siman", "E siman lo bini", "Mayan siman", "Siman proximo"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wat ga jij morgen eten?'", "opties": ["Kiko bo lo kome mayan?", "Ki bo lo kome mayan?", "Kiko bo ta kome mayan?", "Kiko lo bo kome mayan?"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'binnenkort zal alles goed zijn'?", "opties": ["Pronto tur kos lo ta bon", "Pronto tur kos ta bon", "Tur kos lo bon pronto", "Pronto lo tur kos ta bon"], "correct": 0 },
+    { "vraag": "Wat is 'proximo'?", "opties": ["Volgende / aanstaande", "Vorig / afgelopen", "Precies / exact", "Vroeg / vroeger"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Als ik geld heb, ga ik'?", "opties": ["Si mi tin plaka, mi lo bai", "Si mi a tin plaka, mi lo bai", "Si mi lo tin plaka, mi bai", "Mi lo bai si mi ta tin plaka"], "correct": 0 },
+    { "vraag": "Verandert 'lo' voor verschillende personen?", "opties": ["Nee — altijd dezelfde vorm 'lo'", "Ja — 'lo' wordt 'la' voor vrouwen", "Ja — 'lo' wordt 'lon' voor meervoud", "Ja — 'lo' wordt 'li' voor eerste persoon"], "correct": 0 },
+    { "vraag": "Wat maakt 'Mi lo yama bo' sterker dan het Nederlandse 'ik zal je bellen'?", "opties": ["'Lo' draagt een belofte-karakter — bijna een aankondiging", "Het is minder zeker", "Het is formeler", "Er is geen verschil"], "correct": 0 }
+  ]
+}

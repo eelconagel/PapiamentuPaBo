@@ -1,0 +1,210 @@
+{% extends "base.html" %}
+{% block title %}Les {{ les.id }}: {{ les.titel }} · Papiamentu Pa Bo{% endblock %}
+{% block description %}Les {{ les.id }} van Papiamentu Pa Bo: {{ les.titel }}. Grammatica, woordjes, cultuur en een oefening.{% endblock %}
+{% block back_url %}{{ url_for('lessen') }}{% endblock %}
+{% block main_class %}flush{% endblock %}
+{% block content %}
+<div id="locked" class="pad center" hidden>
+  <p class="page-label">Les {{ les.id }}</p>
+  <h1 class="les-title">🔒 {{ les.titel }}</h1>
+  <p class="muted">Voltooi eerst les {{ les.id - 1 }} om deze les te ontgrendelen.</p>
+  <a class="btn btn-primary" href="{{ url_for('les', les_id=les.id - 1) if les.id > 1 else url_for('lessen') }}">Naar les {{ les.id - 1 }}</a>
+</div>
+
+<div id="lesson" hidden>
+  <nav class="steps-bar" id="steps-bar">
+    {% for naam in ['Grammatica', 'Woordjes', 'Cultuur', 'Oefening'] %}
+      <button type="button" class="step-tab" data-step="{{ loop.index0 }}">{{ naam }}</button>
+    {% endfor %}
+  </nav>
+
+  <div class="pad">
+    <!-- Stap 0: Grammatica -->
+    <section class="step" data-step="0" hidden>
+      <p class="page-label">Grammatica</p>
+      <h1 class="les-title">{{ les.titel }}</h1>
+      <div class="rich">{{ les.grammatica.uitleg | rich }}</div>
+
+      {% if les.grammatica.voorbeelden %}
+      <div class="examples">
+        <h2 class="section-title" style="font-size:14px">Voorbeelden</h2>
+        {% for v in les.grammatica.voorbeelden %}
+          <div class="example-row">
+            <div class="example-pap">{{ v.papiamentu }}</div>
+            <div class="example-nl">{{ v.vertaling }}</div>
+          </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if les.e_asina_ta %}
+      <h2 class="section-title" style="margin-top:24px">E asina ta — zo zeggen ze het echt</h2>
+      {% for n in les.e_asina_ta %}
+        <div class="callout">
+          <div class="callout-title" style="color:var(--primary)">{{ n.nuance }}</div>
+          <div class="example-pap" style="margin-bottom:4px">{{ n.voorbeeld }}</div>
+          <p class="body-text small" style="margin:0">{{ n.toelichting }}</p>
+        </div>
+      {% endfor %}
+      {% endif %}
+
+      <button type="button" class="btn btn-primary block next-step" style="margin-top:20px">Verder naar Woordjes</button>
+    </section>
+
+    <!-- Stap 1: Woordjes (kaartjes) -->
+    <section class="step" data-step="1" hidden>
+      <div id="cards">
+        <p class="page-label">Woordjes</p>
+        <p class="muted small center" id="card-counter"></p>
+        <div class="flashcard">
+          <div class="fc-pap" id="fc-pap"></div>
+          <div class="fc-pron" id="fc-pron"></div>
+          <div class="fc-divider"></div>
+          <div class="fc-nl" id="fc-nl"></div>
+        </div>
+        <div class="two-col">
+          <button type="button" class="btn btn-secondary" id="card-prev">← Vorige</button>
+          <button type="button" class="btn btn-secondary" id="card-next">Volgende →</button>
+        </div>
+      </div>
+      <div id="overview" hidden>
+        <p class="page-label">Woordjes — overzicht</p>
+        <h1 class="les-title">{{ les.titel }}</h1>
+        {% for w in les.woorden %}
+          <div class="overview-row">
+            <div>
+              <div class="word-pap">{{ w.woord }}</div>
+              <div class="word-pron">[{{ w.uitspraak }}]</div>
+            </div>
+            <div class="right">{{ w.vertaling }}</div>
+          </div>
+        {% endfor %}
+        <button type="button" class="btn btn-primary block next-step" style="margin-top:20px">Verder naar Cultuur</button>
+      </div>
+    </section>
+
+    <!-- Stap 2: Cultuur -->
+    <section class="step" data-step="2" hidden>
+      <p class="page-label">Culturele context</p>
+      <h1 class="les-title">{{ les.titel }}</h1>
+      <div class="rich">{{ les.culturele_context | rich }}</div>
+      {% if linked_scenarios %}
+        <div class="callout" style="margin-top:18px">
+          <div class="small muted" style="margin-bottom:4px">Oefen dit ook in de praktijk:</div>
+          {% for sid, title in linked_scenarios %}
+            <div><a href="{{ url_for('scenario', scenario_id=sid) }}">💬 {{ title }}</a></div>
+          {% endfor %}
+        </div>
+      {% endif %}
+      <button type="button" class="btn btn-primary block next-step" style="margin-top:20px">Verder naar Oefening</button>
+    </section>
+
+    <!-- Stap 3: Eindoefening -->
+    <section class="step" data-step="3" hidden>
+      <p class="page-label">Oefening</p>
+      <div id="quiz"></div>
+    </section>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script nonce="{{ csp_nonce }}" src="{{ url_for('static', filename='js/quiz.js') }}"></script>
+<script nonce="{{ csp_nonce }}">
+(function () {
+  const LES_ID = {{ les.id }};
+  const WOORDEN = {{ les.woorden | tojson }};
+  const VRAGEN = {{ les.eindoefening | tojson }}.map((v) => ({ question: v.vraag, options: v.opties, correct: v.correct }));
+  const SLAGINGSDREMPEL = 14;
+  const listUrl = {{ url_for('lessen') | tojson }};
+
+  const done = () => Store.get().lessen[LES_ID] || [];
+  const prevDone = (Store.get().lessen[LES_ID - 1] || []).length >= 4;
+  if (LES_ID > 1 && !prevDone) {
+    document.getElementById('locked').hidden = false;
+    return;
+  }
+  document.getElementById('lesson').hidden = false;
+
+  const steps = document.querySelectorAll('.step');
+  const tabs = document.querySelectorAll('.step-tab');
+  let current = 0;
+  let wordIndex = 0;
+  let quiz = null;
+
+  function renderTabs() {
+    const d = done();
+    tabs.forEach((t, i) => {
+      const isDone = d.includes(i + 1);
+      t.classList.toggle('active', i === current);
+      t.classList.toggle('done', isDone);
+      t.textContent = (isDone ? '✓ ' : '') + ['Grammatica', 'Woordjes', 'Cultuur', 'Oefening'][i];
+      t.disabled = !(isDone || i <= d.length);
+    });
+  }
+
+  function showStep(i) {
+    current = i;
+    steps.forEach((s) => { s.hidden = Number(s.dataset.step) !== i; });
+    if (i === 1) { wordIndex = 0; showCards(); }
+    if (i === 3) {
+      if (!quiz) {
+        quiz = new Quiz(document.getElementById('quiz'), VRAGEN, {
+          threshold: () => SLAGINGSDREMPEL,
+          passText: 'Geslaagd! Je hebt de les afgerond.',
+          failText: (need, total) => `Helaas, je hebt ${need} van de ${total} vragen nodig. Probeer opnieuw!`,
+          passLabel: 'Les voltooien',
+          onPass: (score, total) => {
+            Store.completeLesStap(LES_ID, 4);
+            renderTabs();
+            Store.toast(`Les voltooid! ${score}/${total} punten.`);
+            setTimeout(() => { window.location.href = listUrl; }, 1400);
+          },
+        });
+      }
+      quiz.start();
+    }
+    renderTabs();
+    window.scrollTo({ top: 0 });
+  }
+
+  function showCards() {
+    document.getElementById('cards').hidden = false;
+    document.getElementById('overview').hidden = true;
+    const w = WOORDEN[wordIndex];
+    document.getElementById('card-counter').textContent = `${wordIndex + 1} / ${WOORDEN.length}`;
+    document.getElementById('fc-pap').textContent = w.woord;
+    document.getElementById('fc-pron').textContent = '[' + w.uitspraak + ']';
+    document.getElementById('fc-nl').textContent = w.vertaling;
+    document.getElementById('card-prev').disabled = wordIndex === 0;
+    const nextBtn = document.getElementById('card-next');
+    const last = wordIndex === WOORDEN.length - 1;
+    nextBtn.textContent = last ? 'Bekijk overzicht' : 'Volgende →';
+    nextBtn.className = last ? 'btn btn-primary' : 'btn btn-secondary';
+  }
+
+  document.getElementById('card-prev').addEventListener('click', () => { wordIndex = Math.max(0, wordIndex - 1); showCards(); });
+  document.getElementById('card-next').addEventListener('click', () => {
+    if (wordIndex < WOORDEN.length - 1) { wordIndex++; showCards(); return; }
+    document.getElementById('cards').hidden = true;
+    document.getElementById('overview').hidden = false;
+    window.scrollTo({ top: 0 });
+  });
+  document.addEventListener('keydown', (e) => {
+    if (current !== 1 || document.getElementById('cards').hidden) return;
+    if (e.key === 'ArrowRight') document.getElementById('card-next').click();
+    if (e.key === 'ArrowLeft') document.getElementById('card-prev').click();
+  });
+
+  document.querySelectorAll('.next-step').forEach((b) => b.addEventListener('click', () => {
+    Store.completeLesStap(LES_ID, current + 1);
+    if (current < 3) showStep(current + 1);
+  }));
+
+  tabs.forEach((t) => t.addEventListener('click', () => showStep(Number(t.dataset.step))));
+
+  const d = done();
+  showStep(d.length < 4 ? d.length : 3);
+})();
+</script>
+{% endblock %}

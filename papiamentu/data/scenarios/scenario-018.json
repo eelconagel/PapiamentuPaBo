@@ -1,0 +1,103 @@
+{
+  "id": "scenario-018",
+  "title": "Sollicitatiegesprek",
+  "difficulty": "Native Speaker",
+  "category": "Werk",
+  "intro": "Je bent uitgenodigd voor een gesprek voor een nieuwe baan. Op Curaçao wordt een balans gewaardeerd tussen professionele bekwaamheid en sociale verbondenheid. Je wilt laten zien wat je kunt, zonder arrogant over te komen.",
+  "introWords": [
+    { "papiamentu": "Mi tin hopi eksperensia den e sektor akí", "dutch": "Ik heb veel ervaring in deze sector", "pronunciation": "mie tin ho-pie ek-spe-rien-sia den e sek-tor a-kie" },
+    { "papiamentu": "Kiko ta e meta di e puesto?", "dutch": "Wat is het doel van de functie?", "pronunciation": "kee-ko ta e me-ta die e pwes-to" },
+    { "papiamentu": "Mi ta un trahador dediká", "dutch": "Ik ben een toegewijde werker", "pronunciation": "mie ta oen tra-ha-dor de-di-ka" },
+    { "papiamentu": "Dikon boso mester skohe mi?", "dutch": "Waarom zouden jullie mij moeten kiezen?", "pronunciation": "die-kon bo-so mes-ter sko-he mie" }
+  ],
+  "grammar": {
+    "title": "Professionele zelfpresentatie",
+    "explanation": [
+      "Gebruik 'Mi tin...' (Ik heb...) om je ervaring en vaardigheden ('kualidatnan') op te sommen.",
+      "Vraag naar de bedrijfscultuur: 'Kon ta e ambiente di trabou?' (Hoe is de werksfeer?).",
+      "Wees beleefd: gebruik 'mi lo gusta' (ik zou graag) in plaats van alleen 'mi ke' (ik wil) bij het stellen van vragen over salaris of taken."
+    ],
+    "exercises": [
+      {
+        "question": "Hoe vertaal je 'Ik ben proactief'?",
+        "options": ["Mi ta proaktivo", "Mi ta kansá", "Mi ta dediká", "Mi ta traha hopi"],
+        "correct": 0,
+        "explanation": "Proaktivo is de standaard zakelijke term."
+      },
+      {
+        "question": "Wat betekent 'Eksperensia'?",
+        "options": ["Ervaring", "Opleiding", "Ambities", "Salaris"],
+        "correct": 0,
+        "explanation": "Eksperensia staat voor professionele ervaring."
+      },
+      {
+        "question": "Hoe vraag je naar de werktijden?",
+        "options": ["Ki ora e orario di trabou ta?", "Ki ora bo ta traha?", "Kiko ta e orario?", "Bo tin orario?"],
+        "correct": 0,
+        "explanation": "'Orario' verwijst naar het werkschema/tijden."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Kualidatnan", "dutch": "Kwaliteiten", "pronunciation": "kwa-lie-dat-nan", "example": "Mi kualidatnan ta hopi." },
+    { "papiamentu": "Eksperensia", "dutch": "Ervaring", "pronunciation": "ek-spe-rien-sia", "example": "Mi tin sinku aña di eksperensia." },
+    { "papiamentu": "Ambishon", "dutch": "Ambitie", "pronunciation": "am-bi-shon", "example": "Mi tin hopi ambishon." },
+    { "papiamentu": "Ambiente", "dutch": "Sfeer/Omgeving", "pronunciation": "am-bien-te", "example": "E ambiente ta hopi bon." },
+    { "papiamentu": "Puesto", "dutch": "Functie/Positie", "pronunciation": "pwes-to", "example": "Mi ke e puesto akí." },
+    { "papiamentu": "Dediká", "dutch": "Toegewijd", "pronunciation": "de-di-ka", "example": "Mi ta un trahador dediká." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Te direct over geld praten",
+      "detail": "Hoewel salaris belangrijk is, komt het op Curaçao beter over om eerst te focussen op je meerwaarde voor het bedrijf voordat je over financiële arbeidsvoorwaarden begint.",
+      "remember": "Focus op de bijdrage."
+    },
+    {
+      "trap": "Gebrek aan 'sociale check'",
+      "detail": "Een sollicitatie op Curaçao bevat vaak een informeel gedeelte. Verwacht vragen over je leven op het eiland of je sociale netwerk.",
+      "remember": "Wees voorbereid op persoonlijke vragen."
+    }
+  ],
+  "culture": {
+    "title": "Solliciteren op Curaçao",
+    "intro": "Sollicitaties op het eiland draaien om vertrouwen. Men wil weten of je niet alleen het werk kunt, maar ook of je in de lokale cultuur en het team past.",
+    "facts": [
+      "Er wordt vaak gekeken naar je 'netwerk' op het eiland; referenties worden zeer serieus genomen.",
+      "Tijdens het gesprek is een glimlach en een open houding net zo belangrijk als je CV.",
+      "Een vervolggesprek is bijna altijd de standaardprocedure."
+    ],
+    "didYouKnow": "Wist je dat veel functies op Curaçao worden ingevuld via informele weg ('via via') en dat een officieel gesprek vaak een bevestiging is van je reputatie?"
+  },
+  "quiz": [
+    {
+      "question": "Wat is een 'Trahador'?",
+      "options": ["Werknemer", "Werkgever", "Sollicitant", "Klant"],
+      "correct": 0,
+      "explanation": "Een trahador is iemand die werkt."
+    },
+    {
+      "question": "Hoe vraag je: 'Wat zijn mijn verantwoordelijkheden?'",
+      "options": ["Kiko ta mi responsabilidatnan?", "Kiko mi ta hasi?", "Bo tin responsabilidat?", "Kiko ta mi trabou?"],
+      "correct": 0,
+      "explanation": "Responsabilidatnan is de formele term voor verantwoordelijkheden."
+    },
+    {
+      "question": "Wat betekent 'Skohe'?",
+      "options": ["Kiezen", "Werken", "Vragen", "Solliciteren"],
+      "correct": 0,
+      "explanation": "'Skohe' betekent kiezen/selecteren."
+    },
+    {
+      "question": "Is het beleefd om te vragen naar de bedrijfscultuur?",
+      "options": ["Ja, dat toont interesse", "Nee, dat is onbeleefd", "Alleen in het tweede gesprek", "Alleen aan HR"],
+      "correct": 0,
+      "explanation": "Vragen naar het 'ambiente' toont aan dat je op zoek bent naar een langdurige samenwerking."
+    },
+    {
+      "question": "Wat betekent 'Mi ta kla pa e reto'?",
+      "options": ["Ik ben klaar voor de uitdaging", "Ik ben klaar voor het werk", "Ik heb een uitdaging", "Ik ben klaar met werken"],
+      "correct": 0,
+      "explanation": "'Reto' is de term voor uitdaging."
+    }
+  ]
+}

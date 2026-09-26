@@ -1,0 +1,73 @@
+{
+  "id": 34,
+  "blok": 4,
+  "titel": "Formeel Register: Zakelijk en Officieel Taalgebruik",
+  "grammatica": {
+    "uitleg": "Papiamentu heeft geen formeel 'u'-pronomen zoals het Nederlands. Formaliteit zit in woordkeuze, titels, zinsopbouw en toon — niet in een apart voornaamwoord.\n\nFORMELE TITELS:\n• Señor (dhr.) — voor mannen\n• Señora (mevr.) — voor vrouwen\n• Señorita (juffr.) — voor jonge vrouwen\n• Doktor (Dr.) — voor artsen en gepromoveerden\n• Direkto / Direktora (directeur/directrice)\n• Mester / Maestra — meester/meesteres (leraar/lerares)\n\nFORMEEL VOCABULAIRE (tegenover informeel):\n• Informeel → Formeel\n• 'bai' → 'dirigí na'\n• 'kumpra' → 'adkiri'\n• 'buska' → 'solisitá'\n• 'kiera' → 'desea'\n• 'bon' → 'satisfaktorio'\n• 'problema' → 'situashon problemátiko'\n\nFORMELE ZINSPATRONEN:\n• Opening: 'Ku masha respèt, Señor/Señora X,...'\n• Verzoek: 'Mi lo desea di solisitá bo asistencia.'\n• Sluiting: 'Na bo dispo, keda ku respèt.'\n• Dankbetuiging: 'Mi ta apresiá bo asistencia na e asunto aki.'\n\nFORMELE BRIEF/E-MAIL STRUCTUUR:\n1. Saludasion (begroeting)\n2. Referensia (onderwerp)\n3. Kontenido (inhoud)\n4. Pedido/Konklusion (verzoek/conclusie)\n5. Despedida (afsluiting)",
+    "voorbeelden": [
+      { "papiamentu": "Apresabel Señora Directora, mi ta skribi bo pa solisitá un entrevista.", "vertaling": "Geachte mevrouw de directrice, ik schrijf u om een gesprek te verzoeken." },
+      { "papiamentu": "Ku masha respèt, mi ta dirigí mi na bo kompania pa trata di e asunto aki.", "vertaling": "Met groot respect richt ik mij tot uw bedrijf om dit onderwerp te behandelen." },
+      { "papiamentu": "Mi ta apresiá bo kooperashon i keda na bo dispo pa tur otro pregunta.", "vertaling": "Ik waardeer uw medewerking en sta ter beschikking voor verdere vragen." },
+      { "papiamentu": "Segun e regulashonnan vigente, e formulario mester wòrdu entregá na tempu.", "vertaling": "Conform de geldende regelgeving moet het formulier tijdig worden ingediend." },
+      { "papiamentu": "Na nomber di e organisashon, mi ta duna bo e mas kordial saludasion.", "vertaling": "Namens de organisatie breng ik u de hartelijkste groeten." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "Formaliteit zit in woordkeuze, niet in een aparte 'u'-vorm",
+      "voorbeeld": "INFORMEEL: 'Bo por yuda mi?' vs. FORMEEL: 'Mi lo desea di solisitá bo asistencia'",
+      "toelichting": "Dit is het meest fundamentele verschil met het Nederlands. Papiamentu heeft geen T/V-distinctie. Dezelfde 'bo' wordt gebruikt voor iedereen. De formaliteit wordt bereikt door langere, meer complexe zinnen, Latijnse leenwoorden en beleefde formules."
+    },
+    {
+      "nuance": "'Apresabel' — de respectvolle aanspreekvorm",
+      "voorbeeld": "'Apresabel Señor X' (Geachte meneer X) — formele opening van een brief of e-mail",
+      "toelichting": "'Apresabel' (letterlijk: waardeerbaar) is de standaard formele aanspreekvorm in schrijftaal. In mondeling formeel taalgebruik zeg je 'Bon dia, Señor X' met de titel. De schriftelijke vorm is altijd formeler dan de mondelinge."
+    },
+    {
+      "nuance": "'Na bo dispo' — eeuwig aanbod van beschikbaarheid",
+      "voorbeeld": "'Keda na bo dispo pa tur pregunta' = Ik sta ter beschikking voor alle vragen",
+      "toelichting": "'Na bo dispo' (ter beschikking) is een standaardsluiting in formele correspondentie. Het zegt: ik ben beschikbaar, de interactie hoeft hier niet te stoppen. In een eilandgemeenschap waar relaties belangrijk zijn, is dit geen loos woord."
+    },
+    {
+      "nuance": "Code-switching in formeel Papiamentu — Nederlands/Engels ingeburgerd",
+      "voorbeeld": "'E meeting lo kuminsá na dies ora' (de vergadering begint om tien uur) — 'meeting' is ingeleend",
+      "toelichting": "In formeel zakelijk Papiamentu zijn Nederlandstalige en Engelse termen volledig geaccepteerd. 'Meeting', 'deadline', 'budget', 'marketing' — ze worden rechtstreeks gebruikt. Dit is geen gebrek maar een teken van de meertalige zakelijke cultuur."
+    }
+  ],
+  "woorden": [
+    { "woord": "Señor/Señora", "uitspraak": "se-njor / se-njo-ra", "vertaling": "Meneer / mevrouw" },
+    { "woord": "Apresabel", "uitspraak": "a-pre-sa-bel", "vertaling": "Geachte / gewaardeerde (formele aanspreekvorm)" },
+    { "woord": "Solisitá", "uitspraak": "so-lie-sie-ta", "vertaling": "Verzoeken / aanvragen" },
+    { "woord": "Apresiá", "uitspraak": "a-pre-sia", "vertaling": "Waarderen / appreciëren" },
+    { "woord": "Respèt", "uitspraak": "res-pet", "vertaling": "Respect" },
+    { "woord": "Dispo", "uitspraak": "dis-po", "vertaling": "Beschikking / ter beschikking" },
+    { "woord": "Asistencia", "uitspraak": "a-sis-ten-sia", "vertaling": "Assistentie / hulp / bijstand" },
+    { "woord": "Regulashon", "uitspraak": "re-gu-la-sjon", "vertaling": "Regelgeving / regulering" },
+    { "woord": "Formulario", "uitspraak": "for-mu-la-rio", "vertaling": "Formulier" },
+    { "woord": "Kooperashon", "uitspraak": "ko-o-pe-ra-sjon", "vertaling": "Samenwerking / medewerking" }
+  ],
+  "culturele_context": "Formeel Papiamentu is een taal die haar eigen identiteit heeft naast het Nederlands — de bestuurstaal van Curaçao. Officiële documenten en overheidsmededelingen verschijnen tegenwoordig in Papiamentu, Nederlands én Engels, een teken van de drie-talige identiteit van het eiland.\n\nRespect ('respèt') is een kernwaarde in formele Curaçaose interacties. 'Ku masha respèt' (met groot respect) is niet ritueel maar oprecht — het markeert dat je de ander serieus neemt en de situatie op waarde schat.\n\nFormeel taalgebruik op Curaçao is minder afstandelijk dan in Nederland. Zelfs in officiële brief kan een warme afsluiting voorkomen. De Curaçaose formele toon is respectvol maar menselijk — nooit koud.",
+  "scenario_links": ["scenario-013", "scenario-014"],
+  "eindoefening": [
+    { "vraag": "Hoe verschilt formaliteit in Papiamentu van het Nederlands?", "opties": ["In woordkeuze en formules — niet in een apart 'u'-voornaamwoord", "Papiamentu heeft 'usted' voor formeel", "Formaliteit is hetzelfde als in het Nederlands", "Papiamentu heeft geen formeel register"], "correct": 0 },
+    { "vraag": "Wat is de formele aanspreekvorm in schrijftaal?", "opties": ["Apresabel Señor/Señora", "Bon dia Señor/Señora", "Respetabel Señor/Señora", "Masha bon Señor/Señora"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik verzoek uw assistentie'?", "opties": ["Mi lo desea di solisitá bo asistencia", "Mi kier bo yuda mi", "Por bo yuda mi?", "Mi ta buska asistencia"], "correct": 0 },
+    { "vraag": "Wat betekent 'Na bo dispo'?", "opties": ["Ter uw beschikking", "Tot jouw recht", "In jouw naam", "Bij jou thuis"], "correct": 0 },
+    { "vraag": "Wat is 'solisitá'?", "opties": ["Verzoeken / aanvragen", "Helpen", "Vragen (informeel)", "Sturen"], "correct": 0 },
+    { "vraag": "Hoe sluit je een formele brief af?", "opties": ["Keda na bo dispo, ku respèt", "Ayó, bo bida", "Masha danki pa alles", "Kuidá bo mes"], "correct": 0 },
+    { "vraag": "Wat is 'apresiá'?", "opties": ["Waarderen / appreciëren", "Begrijpen", "Accepteren", "Erkennen"], "correct": 0 },
+    { "vraag": "Hoe zeg je formeel 'met groot respect'?", "opties": ["Ku masha respèt", "Ku masha bon", "Na masha respèt", "Di masha respèt"], "correct": 0 },
+    { "vraag": "Welke formele variant hoort bij 'kumpra' (kopen)?", "opties": ["Adkiri", "Pagá", "Haña", "Bai na tienda"], "correct": 0 },
+    { "vraag": "Wat is 'formulario'?", "opties": ["Formulier", "Brief", "Document", "Contract"], "correct": 0 },
+    { "vraag": "Is het normaal om Engelse termen te gebruiken in formeel Papiamentu?", "opties": ["Ja — 'meeting', 'deadline' etc. zijn geaccepteerd", "Nee — altijd Papiamentse equivalenten", "Alleen in informele context", "Alleen in toerisme"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Geachte mevrouw de directrice'?", "opties": ["Apresabel Señora Direktora", "Bon dia Señora Direktora", "Ku respèt Señora", "Señora Direktora bon dia"], "correct": 0 },
+    { "vraag": "Wat is 'respèt'?", "opties": ["Respect", "Vertrouwen", "Eer", "Waardering"], "correct": 0 },
+    { "vraag": "Wat is 'regulashon'?", "opties": ["Regelgeving / regulering", "Regels (informeel)", "Wet", "Richtlijn"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik richt mij tot uw bedrijf'?", "opties": ["Mi ta dirigí mi na bo kompania", "Mi ta bai na bo kompania", "Mi ta papia ku bo kompania", "Mi ta skribe bo kompania"], "correct": 0 },
+    { "vraag": "Wat is 'kooperashon'?", "opties": ["Samenwerking / medewerking", "Hulp (incidenteel)", "Organisatie", "Communicatie"], "correct": 0 },
+    { "vraag": "Hoe heten de 5 onderdelen van een formele brief?", "opties": ["Saludasion, Referensia, Kontenido, Pedido, Despedida", "Opening, Inhoud, Afsluiting, Handtekening, Datum", "Titel, Tekst, Conclusie, Afsluiting", "Begroeting, Vraag, Antwoord, Dank, Afscheid"], "correct": 0 },
+    { "vraag": "Wat is 'asistencia'?", "opties": ["Assistentie / hulp / bijstand", "Aanwezigheid", "Samenwerking", "Service"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'het formulier moet tijdig worden ingediend'?", "opties": ["E formulario mester wòrdu entregá na tempu", "E formulario ta wòrdu entregá na tempu", "Mester entregá e formulario na tempu", "Alle drie zijn correct afhankelijk van register"], "correct": 3 },
+    { "vraag": "Waarom is formeel Papiamentu minder afstandelijk dan formeel Nederlands?", "opties": ["De Curaçaose formele toon is respectvol maar menselijk — nooit koud", "Formaliteit bestaat niet echt op Curaçao", "Papiamentu heeft minder formele woorden", "Het is historisch gegroeid door koloniale invloed"], "correct": 0 }
+  ]
+}

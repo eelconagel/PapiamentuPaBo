@@ -1,0 +1,103 @@
+{
+  "id": "scenario-011",
+  "title": "Op school of cursus",
+  "difficulty": "Intermediate",
+  "category": "Onderwijs",
+  "intro": "Je volgt een cursus op het eiland. Of je nu op school bent of een taalcursus volgt, communicatie met de docent en medestudenten is essentieel. Op Curaçao is de sfeer in de klas vaak informeel en sociaal.",
+  "introWords": [
+    { "papiamentu": "Mi tin un pregunta", "dutch": "Ik heb een vraag", "pronunciation": "mie tin oen pre-goen-ta" },
+    { "papiamentu": "Por ripiti esaki?", "dutch": "Kun je dit herhalen?", "pronunciation": "por ri-pi-tie e-sa-kie" },
+    { "papiamentu": "Mi no ta komprondé", "dutch": "Ik begrijp het niet", "pronunciation": "mie no ta kom-pron-de" },
+    { "papiamentu": "Kiko esaki ta nifiká?", "dutch": "Wat betekent dit?", "pronunciation": "kee-ko e-sa-kie ta nie-fi-ka" }
+  ],
+  "grammar": {
+    "title": "Communiceren in de klas",
+    "explanation": [
+      "Gebruik 'Por fabor' (alstublieft) om je vragen beleefd te maken.",
+      "Bij het aanspreken van de docent wordt 'Maestro' (meester) of 'Juf' (juf) nog steeds veel gebruikt, ook bij volwasseneneducatie.",
+      "Om hulp vragen is heel normaal: 'Bo por yuda mi ku esaki?' (Kun je me helpen met dit?)."
+    ],
+    "exercises": [
+      {
+        "question": "Hoe vraag je: 'Wanneer is de pauze?'",
+        "options": ["Ki ora e pauze ta?", "Kiko ta pauze?", "Pauze ta kla?", "Bo tin pauze?"],
+        "correct": 0,
+        "explanation": "'Pauze' wordt in het Papiaments ook gewoon als 'pauze' gebruikt."
+      },
+      {
+        "question": "Wat betekent 'Mi a kaba'?",
+        "options": ["Ik ben klaar", "Ik ben moe", "Ik heb een vraag", "Ik begrijp het"],
+        "correct": 0,
+        "explanation": "'Kaba' betekent klaar of afgelopen."
+      },
+      {
+        "question": "Hoe vraag je om verduidelijking?",
+        "options": ["Por splika esaki atrobe?", "Mi tin pregunta", "Bo ta kla?", "Mi no ta bin"],
+        "correct": 0,
+        "explanation": "'Splika' betekent uitleggen, 'atrobe' betekent opnieuw."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Maestro", "dutch": "Docent/Meester", "pronunciation": "ma-es-tro", "example": "Maestro, por yuda mi?" },
+    { "papiamentu": "Komprondé", "dutch": "Begrijpen", "pronunciation": "kom-pron-de", "example": "Bo ta komprondé?" },
+    { "papiamentu": "Splika", "dutch": "Uitleggen", "pronunciation": "spli-ka", "example": "Por splika esaki?" },
+    { "papiamentu": "Tarea", "dutch": "Huiswerk/Taak", "pronunciation": "ta-re-a", "example": "Kiko ta e tarea?" },
+    { "papiamentu": "Kaba", "dutch": "Klaar/Afgelopen", "pronunciation": "ka-ba", "example": "E lès a kaba." },
+    { "papiamentu": "Lès", "dutch": "Les", "pronunciation": "les", "example": "Ki ora e lès ta?" }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Te passief zijn",
+      "detail": "In de Curaçaose onderwijscultuur wordt participatie gewaardeerd. Als je stil blijft, denkt men dat je het begrijpt. Durf dus te vragen.",
+      "remember": "Vragen stellen = betrokkenheid."
+    },
+    {
+      "trap": "Formele afstand",
+      "detail": "Hoewel de sfeer informeel is, blijft er respect voor de autoriteit van de docent. Gebruik 'u' (formele 'bo' of titel) als je twijfelt.",
+      "remember": "Respecteer de docent."
+    }
+  ],
+  "culture": {
+    "title": "Onderwijscultuur op Curaçao",
+    "intro": "In een leeromgeving op het eiland is het sociale aspect bijna net zo belangrijk als de lesstof. Samenwerken en elkaar helpen in de klas is de standaard.",
+    "facts": [
+      "Docenten staan vaak open voor een praatje voor of na de les; dit versterkt de band en de leerbereidheid.",
+      "Groepsdiscussies kunnen geanimeerd zijn; mensen praten makkelijk door elkaar heen, wat gezien wordt als enthousiasme.",
+      "Het is gebruikelijk om medestudenten bij de voornaam te noemen en hen ook buiten de klas te groeten."
+    ],
+    "didYouKnow": "Wist je dat veel cursussen op Curaçao tweetalig of zelfs drietalig zijn (Papiaments, Nederlands, Engels), dus wees niet bang om over te schakelen als je er niet uitkomt?"
+  },
+  "quiz": [
+    {
+      "question": "Wat betekent 'Tarea'?",
+      "options": ["Huiswerk", "Les", "School", "Pauze"],
+      "correct": 0,
+      "explanation": "'Tarea' is de standaardterm voor huiswerk of taak."
+    },
+    {
+      "question": "Hoe zeg je 'Ik ben klaar met de taak'?",
+      "options": ["Mi a kaba ku e tarea", "Mi tin tarea", "Mi ta splika tarea", "Mi no tin tarea"],
+      "correct": 0,
+      "explanation": "'A kaba' betekent voltooid hebben."
+    },
+    {
+      "question": "Wat betekent 'Atrobe'?",
+      "options": ["Opnieuw", "Nu", "Straks", "Klaar"],
+      "correct": 0,
+      "explanation": "'Atrobe' wordt gebruikt om herhaling aan te duiden."
+    },
+    {
+      "question": "Is het normaal om hulp te vragen aan een klasgenoot?",
+      "options": ["Ja, zeker", "Nee, dat mag niet", "Alleen in de pauze", "Nee, alleen aan de docent"],
+      "correct": 0,
+      "explanation": "Samenwerken is een integraal onderdeel van de cultuur."
+    },
+    {
+      "question": "Hoe zeg je 'De les is afgelopen'?",
+      "options": ["E lès a kaba", "E lès ta bon", "E lès ta kuminsá", "E lès ta piki"],
+      "correct": 0,
+      "explanation": "'A kaba' geeft aan dat iets voorbij is."
+    }
+  ]
+}

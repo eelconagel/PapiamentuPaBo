@@ -1,0 +1,103 @@
+{
+  "id": "scenario-015",
+  "title": "Een probleem met internet melden",
+  "difficulty": "Hard",
+  "category": "Service",
+  "intro": "Je internetverbinding werkt niet. Het is cruciaal om duidelijk te kunnen uitleggen wat het probleem is en wat je al geprobeerd hebt. Op Curaçao verloopt het contact met providers vaak via de klantenservice, waar geduld en duidelijkheid de sleutel zijn.",
+  "introWords": [
+    { "papiamentu": "Mi no tin konekshon", "dutch": "Ik heb geen verbinding", "pronunciation": "mie no tin ko-nek-shon" },
+    { "papiamentu": "Mi internet no ta traha", "dutch": "Mijn internet werkt niet", "pronunciation": "mie in-ter-net no ta tra-ha" },
+    { "papiamentu": "E lusnan ta kibrá?", "dutch": "Zijn de lampjes kapot?", "pronunciation": "e loos-nan ta ki-bra" },
+    { "papiamentu": "Por yuda mi?", "dutch": "Kun je me helpen?", "pronunciation": "por joe-da mie" }
+  ],
+  "grammar": {
+    "title": "Storingen uitleggen",
+    "explanation": [
+      "Gebruik 'No ta traha' om aan te geven dat een apparaat of dienst niet werkt.",
+      "Gebruik 'Kibrá' (kapot/gebroken) voor fysieke defecten of als iets compleet uitgevallen is.",
+      "Vraag naar een oplossing met 'Kiko mi mester hasi?' (Wat moet ik doen?)."
+    ],
+    "exercises": [
+      {
+        "question": "Wat betekent 'Mi internet ta traha masha malu'?",
+        "options": ["Mijn internet werkt heel slecht", "Mijn internet werkt heel goed", "Ik heb geen internet", "Mijn internet is snel"],
+        "correct": 0,
+        "explanation": "'Masha malu' betekent heel slecht."
+      },
+      {
+        "question": "Hoe zeg je 'De router is uit'?",
+        "options": ["E router ta paga", "E router ta traha", "E router ta bon", "E router ta kibrá"],
+        "correct": 0,
+        "explanation": "'Paga' betekent uit (of uitgeschakeld)."
+      },
+      {
+        "question": "Wat vraag je als je wilt weten wanneer de monteur komt?",
+        "options": ["Ki ora e tèkniko ta bin?", "Kiko e tèkniko ta hasi?", "E tèkniko ta kla?", "Bo tin tèkniko?"],
+        "correct": 0,
+        "explanation": "'Tèkniko' is de monteur."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Konekshon", "dutch": "Verbinding", "pronunciation": "ko-nek-shon", "example": "Mi konekshon ta kai tur ora." },
+    { "papiamentu": "Traha", "dutch": "Werken (van apparaten)", "pronunciation": "tra-ha", "example": "E modem no ta traha." },
+    { "papiamentu": "Kibrá", "dutch": "Kapot", "pronunciation": "ki-bra", "example": "E kabel ta kibrá." },
+    { "papiamentu": "Yuda", "dutch": "Helpen", "pronunciation": "joe-da", "example": "Por yuda mi ku esaki?" },
+    { "papiamentu": "Tèkniko", "dutch": "Monteur", "pronunciation": "tek-ni-ko", "example": "Mi mester di un tèkniko." },
+    { "papiamentu": "Paga", "dutch": "Uitgeschakeld/Gedoofd", "pronunciation": "pa-ga", "example": "E lus ta paga." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Te technisch worden",
+      "detail": "Als je niet zeker bent van de Papiamentu-termen voor specifieke hardware, beschrijf het probleem simpel: 'E no ta traha' (het werkt niet) en 'E lus ta kibrá' (het lampje is kapot).",
+      "remember": "Houd het simpel."
+    },
+    {
+      "trap": "Aannemen dat het probleem bij jou ligt",
+      "detail": "Vraag altijd: 'Ta un stòr den e área?' (Is er een storing in de buurt?). Dit bespaart je veel tijd.",
+      "remember": "Check of er een algemene storing is."
+    }
+  ],
+  "culture": {
+    "title": "Service en klantvriendelijkheid",
+    "intro": "Op Curaçao is internet onmisbaar, en een storing wordt dan ook als erg vervelend ervaren. De klantenservice is meestal behulpzaam, maar kan onderbezet zijn.",
+    "facts": [
+      "Het is heel normaal om na een eerste melding even te wachten en bij geen reactie opnieuw te bellen.",
+      "Vriendelijkheid aan de telefoon ('Bon dia', 'Danki') opent vaak deuren bij de technische dienst.",
+      "Soms is een fysiek bezoek aan de winkel van de provider effectiever dan telefonisch contact."
+    ],
+    "didYouKnow": "Wist je dat men bij internetstoringen op Curaçao vaak kijkt naar de weersomstandigheden (zoals onweer of harde wind), omdat dit vaak de oorzaak is?"
+  },
+  "quiz": [
+    {
+      "question": "Wat betekent 'Mi internet ta kai'?",
+      "options": ["Mijn internet valt weg", "Mijn internet is snel", "Mijn internet werkt", "Mijn internet is duur"],
+      "correct": 0,
+      "explanation": "'Kai' betekent vallen."
+    },
+    {
+      "question": "Hoe zeg je: 'Ik heb de modem al opnieuw opgestart'?",
+      "options": ["Mi a re-inisiá e modem kaba", "Mi ta re-inisiá e modem", "E modem ta re-inisiá", "Mi no por re-inisiá e modem"],
+      "correct": 0,
+      "explanation": "'Re-inisiá' is opstarten/resetten."
+    },
+    {
+      "question": "Wat is een 'Stòr'?",
+      "options": ["Storing", "Modem", "Kabel", "Verbinding"],
+      "correct": 0,
+      "explanation": "'Stòr' is de gangbare term voor een storing."
+    },
+    {
+      "question": "Hoe vraag je: 'Wanneer komt de monteur?'",
+      "options": ["Ki ora e tèkniko ta bin?", "E tèkniko ta kla?", "Tèkniko ta bin?", "Kiko tèkniko ta hasi?"],
+      "correct": 0,
+      "explanation": "'Ki ora' is de standaard voor 'wanneer/hoe laat'."
+    },
+    {
+      "question": "Wat betekent 'Masha malu'?",
+      "options": ["Heel slecht", "Heel goed", "Heel snel", "Heel duur"],
+      "correct": 0,
+      "explanation": "Versterkt het negatieve aspect van de werking."
+    }
+  ]
+}

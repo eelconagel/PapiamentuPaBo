@@ -1,0 +1,103 @@
+{
+  "id": "scenario-017",
+  "title": "Een auto huren",
+  "difficulty": "Hard",
+  "category": "Transport",
+  "intro": "Je hebt een auto nodig om het eiland te verkennen of naar je werk te gaan. Het huren van een auto op Curaçao vereist aandacht voor voorwaarden, verzekeringen en de staat van de auto bij vertrek.",
+  "introWords": [
+    { "papiamentu": "Mi ke hür un outo", "dutch": "Ik wil een auto huren", "pronunciation": "mie ke huer oen ow-to" },
+    { "papiamentu": "Kuantu e ta kosta pa dia?", "dutch": "Wat kost het per dag?", "pronunciation": "kwan-toe e ta kos-ta pa dee-a" },
+    { "papiamentu": "E tin seguro?", "dutch": "Is het verzekerd?", "pronunciation": "e tin se-goo-ro" },
+    { "papiamentu": "Mi mester di airco", "dutch": "Ik heb airconditioning nodig", "pronunciation": "mie mes-ter die air-ko" }
+  ],
+  "grammar": {
+    "title": "Voorwaarden en vragen bij autohuur",
+    "explanation": [
+      "Gebruik 'Hür' voor huren. 'Hür' wordt ook gebruikt als zelfstandig naamwoord voor de huurprijs.",
+      "Vraag naar de inbegrepen zaken met 'Ta inkluí...?' (Is ... inbegrepen?).",
+      "Wees specifiek over je behoeften (bijv. airco, automaat of schakelbak)."
+    ],
+    "exercises": [
+      {
+        "question": "Wat betekent 'Seguro'?",
+        "options": ["Verzekering", "Borgsom", "Benzine", "Onderhoud"],
+        "correct": 0,
+        "explanation": "'Seguro' is de standaard term voor verzekering."
+      },
+      {
+        "question": "Hoe vraag je: 'Is de borg inbegrepen?'",
+        "options": ["E borg ta inkluí?", "E borg ta kosta?", "Bo tin borg?", "Kiko ta borg?"],
+        "correct": 0,
+        "explanation": "'Inkluí' betekent inbegrepen."
+      },
+      {
+        "question": "Wat betekent 'Outo di hür'?",
+        "options": ["Huurauto", "Eigen auto", "Taxibus", "Vrachtwagen"],
+        "correct": 0,
+        "explanation": "'Outo di hür' is de letterlijke vertaling van huurauto."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Outo", "dutch": "Auto", "pronunciation": "ow-to", "example": "Mi tin mester di un outo." },
+    { "papiamentu": "Hür", "dutch": "Huren", "pronunciation": "huer", "example": "Kuantu e hür ta?" },
+    { "papiamentu": "Seguro", "dutch": "Verzekering", "pronunciation": "se-goo-ro", "example": "E seguro ta kompletu." },
+    { "papiamentu": "Airco", "dutch": "Airconditioning", "pronunciation": "air-ko", "example": "E outo tin airco?" },
+    { "papiamentu": "Borg", "dutch": "Borgsom", "pronunciation": "borg", "example": "Mi mester paga un borg." },
+    { "papiamentu": "Gasolina", "dutch": "Benzine", "pronunciation": "ga-so-lie-na", "example": "Mi mester yena gasolina." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Schade niet controleren",
+      "detail": "Maak bij het ophalen altijd foto's van bestaande krassen of deuken, ook als de verhuurder zegt dat het niet nodig is. Dit voorkomt discussie bij inleveren.",
+      "remember": "Check, maak foto's, teken."
+    },
+    {
+      "trap": "Verzekeringstype",
+      "detail": "Er is een groot verschil tussen 'Third party' (WA) en 'All-risk'. Vraag expliciet naar de dekking bij ongelukken.",
+      "remember": "Vraag naar 'All-risk'."
+    }
+  ],
+  "culture": {
+    "title": "Mobiliteit op het eiland",
+    "intro": "Een auto is de levensader van je verblijf op Curaçao. Het wegennet is overzichtelijk, maar rijstijl en condities kunnen variëren.",
+    "facts": [
+      "Veel verhuurders zijn informeel; afspraken via WhatsApp zijn de norm, maar zorg altijd voor een schriftelijk bewijs (contract).",
+      "Houd rekening met onverharde wegen naar afgelegen baaien (playa's), deze kunnen schadelijk zijn voor de onderkant van de auto.",
+      "Het is heel gebruikelijk om de auto bij inleveren weer met een volle tank in te leveren."
+    ],
+    "didYouKnow": "Wist je dat als je betrokken bent bij een klein ongeluk, je vaak moet wachten op de schade-expert ('Forensys') voordat je de auto mag verplaatsen?"
+  },
+  "quiz": [
+    {
+      "question": "Hoe vraag je: 'Waar moet ik tanken?'",
+      "options": ["Unda mi mester yena gasolina?", "Unda e outo ta?", "Ki ora mi ta yena?", "Kiko ta gasolina?"],
+      "correct": 0,
+      "explanation": "'Yena' betekent vullen/tanken."
+    },
+    {
+      "question": "Wat betekent 'Playa'?",
+      "options": ["Strand", "Weg", "Auto", "Tankstation"],
+      "correct": 0,
+      "explanation": "'Playa' is strand; veel bestemmingen op Curaçao worden zo aangeduid."
+    },
+    {
+      "question": "Wat is een 'Rijbewijs' in het Papiaments?",
+      "options": ["Reibewis", "Dokumento", "Sédula", "Seguro"],
+      "correct": 0,
+      "explanation": "Het is een directe leenvertaling die iedereen begrijpt."
+    },
+    {
+      "question": "Wat betekent 'Full tank'?",
+      "options": ["Volle tank", "Lege tank", "Halve tank", "Benzine nodig"],
+      "correct": 0,
+      "explanation": "Deze Engelse term wordt veel gebruikt in de verhuursector op Curaçao."
+    },
+    {
+      "question": "Is het verstandig om alleen WA te verzekeren op Curaçao?",
+      "options": ["Nee, kies voor All-risk", "Ja, dat is goedkoop", "Alleen voor lange huur", "Maakt niet uit"],
+      "correct": 0,
+      "explanation": "Het verkeer kan onvoorspelbaar zijn; All-risk is aanbevolen."
+    }
+  ]
+}

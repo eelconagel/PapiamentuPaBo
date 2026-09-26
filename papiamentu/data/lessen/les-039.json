@@ -1,0 +1,73 @@
+{
+  "id": 39,
+  "blok": 4,
+  "titel": "Eind-review: De Vier Blokken in Samenhang",
+  "grammatica": {
+    "uitleg": "In dit eindoverzicht brengen we de essentie van alle 39 voorgaande lessen samen. Geen nieuwe structuren — wel alle systemen naast elkaar.\n\nBLOK 1 — FUNDAMENT:\n• 'Ta' als copula: E ta studiant. (Les 2)\n• SVO-zinsbouw: Mi ta lesa e buki. (Les 7)\n• Vraagwoorden basis: kiko, unda, ki ora, dikon (Les 6)\n• Voorzetsels na/di: E ta na kas / Mi ta di Kòrsou (Les 9)\n\nBLOK 2 — UITBREIDING:\n• Meervoud -nan: kasnan, muchanam (Les 11)\n• Bezit su/di: su kas / e kas di mi tata (Les 12)\n• Tin (hebben/existentieel): Mi tin / Tin un problema (Les 13)\n• Adjectief post-positie: un kas grandi (Les 15)\n• Vergelijking: mas...ku / e mas...di (Les 16)\n• Imperatief: Bai! / No bai! / Dami (Les 18)\n\nBLOK 3 — TIJDSSYSTEEM EN COMPLEXITEIT:\n• Aspect-markers compleet: a / ta / lo / tabata / lo ta (Les 21, 22, 24)\n• Modale werkwoorden: mester, por, kier (Les 23)\n• Geavanceerde vragen: kuantu, ken, ingebed (Les 27)\n• Relatieve bijzinnen: ku / unda (Les 28)\n\nBLOK 4 — NUANCE EN REGISTER:\n• Conditionele zinnen: si + lo / si + tabata + lo + a (Les 31)\n• Passief: wòrdu (Les 32)\n• Idiomen: No tin problema / Dal un man / Para ferme (Les 33)\n• Formeel register: Apresabel Señor / Ku masha respèt (Les 34)\n• Hedging: Ta parce ku / Mi ta pensa ku (Les 38)",
+    "voorbeelden": [
+      { "papiamentu": "E studiant ku a kuminsá e kurs tres luna pasa awor ta papia Papiamentu masha bon.", "vertaling": "De student die drie maanden geleden met de cursus begon, spreekt nu heel goed Papiamentu." },
+      { "papiamentu": "Si nos tabata tin mas tempu, nos lo a bishitá mas lugarnan — pero ta asina e ta.", "vertaling": "Als we meer tijd hadden gehad, hadden we meer plekken bezocht — maar zo is het nu eenmaal." },
+      { "papiamentu": "Na mi eksperensia, e mehó manera pa siña un idioma ta pa papia dje tur dia.", "vertaling": "In mijn ervaring is de beste manier om een taal te leren, hem elke dag te spreken." },
+      { "papiamentu": "Tur e palabranan ku bo a siña tin un historia detras di nan — tur ta konektá ku Kòrsou.", "vertaling": "Alle woorden die jij hebt geleerd, hebben een verhaal achter zich — ze zijn allemaal verbonden met Curaçao." },
+      { "papiamentu": "Biba! Bo a yega na e fin di e kurs — awor bo por bai, papia, preguntá i biba na Kòrsou.", "vertaling": "Hoera! Je hebt het einde van de cursus bereikt — nu kun je gaan, praten, vragen en leven op Curaçao." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "De aspect-markers zijn het hart van Papiamentu",
+      "voorbeeld": "a (klaar) / ta (nu bezig) / lo (straks) / tabata (was bezig) / lo ta (zal bezig zijn) — vijf posities, één werkwoordsstam",
+      "toelichting": "Het aspect-systeem van Papiamentu is eleganter dan welk Europees tijdssysteem dan ook. De werkwoordsstam verandert nooit. Vijf markers doen al het tijdswerk. Als je dit systeem echt begrijpt, is de rest van de grammatica een kwestie van vocabulaire."
+    },
+    {
+      "nuance": "Structuren zijn tools, niet regels",
+      "voorbeeld": "'E mucha ku a kresé na mi bario, ku mi konosé goed, ku tabata masha bunita' — rijke beschrijving in levend taalgebruik",
+      "toelichting": "De 40 lessen van dit curriculum gaven je tools. Een hamer is nutteloos als je hem niet durft te pakken. Maak fouten — native speakers corrigeren je vriendelijk en appreciëren de poging. 'Papia Papiamentu!' is een uitnodiging."
+    },
+    {
+      "nuance": "Cultuur en taal zijn onscheidbaar",
+      "voorbeeld": "'No tin problema' (geen probleem), 'Ta asina e ta' (zo is het) — elke idioom weerspiegelt een levenshouding",
+      "toelichting": "Papiamentu leren is Curaçao leren begrijpen. De spreektaal-logica, de uitroepen, de manier van groeten, de waarden in de idiomen — dit alles is één pakket. De taal is een deur naar een cultuur."
+    },
+    {
+      "nuance": "Elke les had een scenario-link — gebruik ze",
+      "voorbeeld": "De scenario's zijn echte oefensituaties. Blader terug door de scenario_links en oefen in die contexten.",
+      "toelichting": "De theorie van de 40 lessen wordt praktijk in de scenario's. Gebruik de grammatica als ankerpunt maar oefen altijd in context. 'Kon ta bai?' werkt anders in een supermarkt dan bij een dokterspraktijk. Situatie vormt taal."
+    }
+  ],
+  "woorden": [
+    { "woord": "Siña", "uitspraak": "sin-ja", "vertaling": "Leren / aanleren" },
+    { "woord": "Konosé", "uitspraak": "ko-no-se", "vertaling": "Kennen / ontmoeten" },
+    { "woord": "Kurs", "uitspraak": "kurs", "vertaling": "Cursus" },
+    { "woord": "Idioma", "uitspraak": "ie-dio-ma", "vertaling": "Taal" },
+    { "woord": "Historia", "uitspraak": "his-to-ria", "vertaling": "Verhaal / geschiedenis" },
+    { "woord": "Konektá", "uitspraak": "ko-nek-ta", "vertaling": "Verbonden / verbinden" },
+    { "woord": "Manera", "uitspraak": "ma-ne-ra", "vertaling": "Manier / wijze" },
+    { "woord": "Mehó", "uitspraak": "me-ho", "vertaling": "Beter / beste" },
+    { "woord": "Tur dia", "uitspraak": "toer die-a", "vertaling": "Elke dag" },
+    { "woord": "Fin", "uitspraak": "fin", "vertaling": "Einde / doel" }
+  ],
+  "culturele_context": "40 lessen Papiamentu zijn een fundament, geen plafond. De taal heeft een rijke literaire traditie, een muzikale cultuur van tambu tot Tumba, een filmscene die groeit, en een generatie jongeren die Papiamentu met trots draagt.\n\nAls je de 40 lessen hebt doorlopen, kun je je voorstellen, boodschappen doen, gezondheid bespreken, werken, feesten en vriendschappen onderhouden in Papiamentu. Dat is niet weinig — dat is dagelijks leven.\n\nDe grootste les is buiten de lessen: 'Papia Papiamentu!' Spreek de taal. Elke fout is een stap. Elke correctie is een les. Elke glimlach van een native speaker is de bevestiging dat je op de goede weg bent. 'Bo ta siña bon!' (Jij leert goed!)",
+  "scenario_links": ["scenario-001", "scenario-020"],
+  "eindoefening": [
+    { "vraag": "Welke aspect-marker gebruik je voor voltooide verleden tijd?", "opties": ["A", "Ta", "Lo", "Tabata"], "correct": 0 },
+    { "vraag": "Welke aspect-marker gebruik je voor de toekomende tijd?", "opties": ["Lo", "Ta", "A", "Tabata"], "correct": 0 },
+    { "vraag": "Hoe vorm je meervoud?", "opties": ["Voeg -nan toe aan het zelfstandig naamwoord", "Voeg -s toe", "Gebruik een apart meervoudswoord", "Het werkwoord verandert"], "correct": 0 },
+    { "vraag": "Waar staat het bijvoeglijk naamwoord in Papiamentu?", "opties": ["Na het zelfstandig naamwoord (post-positie)", "Vóór het zelfstandig naamwoord", "Na 'ta'", "Aan het begin van de zin"], "correct": 0 },
+    { "vraag": "Hoe maak je de superlatief?", "opties": ["E + mas + adjectief: 'e mas grandi'", "Mas + adjectief: 'mas grandi'", "Adjectief + -nan", "Masha + adjectief"], "correct": 0 },
+    { "vraag": "Hoe maak je de imperatief?", "opties": ["Gebruik de werkwoordsstam direct: 'Bai!'", "Voeg 'ta' toe: 'Ta bai!'", "Voeg '-a' toe", "Gebruik 'por': 'Por bai'"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Er is een probleem'?", "opties": ["Tin un problema", "Ta un problema", "E tin un problema", "Problema ta"], "correct": 0 },
+    { "vraag": "Welk woord gebruik je voor relatieve bijzinnen?", "opties": ["Ku (voor alles — mensen en dingen)", "Di voor mensen, ku voor dingen", "Kende voor mensen, ku voor dingen", "Ki voor alles"], "correct": 0 },
+    { "vraag": "Hoe maak je een reële conditie?", "opties": ["Si + tegenwoordige tijd + lo: 'Si bo yega, nos lo kuminsá'", "Si + lo + werkwoord", "Ku + tegenwoordige tijd + lo", "Lo + si + werkwoord"], "correct": 0 },
+    { "vraag": "Hoe druk je onzekerheid uit?", "opties": ["'Ta parce ku...' of 'Mi ta pensa ku...'", "Altijd 'mi ta sigur'", "Met 'posibel' alleen", "Via intonatie alleen"], "correct": 0 },
+    { "vraag": "Wat zijn de twee functies van 'tin'?", "opties": ["Hebben (bezit) EN existentieel 'er is/zijn'", "Zijn EN hebben", "Hebben EN doen", "Er zijn EN gaan"], "correct": 0 },
+    { "vraag": "Wat is 'tabata'?", "opties": ["Verledentijdsvorm van 'ta' (was/waren — onvoltooid)", "Voltooide verleden tijd", "Toekomstige onzekerheid", "Formele verledentijdsvorm"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'mezelf'?", "opties": ["Mi mes", "Mi su mes", "Miselfu", "Mi mes is NIET correct"], "correct": 0 },
+    { "vraag": "Hoe zeg je iets 'vanzelf' gaat?", "opties": ["Di su mes: 'E a resolve di su mes'", "Su mes: 'E a resolve su mes'", "Di su: 'E a resolve di su'", "Automatiko: 'E a resolve automatiko'"], "correct": 0 },
+    { "vraag": "Welke drie modale werkwoorden heb je geleerd?", "opties": ["Mester (moeten), por (kunnen/mogen), kier (willen)", "Mester, ta, lo", "Por, bai, kier", "Lo, mester, a"], "correct": 0 },
+    { "vraag": "Hoe druk je passief uit?", "opties": ["Tijdsmarker + wòrdu + werkwoord: 'ta wòrdu hasi'", "Werkwoord + wòrdu", "Wòrdu + tijdsmarker + werkwoord", "Wòrdu vervangt de tijdsmarker"], "correct": 0 },
+    { "vraag": "Wat is de formele aanspreekvorm in een brief?", "opties": ["Apresabel Señor/Señora", "Bon dia Señor/Señora", "Ku respèt Señor/Señora", "Mi Señor/Señora"], "correct": 0 },
+    { "vraag": "Hoe gebruik je 'ku' als tijdsconnector?", "opties": ["'Ku' voor zekere toekomstige momenten: 'Ku bo yega, yama mi'", "'Ku' altijd = tijd", "'Ku' = toen (onzeker)", "'Ku' vervangt 'si' in alle condities"], "correct": 0 },
+    { "vraag": "Wat is de essentie van 'Ta asina e ta'?", "opties": ["Pragmatische acceptatie van de realiteit — de Curaçaose levenshouding in vier woorden", "Dat iets klopt", "Een correctie", "Een beschrijving"], "correct": 0 },
+    { "vraag": "Wat is de grootste les na het voltooien van de 40 lessen?", "opties": ["Papia Papiamentu — spreek de taal, maak fouten, leer van native speakers", "Meer lessen volgen", "Grammaticaboeken lezen", "Wachten tot je perfect bent"], "correct": 0 }
+  ]
+}

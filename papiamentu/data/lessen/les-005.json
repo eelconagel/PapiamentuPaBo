@@ -1,0 +1,73 @@
+{
+  "id": 5,
+  "blok": 1,
+  "titel": "Ontkenning: De kracht van 'No'",
+  "grammatica": {
+    "uitleg": "In Papiamentu is ontkenning elegant eenvoudig: je plaatst 'no' vóór het werkwoord of de tijdsmarker 'ta'. Dat is alles.\n\nDE BASISREGEL:\nSubject + NO + ta/werkwoord + rest van de zin\n\nVoorbeelden:\n• Mi no ta kome vleis. (Ik eet geen vlees.)\n• E no ta bai trabou awe. (Hij/zij gaat vandaag niet naar het werk.)\n• Nos no tin plaka. (Wij hebben geen geld.)\n\nMET MODALE WERKWOORDEN:\n'no' staat ook vóór modalen zoals mester, por, ke:\n• Mi no ke bai. (Ik wil niet gaan.)\n• E no por yuda mi. (Hij/zij kan me niet helpen.)\n• Bo no mester paga. (Jij hoeft niet te betalen.)\n\nVERSTERKTE ONTKENNING:\n• Nunka = nooit: 'Mi nunka ta yega laat.' (Ik ben nooit laat.)\n• Nada = niets: 'Mi no a wak nada.' (Ik heb niets gezien.)\n• Ningun = geen enkele: 'Ningun persona no tabata.' (Er was geen enkele persoon.)",
+    "voorbeelden": [
+      { "papiamentu": "Mi no ta komprondé", "vertaling": "Ik begrijp het niet" },
+      { "papiamentu": "E no ke papia awor", "vertaling": "Hij/zij wil nu niet praten" },
+      { "papiamentu": "Nos no ta bai Djadomingo", "vertaling": "Wij gaan zondag niet" },
+      { "papiamentu": "Bo no mester hasi esei", "vertaling": "Jij hoeft dat niet te doen" },
+      { "papiamentu": "Mi nunka a wak esei", "vertaling": "Ik heb dat nooit gezien" }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'no ta' klinkt als 'nota' in snelle spraak",
+      "voorbeeld": "'Mi nota kome' (snel) = 'Mi no ta kome' (correct schrijven)",
+      "toelichting": "In vlot gesproken Papiamentu versmelten 'no' en 'ta' tot één klank. Schrijf ze altijd apart, maar train je oor op de samengesmolten versie die je in dagelijks gebruik hoort."
+    },
+    {
+      "nuance": "'No ta asina?' als bevestigingszoeker",
+      "voorbeeld": "'E ta bon, no ta asina?' (Het is goed, toch?)",
+      "toelichting": "Dit is de Papiamentse versie van de Nederlandse vraagstaart 'nietwaar?' of 'toch?'. De letterlijke vertaling is 'is het niet zo?' maar functioneel is het een uitnodiging tot bevestiging."
+    },
+    {
+      "nuance": "Geen dubbele ontkenning nodig",
+      "voorbeeld": "'Mi no wak nada' — CORRECT | 'Mi no wak nada no' — FOUT",
+      "toelichting": "Papiamentu gebruikt geen dubbele ontkenning. Eén 'no' is voldoende. Negerende woorden als 'nada' (niets) en 'nunka' (nooit) staan in dezelfde zin als 'no' zonder dat 'no' wordt herhaald."
+    },
+    {
+      "nuance": "'No!' als krachtig, zelfstandig antwoord",
+      "voorbeeld": "'Bo ke kome?' — 'No!' (Wil je eten? — Nee!)",
+      "toelichting": "'No' op zichzelf is een volledig en sociaal aanvaard antwoord. Het is niet onbeleefd — de toon bepaalt de beleefdheidsgraad. Zacht 'no' is vriendelijk. Hard 'No!' is resoluut."
+    }
+  ],
+  "woorden": [
+    { "woord": "No", "uitspraak": "no", "vertaling": "Niet / nee / geen" },
+    { "woord": "Nunka", "uitspraak": "noen-ka", "vertaling": "Nooit" },
+    { "woord": "Nada", "uitspraak": "na-da", "vertaling": "Niets" },
+    { "woord": "Ningun", "uitspraak": "nin-goen", "vertaling": "Geen enkele / niemand" },
+    { "woord": "Komprondé", "uitspraak": "kom-pron-de", "vertaling": "Begrijpen" },
+    { "woord": "Mester", "uitspraak": "mes-ter", "vertaling": "Moeten / nodig hebben" },
+    { "woord": "Por", "uitspraak": "por", "vertaling": "Kunnen" },
+    { "woord": "Ke", "uitspraak": "ke", "vertaling": "Willen" },
+    { "woord": "Hasi", "uitspraak": "ha-sie", "vertaling": "Doen / maken" },
+    { "woord": "Esei", "uitspraak": "e-sei", "vertaling": "Dat / dat ding (aanwijzend)" }
+  ],
+  "culturele_context": "Op Curaçao is 'no' een eerlijk en direct woord. In de Curaçaose cultuur wordt duidelijkheid gewaardeerd — zeggen dat je iets niet wil of niet kunt is respectvoller dan vage uitvluchten.\n\nToch is de toon allesbepalend. 'No, danki' (Nee, dank je) is beleefd en volledig. Een bruusk 'No!' zonder enige nuance kan als bot worden ervaren in sociale settings.\n\nEen bijzondere spreektaaluitdrukking is 'Nunka-nunka!' — een verdubbeling die 'absoluut nooit' of 'dit is totaal uitgesloten' betekent. Verdubbeling voor nadruk is een terugkerend patroon in Papiamentu dat ook in andere delen van de taal opduikt.",
+  "scenario_links": ["scenario-001", "scenario-005"],
+  "eindoefening": [
+    { "vraag": "Waar staat 'no' in een Papiamentse zin?", "opties": ["Vóór het werkwoord of 'ta'", "Achter het werkwoord", "Aan het begin van de zin", "Aan het einde van de zin"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik begrijp het niet'?", "opties": ["Mi no ta komprondé", "Mi ta no komprondé", "No mi ta komprondé", "Mi no komprondé ta"], "correct": 0 },
+    { "vraag": "Wat betekent 'nunka'?", "opties": ["Nooit", "Niet", "Niets", "Nergens"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik wil niet gaan'?", "opties": ["Mi no ke bai", "Mi ke no bai", "No mi ke bai", "Mi ke bai no"], "correct": 0 },
+    { "vraag": "Wat is de juiste ontkenning van 'E ta kome'?", "opties": ["E no ta kome", "E ta no kome", "No e ta kome", "E ta kome no"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Jij hoeft niet te betalen'?", "opties": ["Bo no mester paga", "Bo mester no paga", "No bo mester paga", "Bo no paga mester"], "correct": 0 },
+    { "vraag": "Wat is 'nada'?", "opties": ["Niets", "Nooit", "Niet", "Nergens"], "correct": 0 },
+    { "vraag": "Hoe klinkt 'no ta' in snelle spreektaal?", "opties": ["Als 'nota' — versmelten samen", "Als 'nota' — los van elkaar", "Als 'no-ta' met pauze", "Als 'tan'"], "correct": 0 },
+    { "vraag": "Wat betekent 'No ta asina?'", "opties": ["Is het niet zo? / Toch?", "Ga zo niet door", "Het is niet zo", "Waarom is het zo?"], "correct": 0 },
+    { "vraag": "Welke zin gebruikt versterkte ontkenning correct?", "opties": ["Mi nunka ta yega laat", "Mi no ta nunka yega laat", "Mi ta nunka no yega laat", "Nunka mi no yega laat"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Hij/zij kan me niet helpen'?", "opties": ["E no por yuda mi", "E por no yuda mi", "No e por yuda mi", "E por yuda mi no"], "correct": 0 },
+    { "vraag": "Is dubbele ontkenning correct in Papiamentu?", "opties": ["Nee, één 'no' is genoeg", "Ja, voor nadruk", "Soms, bij sterke ontkenning", "Altijd bij 'nunka'"], "correct": 0 },
+    { "vraag": "Wat betekent 'ningun'?", "opties": ["Geen enkele / niemand", "Niets", "Nooit", "Niet meer"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik heb niets gezien'?", "opties": ["Mi no a wak nada", "Mi a wak nada no", "Nada mi no a wak", "Mi no wak a nada"], "correct": 0 },
+    { "vraag": "Wat betekent 'hasi'?", "opties": ["Doen / maken", "Gaan", "Zien", "Zeggen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wij gaan zondag niet'?", "opties": ["Nos no ta bai Djadomingo", "Nos ta no bai Djadomingo", "No nos ta bai Djadomingo", "Nos ta bai no Djadomingo"], "correct": 0 },
+    { "vraag": "Wat betekent 'Nunka-nunka!' in spreektaal?", "opties": ["Absoluut nooit / totaal uitgesloten", "Heel soms", "Niet nu", "Misschien niet"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Nee, dank je' beleefd?", "opties": ["No, danki", "No!", "Mi no ke", "Nada"], "correct": 0 },
+    { "vraag": "Wat is 'esei'?", "opties": ["Dat / dat ding (aanwijzend)", "Dit hier", "Iets", "Alles"], "correct": 0 },
+    { "vraag": "Hoe ontken je een modaal werkwoord als 'mester'?", "opties": ["Zet 'no' vóór mester", "Zet 'no' achter mester", "Zet 'no' aan het einde", "Gebruik 'nunka' in plaats van 'no'"], "correct": 0 }
+  ]
+}

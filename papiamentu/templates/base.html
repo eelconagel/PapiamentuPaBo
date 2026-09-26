@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{% if screen_title %}{{ screen_title }} · {% endif %}Papiamentu Pa Bo{% endblock %}</title>
+  {% set page_description %}{% block description %}Leer Papiamentu stap voor stap: praktische scenario's uit het dagelijks leven op Curaçao, woordjes oefenen en 40 gestructureerde lessen. Gratis, in het Nederlands.{% endblock %}{% endset %}
+  <meta name="description" content="{{ page_description | trim }}">
+  <meta name="theme-color" content="#101820">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Papiamentu Pa Bo">
+  <meta property="og:title" content="{{ self.title() | trim }}">
+  <meta property="og:description" content="{{ page_description | trim }}">
+  <meta property="og:locale" content="nl_NL">
+  <link rel="icon" href="{{ url_for('static', filename='img/favicon.svg') }}" type="image/svg+xml">
+  <script nonce="{{ csp_nonce }}">
+    // Apply theme before first paint to avoid a flash.
+    (function () {
+      var pref = 'dark';
+      try { pref = (JSON.parse(localStorage.getItem('papiamentu:v1')) || {}).theme || 'dark'; } catch (e) {}
+      var dark = pref === 'dark' || (pref === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    })();
+  </script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  {% set um = user_meta() %}
+  {% if um %}<meta name="papiamentu-user" content="{{ um.id }}" data-name="{{ um.name }}" data-csrf="{{ um.csrf }}">{% endif %}
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      {% if is_home %}
+        <a class="pill-btn primary" href="{{ url_for('home') }}">Home</a>
+      {% else %}
+        <a class="pill-btn plain" href="{% block back_url %}{{ url_for('home') }}{% endblock %}" aria-label="Terug">←</a>
+      {% endif %}
+      <div class="topbar-title {% if is_home %}home{% endif %}">{{ 'Papiamentu Pa Bo' if is_home else screen_title }}</div>
+      <a class="topbar-link" href="{{ url_for('contact') }}">Contact</a>
+      <a class="topbar-link" href="{{ url_for('instellingen') }}">Instellingen</a>
+    </div>
+  </header>
+
+  <main class="{% block main_class %}{% endblock %}">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flash-wrap">
+          {% for category, msg in messages %}<div class="flash {{ category }}" role="status">{{ msg }}</div>{% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    Papiamentu Pa Bo · <a href="{{ url_for('privacy') }}">Privacy</a>
+  </footer>
+
+  <script nonce="{{ csp_nonce }}" src="{{ url_for('static', filename='js/store.js') }}"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

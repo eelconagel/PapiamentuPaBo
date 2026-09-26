@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="contact-card">
+  <div class="contact-icon">💬</div>
+  <h1 class="title">Contact</h1>
+  <p class="subtitle">Stuur een vraag, idee of opmerking over Papiamentu Pa Bo.</p>
+
+  <form method="post" action="{{ url_for('contact') }}">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+    <div class="hp" aria-hidden="true">
+      <label>Website <input name="website" tabindex="-1" autocomplete="off"></label>
+    </div>
+
+    <label class="field-label" for="name">Naam <span class="muted small">(optioneel)</span></label>
+    <input class="input" id="name" name="name" maxlength="100" value="{{ form.get('name', '') }}">
+
+    <label class="field-label" for="email">E-mail <span class="muted small">(optioneel, als je antwoord wilt)</span></label>
+    <input class="input" id="email" name="email" type="email" maxlength="200" value="{{ form.get('email', '') }}">
+
+    <label class="field-label" for="subject">Onderwerp</label>
+    <input class="input" id="subject" name="subject" required maxlength="200" placeholder="Bijvoorbeeld: Idee voor scenario" value="{{ form.get('subject', '') }}">
+
+    <label class="field-label" for="message">Inhoud</label>
+    <textarea class="input" id="message" name="message" required maxlength="5000" placeholder="Typ hier je bericht...">{{ form.get('message', '') }}</textarea>
+
+    <button type="submit" class="btn btn-teal block">Verzenden</button>
+  </form>
+  <div class="center"><a class="btn-link" style="display:inline-block;margin-top:8px;font-weight:700;text-decoration:none" href="{{ url_for('home') }}">Annuleren</a></div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script nonce="{{ csp_nonce }}">
+  // Prefill the name from the local profile.
+  const nameInput = document.getElementById('name');
+  const profile = Store.get().profile;
+  if (!nameInput.value && profile) nameInput.value = profile.name;
+</script>
+{% endblock %}

@@ -1,0 +1,104 @@
+{
+  "id": "scenario-004",
+  "title": "Vragen hoe het gaat",
+  "difficulty": "Easy",
+  "category": "Dagelijks contact",
+  "intro": "Op Curaçao is vragen naar iemands welzijn een essentieel onderdeel van elke ontmoeting. Het is vaak meer dan een beleefdheidsvraag; het is een manier om verbinding te maken.",
+  "introWords": [
+    { "papiamentu": "Kon ta bai?", "dutch": "Hoe gaat het?", "pronunciation": "kon ta bay" },
+    { "papiamentu": "Tur kos bon?", "dutch": "Alles goed?", "pronunciation": "toer kos bon" },
+    { "papiamentu": "Kon ta ku bo?", "dutch": "Hoe is het met jou?", "pronunciation": "kon ta koo bo" },
+    { "papiamentu": "Tur kos ta bon", "dutch": "Alles is goed", "pronunciation": "toer kos ta bon" }
+  ],
+  "grammar": {
+    "title": "Variaties op 'Hoe gaat het?'",
+    "explanation": [
+      "De meest standaard vraag is 'Kon ta bai?'.",
+      "Voor een informelere toon bij vrienden kun je vragen 'Kon ta ku bo?' (Hoe is het met jou?).",
+      "Je kunt ook simpelweg vragen 'Tur kos bon?' (Alles goed?).",
+      "Het antwoord is bijna altijd positief: 'Tur kos ta bon' of 'Bon, danki' (Goed, dank je)."
+    ],
+    "exercises": [
+      {
+        "question": "Wat is de meest gebruikelijke vraag voor 'Hoe gaat het?'",
+        "options": ["Kon ta bai?", "Bon dia", "Ayo", "Danki"],
+        "correct": 0,
+        "explanation": "'Kon ta bai?' is de standaard begroeting na een 'Bon dia/tardi/nochi'."
+      },
+      {
+        "question": "Iemand vraagt 'Kon ta ku bo?'. Wat is een goed antwoord?",
+        "options": ["Bon, danki", "Pasa denter", "Te mañan", "Bonbiní"],
+        "correct": 0,
+        "explanation": "'Bon, danki' betekent 'Goed, dank je'."
+      },
+      {
+        "question": "Hoe vraag je of alles in orde is?",
+        "options": ["Tur kos bon?", "Mi nòmber ta", "Di unda bo ta?", "Pasa bon dia"],
+        "correct": 0,
+        "explanation": "'Tur kos bon?' is een korte, vriendelijke manier om naar iemands welzijn te vragen."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Kon ta bai?", "dutch": "Hoe gaat het?", "pronunciation": "kon ta bay", "example": "Bon dia! Kon ta bai?" },
+    { "papiamentu": "Kon ta ku bo?", "dutch": "Hoe is het met jou?", "pronunciation": "kon ta koo bo", "example": "Hola, kon ta ku bo?" },
+    { "papiamentu": "Tur kos bon?", "dutch": "Alles goed?", "pronunciation": "toer kos bon", "example": "Hey, tur kos bon?" },
+    { "papiamentu": "Tur kos ta bon", "dutch": "Alles is goed", "pronunciation": "toer kos ta bon", "example": "Tur kos ta bon, danki." },
+    { "papiamentu": "Bon, danki", "dutch": "Goed, dank je", "pronunciation": "bon, dan-ki", "example": "Kon ta bai? Bon, danki!" },
+    { "papiamentu": "Bo ta bon?", "dutch": "Ben je in orde?", "pronunciation": "bo ta bon", "example": "Bo ta bon? Bo ta parse kansá." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Te serieus antwoorden",
+      "detail": "Vraag je 'Kon ta bai?', dan wordt vaak een kort, positief antwoord verwacht. Het is niet de plek om direct diepgaande persoonlijke problemen te bespreken, tenzij je echt goede vrienden bent.",
+      "remember": "Houd het eerst licht en positief."
+    },
+    {
+      "trap": "Alleen 'Kon ta bai' gebruiken",
+      "detail": "Varieer eens. 'Tur kos bon?' is zeer gebruikelijk en klinkt vaak wat natuurlijker in een informele setting.",
+      "remember": "Varieer in je vragen."
+    }
+  ],
+  "culture": {
+    "title": "Het belang van de 'check-in'",
+    "intro": "Op Curaçao is een gesprek zelden compleet zonder de 'check-in'. Het overslaan hiervan wordt als ongeduldig of onvriendelijk gezien.",
+    "facts": [
+      "Het is sociaal verplicht om te reageren op de vraag naar je welzijn, zelfs als je haast hebt.",
+      "Oogcontact terwijl je de vraag stelt, wordt zeer gewaardeerd; het laat zien dat je oprecht geïnteresseerd bent.",
+      "In een zakelijke context is het nog steeds gebruikelijk om altijd met de 'check-in' te beginnen voordat de agenda wordt besproken."
+    ],
+    "didYouKnow": "Wist je dat men bij het vragen van 'Kon ta bai' vaak al antwoordt met 'Bon, danki' voordat de ander überhaupt heeft uitgepraat?"
+  },
+  "quiz": [
+    {
+      "question": "Welke zin gebruik je om te vragen hoe het met iemand gaat?",
+      "options": ["Kon ta bai?", "Muchu gustu", "Pasa denter", "Te mañan"],
+      "correct": 0,
+      "explanation": "'Kon ta bai?' is de standaardvraag."
+    },
+    {
+      "question": "Wat is een logisch antwoord op 'Tur kos bon?'",
+      "options": ["Tur kos ta bon, danki", "Mi nòmber ta...", "Bonbiní", "Ayo"],
+      "correct": 0,
+      "explanation": "Dit is de standaard bevestigende respons."
+    },
+    {
+      "question": "Hoe vraag je specifiek aan een vriend hoe het met hem/haar is?",
+      "options": ["Kon ta ku bo?", "Kon ta bai?", "Di unda bo ta?", "Pasa bon dia"],
+      "correct": 0,
+      "explanation": "'Kon ta ku bo?' is persoonlijker."
+    },
+    {
+      "question": "Is het beleefd om de 'check-in' over te slaan?",
+      "options": ["Nee, dat is onbeleefd", "Ja, dat is efficiënt", "Alleen in de winkel", "Alleen bij vreemden"],
+      "correct": 0,
+      "explanation": "De sociale 'check-in' is cruciaal in de cultuur."
+    },
+    {
+      "question": "Wat betekent 'Bo ta bon?'",
+      "options": ["Ben je in orde?", "Hoe gaat het?", "Woon je hier?", "Kom je uit hier?"],
+      "correct": 0,
+      "explanation": "'Bo ta bon?' wordt vaak gebruikt als je merkt dat iemand zich misschien niet zo lekker voelt."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 23,
+  "blok": 3,
+  "titel": "Modaliteit: Mester, Por en Kier",
+  "grammatica": {
+    "uitleg": "Modale werkwoorden drukken noodzaak, mogelijkheid en wil uit. In Papiamentu staan ze direct voor het hoofdwerkwoord en veranderen niet van vorm.\n\nDE DRIE KERNMODALE WERKWOORDEN:\n\n1. MESTER (moeten / nodig hebben)\n   [Subject] + mester + [werkwoord]\n   • Mi mester bai. (Ik moet gaan.)\n   • E mester kome awe. (Hij/zij moet vandaag eten.)\n   • Nos mester papia. (Wij moeten praten.)\n\n2. POR (kunnen / mogen)\n   [Subject] + por + [werkwoord]\n   • Bo por bai. (Jij kunt/mag gaan.)\n   • E no por kome esei. (Hij/zij kan dat niet eten.)\n   • Por mi bishitá bo mayan? (Mag ik jou morgen bezoeken?)\n\n3. KIER (willen)\n   [Subject] + kier + [werkwoord]\n   • Mi kier kome. (Ik wil eten.)\n   • E no kier papia ku mi. (Hij/zij wil niet met mij praten.)\n\nCOMBINATIE MET TIJDMARKERS:\n• Mi lo mester bai mayan. (Ik zal morgen moeten gaan.)\n• E lo por bini den un ratu. (Hij/zij zal zo meteen kunnen komen.)\n• Nos a mester sali rapido. (Wij moesten snel vertrekken.)\n\nNEGATIE:\n• No + modal + werkwoord\n• 'No mester' = hoeft niet (maar kan ook 'moet niet' zijn — zie nuances)\n• 'No por' = kan niet / mag niet",
+    "voorbeelden": [
+      { "papiamentu": "Mi mester bai na doktor — mi ta sinti malo.", "vertaling": "Ik moet naar de dokter — ik voel me ziek." },
+      { "papiamentu": "Bo por papia Papiamentu? — Un pokito, mi ta siña.", "vertaling": "Kun/mag je Papiamentu spreken? — Een beetje, ik leer het." },
+      { "papiamentu": "E no kier kome e kuminda — ta malo pa su gusta.", "vertaling": "Hij/zij wil het eten niet eten — het past niet bij zijn/haar smaak." },
+      { "papiamentu": "Nos mester a sali promé di e fiesta a kuminsá.", "vertaling": "Wij moesten vertrekken voordat het feest begon." },
+      { "papiamentu": "Por fabor, por bo yuda mi ku esei?", "vertaling": "Alsjeblieft, kun jij me daarmee helpen?" }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'No mester' — hoeft niet of moet niet?",
+      "voorbeeld": "'Bo no mester bai' kan 'je hoeft niet te gaan' (optioneel) EN 'je moet niet gaan' (verboden) betekenen",
+      "toelichting": "Dit is de grootste valkuil bij 'mester'. In het Nederlands is het verschil duidelijk ('hoeft niet' vs. 'moet niet'). In Papiamentu hangt het af van de toon en context. Twijfel je? Verduidelijk met: 'Esei ta opcional' (dat is optioneel) of 'Esei ta prohibí' (dat is verboden)."
+    },
+    {
+      "nuance": "'Por' voor beleefd vragen — de Papiamentse vorm van 'mogen'",
+      "voorbeeld": "'Por mi bishitá bo?' (Mag ik je bezoeken?) — beleefd en direct",
+      "toelichting": "'Por' als vraagvorm voor permissie is de elegante manier om beleefd te vragen in Papiamentu. 'Por mi papia ku bo?' (Mag ik met je praten?) klinkt respectvol. Dit is een veelgebruikte beleefdheidsvorm."
+    },
+    {
+      "nuance": "'Kier' en verlangen — meer dan alleen 'willen'",
+      "voorbeeld": "'Mi kier bo' = Ik wil jou / Ik hou van jou — 'kier' heeft ook een affectieve lading",
+      "toelichting": "'Kier' is niet alleen instrumenteel ('ik wil iets'). 'Mi kier bo' is ook een uitdrukking van genegenheid. Dit maakt het een emotioneel beladen werkwoord. In een ander register kan 'Mi ta stima bo' (ik hou van jou) stabieler zijn."
+    },
+    {
+      "nuance": "Modalen stapelen zich — mester + por is mogelijk",
+      "voorbeeld": "'Mi mester por hasi esei' — letterlijk 'ik moet kunnen doen dat' = ik moet in staat zijn dat te doen",
+      "toelichting": "Hoewel ongewoon, is het mogelijk om modalen te combineren voor nuancering. Dit is eerder formeel dan dagelijks. In spreektaal vermijdt men dit door de zin te herformuleren: 'Mi mester sinja pa por hasi esei'."
+    }
+  ],
+  "woorden": [
+    { "woord": "Mester", "uitspraak": "mes-ter", "vertaling": "Moeten / nodig hebben" },
+    { "woord": "Por", "uitspraak": "por", "vertaling": "Kunnen / mogen" },
+    { "woord": "Kier", "uitspraak": "kier", "vertaling": "Willen / begeren / houden van" },
+    { "woord": "Siña", "uitspraak": "sin-ja", "vertaling": "Leren / studeren / aanleren" },
+    { "woord": "Sinti", "uitspraak": "sin-tie", "vertaling": "Voelen / horen / gewaarworden" },
+    { "woord": "Rapido", "uitspraak": "ra-pie-do", "vertaling": "Snel / vlug" },
+    { "woord": "Gusta", "uitspraak": "gos-ta", "vertaling": "Smaak / bevallen / lekker vinden" },
+    { "woord": "Opcional", "uitspraak": "op-sjo-nal", "vertaling": "Optioneel / naar keuze" },
+    { "woord": "Prohibí", "uitspraak": "pro-bie-hie", "vertaling": "Verboden / verboden zijn" },
+    { "woord": "Stima", "uitspraak": "stie-ma", "vertaling": "Houden van / liefhebben" }
+  ],
+  "culturele_context": "Modaliteit op Curaçao is sociaal geladen. 'Mi mester bai' (ik moet gaan) wordt zelden kil gezegd — er volgt bijna altijd een reden: 'Mi mester bai pasobra mi mama ta warda mi' (Ik moet gaan want mijn moeder wacht op me). Verklaringen zijn een sociaal gebaar.\n\n'Por bo yuda mi?' (Kun je me helpen?) is de dagelijkse smeerolie van het eilandleven. Wederzijdse hulp ('solidaridad') is een Curaçaose kernwaarde. Hulp vragen is geen zwakte — het is vertrouwen tonen.\n\n'Mi kier bo' is een diepe uitdrukking. Curaçaoënaars zijn direct in het tonen van genegenheid — 'mi dushi', 'mi amor' worden vriendelijk gebruikt, maar 'mi kier bo' is de serieuze aankondiging van gevoel. De modale werkwoorden bevatten het Curaçaose emotiespectrum.",
+  "scenario_links": ["scenario-010", "scenario-011"],
+  "eindoefening": [
+    { "vraag": "Wat betekent 'mester'?", "opties": ["Moeten / nodig hebben", "Kunnen", "Willen", "Mogen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik moet gaan'?", "opties": ["Mi mester bai", "Mi por bai", "Mi kier bai", "Mi ta mester bai"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Kun/mag jij Papiamentu spreken?'", "opties": ["Bo por papia Papiamentu?", "Bo mester papia Papiamentu?", "Bo kier papia Papiamentu?", "Bo ta por papia Papiamentu?"], "correct": 0 },
+    { "vraag": "Wat is de valkuil bij 'no mester'?", "opties": ["Het kan zowel 'hoeft niet' als 'moet niet' (verbod) betekenen", "Het betekent altijd 'verbod'", "Het bestaat niet in Papiamentu", "Het is altijd optioneel"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik wil eten'?", "opties": ["Mi kier kome", "Mi mester kome", "Mi por kome", "Mi ta kier kome"], "correct": 0 },
+    { "vraag": "Hoe vraag je beleefd om permissie?", "opties": ["Por mi [werkwoord]? — 'Por mi bishitá bo?'", "Mester mi [werkwoord]?", "Kier mi [werkwoord]?", "Ta mi por [werkwoord]?"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Hij/zij kan dat niet eten'?", "opties": ["E no por kome esei", "E no mester kome esei", "E no kier kome esei", "No e por kome esei"], "correct": 0 },
+    { "vraag": "Hoe combineer je een modaal met de toekomstige tijd?", "opties": ["Subject + lo + modaal + werkwoord: 'Mi lo mester bai'", "Subject + modaal + lo + werkwoord: 'Mi mester lo bai'", "Lo + modaal + subject: 'Lo mester mi bai'", "Modalen combineren niet met 'lo'"], "correct": 0 },
+    { "vraag": "Wat is 'siña'?", "opties": ["Leren / studeren", "Weten", "Begrijpen", "Oefenen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'We moesten snel vertrekken'?", "opties": ["Nos a mester sali rapido", "Nos mester a sali rapido", "Nos ta mester sali rapido", "Nos a sali mester rapido"], "correct": 0 },
+    { "vraag": "Wat is 'sinti'?", "opties": ["Voelen / horen", "Denken", "Zien", "Ruiken"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik leer (Papiamentu)'?", "opties": ["Mi ta siña", "Mi ta sinja", "Mi mester siña", "Mi a siña"], "correct": 0 },
+    { "vraag": "Veranderen modale werkwoorden van vorm?", "opties": ["Nee — altijd dezelfde vorm voor alle personen", "Ja — 'mester' wordt 'mestera' voor vrouwen", "Ja — 'por' wordt 'poran' voor meervoud", "Ja — aparte vormen per tijdsvorm"], "correct": 0 },
+    { "vraag": "Wat betekent 'Mi kier bo'?", "opties": ["Ik wil jou / Ik hou van jou", "Ik heb jou nodig", "Ik zie jou", "Ik ken jou"], "correct": 0 },
+    { "vraag": "Wat is 'gusta'?", "opties": ["Smaak / bevallen / lekker vinden", "Genieten", "Eten", "Proeven"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Alsjeblieft, kun jij me helpen?'", "opties": ["Por fabor, por bo yuda mi?", "Por fabor, mester bo yuda mi?", "Por fabor, kier bo yuda mi?", "Bo por mi yuda, por fabor?"], "correct": 0 },
+    { "vraag": "Wat is 'stima'?", "opties": ["Houden van / liefhebben", "Respecteren", "Bewonderen", "Kennen"], "correct": 0 },
+    { "vraag": "Hoe maak je 'kier' negatief?", "opties": ["No + kier: 'E no kier bai'", "Kier + no: 'E kier no bai'", "Ménos + kier: 'E ménos kier bai'", "No + ta + kier: 'E no ta kier bai'"], "correct": 0 },
+    { "vraag": "Waarom volgt er bijna altijd een reden na 'mi mester bai' op Curaçao?", "opties": ["Verklaringen zijn een sociaal gebaar — een teken van respect voor de aanwezigen", "De grammatica vereist het", "Het is formeel verplicht", "Anders klinkt het bot"], "correct": 0 },
+    { "vraag": "Wat is 'prohibí'?", "opties": ["Verboden", "Optioneel", "Verplicht", "Aanbevolen"], "correct": 0 }
+  ]
+}

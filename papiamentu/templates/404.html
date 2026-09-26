@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Niet gevonden · Papiamentu Pa Bo{% endblock %}
+{% block content %}
+<div class="result">
+  <div class="score fail">404</div>
+  <p class="body-text">Deze pagina bestaat niet (of is nog niet beschikbaar).</p>
+  <a class="btn btn-primary" href="{{ url_for('home') }}">Terug naar home</a>
+</div>
+{% endblock %}

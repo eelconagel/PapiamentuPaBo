@@ -1,0 +1,310 @@
+{
+  "id": 1,
+  "blok": 1,
+  "titel": "Herkomst, Alfabet en Klank-nuances",
+  "grammatica": {
+    "uitleg": "Papiamentu is geen mengsel van talen — het is een volwaardige creoletaal met een eigen logica, ritme en klanksysteem. Begrijpen waar de taal vandaan komt, helpt je om patronen te herkennen en sneller te leren.\n\nDe kern van Papiamentu is Iberisch (Portugees/Spaans). Veel werkwoorden, zelfstandige naamwoorden en uitdrukkingen komen rechtstreeks uit het Portugees of Spaans. Daarboven lagen eeuwenlang invloeden van het Nederlands, Afrikaanse talen, Engels en Arowaks.\n\nHet alfabet gebruikt Latijnse letters met een handvol speciale tekens:\n• Accenten geven uitspraak aan, niet klemtoon: 'è' (open e), 'ò' (open o), 'ó' (gesloten o)\n• 'dj' is één klank — als de 'dz' in 'djinn'\n• 'sh' klinkt als de 'sj' in 'sjaal'\n• 'ch' klinkt als Spaans 'ch' (zachter dan Nederlands)\n• Klinkers zijn altijd zuiver — nooit een stomme 'e'\n\nKlemtoon valt in Papiamentu bijna altijd op de voorlaatste lettergreep, tenzij een accent anders aangeeft.",
+    "voorbeelden": [
+      {
+        "papiamentu": "Papiamentu",
+        "vertaling": "Letterlijk: 'de taal van het praten' — van 'papia' (praten) + '-mentu' (Portugees achtervoegsel)"
+      },
+      {
+        "papiamentu": "Kòrsou",
+        "vertaling": "Curaçao — de 'ò' is een open o, uitgesproken zoals in 'pot'"
+      },
+      {
+        "papiamentu": "Djaluna",
+        "vertaling": "Maandag — de 'dj' is één klank aan het begin, niet twee aparte letters"
+      },
+      {
+        "papiamentu": "Danki",
+        "vertaling": "Dank je — een woord dat de Nederlandse invloed laat zien ('dank')"
+      },
+      {
+        "papiamentu": "Bèrdè",
+        "vertaling": "Groen — herkenbaar van Spaans/Portugees 'verde'; de 'è' is een open e als in 'bed'"
+      }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "Klinkers versmelten in spreektaal",
+      "voorbeeld": "'ta' + 'e' → 'te' | 'bo ta' → 'bota' (in snel spraak)",
+      "toelichting": "In normaal tempo klinken aangrenzende klinkers samen. Dit is geen fout — het is hoe de taal leeft. Luister actief naar native speakers en probeer dit ritme op te pikken, niet te vermijden."
+    },
+    {
+      "nuance": "'Na' valt weg in locatie-uitspraken",
+      "voorbeeld": "Formeel: 'Mi ta biba na Kòrsou' → Spreektaal: 'Mi ta biba Kòrsou'",
+      "toelichting": "Het voorzetstel 'na' (op/in) wordt in gesproken taal vaak weggelaten bij bekende plaatsnamen. In geschreven of formele context gebruik je het altijd."
+    },
+    {
+      "nuance": "De 'dj' klinkt anders dan je denkt",
+      "voorbeeld": "'Djaluna' — spreek de 'dj' uit als één geluid, niet als 'd' + 'j'",
+      "toelichting": "Nederlandstaligen neigen ertoe 'dj' te splitsen. In Papiamentu is het één zachte, samengestelde klank — vergelijkbaar met de Engelse 'j' in 'juice', maar zachter."
+    },
+    {
+      "nuance": "Papiamentu vs. Papiamento",
+      "voorbeeld": "Kòrsou schrijft: 'Papiamentu' | Aruba schrijft: 'Papiamento'",
+      "toelichting": "Dezelfde taal, twee spellingsconventies. Op Curaçao en Bonaire gebruik je 'Papiamentu' (u aan het einde). Op Aruba 'Papiamento' (o aan het einde). De uitspraak verschilt ook subtiel. In deze app leer je de Curaçaose variant."
+    }
+  ],
+  "woorden": [
+    {
+      "woord": "Papia",
+      "uitspraak": "pa-pia",
+      "vertaling": "Praten / spreken"
+    },
+    {
+      "woord": "Lesa",
+      "uitspraak": "le-sa",
+      "vertaling": "Lezen"
+    },
+    {
+      "woord": "Skribi",
+      "uitspraak": "skrie-bie",
+      "vertaling": "Schrijven"
+    },
+    {
+      "woord": "Skucha",
+      "uitspraak": "sku-cha",
+      "vertaling": "Luisteren"
+    },
+    {
+      "woord": "Taal",
+      "uitspraak": "taal",
+      "vertaling": "Taal"
+    },
+    {
+      "woord": "Letra",
+      "uitspraak": "le-tra",
+      "vertaling": "Letter / karakter"
+    },
+    {
+      "woord": "Palabra",
+      "uitspraak": "pa-la-bra",
+      "vertaling": "Woord"
+    },
+    {
+      "woord": "Pronunciashon",
+      "uitspraak": "pro-nun-sia-shon",
+      "vertaling": "Uitspraak"
+    },
+    {
+      "woord": "Kreol",
+      "uitspraak": "kre-ol",
+      "vertaling": "Creools (taaltype)"
+    },
+    {
+      "woord": "Idioma",
+      "uitspraak": "ie-dio-ma",
+      "vertaling": "Taal / idioom (formeel)"
+    }
+  ],
+  "culturele_context": "Papiamentu is meer dan een communicatiemiddel — het is de ziel van Curaçao. De taal overleefde kolonisatie, slavernij en bestuurlijke veranderingen, en bleef het voertuig van identiteit, humor, muziek en dagelijks leven.\n\nIn 2007 werd Papiamentu officieel erkend als bestuurstaal van de Nederlandse Antillen, naast het Nederlands. Op Curaçao staat het nu op gelijke voet met het Nederlands in onderwijs, rechtspraak en media.\n\nDe taal is jong én oud tegelijk: de kern is meer dan 300 jaar oud, maar het groeit nog steeds — nieuwe woorden worden gecreëerd, leenwoorden worden aangepast aan de Papiamentse klankleer. Wie Papiamentu spreekt, spreekt mee in een levende traditie.\n\nWist je dat Papiamentu een van de weinige creoletalen ter wereld is met een volledig gestandaardiseerde spelling en officiële grammatica?",
+  "scenario_links": [
+    "scenario-001"
+  ],
+  "eindoefening": [
+    {
+      "vraag": "Welke taalfamilie is de kern van Papiamentu?",
+      "opties": [
+        "Iberisch (Portugees/Spaans)",
+        "Germaans (Nederlands/Engels)",
+        "Afrikaanse talen",
+        "Arowaks"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat betekent 'papia' in Papiamentu?",
+      "opties": [
+        "Praten/spreken",
+        "Schrijven",
+        "Lezen",
+        "Verstaan"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Hoe klinkt de 'è' in 'bèrdè'?",
+      "opties": [
+        "Open e, als in 'bed'",
+        "Gesloten e, als in 'see'",
+        "Stomme e, als in 'de'",
+        "Als 'ee' in 'been'"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat is 'dj' in Papiamentu?",
+      "opties": [
+        "Één samengestelde klank",
+        "Twee aparte letters: d + j",
+        "Stil, niet uitgesproken",
+        "Klinkt als 'tj'"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Hoe verschilt 'Papiamentu' van 'Papiamento'?",
+      "opties": [
+        "Papiamentu is de Curaçaose spelling, Papiamento de Arubaanse",
+        "Het zijn twee verschillende talen",
+        "Papiamentu is formeel, Papiamento informeel",
+        "Alleen de uitspraak verschilt"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wanneer werd Papiamentu officieel erkend als bestuurstaal?",
+      "opties": [
+        "2007",
+        "1999",
+        "1986",
+        "2010"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat betekent 'skribi'?",
+      "opties": [
+        "Schrijven",
+        "Spreken",
+        "Lezen",
+        "Luisteren"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Hoe spreek je klinkers uit in Papiamentu?",
+      "opties": [
+        "Altijd zuiver — nooit een stomme e",
+        "Net als in het Nederlands",
+        "De e aan het einde is stom",
+        "Afhankelijk van de context"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Waar valt de klemtoon in Papiamentse woorden?",
+      "opties": [
+        "Op de voorlaatste lettergreep (tenzij accent anders aangeeft)",
+        "Altijd op de eerste lettergreep",
+        "Altijd op de laatste lettergreep",
+        "Geen vaste regel"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat betekent 'skucha'?",
+      "opties": [
+        "Luisteren",
+        "Spreken",
+        "Schrijven",
+        "Lezen"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Welk voorzetstel valt in spreektaal vaak weg bij plaatsnamen?",
+      "opties": [
+        "Na",
+        "Di",
+        "Pa",
+        "Ku"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Hoe klinkt 'sh' in Papiamentu?",
+      "opties": [
+        "Als 'sj' in 'sjaal'",
+        "Als 'sch' in 'schip'",
+        "Als 's' in 'sap'",
+        "Als 'ch' in 'chaos'"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat is een 'kreol' taal?",
+      "opties": [
+        "Een taal ontstaan uit contact tussen meerdere taalgroepen",
+        "Een dialect van het Spaans",
+        "Een kunsttaal",
+        "Een uitgestorven taal"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat betekent 'palabra'?",
+      "opties": [
+        "Woord",
+        "Letter",
+        "Zin",
+        "Taal"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Op welke eilanden spreekt men 'Papiamentu' (met u)?",
+      "opties": [
+        "Curaçao en Bonaire",
+        "Aruba en Curaçao",
+        "Alleen Curaçao",
+        "Alle ABC-eilanden"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Welke invloed is terug te zien in het woord 'danki'?",
+      "opties": [
+        "Nederlands ('dank')",
+        "Portugees",
+        "Afrikaans",
+        "Engels"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat betekent 'idioma'?",
+      "opties": [
+        "Taal/idioom (formeel)",
+        "Dialect",
+        "Accent",
+        "Woord"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Hoe klinkt 'Kòrsou' correct uitgesproken?",
+      "opties": [
+        "Kor-sow (open o als in 'pot')",
+        "Kor-soo (lange oo)",
+        "Kor-sjou",
+        "Koor-sou"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat maakt Papiamentu bijzonder vergeleken met andere creoletalen?",
+      "opties": [
+        "Het heeft een volledig gestandaardiseerde spelling en officiële grammatica",
+        "Het wordt alleen mondeling doorgegeven",
+        "Het heeft geen vaste spelling",
+        "Het is de oudste creoletaal ter wereld"
+      ],
+      "correct": 0
+    },
+    {
+      "vraag": "Wat betekent 'lesa'?",
+      "opties": [
+        "Lezen",
+        "Schrijven",
+        "Luisteren",
+        "Spreken"
+      ],
+      "correct": 0
+    }
+  ]
+}

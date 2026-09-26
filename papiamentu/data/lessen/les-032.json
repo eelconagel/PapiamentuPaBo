@@ -1,0 +1,73 @@
+{
+  "id": 32,
+  "blok": 4,
+  "titel": "Passieve Constructies: Wòrdu en Actief-Passief Keuze",
+  "grammatica": {
+    "uitleg": "In Papiamentu is de passieve vorm minder dominant dan in het Nederlands, maar bestaat en heeft een eigen gebruik. Het centrale werkwoord is 'wòrdu' (worden).\n\nDE PASSIEVE STRUCTUUR:\n[Object/Ontvanger] + [tijdsmarker] + wòrdu + [werkwoord]\n\nVERLEDEN PASSIEF: a wòrdu + werkwoord\n• E kas a wòrdu kumpra. (Het huis werd gekocht.)\n• E problema a wòrdu resolve. (Het probleem werd opgelost.)\n\nTEGENWOORDIG PASSIEF: ta wòrdu + werkwoord\n• E buki ta wòrdu lesa pa hopi hende. (Het boek wordt door veel mensen gelezen.)\n• E porta ta wòrdu habri. (De deur wordt geopend.)\n\nTOEKOMSTIG PASSIEF: lo wòrdu + werkwoord\n• E kasa lo wòrdu sali mayan. (Het huis wordt morgen gesloopt.)\n\nMET AGENT — pa + subject:\n• E kas a wòrdu kumpra pa e riku. (Het huis werd gekocht door de rijke.)\n• E buki a wòrdu skribi pa un hende famoso. (Het boek werd geschreven door een beroemd persoon.)\n\nALTERNATIEF VOOR PASSIEF — actieve constructie met 'nan' (zij):\n• 'Nan a kumpra e kas' (Ze kochten het huis) = impliciete agent\nDit is informeler en vaker gebruikt dan de echte passieve vorm.",
+    "voorbeelden": [
+      { "papiamentu": "E lei nobo a wòrdu firma pa e gobernador.", "vertaling": "De nieuwe wet werd ondertekend door de gouverneur." },
+      { "papiamentu": "E kuminda ta wòrdu prepará ku hopi amor.", "vertaling": "Het eten wordt bereid met veel liefde." },
+      { "papiamentu": "E kasnan bieu lo wòrdu bòt pa kasnan nobo.", "vertaling": "De oude huizen worden vervangen door nieuwe huizen." },
+      { "papiamentu": "E musika di Kòrsou ta wòrdu konosé rond di mundo.", "vertaling": "De muziek van Curaçao wordt over de hele wereld gekend." },
+      { "papiamentu": "Tur e problema a wòrdu resolve — nos por sigui.", "vertaling": "Alle problemen zijn opgelost — we kunnen doorgaan." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "Passief is zeldzamer in Papiamentu — actief heeft voorkeur",
+      "voorbeeld": "PASSIEF: 'E buki a wòrdu skribi' vs. ACTIEF: 'Nan a skribi e buki' — de actieve vorm is gangbaarder",
+      "toelichting": "Waar het Nederlands en zeker het ambtelijk schrijven gericht zijn op de passieve vorm, prefereert Papiamentu de actieve constructie met een algemeen subject ('nan' = ze). Dit maakt de taal levendiger en directer. Gebruik passief als je echt de actie wilt centreren, niet de actor."
+    },
+    {
+      "nuance": "'Wòrdu' uitgesproken: [wordu] — geen 'worden'-klank",
+      "voorbeeld": "Uitgesproken als 'WOR-doe' — de 'ò' is een open klinker, de 'd' is duidelijk",
+      "toelichting": "De uitspraak van 'wòrdu' is een veelgemaakte fout voor Nederlandstaligen. Het is niet 'worden' met een accent — het is een eigen Papiamentse klank. De 'ò' is open en laag, als de 'o' in het Nederlandse 'bot'. Oefen het bewust."
+    },
+    {
+      "nuance": "Emotioneel passief — 'wòrdu' voor onbedoeld of ongewild",
+      "voorbeeld": "'Mi a wòrdu haña' (ik werd betrapt/gevonden — ongewild) vs. 'nan a haña mi' (zij vonden mij — actief)",
+      "toelichting": "De passieve vorm krijgt soms een emotioneel of onvrijwillig karakter. 'A wòrdu haña' impliceert dat het jou overkwam — je werd gevonden, niet dat je jezelf liet vinden. Dit subtiele nuanceverschil is de reden waarom passief soms toch de juiste keuze is."
+    },
+    {
+      "nuance": "Formeel register kiest passief vaker — bestuurlijk taalgebruik",
+      "voorbeeld": "'E lei lo wòrdu publika na e Officiél Korant' — formele aankondiging",
+      "toelichting": "In officiële documenten, aankondigingen en formeel bestuurlijk taalgebruik is de passieve vorm gangbaarder. Als je formele Papiamentse teksten leest of schrijft (overheidsmededelingen, krantenberichten), kom je de passieve constructie vaker tegen dan in gesprekstaal."
+    }
+  ],
+  "woorden": [
+    { "woord": "Wòrdu", "uitspraak": "wor-doe", "vertaling": "Worden (hulpwerkwoord voor passief)" },
+    { "woord": "Firma", "uitspraak": "fier-ma", "vertaling": "Ondertekenen / ondertekend" },
+    { "woord": "Lei", "uitspraak": "lei", "vertaling": "Wet" },
+    { "woord": "Gobernador", "uitspraak": "go-ber-na-dor", "vertaling": "Gouverneur" },
+    { "woord": "Bòt", "uitspraak": "bot", "vertaling": "Vervangen / afgebroken worden" },
+    { "woord": "Sigui", "uitspraak": "sie-gwie", "vertaling": "Doorgaan / vervolgen / volgen" },
+    { "woord": "Mundo", "uitspraak": "moen-do", "vertaling": "Wereld" },
+    { "woord": "Famoso", "uitspraak": "fa-mo-so", "vertaling": "Beroemd / bekend" },
+    { "woord": "Publika", "uitspraak": "poe-blie-ka", "vertaling": "Publiceren / openbaar maken" },
+    { "woord": "Amor", "uitspraak": "a-mor", "vertaling": "Liefde" }
+  ],
+  "culturele_context": "De passieve constructie in bestuurlijk Papiamentu weerspiegelt de politieke realiteit van Curaçao als autonoom land binnen het Koninkrijk. 'A wòrdu desidí' (er werd besloten) is de taal van de overheid, van formele mededelingen op het eiland.\n\nMuziek en cultuur worden trots in de passieve maar ook actieve vorm gevierd: 'E musika di Kòrsou ta wòrdu konosé rond di mundo' — de muziek van Curaçao, van tambu tot soca, van folk tot jazz, bereikt de wereld. Deze zin is een cultuurverklaring.\n\nLiefde ('amor') en zorg komen in Papiamentse passieve zinnen terug: 'ta wòrdu hasi ku amor' (wordt gedaan met liefde). Alles wat bereid, gebouwd of gecreëerd wordt met liefde, verdient de passieve vorm — het is een eerbetoon aan het proces.",
+  "scenario_links": ["scenario-013", "scenario-014"],
+  "eindoefening": [
+    { "vraag": "Welk werkwoord gebruik je voor de passieve vorm?", "opties": ["Wòrdu", "Ta", "A", "Lo"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het huis werd gekocht'?", "opties": ["E kas a wòrdu kumpra", "E kas wòrdu kumpra", "E kas ta wòrdu kumpra", "A wòrdu kumpra e kas"], "correct": 0 },
+    { "vraag": "Hoe voeg je de actor/agent toe aan een passieve zin?", "opties": ["Pa + agent: 'e kas a wòrdu kumpra pa e riku'", "Di + agent", "Ku + agent", "Agent + wòrdu"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het eten wordt bereid'?", "opties": ["E kuminda ta wòrdu prepará", "E kuminda a wòrdu prepará", "E kuminda wòrdu prepará", "Ta wòrdu prepará e kuminda"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het wordt morgen gedaan'?", "opties": ["E lo wòrdu hasi mayan", "E ta wòrdu hasi mayan", "E a wòrdu hasi mayan", "Lo wòrdu hasi mayan e"], "correct": 0 },
+    { "vraag": "Waarom prefereert Papiamentu de actieve constructie over passief?", "opties": ["De taal is directer en levendiger met actieve vorm", "Passief bestaat niet in Papiamentu", "Passief is te lang", "Actief is formeler"], "correct": 0 },
+    { "vraag": "Hoe zeg je actief in plaats van 'Het huis werd gekocht' (zonder specifieke actor)?", "opties": ["Nan a kumpra e kas (Ze kochten het huis)", "E kas ta kumpra", "A kumpra e kas", "E kas wòrdu kumpra nan"], "correct": 0 },
+    { "vraag": "Hoe spreek je 'wòrdu' uit?", "opties": ["WOR-doe (open ò, duidelijke d)", "WOR-den", "WOR-do", "WOR-du"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De wet werd ondertekend door de gouverneur'?", "opties": ["E lei a wòrdu firma pa e gobernador", "E lei ta wòrdu firma pa e gobernador", "E gobernador a firma e lei", "A wòrdu firma e lei pa gobernador"], "correct": 0 },
+    { "vraag": "Wat is 'wòrdu' in het tijdssysteem?", "opties": ["Het komt na de tijdsmarker (a/ta/lo): 'a wòrdu', 'ta wòrdu', 'lo wòrdu'", "Het vervangt de tijdsmarker", "Het staat altijd aan het begin", "Het staat na het werkwoord"], "correct": 0 },
+    { "vraag": "Wat is 'sigui'?", "opties": ["Doorgaan / vervolgen", "Stoppen", "Beginnen", "Wachten"], "correct": 0 },
+    { "vraag": "Wat is 'firma'?", "opties": ["Ondertekenen", "Tekenen (kunst)", "Schrijven", "Stempelen"], "correct": 0 },
+    { "vraag": "Wanneer kies je de passieve vorm boven actief?", "opties": ["Als de actie centraal staat, niet de actor; bij formeel register; bij onvrijwillige situaties", "Altijd in schrijftaal", "Nooit in spreektaal", "Alleen bij historische feiten"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het boek werd geschreven door een beroemd persoon'?", "opties": ["E buki a wòrdu skribi pa un hende famoso", "E buki ta wòrdu skribi pa un hende famoso", "Un hende famoso a wòrdu skribi e buki", "E buki famoso a wòrdu skribi"], "correct": 0 },
+    { "vraag": "Wat is 'amor'?", "opties": ["Liefde", "Vriendschap", "Respect", "Vreugde"], "correct": 0 },
+    { "vraag": "Wat is 'mundo'?", "opties": ["Wereld", "Eiland", "Stad", "Natuur"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Alle problemen zijn opgelost'?", "opties": ["Tur e problema a wòrdu resolve", "Tur e problema ta wòrdu resolve", "Tur e problema lo wòrdu resolve", "A wòrdu resolve tur e problema"], "correct": 0 },
+    { "vraag": "Wat is 'famoso'?", "opties": ["Beroemd / bekend", "Mooi", "Rijk", "Groot"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De muziek van Curaçao wordt over de hele wereld gekend'?", "opties": ["E musika di Kòrsou ta wòrdu konosé rond di mundo", "E musika di Kòrsou a wòrdu konosé rond di mundo", "E musika di Kòrsou ta konosé rond di mundo", "Alle drie zijn mogelijk afhankelijk van tijdsperspectief"], "correct": 3 },
+    { "vraag": "Wat is 'lei'?", "opties": ["Wet", "Regel", "Orde", "Beslissing"], "correct": 0 }
+  ]
+}

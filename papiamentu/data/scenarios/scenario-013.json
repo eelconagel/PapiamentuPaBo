@@ -1,0 +1,103 @@
+{
+  "id": "scenario-013",
+  "title": "Naar het gemeentehuis (Kranshi)",
+  "difficulty": "Hard",
+  "category": "Overheid",
+  "intro": "Je moet je inschrijven of officiële documenten aanvragen bij Kranshi (de burgerlijke stand). Het proces kan formeel en bureaucratisch zijn, dus een goede voorbereiding en beleefdheid zijn essentieel.",
+  "introWords": [
+    { "papiamentu": "Mi mester di un sédula", "dutch": "Ik heb een ID-kaart nodig", "pronunciation": "mie mes-ter die oen se-doo-la" },
+    { "papiamentu": "Kiko ta e rekisitonan?", "dutch": "Wat zijn de vereisten?", "pronunciation": "kee-ko ta e re-ki-si-to-nan" },
+    { "papiamentu": "Mi ke inskribí mi mes", "dutch": "Ik wil me inschrijven", "pronunciation": "mie ke in-skri-bie mie mes" },
+    { "papiamentu": "Ki ora e ta kla?", "dutch": "Wanneer is het klaar?", "pronunciation": "kie o-ra e ta kla" }
+  ],
+  "grammar": {
+    "title": "Formele communicatie met de overheid",
+    "explanation": [
+      "Gebruik in overheidsgebouwen altijd 'Por fabor' (alstublieft) en 'Danki' (bedankt).",
+      "Vraag naar procedures met 'Kiko ta e prosedimentu?' (Wat is de procedure?).",
+      "Bevestig of je alle documenten hebt met 'Mi tin tur e dokumentonan?' (Heb ik alle documenten?)."
+    ],
+    "exercises": [
+      {
+        "question": "Wat is een 'Sédula'?",
+        "options": ["ID-kaart", "Paspoort", "Geboorteakte", "Rijbewijs"],
+        "correct": 0,
+        "explanation": "De Sédula is het officiële identiteitsbewijs op Curaçao."
+      },
+      {
+        "question": "Hoe vraag je: 'Hoe lang duurt het?'",
+        "options": ["Kuantu tempu e ta dura?", "Ki ora e ta kla?", "Kiko ta tempu?", "Dura hopi?"],
+        "correct": 0,
+        "explanation": "'Dura' betekent duren."
+      },
+      {
+        "question": "Wat betekent 'Rekisito'?",
+        "options": ["Vereiste", "Afspraak", "Formulier", "Balie"],
+        "correct": 0,
+        "explanation": "Een rekisito is een vereiste waaraan je moet voldoen."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Sédula", "dutch": "ID-kaart", "pronunciation": "se-doo-la", "example": "Mi mester renová mi sédula." },
+    { "papiamentu": "Rekisito", "dutch": "Vereiste", "pronunciation": "re-ki-si-to", "example": "Kiko ta e rekisitonan?" },
+    { "papiamentu": "Dokumento", "dutch": "Document", "pronunciation": "do-koo-men-to", "example": "Mi tin tur e dokumentonan." },
+    { "papiamentu": "Inskribí", "dutch": "Inschrijven", "pronunciation": "in-skri-bie", "example": "Mi ke inskribí mi mes." },
+    { "papiamentu": "Kla", "dutch": "Klaar", "pronunciation": "kla", "example": "E ta kla awor?" },
+    { "papiamentu": "Prosedimentu", "dutch": "Procedure", "pronunciation": "pro-se-die-men-too", "example": "Kiko ta e prosedimentu?" }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Te weinig documentatie",
+      "detail": "Overheidsinstanties op Curaçao zijn strikt. 'Mas ta mas' (beter te veel dan te weinig). Neem altijd kopieën én originelen mee.",
+      "remember": "Check je papieren drie keer."
+    },
+    {
+      "trap": "Geduld verliezen",
+      "detail": "Wachttijden bij Kranshi kunnen lang zijn. Laat je niet uit het veld slaan door een rij; blijf kalm en beleefd tegen het personeel.",
+      "remember": "Geduld is een schone zaak."
+    }
+  ],
+  "culture": {
+    "title": "Kranshi-cultuur",
+    "intro": "Kranshi is het hart van de burgerlijke stand. Het is een plek waar iedereen op het eiland wel eens moet zijn. Hoewel het proces formeel is, blijft een vriendelijke groet aan de baliemedewerker belangrijk.",
+    "facts": [
+      "Het personeel heeft vaak veel mensen aan de balie; wees kort en krachtig in je vraagstelling.",
+      "Het is gebruikelijk om netjes gekleed te gaan naar overheidsgebouwen.",
+      "Vragen stellen aan mensen in de rij kan vaak leiden tot nuttige tips over het proces."
+    ],
+    "didYouKnow": "Wist je dat veel mensen op Curaçao voor de zekerheid 's ochtends vroeg gaan om de drukte voor te zijn?"
+  },
+  "quiz": [
+    {
+      "question": "Hoe zeg je: 'Ik heb een afspraak'?",
+      "options": ["Mi tin un sita", "Mi ke un sédula", "Mi ta kla", "Mi tin dokumento"],
+      "correct": 0,
+      "explanation": "'Sita' is de algemene term voor afspraak."
+    },
+    {
+      "question": "Wat betekent 'Renová'?",
+      "options": ["Vernieuwen", "Aanvragen", "Betalen", "Ophalen"],
+      "correct": 0,
+      "explanation": "Renová wordt gebruikt voor het vernieuwen van documenten."
+    },
+    {
+      "question": "Hoe vraag je: 'Waar moet ik betalen?'",
+      "options": ["Unda mi mester paga?", "Ki ora mi ta paga?", "Kiko mi ta paga?", "Bo por paga?"],
+      "correct": 0,
+      "explanation": "'Paga' betekent betalen."
+    },
+    {
+      "question": "Wat betekent 'Tur'?",
+      "options": ["Alles / Alle", "Klaar", "Nodig", "Document"],
+      "correct": 0,
+      "explanation": "'Tur' betekent alles of alle."
+    },
+    {
+      "question": "Is het normaal om om hulp te vragen als je het formulier niet begrijpt?",
+      "options": ["Ja, zeker", "Nee, dat moet je zelf doen", "Alleen in het Engels", "Nee, alleen als je betaalt"],
+      "correct": 0,
+      "explanation": "Vragen om hulp bij formulieren is heel normaal bij Kranshi."
+    }
+  ]
+}

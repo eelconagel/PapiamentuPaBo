@@ -1,0 +1,182 @@
+{% extends "base.html" %}
+{% from "_providers.html" import provider_icon, provider_buttons %}
+{% block content %}
+<h1 class="title left">Instellingen</h1>
+
+<h2 class="settings-title">Profiel</h2>
+<div class="option-group">
+  <form class="option-row" id="name-form" style="cursor:default" autocomplete="off">
+    <span class="ico">👤</span>
+    <label class="sr-only" for="name-input">Naam</label>
+    <input class="inline-input" id="name-input" maxlength="60" placeholder="Jouw naam">
+    <button type="submit" class="btn btn-primary btn-sm">Opslaan</button>
+  </form>
+  <div class="option-row" style="cursor:default">
+    <span class="ico">⭐</span>
+    <span class="lbl" id="stats-label"></span>
+  </div>
+</div>
+
+{% if login_providers or current_user %}
+<h2 class="settings-title">Account</h2>
+{% if current_user %}
+  <div class="option-group">
+    <div class="option-row" style="cursor:default">
+      <span class="ico">☁️</span>
+      <span class="lbl">
+        Ingelogd als <strong>{{ current_user.name }}</strong>
+        {% if current_user.email %}<br><span class="small muted">{{ current_user.email }}</span>{% endif %}
+        <br><span class="small muted" id="sync-status">Je voortgang wordt op al je apparaten bewaard.</span>
+      </span>
+    </div>
+    {% for p in user_providers %}
+      <div class="option-row" style="cursor:default">
+        <span class="ico provider-icon">{{ provider_icon(p) }}</span>
+        <span class="lbl">Gekoppeld met {{ PROVIDER_LABELS[p] }}</span>
+      </div>
+    {% endfor %}
+    <form method="post" action="{{ url_for('auth.logout') }}">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+      <button type="submit" class="option-row"><span class="ico">🚪</span><span class="lbl">Uitloggen</span></button>
+    </form>
+  </div>
+  {% set others = login_providers | rejectattr(0, 'in', user_providers) | list %}
+  {% if others %}
+    <p class="muted small" style="margin-top:0">Koppel nog een account, zodat je daar ook mee kunt inloggen:</p>
+    {{ provider_buttons(others, verb='Koppel') }}
+  {% endif %}
+{% else %}
+  <div class="option-group">
+    <a class="option-row" href="{{ url_for('auth.login_page') }}" style="text-decoration:none">
+      <span class="ico">☁️</span>
+      <span class="lbl">Inloggen<br><span class="small muted">Bewaar je voortgang en ga verder op een ander apparaat</span></span>
+      <span class="muted">›</span>
+    </a>
+  </div>
+{% endif %}
+{% endif %}
+
+<h2 class="settings-title">Weergave</h2>
+<div class="option-group">
+  <div class="option-row" style="cursor:default">
+    <span class="ico">🌙</span>
+    <span class="lbl">Thema</span>
+    <div class="segmented" id="theme-picker" role="group" aria-label="Thema">
+      <button type="button" data-theme="system">Systeem</button>
+      <button type="button" data-theme="light">Licht</button>
+      <button type="button" data-theme="dark">Donker</button>
+    </div>
+  </div>
+</div>
+
+<h2 class="settings-title">Back-up</h2>
+<p class="muted small" style="margin-top:0">
+  {% if current_user %}Je voortgang staat al veilig in je account. Een back-up-bestand is optioneel.
+  {% else %}Je voortgang staat in deze browser. Exporteer een back-up om hem naar een ander apparaat mee te nemen{% if login_providers %}, of log in{% endif %}.{% endif %}
+</p>
+<div class="option-group">
+  <button type="button" class="option-row" id="export">
+    <span class="ico">📤</span><span class="lbl">Exporteer voortgang (.json)</span>
+  </button>
+  <button type="button" class="option-row" id="import">
+    <span class="ico">📥</span><span class="lbl">Importeer voortgang (.json)</span>
+  </button>
+  <input type="file" id="import-file" accept="application/json,.json" hidden>
+</div>
+
+<h2 class="settings-title">Gegevens verwijderen</h2>
+<div class="option-group">
+  <button type="button" class="option-row danger" id="delete-all">
+    <span class="ico">🗑️</span><span class="lbl">Voortgang wissen<br><span class="small muted">Begin opnieuw{% if current_user %}; je account blijft bestaan{% endif %}</span></span>
+  </button>
+  {% if current_user %}
+  <form method="post" action="{{ url_for('auth.delete_account') }}" id="delete-account-form">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+    <button type="submit" class="option-row danger"><span class="ico">❌</span><span class="lbl">Account verwijderen<br><span class="small muted">Wist je account en alle voortgang op de server</span></span></button>
+  </form>
+  {% endif %}
+</div>
+
+<p class="small muted"><a href="{{ url_for('privacy') }}">Privacy</a></p>
+{% endblock %}
+
+{% block scripts %}
+<script nonce="{{ csp_nonce }}">
+(function () {
+  const homeUrl = {{ url_for('home') | tojson }};
+  const nameInput = document.getElementById('name-input');
+
+  function render() {
+    const s = Store.get();
+    if (document.activeElement !== nameInput) nameInput.value = s.profile ? s.profile.name : '';
+    const lessen = Object.values(s.lessen).filter((d) => d.length >= 4).length;
+    const scen = Object.keys(s.scenarios).length;
+    const woorden = Object.values(s.woorden).filter((w) => w.is_mastered).length;
+    document.getElementById('stats-label').textContent =
+      `${s.xp} XP · ${lessen} lessen · ${scen} scenario's · ${woorden} woorden gemeesterd`;
+    document.querySelectorAll('#theme-picker button').forEach((b) => {
+      const on = b.dataset.theme === s.theme;
+      b.classList.toggle('active', on);
+      b.setAttribute('aria-pressed', on);
+    });
+  }
+
+  document.getElementById('name-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = nameInput.value.trim();
+    if (!name) { Store.toast('Vul een naam in.'); return; }
+    Store.setName(name);
+    nameInput.blur();
+    Store.toast('Naam opgeslagen.');
+    render();
+  });
+
+  document.querySelectorAll('#theme-picker button').forEach((b) => b.addEventListener('click', () => {
+    Store.setTheme(b.dataset.theme);
+    render();
+  }));
+
+  document.getElementById('export').addEventListener('click', () => {
+    const blob = new Blob([Store.exportJson()], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `papiamentu-pa-bo-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.append(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  });
+
+  const fileInput = document.getElementById('import-file');
+  document.getElementById('import').addEventListener('click', () => {
+    if (confirm('Je huidige voortgang wordt vervangen door de back-up. Weet je het zeker?')) fileInput.click();
+  });
+  fileInput.addEventListener('change', async () => {
+    const file = fileInput.files[0];
+    fileInput.value = '';
+    if (!file) return;
+    try {
+      await Store.importJson(await file.text());
+      Store.toast('Gelukt! Voortgang is hersteld.');
+      render();
+    } catch (e) {
+      Store.toast('Import mislukt: ' + (e.message || 'ongeldig bestand.'), 4000);
+    }
+  });
+
+  document.getElementById('delete-all').addEventListener('click', async () => {
+    if (!confirm('Weet je zeker dat je al je voortgang wilt wissen? Dit kan niet ongedaan worden.')) return;
+    await Store.reset();
+    window.location.href = homeUrl;
+  });
+
+  const delAccount = document.getElementById('delete-account-form');
+  if (delAccount) delAccount.addEventListener('submit', (e) => {
+    if (!confirm('Je account en al je voortgang worden definitief verwijderd. Doorgaan?')) e.preventDefault();
+  });
+
+  document.addEventListener('papiamentu:synced', render);
+  render();
+})();
+</script>
+{% endblock %}

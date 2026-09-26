@@ -1,0 +1,73 @@
+{
+  "id": 37,
+  "blok": 4,
+  "titel": "Klachten & Onderhandelen: Direct maar Beleefd",
+  "grammatica": {
+    "uitleg": "Klachten uiten en onderhandelen zijn sociale vaardigheden die tact vereisen. In Papiamentu bestaat er een directe maar beleefde stijl voor dit soort situaties.\n\nEEN KLACHT UITDRUKKEN:\n• 'Tin un problema ku...' (Er is een probleem met...)\n• 'Mi ta reklamá pasobra...' (Ik klaag omdat...)\n• 'Esei no ta korrèkt.' (Dat is niet correct.)\n• 'Mi no ta satisfecho ku...' (Ik ben niet tevreden met...)\n• 'E no ta komo nan a bisa mi.' (Het is niet zoals men mij vertelde.)\n\nEEN OPLOSSING VRAGEN:\n• 'Kiko bo lo por hasi tokante di esei?' (Wat kunt u daarmee doen?)\n• 'Mi kier un reembolso.' (Ik wil een terugbetaling.)\n• 'Mi ta pidi un otro solushon.' (Ik verzoek om een andere oplossing.)\n• 'Por bo yama e responsabel?' (Kunt u de verantwoordelijke bellen?)\n\nONDERHANDELEN:\n• 'Kiko ta e mihó preis ku bo por ofrece?' (Wat is de beste prijs die u kunt bieden?)\n• 'Por bo baha un pokito e preis?' (Kunt u de prijs een beetje omlaag doen?)\n• 'Si bo duna mi un deskuento di..., mi lo kumpra awor mes.' (Als je me een korting geeft van..., koop ik nu meteen.)\n• 'Mi ta kompará preis.' (Ik vergelijk prijzen.)\n• 'Nos ta di akuerdo.' (We zijn het eens.) / 'Nos a yega un akuerdo.' (We hebben een overeenkomst bereikt.)",
+    "voorbeelden": [
+      { "papiamentu": "Señor, tin un problema ku mi kwartu — e ayer-kondisonado no ta traha bon.", "vertaling": "Mijnheer, er is een probleem met mijn kamer — de airconditioning werkt niet goed." },
+      { "papiamentu": "Mi no ta satisfecho ku e servisio — nan a yega tres ora despues di e ora ku nan a promedé.", "vertaling": "Ik ben niet tevreden met de service — ze arriveerden drie uur na de beloofde tijd." },
+      { "papiamentu": "Si bo por baha e preis pa sien florin, mi lo kompra e dos.", "vertaling": "Als u de prijs kunt verlagen naar honderd gulden, koop ik de twee." },
+      { "papiamentu": "Mi ta pidi diskulpa pa e konfusion — nos lo resolve esei awor mes.", "vertaling": "Ik bied mijn excuses aan voor de verwarring — we zullen dat nu meteen oplossen." },
+      { "papiamentu": "Nos a yega un akuerdo: dos pa e preis di un, valido pa e siman aki.", "vertaling": "We hebben een overeenkomst bereikt: twee voor de prijs van één, geldig deze week." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "Klacht in Papiamentu: direct maar niet agressief",
+      "voorbeeld": "'Tin un problema ku...' is directer dan 'Excuse, maar misschien is er iets...' maar minder confronterend dan 'Dit klopt niet!'",
+      "toelichting": "De Papiamentse klachtstijl is direct — het probleem wordt benoemd — maar zonder agressie. 'Tin un problema' (er is een probleem) objectiveert: het is een situatie, geen aanval op de persoon. Dit laat ruimte voor oplossing zonder verlies van gezicht aan beide kanten."
+    },
+    {
+      "nuance": "'Promedé' — beloften zijn bindend op Curaçao",
+      "voorbeeld": "'E a promedé' (hij/zij beloofde) in een klacht is zwaarder dan 'e a bisa' (hij/zij zei)",
+      "toelichting": "'Promedé' (beloofd) heeft moreel gewicht. Als iemand 'heeft beloofd', is er meer dan een verwachting geschonden — er is een sociale overeenkomst verbroken. Gebruik 'promedé' in klachten als je wilt benadrukken dat de verwachting expliciet was."
+    },
+    {
+      "nuance": "Onderhanden met 'si...dan' — conditionele onderhandeling",
+      "voorbeeld": "'Si bo duna mi deskuento, mi lo kumpra awor' — de conditionele zin als onderhandelingsinstrument",
+      "toelichting": "De conditionele structuur van les 31 is direct toepasbaar in onderhandelingen. 'Si + aanbod, lo + actie' is de formule. Het geeft de ander een concrete optie in plaats van een vage druk. Dit is een respectvolle manier om een deal te maken."
+    },
+    {
+      "nuance": "'Mi ta pidi diskulpa' — excuses aanbieden als de serviceverlener",
+      "voorbeeld": "'Mi ta pidi diskulpa pa e konfusion' — professioneel excuus dat verantwoordelijkheid neemt",
+      "toelichting": "'Pidi diskulpa' (excuses aanbieden) gecombineerd met een oplossing ('nos lo resolve esei') is de professionele standaard. Op Curaçao is een oprecht excuus gevolgd door actie krachtiger dan een excuus alleen. De actie maakt het excuus echt."
+    }
+  ],
+  "woorden": [
+    { "woord": "Reklamá", "uitspraak": "re-kla-ma", "vertaling": "Reclameren / een klacht indienen" },
+    { "woord": "Satisfecho", "uitspraak": "sa-tis-fe-cho", "vertaling": "Tevreden" },
+    { "woord": "Reembolso", "uitspraak": "re-em-bol-so", "vertaling": "Terugbetaling / restitutie" },
+    { "woord": "Deskuento", "uitspraak": "des-kwen-to", "vertaling": "Korting / rabat" },
+    { "woord": "Akuerdo", "uitspraak": "a-kwer-do", "vertaling": "Overeenkomst / akkoord" },
+    { "woord": "Promedé", "uitspraak": "pro-me-de", "vertaling": "Beloven / beloofde" },
+    { "woord": "Responsabel", "uitspraak": "res-pon-sa-bel", "vertaling": "Verantwoordelijke / aansprakelijk" },
+    { "woord": "Diskulpa", "uitspraak": "dis-koel-pa", "vertaling": "Verontschuldiging / excuus" },
+    { "woord": "Konfusion", "uitspraak": "kon-fu-sjon", "vertaling": "Verwarring / misverstand" },
+    { "woord": "Solushon", "uitspraak": "so-lu-sjon", "vertaling": "Oplossing" }
+  ],
+  "culturele_context": "Klachten uiten op Curaçao gaat met een directheid die voor Nederlandstaligen herkenbaar kan zijn — maar de toon is warmer. Je adresseert het probleem, niet de persoon. 'Tin un problema' (er is een probleem) is een gedeelde probleemstelling: wij twee gaan dit samen oplossen.\n\nOnderhandelen ('negoshá') is op de merkado een dagelijkse dans. Marktverkopers verwachten enige onderhandeling — een prijs accepteren zonder te vragen klinkt soms als gebrek aan interesse. 'Ki ta bo preis bon?' (Wat is uw beste prijs?) is uitnodigend, niet agressief.\n\nHet woord 'akuerdo' (akkoord/overeenkomst) heeft een plechtig karakter. 'Nos ta di akuerdo' (we zijn het eens) sluit niet alleen een transactie — het bevestigt een relatie. Op Curaçao bouw je langetermijnrelaties, ook in zakelijke contexten.",
+  "scenario_links": ["scenario-019", "scenario-020"],
+  "eindoefening": [
+    { "vraag": "Hoe uit je een klacht beleefd?", "opties": ["'Tin un problema ku...' — objectief het probleem benoemen", "'Esei ta fout!' — direct accuserend", "'Ik ben niet tevreden' — in het Nederlands", "'Mi ta boga' — ik klaag"], "correct": 0 },
+    { "vraag": "Hoe vraag je om een terugbetaling?", "opties": ["Mi kier un reembolso", "Mi kier mi plaka bèk", "Da mi e plaka", "Alle drie zijn correct met toenemende formaliteit"], "correct": 3 },
+    { "vraag": "Hoe zeg je 'De airconditioning werkt niet goed'?", "opties": ["E ayer-kondisonado no ta traha bon", "E ayer-kondisonado ta mal", "E ayer-kondisonado no ta prendé", "Alle drie zijn correcte beschrijvingen"], "correct": 3 },
+    { "vraag": "Hoe vraag je 'Kunt u de prijs een beetje omlaag doen?'", "opties": ["Por bo baha un pokito e preis?", "Duna mi deskuento", "Ki ta e preis bon?", "Mas chèp por?"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'We hebben een overeenkomst bereikt'?", "opties": ["Nos a yega un akuerdo", "Nos ta di akuerdo", "Nos a akorda", "Alle drie zijn correct"], "correct": 3 },
+    { "vraag": "Wat is het verschil tussen 'promedé' en 'bisa' in een klacht?", "opties": ["'Promedé' (beloofd) heeft meer moreel gewicht dan 'bisa' (zei)", "Ze zijn hetzelfde", "'Bisa' is formeler", "'Promedé' is informeler"], "correct": 0 },
+    { "vraag": "Hoe bied je excuses aan als serviceverlener?", "opties": ["Mi ta pidi diskulpa pa e konfusion", "Mi ta sorry", "Esei no tabata mi schuld", "Diskulpa mi"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik ben niet tevreden'?", "opties": ["Mi no ta satisfecho", "Mi ta reklamá", "Mi no ta bon ku esei", "Alle drie communiceren ontevredenheid"], "correct": 3 },
+    { "vraag": "Hoe gebruik je de conditionele zin in onderhandelen?", "opties": ["'Si bo duna mi deskuento, mi lo kumpra awor' — aanbod + reactie", "'Baha e preis' — direct commando", "'Mi no lo kumpra' — dreigen", "'Mas chèp por fabor' — direct verzoek"], "correct": 0 },
+    { "vraag": "Wat is 'deskuento'?", "opties": ["Korting / rabat", "Prijs", "Aanbod", "Betaling"], "correct": 0 },
+    { "vraag": "Hoe vraag je naar een verantwoordelijke?", "opties": ["Por bo yama e responsabel?", "Unda ta e jefe?", "Ki personanan ta responsabel?", "Alle drie zijn gangbaar"], "correct": 3 },
+    { "vraag": "Wat is 'konfusion'?", "opties": ["Verwarring / misverstand", "Probleem", "Fout", "Discussie"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik verzoek om een andere oplossing'?", "opties": ["Mi ta pidi un otro solushon", "Mi kier un otro solushon", "Da mi un otro solushon", "Alle drie zijn correct met toenemende directheid"], "correct": 3 },
+    { "vraag": "Waarom verwachten marktverkopers op Curaçao enige onderhandeling?", "opties": ["Onderhandelen is een sociale dans — een direct geaccepteerde prijs klinkt als gebrek aan interesse", "Prijzen zijn altijd te hoog", "Het is een regelrecht systeem", "Alleen toeristen onderhandelen niet"], "correct": 0 },
+    { "vraag": "Wat is 'reembolso'?", "opties": ["Terugbetaling / restitutie", "Ontvangstbewijs", "Korting", "Compensatie"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'twee voor de prijs van één'?", "opties": ["Dos pa e preis di un", "Dos pa un preis", "Un preis pa dos", "Dos ku un preis"], "correct": 0 },
+    { "vraag": "Wat is 'solushon'?", "opties": ["Oplossing", "Optie", "Resultaat", "Alternatief"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het is niet zoals men mij vertelde'?", "opties": ["E no ta komo nan a bisa mi", "E no ta bon komo nan a bisa", "Nan a minti mi", "No ta komo mi a spera"], "correct": 0 },
+    { "vraag": "Wanneer is een excuus echt op Curaçao?", "opties": ["Als het gevolgd wordt door actie — 'nos lo resolve esei awor mes'", "Als het formeel is geformuleerd", "Als het herhaald wordt", "Als het schriftelijk is"], "correct": 0 },
+    { "vraag": "Hoe vraag je 'Wat is de beste prijs die u kunt bieden?'", "opties": ["Kiko ta e mihó preis ku bo por ofrece?", "Ki ta bo preis bon?", "Kiko ta e minimum preis?", "Alle drie zijn gangbaar in onderhandeling"], "correct": 3 }
+  ]
+}

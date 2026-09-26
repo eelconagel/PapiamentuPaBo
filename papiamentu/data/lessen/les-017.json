@@ -1,0 +1,73 @@
+{
+  "id": 17,
+  "blok": 2,
+  "titel": "Reflexieve Constructies: 'Mes' en Zelfzorg",
+  "grammatica": {
+    "uitleg": "In Papiamentu worden reflexieve constructies gevormd met het bezittelijk voornaamwoord + 'mes' (zelf). De structuur is consistent voor alle personen.\n\nREFLEXIEVE VOORNAAMWOORDEN:\nmi mes (mezelf), bo mes (jezelf), su mes (zichzelf),\nnos mes (onszelf), boso mes (uzelf/jullie zelf), nan mes (henzelf/zichzelf)\n\nBASISSTRUCTUUR:\n[Subject] + [werkwoord] + [bezittelijk voornaamwoord + mes]\n• Mi ta bisti mi mes. (Ik kleed mezelf aan.)\n• E ta laba su mes. (Hij/zij wast zichzelf.)\n• Nos ta kuida nos mes. (Wij zorgen voor onszelf.)\n\nVEELGEBRUIKTE REFLEXIEVE WERKWOORDEN:\n• bañá / dusha (douchen/wassen)\n• bisti (aankleden)\n• kòmbi (kammen)\n• afeitá (scheren)\n• spiksel (spiegelen)\n\nNADRUK MET 'MES' ZONDER REFLEXIEVE BETEKENIS:\n'Mes' kan ook nadruk geven zonder reflexieve betekenis (= zelf, persoonlijk):\n• Mi mes a hasi esei. (Ik zelf deed dat.)\n• E mucha mes a bini. (Het kind zelf kwam.)\n\nVANZELF — 'di su mes':\n• E porta a habri di su mes. (De deur ging vanzelf open.)\n• Ta di su mes e a sali. (Het ging vanzelf weg.)",
+    "voorbeelden": [
+      { "papiamentu": "Na mainta mi ta bañá mi mes i despues mi ta bisti mi mes.", "vertaling": "In de ochtend was ik mezelf en daarna kleed ik mezelf aan." },
+      { "papiamentu": "Kuidá bo mes, amigo!", "vertaling": "Zorg goed voor jezelf, vriend!" },
+      { "papiamentu": "E mucha mes a prepará e kuminda.", "vertaling": "Het kind zelf bereidde het eten." },
+      { "papiamentu": "Nan ta hisa nan mes despues di un keda mal.", "vertaling": "Ze herstellen zichzelf na een moeilijke periode." },
+      { "papiamentu": "E problema a resolve di su mes.", "vertaling": "Het probleem loste zichzelf op." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "Veel werkwoorden zijn impliciet reflexief — 'mes' is optioneel",
+      "voorbeeld": "'Mi ta bañá' = ik douchte mezelf (impliciet) | 'Mi ta bañá mi mes' = expliciet, voor nadruk",
+      "toelichting": "Lichaamsverzorgingswerkwoorden (bañá, bisti, kòmbi) zijn contextueel altijd reflexief als er geen object is. Het 'mes' voeg je toe voor nadruk of als de situatie duidelijker gemaakt moet worden."
+    },
+    {
+      "nuance": "'Kuidá bo mes' als afscheidsritueel",
+      "voorbeeld": "'Bai! Kuidá bo mes!' — letterlijk 'Ga! Zorg voor jezelf!' maar functioneert als 'doei, pass op jezelf'",
+      "toelichting": "Je hebt deze uitdrukking al gezien in les 10 als warm afscheid. Nu begrijp je de structuur: het is een reflexieve imperatiefzin. 'Kuidá bo mes' = zorg voor jezelf, is de warme manier om iemand te laten gaan."
+    },
+    {
+      "nuance": "'Di su mes' voor 'vanzelf' — geen agent nodig",
+      "voorbeeld": "'E porta a habri di su mes' (De deur ging vanzelf open) — de 'di' is hier 'van zichzelf'",
+      "toelichting": "Wanneer iets 'vanzelf' (automatisch) gebeurt, gebruik je 'di su mes'. Dit is een elegante uitdrukking die je ook figuurlijk kunt gebruiken: 'E problema lo resolve di su mes' (Het probleem zal zichzelf oplossen)."
+    },
+    {
+      "nuance": "Nadruk-'mes' staat direct na het naamwoord/voornaamwoord",
+      "voorbeeld": "'Mi mes ta sabi esei' (Ik zelf weet dat) vs. 'Mi ta laba mi mes' (Ik was mezelf)",
+      "toelichting": "De positie van 'mes' maakt het verschil: direct na het subject ('mi mes ta...') = nadruk op de actor. Na het werkwoord als object ('mi ta laba mi mes') = reflexief. Let op de plaatsing."
+    }
+  ],
+  "woorden": [
+    { "woord": "Mes", "uitspraak": "mes", "vertaling": "Zelf / zichzelf (reflexief / nadruk)" },
+    { "woord": "Bañá", "uitspraak": "ban-ja", "vertaling": "Wassen / douchen / zichzelf wassen" },
+    { "woord": "Bisti", "uitspraak": "bis-tie", "vertaling": "Aankleden / kleren aantrekken" },
+    { "woord": "Kòmbi", "uitspraak": "kom-bie", "vertaling": "Kammen" },
+    { "woord": "Afeitá", "uitspraak": "a-fei-ta", "vertaling": "Scheren" },
+    { "woord": "Prepará", "uitspraak": "pre-pa-ra", "vertaling": "Voorbereiden / klaarmaken" },
+    { "woord": "Hisa", "uitspraak": "hie-sa", "vertaling": "Opstaan / oprichten / optillen" },
+    { "woord": "Resolve", "uitspraak": "re-sol-ve", "vertaling": "Oplossen" },
+    { "woord": "Keda", "uitspraak": "ke-da", "vertaling": "Blijven / worden / situatie" },
+    { "woord": "Despues", "uitspraak": "des-pues", "vertaling": "Daarna / later / nadat" }
+  ],
+  "culturele_context": "Zelfzorg in de Curaçaose cultuur is geen individualisme — het is een collectieve verantwoordelijkheid. 'Kuidá bo mes' zegt je tegen iemand anders, als een uitnodiging om voor zichzelf te zorgen zodat ze ook voor anderen kunnen zorgen.\n\nDe ochtendrutine ('rutina di mainta') is op Curaçao een sociaal begrip. Families starten de dag samen, de geur van koffie en de geluiden van kinderen die klaargemaakt worden voor school zijn het ritme van het eilandleven.\n\n'Resolve di su mes' (zichzelf oplossen) is een Curaçaose levensfilosofie. Problemen worden niet dramatisch opgezwollen — ze lossen zichzelf op als je ze genoeg tijd geeft en niet in paniek raakt. Dit pragmatisme heeft ook linguïstische uitdrukking gekregen.",
+  "scenario_links": ["scenario-005", "scenario-011"],
+  "eindoefening": [
+    { "vraag": "Hoe zeg je 'mezelf' in Papiamentu?", "opties": ["Mi mes", "Miselfu", "Mi su mes", "Mi zelf"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik kleed mezelf aan'?", "opties": ["Mi ta bisti mi mes", "Mi ta bisti me", "Mi mes bisti ta", "Mi ta bisti su mes"], "correct": 0 },
+    { "vraag": "Wat is het reflexieve voornaamwoord voor 'e' (hij/zij)?", "opties": ["Su mes", "E mes", "Su su mes", "Nan mes"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'vanzelf'?", "opties": ["Di su mes", "Vanzelf", "Su mes", "Di mes"], "correct": 0 },
+    { "vraag": "Wanneer is 'mes' nadruk en wanneer reflexief?", "opties": ["Nadruk: direct na subject ('mi mes ta...'); reflexief: na werkwoord als object", "Ze zijn altijd hetzelfde", "Nadruk: altijd achteraan; reflexief: vooraan", "Het verschil bestaat niet in Papiamentu"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Zorg voor jezelf'?", "opties": ["Kuidá bo mes", "Kuida bo mes", "Bo mes kuidá", "Kuidá su mes"], "correct": 0 },
+    { "vraag": "Is 'mes' verplicht bij lichaamsverzorging?", "opties": ["Nee — impliciet reflexief bij afwezigheid van object", "Ja — altijd verplicht", "Alleen bij 'bañá'", "Alleen in de tegenwoordige tijd"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het kind zelf deed dat'?", "opties": ["E mucha mes a hasi esei", "E mucha a hasi su mes esei", "E mucha ta hasi esei mes", "Mes e mucha a hasi esei"], "correct": 0 },
+    { "vraag": "Wat is 'bañá'?", "opties": ["Wassen / douchen", "Aankleden", "Kammen", "Scheren"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wij zorgen voor onszelf'?", "opties": ["Nos ta kuida nos mes", "Nos ta kuida nos", "Nos mes ta kuida", "Nos ta kuida su mes"], "correct": 0 },
+    { "vraag": "Wat is 'despues'?", "opties": ["Daarna / later", "Daarvoor", "Tegelijkertijd", "Nooit"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Het probleem loste zichzelf op'?", "opties": ["E problema a resolve di su mes", "E problema mes a resolve", "E problema a su mes resolve", "Di su mes e problema resolve a"], "correct": 0 },
+    { "vraag": "Wat is 'hisa'?", "opties": ["Opstaan / oprichten / optillen", "Neerleggen", "Draaien", "Gaan"], "correct": 0 },
+    { "vraag": "Wat is 'prepará'?", "opties": ["Voorbereiden / klaarmaken", "Serveren", "Koken", "Opruimen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'jullie zelf'?", "opties": ["Boso mes", "Nan mes", "Su mes", "Boso su mes"], "correct": 0 },
+    { "vraag": "Hoe gebruik je 'keda' in een zin?", "opties": ["Als 'blijven' of als aanduiding van een situatie: 'keda mal' = een moeilijke situatie", "Alleen als 'gaan'", "Alleen als tijdsaanduiding", "Alleen in vragen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ze herstellen zichzelf'?", "opties": ["Nan ta hisa nan mes", "Nan ta hisa su mes", "Nan mes ta hisa", "Su mes nan ta hisa"], "correct": 0 },
+    { "vraag": "Wat is 'resolve'?", "opties": ["Oplossen", "Beslissen", "Begrijpen", "Accepteren"], "correct": 0 },
+    { "vraag": "Wat doet 'di su mes' in een zin?", "opties": ["Geeft aan dat iets vanzelf / automatisch gebeurt zonder externe agent", "Geeft bezit aan", "Geeft nadruk", "Geeft richting aan"], "correct": 0 },
+    { "vraag": "Wat zegt 'Kuidá bo mes' als afscheidsritueel?", "opties": ["Zorg voor jezelf — een warm en zorgzaam afscheid", "Het is een beleefde weigering", "Een formeel afscheid", "Een opdracht om te gaan"], "correct": 0 }
+  ]
+}

@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block description %}40 gestructureerde lessen Papiamentu in vier blokken: grammatica, woordjes, cultuur en een oefening per les.{% endblock %}
+{% block main_class %}wide{% endblock %}
+{% block content %}
+<h1 class="title left">Leer met lessen</h1>
+<p class="subtitle left">Leer stap voor stap: grammatica, woordjes, cultuur en oefening.</p>
+
+{% for blok, items in lessen | groupby('blok') %}
+  <h2 class="blok-heading">Blok {{ blok }} <span class="level-count" data-blok="{{ blok }}"></span></h2>
+  <div class="card-grid">
+  {% for les in items %}
+    <a class="card les-card locked" data-id="{{ les.id }}" href="{{ url_for('les', les_id=les.id) }}">
+      <div class="card-header">
+        <span class="card-number">Les {{ les.id }}</span>
+        <span class="les-status">🔒</span>
+      </div>
+      <h3 class="card-title" style="margin-bottom:10px">{{ les.titel }}</h3>
+      <div class="step-pills" hidden>
+        {% for naam in ['Grammatica', 'Woordjes', 'Cultuur', 'Oefening'] %}
+          <span class="step-pill">{{ naam }}</span>
+        {% endfor %}
+      </div>
+      {% if les.id > 1 %}<div class="locked-hint">Voltooi les {{ les.id - 1 }} om te ontgrendelen</div>{% endif %}
+    </a>
+  {% endfor %}
+  </div>
+{% endfor %}
+{% endblock %}
+
+{% block scripts %}
+<script nonce="{{ csp_nonce }}">
+(function () {
+  const voortgang = Store.get().lessen;
+  const stappen = (id) => (voortgang[id] || []).length;
+  const voltooid = (id) => stappen(id) >= 4;
+  const ontgrendeld = (id) => id === 1 || voltooid(id - 1);
+
+  document.querySelectorAll('.les-card').forEach((card) => {
+    const id = Number(card.dataset.id);
+    const status = card.querySelector('.les-status');
+    const hint = card.querySelector('.locked-hint');
+    const pills = card.querySelector('.step-pills');
+
+    if (!ontgrendeld(id)) {
+      card.addEventListener('click', (e) => e.preventDefault());
+      card.setAttribute('aria-disabled', 'true');
+      card.querySelector('.card-title').classList.add('muted');
+      return;
+    }
+    card.classList.remove('locked');
+    if (hint) hint.hidden = true;
+
+    if (voltooid(id)) {
+      card.classList.add('completed');
+      status.innerHTML = '<span class="badge" style="background:var(--fill-green)">Voltooid</span>';
+      return;
+    }
+    const stap = stappen(id);
+    status.innerHTML = `<span class="badge" style="background:var(--fill-teal)">Stap ${stap + 1}/4</span>`;
+    pills.hidden = false;
+    Array.from(pills.children).forEach((p, i) => {
+      if (i < stap) p.classList.add('done');
+      else if (i === stap) p.classList.add('active');
+    });
+  });
+
+  document.querySelectorAll('.level-count[data-blok]').forEach((el) => {
+    const cards = el.closest('h2').nextElementSibling.querySelectorAll('.les-card');
+    const done = Array.from(cards).filter((c) => voltooid(Number(c.dataset.id))).length;
+    el.textContent = `${done} van ${cards.length} voltooid`;
+  });
+})();
+</script>
+{% endblock %}

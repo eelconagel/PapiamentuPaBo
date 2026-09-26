@@ -1,0 +1,73 @@
+{
+  "id": 24,
+  "blok": 3,
+  "titel": "Verleden Tijd (B): 'Tabata' en de 'Lo+Ta' Constructie",
+  "grammatica": {
+    "uitleg": "In les 21 leerde je de voltooide verleden tijd met 'a'. Nu leer je twee andere aspectvormen die het verleden rijker maken.\n\nDEEL 1 — TABATA: onvoltooid/beschrijvend verleden\n'Tabata' is de verledentijdsvorm van 'ta'. Het beschrijft een toestand of ongoing actie in het verleden.\n\nSTRUCTUUR: [Subject] + tabata + [adjectief/werkwoord/naamwoord]\n• E tabata kansa. (Hij/zij was moe.)\n• Nos tabata biba na Willemstad. (Wij woonden in Willemstad.)\n• E tabata studiant. (Hij/zij was student.)\n• Tabata tin hopi hende. (Er waren veel mensen.)\n\nVERSCHIL 'A' vs. 'TABATA':\n• 'A' = voltooide actie (iets gebeurde en was klaar)\n• 'Tabata' = toestand of doorgaande actie in het verleden\n• 'E a kome' (hij at — klaar) vs. 'E tabata kome' (hij was aan het eten)\n\nDEEL 2 — LO + TA: toekomend onvoltooid / conditioneel\n'Lo ta' beschrijft een toekomstige aanhoudende toestand of een hypothetische situatie.\n\nSTRUCTUUR: [Subject] + lo + ta + [adjectief/naamwoord/werkwoord]\n• Mayan e lo ta kansa. (Morgen zal hij/zij moe zijn.)\n• Si mi tin plaka, mi lo ta na playa. (Als ik geld had, zou ik op het strand zijn.)\n• E lo ta studia na kas. (Hij/zij zal thuis aan het studeren zijn.)\n\nONTHOUDEN: 'lo ta' is de ENIGE combinatie van 'lo' + aspect-marker die correct is.",
+    "voorbeelden": [
+      { "papiamentu": "Ku mi tabata chikitu, mi tabata biba serka di merkado.", "vertaling": "Toen ik klein was, woonde ik vlak bij de markt." },
+      { "papiamentu": "E tabata masha bon studiante — awe e ta doktor.", "vertaling": "Hij/zij was een heel goede student — nu is hij/zij dokter." },
+      { "papiamentu": "Si mi no tabata kansa, mi lo a bai ku boso.", "vertaling": "Als ik niet moe was geweest, was ik met jullie meegegaan." },
+      { "papiamentu": "Mayan na e ora aki, nos lo ta na avion.", "vertaling": "Morgen op dit uur zijn we in het vliegtuig." },
+      { "papiamentu": "Tabata tin un fiesta grandi na bario e siman a pasa.", "vertaling": "Er was een groot feest in de buurt de afgelopen week." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'Tabata' als tijdmachine — brengt je terug in een moment",
+      "voorbeeld": "'Ku mi tabata mucha...' (Toen ik kind was...) — standaard inleiding van een herinnering",
+      "toelichting": "'Tabata' is de sleutel tot het vertellen van herinneringen. 'Ku mi tabata...' (Toen ik...was) opent een vertelwereld. Dit is hoe ouders verhalen beginnen, hoe grootouders hun jeugd beschrijven. Leer het als formule."
+    },
+    {
+      "nuance": "'Tabata ta' bestaat NIET — maar 'tabata kome' wel",
+      "voorbeeld": "FOUT: 'E tabata ta kome' | CORRECT: 'E tabata kome' (hij was aan het eten)",
+      "toelichting": "'Tabata' heeft de 'ta' al verwerkt in zich. Het is een fusievorm: taba(ta) = [verleden] + [aspect]. Je hoeft geen tweede 'ta' toe te voegen. Dit is een veelgemaakte interferentiefout."
+    },
+    {
+      "nuance": "'Lo ta' voor parallelle toekomst (op hetzelfde moment als iets anders)",
+      "voorbeeld": "'Ku bo lo yega, mi lo ta drumi' (Als jij aankomt, zal ik slapen) — twee toekomstige momenten",
+      "toelichting": "'Lo ta' plaatst een toekomstige actie als achtergrond voor een andere toekomstige actie. Het is de meest nuancevolle tijdsvorm in Papiamentu. Gebruik het als je wilt zeggen dat twee dingen tegelijkertijd in de toekomst plaatsvinden."
+    },
+    {
+      "nuance": "Het volledige tijdssysteem: a / ta / lo / tabata / lo ta",
+      "voorbeeld": "Voltooid verleden (a), huidig (ta), toekomend (lo), onvoltooid verleden (tabata), toekomend onvoltooid (lo ta)",
+      "toelichting": "Nu heb je het complete aspectsysteem van Papiamentu. Vijf posities, vijf markeringen. Merk op: de werkwoordsstam verandert nooit. Alleen de marker vóór het werkwoord wisselt. Dit is de elegante consistentie van de taal."
+    }
+  ],
+  "woorden": [
+    { "woord": "Tabata", "uitspraak": "ta-ba-ta", "vertaling": "Was / waren (onvoltooid verleden van 'ta')" },
+    { "woord": "Ku", "uitspraak": "koe", "vertaling": "Toen / als / wanneer (tijdsverbinding)" },
+    { "woord": "Avion", "uitspraak": "a-vjon", "vertaling": "Vliegtuig" },
+    { "woord": "Drumi", "uitspraak": "droe-mie", "vertaling": "Slapen" },
+    { "woord": "Memoria", "uitspraak": "me-mo-ria", "vertaling": "Herinnering / geheugen" },
+    { "woord": "Tempu", "uitspraak": "tem-poe", "vertaling": "Tijd / tijdperk / weer" },
+    { "woord": "Antes", "uitspraak": "an-tes", "vertaling": "Vroeger / voorheen / eerder" },
+    { "woord": "Awor", "uitspraak": "a-wor", "vertaling": "Nu / tegenwoordig / op dit moment" },
+    { "woord": "Kambia", "uitspraak": "kam-bia", "vertaling": "Veranderen" },
+    { "woord": "Kresé", "uitspraak": "kre-se", "vertaling": "Opgroeien / groeien" }
+  ],
+  "culturele_context": "Herinneringen zijn op Curaçao rijkdom. De 'tabata'-vorm is de taal van nostalgie, van verhalen die van generatie op generatie gaan. 'Ku mi tabata mucha, nos tabata bai na playa tur siman' (Toen ik klein was, gingen we elke week naar het strand) — dit is hoe het eilandleven wordt doorgegeven.\n\nDe verandering van het eiland is een frequent gespreksonderwerp. 'Antes tabata diferente' (vroeger was het anders) hoor je van elke generatie. De 'tabata'-vorm draagt de spanning tussen verleden en heden — wat was, wat is, en wat het eiland heeft doorgemaakt.\n\n'Awor' (nu) en 'antes' (vroeger) staan in spanningsverhouding in het Curaçaose bewustzijn. De taal geeft je de tools om beide te verwoorden en daartussen te navigeren.",
+  "scenario_links": ["scenario-009", "scenario-013"],
+  "eindoefening": [
+    { "vraag": "Welke tijdsvorm druk je uit met 'tabata'?", "opties": ["Onvoltooid/beschrijvend verleden (was/waren)", "Voltooide verleden tijd (actie)", "Toekomstige tijd", "Hypothetische situatie"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Hij/zij was moe'?", "opties": ["E tabata kansa", "E a kansa", "E ta kansa", "E lo ta kansa"], "correct": 0 },
+    { "vraag": "Wat is het verschil tussen 'e a kome' en 'e tabata kome'?", "opties": ["'a kome' = hij at (voltooid), 'tabata kome' = hij was aan het eten (onvoltooid verleden)", "Ze betekenen hetzelfde", "'tabata kome' is formeler", "'a kome' is meer verleden"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Toen ik klein was'?", "opties": ["Ku mi tabata chikitu", "Si mi tabata chikitu", "Ku mi a chikitu", "Ku mi ta chikitu"], "correct": 0 },
+    { "vraag": "Is 'e tabata ta kome' correct?", "opties": ["Nee — 'tabata' heeft 'ta' al verwerkt: gebruik 'e tabata kome'", "Ja — dat is de standaardvorm", "Ja — maar alleen in formele tekst", "Soms, afhankelijk van de spreker"], "correct": 0 },
+    { "vraag": "Wat is de 'lo+ta' constructie voor?", "opties": ["Toekomend onvoltooid of hypothetisch: 'morgen zal ik slapen'", "Verledentijds verhaal", "Beleefd verzoek", "Herhaling in het verleden"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wij woonden in Willemstad'?", "opties": ["Nos tabata biba na Willemstad", "Nos a biba na Willemstad", "Nos ta biba na Willemstad", "Nos lo ta biba na Willemstad"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Morgen op dit uur zijn we in het vliegtuig'?", "opties": ["Mayan na e ora aki, nos lo ta na avion", "Mayan na e ora aki, nos ta na avion", "Nos lo ta avion mayan e ora aki", "Mayan nos tabata na avion e ora aki"], "correct": 0 },
+    { "vraag": "Wat is 'drumi'?", "opties": ["Slapen", "Rusten", "Liegen", "Dromen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'er waren veel mensen'?", "opties": ["Tabata tin hopi hende", "Ta tin hopi hende", "A tin hopi hende", "Tin tabata hopi hende"], "correct": 0 },
+    { "vraag": "Wat is 'antes'?", "opties": ["Vroeger / voorheen", "Nu", "Later", "Soms"], "correct": 0 },
+    { "vraag": "Wat is 'awor'?", "opties": ["Nu / op dit moment", "Dan / daarna", "Vroeger", "Binnenkort"], "correct": 0 },
+    { "vraag": "Welke combinatie van 'lo' + aspect is de ENIGE correcte?", "opties": ["Lo + ta (lo ta)", "Lo + a (lo a)", "Lo + tabata (lo tabata)", "Alle drie zijn correct"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Als jij aankomt, zal ik slapen'?", "opties": ["Ku bo lo yega, mi lo ta drumi", "Si bo yega, mi lo drumi", "Ku bo yega, mi ta drumi", "Si bo lo yega, mi a drumi"], "correct": 0 },
+    { "vraag": "Wat is 'kambia'?", "opties": ["Veranderen", "Groeien", "Bewegen", "Verdwijnen"], "correct": 0 },
+    { "vraag": "Hoe begint een herinnering typisch in Papiamentu?", "opties": ["'Ku mi tabata...' — Toen ik...was", "'A ku mi tabata...'", "'Lo ku mi tabata...'", "'Si mi tabata...'"], "correct": 0 },
+    { "vraag": "Wat is 'kresé'?", "opties": ["Opgroeien / groeien", "Leren", "Veranderen", "Komen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Als ik niet moe was geweest, was ik meegegaan'?", "opties": ["Si mi no tabata kansa, mi lo a bai", "Si mi no a kansa, mi lo ta bai", "Si mi tabata no kansa, mi lo bai", "Si no tabata kansa mi, lo mi a bai"], "correct": 0 },
+    { "vraag": "Wat maakt 'Ku mi tabata mucha' zo krachtig als vertelformule?", "opties": ["Het opent een tijdvenster naar het verleden — een bekende formule voor herinneringen", "Het is grammaticaal verplicht", "Het maakt zinnen korter", "Het voegt emotie toe aan tegenwoordige tijd"], "correct": 0 },
+    { "vraag": "Wat is het volledige tijdssysteem van Papiamentu in volgorde?", "opties": ["a (voltooid), ta (huidig), lo (toekomend), tabata (onv. verleden), lo ta (toekomend onvoltooid)", "ta, a, lo, tabata (4 vormen)", "a, ta, lo (3 vormen)", "Tabata, ta, lo, a, lo ta (andere volgorde)"], "correct": 0 }
+  ]
+}

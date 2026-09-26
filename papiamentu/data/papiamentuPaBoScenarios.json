@@ -1,0 +1,182 @@
+[
+  {
+    "id": "scenario-001",
+    "title": "Iemand verwelkomen",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Easy",
+    "category": "Dagelijks contact",
+    "description": "Leer hoe je iemand vriendelijk verwelkomt in Papiamentu.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-002",
+    "title": "Afscheid nemen",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Easy",
+    "category": "Dagelijks contact",
+    "description": "Leer hoe je op een natuurlijke manier afscheid neemt.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-003",
+    "title": "Jezelf voorstellen",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Easy",
+    "category": "Persoonlijk",
+    "description": "Leer hoe je je naam, woonplaats en achtergrond vertelt.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-004",
+    "title": "Vragen hoe het met iemand gaat",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Easy",
+    "category": "Dagelijks contact",
+    "description": "Leer simpele sociale vragen en antwoorden.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-005",
+    "title": "Boodschappen doen",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Easy",
+    "category": "Winkel",
+    "description": "Leer woorden en zinnen voor de supermarkt of minimarket.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-006",
+    "title": "Eten bestellen",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Easy",
+    "category": "Restaurant",
+    "description": "Leer hoe je eten en drinken bestelt.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-007",
+    "title": "De weg vragen",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Intermediate",
+    "category": "Onderweg",
+    "description": "Leer hoe je vraagt waar iets is en hoe je route-informatie begrijpt.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-008",
+    "title": "Een taxi nemen",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Intermediate",
+    "category": "Transport",
+    "description": "Leer hoe je een taxi vraagt, bestemming noemt en prijs bespreekt.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-009",
+    "title": "Een afspraak maken",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Intermediate",
+    "category": "Praktisch",
+    "description": "Leer hoe je een afspraak plant, verplaatst of bevestigt.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-010",
+    "title": "Bij de dokter",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Intermediate",
+    "category": "Gezondheid",
+    "description": "Leer hoe je klachten uitlegt en medische vragen begrijpt.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-011",
+    "title": "Op school of cursus",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Intermediate",
+    "category": "Onderwijs",
+    "description": "Leer zinnen voor school, cursus, docent en klasgenoten.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-012",
+    "title": "Een gesprek met de buren",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Intermediate",
+    "category": "Wonen",
+    "description": "Leer hoe je vriendelijk en praktisch met buren praat.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-013",
+    "title": "Naar het gemeentehuis",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Hard",
+    "category": "Overheid",
+    "description": "Leer hoe je informatie vraagt over documenten, formulieren en afspraken.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-014",
+    "title": "Een bankrekening openen",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Hard",
+    "category": "Bankzaken",
+    "description": "Leer hoe je bij de bank een afspraak maakt en vraagt naar een rekening.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-015",
+    "title": "Een probleem met internet melden",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Hard",
+    "category": "Service",
+    "description": "Leer hoe je een storing uitlegt en om hulp vraagt.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-016",
+    "title": "Een gesprek met de loodgieter over lekkage",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Hard",
+    "category": "Wonen",
+    "description": "Leer hoe je een lekkage beschrijft en afspraken maakt over reparatie.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-017",
+    "title": "Een auto huren",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Hard",
+    "category": "Transport",
+    "description": "Leer hoe je voorwaarden, prijs, verzekering en schade bespreekt.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-018",
+    "title": "Sollicitatiegesprek",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Native Speaker",
+    "category": "Werk",
+    "description": "Leer hoe je jezelf professioneel presenteert in een gesprek.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-019",
+    "title": "Een klacht indienen",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Native Speaker",
+    "category": "Service",
+    "description": "Leer hoe je beleefd maar duidelijk een probleem of klacht uitlegt.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-020",
+    "title": "Een formeel gesprek voeren",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Native Speaker",
+    "category": "Formeel",
+    "description": "Leer hoe je beleefd, duidelijk en professioneel communiceert.",
+    "status": "outline"
+  }
+]

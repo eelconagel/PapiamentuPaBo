@@ -1,0 +1,73 @@
+{
+  "id": 26,
+  "blok": 3,
+  "titel": "Indirect Object: P'ami, P'abo en de Pa-Constructie",
+  "grammatica": {
+    "uitleg": "Het indirect object (de ontvanger van een actie) wordt in Papiamentu uitgedrukt met 'pa' + persoon. In spreektaal worden deze vormen samengetrokken.\n\nCONTRACTIEVORMEN:\n• pa mi → p'ami (voor mij / aan mij)\n• pa bo → p'abo (voor jou / aan jou)\n• pa e → p'e (voor hem/haar)\n• pa nos → p'anos (voor ons)\n• pa boso → p'aboso (voor jullie)\n• pa nan → p'anan (voor hen)\n\nBASISSTRUCTUUR met indirect object:\n[Subject] + [werkwoord] + [direct object] + pa + [ontvanger]\n• E a da e buki pa mi. (Hij/zij gaf het boek aan mij.)\n• Mi lo manda e pakèt p'abo mayan. (Ik stuur het pakket morgen naar jou.)\n\nKORTE ORDE: werkwoord + indirectobject-klitiek\n• 'Dami' = da + mi (geef mij)\n• 'Trabe p'e' = breng het naar hem/haar\n• 'Munstram' = mustra + mi (laat mij zien)\n\nVEELGEBRUIKTE INDIRECTOBJECT-WERKWOORDEN:\n• Da (geven)\n• Manda (sturen)\n• Mustra (tonen / laten zien)\n• Konta (vertellen)\n• Skribi (schrijven)\n• Trá / Trae (brengen)\n• Papia (praten met iemand)\n• Yama (bellen voor iemand)",
+    "voorbeelden": [
+      { "papiamentu": "Dami un vaso di awa, por fabor.", "vertaling": "Geef mij een glas water, alsjeblieft." },
+      { "papiamentu": "E lo konta e storia p'anos mayan anochi.", "vertaling": "Hij/zij zal ons morgenavond het verhaal vertellen." },
+      { "papiamentu": "Mi a skribi un karta p'e pero e no a respondi.", "vertaling": "Ik schreef hem/haar een brief maar hij/zij reageerde niet." },
+      { "papiamentu": "Mustrami kiko bo a haña na tienda.", "vertaling": "Laat me zien wat jij bij de winkel gevonden hebt." },
+      { "papiamentu": "Manda un mesashi p'abo — yama mi kuantu bo yega.", "vertaling": "Stuur jou een bericht — bel mij als jij aankomt." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "Contractie is sociaal — de niet-gecontraheerde vorm klinkt afstandelijker",
+      "voorbeeld": "'Da pa mi' vs. 'Dami' — 'dami' is warm, direct, ingeburgerd; 'da pa mi' klinkt nadrukkelijker of formeler",
+      "toelichting": "In dagelijks taalgebruik gebruiken native speakers bijna altijd de gecontraheerde vorm. 'Dami', 'trabe p'e', 'kuntam' zijn snelle, vloeiende vormen. De niet-gecontraheerde variant ('da pa mi') gebruik je als je extra nadruk wilt leggen op de ontvanger."
+    },
+    {
+      "nuance": "Dubbele indirect/direct-objectvolgorde — Spaans vs. Papiamentu",
+      "voorbeeld": "'E a da mi e buki' vs. 'E a da e buki pa mi' — beide zijn correct maar het gebruik verschilt",
+      "toelichting": "Bij pronominale ontvangers (mij, jou, hem...) staat het pronoun vaak direct na het werkwoord. Bij nominale ontvangers (Eelco, e mucha...) gebruik je 'pa'. Dit is een subtiel maar consistent patroon."
+    },
+    {
+      "nuance": "'Papia ku' vs. 'papia pa' — met of voor iemand praten",
+      "voorbeeld": "'Papia ku mi' (praat MET mij — gesprek) vs. 'Papia pa mi' (praat VOOR mij — in mijn naam)",
+      "toelichting": "Het voorzetsel bepaalt de relatie: 'ku' = samen, 'pa' = ten behoeve van. 'Papia pa mi' betekent dat iemand in jouw naam spreekt — als vertegenwoordiger. Dit verschil is functioneel en dagelijks relevant."
+    },
+    {
+      "nuance": "Yama p'ami / Yama mi — beide correct, subtiel verschil",
+      "voorbeeld": "'Yama mi' (bel mij) vs. 'Yama p'ami' (bel voor mij / bel in mijn voordeel)",
+      "toelichting": "'Yama mi' is de meest directe 'bel mij'-instructie. 'Yama p'ami' heeft een iets meer indirecte toon — alsof je vraagt dat er voor jou gebeld wordt. In praktijk worden ze door native speakers door elkaar gebruikt."
+    }
+  ],
+  "woorden": [
+    { "woord": "P'ami", "uitspraak": "pa-mie", "vertaling": "Voor mij / aan mij (pa + mi)" },
+    { "woord": "P'abo", "uitspraak": "pa-bo", "vertaling": "Voor jou / aan jou (pa + bo)" },
+    { "woord": "Da", "uitspraak": "da", "vertaling": "Geven" },
+    { "woord": "Manda", "uitspraak": "man-da", "vertaling": "Sturen / verzenden" },
+    { "woord": "Mustra", "uitspraak": "mus-tra", "vertaling": "Tonen / laten zien" },
+    { "woord": "Konta", "uitspraak": "kon-ta", "vertaling": "Vertellen / rekenen / tellen" },
+    { "woord": "Skribi", "uitspraak": "skrie-bie", "vertaling": "Schrijven" },
+    { "woord": "Trae", "uitspraak": "tra-e", "vertaling": "Brengen / meenemen" },
+    { "woord": "Mesashi", "uitspraak": "me-sa-shi", "vertaling": "Bericht / boodschap" },
+    { "woord": "Karta", "uitspraak": "kar-ta", "vertaling": "Brief / kaart" }
+  ],
+  "culturele_context": "Op Curaçao is het geven ('da') een sociale act. 'Dami' is niet alleen een verzoek maar een vertrouwensgebaar — je vraagt iemand iets te doen voor jou. De wederkerigheid ('solidaridad') is verwacht: wat jij geeft, krijg je terug.\n\nBrieven schrijven ('skribi karta') was vroeger een grote sociale activiteit op het eiland. Voor telefoon en internet was de brief de verbinding met familieleden elders. Nu is het de 'mesashi' (bericht) via telefoon — maar de emotionele lading is gelijk.\n\nVerhalen vertellen ('konta historia') is een kernactiviteit in de Curaçaose cultuur. 'Kont'ami un storia' (vertel me een verhaal) opent een wereld. De indirectobjectconstructie is hier de sleutel — jij, de toehoorder, bent de ontvanger van de verhaalervaring.",
+  "scenario_links": ["scenario-008", "scenario-013"],
+  "eindoefening": [
+    { "vraag": "Hoe zeg je 'voor mij' in de gecontraheerde vorm?", "opties": ["P'ami", "Pa mi", "Mi pa", "P'e mi"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Geef mij een glas water'?", "opties": ["Dami un vaso di awa", "Da p'ami un vaso di awa", "Da un vaso di awa p'ami", "Alle drie zijn correct"], "correct": 3 },
+    { "vraag": "Hoe zeg je 'Ik stuur het pakket naar jou'?", "opties": ["Mi lo manda e pakèt p'abo", "Mi lo manda p'abo e pakèt", "E pakèt mi lo manda p'abo", "Beide a en b zijn correct"], "correct": 3 },
+    { "vraag": "Wat is het verschil tussen 'papia ku mi' en 'papia pa mi'?", "opties": ["'ku mi' = met mij praten; 'pa mi' = in mijn naam praten", "Ze zijn hetzelfde", "'ku mi' is formeler", "'pa mi' is altijd voor gesprekken"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Laat me zien'?", "opties": ["Mustrami", "Mustra pa mi", "Mustra mi", "Alle drie zijn correct"], "correct": 3 },
+    { "vraag": "Wat is 'konta'?", "opties": ["Vertellen / tellen", "Schrijven", "Sturen", "Geven"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Hij/zij vertelt ons het verhaal'?", "opties": ["E ta konta e historia p'anos", "E ta konta p'anos e historia", "Beide zijn correct", "Geen van beide"], "correct": 2 },
+    { "vraag": "Hoe zeg je 'voor hen'?", "opties": ["P'anan", "Pa nan", "P'e nan", "Pa e nan"], "correct": 0 },
+    { "vraag": "Wanneer gebruik je 'pa' i.p.v. de gecontraheerde vorm?", "opties": ["Bij nominale ontvangers (namen, beschrijvingen): 'da pa Eelco'", "Altijd", "Nooit — altijd contractie", "Alleen in formele tekst"], "correct": 0 },
+    { "vraag": "Wat is 'skribi'?", "opties": ["Schrijven", "Lezen", "Tekenen", "Versturen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik schreef hem een brief'?", "opties": ["Mi a skribi un karta p'e", "Mi a skribi p'e un karta", "Beide zijn correct", "Geen van beide"], "correct": 2 },
+    { "vraag": "Wat is 'trae'?", "opties": ["Brengen / meenemen", "Sturen", "Geven", "Laten"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Bel mij als jij aankomt'?", "opties": ["Yama mi kuantu bo yega", "Yama p'ami kuantu bo yega", "Beide zijn correct", "Geen van beide"], "correct": 2 },
+    { "vraag": "Hoe zeg je 'Stuur mij een bericht'?", "opties": ["Manda un mesashi p'ami", "Manda p'ami un mesashi", "Beide zijn correct", "Geen van beide"], "correct": 2 },
+    { "vraag": "Wat is 'mesashi'?", "opties": ["Bericht / boodschap", "Pakket", "Brief", "Cadeau"], "correct": 0 },
+    { "vraag": "Wat is 'karta'?", "opties": ["Brief / kaart", "Bericht", "Pakket", "Document"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'voor ons'?", "opties": ["P'anos", "Pa nos", "P'e nos", "Nos pa"], "correct": 0 },
+    { "vraag": "Hoe klinkt de niet-gecontraheerde vorm 'da pa mi' tegenover 'dami'?", "opties": ["Nadrukkelijker of afstandelijker dan het directe 'dami'", "Vriendelijker", "Informeler", "Er is geen verschil"], "correct": 0 },
+    { "vraag": "Wat is 'manda'?", "opties": ["Sturen / verzenden", "Geven", "Brengen", "Ontvangen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Hij/zij gaf het boek aan mij'?", "opties": ["E a da e buki pa mi", "E a da mi e buki", "Beide zijn correct", "Geen van beide"], "correct": 2 }
+  ]
+}

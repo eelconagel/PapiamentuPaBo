@@ -1,0 +1,73 @@
+{
+  "id": 11,
+  "blok": 2,
+  "titel": "Meervoud: De '-nan' logica en uitzonderingen",
+  "grammatica": {
+    "uitleg": "Meervoud vormen in Papiamentu is eenvoudig: voeg '-nan' toe aan het zelfstandig naamwoord. Maar er zijn nuances die de taal rijker maken.\n\nDE BASISREGEL:\nZelfstandig naamwoord + -nan = meervoud\n• Mucha → Muchanam (kinderen) — let op: 'muchanan'\n• Kas → Kasnan (huizen)\n• Outo → Outonan (auto's)\n• Palabra → Palabranan (woorden)\n\nUITZONDERINGEN EN NUANCES:\n1. TELBARE vs. ONTELBARE ZAKEN: Ontelbare zaken (awa = water, plaka = geld) krijgen nooit -nan.\n2. AL MEERVOUD DOOR CONTEXT: Als het getal of een aanduiding al meervoud impliceert, is -nan optioneel:\n   'Tres outo' (drie auto's) — -nan is overbodig maar niet fout.\n3. VOORNAAMWOORDEN: Krijgen geen -nan. Nan is zelf al meervoud.\n4. LIDWOORD 'E': Het bepaald lidwoord 'e' is hetzelfde voor enkelvoud en meervoud:\n   E mucha ta bon. (Het kind is goed.) / E muchanan ta bon. (De kinderen zijn goed.)",
+    "voorbeelden": [
+      { "papiamentu": "E kasnan na mi strea ta kolorá", "vertaling": "De huizen in mijn straat zijn kleurrijk" },
+      { "papiamentu": "Tur e muchanan ta drumi", "vertaling": "Alle kinderen slapen" },
+      { "papiamentu": "Mi tin hopi amigunan na Kòrsou", "vertaling": "Ik heb veel vrienden op Curaçao" },
+      { "papiamentu": "E palabranan ta difísil", "vertaling": "De woorden zijn moeilijk" },
+      { "papiamentu": "Nos ta bai na tres tiendanan diferente", "vertaling": "Wij gaan naar drie verschillende winkels" }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'-nan' klinkt als '-nán' met lichte nasale klemtoon",
+      "voorbeeld": "'muchaNAN', 'kasNAN' — de -nan is duidelijk hoorbaar maar niet overdreven",
+      "toelichting": "In snelle spreektaal kan -nan soms kort worden uitgesproken. Train je oor om de -nan te herkennen — het is het signaal dat je over meerdere dingen spreekt."
+    },
+    {
+      "nuance": "'Tur' + meervoud voor 'alle'",
+      "voorbeeld": "'Tur e muchanan' (alle kinderen) — 'tur' versterkt het meervoud zonder 'nan' overbodig te maken",
+      "toelichting": "'Tur' (alles/alle) gecombineerd met -nan is de manier om een uitputtende meervoudsvorm uit te drukken. 'Tur kos' (alles) is een veelgebruikt uitdrukking."
+    },
+    {
+      "nuance": "Meervoud van familieleden",
+      "voorbeeld": "'Mi tata' (mijn vader) → 'mi tata ku mama' — maar ook: 'mi mayornan' (mijn ouders/voorouders)",
+      "toelichting": "Sommige meervoudsvormen van familieleden zijn idiomatisch. 'Mayornan' betekent 'ouders' of 'oudsten' — niet 'opa's en oma's'. Leer deze als vaste combinaties."
+    },
+    {
+      "nuance": "Geen meervoud bij 'plaka' en 'awa'",
+      "voorbeeld": "'Hopi plaka' (veel geld) — NIET 'hopi plakanan' | 'Bastante awa' (genoeg water) — NIET 'bastante awanan'",
+      "toelichting": "Massanaamwoorden (stoffen, vloeistoffen, abstracte begrippen) krijgen nooit -nan. De hoeveelheid wordt aangegeven met 'hopi' (veel), 'poko' (weinig) of 'bastante' (genoeg)."
+    }
+  ],
+  "woorden": [
+    { "woord": "-nan", "uitspraak": "nan", "vertaling": "Meervoudsuitgang (aan einde van zelfstandig naamwoord)" },
+    { "woord": "Tur", "uitspraak": "toer", "vertaling": "Alle / alles / ieder" },
+    { "woord": "Hopi", "uitspraak": "ho-pie", "vertaling": "Veel / heel / erg" },
+    { "woord": "Poko", "uitspraak": "po-ko", "vertaling": "Weinig / een beetje" },
+    { "woord": "Bastante", "uitspraak": "bas-tan-te", "vertaling": "Genoeg / voldoende" },
+    { "woord": "Diferente", "uitspraak": "die-fe-ren-te", "vertaling": "Verschillend / anders" },
+    { "woord": "Tienda", "uitspraak": "tien-da", "vertaling": "Winkel" },
+    { "woord": "Kolorá", "uitspraak": "ko-lo-ra", "vertaling": "Kleurrijk / gekleurd" },
+    { "woord": "Difísil", "uitspraak": "die-fie-sil", "vertaling": "Moeilijk" },
+    { "woord": "Mayornan", "uitspraak": "ma-jor-nan", "vertaling": "Ouders / oudsten" }
+  ],
+  "culturele_context": "Meervoudsvorming in Papiamentu is democratisch: één achtervoegsel voor alles. Dit weerspiegelt de taalfilosofie van inclusiviteit en toegankelijkheid. Er zijn geen onregelmatige meervoudsvormen zoals in het Nederlands (kind/kinderen, huis/huizen).\n\n'Amigunan' (vrienden) is op Curaçao een bijzonder woord. Vriendschappen op het eiland zijn diep en duurzaam. Iemand introduceren als 'mi amigo' is een serieuze verklaring — het impliceert vertrouwen, loyaliteit en beschikbaarheid.\n\n'Mayornan' (ouders/oudsten) verdient bijzondere aandacht. In de Curaçaose cultuur worden ouders en ouderen met groot respect behandeld. 'Mi majornan' aanroepen geeft gewicht aan wat je zegt.",
+  "scenario_links": ["scenario-003", "scenario-004"],
+  "eindoefening": [
+    { "vraag": "Hoe vorm je meervoud in Papiamentu?", "opties": ["Voeg -nan toe aan het zelfstandig naamwoord", "Voeg -s toe, net als in het Nederlands", "Verander de klinker in het woord", "Gebruik een apart meervoudswoord ervoor"], "correct": 0 },
+    { "vraag": "Wat is het meervoud van 'kas'?", "opties": ["Kasnan", "Kassen", "Kas-nan", "Kases"], "correct": 0 },
+    { "vraag": "Wat is het meervoud van 'mucha'?", "opties": ["Muchanan", "Muchas", "Muchan", "Muchain"], "correct": 0 },
+    { "vraag": "Krijgt 'awa' (water) een meervoudsvorm?", "opties": ["Nee — awa is een massanaamwoord", "Ja: awanan", "Ja: awas", "Soms, als je veel water bedoelt"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Alle kinderen slapen'?", "opties": ["Tur e muchanan ta drumi", "Tur mucha ta drumi", "E muchanan tur ta drumi", "Muchanan ta drumi tur"], "correct": 0 },
+    { "vraag": "Wat betekent 'hopi amigunan'?", "opties": ["Veel vrienden", "Beste vrienden", "Goede vrienden", "Alle vrienden"], "correct": 0 },
+    { "vraag": "Is '-nan' bij 'tres outo' verplicht?", "opties": ["Nee — optioneel, want het getal impliceert al meervoud", "Ja — altijd verplicht", "Alleen bij getallen boven 10", "Nooit bij getallen"], "correct": 0 },
+    { "vraag": "Wat is het meervoud van 'palabra'?", "opties": ["Palabranan", "Palabras", "Palabran", "Palabrae"], "correct": 0 },
+    { "vraag": "Wat betekent 'tur kos'?", "opties": ["Alles", "Alle dingen apart", "Alle mensen", "Elke keer"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'genoeg geld' (massanaamwoord)?", "opties": ["Bastante plaka", "Bastante plakanan", "Hopi plakanan", "Poko plakanan"], "correct": 0 },
+    { "vraag": "Verandert het lidwoord 'e' bij meervoud?", "opties": ["Nee — 'e' is hetzelfde voor enkelvoud en meervoud", "Ja: 'e' wordt 'es'", "Ja: 'e' wordt 'nan'", "Er is geen lidwoord bij meervoud"], "correct": 0 },
+    { "vraag": "Wat betekent 'mayornan'?", "opties": ["Ouders / oudsten", "Ouderen in het algemeen", "Grootouders", "Bazen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De huizen in mijn straat zijn kleurrijk'?", "opties": ["E kasnan na mi strea ta kolorá", "E kas na mi strea ta kolorá", "Kasnan mi strea ta kolorá", "E kolorá kasnan na mi strea"], "correct": 0 },
+    { "vraag": "Wat is 'diferente'?", "opties": ["Verschillend / anders", "Bijzonder", "Nieuw", "Oud"], "correct": 0 },
+    { "vraag": "Wat is 'tienda'?", "opties": ["Winkel", "Markt", "Toko", "Supermarkt"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'een beetje' in Papiamentu?", "opties": ["Poko", "Hopi", "Bastante", "Nada"], "correct": 0 },
+    { "vraag": "Welke zin is CORRECT?", "opties": ["Mi tin hopi amigunan na Kòrsou", "Mi tin hopi amigos na Kòrsou", "Mi tin hopi amigunan's na Kòrsou", "Mi tin amigunan hopi na Kòrsou"], "correct": 0 },
+    { "vraag": "Wat is 'difísil'?", "opties": ["Moeilijk", "Gemakkelijk", "Onmogelijk", "Saai"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De woorden zijn moeilijk'?", "opties": ["E palabranan ta difísil", "E palabra ta difísil", "Palabranan difísil ta", "E difísil palabranan ta"], "correct": 0 },
+    { "vraag": "Wat maakt meervoud in Papiamentu democratisch?", "opties": ["Één achtervoegsel voor alles — geen onregelmatige vormen", "Elk woord heeft een eigen meervoud", "Meervoud is altijd optioneel", "Elk woord verliest de laatste klinker"], "correct": 0 }
+  ]
+}

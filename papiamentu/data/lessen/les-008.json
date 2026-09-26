@@ -1,0 +1,73 @@
+{
+  "id": 8,
+  "blok": 1,
+  "titel": "De 'ta' als Aspect-marker: Acties die nu gebeuren",
+  "grammatica": {
+    "uitleg": "Je kent 'ta' al als copula ('zijn') en als tegenwoordige tijdsmarker. In deze les verdiep je je in de aspect-dimensie van 'ta': hoe het onderscheid maakt tussen wat NU GAANDE is en wat als GEWOONTE of FEIT geldt.\n\nASPECT vs. TIJD:\nIn Papiamentu is 'aspect' (de aard van de actie) minstens zo belangrijk als 'tijd' (wanneer de actie plaatsvindt). 'Ta' drukt uit dat iets:\n1. NU AAN DE GANG is: Mi ta kome. (Ik ben nu aan het eten.)\n2. EEN GEWOONTE is: Mi ta kome tempran. (Ik eet vroeg — gewoonlijk.)\n3. EEN FEIT of STAAT is: Awa ta nesesario. (Water is noodzakelijk.)\n\nHET VERSCHIL MET VERLEDEN EN TOEKOMST:\nAanvulling voor later: 'a' voor voltooide acties (les 21) en 'lo' voor plannen (les 22). Maar de basislogica is: zonder tijdsmarkering = 'ta' = heden/gewoonte.\n\nTA + PROGRESSIEF BEGRIP:\nPartikel 'staba' of context maakt een lopende actie extra duidelijk, maar in dagelijkse spraak is 'ta' voldoende voor 'bezig zijn met'.",
+    "voorbeelden": [
+      { "papiamentu": "Mi ta studia Papiamentu awor", "vertaling": "Ik studeer/ben nu Papiamentu aan het studeren" },
+      { "papiamentu": "E ta yora", "vertaling": "Hij/zij huilt (nu, op dit moment)" },
+      { "papiamentu": "Awa ta kore for di e grifo", "vertaling": "Water stroomt uit de kraan (lopende situatie)" },
+      { "papiamentu": "Mi ta kome karni tur siman", "vertaling": "Ik eet elke week vlees (gewoonte)" },
+      { "papiamentu": "E solo ta kalienta nos", "vertaling": "De zon warmt ons op (feit/staat)" }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "Context bepaalt of het 'nu' of 'gewoonlijk' is",
+      "voorbeeld": "'Mi ta kome' kan zijn: ik eet nu (progressief) OF ik eet regelmatig (gewoonte) — 'awor' of 'tur dia' verduidelijkt",
+      "toelichting": "In Papiamentu is deze ambiguïteit geen probleem — de context doet het werk. Native speakers voegen alleen 'awor' (nu) of 'tur dia' (elke dag) toe als verduidelijking echt nodig is."
+    },
+    {
+      "nuance": "'Ta' bij een beschrijving van een lopende situatie",
+      "voorbeeld": "'E awa ta kore' (het water stroomt) — dit is een situatie in gang, niet een actie van een persoon",
+      "toelichting": "Ook bij niet-persoonlijke onderwerpen werkt 'ta' als aspect-marker. Dit is anders dan in het Nederlands, waar je 'het water stroomt' (geen progressief) en 'het water is aan het stromen' (progressief) onderscheidt."
+    },
+    {
+      "nuance": "Dubbele 'ta' bij geneste constructies",
+      "voorbeeld": "'Mi ta wak kon e ta hasi esei.' (Ik kijk hoe hij/zij dat doet.)",
+      "toelichting": "In samengestelde zinnen kan 'ta' meerdere keren voorkomen — één per werkwoord. Dit is correct en normaal. Schrik niet van de herhaling."
+    },
+    {
+      "nuance": "Spreektaal: 'staba' voor een actie die al een tijdje bezig is",
+      "voorbeeld": "'Mi staba kome ora bo yama.' (Ik was aan het eten toen jij belde.)",
+      "toelichting": "'Staba' combineert de imperfectieve aspect-markering (lopende actie) met een verleden tijdscontext. Je komt dit in les 21 uitgebreider tegen, maar je hoort het al vroeg in dagelijks taalgebruik."
+    }
+  ],
+  "woorden": [
+    { "woord": "Studia", "uitspraak": "stoe-dia", "vertaling": "Studeren / leren" },
+    { "woord": "Yora", "uitspraak": "jo-ra", "vertaling": "Huilen" },
+    { "woord": "Kore", "uitspraak": "ko-re", "vertaling": "Rennen / stromen / lopen (snel)" },
+    { "woord": "Grifo", "uitspraak": "grie-fo", "vertaling": "Kraan (water)" },
+    { "woord": "Kalienta", "uitspraak": "ka-lien-ta", "vertaling": "Verwarmen / opwarmen" },
+    { "woord": "Tur siman", "uitspraak": "toer sie-man", "vertaling": "Elke week" },
+    { "woord": "Tempran", "uitspraak": "tem-pran", "vertaling": "Vroeg" },
+    { "woord": "Tardi", "uitspraak": "tar-die", "vertaling": "Laat / middag" },
+    { "woord": "Nesesario", "uitspraak": "ne-se-sa-rio", "vertaling": "Noodzakelijk" },
+    { "woord": "Staba", "uitspraak": "sta-ba", "vertaling": "Was (aan het) — imperfectief verleden" }
+  ],
+  "culturele_context": "Het aspect-systeem van Papiamentu weerspiegelt een taalfilosofie die gericht is op de aard en staat van handelingen, niet alleen op wanneer ze plaatsvinden. Dit is een creooltaalkenmerk dat teruggaat op Afrikaanse en Iberische taalstructuren.\n\nOp Curaçao is 'tempran' (vroeg) een waardevol begrip. Vroeg beginnen — voor de hitte van de dag, voor de drukte van de markt — is praktisch en cultureel verankerd. 'Mi ta traha tempran' is niet alleen een mededeling, het is een levensinstelling.\n\nDe manier waarop Papiamentu tijd en aspect verwerkt, laat zien dat de taal is gevormd door mensen die leefden in het moment. De nadruk op 'wat er nu gaande is' past bij de directe, aanwezige sociale cultuur van het eiland.",
+  "scenario_links": ["scenario-001", "scenario-016"],
+  "eindoefening": [
+    { "vraag": "Wat is het verschil tussen 'aspect' en 'tijd' in Papiamentu?", "opties": ["Aspect beschrijft de aard van de actie, tijd wanneer die plaatsvindt", "Aspect en tijd zijn hetzelfde", "Tijd is belangrijk, aspect niet", "Aspect geldt alleen voor verleden tijd"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik ben nu Papiamentu aan het studeren'?", "opties": ["Mi ta studia Papiamentu awor", "Mi studia Papiamentu ta awor", "Awor ta mi studia Papiamentu", "Mi ta staba studia Papiamentu"], "correct": 0 },
+    { "vraag": "Wat drukt 'ta' uit bij gewoonteacties?", "opties": ["Dat iets regelmatig of gewoonlijk gebeurt", "Dat iets morgen gaat gebeuren", "Dat iets gisteren is gebeurd", "Dat iets verplicht is"], "correct": 0 },
+    { "vraag": "Wat betekent 'E ta yora'?", "opties": ["Hij/zij huilt (nu)", "Hij/zij huilde gisteren", "Hij/zij gaat huilen", "Hij/zij had gehuild"], "correct": 0 },
+    { "vraag": "Hoe verduidelijk je dat een actie nu gaande is?", "opties": ["Door 'awor' (nu) toe te voegen aan de zin", "Door 'ta' te herhalen", "Door het werkwoord te veranderen", "Door intonatie te verhogen"], "correct": 0 },
+    { "vraag": "Wat is 'grifo'?", "opties": ["Kraan (water)", "Gat", "Leiding", "Pomp"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik eet elke week vlees'?", "opties": ["Mi ta kome karni tur siman", "Mi kome karni tur siman ta", "Tur siman ta mi kome karni", "Mi ta kome tur siman karni"], "correct": 0 },
+    { "vraag": "Wat is 'staba'?", "opties": ["Was (aan het) — imperfectief verleden", "Is (aan het) — heden", "Zal (gaan) — toekomst", "Heeft — voltooid"], "correct": 0 },
+    { "vraag": "Wat betekent 'Mi ta kome tempran'?", "opties": ["Ik eet vroeg (gewoonte)", "Ik eet nu vroeg", "Ik at vroeg (verleden)", "Ik zal vroeg eten"], "correct": 0 },
+    { "vraag": "Is 'Mi ta kome' progressief of habitueel?", "opties": ["Kan beide zijn — context maakt het duidelijk", "Altijd progressief", "Altijd habitueel", "Afhankelijk van het werkwoord"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De zon warmt ons op'?", "opties": ["E solo ta kalienta nos", "E solo kalienta ta nos", "Nos ta kalienta e solo", "E solo ta warm nos"], "correct": 0 },
+    { "vraag": "Wat is 'tempran'?", "opties": ["Vroeg", "Laat", "Nu", "Snel"], "correct": 0 },
+    { "vraag": "Hoe gebruik je 'ta' bij een niet-persoonlijk onderwerp?", "opties": ["Precies hetzelfde als bij een persoon: 'E awa ta kore'", "Je gebruikt dan 'ta' niet", "Je gebruikt 'ta' alleen bij mensen", "Je verandert 'ta' in 'tin'"], "correct": 0 },
+    { "vraag": "Wat is de betekenis van 'Mi staba kome ora bo yama'?", "opties": ["Ik was aan het eten toen jij belde", "Ik eet als jij belt", "Ik ga eten nadat jij belt", "Ik had gegeten voordat jij belde"], "correct": 0 },
+    { "vraag": "Wat betekent 'nesesario'?", "opties": ["Noodzakelijk", "Normaal", "Moeilijk", "Mogelijk"], "correct": 0 },
+    { "vraag": "Wanneer voegen native speakers 'awor' toe?", "opties": ["Als verduidelijking echt nodig is — anders doet context het werk", "Altijd, bij elke progressieve zin", "Nooit — dat is overbodig", "Alleen in formele tekst"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Rennen / stromen'?", "opties": ["Kore", "Bai", "Sali", "Move"], "correct": 0 },
+    { "vraag": "Wat is 'tur siman'?", "opties": ["Elke week", "Elke dag", "Elke maand", "Alle weken samen"], "correct": 0 },
+    { "vraag": "Is dubbele 'ta' in één zin fout?", "opties": ["Nee, bij geneste werkwoorden is het correct", "Ja, altijd fout", "Alleen toegestaan in informele tekst", "Alleen bij vraagzinnen"], "correct": 0 },
+    { "vraag": "Wat is het culturele belang van 'tempran' op Curaçao?", "opties": ["Vroeg beginnen is praktisch en cultureel verankerd — voor hitte en drukte", "Het is alleen een grammaticaal concept", "Het verwijst naar vroeger tijden", "Het betekent niets cultureel"], "correct": 0 }
+  ]
+}

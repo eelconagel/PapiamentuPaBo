@@ -1,0 +1,73 @@
+{
+  "id": 3,
+  "blok": 1,
+  "titel": "Het werkwoord 'Bai': Beweging en richting",
+  "grammatica": {
+    "uitleg": "'Bai' betekent 'gaan' en is een van de meest veelzijdige woorden in Papiamentu. Het beschrijft niet alleen fysieke beweging — het zit ook verankerd in een van de meest gebruikte begroetingen van het eiland.\n\nGebruik van 'bai':\n\n1. BEWEGING/RICHTING: Mi ta bai playa. (Ik ga naar het strand.)\n2. BESTEMMING met 'na': Formeel gebruik je 'na' als voorzetsel voor plaatsen.\n   Mi ta bai na merkado. (Ik ga naar de markt.)\n3. BESTEMMING zonder 'na': In gesproken taal valt 'na' voor bekende plaatsen vaak weg.\n   Mi ta bai merkado. (Ik ga naar de markt.)\n4. IDIOMATISCH: 'Kon ta bai?' is geen letterlijke vraag over gaan — het is de standaard begroeting 'Hoe gaat het?'\n5. AFSCHEID: 'Bai!' of 'Bai, te aworó!' als informeel afscheid.\n\nBelangrijk: 'bai' combineert altijd met 'ta' in de tegenwoordige tijd. De volgorde is: Subject + ta + bai + (na) + bestemming.",
+    "voorbeelden": [
+      { "papiamentu": "Mi ta bai kas awor", "vertaling": "Ik ga nu naar huis" },
+      { "papiamentu": "Kon ta bai?", "vertaling": "Hoe gaat het? (letterlijk: hoe gaat het ernaartoe?)" },
+      { "papiamentu": "Nos ta bai na beach Djadomingo", "vertaling": "Wij gaan zondag naar het strand" },
+      { "papiamentu": "E ta bai trabou kada mainta", "vertaling": "Hij/zij gaat elke ochtend naar het werk" },
+      { "papiamentu": "Bai! Te mayan.", "vertaling": "Doei! Tot morgen." }
+    ]
+  },
+  "e_asina_ta": [
+    {
+      "nuance": "'na' valt weg voor bekende plaatsnamen",
+      "voorbeeld": "Formeel: 'Mi ta bai na Willemstad' → Spreektaal: 'Mi ta bai Willemstad'",
+      "toelichting": "Dit is de meest voorkomende spreektaalregel bij 'bai'. Native speakers laten 'na' bijna altijd weg voor bekende locaties. In geschreven tekst of formele context gebruik je 'na' wél."
+    },
+    {
+      "nuance": "'Bai!' als interjection en afscheid",
+      "voorbeeld": "'Bai, nos ta papia mayan!' (Doei, we spreken morgen!)",
+      "toelichting": "'Bai' kan op zichzelf staan als informeel afscheid — vergelijkbaar met 'bye' in het Engels. Dit is spontaan en hartelijk, niet onbeleefd."
+    },
+    {
+      "nuance": "'Kon ta bai?' is een idioom, geen letterlijke vraag",
+      "voorbeeld": "Iemand die 'kon ta bai?' vraagt, vraagt niet waar je naartoe gaat.",
+      "toelichting": "Dit is de standaardbegroeting op Curaçao. Het antwoord is 'Mi ta bon, danki. I bo?' — niet een uitleg over je bestemming. Behandel het als 'Hoe gaat het?'"
+    },
+    {
+      "nuance": "'Ta bai' kan ook intentie uitdrukken",
+      "voorbeeld": "'Mi ta bai studia awe nochi.' (Ik ga vanavond studeren — intentie, niet letterlijk beweging)",
+      "toelichting": "Net als 'going to' in het Engels kan 'ta bai' een voornemen uitdrukken. Dit staat los van de toekomst-marker 'lo' — het voelt concreter en onmiddellijker."
+    }
+  ],
+  "woorden": [
+    { "woord": "Bai", "uitspraak": "bai", "vertaling": "Gaan" },
+    { "woord": "Kas", "uitspraak": "kas", "vertaling": "Huis / thuis" },
+    { "woord": "Trabou", "uitspraak": "tra-bou", "vertaling": "Werk / werkplek" },
+    { "woord": "Mainta", "uitspraak": "main-ta", "vertaling": "Ochtend" },
+    { "woord": "Nochi", "uitspraak": "no-chi", "vertaling": "Nacht / avond" },
+    { "woord": "Kada", "uitspraak": "ka-da", "vertaling": "Elk / iedere" },
+    { "woord": "Mayan", "uitspraak": "ma-jan", "vertaling": "Morgen" },
+    { "woord": "Te aworó", "uitspraak": "te a-wo-ro", "vertaling": "Tot straks / tot later" },
+    { "woord": "Playa", "uitspraak": "pla-ja", "vertaling": "Strand" },
+    { "woord": "Merkado", "uitspraak": "mer-ka-do", "vertaling": "Markt" }
+  ],
+  "culturele_context": "Op Curaçao is 'Kon ta bai?' meer dan een vraag — het is een sociale handeling. Je erkent de ander, je stelt je open, je toont interesse. De begroeting zelf is het antwoord. Wie 'Kon ta bai?' zegt, zegt eigenlijk: 'Jij telt voor mij.'\n\nHet strand ('playa') duikt op in veel dagelijkse gesprekken. 'Mi ta bai playa' is op Curaçao net zo gewoon als 'ik ga naar de supermarkt' in Nederland. De zee is geen vakantiebestemming — het is onderdeel van het dagelijkse leven.\n\nAfscheid nemen op Curaçao is hartelijk en soms uitgebreid. 'Bai!' kan gevolgd worden door 'Kuidá bo kurpa!' (Pas goed op jezelf!), 'Dios ta ku bo' (God zij met je) of een simpele 'Te mayan'. De intensiteit past zich aan de relatie aan.",
+  "scenario_links": ["scenario-001", "scenario-003"],
+  "eindoefening": [
+    { "vraag": "Wat betekent 'bai' in Papiamentu?", "opties": ["Gaan", "Komen", "Blijven", "Rennen"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik ga naar huis'?", "opties": ["Mi ta bai kas", "Mi bai ta kas", "Mi ta gaan kas", "Kas mi ta bai"], "correct": 0 },
+    { "vraag": "Wat is 'Kon ta bai?' in het Nederlands?", "opties": ["Hoe gaat het?", "Waar ga je heen?", "Wanneer ga je?", "Hoe ga je daarheen?"], "correct": 0 },
+    { "vraag": "Hoe valt 'na' weg in spreektaal?", "opties": ["'Mi ta bai Willemstad' i.p.v. 'Mi ta bai na Willemstad'", "'Mi bai Willemstad' i.p.v. 'Mi ta bai na Willemstad'", "'Mi ta Willemstad' i.p.v. 'Mi ta bai na Willemstad'", "'Willemstad mi ta bai' i.p.v. 'Mi ta bai na Willemstad'"], "correct": 0 },
+    { "vraag": "Hoe gebruik je 'bai' als afscheid?", "opties": ["'Bai!' of 'Bai, te aworó!'", "'Bai, mi ta gaan!'", "'No bai!'", "'Ta bai!'"], "correct": 0 },
+    { "vraag": "Wat is 'kas'?", "opties": ["Huis / thuis", "Kas (kassa)", "Kaas", "Stad"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Wij gaan zondag naar het strand'?", "opties": ["Nos ta bai na beach Djadomingo", "Nos bai beach Djadomingo", "Nos ta gaan playa Djadomingo", "Djadomingo nos bai beach ta"], "correct": 0 },
+    { "vraag": "Wat is de juiste woordvolgorde met 'bai'?", "opties": ["Subject + ta + bai + bestemming", "Subject + bai + ta + bestemming", "Ta + subject + bai + bestemming", "Bestemming + subject + ta + bai"], "correct": 0 },
+    { "vraag": "Wat betekent 'te aworó'?", "opties": ["Tot straks / tot later", "Nu meteen", "Morgen", "Gisteren"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Zij gaat elke ochtend naar het werk'?", "opties": ["E ta bai trabou kada mainta", "E bai trabou kada mainta ta", "Ela ta bai trabou elke mainta", "E ta gaan trabou kada mainta"], "correct": 0 },
+    { "vraag": "Wat is de spreektaalversie van 'Mi ta bai na merkado'?", "opties": ["Mi ta bai merkado", "Mi bai merkado", "Mi ta merkado", "Merkado mi ta bai"], "correct": 0 },
+    { "vraag": "Wat betekent 'mayan'?", "opties": ["Morgen", "Gisteren", "Vandaag", "Overmorgen"], "correct": 0 },
+    { "vraag": "'Mi ta bai studia awe nochi' — wat drukt dit uit?", "opties": ["Een voornemen/intentie voor vanavond", "Een verplichting", "Een verleden actie", "Een toekomstige wens"], "correct": 0 },
+    { "vraag": "Wat betekent 'kada'?", "opties": ["Elk / iedere", "Soms", "Nooit", "Altijd"], "correct": 0 },
+    { "vraag": "Wat is 'playa'?", "opties": ["Strand", "Zee", "Zon", "Zand"], "correct": 0 },
+    { "vraag": "Hoe antwoord je op 'Kon ta bai?'", "opties": ["Mi ta bon, danki. I bo?", "Mi ta bai na kas.", "Bon, mi ta bai Willemstad.", "No sabi unda mi ta bai."], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Doei, tot morgen'?", "opties": ["Bai, te mayan!", "Bai, mayan ta!", "Bai, awo!", "Mayan bai!"], "correct": 0 },
+    { "vraag": "Waarom valt 'na' weg voor plaatsnamen in spreektaal?", "opties": ["Bekende plaatsen zijn duidelijk zonder voorzetsel", "Na is altijd optioneel", "Na wordt vervangen door 'di'", "Het is een grammaticale fout die wordt getolereerd"], "correct": 0 },
+    { "vraag": "Wat is 'trabou'?", "opties": ["Werk / werkplek", "Werken (werkwoord)", "Werkgever", "Alles bovenstaande"], "correct": 3 },
+    { "vraag": "Welk afscheid is het meest hartelijk op Curaçao?", "opties": ["Kuidá bo kurpa! (Pas goed op jezelf!)", "Bai.", "Ayó.", "Te aworó."], "correct": 0 }
+  ]
+}

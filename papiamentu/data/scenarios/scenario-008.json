@@ -1,0 +1,110 @@
+{
+  "id": "scenario-008",
+  "title": "Een taxi nemen",
+  "difficulty": "Intermediate",
+  "category": "Transport",
+  "intro": "Je hebt een gezellige avond gehad in Pietermaai en je auto staat bij het hotel. Je stapt op een taxichauffeur (koredor) af om een ritprijs af te spreken.",
+  "introWords": [
+    { "papiamentu": "Koredor", "dutch": "Chauffeur / Bestuurder", "pronunciation": "ko-re-DOR" },
+    { "papiamentu": "Plaka", "dutch": "Geld", "pronunciation": "PLA-ka" },
+    { "papiamentu": "Warda", "dutch": "Wachten", "pronunciation": "WAR-da" },
+    { "papiamentu": "Baha", "dutch": "Uitstappen", "pronunciation": "BA-ha" }
+  ],
+  "grammar": {
+    "title": "Toekomende tijd met 'lo'",
+    "explanation": [
+      "In Papiamentu gebruik je het partikel 'lo' om de toekomende tijd aan te geven. 'Lo' staat vóór het werkwoord: 'E taxi lo yega' = De taxi zal aankomen.",
+      "In korte zinnen staat 'lo' direct voor het werkwoord, na het onderwerp: 'Mi lo bai' = Ik zal gaan. 'Nos lo yega pronto' = Wij zullen snel aankomen.",
+      "Het werkwoord zelf verandert nooit — 'lo' doet al het werk om de toekomende tijd aan te geven."
+    ],
+    "exercises": [
+      {
+        "question": "Hoe zeg je 'De taxi zal wachten'?",
+        "options": ["E taxi lo warda", "E taxi ta warda", "E taxi a warda", "Lo e taxi warda"],
+        "correct": 0,
+        "explanation": "'Lo' staat direct voor het werkwoord 'warda'. Onderwerp + lo + werkwoord."
+      },
+      {
+        "question": "Wat betekent 'Nos lo bai pronto'?",
+        "options": ["Wij zullen snel gaan", "Wij zijn al gegaan", "Wij gaan nu", "Wij gaan langzaam"],
+        "correct": 0,
+        "explanation": "'Lo' = toekomende tijd. 'Nos' = wij. 'Bai' = gaan. 'Pronto' = snel/binnenkort."
+      },
+      {
+        "question": "Hoe maak je van 'Mi ta bai' (Ik ga) een toekomende tijd?",
+        "options": ["Mi lo bai", "Mi a bai", "Lo mi bai", "Mi bai lo"],
+        "correct": 0,
+        "explanation": "Vervang 'ta' door 'lo': 'Mi lo bai' = Ik zal gaan."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Koredor", "dutch": "Taxichauffeur", "pronunciation": "ko-re-DOR", "example": "E koredor ta konosé tur kaminda." },
+    { "papiamentu": "Kuantu e viahe ta kosta?", "dutch": "Hoeveel kost de rit?", "pronunciation": "KWAN-too e VIA-he ta KOS-ta", "example": "Bon nochi! Kuantu e viahe ta kosta?" },
+    { "papiamentu": "Warda", "dutch": "Wachten", "pronunciation": "WAR-da", "example": "Por fabor, warda un momentu." },
+    { "papiamentu": "Baha", "dutch": "Uitstappen / Afstappen", "pronunciation": "BA-ha", "example": "Mi ke baha na e hotel." },
+    { "papiamentu": "Pura pura", "dutch": "Snel snel / Gehaast", "pronunciation": "POO-ra POO-ra", "example": "Por fabor, mi ta pura pura!" },
+    { "papiamentu": "Destinashon", "dutch": "Bestemming", "pronunciation": "des-ti-na-SHON", "example": "Ki ta bo destinashon?" },
+    { "papiamentu": "Plaka", "dutch": "Geld", "pronunciation": "PLA-ka", "example": "Mi tin plaka sufisiente." },
+    { "papiamentu": "Florin", "dutch": "Gulden (Antilliaans)", "pronunciation": "flo-RIN", "example": "Kuantu florin e viahe ta kosta?" }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Taxi's hebben geen meter — spreek altijd een prijs af",
+      "detail": "Op Curaçao hebben taxi's geen taximeter. Spreek ALTIJD vooraf een vaste prijs af met de koredor. Vraag expliciet: 'Kuantu e viahe ta kosta?' voor je instapt.",
+      "remember": "Geen meter → altijd prijs afspreken vóór de rit!"
+    },
+    {
+      "trap": "Florin of dollar?",
+      "detail": "Op Curaçao worden zowel Antilliaanse guldens (florin, ANG) als Amerikaanse dollars (dòler, USD) geaccepteerd. Vraag altijd in welke valuta de prijs is: 'Florin of dòler?'",
+      "remember": "Vraag altijd: florin of dòler?"
+    },
+    {
+      "trap": "Destinashon schrijf je met -shon",
+      "detail": "Woorden die in het Nederlands of Engels op '-tion' of '-sion' eindigen, schrijf je in Papiamentu met '-shon': destinashon, situashon, nashon (natie).",
+      "remember": "-tion/-sion in NL/EN → -shon in Papiamentu"
+    }
+  ],
+  "culture": {
+    "title": "Taxi, bus di karga en de Curaçaose rijcultuur",
+    "intro": "Mobiliteit op Curaçao heeft zijn eigen ritme en regels — letterlijk en figuurlijk.",
+    "facts": [
+      "Naast reguliere taxi's bestaat er de 'bus di karga' (gedeelde taxi/busje) — een goedkopere optie waarbij je de rit deelt met andere passagiers die dezelfde richting op gaan.",
+      "De meeste eilandbewoners rijden auto. Het openbaar vervoer (konvoi) is beperkt en niet alle wijken zijn goed bereikbaar zonder eigen vervoer.",
+      "In Pietermaai — de kleurrijke uitgaanswijk van Willemstad — staan 's avonds altijd taxi's klaar bij de populairste bars en restaurants."
+    ],
+    "didYouKnow": "Wist je dat taxichauffeurs op Curaçao vaak ook als gids fungeren? Veel koreders kennen het eiland als hun broekzak en vertellen graag verhalen over de geschiedenis en cultuur van Curaçao tijdens de rit."
+  },
+  "quiz": [
+    {
+      "question": "Hoe zeg je 'De taxi zal aankomen'?",
+      "options": ["E taxi lo yega", "E taxi ta yega", "E taxi a yega", "Lo yega e taxi"],
+      "correct": 0,
+      "explanation": "'Lo' voor het werkwoord geeft de toekomende tijd aan. 'Yega' = aankomen."
+    },
+    {
+      "question": "Wat is de eerste vraag die je aan een taxichauffeur stelt?",
+      "options": ["Kuantu e viahe ta kosta?", "Unda bo ta bai?", "Kon ta bai?", "Ki ora bo ta libre?"],
+      "correct": 0,
+      "explanation": "Omdat taxi's geen meter hebben, vraag je altijd eerst naar de prijs."
+    },
+    {
+      "question": "Wat betekent 'Pura pura'?",
+      "options": ["Snel snel / Gehaast", "Wacht even", "Rustig aan", "Langzaam"],
+      "correct": 0,
+      "explanation": "'Pura pura' duidt op haast of urgentie. Herhaling versterkt de betekenis."
+    },
+    {
+      "question": "Hoe zeg je 'bestemming' in Papiamentu?",
+      "options": ["Destinashon", "Destination", "Destinatie", "Destinasjon"],
+      "correct": 0,
+      "explanation": "In Papiamentu eindigt het woord op '-shon'. 'Destinashon' = bestemming."
+    },
+    {
+      "question": "Waarom moet je altijd de valuta vragen bij een taxiprijs?",
+      "options": ["Zowel florin als dollar worden gebruikt", "Taxi's accepteren alleen cash", "De meter geeft de valuta aan", "Alle taxi's gebruiken dollars"],
+      "correct": 0,
+      "explanation": "Op Curaçao zijn zowel Antilliaanse guldens (florin) als dollars gangbaar. Altijd verifiëren!"
+    }
+  ]
+}

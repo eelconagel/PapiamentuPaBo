@@ -1,0 +1,110 @@
+{
+  "id": "scenario-005",
+  "title": "Boodschappen doen",
+  "difficulty": "Easy",
+  "category": "Winkel",
+  "intro": "Je stapt een lokale toko (buurtwinkel) of supermerka binnen voor wat snelle boodschappen. De zon schijnt buiten en je zoekt verkoeling en een snack.",
+  "introWords": [
+    { "papiamentu": "Kompra", "dutch": "Kopen / Boodschappen doen", "pronunciation": "kom-pra" },
+    { "papiamentu": "Pan", "dutch": "Brood", "pronunciation": "pan" },
+    { "papiamentu": "Awa", "dutch": "Water", "pronunciation": "a-wa" },
+    { "papiamentu": "Plaka", "dutch": "Geld", "pronunciation": "pla-ka" }
+  ],
+  "grammar": {
+    "title": "Lidwoorden: e en un",
+    "explanation": [
+      "In Papiamentu heeft elk zelfstandig naamwoord geen geslacht (zoals 'de' of 'het' in het Nederlands). Je gebruikt altijd 'e' als bepaald lidwoord: 'e pan' (het/de brood).",
+      "Voor het onbepaald lidwoord ('een') gebruik je 'un': 'un sak' (een tas), 'un botèl awa' (een fles water).",
+      "Het lidwoord staat altijd vlak voor het zelfstandig naamwoord, net als in het Nederlands."
+    ],
+    "exercises": [
+      {
+        "question": "Hoe zeg je 'het brood is vers'?",
+        "options": ["E pan ta fresku", "Un pan ta fresku", "Di pan ta fresku", "Pan e ta fresku"],
+        "correct": 0,
+        "explanation": "'E' is het bepaald lidwoord. 'E pan ta fresku' = het brood is vers."
+      },
+      {
+        "question": "Je wilt 'een fles water' zeggen. Wat kies je?",
+        "options": ["Un botèl awa", "E botèl awa", "Di botèl awa", "Botèl un awa"],
+        "correct": 0,
+        "explanation": "'Un' = onbepaald lidwoord (een). 'Un botèl awa' = een fles water."
+      },
+      {
+        "question": "Wat is het Papiamentuse bepaald lidwoord voor alle zelfstandige naamwoorden?",
+        "options": ["e", "un", "di", "ku"],
+        "correct": 0,
+        "explanation": "'E' gebruik je altijd als bepaald lidwoord, ongeacht het geslacht van het woord."
+      }
+    ]
+  },
+  "words": [
+    { "papiamentu": "Supermerka", "dutch": "Supermarkt", "pronunciation": "soo-per-MER-ka", "example": "Mi ta bai supermerka awe." },
+    { "papiamentu": "Pan fresku", "dutch": "Vers brood", "pronunciation": "pan FRES-koo", "example": "Mi ke un pan fresku, por fabor." },
+    { "papiamentu": "Kompra", "dutch": "Kopen / boodschappen doen", "pronunciation": "KOM-pra", "example": "Mi ta bai kompra kuminda." },
+    { "papiamentu": "Kuanta esaki ta kosta?", "dutch": "Hoeveel kost dit?", "pronunciation": "KWAN-ta e-SA-ki ta KOS-ta", "example": "Kuanta esaki ta kosta, por fabor?" },
+    { "papiamentu": "Kas di pagamento", "dutch": "Kassa", "pronunciation": "kas di pa-ga-MEN-to", "example": "Unda ta e kas di pagamento?" },
+    { "papiamentu": "Sak", "dutch": "Tas / Zak", "pronunciation": "sak", "example": "Mi ke un sak pa esaki." },
+    { "papiamentu": "Kambio", "dutch": "Wisselgeld", "pronunciation": "KAM-bio", "example": "Mi tin kambio." },
+    { "papiamentu": "Mangel", "dutch": "Snoep / Mangrove", "pronunciation": "MAN-gel", "example": "E mucha ke mangel." }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Supermerka schrijf je met een 'k'",
+      "detail": "In Papiamentu schrijf je 'supermerka' met een 'k' aan het einde, niet 'supermarket' zoals in het Engels. De Curaçaose spelling is altijd fonologisch.",
+      "remember": "Engelse -t → Papiamentuse -ka: market → merka"
+    },
+    {
+      "trap": "Mangel heeft twee betekenissen",
+      "detail": "'Mangel' kan zowel 'snoepje' betekenen als de 'mangrove' bomen langs de kust. De context bepaalt welke je bedoelt — in een winkel is het snoep.",
+      "remember": "In de winkel = snoep, langs de kust = mangrove"
+    },
+    {
+      "trap": "Awa ≠ Awe",
+      "detail": "'Awa' betekent 'water'. 'Awe' betekent 'vandaag'. Ze klinken heel anders maar beginnende leerders verwisselen ze soms.",
+      "remember": "Awa = water (drink je), Awe = vandaag (de dag)"
+    }
+  ],
+  "culture": {
+    "title": "De toko: meer dan een winkel",
+    "intro": "De toko (buurtwinkel) is op Curaçao veel meer dan alleen een plek om boodschappen te doen. Het is het sociale hart van de wijk.",
+    "facts": [
+      "Elke wijk heeft zijn eigen toko waar mensen samenkomen, nieuwtjes uitwisselen en even bijkletsen.",
+      "De eigenaar van de toko — vaak ook de buurman of -vrouw — kent iedereen bij naam en weet wat je nodig hebt.",
+      "Veel toko's zijn 's avonds laat nog open en verkopen alles van brood en water tot sigaretten en telefoonkaarten."
+    ],
+    "didYouKnow": "Wist je dat op Curaçao de prijs bij kleine toko's soms onderhandelbaar is, vooral als je vaste klant bent? Een vriendelijke begroeting kan soms net het verschil maken!"
+  },
+  "quiz": [
+    {
+      "question": "Hoe zeg je 'het brood' in Papiamentu?",
+      "options": ["E pan", "Un pan", "Di pan", "Pan e"],
+      "correct": 0,
+      "explanation": "'E' is het bepaald lidwoord in Papiamentu. 'E pan' = het brood."
+    },
+    {
+      "question": "Wat betekent 'Kuanta esaki ta kosta?'",
+      "options": ["Hoeveel kost dit?", "Wat is dit?", "Wilt u betalen?", "Waar is de kassa?"],
+      "correct": 0,
+      "explanation": "'Kuanta' = hoeveel, 'esaki' = dit, 'ta kosta' = kost. Samen: 'Hoeveel kost dit?'"
+    },
+    {
+      "question": "Wat is het woord voor 'wisselgeld'?",
+      "options": ["Kambio", "Plaka", "Tarheta", "Preis"],
+      "correct": 0,
+      "explanation": "'Kambio' = wisselgeld. 'Plaka' = geld in het algemeen."
+    },
+    {
+      "question": "Hoe spel je het Papiamentuse woord voor supermarkt?",
+      "options": ["Supermerka", "Supermarket", "Supermarkèt", "Supermerkat"],
+      "correct": 0,
+      "explanation": "In Papiamentu schrijf je het fonologisch: 'supermerka' met een 'k'."
+    },
+    {
+      "question": "Wat betekent 'Unda ta e kas di pagamento?'",
+      "options": ["Waar is de kassa?", "Hoeveel kost de tas?", "Wilt u betalen?", "Heeft u wisselgeld?"],
+      "correct": 0,
+      "explanation": "'Unda ta' = waar is, 'kas di pagamento' = kassa/betaalplaats."
+    }
+  ]
+}
