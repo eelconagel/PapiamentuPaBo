@@ -22,6 +22,7 @@ SCREEN_TITLES = {
     "les": "Les",
     "nieuws": "Nieuws lezen",
     "nieuws_artikel": "Nieuws",
+    "profiel": "Profiel",
     "contact": "Contact",
     "privacy": "Privacy",
     "instellingen": "Instellingen",
@@ -187,6 +188,16 @@ def create_app(test_config=None):
     @app.get("/instellingen")
     def instellingen():
         return render_template("instellingen.html")
+
+    @app.get("/profiel")
+    def profiel():
+        # Only scenarios and news articles carry a difficulty level, so the medal system (and
+        # this page) is scoped to those two. No account data is read here: everything is
+        # computed client-side from the browser's own progress in localStorage.
+        items = [{"id": s["id"], "nivo": s["difficulty"]}
+                 for s in content.scenario_list if s["id"] in content.scenarios]
+        items += [{"id": aid, "nivo": a["nivo"]} for aid, a in content.nieuws.items()]
+        return render_template("profiel.html", items=items)
 
     def site_url(path=""):
         base = app.config.get("PUBLIC_BASE_URL") or request.url_root

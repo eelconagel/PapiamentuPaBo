@@ -13,7 +13,20 @@
     scenarios: {},          // scenarioId -> completedAt ISO string
     nieuws: {},             // artikelId -> completedAt ISO string
     theme: 'dark',          // 'system' | 'light' | 'dark' (per device, not synced)
+    weekXp: { week: '', xp: 0 },  // XP earned in the current ISO week (per device, not synced)
   });
+
+  // ISO 8601 week key ("2026-W39") from a local date, so "this week" resets every Monday.
+  function isoWeekKey(d) {
+    const date = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+    const dayNum = (date.getUTCDay() + 6) % 7;  // Monday = 0 .. Sunday = 6
+    date.setUTCDate(date.getUTCDate() - dayNum + 3);  // nearest Thursday decides the ISO year/week
+    const firstThursday = new Date(Date.UTC(date.getUTCFullYear(), 0, 4));
+    const firstDayNum = (firstThursday.getUTCDay() + 6) % 7;
+    firstThursday.setUTCDate(firstThursday.getUTCDate() - firstDayNum + 3);
+    const week = 1 + Math.round((date - firstThursday) / (7 * 86400000));
+    return `${date.getUTCFullYear()}-W${String(week).padStart(2, '0')}`;
+  }
 
   const meta = document.querySelector('meta[name="papiamentu-user"]');
   const USER = meta ? { id: Number(meta.content), name: meta.dataset.name, csrf: meta.dataset.csrf } : null;
@@ -54,9 +67,11 @@
     pushTimer = setTimeout(() => push(), delay ?? 800);
   }
 
-  function withoutTheme(state) {
+  // Fields the server never sees: per-device preferences, never merged or synced.
+  function forSync(state) {
     const copy = Object.assign({}, state);
     delete copy.theme;
+    delete copy.weekXp;
     return copy;
   }
 
@@ -69,7 +84,7 @@
     const sync = readJson(SYNC_KEY) || {};
     const body = {
       base_rev: sync.uid === USER.id ? sync.rev : null,
-      state: withoutTheme(load()),
+      state: forSync(load()),
       replace: !!opts.replace,
     };
     inflight = (async () => {
@@ -87,7 +102,7 @@
         retryDelay = 5000;
         if (!dirty) {
           // Nothing changed while we were saving: adopt the server's (possibly merged) state.
-          writeJson(KEY, Object.assign(DEFAULTS(), data.state, { theme: load().theme }));
+          writeJson(KEY, Object.assign(DEFAULTS(), data.state, { theme: load().theme, weekXp: load().weekXp }));
           writeJson(SYNC_KEY, { uid: USER.id, rev: data.rev });
         }
         // If something did change meanwhile, keep the old revision so the next save merges.
@@ -116,7 +131,19 @@
 
     setName(name) { update((s) => { s.profile = { name }; }); },
 
-    addXp(n) { return update((s) => { s.xp += n; }).xp; },
+    addXp(n) {
+      return update((s) => {
+        s.xp += n;
+        const week = isoWeekKey(new Date());
+        if (!s.weekXp || s.weekXp.week !== week) s.weekXp = { week, xp: 0 };
+        s.weekXp.xp += n;
+      }).xp;
+    },
+    // XP earned since this ISO week started (Monday); 0 if nothing was earned yet this week.
+    currentWeekXp() {
+      const s = load();
+      return s.weekXp && s.weekXp.week === isoWeekKey(new Date()) ? s.weekXp.xp : 0;
+    },
     spendXp(n) {
       let ok = false;
       update((s) => { if (s.xp >= n) { s.xp -= n; ok = true; } });
@@ -161,7 +188,7 @@
       try { data = JSON.parse(text); } catch (e) { throw new Error('Dit is geen geldig back-upbestand.'); }
       if (!data || data.version !== 1) throw new Error('Onbekend back-upformaat.');
       delete data.exportedAt;
-      writeJson(KEY, Object.assign(DEFAULTS(), data, { theme: load().theme }));
+      writeJson(KEY, Object.assign(DEFAULTS(), data, { theme: load().theme, weekXp: load().weekXp }));
       if (USER) await push({ replace: true });
     },
     async reset() {
@@ -206,6 +233,29 @@
     return Math.min(ids.length, rule.open + rule.per * Math.floor(read / rule.per));
   };
 
+  // Site-wide difficulty -> medal tier. Only scenarios and news articles carry a difficulty
+  // level (lessen and woordenlijsten don't), so those two are what the medals are based on.
+  const MEDAL_TIER = { Easy: 'brons', Intermediate: 'zilver', Hard: 'goud', 'Native Speaker': 'goud' };
+
+  // items: [{ id, nivo }] for every scenario and news article that exists on the site.
+  // A medal requires every item in its tier, plus every tier below it, to be done.
+  Store.medailleVoortgang = function (items) {
+    const s = load();
+    const doneIds = new Set([...Object.keys(s.scenarios), ...Object.keys(s.nieuws)]);
+    const tiers = { brons: { done: 0, total: 0 }, zilver: { done: 0, total: 0 }, goud: { done: 0, total: 0 } };
+    items.forEach((it) => {
+      const tier = MEDAL_TIER[it.nivo];
+      if (!tier) return;
+      tiers[tier].total++;
+      if (doneIds.has(it.id)) tiers[tier].done++;
+    });
+    const compleet = (t) => tiers[t].total > 0 && tiers[t].done === tiers[t].total;
+    const brons = compleet('brons');
+    const zilver = brons && compleet('zilver');
+    const goud = zilver && compleet('goud');
+    return { tiers, medaille: goud ? 'goud' : zilver ? 'zilver' : brons ? 'brons' : null };
+  };
+
   Store.toast = function (msg, ms) {
     const el = document.createElement('div');
     el.className = 'toast';
@@ -232,10 +282,10 @@
     if (sync.uid && sync.uid !== USER.id) clearLocal();  // someone else's cached progress
     if (!load().profile && USER.name) writeJson(KEY, Object.assign(load(), { profile: { name: USER.name } }));
 
-    const before = JSON.stringify(withoutTheme(load()));
+    const before = JSON.stringify(forSync(load()));
     push().then((data) => {
       if (!data) return;
-      const after = JSON.stringify(withoutTheme(load()));
+      const after = JSON.stringify(forSync(load()));
       if (before !== after) {
         // The account had progress this page didn't know about yet: re-render once.
         let reloaded = false;

@@ -37,7 +37,8 @@ def message_count(app):
 # ---------- pages & content ----------
 
 @pytest.mark.parametrize("path", [
-    "/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/contact", "/privacy", "/instellingen", "/healthz",
+    "/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/profiel",
+    "/contact", "/privacy", "/instellingen", "/healthz",
 ])
 def test_pages_ok(client, path):
     assert client.get(path).status_code == 200
@@ -110,6 +111,17 @@ def test_home_and_sitemap_link_nieuws(app, client):
     assert 'href="/nieuws"' in client.get("/").get_data(as_text=True)
     sitemap = client.get("/sitemap.xml").get_data(as_text=True)
     assert "/nieuws/nieuws-001" in sitemap
+
+
+def test_profiel_lists_every_scenario_and_nieuws_item(app, client):
+    content = app.extensions["content"]
+    html = client.get("/profiel").get_data(as_text=True)
+    for sid in content.scenarios:
+        assert sid in html
+    for aid in content.nieuws:
+        assert aid in html
+    # /profiel isn't personal data anywhere on the site: it's not in the sitemap or robots.
+    assert "/profiel" not in client.get("/sitemap.xml").get_data(as_text=True)
 
 
 # ---------- contact form ----------

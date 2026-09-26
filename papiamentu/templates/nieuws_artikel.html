@@ -18,7 +18,7 @@
 
     <div class="callout">
       <div class="callout-title">Zo werkt het</div>
-      <p class="body-text">Je leest het bericht alinea voor alinea. Na elke alinea krijg je per zin de vraag wat daar gezegd wordt, en daarna een vraag over de hele alinea. Kom je er niet uit? Klik op <em>Toon vertaling</em>.</p>
+      <p class="body-text">Je leest het bericht alinea voor alinea. Na elke alinea krijg je per zin de vraag wat daar gezegd wordt, en daarna een vraag over de hele alinea. Kom je er niet uit? Klik op <em>Toon vertaling</em> — dat kost wel 1 XP.</p>
     </div>
 
     {% if a.sleutelwoorden %}
@@ -81,6 +81,7 @@
   };
   const IDS = {{ ids | tojson }};
   const UNLOCK = {{ unlock | tojson }};
+  const XP_VERTALING_COST = 1;
   const wasDone = !!Store.get().nieuws[A.id];
   $('completed-banner').hidden = !wasDone;
 
@@ -134,11 +135,23 @@
   const view = buildText($('news-text'), false);
 
   // ---------- flow: read paragraph → one question per sentence → paragraph question ----------
-  let pi, si, phase, score, answered;
+  let pi, si, phase, score, answered, firstRead;
 
   function setProgress(label) {
     $('step-label').textContent = label;
     $('progress-fill').style.width = Math.round((answered / TOTAL) * 100) + '%';
+  }
+
+  // XP per correct answer, awarded right away (not batched at the end) so there's something
+  // to spend on translations while still reading. Only the first time through earns XP —
+  // "Opnieuw lezen" is for practice, not a repeat payout.
+  function earnXp(ok) {
+    answered++;
+    if (ok) {
+      score++;
+      if (firstRead) Store.addXp(1);
+    }
+    setProgress($('step-label').textContent);
   }
 
   function paint() {
@@ -153,15 +166,30 @@
     view[pi].para.classList.toggle('focus', phase === 'alinea' || phase === 'read');
   }
 
+  // Shows the sentence's translation on request, for XP_VERTALING_COST XP — charged once per
+  // sentence, the first time it's revealed; toggling it shut and open again afterwards is free.
   function translationToggle(text) {
     const wrap = el('div', 'news-hint');
-    const btn = el('button', 'hint-btn', 'Toon vertaling');
+    const btn = el('button', 'hint-btn', `Toon vertaling (${XP_VERTALING_COST} XP)`);
     btn.type = 'button';
     const out = el('div', 'hint-text', text);
     out.hidden = true;
+    let paid = false;
     btn.addEventListener('click', () => {
-      out.hidden = !out.hidden;
-      btn.textContent = out.hidden ? 'Toon vertaling' : 'Verberg vertaling';
+      if (!out.hidden) {
+        out.hidden = true;
+        btn.textContent = 'Toon vertaling';
+        return;
+      }
+      if (!paid) {
+        if (!Store.spendXp(XP_VERTALING_COST)) {
+          Store.toast(`Niet genoeg XP — je hebt ${XP_VERTALING_COST} XP nodig voor de vertaling.`);
+          return;
+        }
+        paid = true;
+      }
+      out.hidden = false;
+      btn.textContent = 'Verberg vertaling';
     });
     wrap.append(btn, out);
     return wrap;
@@ -197,7 +225,7 @@
       extra.append(quote, translationToggle(z.nl));
       Quiz.ask(body, { question: z.vraag || 'Wat wordt hier gezegd?', options: z.opties, correct: z.correct, explanation: z.uitleg }, {
         before: extra,
-        onAnswer: (ok) => { answered++; if (ok) score++; setProgress($('step-label').textContent); },
+        onAnswer: earnXp,
         nextLabel: si + 1 < p.zinnen.length ? 'Volgende zin →' : 'Vraag over de alinea →',
         onNext: () => {
           if (si + 1 < p.zinnen.length) si++; else phase = 'alinea';
@@ -209,7 +237,7 @@
       $('task-label').textContent = `${where} · Waar gaat dit over?`;
       const last = pi + 1 >= PARAS.length;
       Quiz.ask(body, { question: p.vraag || 'Waar gaat deze alinea over?', options: p.opties, correct: p.correct, explanation: p.uitleg }, {
-        onAnswer: (ok) => { answered++; if (ok) score++; setProgress($('step-label').textContent); },
+        onAnswer: earnXp,
         nextLabel: last ? 'Bekijk resultaat' : 'Volgende alinea →',
         onNext: () => {
           if (last) return finish();
@@ -223,6 +251,7 @@
 
   function start() {
     pi = 0; si = 0; phase = 'read'; score = 0; answered = 0;
+    firstRead = !Store.get().nieuws[A.id];
     $('intro').hidden = true;
     $('result').hidden = true;
     $('reader').hidden = false;
@@ -230,13 +259,11 @@
   }
 
   function finish() {
-    const first = !Store.get().nieuws[A.id];
     const openBefore = Store.nieuwsOpen(IDS, UNLOCK);
     Store.completeNieuws(A.id);
     const freed = Store.nieuwsOpen(IDS, UNLOCK) - openBefore;
     $('result-unlock').hidden = !freed;
     $('result-unlock').textContent = freed ? `🔓 Er ${freed === 1 ? 'is 1 nieuw bericht' : `zijn ${freed} nieuwe berichten`} vrijgekomen!` : '';
-    if (first && score) Store.addXp(score);
     setProgress('Klaar');
     $('reader').hidden = true;
     $('result').hidden = false;
@@ -246,7 +273,8 @@
     const praise = pct >= 0.9 ? 'Uitstekend! Je begrijpt dit bericht bijna helemaal.'
       : pct >= 0.6 ? 'Goed gedaan! Je hebt de kern van het bericht begrepen.'
       : 'Dit was nog lastig. Lees het bericht hieronder nog eens met de vertalingen erbij.';
-    $('result-text').textContent = praise + (first && score ? ` Je verdient ${score} XP.` : '');
+    // XP was al toegekend tijdens het lezen (per goed antwoord), niet hier in één keer.
+    $('result-text').textContent = praise + (firstRead && score ? ` Je hebt ${score} XP verdiend.` : '');
     const review = $('review');
     review.innerHTML = '';
     buildText(review, true);

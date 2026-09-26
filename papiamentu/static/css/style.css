@@ -23,6 +23,9 @@
   --fill-purple: #8e24aa;
   --ok-bg: #e8f5e9;
   --bad-bg: #ffebee;
+  --medal-brons: #a86a3d;
+  --medal-zilver: #9aa5b1;
+  --medal-goud: #d4a017;
   --shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   --shadow-strong: 0 3px 10px rgba(0, 0, 0, 0.16);
   color-scheme: light;
@@ -44,6 +47,9 @@
   --red: #ef5350;
   --ok-bg: #1a3a1a;
   --bad-bg: #3a1a1a;
+  --medal-brons: #c98a54;
+  --medal-zilver: #c7d0da;
+  --medal-goud: #ffd54f;
   --shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
   --shadow-strong: 0 3px 10px rgba(0, 0, 0, 0.5);
   color-scheme: dark;
@@ -967,3 +973,68 @@ main.wide { max-width: 1040px; }
 .mini-body { padding: 0 12px 12px 40px; }
 .mini-body p { margin: 0 0 6px; }
 .news-locked { margin-top: 18px; }
+
+/* ---------- Profiel (week-XP en medaille-thermometer) ---------- */
+.week-xp-card {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: var(--shadow);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.week-xp-num { font-size: 40px; font-weight: 800; color: var(--secondary); line-height: 1.1; }
+.week-xp-label { font-size: 13px; color: var(--muted); font-weight: 600; margin-top: 4px; }
+.medal-section { background: var(--card); border-radius: 14px; padding: 20px; box-shadow: var(--shadow); }
+.medal-current { text-align: center; margin-bottom: 18px; }
+.medal-current-icon { font-size: 40px; line-height: 1; }
+.medal-current-label { font-size: 15px; font-weight: 700; margin-top: 6px; }
+.thermo-row { display: flex; gap: 22px; align-items: stretch; }
+.thermo {
+  flex-shrink: 0;
+  width: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thermo-tube {
+  position: relative;
+  width: 26px;
+  flex: 1;
+  min-height: 160px;
+  border: 3px solid var(--border);
+  border-bottom: 0;
+  border-radius: 13px 13px 0 0;
+  overflow: hidden;
+  background: linear-gradient(to top,
+    var(--medal-brons) 0%, var(--medal-brons) var(--brons-pct, 33%),
+    var(--medal-zilver) var(--brons-pct, 33%), var(--medal-zilver) var(--zilver-top-pct, 66%),
+    var(--medal-goud) var(--zilver-top-pct, 66%), var(--medal-goud) 100%);
+}
+.thermo-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: var(--input-bg);
+  transition: height 0.6s ease;
+}
+.thermo-bulb {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 3px solid var(--border);
+  margin-top: -3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  background: var(--input-bg);
+  flex-shrink: 0;
+}
+.medal-list { flex: 1; display: flex; flex-direction: column; justify-content: space-between; gap: 12px; min-width: 0; }
+.medal-row-head { display: flex; justify-content: space-between; align-items: baseline; font-size: 14px; font-weight: 700; margin-bottom: 4px; }
+.medal-row-count { font-size: 12px; color: var(--muted); font-weight: 600; }
+.medal-row.done .medal-row-head { color: var(--green); }
+.medal-scope-note { margin-top: 16px; }

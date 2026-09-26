@@ -35,6 +35,7 @@
         <a class="pill-btn plain" href="{% block back_url %}{{ url_for('home') }}{% endblock %}" aria-label="Terug">←</a>
       {% endif %}
       <div class="topbar-title {% if is_home %}home{% endif %}">{{ 'Papiamentu Pa Bo' if is_home else screen_title }}</div>
+      <a class="topbar-link" href="{{ url_for('profiel') }}">Profiel</a>
       <a class="topbar-link" href="{{ url_for('contact') }}">Contact</a>
       <a class="topbar-link" href="{{ url_for('instellingen') }}">Instellingen</a>
     </div>
