@@ -1,7 +1,10 @@
 {% extends "base.html" %}
+{% block title %}Privacyverklaring · Papiamentu Pa Bo{% endblock %}
+{% block description %}Welke gegevens Papiamentu Pa Bo gebruikt, waarom, hoe lang, en hoe je ze verwijdert. Inclusief inloggen met Google.{% endblock %}
 {% block content %}
-<h1 class="title left">Privacy</h1>
-<p class="muted">Papiamentu Pa Bo verzamelt zo min mogelijk gegevens. Hieronder staat precies wat, waarom en hoe je het weer verwijdert.</p>
+<h1 class="title left">Privacyverklaring</h1>
+<p class="muted">Papiamentu Pa Bo is een gratis website om Papiamentu te leren. We verzamelen zo min mogelijk gegevens. Hieronder staat precies wat, waarom, hoe lang, en hoe je het verwijdert.</p>
+<p class="small muted"><a href="#english">English summary below</a></p>
 
 <h2 class="section-title">1. Zonder account</h2>
 <ul class="bullets">
@@ -10,28 +13,53 @@
 
 <h2 class="section-title">2. Met een account (inloggen is optioneel)</h2>
 <ul class="bullets">
-  <li>Als je inlogt met Google, Microsoft, Apple of Facebook, ontvangen we van die dienst alleen je <strong>voornaam, e-mailadres en een gebruikersnummer</strong>. Je wachtwoord zien we nooit.</li>
-  <li>We bewaren dan je leervoortgang op onze server, zodat je op elk apparaat verder kunt.</li>
-  <li>We gebruiken je e-mailadres niet voor nieuwsbrieven of reclame.</li>
+  <li>Je kunt inloggen met Google, Microsoft, Apple of Facebook. Van die dienst ontvangen we alleen je <strong>voornaam, e-mailadres en een uniek gebruikersnummer</strong>. Je wachtwoord zien we nooit.</li>
+  <li>We gebruiken die gegevens uitsluitend om je te laten inloggen, je te begroeten met je naam en je leervoortgang aan je account te koppelen, zodat je op elk apparaat verder kunt.</li>
+  <li>We bewaren je leervoortgang (XP, woorden, lessen en scenario's) op onze server.</li>
+  <li>We sturen geen nieuwsbrieven of reclame en gebruiken je gegevens niet voor profilering.</li>
 </ul>
 
-<h2 class="section-title">3. Contactformulier</h2>
+<h2 class="section-title" id="google">3. Inloggen met Google</h2>
+<ul class="bullets">
+  <li>We vragen Google alleen om de basisgegevens <em>openid</em>, <em>e-mail</em> en <em>profiel</em>: je Google-gebruikersnummer, e-mailadres en naam. We krijgen geen toegang tot je Gmail, Drive, contacten, agenda of andere Google-gegevens.</li>
+  <li>Deze gegevens gebruiken we alleen voor het inloggen, zoals hierboven beschreven. We verkopen ze niet, delen ze niet met derden en gebruiken ze niet voor advertenties.</li>
+  <li>Het gebruik van gegevens die we van Google API's ontvangen, houdt zich aan het <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API Services User Data Policy</a>, inclusief de eisen voor beperkt gebruik (Limited Use).</li>
+  <li>Je kunt de toegang op elk moment intrekken via <a href="https://myaccount.google.com/permissions" rel="noopener">je Google-account</a>. Je account bij ons verwijder je via Instellingen (zie punt 7).</li>
+</ul>
+
+<h2 class="section-title">4. Contactformulier</h2>
 <ul class="bullets">
   <li>Berichten die je stuurt (met de naam en het e-mailadres dat je zelf invult) bewaren we om ze te kunnen lezen en beantwoorden.</li>
   <li>Om spam te beperken bewaren we bij een bericht een onomkeerbare code die van je IP-adres is afgeleid (een hash). Je IP-adres zelf slaan we niet op.</li>
 </ul>
 
-<h2 class="section-title">4. Cookies</h2>
+<h2 class="section-title">5. Cookies</h2>
 <p class="body-text">We gebruiken één functionele cookie: die houdt bij of je bent ingelogd en beveiligt formulieren. Er zijn geen tracking- of advertentiecookies en de website laadt geen externe scripts of lettertypes.</p>
 
-<h2 class="section-title">5. Delen met derden</h2>
-<p class="body-text">We verkopen of delen je gegevens <strong>niet</strong>. Alleen bij het inloggen praat je browser met de dienst die je zelf kiest (Google, Microsoft, Apple of Facebook); daarvoor geldt hun eigen privacybeleid.</p>
+<h2 class="section-title">6. Bewaren, beveiligen en delen</h2>
+<ul class="bullets">
+  <li>Accountgegevens en voortgang bewaren we zolang je account bestaat. Verwijder je je account, dan wissen we alles direct. Beveiligingsback-ups worden maximaal 30 dagen bewaard.</li>
+  <li>De gegevens staan op een server in Nederland. De verbinding is versleuteld (HTTPS).</li>
+  <li>We verkopen of delen je gegevens <strong>niet</strong>. Alleen bij het inloggen praat je browser met de dienst die je zelf kiest; daarvoor geldt hun eigen privacybeleid.</li>
+</ul>
 
-<h2 class="section-title" id="verwijderen">6. Gegevens bekijken of verwijderen (AVG)</h2>
+<h2 class="section-title" id="verwijderen">7. Gegevens bekijken of verwijderen (AVG)</h2>
 <ul class="bullets">
   <li><strong>Voortgang exporteren:</strong> via <a href="{{ url_for('instellingen') }}">Instellingen → Exporteer voortgang</a>.</li>
   <li><strong>Voortgang wissen:</strong> via <a href="{{ url_for('instellingen') }}">Instellingen → Voortgang wissen</a>.</li>
   <li><strong>Account verwijderen:</strong> log in en kies <a href="{{ url_for('instellingen') }}">Instellingen → Account verwijderen</a>. Je account, gekoppelde logins en voortgang worden direct en definitief gewist.</li>
-  <li>Wil je een contactbericht laten verwijderen, of heb je een andere vraag? Gebruik het <a href="{{ url_for('contact') }}">contactformulier</a>.</li>
+  <li>Wil je een contactbericht laten verwijderen, of heb je een andere vraag over je gegevens? Gebruik het <a href="{{ url_for('contact') }}">contactformulier</a>.</li>
+</ul>
+
+<hr class="rule">
+
+<h2 class="section-title" id="english">English summary</h2>
+<ul class="bullets" lang="en">
+  <li><strong>No account:</strong> your name and learning progress are stored only in your own browser and never sent to our server.</li>
+  <li><strong>Optional sign-in</strong> with Google, Microsoft, Apple or Facebook. We receive only your first name, e-mail address and a unique user ID, and use them solely to sign you in and keep your learning progress with your account across devices. We never see your password.</li>
+  <li><strong>Google user data:</strong> we request only the <em>openid</em>, <em>email</em> and <em>profile</em> scopes. We do not access Gmail, Drive, contacts or any other Google data. Papiamentu Pa Bo's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements. We do not sell or share this data, and do not use it for advertising.</li>
+  <li><strong>Retention and deletion:</strong> data is kept while your account exists. You can delete your account and all related data yourself at any time under <em>Instellingen → Account verwijderen</em>; it is removed immediately (backups are kept for at most 30 days). You can also revoke access in your Google account settings.</li>
+  <li><strong>Cookies:</strong> one functional cookie for sign-in and form security. No tracking or advertising cookies.</li>
+  <li><strong>Contact:</strong> questions about your data can be sent through the <a href="{{ url_for('contact') }}">contact form</a>.</li>
 </ul>
 {% endblock %}

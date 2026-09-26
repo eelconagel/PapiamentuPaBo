@@ -121,11 +121,24 @@ Copy `backups/` somewhere off the server as well. To restore: `docker compose cp
 ```bash
 python -m venv .venv
 .venv/Scripts/pip install -r requirements-dev.txt   # Windows (use .venv/bin/ on Linux/macOS)
-.venv/Scripts/flask --app wsgi.py run --debug
+.venv/Scripts/flask --app wsgi.py run --debug --port 5057
 .venv/Scripts/python -m pytest
 ```
 
-Locally the database goes in `instance/` (ignored by git).
+Locally the database goes in `instance/` (ignored by git). `flask run` reads `.env` (via python-dotenv), just like Docker does.
+
+### Testing login locally
+
+Google and Microsoft accept `http://localhost` redirect URIs, so no domain or HTTPS is needed while developing. Use a separate OAuth client for development, so production keys never live on your laptop.
+
+1. In `.env`: `COOKIE_SECURE=0`, `PROXY_COUNT=0`, leave `PUBLIC_BASE_URL` empty, and fill in `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` of the development client.
+2. In the Google Cloud Console, add these authorised redirect URIs to that client:
+   - `http://localhost:8765/auth/google/callback` (local Docker, `docker compose up -d --build`)
+   - `http://localhost:5057/auth/google/callback` (`flask run --port 5057`; port 5000 is often taken on Windows/macOS)
+3. On the OAuth consent screen you can leave the app in *Testing* and add your own Google account as a test user.
+4. Always open the site as `http://localhost:…`, not `127.0.0.1`: the login cookie belongs to the host name, and Google sends you back to the exact URI above.
+
+Facebook and Apple don't allow plain-http redirects; test those on a server with HTTPS.
 
 ## Layout
 

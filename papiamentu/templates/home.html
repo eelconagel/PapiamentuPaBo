@@ -2,7 +2,7 @@
 {% from "_providers.html" import provider_buttons %}
 {% block title %}Papiamentu Pa Bo — Leer Papiamentu stap voor stap{% endblock %}
 {% block content %}
-<section id="onboarding" class="onboarding" hidden>
+<section id="onboarding" class="onboarding">
   <div class="hero-badge">☀️ Bon bini!</div>
   <h1 class="title">Papiamentu Pa Bo</h1>
   <p class="subtitle">Leer Papiamentu stap voor stap: met situaties uit het dagelijks leven op Curaçao, woordjes en lessen.</p>
@@ -15,6 +15,17 @@
     <div class="divider-text"><span>of log in om je voortgang te bewaren</span></div>
     {{ provider_buttons(login_providers) }}
   {% endif %}
+
+  <div class="about">
+    <h2 class="about-title">Wat is Papiamentu Pa Bo?</h2>
+    <p class="muted">Een gratis website om Papiamentu te leren, de taal van Curaçao, Aruba en Bonaire. Speciaal voor Nederlandstaligen.</p>
+    <ul class="about-list">
+      <li><strong>💬 20 scenario's</strong> — oefen situaties uit het dagelijks leven, van begroeten tot een sollicitatiegesprek.</li>
+      <li><strong>✍️ Woorden oefenen</strong> — leer woordjes schrijven en lezen; nieuwe lijsten ontgrendelen zich vanzelf.</li>
+      <li><strong>📚 40 lessen</strong> — grammatica, woordjes, cultuur en een oefening per les.</li>
+    </ul>
+    <p class="small muted">Een account is niet nodig. Inloggen is optioneel en dient alleen om je voortgang te bewaren. Lees hoe we met je gegevens omgaan in onze <a href="{{ url_for('privacy') }}">privacyverklaring</a>.</p>
+  </div>
 </section>
 
 <section id="dashboard" hidden>
