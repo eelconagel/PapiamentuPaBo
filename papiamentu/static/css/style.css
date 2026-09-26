@@ -1053,3 +1053,19 @@ main.wide { max-width: 1040px; }
 }
 .speak-btn:hover { background: var(--input-bg); }
 .speak-btn[hidden] { display: none; }
+
+/* ---------- Eerste week op Curaçao (noodwoordenboek) ---------- */
+.ew-categorie { margin-top: 24px; }
+.ew-categorie:first-of-type { margin-top: 8px; }
+.ew-teaser {
+  display: block;
+  background: var(--card);
+  border: 2px solid var(--gold);
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  text-decoration: none;
+  color: inherit;
+}
+.ew-teaser-title { font-weight: 700; font-size: 16px; margin-bottom: 2px; }
+.ew-teaser-sub { font-size: 13px; color: var(--muted); }

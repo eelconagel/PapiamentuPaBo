@@ -6,6 +6,10 @@
   <div class="hero-badge">☀️ Bon bini!</div>
   <h1 class="title">Papiamentu Pa Bo</h1>
   <p class="subtitle">Leer Papiamentu stap voor stap: met situaties uit het dagelijks leven op Curaçao, woordjes en lessen.</p>
+  <a class="ew-teaser" href="{{ url_for('eerste_week') }}">
+    <div class="ew-teaser-title">🧳 Net op Curaçao? Begin hier.</div>
+    <div class="ew-teaser-sub">De belangrijkste zinnen voor je eerste week — geen les, geen account nodig.</div>
+  </a>
   <form id="name-form" autocomplete="off">
     <label class="field-label left" for="name-input">Hoe mogen we je noemen?</label>
     <input class="input" id="name-input" name="name" placeholder="Jouw naam" maxlength="60" autocapitalize="words">
@@ -50,6 +54,8 @@
   </div>
 
   <p class="section-label">Wat wil je doen?</p>
+
+  <a class="btn-link" href="{{ url_for('eerste_week') }}" style="display:block;margin-bottom:12px">🧳 Eerste week op Curaçao — noodwoordenboek</a>
 
   <a class="option-btn" style="background:var(--fill-teal)" href="{{ url_for('scenarios') }}">
     <span class="option-icon">💬</span>

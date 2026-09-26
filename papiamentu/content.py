@@ -68,6 +68,9 @@ class Content:
             a["id"]: a for a in (_load(p) for p in sorted((data_dir / "nieuws").glob("nieuws-*.json")))
         }
         self.woordenlijsten = _load(data_dir / "woordenlijsten.json")["lijsten"]
+        # Vaste naslag-lijst met de nuttigste zinnen, buiten de lessenvolgorde om — voor
+        # iemand die zich geen 40 lessen kan permitteren voor het vliegtuig vertrekt.
+        self.noodwoordenboek = _load(data_dir / "noodwoordenboek.json")["categorieen"]
         # Flat list used for the word of the day, in the same order as the app.
         self._all_words = [
             {"word": w["woord"], "pronunciation": w["uitspraak"], "translation": w["vertaling"]}

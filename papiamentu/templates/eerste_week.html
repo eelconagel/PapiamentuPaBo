@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Eerste week op Curaçao · Papiamentu Pa Bo{% endblock %}
+{% block description %}De nuttigste Papiamentu-zinnen voor wie net op Curaçao is aangekomen: begroeten, boodschappen, onderweg, nood en orkaanseizoen. Geen les, geen quiz — gewoon naslag.{% endblock %}
+{% block main_class %}wide{% endblock %}
+{% block content %}
+<h1 class="title">Eerste week op Curaçao</h1>
+<p class="subtitle">Net aangekomen en geen tijd voor 40 lessen? Dit zijn de zinnen die je nu al nodig hebt.</p>
+<p class="muted small center">Geen quiz, geen voortgang — blader gewoon door en luister naar de uitspraak (🔊).</p>
+
+{% for cat in categorieen %}
+  <section class="ew-categorie">
+    <h2 class="section-title">{{ cat.naam }}</h2>
+    {% for z in cat.zinnen %}
+      <div class="word-row">
+        <div class="word-pap" lang="pap">{{ z.papiamentu }}</div>
+        <div class="word-pron">[{{ z.uitspraak }}]</div>
+        <div class="word-nl">{{ z.vertaling }}</div>
+      </div>
+    {% endfor %}
+  </section>
+{% endfor %}
+{% endblock %}
+
+{% block scripts %}
+<script nonce="{{ csp_nonce }}">
+  Speak.attachAll('.word-row .word-pap');
+</script>
+{% endblock %}

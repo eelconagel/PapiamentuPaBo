@@ -38,7 +38,7 @@ def message_count(app):
 # ---------- pages & content ----------
 
 @pytest.mark.parametrize("path", [
-    "/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/profiel",
+    "/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/profiel", "/eerste-week",
     "/contact", "/privacy", "/instellingen", "/healthz",
 ])
 def test_pages_ok(client, path):
@@ -98,6 +98,17 @@ def test_alle_leerwoorden_unique_and_complete(app):
     # De vaste woordenlijst-ids blijven ongewijzigd (bestaande voortgang mag nooit breken).
     lijst_ids = {w["id"] for l in c.woordenlijsten for w in l["woorden"]}
     assert lijst_ids <= set(ids)
+
+
+def test_noodwoordenboek_integrity(app, client):
+    c = app.extensions["content"]
+    assert len(c.noodwoordenboek) >= 4
+    for cat in c.noodwoordenboek:
+        assert cat["naam"].strip() and cat["zinnen"]
+        for z in cat["zinnen"]:
+            assert z["papiamentu"].strip() and z["uitspraak"].strip() and z["vertaling"].strip()
+    html = client.get("/eerste-week").get_data(as_text=True)
+    assert c.noodwoordenboek[0]["zinnen"][0]["papiamentu"] in html
 
 
 def test_nieuws_integrity(app):

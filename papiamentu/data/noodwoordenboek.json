@@ -1,0 +1,73 @@
+{
+  "categorieen": [
+    {
+      "naam": "Begroeten & beleefdheid",
+      "zinnen": [
+        { "papiamentu": "Bon dia", "uitspraak": "bon dee-a", "vertaling": "Goedemorgen (tot ~12:00)" },
+        { "papiamentu": "Bon tardi", "uitspraak": "bon tar-di", "vertaling": "Goedemiddag (~12:00–18:00)" },
+        { "papiamentu": "Bon nochi", "uitspraak": "bon no-chi", "vertaling": "Goedenavond (vanaf ~18:00)" },
+        { "papiamentu": "Kon ta bai?", "uitspraak": "kon ta bai", "vertaling": "Hoe gaat het?" },
+        { "papiamentu": "Tur kos ta bon, danki", "uitspraak": "toer kos ta bon, dan-ki", "vertaling": "Alles gaat goed, dank je" },
+        { "papiamentu": "Danki", "uitspraak": "dan-ki", "vertaling": "Dank je" },
+        { "papiamentu": "Di nada", "uitspraak": "di na-da", "vertaling": "Graag gedaan" },
+        { "papiamentu": "Ptakico", "uitspraak": "pa-kee-ko", "vertaling": "Tot ziens" },
+        { "papiamentu": "Pordon", "uitspraak": "por-don", "vertaling": "Sorry / pardon" }
+      ]
+    },
+    {
+      "naam": "Jezelf verstaanbaar maken",
+      "zinnen": [
+        { "papiamentu": "Mi no ta papia papiamentu bon", "uitspraak": "mi no ta pa-pia pa-pia-men-toe bon", "vertaling": "Ik spreek geen goed Papiamentu" },
+        { "papiamentu": "Bo por papia hulandes òf ingles?", "uitspraak": "bo por pa-pia hoe-lan-des of in-gles", "vertaling": "Spreekt u Nederlands of Engels?" },
+        { "papiamentu": "Kon bo ta yama?", "uitspraak": "kon bo ta ja-ma", "vertaling": "Hoe heet u/je?" },
+        { "papiamentu": "Mi number ta ...", "uitspraak": "mi noem-ber ta", "vertaling": "Mijn naam is ..." },
+        { "papiamentu": "Mi ta di Hulanda", "uitspraak": "mi ta di hoe-lan-da", "vertaling": "Ik kom uit Nederland" },
+        { "papiamentu": "Bo por papia despacio, por fabor?", "uitspraak": "bo por pa-pia des-pa-sio, por fa-bor", "vertaling": "Kunt u langzaam praten, alstublieft?" },
+        { "papiamentu": "Mi no ta komprondé", "uitspraak": "mi no ta kom-pron-de", "vertaling": "Ik begrijp het niet" },
+        { "papiamentu": "Bo por repit'é, por fabor?", "uitspraak": "bo por re-pi-te, por fa-bor", "vertaling": "Kunt u het herhalen, alstublieft?" }
+      ]
+    },
+    {
+      "naam": "Boodschappen & geld",
+      "zinnen": [
+        { "papiamentu": "Kuantu esaki ta kosta?", "uitspraak": "kwan-toe e-sa-ki ta kos-ta", "vertaling": "Hoeveel kost dit?" },
+        { "papiamentu": "Mi ta buska ...", "uitspraak": "mi ta boes-ka", "vertaling": "Ik ben op zoek naar ..." },
+        { "papiamentu": "Unda mi por haña esaki?", "uitspraak": "oen-da mi por ha-nja e-sa-ki", "vertaling": "Waar kan ik dit vinden?" },
+        { "papiamentu": "Bo aseptá pago ku kart?", "uitspraak": "bo a-sep-ta pa-go koe kart", "vertaling": "Accepteert u pinbetaling?" },
+        { "papiamentu": "Un saku, por fabor", "uitspraak": "oen sa-koe, por fa-bor", "vertaling": "Een tasje, alstublieft" },
+        { "papiamentu": "Ta habrí kompletamente?", "uitspraak": "ta ha-bri kom-ple-ta-men-te", "vertaling": "Is het helemaal open?" }
+      ]
+    },
+    {
+      "naam": "Onderweg",
+      "zinnen": [
+        { "papiamentu": "Unda e bùs pa ... ta sali?", "uitspraak": "oen-da e boes pa ... ta sa-li", "vertaling": "Waar vertrekt de bus naar ...?" },
+        { "papiamentu": "Kon mi por yega na ...?", "uitspraak": "kon mi por je-ga na", "vertaling": "Hoe kom ik bij ...?" },
+        { "papiamentu": "Ta leu di aki?", "uitspraak": "ta le-oe di a-ki", "vertaling": "Is het ver hiervandaan?" },
+        { "papiamentu": "Drecho dilanti", "uitspraak": "dre-cho di-lan-ti", "vertaling": "Rechtdoor" },
+        { "papiamentu": "Dobla na man drechi / robes", "uitspraak": "dob-la na man dre-chi / ro-bes", "vertaling": "Sla rechtsaf / linksaf" },
+        { "papiamentu": "Unda e parada di taxi ta?", "uitspraak": "oen-da e pa-ra-da di ta-xi ta", "vertaling": "Waar is de taxistandplaats?" }
+      ]
+    },
+    {
+      "naam": "Nood & gezondheid",
+      "zinnen": [
+        { "papiamentu": "Yuda mi!", "uitspraak": "joe-da mi", "vertaling": "Help mij!" },
+        { "papiamentu": "Yama polis / ambulans, por fabor!", "uitspraak": "ja-ma po-lis / am-boe-lans, por fa-bor", "vertaling": "Bel de politie / een ambulance, alstublieft!" },
+        { "papiamentu": "Mi mester bai serka dòkter", "uitspraak": "mi mes-ter bai ser-ka dok-ter", "vertaling": "Ik moet naar de dokter" },
+        { "papiamentu": "Unda e hospital mas serka ta?", "uitspraak": "oen-da e hos-pi-tal mas ser-ka ta", "vertaling": "Waar is het dichtstbijzijnde ziekenhuis?" },
+        { "papiamentu": "Mi tin dolor akí", "uitspraak": "mi tin do-lor a-ki", "vertaling": "Ik heb hier pijn" },
+        { "papiamentu": "Mi ta alérgiko na ...", "uitspraak": "mi ta a-ler-gi-ko na", "vertaling": "Ik ben allergisch voor ..." }
+      ]
+    },
+    {
+      "naam": "Orkaanseizoen",
+      "zinnen": [
+        { "papiamentu": "Un tormenta ta bin", "uitspraak": "oen tor-men-ta ta bin", "vertaling": "Er komt een storm aan" },
+        { "papiamentu": "Sera bentana i porta bon", "uitspraak": "se-ra ben-ta-na i por-ta bon", "vertaling": "Sluit ramen en deuren goed af" },
+        { "papiamentu": "Warda awa i kuminda pa vários dia", "uitspraak": "war-da a-wa i koe-min-da pa va-rios di-a", "vertaling": "Bewaar water en eten voor meerdere dagen" },
+        { "papiamentu": "Keda den kas te ora tempu klarifiká", "uitspraak": "ke-da den kas te o-ra tem-poe kla-ri-fi-ka", "vertaling": "Blijf binnen tot het weer opklaart" }
+      ]
+    }
+  ]
+}

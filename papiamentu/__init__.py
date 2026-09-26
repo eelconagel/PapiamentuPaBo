@@ -21,6 +21,7 @@ SCREEN_TITLES = {
     "lessen": "Leer met lessen",
     "les": "Les",
     "nieuws": "Nieuws lezen",
+    "eerste_week": "Eerste week op Curaçao",
     "nieuws_artikel": "Nieuws",
     "profiel": "Profiel",
     "contact": "Contact",
@@ -129,6 +130,12 @@ def create_app(test_config=None):
         return render_template("nieuws_artikel.html", a=data, ids=list(content.nieuws), unlock=NIEUWS_UNLOCK,
                                screen_title=f"Nieuws · {NIVEAU_LABEL.get(data['nivo'], '')}")
 
+    @app.get("/eerste-week")
+    def eerste_week():
+        # Puur naslag: geen quiz, geen voortgang. Bewust niets opslaan hier, in lijn met
+        # zo min mogelijk gegevens verwerken — dit is een boekje om in te bladeren.
+        return render_template("eerste_week.html", categorieen=content.noodwoordenboek)
+
     @app.get("/woorden")
     def woorden():
         # Alle woorden buiten de vaste woordenlijsten (die komen al binnen via `lijsten`):
@@ -224,7 +231,7 @@ def create_app(test_config=None):
 
     @app.get("/sitemap.xml")
     def sitemap():
-        paths = ["/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/privacy", "/contact"]
+        paths = ["/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/eerste-week", "/privacy", "/contact"]
         paths += [url_for("scenario", scenario_id=sid) for sid in content.scenarios]
         paths += [url_for("les", les_id=l["id"]) for l in content.lessen]
         paths += [url_for("nieuws_artikel", artikel_id=aid) for aid in content.nieuws]
