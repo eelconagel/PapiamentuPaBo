@@ -4,6 +4,8 @@ __pycache__/
 venv/
 instance/
 .env
+.env.*
+!.env.example
 .idea/
 .vscode/
 .claude/
