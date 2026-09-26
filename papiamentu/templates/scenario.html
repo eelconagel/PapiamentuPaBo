@@ -121,10 +121,13 @@
 
   pages.forEach(() => dots.append(Object.assign(document.createElement('span'), { className: 'dot' })));
 
-  function complete() {
+  function complete(score) {
+    // XP only the first time this scenario is passed — completed is read once at page load,
+    // so revisiting an already-finished scenario (or retrying after a fail) never re-earns it.
+    if (!completed && score) Store.addXp(score);
     Store.completeScenario(SCENARIO_ID);
     completed = true;
-    Store.toast('Voltooid! Je hebt dit scenario afgerond.');
+    Store.toast('Voltooid! Je hebt dit scenario afgerond.' + (score ? ` +${score} XP` : ''));
     setTimeout(() => { window.location.href = listUrl; }, 1200);
   }
 

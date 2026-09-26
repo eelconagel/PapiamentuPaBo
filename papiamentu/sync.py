@@ -14,6 +14,9 @@ MAX_BYTES = 256 * 1024
 _LIMITS = {"woorden": 5000, "lessen": 500, "scenarios": 500, "nieuws": 1000, "lijsten": 200}
 # Completion maps: id -> ISO timestamp of the first time it was finished.
 _DONE_MAPS = ("scenarios", "nieuws")
+# Fields (of any shape) that a browser running stale JavaScript might not send at all —
+# keep the stored value in that case instead of letting sanitize() reset it to empty/zero.
+_PROTECT_IF_MISSING = _DONE_MAPS + ("xpEarned",)
 
 
 def _int(value, lo=0, hi=10_000_000):
@@ -32,7 +35,7 @@ def sanitize(state) -> dict:
     """Keep only known fields with sane types and sizes. Theme stays per device."""
     if not isinstance(state, dict):
         state = {}
-    out = {"version": 1, "profile": None, "xp": _int(state.get("xp")),
+    out = {"version": 1, "profile": None, "xp": _int(state.get("xp")), "xpEarned": _int(state.get("xpEarned")),
            "woorden": {}, "lijsten": [], "lessen": {}, "scenarios": {}, "nieuws": {}}
 
     profile = state.get("profile")
@@ -68,6 +71,7 @@ def merge(a: dict, b: dict) -> dict:
     out = sanitize({})
     out["profile"] = a["profile"] or b["profile"]
     out["xp"] = max(a["xp"], b["xp"])
+    out["xpEarned"] = max(a["xpEarned"], b["xpEarned"])
     for k in a["woorden"].keys() | b["woorden"].keys():
         wa, wb = a["woorden"].get(k, {}), b["woorden"].get(k, {})
         out["woorden"][k] = {
@@ -85,7 +89,7 @@ def merge(a: dict, b: dict) -> dict:
 
 def resolve(stored_json: str | None, stored_rev: int | None, incoming, base_rev, replace: bool):
     """Return (new_state, new_rev) for an incoming save."""
-    missing = [f for f in _DONE_MAPS if not (isinstance(incoming, dict) and f in incoming)]
+    missing = [f for f in _PROTECT_IF_MISSING if not (isinstance(incoming, dict) and f in incoming)]
     incoming = sanitize(incoming)
     stored = sanitize(json.loads(stored_json)) if stored_json else None
     if stored is not None:

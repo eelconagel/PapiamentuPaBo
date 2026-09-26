@@ -330,6 +330,21 @@ def test_old_client_without_nieuws_keeps_it():
     assert new["nieuws"] == {}
 
 
+def test_xp_earned_sanitized_merged_and_protected():
+    # xpEarned is the lifetime, spend-proof total the medal system is based on: it only ever
+    # grows, sanitizes/merges like xp, and — like "nieuws" — is never wiped by a stale client.
+    a = sanitize({"xpEarned": "12", "evil": 1})
+    b = sanitize({"xpEarned": 9})
+    assert a["xpEarned"] == 12
+    assert merge(a, b)["xpEarned"] == 12
+
+    stored = json.dumps(sanitize({"xp": 5, "xpEarned": 40}))
+    new, _ = resolve(stored, 2, {"xp": 6}, 2, replace=False)
+    assert new["xpEarned"] == 40
+    new, _ = resolve(stored, 2, {"xp": 6, "xpEarned": 0}, 2, replace=False)
+    assert new["xpEarned"] == 0
+
+
 def test_replace_keeps_profile():
     stored = json.dumps(sanitize({"xp": 5, "profile": {"name": "Ana"}}))
     new, rev = resolve(stored, 3, {"xp": 0}, None, replace=True)

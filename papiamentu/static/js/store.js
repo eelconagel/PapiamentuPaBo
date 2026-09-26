@@ -7,6 +7,7 @@
     version: 1,
     profile: null,          // { name }
     xp: 0,
+    xpEarned: 0,            // lifetime XP ever earned — never goes down when XP is spent
     woorden: {},            // wordId -> { correct_count, is_mastered }
     lijsten: [1],           // unlocked word list ids
     lessen: {},             // lesId -> [completed step numbers 1..4]
@@ -134,6 +135,7 @@
     addXp(n) {
       return update((s) => {
         s.xp += n;
+        s.xpEarned = (s.xpEarned || 0) + n;
         const week = isoWeekKey(new Date());
         if (!s.weekXp || s.weekXp.week !== week) s.weekXp = { week, xp: 0 };
         s.weekXp.xp += n;
@@ -237,23 +239,28 @@
   // level (lessen and woordenlijsten don't), so those two are what the medals are based on.
   const MEDAL_TIER = { Easy: 'brons', Intermediate: 'zilver', Hard: 'goud', 'Native Speaker': 'goud' };
 
-  // items: [{ id, nivo }] for every scenario and news article that exists on the site.
-  // A medal requires every item in its tier, plus every tier below it, to be done.
+  // items: [{ nivo, punten }] — the XP value of every scenario and news article on the site
+  // (their difficulty and how many questions they're worth). A medal's threshold is the total
+  // XP of everything at that level or below, so it doesn't matter WHICH content earned your XP:
+  // doing the hard scenarios first still counts toward brons and zilver, just like it would
+  // toward goud — it's the total, not which specific items you've finished.
   Store.medailleVoortgang = function (items) {
     const s = load();
-    const doneIds = new Set([...Object.keys(s.scenarios), ...Object.keys(s.nieuws)]);
-    const tiers = { brons: { done: 0, total: 0 }, zilver: { done: 0, total: 0 }, goud: { done: 0, total: 0 } };
+    const tiers = { brons: 0, zilver: 0, goud: 0 };
     items.forEach((it) => {
       const tier = MEDAL_TIER[it.nivo];
-      if (!tier) return;
-      tiers[tier].total++;
-      if (doneIds.has(it.id)) tiers[tier].done++;
+      if (tier) tiers[tier] += it.punten;
     });
-    const compleet = (t) => tiers[t].total > 0 && tiers[t].done === tiers[t].total;
-    const brons = compleet('brons');
-    const zilver = brons && compleet('zilver');
-    const goud = zilver && compleet('goud');
-    return { tiers, medaille: goud ? 'goud' : zilver ? 'zilver' : brons ? 'brons' : null };
+    const thresholds = {
+      brons: tiers.brons,
+      zilver: tiers.brons + tiers.zilver,
+      goud: tiers.brons + tiers.zilver + tiers.goud,
+    };
+    const xp = s.xpEarned || 0;
+    const medaille = xp >= thresholds.goud && thresholds.goud > 0 ? 'goud'
+      : xp >= thresholds.zilver && thresholds.zilver > 0 ? 'zilver'
+      : xp >= thresholds.brons && thresholds.brons > 0 ? 'brons' : null;
+    return { tiers, thresholds, xp, medaille };
   };
 
   Store.toast = function (msg, ms) {

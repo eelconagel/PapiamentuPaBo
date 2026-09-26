@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block title %}Profiel · Papiamentu Pa Bo{% endblock %}
-{% block description %}Je XP van deze week en je medaille: brons, zilver of goud, op basis van de scenario's en nieuwsberichten die je hebt afgerond.{% endblock %}
+{% block description %}Je XP van deze week en je medaille: brons, zilver of goud, op basis van hoeveel XP je in totaal hebt verdiend.{% endblock %}
 {% block content %}
 <h1 class="title left">Profiel</h1>
 <p class="muted small" style="margin-top:-8px">
@@ -16,6 +16,7 @@
   <div class="medal-current">
     <div class="medal-current-icon" id="medal-icon">—</div>
     <div class="medal-current-label" id="medal-label">Nog geen medaille</div>
+    <div class="muted small">Totaal verdiend: <span id="total-xp">0</span> XP</div>
   </div>
 
   <div class="thermo-row">
@@ -27,24 +28,26 @@
     </div>
     <div class="medal-list">
       <div class="medal-row" id="row-goud">
-        <div class="medal-row-head"><span>🥇 Goud</span><span class="medal-row-count" id="count-goud">0 / 0</span></div>
+        <div class="medal-row-head"><span>🥇 Goud</span><span class="medal-row-count" id="count-goud">0 / 0 XP</span></div>
         <div class="progress-bar"><div class="progress-fill" id="bar-goud" style="background:var(--medal-goud)"></div></div>
       </div>
       <div class="medal-row" id="row-zilver">
-        <div class="medal-row-head"><span>🥈 Zilver</span><span class="medal-row-count" id="count-zilver">0 / 0</span></div>
+        <div class="medal-row-head"><span>🥈 Zilver</span><span class="medal-row-count" id="count-zilver">0 / 0 XP</span></div>
         <div class="progress-bar"><div class="progress-fill" id="bar-zilver" style="background:var(--medal-zilver)"></div></div>
       </div>
       <div class="medal-row" id="row-brons">
-        <div class="medal-row-head"><span>🥉 Brons</span><span class="medal-row-count" id="count-brons">0 / 0</span></div>
+        <div class="medal-row-head"><span>🥉 Brons</span><span class="medal-row-count" id="count-brons">0 / 0 XP</span></div>
         <div class="progress-bar"><div class="progress-fill" id="bar-brons" style="background:var(--medal-brons)"></div></div>
       </div>
     </div>
   </div>
 
   <p class="muted small medal-scope-note">
-    Brons = alle <strong>eenvoudige</strong> scenario's en nieuwsberichten afgerond. Zilver = brons plus alle
-    <strong>gemiddelde</strong>. Goud = zilver plus alle <strong>moeilijke</strong> (en expert-scenario's).
-    Lessen en woordenlijsten hebben geen niveau en tellen hier niet mee.
+    De drempels zijn de totale XP-waarde van alle <strong>eenvoudige</strong> (brons),
+    plus alle <strong>gemiddelde</strong> (zilver), plus alle <strong>moeilijke</strong> scenario's en
+    nieuwsberichten (goud, incl. expert-scenario's). Het maakt niet uit wáármee je die XP verdient — ook
+    XP uit lessen of woorden telt mee, en wie meteen de moeilijke opdrachten doet, is sneller door brons
+    en zilver heen.
   </p>
 </div>
 {% endblock %}
@@ -59,29 +62,36 @@
   function render() {
     document.getElementById('week-xp').textContent = Store.currentWeekXp();
 
-    const { tiers, medaille } = Store.medailleVoortgang(ITEMS);
-    const totalAll = tiers.brons.total + tiers.zilver.total + tiers.goud.total;
-    const doneAll = tiers.brons.done + tiers.zilver.done + tiers.goud.done;
-
+    const { tiers, thresholds, xp, medaille } = Store.medailleVoortgang(ITEMS);
+    document.getElementById('total-xp').textContent = xp;
     document.getElementById('medal-icon').textContent = medaille ? MEDAL_ICON[medaille] : '—';
     document.getElementById('medal-label').textContent = medaille
       ? `${MEDAL_NAAM[medaille]} behaald!` : 'Nog geen medaille';
 
+    // Each row shows how much of ITS OWN share of the ladder your total XP has covered so
+    // far: brons is the first tiers.brons XP, zilver the tiers.zilver after that, goud the
+    // rest — it doesn't matter which activity earned that XP.
+    const shares = {
+      brons: Math.min(xp, tiers.brons),
+      zilver: Math.min(Math.max(xp - thresholds.brons, 0), tiers.zilver),
+      goud: Math.min(Math.max(xp - thresholds.zilver, 0), tiers.goud),
+    };
     ['brons', 'zilver', 'goud'].forEach((tier) => {
-      const t = tiers[tier];
-      document.getElementById(`count-${tier}`).textContent = `${t.done} / ${t.total}`;
-      document.getElementById(`bar-${tier}`).style.width = (t.total ? (t.done / t.total) * 100 : 0) + '%';
-      document.getElementById(`row-${tier}`).classList.toggle('done', t.total > 0 && t.done === t.total);
+      document.getElementById(`count-${tier}`).textContent = `${shares[tier]} / ${tiers[tier]} XP`;
+      document.getElementById(`bar-${tier}`).style.width = (tiers[tier] ? (shares[tier] / tiers[tier]) * 100 : 0) + '%';
+      document.getElementById(`row-${tier}`).classList.toggle('done', tiers[tier] > 0 && shares[tier] === tiers[tier]);
     });
 
-    // Thermometer: band heights follow each tier's share of all items, so a fully filled
-    // band really does mean that tier is complete. The cover slides down as progress rises.
+    // Thermometer: band heights follow each tier's share of the total XP ladder, so a fully
+    // filled band really does mean that tier's threshold was passed. The cover slides down as
+    // your total XP rises — from any activity, not only from finishing that tier's content.
+    const totalAll = thresholds.goud;
     const tube = document.getElementById('thermo-tube');
-    const bronsPct = totalAll ? (tiers.brons.total / totalAll) * 100 : 33;
-    const zilverTopPct = totalAll ? bronsPct + (tiers.zilver.total / totalAll) * 100 : 66;
+    const bronsPct = totalAll ? (tiers.brons / totalAll) * 100 : 33;
+    const zilverTopPct = totalAll ? bronsPct + (tiers.zilver / totalAll) * 100 : 66;
     tube.style.setProperty('--brons-pct', bronsPct + '%');
     tube.style.setProperty('--zilver-top-pct', zilverTopPct + '%');
-    const overallPct = totalAll ? (doneAll / totalAll) * 100 : 0;
+    const overallPct = totalAll ? Math.min(100, (xp / totalAll) * 100) : 0;
     document.getElementById('thermo-cover').style.height = (100 - overallPct) + '%';
     document.getElementById('thermo-bulb').textContent = medaille ? MEDAL_ICON[medaille] : '🌡️';
   }

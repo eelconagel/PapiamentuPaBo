@@ -192,11 +192,15 @@ def create_app(test_config=None):
     @app.get("/profiel")
     def profiel():
         # Only scenarios and news articles carry a difficulty level, so the medal system (and
-        # this page) is scoped to those two. No account data is read here: everything is
-        # computed client-side from the browser's own progress in localStorage.
-        items = [{"id": s["id"], "nivo": s["difficulty"]}
+        # this page) is scoped to those two. "punten" is how much XP that item is worth (one
+        # per quiz question), matching how much XP completing it actually earns you — the medal
+        # thresholds are the total XP of a level's content, not which items you've done. No
+        # account data is read here: everything is computed client-side from the browser's own
+        # progress in localStorage.
+        items = [{"nivo": s["difficulty"], "punten": len(content.scenarios[s["id"]].get("quiz", []))}
                  for s in content.scenario_list if s["id"] in content.scenarios]
-        items += [{"id": aid, "nivo": a["nivo"]} for aid, a in content.nieuws.items()]
+        items += [{"nivo": a["nivo"], "punten": sum(len(p["zinnen"]) + 1 for p in a["paragrafen"])}
+                  for a in content.nieuws.values()]
         return render_template("profiel.html", items=items)
 
     def site_url(path=""):

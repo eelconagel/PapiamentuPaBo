@@ -1,3 +1,4 @@
+import json
 import re
 import sqlite3
 
@@ -113,13 +114,26 @@ def test_home_and_sitemap_link_nieuws(app, client):
     assert "/nieuws/nieuws-001" in sitemap
 
 
-def test_profiel_lists_every_scenario_and_nieuws_item(app, client):
+def test_profiel_medal_thresholds_match_content(app, client):
     content = app.extensions["content"]
     html = client.get("/profiel").get_data(as_text=True)
-    for sid in content.scenarios:
-        assert sid in html
-    for aid in content.nieuws:
-        assert aid in html
+    items = json.loads(re.search(r"const ITEMS = (\[.*?\]);", html, re.DOTALL).group(1))
+
+    # One entry per scenario that actually has data, plus one per news article.
+    assert len(items) == len(content.scenarios) + len(content.nieuws)
+    assert all(set(it) == {"nivo", "punten"} and it["punten"] > 0 for it in items)
+
+    by_nivo = {}
+    for it in items:
+        by_nivo[it["nivo"]] = by_nivo.get(it["nivo"], 0) + it["punten"]
+    expected = {}
+    for s in content.scenario_list:
+        if s["id"] in content.scenarios:
+            expected[s["difficulty"]] = expected.get(s["difficulty"], 0) + len(content.scenarios[s["id"]]["quiz"])
+    for a in content.nieuws.values():
+        expected[a["nivo"]] = expected.get(a["nivo"], 0) + sum(len(p["zinnen"]) + 1 for p in a["paragrafen"])
+    assert by_nivo == expected
+
     # /profiel isn't personal data anywhere on the site: it's not in the sitemap or robots.
     assert "/profiel" not in client.get("/sitemap.xml").get_data(as_text=True)
 

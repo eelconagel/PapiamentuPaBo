@@ -119,6 +119,9 @@
   const listUrl = {{ url_for('lessen') | tojson }};
 
   const done = () => Store.get().lessen[LES_ID] || [];
+  // Read once at load: XP for the eindoefening is only earned the first time it's passed,
+  // so retaking it later (or retrying after a fail, all within this same page) never re-earns it.
+  let earnedQuizXp = done().includes(4);
   const prevDone = (Store.get().lessen[LES_ID - 1] || []).length >= 4;
   if (LES_ID > 1 && !prevDone) {
     document.getElementById('locked').hidden = false;
@@ -155,9 +158,10 @@
           failText: (need, total) => `Helaas, je hebt ${need} van de ${total} vragen nodig. Probeer opnieuw!`,
           passLabel: 'Les voltooien',
           onPass: (score, total) => {
+            if (!earnedQuizXp && score) { Store.addXp(score); earnedQuizXp = true; }
             Store.completeLesStap(LES_ID, 4);
             renderTabs();
-            Store.toast(`Les voltooid! ${score}/${total} punten.`);
+            Store.toast(`Les voltooid! ${score}/${total} punten.` + (score ? ` +${score} XP` : ''));
             setTimeout(() => { window.location.href = listUrl; }, 1400);
           },
         });
