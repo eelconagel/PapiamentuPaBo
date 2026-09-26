@@ -66,6 +66,9 @@
 <script nonce="{{ csp_nonce }}">
 (function () {
   const LIJSTEN = {{ lijsten | tojson }};
+  // Woordenschat uit lessen/scenario's/nieuws: {id, woord, uitspraak, vertaling, bron}.
+  // Wordt pas meegenomen zodra die bron ook echt is gezien (isBronBeschikbaar hieronder).
+  const EXTRA_WOORDEN = {{ extra_woorden | tojson }};
   const MASTERED_THRESHOLD = 2;
   const XP_SCHRIJVEN = 5;
   const XP_LEZEN = 1;
@@ -79,7 +82,17 @@
   let newUnlock = null;
   let lezenVraag = null;
 
-  // Weighted pick: newest unlocked list weight 1, previous 0.5, 0.25, ...
+  // Een bron (les-3, scenario-007, nieuws-014) telt pas mee zodra je 'm ook echt hebt
+  // gezien: het scenario/nieuwsartikel afgerond, of bij lessen voorbij de Woordjes-stap
+  // (stap 2) geweest — anders zou je woorden krijgen uit content die je nooit hebt geopend.
+  function isBronBeschikbaar(bron, s) {
+    if (bron.startsWith('les-')) return (s.lessen[bron.slice(4)] || []).includes(2);
+    if (bron.startsWith('nieuws-')) return !!s.nieuws[bron];
+    return !!s.scenarios[bron];  // scenario-XXX
+  }
+
+  // Weighted pick: newest unlocked list weight 1, previous 0.5, 0.25, ... — woorden uit
+  // lessen/scenario's/nieuws krijgen daarnaast allemaal het gewicht van de nieuwste lijst.
   function pickWeightedWord() {
     const s = Store.get();
     const ids = s.lijsten.slice().sort((a, b) => a - b);
@@ -90,6 +103,9 @@
       const weight = Math.pow(0.5, ids.length - 1 - i);
       lijst.woorden.forEach((w) => { if (!s.woorden[w.id]?.is_mastered) entries.push({ w, weight }); });
     });
+    EXTRA_WOORDEN.forEach((w) => {
+      if (isBronBeschikbaar(w.bron, s) && !s.woorden[w.id]?.is_mastered) entries.push({ w, weight: 1 });
+    });
     if (!entries.length) return null;
     let r = Math.random() * entries.reduce((sum, e) => sum + e.weight, 0);
     for (const e of entries) { r -= e.weight; if (r <= 0) return e.w; }
@@ -97,8 +113,10 @@
   }
 
   function unlockedWords() {
-    const ids = Store.get().lijsten;
-    return LIJSTEN.filter((l) => ids.includes(l.id)).flatMap((l) => l.woorden);
+    const s = Store.get();
+    const uitLijsten = LIJSTEN.filter((l) => s.lijsten.includes(l.id)).flatMap((l) => l.woorden);
+    const uitExtra = EXTRA_WOORDEN.filter((w) => isBronBeschikbaar(w.bron, s));
+    return uitLijsten.concat(uitExtra);
   }
 
   function makeLezenVraag(w) {
@@ -134,8 +152,10 @@
     const s = Store.get();
     $('xp').textContent = s.xp + ' XP';
     const n = s.lijsten.length;
+    const extraBeschikbaar = EXTRA_WOORDEN.filter((w) => isBronBeschikbaar(w.bron, s)).length;
     $('unlocked-info').textContent = `${n} lijst${n !== 1 ? 'en' : ''} ontgrendeld` +
-      (n < LIJSTEN.length ? ' · volgende bij voltooien huidige lijst' : ' · alle lijsten beschikbaar');
+      (n < LIJSTEN.length ? ' · volgende bij voltooien huidige lijst' : ' · alle lijsten beschikbaar') +
+      (extraBeschikbaar ? ` · +${extraBeschikbaar} woorden uit lessen/scenario's/nieuws` : '');
     $('unlock-banner').hidden = !newUnlock;
     if (newUnlock) $('unlock-banner').textContent = `Nieuwe lijst ontgrendeld: ${newUnlock}!`;
   }
@@ -345,6 +365,36 @@
       }
       root.append(card);
     });
+
+    // Eén verzamelkaart voor woorden uit lessen/scenario's/nieuws: per bron uitsplitsen zou
+    // een lange lijst van tientallen kaartjes geven, dus dit is bewust samengevat.
+    const beschikbaar = EXTRA_WOORDEN.filter((w) => isBronBeschikbaar(w.bron, s));
+    if (beschikbaar.length) {
+      const mastered = beschikbaar.filter((w) => s.woorden[w.id]?.is_mastered).length;
+      const card = document.createElement('div');
+      card.className = 'list-card';
+      const head = document.createElement('div');
+      head.className = 'list-header';
+      head.innerHTML = '<span></span><span class="score-txt"></span>';
+      head.children[0].textContent = "Uit lessen, scenario's en nieuws";
+      head.children[1].textContent = `${mastered}/${beschikbaar.length}`;
+      const bar = document.createElement('div');
+      bar.className = 'progress-bar';
+      bar.innerHTML = `<div class="progress-fill" style="width:${(mastered / beschikbaar.length) * 100}%"></div>`;
+      card.append(head, bar);
+      beschikbaar.forEach((w) => {
+        const p = s.woorden[w.id];
+        const row = document.createElement('div');
+        row.className = 'wl-row';
+        row.innerHTML = '<span></span><span class="nl"></span><span class="cnt"></span>';
+        row.children[0].textContent = w.woord;
+        if (p?.is_mastered) row.children[0].className = 'mastered';
+        row.children[1].textContent = w.vertaling;
+        row.children[2].textContent = `${p?.correct_count ?? 0}/${MASTERED_THRESHOLD}x`;
+        card.append(row);
+      });
+      root.append(card);
+    }
   }
 
   $('to-voortgang').addEventListener('click', () => {

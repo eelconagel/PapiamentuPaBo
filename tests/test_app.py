@@ -84,6 +84,22 @@ def test_content_integrity(app):
     assert len(word_ids) == len(set(word_ids))
 
 
+def test_alle_leerwoorden_unique_and_complete(app):
+    # De centrale woordenschat-motor (Fase 2): elk woord-id is uniek over de hele site, en
+    # elk woord heeft een niet-lege papiamentu/uitspraak/vertaling/bron.
+    c = app.extensions["content"]
+    woorden = c.alle_leerwoorden()
+    ids = [w["id"] for w in woorden]
+    assert len(ids) == len(set(ids))
+    assert len(woorden) >= sum(len(l["woorden"]) for l in c.woordenlijsten)
+    for w in woorden:
+        assert set(w) == {"id", "woord", "uitspraak", "vertaling", "bron"}
+        assert w["woord"].strip() and w["uitspraak"].strip() and w["vertaling"].strip() and w["bron"].strip()
+    # De vaste woordenlijst-ids blijven ongewijzigd (bestaande voortgang mag nooit breken).
+    lijst_ids = {w["id"] for l in c.woordenlijsten for w in l["woorden"]}
+    assert lijst_ids <= set(ids)
+
+
 def test_nieuws_integrity(app):
     from papiamentu.content import KATEGORIA_NL, NIVEAU_LABEL
     c = app.extensions["content"]

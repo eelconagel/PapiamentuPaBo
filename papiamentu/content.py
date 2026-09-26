@@ -1,5 +1,7 @@
 """Loads the learning content (scenarios, lessons, word lists) from JSON once at startup."""
 import json
+import re
+import unicodedata
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent / "data"
@@ -44,6 +46,14 @@ def _load(path: Path):
         return json.load(f)
 
 
+def _slug(text: str) -> str:
+    """ASCII-only, hyphenated slug — used to build word ids for scenarios/nieuws/lessen,
+    which (unlike woordenlijsten.json) have no id of their own per word."""
+    ascii_text = unicodedata.normalize("NFKD", text.lower()).encode("ascii", "ignore").decode()
+    slug = re.sub(r"[^a-z0-9]+", "-", ascii_text).strip("-")
+    return slug[:40] or "x"
+
+
 class Content:
     def __init__(self, data_dir: Path = DATA_DIR):
         self.scenario_list = _load(data_dir / "papiamentuPaBoScenarios.json")
@@ -71,3 +81,39 @@ class Content:
     def scenario_title(self, scenario_id: str) -> str:
         s = self.scenarios.get(scenario_id)
         return s["title"] if s else scenario_id
+
+    def alle_leerwoorden(self):
+        """One flat, deduplicated-by-id list of every word taught anywhere on the site:
+        the fixed woordenlijsten (own id, e.g. "w1_01") plus the vocabulary sections of
+        lessen, scenario's and nieuws (id built from the source + a slug, since those don't
+        carry their own word ids). "bron" tells the front end which lesson/scenario/article
+        a word came from, so it can only be practised once that content has been seen —
+        see Store.medailleVoortgang-achtige gating in woorden.html.
+        """
+        out = []
+        seen_ids = set()
+
+        def add(bron, woord, uitspraak, vertaling):
+            base = f"{bron}:{_slug(woord)}"
+            wid, n = base, 2
+            while wid in seen_ids:
+                wid = f"{base}-{n}"
+                n += 1
+            seen_ids.add(wid)
+            out.append({"id": wid, "woord": woord, "uitspraak": uitspraak, "vertaling": vertaling, "bron": bron})
+
+        for lijst in self.woordenlijsten:
+            for w in lijst["woorden"]:
+                seen_ids.add(w["id"])
+                out.append({"id": w["id"], "woord": w["woord"], "uitspraak": w["uitspraak"],
+                           "vertaling": w["vertaling"], "bron": f"woordenlijst-{lijst['id']}"})
+        for les in self.lessen:
+            for w in les.get("woorden", []):
+                add(f"les-{les['id']}", w["woord"], w["uitspraak"], w["vertaling"])
+        for sid, s in self.scenarios.items():
+            for w in s.get("words", []):
+                add(sid, w["papiamentu"], w["pronunciation"], w["dutch"])
+        for aid, a in self.nieuws.items():
+            for w in a.get("sleutelwoorden", []):
+                add(aid, w["woord"], w["uitspraak"], w["vertaling"])
+        return out

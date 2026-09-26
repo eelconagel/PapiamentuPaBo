@@ -131,7 +131,11 @@ def create_app(test_config=None):
 
     @app.get("/woorden")
     def woorden():
-        return render_template("woorden.html", lijsten=content.woordenlijsten)
+        # Alle woorden buiten de vaste woordenlijsten (die komen al binnen via `lijsten`):
+        # woordenschat uit lessen/scenario's/nieuws, gekoppeld aan de bron zodat ze pas
+        # geoefend kunnen worden zodra die content is gezien (zie woorden.html).
+        extra = [w for w in content.alle_leerwoorden() if not w["bron"].startswith("woordenlijst-")]
+        return render_template("woorden.html", lijsten=content.woordenlijsten, extra_woorden=extra)
 
     @app.get("/lessen")
     def lessen():
