@@ -42,7 +42,11 @@ def message_count(app):
     "/contact", "/privacy", "/instellingen", "/healthz",
 ])
 def test_pages_ok(client, path):
-    assert client.get(path).status_code == 200
+    resp = client.get(path)
+    assert resp.status_code == 200
+    if path != "/healthz":
+        # speak.js (uitspraak-knop) loads via base.html on every real page.
+        assert "js/speak.js" in resp.get_data(as_text=True)
 
 
 def test_every_scenario_and_lesson_renders(app, client):

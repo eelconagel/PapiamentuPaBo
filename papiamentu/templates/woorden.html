@@ -146,10 +146,11 @@
     return `Voortgang: ${count}/${MASTERED_THRESHOLD}x` + (p?.is_mastered ? ' — Gemeesterd!' : '');
   }
 
-  function feedbackBox(ok, text) {
+  function feedbackBox(ok, text, papWoord) {
     const box = document.createElement('div');
     box.className = 'feedback ' + (ok ? 'ok' : 'bad');
     box.textContent = text;
+    if (papWoord) box.append(Speak.button(papWoord));
     if (ok) {
       const pr = document.createElement('div');
       pr.className = 'fb-progress';
@@ -198,6 +199,9 @@
       lezenVraag = makeLezenVraag(woord);
       $('l-label').textContent = lezenVraag.nlToPap ? 'Wat is het Papiamentse woord voor:' : 'Wat betekent dit in het Nederlands:';
       $('l-prompt').textContent = lezenVraag.prompt;
+      // Alleen een uitspraak-knop als de prompt zélf Papiamentu is (anders zijn het de
+      // opties, en een <button> in een <button> nesten is geen optie).
+      if (!lezenVraag.nlToPap) Speak.attach($('l-prompt'));
       $('l-feedback').innerHTML = '';
       $('l-next').hidden = true;
       const opts = $('l-options');
@@ -253,7 +257,7 @@
     const msg = verdict === 'exact' ? `Goed! +${XP_SCHRIJVEN} XP`
       : verdict === 'accents' ? `Goed! +${XP_SCHRIJVEN} XP — let op de accenten: "${woord.woord}"`
       : `Helaas. Het juiste antwoord is: "${woord.woord}"`;
-    $('s-feedback').replaceChildren(feedbackBox(ok, msg));
+    $('s-feedback').replaceChildren(feedbackBox(ok, msg, woord.woord));
     $('s-submit').textContent = 'Volgend woord';
     $('s-submit').focus();
   });
@@ -290,7 +294,10 @@
       else if (j === i) b.classList.add('wrong');
     });
     if (ok) handleCorrect(XP_LEZEN);
-    $('l-feedback').replaceChildren(feedbackBox(ok, ok ? `Goed! +${XP_LEZEN} XP` : `Helaas. Het juiste antwoord is: "${lezenVraag.opties[lezenVraag.correctIdx]}"`));
+    // De opties zijn Papiamentu als de prompt zelf Nederlands was — dan is een uitspraak-
+    // knop bij het juiste antwoord zinvol; andersom is het antwoord juist Nederlands.
+    const papWoord = lezenVraag.nlToPap ? lezenVraag.opties[lezenVraag.correctIdx] : null;
+    $('l-feedback').replaceChildren(feedbackBox(ok, ok ? `Goed! +${XP_LEZEN} XP` : `Helaas. Het juiste antwoord is: "${lezenVraag.opties[lezenVraag.correctIdx]}"`, papWoord));
     $('l-next').hidden = false;
     $('l-next').focus();
   }

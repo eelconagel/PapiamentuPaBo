@@ -44,7 +44,7 @@
       <span class="wotd-label">📖 Woord van de dag</span>
       <button class="icon-btn" id="wotd-refresh" type="button" aria-label="Ander woord" title="Ander woord">🔄</button>
     </div>
-    <div class="wotd-word" id="wotd-word"></div>
+    <div class="wotd-word" id="wotd-word" lang="pap"></div>
     <div class="wotd-pron" id="wotd-pron"></div>
     <div class="wotd-trans" id="wotd-trans"></div>
   </div>
@@ -178,6 +178,7 @@
   function showWord(w) {
     current = w;
     document.getElementById('wotd-word').textContent = w.word;
+    Speak.attach(document.getElementById('wotd-word'));
     document.getElementById('wotd-pron').textContent = '[' + w.pronunciation + ']';
     document.getElementById('wotd-trans').textContent = w.translation;
   }

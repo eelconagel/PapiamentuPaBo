@@ -133,6 +133,7 @@
     });
   }
   const view = buildText($('news-text'), false);
+  Speak.attachAll('.word-row .word-pap');
 
   // ---------- flow: read paragraph → one question per sentence → paragraph question ----------
   let pi, si, phase, score, answered, firstRead;
@@ -221,6 +222,7 @@
       $('task-label').textContent = `Zin ${si + 1} van ${p.zinnen.length}`;
       const quote = el('blockquote', 'news-quote', z.pap);
       quote.lang = 'pap';
+      Speak.attach(quote);
       const extra = el('div');
       extra.append(quote, translationToggle(z.nl));
       Quiz.ask(body, { question: z.vraag || 'Wat wordt hier gezegd?', options: z.opties, correct: z.correct, explanation: z.uitleg }, {

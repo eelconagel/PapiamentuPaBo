@@ -19,7 +19,7 @@
       <h2 class="section-title">Sleutelwoorden</h2>
       {% for w in s.introWords %}
         <div class="word-row">
-          <div class="word-pap">{{ w.papiamentu }}</div>
+          <div class="word-pap" lang="pap">{{ w.papiamentu }}</div>
           <div class="word-pron">[{{ w.pronunciation }}]</div>
           <div class="word-nl">{{ w.dutch }}</div>
         </div>
@@ -52,7 +52,7 @@
     <p class="page-label">Woordenschat</p>
     {% for w in s.words %}
       <div class="word-row">
-        <div class="word-pap">{{ w.papiamentu }}</div>
+        <div class="word-pap" lang="pap">{{ w.papiamentu }}</div>
         <div class="word-pron">[{{ w.pronunciation }}]</div>
         <div class="word-nl">{{ w.dutch }}</div>
         {% if w.example %}<div class="word-ex">“{{ w.example }}”</div>{% endif %}
@@ -114,6 +114,7 @@
   const PAGE_NAMES = { intro: 'Introductie', grammar: 'Grammatica', words: 'Woordenschat',
                        pitfalls: 'Let op', culture: 'Cultuur', quiz: 'Quiz' };
   let index = 0;
+  Speak.attachAll('.word-row .word-pap');
   let completed = !!Store.get().scenarios[SCENARIO_ID];
   let quiz = null;
 
