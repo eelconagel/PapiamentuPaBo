@@ -9,7 +9,7 @@
       { "papiamentu": "E lo konta e storia p'anos mayan anochi.", "vertaling": "Hij/zij zal ons morgenavond het verhaal vertellen." },
       { "papiamentu": "Mi a skribi un karta p'e pero e no a respondi.", "vertaling": "Ik schreef hem/haar een brief maar hij/zij reageerde niet." },
       { "papiamentu": "Mustrami kiko bo a haña na tienda.", "vertaling": "Laat me zien wat jij bij de winkel gevonden hebt." },
-      { "papiamentu": "Manda un mesashi p'abo — yama mi kuantu bo yega.", "vertaling": "Stuur jou een bericht — bel mij als jij aankomt." }
+      { "papiamentu": "Manda un mesashi p'abo — yama mi ora bo yega.", "vertaling": "Ik stuur je een bericht — bel me als je aankomt." }
     ]
   },
   "e_asina_ta": [
@@ -61,7 +61,7 @@
     { "vraag": "Wat is 'skribi'?", "opties": ["Schrijven", "Lezen", "Tekenen", "Versturen"], "correct": 0 },
     { "vraag": "Hoe zeg je 'Ik schreef hem een brief'?", "opties": ["Mi a skribi un karta p'e", "Mi a skribi p'e un karta", "Beide zijn correct", "Geen van beide"], "correct": 2 },
     { "vraag": "Wat is 'trae'?", "opties": ["Brengen / meenemen", "Sturen", "Geven", "Laten"], "correct": 0 },
-    { "vraag": "Hoe zeg je 'Bel mij als jij aankomt'?", "opties": ["Yama mi kuantu bo yega", "Yama p'ami kuantu bo yega", "Beide zijn correct", "Geen van beide"], "correct": 2 },
+    { "vraag": "Hoe zeg je 'Bel mij als jij aankomt'?", "opties": ["Yama mi ora bo yega", "Yama p'ami ora bo yega", "Beide zijn correct", "Geen van beide"], "correct": 2 },
     { "vraag": "Hoe zeg je 'Stuur mij een bericht'?", "opties": ["Manda un mesashi p'ami", "Manda p'ami un mesashi", "Beide zijn correct", "Geen van beide"], "correct": 2 },
     { "vraag": "Wat is 'mesashi'?", "opties": ["Bericht / boodschap", "Pakket", "Brief", "Cadeau"], "correct": 0 },
     { "vraag": "Wat is 'karta'?", "opties": ["Brief / kaart", "Bericht", "Pakket", "Document"], "correct": 0 },

@@ -8,7 +8,7 @@
       { "papiamentu": "Bon dia! Kon ta bai? — Tur kos ta bon, danki. I bo?", "vertaling": "Goedemorgen! Hoe gaat het? — Alles goed, dank je. En jij?" },
       { "papiamentu": "Mi ta yama Eelco. I bo, ken bo ta?", "vertaling": "Ik heet Eelco. En jij, wie ben jij?" },
       { "papiamentu": "Mi ta di Hulanda, pero mi ta biba na Kòrsou awor", "vertaling": "Ik kom uit Nederland, maar ik woon nu op Curaçao" },
-      { "papiamentu": "Ku masha placer di konosé bo", "vertaling": "Aangenaam kennis te maken" },
+      { "papiamentu": "Ku masha plaser di konosé bo", "vertaling": "Aangenaam kennis te maken" },
       { "papiamentu": "Bai! Kuidá bo kurpa, te mayan!", "vertaling": "Doei! Pas goed op jezelf, tot morgen!" }
     ]
   },
@@ -40,7 +40,7 @@
     { "woord": "Bon nochi", "uitspraak": "bon no-chi", "vertaling": "Goedenavond / welterusten (vanaf ~18:00)" },
     { "woord": "Tur kos ta bon", "uitspraak": "toer kos ta bon", "vertaling": "Alles is goed / alles gaat goed" },
     { "woord": "Konosé", "uitspraak": "ko-no-se", "vertaling": "Kennen / ontmoeten" },
-    { "woord": "Ku masha placer", "uitspraak": "koe ma-sha pla-ser", "vertaling": "Aangenaam / met groot genoegen" },
+    { "woord": "Ku masha plaser", "uitspraak": "koe ma-sha pla-ser", "vertaling": "Aangenaam / met groot genoegen" },
     { "woord": "Pero", "uitspraak": "pe-ro", "vertaling": "Maar" },
     { "woord": "Kuidá", "uitspraak": "kwi-da", "vertaling": "Zorgen voor / passen op" },
     { "woord": "Kurpa", "uitspraak": "kur-pa", "vertaling": "Lichaam" },
@@ -54,7 +54,7 @@
     { "vraag": "Hoe zeg je 'Alles gaat goed'?", "opties": ["Tur kos ta bon", "Tur kos ta bai", "Tur bon ta kos", "Kos ta tur bon"], "correct": 0 },
     { "vraag": "Hoe stel je jezelf voor?", "opties": ["Mi ta yama...", "Mi nòmber ta...", "Beide zijn correct", "Geen van beide"], "correct": 2 },
     { "vraag": "Hoe zeg je 'Ik kom uit Nederland maar ik woon op Curaçao'?", "opties": ["Mi ta di Hulanda, pero mi ta biba na Kòrsou", "Mi ta na Hulanda pero mi ta di Kòrsou", "Mi biba Hulanda pero mi ta Kòrsou", "Pero mi ta di Hulanda na Kòrsou"], "correct": 0 },
-    { "vraag": "Wat betekent 'Ku masha placer di konosé bo'?", "opties": ["Aangenaam kennis te maken", "Heel goed te zien", "Lekker om je te kennen", "Tot genoegen ziens"], "correct": 0 },
+    { "vraag": "Wat betekent 'Ku masha plaser di konosé bo'?", "opties": ["Aangenaam kennis te maken", "Heel goed te zien", "Lekker om je te kennen", "Tot genoegen ziens"], "correct": 0 },
     { "vraag": "Hoe neem je warm afscheid op Curaçao?", "opties": ["Kuidá bo kurpa!", "Bai snel!", "Ayó en klaar.", "Danki pa alles."], "correct": 0 },
     { "vraag": "Waarom begroet je mensen altijd bij binnenkomst op Curaçao?", "opties": ["Het is een sociaal contract — je erkent de aanwezigen", "Het is verplicht bij wet", "Het is alleen voor toeristen", "Het is alleen in formele situaties"], "correct": 0 },
     { "vraag": "Welke begroeting gebruik je om 20:00 uur?", "opties": ["Bon nochi", "Bon tardi", "Bon dia", "Ayó"], "correct": 0 },

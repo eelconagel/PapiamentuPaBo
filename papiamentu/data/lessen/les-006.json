@@ -9,7 +9,7 @@
       { "papiamentu": "Unda bo ta biba?", "vertaling": "Waar woon jij?" },
       { "papiamentu": "Ki ora e ta yega?", "vertaling": "Hoe laat komt hij/zij aan?" },
       { "papiamentu": "Dikon bo no ta kome?", "vertaling": "Waarom eet jij niet?" },
-      { "papiamentu": "Ken ta bo mei-mei?", "vertaling": "Wie is jouw vriend/vriendin?" }
+      { "papiamentu": "Ken ta bo amigo?", "vertaling": "Wie is jouw vriend/vriendin?" }
     ]
   },
   "e_asina_ta": [
@@ -46,7 +46,7 @@
     { "woord": "Yega", "uitspraak": "je-ga", "vertaling": "Aankomen / arriveren" },
     { "woord": "Pa kiko", "uitspraak": "pa kie-ko", "vertaling": "Waarom (alternatief voor dikon)" }
   ],
-  "culturele_context": "Op Curaçao is vragen stellen een kunst van nieuwsgierigheid zonder opdringerigheid. 'Ken bo ta?' (Wie ben jij?) is een directe vraag maar nooit als bedreigend bedoeld — mensen zijn oprecht geïnteresseerd in wie je bent en waar je vandaan komt.\n\nDe vraag 'Di unda bo ta?' (Waar kom je vandaan?) is een van de meest gestelde vragen bij een eerste ontmoeting. Het eiland heeft een rijke mix van afkomsten en culturen, en die diversiteit wordt gevierd.\n\nVragen stellen in Papiamentu is ook een manier van verbinding zoeken. Een vraag als 'Kon bo ta?' (Hoe ben je?) nodigt uit tot een gesprek, niet alleen een informatieuitwisseling. Op het eiland is sociale verbinding de context van alle taal.",
+  "culturele_context": "Op Curaçao is vragen stellen een kunst van nieuwsgierigheid zonder opdringerigheid. 'Ken bo ta?' (Wie ben jij?) is een directe vraag maar nooit als bedreigend bedoeld — mensen zijn oprecht geïnteresseerd in wie je bent en waar je vandaan komt.\n\nDe vraag 'Di unda bo ta?' (Waar kom je vandaan?) is een van de meest gestelde vragen bij een eerste ontmoeting. Het eiland heeft een rijke mix van afkomsten en culturen, en die diversiteit wordt gevierd.\n\nVragen stellen in Papiamentu is ook een manier van verbinding zoeken. Een vraag als 'Kon bo ta?' (Hoe ben je?) nodigt uit tot een gesprek, niet alleen een informatie-uitwisseling. Op het eiland is sociale verbinding de context van alle taal.",
   "scenario_links": ["scenario-001", "scenario-002", "scenario-003"],
   "eindoefening": [
     { "vraag": "Welk vraagwoord gebruik je voor 'Waar'?", "opties": ["Unda", "Kiko", "Kon", "Ken"], "correct": 0 },

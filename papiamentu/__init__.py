@@ -43,6 +43,9 @@ def create_app(test_config=None):
         SESSION_COOKIE_SECURE=env("COOKIE_SECURE", "0") == "1",
         SESSION_COOKIE_HTTPONLY=True,
         SESSION_COOKIE_SAMESITE="Lax",
+        # Hard ceiling on any request body (sync API also checks Content-Length; this also
+        # catches chunked uploads that send no Content-Length header). 512 KB is ample.
+        MAX_CONTENT_LENGTH=512 * 1024,
         CONTACT_LIMIT_PER_IP_HOUR=int(env("CONTACT_LIMIT_PER_IP_HOUR", "5")),
         CONTACT_LIMIT_PER_DAY=int(env("CONTACT_LIMIT_PER_DAY", "100")),
         SMTP_HOST=env("SMTP_HOST", ""),

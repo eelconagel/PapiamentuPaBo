@@ -3,13 +3,13 @@
   "blok": 4,
   "titel": "Scenario-koppeling 4: Integratie — Leven op Curaçao",
   "grammatica": {
-    "uitleg": "In deze finale les pas je alle 39 voorgaande lessen toe in realistische, geïntegreerde situaties. Dit is de 'examenzitting' van de cursus — niet met toetsvragen maar met levensechte taalgebruik.\n\nDE VOLLEDIGE CONVERSATIECYCLUS OP CURAÇAO:\n\n1. AANKOMEN EN BEGROETEN (Blok 1)\n   • Bon dia! Ku masha placer di konosé bo.\n   • Mi ta yama... / Mi ta di Hulanda pero mi ta biba na Kòrsou awor.\n\n2. DAGELIJKS LEVEN REGELEN (Blok 2)\n   • Tin un tienda nobo na mi bario — nan tin tur kos.\n   • E muchanan di mi buur ta masha bon i bunita.\n\n3. ERVARINGEN DELEN EN PLANNEN MAKEN (Blok 3)\n   • Ayera mi a bishitá e merkado — a yega masha tempran.\n   • Proximo siman mi lo mester bai na doktor pasobra mi tin un analisa.\n\n4. PROFESSIONEEL EN FORMEEL COMMUNICEREN (Blok 4)\n   • Ku masha respèt, mi ta solisitá bo asistencia tokante di e vakature.\n   • Si tin un problema ku e servisio, por bo duna mi un reembolso?\n\nSAMEN IN ÉÉN GESPREK:\nEen echte Curaçaose interactie beweegt moeiteloos door deze niveaus — van begroeting naar dagelijks nieuws naar professionele kwesties naar warm afscheid. De taal volgt de relatie.",
+    "uitleg": "In deze finale les pas je alle 39 voorgaande lessen toe in realistische, geïntegreerde situaties. Dit is de 'examenzitting' van de cursus — niet met toetsvragen maar met levensechte taalgebruik.\n\nDE VOLLEDIGE CONVERSATIECYCLUS OP CURAÇAO:\n\n1. AANKOMEN EN BEGROETEN (Blok 1)\n   • Bon dia! Ku masha plaser di konosé bo.\n   • Mi ta yama... / Mi ta di Hulanda pero mi ta biba na Kòrsou awor.\n\n2. DAGELIJKS LEVEN REGELEN (Blok 2)\n   • Tin un tienda nobo na mi bario — nan tin tur kos.\n   • E muchanan di mi buur ta masha bon i bunita.\n\n3. ERVARINGEN DELEN EN PLANNEN MAKEN (Blok 3)\n   • Ayera mi a bishitá e merkado — a yega masha tempran.\n   • Proximo siman mi lo mester bai na doktor pasobra mi tin un analisa.\n\n4. PROFESSIONEEL EN FORMEEL COMMUNICEREN (Blok 4)\n   • Ku masha respèt, mi ta solisitá bo asistencia tokante di e vakature.\n   • Si tin un problema ku e servisio, por bo duna mi un reembolso?\n\nSAMEN IN ÉÉN GESPREK:\nEen echte Curaçaose interactie beweegt moeiteloos door deze niveaus — van begroeting naar dagelijks nieuws naar professionele kwesties naar warm afscheid. De taal volgt de relatie.",
     "voorbeelden": [
       { "papiamentu": "Bon dia, Señora! Kon ta bai? Tin hopi tempu ku mi no a mira bo!", "vertaling": "Goedemorgen, mevrouw! Hoe gaat het? Het is lang geleden dat ik u gezien heb!" },
       { "papiamentu": "Ayera mi a bishitá bo buur — e a konta mi ku bo tabata malo. Ta mihó awor?", "vertaling": "Gisteren bezocht ik je buur — hij/zij vertelde me dat jij ziek was. Ben je nu beter?" },
       { "papiamentu": "Si bo tin algu ku mi por hasi pa bo, yama mi, mi ta na bo dispo tur momento.", "vertaling": "Als er iets is wat ik voor jou kan doen, bel me, ik sta altijd tot uw beschikking." },
       { "papiamentu": "Nos a yega un akuerdo — proximo luna nos lo kuminsá e prosèkto nobo huntu.", "vertaling": "We hebben een overeenkomst bereikt — volgende maand starten we samen het nieuwe project." },
-      { "papiamentu": "Bai! Kuidá bo mes, i si Dios kier, nos lo mira ekí bèk pronto. Biba Kòrsou!", "vertaling": "Doei! Zorg goed voor jezelf, en als God het wil, zien we elkaar hier snel terug. Lang leve Curaçao!" }
+      { "papiamentu": "Bai! Kuidá bo mes, i si Dios kier, nos lo mira akí bèk pronto. Biba Kòrsou!", "vertaling": "Doei! Zorg goed voor jezelf, en als God het wil, zien we elkaar hier snel terug. Lang leve Curaçao!" }
     ]
   },
   "e_asina_ta": [
@@ -39,7 +39,7 @@
     { "woord": "Momento", "uitspraak": "mo-men-to", "vertaling": "Moment / tijdstip" },
     { "woord": "Tempran", "uitspraak": "tem-pran", "vertaling": "Vroeg / tijdig" },
     { "woord": "Mira", "uitspraak": "mie-ra", "vertaling": "Zien / kijken / bezichtigen" },
-    { "woord": "Ekí", "uitspraak": "e-kie", "vertaling": "Hier (nadruk op plek)" },
+    { "woord": "Akí", "uitspraak": "a-kie", "vertaling": "Hier (nadruk op plek)" },
     { "woord": "Mihó", "uitspraak": "mie-ho", "vertaling": "Beter" },
     { "woord": "Huntu ku", "uitspraak": "hoen-toe koe", "vertaling": "Samen met" },
     { "woord": "Tur momento", "uitspraak": "toer mo-men-to", "vertaling": "Altijd / op elk moment" },

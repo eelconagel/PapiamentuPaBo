@@ -3,7 +3,7 @@
   "blok": 1,
   "titel": "Ontkenning: De kracht van 'No'",
   "grammatica": {
-    "uitleg": "In Papiamentu is ontkenning elegant eenvoudig: je plaatst 'no' vóór het werkwoord of de tijdsmarker 'ta'. Dat is alles.\n\nDE BASISREGEL:\nSubject + NO + ta/werkwoord + rest van de zin\n\nVoorbeelden:\n• Mi no ta kome vleis. (Ik eet geen vlees.)\n• E no ta bai trabou awe. (Hij/zij gaat vandaag niet naar het werk.)\n• Nos no tin plaka. (Wij hebben geen geld.)\n\nMET MODALE WERKWOORDEN:\n'no' staat ook vóór modalen zoals mester, por, ke:\n• Mi no ke bai. (Ik wil niet gaan.)\n• E no por yuda mi. (Hij/zij kan me niet helpen.)\n• Bo no mester paga. (Jij hoeft niet te betalen.)\n\nVERSTERKTE ONTKENNING:\n• Nunka = nooit: 'Mi nunka ta yega laat.' (Ik ben nooit laat.)\n• Nada = niets: 'Mi no a wak nada.' (Ik heb niets gezien.)\n• Ningun = geen enkele: 'Ningun persona no tabata.' (Er was geen enkele persoon.)",
+    "uitleg": "In Papiamentu is ontkenning elegant eenvoudig: je plaatst 'no' vóór het werkwoord of de tijdsmarker 'ta'. Dat is alles.\n\nDE BASISREGEL:\nSubject + NO + ta/werkwoord + rest van de zin\n\nVoorbeelden:\n• Mi no ta kome karni. (Ik eet geen vlees.)\n• E no ta bai trabou awe. (Hij/zij gaat vandaag niet naar het werk.)\n• Nos no tin plaka. (Wij hebben geen geld.)\n\nMET MODALE WERKWOORDEN:\n'no' staat ook vóór modalen zoals mester, por, ke:\n• Mi no ke bai. (Ik wil niet gaan.)\n• E no por yuda mi. (Hij/zij kan me niet helpen.)\n• Bo no mester paga. (Jij hoeft niet te betalen.)\n\nVERSTERKTE ONTKENNING:\n• Nunka = nooit: 'Mi nunka ta yega laat.' (Ik ben nooit laat.)\n• Nada = niets: 'Mi no a wak nada.' (Ik heb niets gezien.)\n• Ningun = geen enkele: 'Ningun persona no tabata.' (Er was geen enkele persoon.)",
     "voorbeelden": [
       { "papiamentu": "Mi no ta komprondé", "vertaling": "Ik begrijp het niet" },
       { "papiamentu": "E no ke papia awor", "vertaling": "Hij/zij wil nu niet praten" },
@@ -42,7 +42,7 @@
     { "woord": "Komprondé", "uitspraak": "kom-pron-de", "vertaling": "Begrijpen" },
     { "woord": "Mester", "uitspraak": "mes-ter", "vertaling": "Moeten / nodig hebben" },
     { "woord": "Por", "uitspraak": "por", "vertaling": "Kunnen" },
-    { "woord": "Ke", "uitspraak": "ke", "vertaling": "Willen" },
+    { "woord": "Ke", "uitspraak": "ke", "vertaling": "Willen (variant: kier)" },
     { "woord": "Hasi", "uitspraak": "ha-sie", "vertaling": "Doen / maken" },
     { "woord": "Esei", "uitspraak": "e-sei", "vertaling": "Dat / dat ding (aanwijzend)" }
   ],

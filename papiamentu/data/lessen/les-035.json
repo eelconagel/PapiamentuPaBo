@@ -3,9 +3,9 @@
   "blok": 4,
   "titel": "Medische & Technische Taal: Praktisch Vocabulaire",
   "grammatica": {
-    "uitleg": "In deze les leer je de vocabulaire die je nodig hebt in twee praktische domeinen: gezondheid en technologie. Beide zijn essentieel voor dagelijks leven op Curaçao.\n\nMEDISCH VOCABULAIRE:\nLICHAAMSDELEN:\nKabes (hoofd), wowo (oog), orea (oor), nneus/nanishi (neus), boka (mond), garganta (keel), pechu (borst), baringa (buik), rug/bèk di kurpa (rug), man (hand/arm), pia (voet/been)\n\nKLACHTEN:\n• Mi tin doló di... (Ik heb pijn aan...)\n• Mi ta sinti... (Ik voel...)\n• Mi tin hiba (Ik heb koorts)\n• Mi tin frío (Ik ben verkouden — letterlijk: ik heb kou)\n• Mi ta breka (Ik breek — ik ben kapot/uitgeput)\n\nMEDISCHE PROCEDURES:\n• Hasi un analisa (een analyse doen / bloedtest)\n• Tuma e presho (de bloeddruk meten)\n• Hasi un ekzamen mediko (medisch onderzoek)\n• Tuma medikamento (medicatie nemen)\n\nTECHNISCH VOCABULAIRE:\n• Selular (mobiele telefoon)\n• Komputer / laptop (computer/laptop)\n• Bateria (batterij)\n• Karga (opladen)\n• Internet / wifi\n• Aplikashon / app\n• Skrimen (scherm)\n• Kontrase / klave (wachtwoord)\n• Manda un mesashi (een bericht sturen)\n• Yama/bel (bellen)",
+    "uitleg": "In deze les leer je de vocabulaire die je nodig hebt in twee praktische domeinen: gezondheid en technologie. Beide zijn essentieel voor dagelijks leven op Curaçao.\n\nMEDISCH VOCABULAIRE:\nLICHAAMSDELEN:\nKabes (hoofd), wowo (oog), orea (oor), nanishi (neus), boka (mond), garganta (keel), pechu (borst), barika (buik), lomba (rug), man (hand/arm), pia (voet/been)\n\nKLACHTEN:\n• Mi tin doló di... (Ik heb pijn aan...)\n• Mi ta sinti... (Ik voel...)\n• Mi tin keintura (Ik heb koorts)\n• Mi tin frío (Ik ben verkouden — letterlijk: ik heb kou)\n• Mi ta breka (Ik breek — ik ben kapot/uitgeput)\n\nMEDISCHE PROCEDURES:\n• Hasi un analisa (een analyse doen / bloedtest)\n• Tuma e presho (de bloeddruk meten)\n• Hasi un ekzamen mediko (medisch onderzoek)\n• Tuma medikamento (medicatie nemen)\n\nTECHNISCH VOCABULAIRE:\n• Selular (mobiele telefoon)\n• Komputer / laptop (computer/laptop)\n• Bateria (batterij)\n• Karga (opladen)\n• Internet / wifi\n• Aplikashon / app\n• Skrimen (scherm)\n• Kontrase / klave (wachtwoord)\n• Manda un mesashi (een bericht sturen)\n• Yama/bel (bellen)",
     "voorbeelden": [
-      { "papiamentu": "Mi tin doló di garganta i mi tin hiba — mi mester bai na doktor.", "vertaling": "Ik heb keelpijn en koorts — ik moet naar de dokter." },
+      { "papiamentu": "Mi tin doló di garganta i mi tin keintura — mi mester bai na doktor.", "vertaling": "Ik heb keelpijn en koorts — ik moet naar de dokter." },
       { "papiamentu": "Por bo tuma mi presho di sanger? Mi ta sinti mi desmayá.", "vertaling": "Kunt u mijn bloeddruk meten? Ik voel me duizelig." },
       { "papiamentu": "Mi selular no ta karga — e bateria ta mal.", "vertaling": "Mijn telefoon laadt niet — de batterij is kapot." },
       { "papiamentu": "Ki kontrase mester pa e wifi di hospital?", "vertaling": "Welk wachtwoord heb je nodig voor de wifi van het ziekenhuis?" },
@@ -14,8 +14,8 @@
   },
   "e_asina_ta": [
     {
-      "nuance": "'Tin hiba' vs 'tin frío' — koorts of kou/verkoudheid",
-      "voorbeeld": "'Mi tin hiba' = ik heb koorts (verhoogde temperatuur) | 'Mi tin frío' = ik ben verkouden (of ik heb het koud)",
+      "nuance": "'Tin keintura' vs 'tin frío' — koorts of kou/verkoudheid",
+      "voorbeeld": "'Mi tin keintura' = ik heb koorts (verhoogde temperatuur) | 'Mi tin frío' = ik ben verkouden (of ik heb het koud)",
       "toelichting": "De uitdrukking 'tin frío' heeft twee betekenissen: fysiek koud hebben én verkoudheid (de ziekte). Context maakt het verschil. 'Mi ta sinti mi frío' (ik voel me koud) vs. 'Mi tin frío' (ik ben verkouden — nies en loopneus)."
     },
     {
@@ -35,10 +35,10 @@
     }
   ],
   "woorden": [
-    { "woord": "Hiba", "uitspraak": "hie-ba", "vertaling": "Koorts" },
+    { "woord": "Keintura", "uitspraak": "kein-tu-ra", "vertaling": "Koorts" },
     { "woord": "Frío", "uitspraak": "frie-o", "vertaling": "Kou / verkoudheid" },
     { "woord": "Garganta", "uitspraak": "gar-gan-ta", "vertaling": "Keel" },
-    { "woord": "Baringa", "uitspraak": "ba-rien-ga", "vertaling": "Buik / maag" },
+    { "woord": "Barika", "uitspraak": "ba-ri-ka", "vertaling": "Buik / maag" },
     { "woord": "Sanger", "uitspraak": "san-ger", "vertaling": "Bloed" },
     { "woord": "Analisa", "uitspraak": "a-na-lie-sa", "vertaling": "Analyse / bloedtest / onderzoek" },
     { "woord": "Presho", "uitspraak": "pre-sho", "vertaling": "Bloeddruk / druk" },
@@ -46,28 +46,28 @@
     { "woord": "Kontrase", "uitspraak": "kon-tra-se", "vertaling": "Wachtwoord" },
     { "woord": "Skrimen", "uitspraak": "skrieh-men", "vertaling": "Scherm" }
   ],
-  "culturele_context": "Gezondheidszorg op Curaçao is gecentreerd rond het Sehos (St. Elisabeth Hospitaal), het enige ziekenhuis op het eiland. De relatief kleine gemeenschap betekent dat je je dokter, verpleegkundigen en medewerkers vaak persoonlijk kent. 'Mi ta konosé e doktor goed' (ik ken de dokter goed) is een veelgehoorde uitdrukking.\n\nVolksgeneeskunde ('remedi di bieuw' — letterlijk: oud geneesmiddel) bestaat naast moderne geneeskunde. Kruiden, thee ('cha di yerba') en traditionele behandelingen zijn onderdeel van de gezondheidscultuur. Dit is geen bijgeloof maar eeuwenlange ervaring.\n\nTechnologie is op Curaçao snel geadopteerd. De 'selular' (mobiel) is het primaire communicatiemiddel en verbindt families over het eiland en over de Atlantische Oceaan. WhatsApp ('wasap') is de de facto communicatie-app — 'manda mi un wasap' (stuur me een whatsapp) hoor je even vaak als 'yama mi'.",
+  "culturele_context": "Gezondheidszorg op Curaçao is gecentreerd rond het Sehos (St. Elisabeth Hospitaal), het enige ziekenhuis op het eiland. De relatief kleine gemeenschap betekent dat je je dokter, verpleegkundigen en medewerkers vaak persoonlijk kent. 'Mi ta konosé e doktor bon' (ik ken de dokter goed) is een veelgehoorde uitdrukking.\n\nVolksgeneeskunde ('remedi di bieuw' — letterlijk: oud geneesmiddel) bestaat naast moderne geneeskunde. Kruiden, thee ('cha di yerba') en traditionele behandelingen zijn onderdeel van de gezondheidscultuur. Dit is geen bijgeloof maar eeuwenlange ervaring.\n\nTechnologie is op Curaçao snel geadopteerd. De 'selular' (mobiel) is het primaire communicatiemiddel en verbindt families over het eiland en over de Atlantische Oceaan. WhatsApp ('wasap') is de de facto communicatie-app — 'manda mi un wasap' (stuur me een whatsapp) hoor je even vaak als 'yama mi'.",
   "scenario_links": ["scenario-010", "scenario-016"],
   "eindoefening": [
-    { "vraag": "Hoe zeg je 'Ik heb keelpijn'?", "opties": ["Mi tin doló di garganta", "Mi tin doló di kabes", "Mi tin hiba di garganta", "Mi ta sinti mi garganta"], "correct": 0 },
-    { "vraag": "Wat is het verschil tussen 'tin hiba' en 'tin frío'?", "opties": ["'Hiba' = koorts (temperatuur); 'frío' = kou/verkoudheid", "Ze betekenen hetzelfde", "'Hiba' = verkoudheid; 'frío' = koorts", "'Frío' is erger dan 'hiba'"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'Ik heb keelpijn'?", "opties": ["Mi tin doló di garganta", "Mi tin doló di kabes", "Mi tin keintura di garganta", "Mi ta sinti mi garganta"], "correct": 0 },
+    { "vraag": "Wat is het verschil tussen 'tin keintura' en 'tin frío'?", "opties": ["'Keintura' = koorts (temperatuur); 'frío' = kou/verkoudheid", "Ze betekenen hetzelfde", "'Keintura' = verkoudheid; 'frío' = koorts", "'Frío' is erger dan 'keintura'"], "correct": 0 },
     { "vraag": "Hoe vraag je de bloeddruk te meten?", "opties": ["Por bo tuma mi presho di sanger?", "Por bo analisa mi presho?", "Por bo hasi mi presho?", "Mi mester tuma presho"], "correct": 0 },
     { "vraag": "Wat is 'analisa' in medische context?", "opties": ["Analyse / bloedtest / onderzoek", "Diagnose", "Behandeling", "Resultaat"], "correct": 0 },
     { "vraag": "Hoe zeg je 'Mijn telefoon laadt niet'?", "opties": ["Mi selular no ta karga", "Mi selular ta mal di karga", "Mi selular no ta traha", "Mi bateria no ta karga"], "correct": 0 },
-    { "vraag": "Wat is 'hiba'?", "opties": ["Koorts", "Verkoudheid", "Buikpijn", "Duizeligheid"], "correct": 0 },
+    { "vraag": "Wat is 'keintura'?", "opties": ["Koorts", "Verkoudheid", "Buikpijn", "Duizeligheid"], "correct": 0 },
     { "vraag": "Wat is 'bateria'?", "opties": ["Batterij", "Oplader", "Scherm", "Kabeltje"], "correct": 0 },
     { "vraag": "Hoe vraag je het wifi-wachtwoord?", "opties": ["Ki kontrase ta di e wifi?", "Kuantu ta e kontrase di wifi?", "Ki klave ta e wifi?", "Alle drie zijn correct"], "correct": 3 },
-    { "vraag": "Hoe zeg je 'Ik voel me duizelig'?", "opties": ["Mi ta sinti mi desmayá", "Mi tin hiba", "Mi ta sinti mi malo", "Beide a en c zijn correct in context"], "correct": 3 },
+    { "vraag": "Hoe zeg je 'Ik voel me duizelig'?", "opties": ["Mi ta sinti mi desmayá", "Mi tin keintura", "Mi ta sinti mi malo", "Beide a en c zijn correct in context"], "correct": 3 },
     { "vraag": "Hoe zeg je 'Ik moet medicatie nemen'?", "opties": ["Mi mester tuma medikamento", "Mi mester kome medikamento", "Mi mester bebe medikamento", "Alle drie zijn correct"], "correct": 3 },
     { "vraag": "Wat is 'garganta'?", "opties": ["Keel", "Mond", "Neus", "Oor"], "correct": 0 },
     { "vraag": "Hoe beschrijf je een defect apparaat?", "opties": ["E ta mal", "E no ta traha", "E no ta prendé", "Alle drie zijn correcte beschrijvingen, elk met een eigen nuance"], "correct": 3 },
     { "vraag": "Wat is 'sanger'?", "opties": ["Bloed", "Pijn", "Gevoel", "Druk"], "correct": 0 },
     { "vraag": "Hoe zeg je 'Stuur me een WhatsApp'?", "opties": ["Manda mi un wasap", "Yama mi na wasap", "Wasap mi", "Alle drie zijn gangbaar"], "correct": 3 },
     { "vraag": "Hoe zeg je 'Er moet een bloedtest worden gedaan'?", "opties": ["Mester hasi un analisa di sanger", "A wòrdu hasi un analisa di sanger", "Tin ku hasi un analisa di sanger", "Beide a en c zijn correct"], "correct": 3 },
-    { "vraag": "Wat is 'baringa'?", "opties": ["Buik / maag", "Rug", "Borst", "Benen"], "correct": 0 },
+    { "vraag": "Wat is 'barika'?", "opties": ["Buik / maag", "Rug", "Borst", "Benen"], "correct": 0 },
     { "vraag": "Hoe zeg je 'bel de dokter'?", "opties": ["Yama e doktor", "Karga e doktor", "Manda e doktor", "Bishitá e doktor"], "correct": 0 },
     { "vraag": "Wat is 'skrimen'?", "opties": ["Scherm", "Toetsenbord", "Muis", "Luidspreker"], "correct": 0 },
     { "vraag": "Wat is 'remedi di bieuw' op Curaçao?", "opties": ["Traditionele volksgeneeskunde met kruiden en oude remedies", "Verouderde medicijnen", "Een oud ziekenhuis", "Een soort dokter"], "correct": 0 },
-    { "vraag": "Hoe zeg je 'Ik ben verkouden' (de ziekte)?", "opties": ["Mi tin frío", "Mi tin hiba", "Mi tin doló di kabes", "Mi ta sinti mi malo"], "correct": 0 }
+    { "vraag": "Hoe zeg je 'Ik ben verkouden' (de ziekte)?", "opties": ["Mi tin frío", "Mi tin keintura", "Mi tin doló di kabes", "Mi ta sinti mi malo"], "correct": 0 }
   ]
 }

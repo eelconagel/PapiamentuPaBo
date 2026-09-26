@@ -3,9 +3,9 @@
   "blok": 2,
   "titel": "Meervoud: De '-nan' logica en uitzonderingen",
   "grammatica": {
-    "uitleg": "Meervoud vormen in Papiamentu is eenvoudig: voeg '-nan' toe aan het zelfstandig naamwoord. Maar er zijn nuances die de taal rijker maken.\n\nDE BASISREGEL:\nZelfstandig naamwoord + -nan = meervoud\n• Mucha → Muchanam (kinderen) — let op: 'muchanan'\n• Kas → Kasnan (huizen)\n• Outo → Outonan (auto's)\n• Palabra → Palabranan (woorden)\n\nUITZONDERINGEN EN NUANCES:\n1. TELBARE vs. ONTELBARE ZAKEN: Ontelbare zaken (awa = water, plaka = geld) krijgen nooit -nan.\n2. AL MEERVOUD DOOR CONTEXT: Als het getal of een aanduiding al meervoud impliceert, is -nan optioneel:\n   'Tres outo' (drie auto's) — -nan is overbodig maar niet fout.\n3. VOORNAAMWOORDEN: Krijgen geen -nan. Nan is zelf al meervoud.\n4. LIDWOORD 'E': Het bepaald lidwoord 'e' is hetzelfde voor enkelvoud en meervoud:\n   E mucha ta bon. (Het kind is goed.) / E muchanan ta bon. (De kinderen zijn goed.)",
+    "uitleg": "Meervoud vormen in Papiamentu is eenvoudig: voeg '-nan' toe aan het zelfstandig naamwoord. Maar er zijn nuances die de taal rijker maken.\n\nDE BASISREGEL:\nZelfstandig naamwoord + -nan = meervoud\n• Mucha → Muchanan (kinderen)\n• Kas → Kasnan (huizen)\n• Outo → Outonan (auto's)\n• Palabra → Palabranan (woorden)\n\nUITZONDERINGEN EN NUANCES:\n1. TELBARE vs. ONTELBARE ZAKEN: Ontelbare zaken (awa = water, plaka = geld) krijgen nooit -nan.\n2. AL MEERVOUD DOOR CONTEXT: Als het getal of een aanduiding al meervoud impliceert, is -nan optioneel:\n   'Tres outo' (drie auto's) — -nan is overbodig maar niet fout.\n3. VOORNAAMWOORDEN: Krijgen geen -nan. Nan is zelf al meervoud.\n4. LIDWOORD 'E': Het bepaald lidwoord 'e' is hetzelfde voor enkelvoud en meervoud:\n   E mucha ta bon. (Het kind is goed.) / E muchanan ta bon. (De kinderen zijn goed.)",
     "voorbeelden": [
-      { "papiamentu": "E kasnan na mi strea ta kolorá", "vertaling": "De huizen in mijn straat zijn kleurrijk" },
+      { "papiamentu": "E kasnan na mi kaya ta kolorá", "vertaling": "De huizen in mijn straat zijn kleurrijk" },
       { "papiamentu": "Tur e muchanan ta drumi", "vertaling": "Alle kinderen slapen" },
       { "papiamentu": "Mi tin hopi amigunan na Kòrsou", "vertaling": "Ik heb veel vrienden op Curaçao" },
       { "papiamentu": "E palabranan ta difísil", "vertaling": "De woorden zijn moeilijk" },
@@ -21,7 +21,7 @@
     {
       "nuance": "'Tur' + meervoud voor 'alle'",
       "voorbeeld": "'Tur e muchanan' (alle kinderen) — 'tur' versterkt het meervoud zonder 'nan' overbodig te maken",
-      "toelichting": "'Tur' (alles/alle) gecombineerd met -nan is de manier om een uitputtende meervoudsvorm uit te drukken. 'Tur kos' (alles) is een veelgebruikt uitdrukking."
+      "toelichting": "'Tur' (alles/alle) gecombineerd met -nan is de manier om een uitputtende meervoudsvorm uit te drukken. 'Tur kos' (alles) is een veelgebruikte uitdrukking."
     },
     {
       "nuance": "Meervoud van familieleden",
@@ -61,7 +61,7 @@
     { "vraag": "Hoe zeg je 'genoeg geld' (massanaamwoord)?", "opties": ["Bastante plaka", "Bastante plakanan", "Hopi plakanan", "Poko plakanan"], "correct": 0 },
     { "vraag": "Verandert het lidwoord 'e' bij meervoud?", "opties": ["Nee — 'e' is hetzelfde voor enkelvoud en meervoud", "Ja: 'e' wordt 'es'", "Ja: 'e' wordt 'nan'", "Er is geen lidwoord bij meervoud"], "correct": 0 },
     { "vraag": "Wat betekent 'mayornan'?", "opties": ["Ouders / oudsten", "Ouderen in het algemeen", "Grootouders", "Bazen"], "correct": 0 },
-    { "vraag": "Hoe zeg je 'De huizen in mijn straat zijn kleurrijk'?", "opties": ["E kasnan na mi strea ta kolorá", "E kas na mi strea ta kolorá", "Kasnan mi strea ta kolorá", "E kolorá kasnan na mi strea"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'De huizen in mijn straat zijn kleurrijk'?", "opties": ["E kasnan na mi kaya ta kolorá", "E kas na mi kaya ta kolorá", "Kasnan mi kaya ta kolorá", "E kolorá kasnan na mi kaya"], "correct": 0 },
     { "vraag": "Wat is 'diferente'?", "opties": ["Verschillend / anders", "Bijzonder", "Nieuw", "Oud"], "correct": 0 },
     { "vraag": "Wat is 'tienda'?", "opties": ["Winkel", "Markt", "Toko", "Supermarkt"], "correct": 0 },
     { "vraag": "Hoe zeg je 'een beetje' in Papiamentu?", "opties": ["Poko", "Hopi", "Bastante", "Nada"], "correct": 0 },

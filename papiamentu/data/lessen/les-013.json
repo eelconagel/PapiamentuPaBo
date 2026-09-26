@@ -25,7 +25,7 @@
     },
     {
       "nuance": "Existentieel 'tin' zonder onderwerp klinkt als een uitroep",
-      "voorbeeld": "'Tin carne fresku awor!' (Er is nu vers vlees!) — zoals een marktkoopman roept",
+      "voorbeeld": "'Tin karni fresku awor!' (Er is nu vers vlees!) — zoals een marktkoopman roept",
       "toelichting": "Existentieel 'tin' zonder subject wordt ook gebruikt als aankondiging of uitroep. Je hoort dit op markten, in tokonan en bij aankondigingen."
     },
     {
@@ -65,7 +65,7 @@
     { "vraag": "Wat is de leeftijdsstructuur in Papiamentu?", "opties": ["Subject + tin + getal + aña", "Subject + ta + getal + aña oud", "Subject + ta tin + getal + aña", "Getal + aña + subject + ta"], "correct": 0 },
     { "vraag": "Wat is 'kos'?", "opties": ["Ding / zaak / iets", "Kost / prijs", "Keuze", "Koor"], "correct": 0 },
     { "vraag": "Hoe zeg je 'Wij hebben twee auto's'?", "opties": ["Nos tin dos outo", "Nos ta tin dos outo", "Dos outo tin nos", "Nos tin dos outonan"], "correct": 0 },
-    { "vraag": "Wat betekent existentieel 'tin' als uitroep?", "opties": ["Aankondiging: 'Tin karne fresku!'", "Vraag: 'Is er vlees?'", "Klacht: 'Er is geen vlees'", "Belofte: 'Er zal vlees zijn'"], "correct": 0 },
+    { "vraag": "Wat betekent existentieel 'tin' als uitroep?", "opties": ["Aankondiging: 'Tin karni fresku!'", "Vraag: 'Is er vlees?'", "Klacht: 'Er is geen vlees'", "Belofte: 'Er zal vlees zijn'"], "correct": 0 },
     { "vraag": "Wat betekent 'No tin problema' cultureel gezien?", "opties": ["Een houding van pragmatisch optimisme — we lossen het op", "Er zijn nooit problemen op Curaçao", "Problemen worden genegeerd", "Het is een beleefde weigering"], "correct": 0 },
     { "vraag": "Hoe verschilt de leeftijdsuitdrukking in Papiamentu van het Nederlands?", "opties": ["In Papiamentu 'heb' je een leeftijd (tin), in het Nederlands 'ben' je een leeftijd", "Ze zijn gelijk", "In Papiamentu gebruik je 'ta' voor leeftijd", "Er is geen verschil"], "correct": 0 },
     { "vraag": "Hoe zeg je 'Er is iets voor jou'?", "opties": ["Tin algu pa bo", "E tin algu pa bo", "Algu tin pa bo", "Ta tin algu pa bo"], "correct": 0 }

@@ -7,7 +7,7 @@
     "voorbeelden": [
       { "papiamentu": "E ta na kas", "vertaling": "Hij/zij is thuis" },
       { "papiamentu": "Mi ta di Kòrsou", "vertaling": "Ik kom van Curaçao (afkomst)" },
-      { "papiamentu": "E outo ta na strea", "vertaling": "De auto staat op straat" },
+      { "papiamentu": "E outo ta na kaya", "vertaling": "De auto staat op straat" },
       { "papiamentu": "Un kòfi di Kòrsou", "vertaling": "Een koffie van/uit Curaçao (beschrijving)" },
       { "papiamentu": "Mi ta bai na doktor na dies ora", "vertaling": "Ik ga om tien uur naar de dokter" }
     ]
@@ -38,7 +38,7 @@
     { "woord": "Na", "uitspraak": "na", "vertaling": "In / op / naar / om (veelzijdig voorzetsel)" },
     { "woord": "Di", "uitspraak": "die", "vertaling": "Van / uit / van ... gemaakt (herkomst, bezit, beschrijving)" },
     { "woord": "Kas", "uitspraak": "kas", "vertaling": "Huis / thuis" },
-    { "woord": "Strea", "uitspraak": "stre-a", "vertaling": "Straat" },
+    { "woord": "Kaya", "uitspraak": "ka-ya", "vertaling": "Straat" },
     { "woord": "Doktor", "uitspraak": "dok-tor", "vertaling": "Dokter / arts" },
     { "woord": "Tata", "uitspraak": "ta-ta", "vertaling": "Vader (informeel)" },
     { "woord": "Mama", "uitspraak": "ma-ma", "vertaling": "Moeder" },
@@ -59,12 +59,12 @@
     { "vraag": "Hoe zeg je 'Een glas water'?", "opties": ["Un baso di awa", "Un baso na awa", "Un baso ku awa", "Un awa baso"], "correct": 0 },
     { "vraag": "Hoe zeg je 'Ik ga om tien uur naar de dokter'?", "opties": ["Mi ta bai na doktor na dies ora", "Mi ta bai doktor na dies ora", "Mi ta bai na dies ora na doktor", "Na dies ora mi ta bai doktor"], "correct": 0 },
     { "vraag": "Is dubbel 'na' in één zin correct?", "opties": ["Ja, als beide een andere functie hebben (richting + tijdstip)", "Nee, altijd fout", "Alleen in informele tekst", "Alleen bij werkwoord 'bai'"], "correct": 0 },
-    { "vraag": "Wat betekent 'strea'?", "opties": ["Straat", "Steeg", "Weg", "Plein"], "correct": 0 },
+    { "vraag": "Wat betekent 'kaya'?", "opties": ["Straat", "Steeg", "Weg", "Plein"], "correct": 0 },
     { "vraag": "Hoe gebruik je 'na' bij dagen van de week?", "opties": ["Na Djasabra = op zaterdag", "Di Djasabra = op zaterdag", "Ku Djasabra = op zaterdag", "Pa Djasabra = op zaterdag"], "correct": 0 },
     { "vraag": "Wat is 'tata'?", "opties": ["Vader (informeel)", "Opa", "Oom", "Man"], "correct": 0 },
     { "vraag": "Hoe zeg je 'Ik kom uit Nederland'?", "opties": ["Mi ta di Hulanda", "Mi ta na Hulanda", "Mi bai na Hulanda", "Di Hulanda mi ta"], "correct": 0 },
     { "vraag": "Wat is 'sali'?", "opties": ["Uitgaan / verlaten / eruit komen", "Binnengaan", "Blijven", "Wachten"], "correct": 0 },
-    { "vraag": "Hoe zeg je 'op straat' met het juiste voorzetsel?", "opties": ["Na strea", "Di strea", "Ku strea", "Pa strea"], "correct": 0 },
+    { "vraag": "Hoe zeg je 'op straat' met het juiste voorzetsel?", "opties": ["Na kaya", "Di kaya", "Ku kaya", "Pa kaya"], "correct": 0 },
     { "vraag": "Waarvoor gebruik je 'di' bij materialen?", "opties": ["Om aan te geven waaruit iets gemaakt is of bestaat: 'un baso di awa'", "Om bezit aan te geven", "Om afkomst aan te geven", "Om richting aan te geven"], "correct": 0 },
     { "vraag": "Wat betekent 'Yu di Kòrsou'?", "opties": ["Kind van Curaçao — een geuzentitel", "Jong iemand van Curaçao", "Geboren op Curaçao", "Inwoner van Curaçao"], "correct": 0 },
     { "vraag": "Is 'di' optioneel bij beschrijvende combinaties?", "opties": ["Soms, maar als je twijfelt: voeg 'di' toe — het is nooit fout", "Ja, altijd optioneel", "Nee, altijd verplicht", "Alleen bij plaatsnamen"], "correct": 0 },
