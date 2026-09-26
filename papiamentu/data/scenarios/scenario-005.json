@@ -5,10 +5,26 @@
   "category": "Winkel",
   "intro": "Je stapt een lokale toko (buurtwinkel) of supermerka binnen voor wat snelle boodschappen. De zon schijnt buiten en je zoekt verkoeling en een snack.",
   "introWords": [
-    { "papiamentu": "Kompra", "dutch": "Kopen / Boodschappen doen", "pronunciation": "kom-pra" },
-    { "papiamentu": "Pan", "dutch": "Brood", "pronunciation": "pan" },
-    { "papiamentu": "Awa", "dutch": "Water", "pronunciation": "a-wa" },
-    { "papiamentu": "Plaka", "dutch": "Geld", "pronunciation": "pla-ka" }
+    {
+      "papiamentu": "Kompra",
+      "dutch": "Kopen / Boodschappen doen",
+      "pronunciation": "kom-pra"
+    },
+    {
+      "papiamentu": "Pan",
+      "dutch": "Brood",
+      "pronunciation": "pan"
+    },
+    {
+      "papiamentu": "Awa",
+      "dutch": "Water",
+      "pronunciation": "a-wa"
+    },
+    {
+      "papiamentu": "Plaka",
+      "dutch": "Geld",
+      "pronunciation": "pla-ka"
+    }
   ],
   "grammar": {
     "title": "Lidwoorden: e en un",
@@ -20,33 +36,88 @@
     "exercises": [
       {
         "question": "Hoe zeg je 'het brood is vers'?",
-        "options": ["E pan ta fresku", "Un pan ta fresku", "Di pan ta fresku", "Pan e ta fresku"],
+        "options": [
+          "E pan ta fresku",
+          "Un pan ta fresku",
+          "Di pan ta fresku",
+          "Pan e ta fresku"
+        ],
         "correct": 0,
         "explanation": "'E' is het bepaald lidwoord. 'E pan ta fresku' = het brood is vers."
       },
       {
         "question": "Je wilt 'een fles water' zeggen. Wat kies je?",
-        "options": ["Un botèl awa", "E botèl awa", "Di botèl awa", "Botèl un awa"],
+        "options": [
+          "Un botèl awa",
+          "E botèl awa",
+          "Di botèl awa",
+          "Botèl un awa"
+        ],
         "correct": 0,
         "explanation": "'Un' = onbepaald lidwoord (een). 'Un botèl awa' = een fles water."
       },
       {
         "question": "Wat is het Papiamentuse bepaald lidwoord voor alle zelfstandige naamwoorden?",
-        "options": ["e", "un", "di", "ku"],
+        "options": [
+          "e",
+          "un",
+          "di",
+          "ku"
+        ],
         "correct": 0,
         "explanation": "'E' gebruik je altijd als bepaald lidwoord, ongeacht het geslacht van het woord."
       }
     ]
   },
   "words": [
-    { "papiamentu": "Supermerka", "dutch": "Supermarkt", "pronunciation": "soo-per-MER-ka", "example": "Mi ta bai supermerka awe." },
-    { "papiamentu": "Pan fresku", "dutch": "Vers brood", "pronunciation": "pan FRES-koo", "example": "Mi ke un pan fresku, por fabor." },
-    { "papiamentu": "Kompra", "dutch": "Kopen / boodschappen doen", "pronunciation": "KOM-pra", "example": "Mi ta bai kompra kuminda." },
-    { "papiamentu": "Kuanta esaki ta kosta?", "dutch": "Hoeveel kost dit?", "pronunciation": "KWAN-ta e-SA-ki ta KOS-ta", "example": "Kuanta esaki ta kosta, por fabor?" },
-    { "papiamentu": "Kas di pagamento", "dutch": "Kassa", "pronunciation": "kas di pa-ga-MEN-to", "example": "Unda ta e kas di pagamento?" },
-    { "papiamentu": "Sak", "dutch": "Tas / Zak", "pronunciation": "sak", "example": "Mi ke un sak pa esaki." },
-    { "papiamentu": "Kambio", "dutch": "Wisselgeld", "pronunciation": "KAM-bio", "example": "Mi tin kambio." },
-    { "papiamentu": "Mangel", "dutch": "Snoep / Mangrove", "pronunciation": "MAN-gel", "example": "E mucha ke mangel." }
+    {
+      "papiamentu": "Supermerka",
+      "dutch": "Supermarkt",
+      "pronunciation": "soo-per-MER-ka",
+      "example": "Mi ta bai supermerka awe."
+    },
+    {
+      "papiamentu": "Pan fresku",
+      "dutch": "Vers brood",
+      "pronunciation": "pan FRES-koo",
+      "example": "Mi ke un pan fresku, por fabor."
+    },
+    {
+      "papiamentu": "Kompra",
+      "dutch": "Kopen / boodschappen doen",
+      "pronunciation": "KOM-pra",
+      "example": "Mi ta bai kompra kuminda."
+    },
+    {
+      "papiamentu": "Kuanta esaki ta kosta?",
+      "dutch": "Hoeveel kost dit?",
+      "pronunciation": "KWAN-ta e-SA-ki ta KOS-ta",
+      "example": "Kuanta esaki ta kosta, por fabor?"
+    },
+    {
+      "papiamentu": "Kas di pagamento",
+      "dutch": "Kassa",
+      "pronunciation": "kas di pa-ga-MEN-to",
+      "example": "Unda ta e kas di pagamento?"
+    },
+    {
+      "papiamentu": "Sak",
+      "dutch": "Tas / Zak",
+      "pronunciation": "sak",
+      "example": "Mi ke un sak pa esaki."
+    },
+    {
+      "papiamentu": "Kambio",
+      "dutch": "Wisselgeld",
+      "pronunciation": "KAM-bio",
+      "example": "Mi tin kambio."
+    },
+    {
+      "papiamentu": "Mangel",
+      "dutch": "Snoep / Mangrove",
+      "pronunciation": "MAN-gel",
+      "example": "E mucha ke mangel."
+    }
   ],
   "pitfalls": [
     {
@@ -78,33 +149,167 @@
   "quiz": [
     {
       "question": "Hoe zeg je 'het brood' in Papiamentu?",
-      "options": ["E pan", "Un pan", "Di pan", "Pan e"],
+      "options": [
+        "E pan",
+        "Un pan",
+        "Di pan",
+        "Pan e"
+      ],
       "correct": 0,
       "explanation": "'E' is het bepaald lidwoord in Papiamentu. 'E pan' = het brood."
     },
     {
       "question": "Wat betekent 'Kuanta esaki ta kosta?'",
-      "options": ["Hoeveel kost dit?", "Wat is dit?", "Wilt u betalen?", "Waar is de kassa?"],
+      "options": [
+        "Hoeveel kost dit?",
+        "Wat is dit?",
+        "Wilt u betalen?",
+        "Waar is de kassa?"
+      ],
       "correct": 0,
       "explanation": "'Kuanta' = hoeveel, 'esaki' = dit, 'ta kosta' = kost. Samen: 'Hoeveel kost dit?'"
     },
     {
       "question": "Wat is het woord voor 'wisselgeld'?",
-      "options": ["Kambio", "Plaka", "Tarheta", "Preis"],
+      "options": [
+        "Kambio",
+        "Plaka",
+        "Tarheta",
+        "Preis"
+      ],
       "correct": 0,
       "explanation": "'Kambio' = wisselgeld. 'Plaka' = geld in het algemeen."
     },
     {
       "question": "Hoe spel je het Papiamentuse woord voor supermarkt?",
-      "options": ["Supermerka", "Supermarket", "Supermarkèt", "Supermerkat"],
+      "options": [
+        "Supermerka",
+        "Supermarket",
+        "Supermarkèt",
+        "Supermerkat"
+      ],
       "correct": 0,
       "explanation": "In Papiamentu schrijf je het fonologisch: 'supermerka' met een 'k'."
     },
     {
       "question": "Wat betekent 'Unda ta e kas di pagamento?'",
-      "options": ["Waar is de kassa?", "Hoeveel kost de tas?", "Wilt u betalen?", "Heeft u wisselgeld?"],
+      "options": [
+        "Waar is de kassa?",
+        "Hoeveel kost de tas?",
+        "Wilt u betalen?",
+        "Heeft u wisselgeld?"
+      ],
       "correct": 0,
       "explanation": "'Unda ta' = waar is, 'kas di pagamento' = kassa/betaalplaats."
     }
-  ]
+  ],
+  "dialoog": {
+    "start": "start",
+    "knopen": {
+      "start": {
+        "npc": "Bon dia! Kon mi por yudabo?",
+        "npc_nl": "Goedemorgen! Hoe kan ik u helpen?",
+        "keuzes": [
+          {
+            "pap": "Mi ta buska pan fresku.",
+            "nl": "Ik zoek vers brood.",
+            "gaat_naar": "brood"
+          },
+          {
+            "pap": "Mi ta wak numa, danki.",
+            "nl": "Ik wil alleen rondkijken, dank u.",
+            "gaat_naar": "rondkijken",
+            "feedback": "Prima, maar dan mis je de kans om een bestelling te oefenen — probeer het gerust nog eens."
+          }
+        ]
+      },
+      "brood": {
+        "npc": "Nos pan ta bini fresku for di orno kada mainta.",
+        "npc_nl": "Ons brood komt elke ochtend vers uit de oven.",
+        "keuzes": [
+          {
+            "pap": "Kuantu un pan ta kosta?",
+            "nl": "Hoeveel kost een brood?",
+            "gaat_naar": "prijs"
+          },
+          {
+            "pap": "Dunami dos pan, por fabor.",
+            "nl": "Geef mij twee broden, alstublieft.",
+            "gaat_naar": "afrekenen_zonder_prijs",
+            "feedback": "Dat kan, maar handig om eerst de prijs te vragen voordat je afrekent."
+          }
+        ]
+      },
+      "prijs": {
+        "npc": "Un pan ta kosta dos florin i mei.",
+        "npc_nl": "Een brood kost twee gulden vijftig.",
+        "keuzes": [
+          {
+            "pap": "Bon, dunami dos, por fabor.",
+            "nl": "Goed, geef mij er twee, alstublieft.",
+            "gaat_naar": "afrekenen"
+          },
+          {
+            "pap": "Esei ta karu — mi no ke, danki.",
+            "nl": "Dat is duur — ik wil het niet, dank u.",
+            "gaat_naar": "bedanken"
+          }
+        ]
+      },
+      "afrekenen_zonder_prijs": {
+        "npc": "Ata bo dos pan. Esei ta sinku florin.",
+        "npc_nl": "Hier zijn uw twee broden. Dat is vijf gulden.",
+        "keuzes": [
+          {
+            "pap": "Ata bo plaka. Danki!",
+            "nl": "Hier is uw geld. Dank u!",
+            "gaat_naar": "einde_gekocht"
+          }
+        ]
+      },
+      "afrekenen": {
+        "npc": "Ata bo dos pan. Bon probecho!",
+        "npc_nl": "Hier zijn uw twee broden. Eet smakelijk!",
+        "keuzes": [
+          {
+            "pap": "Danki, bon dia!",
+            "nl": "Dank u, goedendag!",
+            "gaat_naar": "einde_gekocht"
+          }
+        ]
+      },
+      "bedanken": {
+        "npc": "No tin problema. Ban wak otro biaha.",
+        "npc_nl": "Geen probleem. Kom een andere keer nog eens kijken.",
+        "keuzes": [
+          {
+            "pap": "Danki, te otro biaha.",
+            "nl": "Dank u, tot een andere keer.",
+            "gaat_naar": "einde_niet_gekocht"
+          }
+        ]
+      },
+      "einde_gekocht": {
+        "npc": "(Je verlaat de winkel met vers brood.)",
+        "npc_nl": "Gesprek afgerond — je hebt brood gekocht.",
+        "keuzes": []
+      },
+      "einde_niet_gekocht": {
+        "npc": "(Je verlaat de winkel zonder aankoop.)",
+        "npc_nl": "Gesprek afgerond — geen aankoop deze keer.",
+        "keuzes": []
+      },
+      "rondkijken": {
+        "npc": "Bon, si bo tin pregunta, mi ta akí banda di kaha.",
+        "npc_nl": "Goed, als u een vraag heeft, ik sta hier bij de kassa.",
+        "keuzes": [
+          {
+            "pap": "Danki, mi ta bin serka bo si mester.",
+            "nl": "Dank u, ik kom naar u toe als het nodig is.",
+            "gaat_naar": "einde_niet_gekocht"
+          }
+        ]
+      }
+    }
+  }
 }

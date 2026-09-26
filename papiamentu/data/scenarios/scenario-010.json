@@ -5,10 +5,26 @@
   "category": "Gezondheid",
   "intro": "Je voelt je niet goed en moet naar de huisarts of de poli. Op Curaçao is de communicatie met een arts vaak informeel en hartelijk, maar wees duidelijk en direct over je fysieke klachten.",
   "introWords": [
-    { "papiamentu": "Mi no ta sinti mi bon", "dutch": "Ik voel me niet goed", "pronunciation": "mie no ta sin-tie mie bon" },
-    { "papiamentu": "Unda e doló ta?", "dutch": "Waar zit de pijn?", "pronunciation": "oen-da e do-lo ta" },
-    { "papiamentu": "For di ki dia?", "dutch": "Sinds wanneer?", "pronunciation": "for die kie dee-a" },
-    { "papiamentu": "Mi tin keintura", "dutch": "Ik heb koorts", "pronunciation": "mie tin ke-in-too-ra" }
+    {
+      "papiamentu": "Mi no ta sinti mi bon",
+      "dutch": "Ik voel me niet goed",
+      "pronunciation": "mie no ta sin-tie mie bon"
+    },
+    {
+      "papiamentu": "Unda e doló ta?",
+      "dutch": "Waar zit de pijn?",
+      "pronunciation": "oen-da e do-lo ta"
+    },
+    {
+      "papiamentu": "For di ki dia?",
+      "dutch": "Sinds wanneer?",
+      "pronunciation": "for die kie dee-a"
+    },
+    {
+      "papiamentu": "Mi tin keintura",
+      "dutch": "Ik heb koorts",
+      "pronunciation": "mie tin ke-in-too-ra"
+    }
   ],
   "grammar": {
     "title": "Klachten beschrijven",
@@ -20,31 +36,76 @@
     "exercises": [
       {
         "question": "Hoe zeg je 'Ik heb hoofdpijn'?",
-        "options": ["Mi tin doló di kabes", "Mi tin doló di barika", "Mi tin keintura", "Mi no ta bon"],
+        "options": [
+          "Mi tin doló di kabes",
+          "Mi tin doló di barika",
+          "Mi tin keintura",
+          "Mi no ta bon"
+        ],
         "correct": 0,
         "explanation": "'Kabes' betekent hoofd."
       },
       {
         "question": "Wat vraagt de dokter met 'For di ki dia?'",
-        "options": ["Sinds wanneer heb je klachten?", "Waar heb je pijn?", "Heb je koorts?", "Hoe voel je je?"],
+        "options": [
+          "Sinds wanneer heb je klachten?",
+          "Waar heb je pijn?",
+          "Heb je koorts?",
+          "Hoe voel je je?"
+        ],
         "correct": 0,
         "explanation": "'For di' betekent sinds."
       },
       {
         "question": "Hoe zeg je 'Ik ben misselijk'?",
-        "options": ["Mi tin mòrs", "Mi tin keintura", "Mi tin doló", "Mi ta bon"],
+        "options": [
+          "Mi tin mòrs",
+          "Mi tin keintura",
+          "Mi tin doló",
+          "Mi ta bon"
+        ],
         "correct": 0,
         "explanation": "'Mòrs' is de term voor misselijk/overgeef-gevoel."
       }
     ]
   },
   "words": [
-    { "papiamentu": "Doló", "dutch": "Pijn", "pronunciation": "do-lo", "example": "Mi tin doló di barika." },
-    { "papiamentu": "Dòkter", "dutch": "Dokter", "pronunciation": "dok-ter", "example": "Mi mester mira dòkter." },
-    { "papiamentu": "Barika", "dutch": "Buik", "pronunciation": "ba-rie-ka", "example": "Mi barika ta hasi doló." },
-    { "papiamentu": "Kabes", "dutch": "Hoofd", "pronunciation": "ka-bes", "example": "Mi tin doló di kabes." },
-    { "papiamentu": "Keintura", "dutch": "Koorts", "pronunciation": "ke-in-too-ra", "example": "E tin hopi keintura." },
-    { "papiamentu": "Mòrs", "dutch": "Misselijk", "pronunciation": "mors", "example": "Mi ta sinti mi mòrs." }
+    {
+      "papiamentu": "Doló",
+      "dutch": "Pijn",
+      "pronunciation": "do-lo",
+      "example": "Mi tin doló di barika."
+    },
+    {
+      "papiamentu": "Dòkter",
+      "dutch": "Dokter",
+      "pronunciation": "dok-ter",
+      "example": "Mi mester mira dòkter."
+    },
+    {
+      "papiamentu": "Barika",
+      "dutch": "Buik",
+      "pronunciation": "ba-rie-ka",
+      "example": "Mi barika ta hasi doló."
+    },
+    {
+      "papiamentu": "Kabes",
+      "dutch": "Hoofd",
+      "pronunciation": "ka-bes",
+      "example": "Mi tin doló di kabes."
+    },
+    {
+      "papiamentu": "Keintura",
+      "dutch": "Koorts",
+      "pronunciation": "ke-in-too-ra",
+      "example": "E tin hopi keintura."
+    },
+    {
+      "papiamentu": "Mòrs",
+      "dutch": "Misselijk",
+      "pronunciation": "mors",
+      "example": "Mi ta sinti mi mòrs."
+    }
   ],
   "pitfalls": [
     {
@@ -71,33 +132,175 @@
   "quiz": [
     {
       "question": "Wat is de beste vertaling voor 'doktersbezoek'?",
-      "options": ["Bishita na dòkter", "Bishita na kas", "Bishita na trabou", "Bishita na skol"],
+      "options": [
+        "Bishita na dòkter",
+        "Bishita na kas",
+        "Bishita na trabou",
+        "Bishita na skol"
+      ],
       "correct": 0,
       "explanation": "'Bishita' = bezoek."
     },
     {
       "question": "Hoe vraag je: 'Is het ernstig?'",
-      "options": ["E ta grave?", "E ta bon?", "E ta kla?", "E ta piki?"],
+      "options": [
+        "E ta grave?",
+        "E ta bon?",
+        "E ta kla?",
+        "E ta piki?"
+      ],
       "correct": 0,
       "explanation": "'Grave' betekent ernstig."
     },
     {
       "question": "Wat betekent 'Mi mester di remedi'?",
-      "options": ["Ik heb medicijnen nodig", "Ik heb een dokter nodig", "Ik heb rust nodig", "Ik heb water nodig"],
+      "options": [
+        "Ik heb medicijnen nodig",
+        "Ik heb een dokter nodig",
+        "Ik heb rust nodig",
+        "Ik heb water nodig"
+      ],
       "correct": 0,
       "explanation": "'Remedi' = medicijn/medicatie."
     },
     {
       "question": "Wat betekent 'Kansá'?",
-      "options": ["Vermoeid", "Pijnlijk", "Ziek", "Koortsig"],
+      "options": [
+        "Vermoeid",
+        "Pijnlijk",
+        "Ziek",
+        "Koortsig"
+      ],
       "correct": 0,
       "explanation": "'Kansá' is moe of uitgeput."
     },
     {
       "question": "Is het beleefd om te vragen of de dokter ook Nederlands spreekt?",
-      "options": ["Ja, dat is heel normaal", "Nee, dat is onbeleefd", "Alleen in het ziekenhuis", "Nooit doen"],
+      "options": [
+        "Ja, dat is heel normaal",
+        "Nee, dat is onbeleefd",
+        "Alleen in het ziekenhuis",
+        "Nooit doen"
+      ],
       "correct": 0,
       "explanation": "Veel artsen op Curaçao spreken Nederlands, en het is volkomen acceptabel om dit te vragen."
     }
-  ]
+  ],
+  "dialoog": {
+    "start": "start",
+    "knopen": {
+      "start": {
+        "npc": "Bon dia. Kon mi por yudabo awe?",
+        "npc_nl": "Goedemorgen. Hoe kan ik u vandaag helpen?",
+        "keuzes": [
+          {
+            "pap": "Mi tin dolor di kabes for di ayera.",
+            "nl": "Ik heb sinds gisteren hoofdpijn.",
+            "gaat_naar": "klacht_kabes"
+          },
+          {
+            "pap": "Mi mester di un resèt nobo.",
+            "nl": "Ik heb een nieuw recept nodig.",
+            "gaat_naar": "resept"
+          }
+        ]
+      },
+      "klacht_kabes": {
+        "npc": "Kon fuerte e dolor ta, riba un eskala di 1 pa 10?",
+        "npc_nl": "Hoe sterk is de pijn, op een schaal van 1 tot 10?",
+        "keuzes": [
+          {
+            "pap": "Mas o ménos sinku.",
+            "nl": "Ongeveer vijf.",
+            "gaat_naar": "vervolg_medium"
+          },
+          {
+            "pap": "Mas ku ocho — masha fuerte.",
+            "nl": "Meer dan acht — heel sterk.",
+            "gaat_naar": "vervolg_erg"
+          }
+        ]
+      },
+      "vervolg_medium": {
+        "npc": "Bo tin tambe fiebre òf bo ta mareá?",
+        "npc_nl": "Heeft u ook koorts of bent u duizelig?",
+        "keuzes": [
+          {
+            "pap": "No, djis e dolor di kabes.",
+            "nl": "Nee, alleen de hoofdpijn.",
+            "gaat_naar": "advies_licht"
+          },
+          {
+            "pap": "Si, mi tin un tiki fiebre.",
+            "nl": "Ja, ik heb een beetje koorts.",
+            "gaat_naar": "advies_dokter"
+          }
+        ]
+      },
+      "vervolg_erg": {
+        "npc": "Un dolor asina fuerte mester wòrdu wak mesora. Mi ta manda bo pa e dòkter awor.",
+        "npc_nl": "Zo'n sterke pijn moet meteen bekeken worden. Ik stuur u nu door naar de dokter.",
+        "keuzes": [
+          {
+            "pap": "Danki, mi ta warda.",
+            "nl": "Dank u, ik wacht.",
+            "gaat_naar": "einde_doorverwezen"
+          }
+        ]
+      },
+      "advies_licht": {
+        "npc": "Tuma un paracetamol i bebe hopi awa. Bin bèk si e dolor no ta pasa.",
+        "npc_nl": "Neem een paracetamol en drink veel water. Kom terug als de pijn niet overgaat.",
+        "keuzes": [
+          {
+            "pap": "Bon, danki pa bo konseho.",
+            "nl": "Goed, dank u voor uw advies.",
+            "gaat_naar": "einde_advies"
+          }
+        ]
+      },
+      "advies_dokter": {
+        "npc": "Un dolor di kabes ku fiebre mester wòrdu wak pa e dòkter. Mi ta hasi un sita pa bo.",
+        "npc_nl": "Hoofdpijn met koorts moet door de dokter bekeken worden. Ik maak een afspraak voor u.",
+        "keuzes": [
+          {
+            "pap": "Danki, ki ora mi por bini?",
+            "nl": "Dank u, hoe laat kan ik komen?",
+            "gaat_naar": "einde_sita"
+          }
+        ]
+      },
+      "resept": {
+        "npc": "Kua resèt bo mester, i pa ki medisina?",
+        "npc_nl": "Welk recept heeft u nodig, en voor welk medicijn?",
+        "keuzes": [
+          {
+            "pap": "Pa mi medisina di preshon di sanger.",
+            "nl": "Voor mijn bloeddrukmedicijn.",
+            "gaat_naar": "einde_resept"
+          }
+        ]
+      },
+      "einde_doorverwezen": {
+        "npc": "(Je wordt meteen doorverwezen naar de dokter.)",
+        "npc_nl": "Gesprek afgerond — doorverwezen naar de dokter.",
+        "keuzes": []
+      },
+      "einde_advies": {
+        "npc": "(Je gaat naar huis met advies en een paracetamol.)",
+        "npc_nl": "Gesprek afgerond — advies gekregen, geen afspraak nodig.",
+        "keuzes": []
+      },
+      "einde_sita": {
+        "npc": "Bo sita ta djaluna 10 or di mainta.",
+        "npc_nl": "Uw afspraak is maandag om 10 uur 's ochtends.",
+        "keuzes": []
+      },
+      "einde_resept": {
+        "npc": "Bo resèt lo ta kla den mei ora.",
+        "npc_nl": "Uw recept is over een half uur klaar.",
+        "keuzes": []
+      }
+    }
+  }
 }

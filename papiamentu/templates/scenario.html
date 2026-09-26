@@ -60,6 +60,14 @@
     {% endfor %}
   </section>
 
+  {% if s.dialoog %}
+  <section class="page" data-type="dialoog" hidden>
+    <p class="page-label">Gesprek</p>
+    <p class="muted small">Kies wat jij zou zeggen. Er is geen fout antwoord — sommige keuzes zijn alleen praktischer dan andere.</p>
+    <div id="dialoog"></div>
+  </section>
+  {% endif %}
+
   {% if s.pitfalls %}
   <section class="page" data-type="pitfalls" hidden>
     <p class="page-label">Let op</p>
@@ -105,6 +113,7 @@
 (function () {
   const SCENARIO_ID = {{ s.id | tojson }};
   const QUIZ = {{ (s.quiz or []) | tojson }};
+  const DIALOOG = {{ (s.dialoog or none) | tojson }};
   const pages = Array.from(document.querySelectorAll('.page'));
   const dots = document.getElementById('dots');
   const prev = document.getElementById('prev');
@@ -112,8 +121,9 @@
   const navRow = document.getElementById('nav-row');
   const listUrl = {{ url_for('scenarios') | tojson }};
   const PAGE_NAMES = { intro: 'Introductie', grammar: 'Grammatica', words: 'Woordenschat',
-                       pitfalls: 'Let op', culture: 'Cultuur', quiz: 'Quiz' };
+                       dialoog: 'Gesprek', pitfalls: 'Let op', culture: 'Cultuur', quiz: 'Quiz' };
   let index = 0;
+  let dialoogGestart = false;
   Speak.attachAll('.word-row .word-pap');
   let completed = !!Store.get().scenarios[SCENARIO_ID];
   let quiz = null;
@@ -130,6 +140,57 @@
     completed = true;
     Store.toast('Voltooid! Je hebt dit scenario afgerond.' + (score ? ` +${score} XP` : ''));
     setTimeout(() => { window.location.href = listUrl; }, 1200);
+  }
+
+  // Vertakte dialoog: geen score, geen "foute" afloop — puur oefenen met kiezen wat je zegt.
+  function renderDialoogKnoop(knoopId) {
+    const root = document.getElementById('dialoog');
+    const knoop = DIALOOG.knopen[knoopId];
+    root.innerHTML = '';
+
+    const bubble = el('div', 'dialoog-bubble', knoop.npc);
+    bubble.lang = 'pap';
+    Speak.attach(bubble);
+    root.append(bubble, el('div', 'dialoog-nl', knoop.npc_nl));
+
+    if (!knoop.keuzes.length) {
+      root.append(el('p', 'muted small', 'Einde van dit gesprek.'));
+      const verder = el('button', 'btn btn-primary block', 'Verder →');
+      verder.type = 'button';
+      verder.addEventListener('click', () => show(index + 1));
+      root.append(verder);
+      return;
+    }
+
+    knoop.keuzes.forEach((keuze) => {
+      const btn = el('button', 'option dialoog-keuze');
+      btn.type = 'button';
+      const pap = el('span', 'dialoog-keuze-pap', keuze.pap);
+      pap.lang = 'pap';
+      btn.append(pap, el('span', 'dialoog-keuze-nl', keuze.nl));
+      btn.addEventListener('click', () => toonGekozenKeuze(keuze));
+      root.append(btn);
+    });
+  }
+
+  function toonGekozenKeuze(keuze) {
+    const root = document.getElementById('dialoog');
+    root.innerHTML = '';
+    const gekozen = el('div', 'dialoog-gekozen', 'Jij: ' + keuze.pap);
+    gekozen.lang = 'pap';
+    root.append(gekozen);
+    if (keuze.feedback) root.append(el('div', 'explanation', keuze.feedback));
+    const verder = el('button', 'btn btn-primary block', 'Verder →');
+    verder.type = 'button';
+    verder.addEventListener('click', () => renderDialoogKnoop(keuze.gaat_naar));
+    root.append(verder);
+  }
+
+  function el(tag, cls, text) {
+    const e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
   }
 
   function show(i) {
@@ -157,6 +218,10 @@
         });
       }
       quiz.start();
+    } else if (page.dataset.type === 'dialoog') {
+      // Eigen "Verder"-knoppen per stap; de gedeelde volgende-knop blijft verborgen.
+      next.hidden = true;
+      if (!dialoogGestart) { dialoogGestart = true; renderDialoogKnoop(DIALOOG.start); }
     } else {
       next.hidden = false;
       if (isLast && completed) { next.textContent = 'Terug naar lijst'; next.className = 'btn btn-green'; }
