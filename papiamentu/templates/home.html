@@ -96,6 +96,16 @@
     </span>
   </a>
   {% endif %}
+  {% if totals.cultuur %}
+  <a class="option-btn" style="background:var(--fill-blue)" href="{{ url_for('cultuur') }}">
+    <span class="option-icon">🎭</span>
+    <span class="option-text">
+      <span class="option-title">Cultuur lezen</span>
+      <span class="option-sub">Lokale gewoontes, muziek, eten en taalgeschiedenis</span>
+      <span class="option-progress" data-progress="cultuur"></span>
+    </span>
+  </a>
+  {% endif %}
 
   {% if login_providers and not current_user %}
     <div class="save-card">
@@ -146,17 +156,20 @@
     const mastered = Object.values(s.woorden).filter((w) => w.is_mastered).length;
     const scen = Object.keys(s.scenarios).length;
     const nieuws = Object.keys(s.nieuws || {}).length;
+    const cultuur = Object.keys(s.cultuur || {}).length;
     const text = {
       scenarios: `${scen} van ${TOTALS.scenarios} voltooid`,
       woorden: `${mastered} van ${TOTALS.woorden} woorden gemeesterd`,
       lessen: `${lessenDone} van ${LESSEN.length} lessen voltooid`,
       nieuws: `${nieuws} van ${TOTALS.nieuws} berichten gelezen`,
+      cultuur: `${cultuur} van ${TOTALS.cultuur} stukken gelezen`,
     };
     const pct = {
       scenarios: scen / TOTALS.scenarios,
       woorden: mastered / TOTALS.woorden,
       lessen: lessenDone / LESSEN.length,
       nieuws: TOTALS.nieuws ? Math.min(1, nieuws / TOTALS.nieuws) : 0,
+      cultuur: TOTALS.cultuur ? Math.min(1, cultuur / TOTALS.cultuur) : 0,
     };
     document.querySelectorAll('[data-progress]').forEach((el) => {
       const k = el.dataset.progress;

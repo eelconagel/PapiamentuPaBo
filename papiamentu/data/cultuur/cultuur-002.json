@@ -1,0 +1,128 @@
+{
+  "id": "cultuur-002",
+  "titel": "Seú: het oogstfeest van Curaçao",
+  "kategoria": "Feesten & tradities",
+  "beschrijving": "Seú is een traditioneel oogstfeest met een kleurrijke optocht door de straten.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Seú ta e fiesta di kosecha di Kòrsou, mas ku tur den e región di Bándabou.",
+          "nl": "Seú is het oogstfeest van Curaçao, vooral in de regio Bándabou.",
+          "opties": [
+            "Seú wordt alleen in Nederland gevierd.",
+            "Seú is het oogstfeest van Curaçao, vooral in Bándabou.",
+            "Seú is een carnavalsfeest in Willemstad.",
+            "Seú is een religieuze feestdag zonder muziek."
+          ],
+          "correct": 1,
+          "uitleg": "'Kosecha' = oogst, 'región' = regio. Bándabou is het westelijke deel van Curaçao."
+        },
+        {
+          "pap": "Tradishonalmente e fiesta ta wòrdu tené na fin di aña, ora e kosecha ta kla.",
+          "nl": "Traditioneel wordt het feest aan het eind van het jaar gehouden, als de oogst klaar is.",
+          "opties": [
+            "Het feest heeft niets met de oogst te maken.",
+            "Het feest duurt het hele jaar door.",
+            "Het feest is traditioneel eind van het jaar, als de oogst klaar is.",
+            "Het feest is altijd in de zomer."
+          ],
+          "correct": 2,
+          "uitleg": "'Tené' = houden, 'kla' = klaar."
+        },
+        {
+          "pap": "Hende ta kana den kaya ku mais i otro produkto for di nan kunuku.",
+          "nl": "Mensen lopen door de straat met maïs en andere producten van hun akker.",
+          "opties": [
+            "Mensen verkopen hun oogst aan toeristen.",
+            "Er wordt niets van de oogst getoond.",
+            "Mensen dragen alleen bloemen.",
+            "Mensen lopen met maïs en andere oogstproducten door de straat."
+          ],
+          "correct": 3,
+          "uitleg": "'Kunuku' = akker/moestuin, 'produkto' = product."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Wat seú is en wanneer het traditioneel gevierd wordt",
+        "Een religieuze processie zonder muziek",
+        "Een wintersportfeest",
+        "Een feest dat pas dit jaar is bedacht"
+      ],
+      "correct": 0,
+      "uitleg": "Seú is het oogstfeest van Curaçao, traditioneel eind van het jaar, met een optocht."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Durante e optocht, grupo ta baila e wapa riba ritmo di tambú.",
+          "nl": "Tijdens de optocht dansen groepen de wapa op het ritme van de tambú.",
+          "opties": [
+            "De optocht heeft geen dans, alleen muziek.",
+            "Groepen dansen de wapa op het ritme van tambú-trommels.",
+            "Tijdens de optocht is het helemaal stil.",
+            "Er wordt alleen gitaar gespeeld."
+          ],
+          "correct": 1,
+          "uitleg": "'Wapa' = een dans die het landbouwwerk uitbeeldt."
+        },
+        {
+          "pap": "E baile ta mustra kon antes hende tabata traha den kunuku ku man.",
+          "nl": "De dans laat zien hoe mensen vroeger met de hand op het land werkten.",
+          "opties": [
+            "De dans is een moderne uitvinding zonder betekenis.",
+            "De dans laat zien hoe je kookt.",
+            "De dans beeldt uit hoe mensen vroeger handmatig op het land werkten.",
+            "De dans gaat over vissen op zee."
+          ],
+          "correct": 2,
+          "uitleg": "'Mustra' = laten zien, 'antes' = vroeger."
+        },
+        {
+          "pap": "Awendia skol i grupo kultural ta parti na e optocht tambe.",
+          "nl": "Tegenwoordig doen ook scholen en culturele groepen mee aan de optocht.",
+          "opties": [
+            "Alleen boeren mogen meedoen aan de optocht.",
+            "De optocht is inmiddels verboden.",
+            "Kinderen mogen niet meedoen.",
+            "Ook scholen en culturele groepen doen tegenwoordig mee."
+          ],
+          "correct": 3,
+          "uitleg": "'Parti na' = meedoen aan."
+        }
+      ],
+      "vraag": "Wat gebeurt er tijdens de optocht?",
+      "opties": [
+        "Groepen dansen de wapa, die het oude landwerk uitbeeldt; ook scholen doen mee",
+        "Er wordt alleen stilte gehouden",
+        "Alleen volwassenen mogen meelopen",
+        "Het is een puur religieuze stoet zonder dans"
+      ],
+      "correct": 0,
+      "uitleg": "De wapa-dans beeldt het oude landwerk uit, en tegenwoordig doen ook scholen mee."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "seú",
+      "uitspraak": "se-oe",
+      "vertaling": "oogstfeest"
+    },
+    {
+      "woord": "kosecha",
+      "uitspraak": "ko-se-cha",
+      "vertaling": "oogst"
+    },
+    {
+      "woord": "optocht",
+      "uitspraak": "op-tocht",
+      "vertaling": "stoet/optocht"
+    },
+    {
+      "woord": "mais",
+      "uitspraak": "ma-is",
+      "vertaling": "maïs"
+    }
+  ]
+}

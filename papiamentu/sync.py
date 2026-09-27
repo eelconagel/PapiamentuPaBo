@@ -11,9 +11,9 @@ state without them, so a tab that still runs stale JavaScript can't wipe them.
 import json
 
 MAX_BYTES = 256 * 1024
-_LIMITS = {"woorden": 5000, "lessen": 500, "scenarios": 500, "nieuws": 1000, "lijsten": 200}
+_LIMITS = {"woorden": 5000, "lessen": 500, "scenarios": 500, "nieuws": 1000, "cultuur": 200, "lijsten": 200}
 # Completion maps: id -> ISO timestamp of the first time it was finished.
-_DONE_MAPS = ("scenarios", "nieuws")
+_DONE_MAPS = ("scenarios", "nieuws", "cultuur")
 # Fields (of any shape) that a browser running stale JavaScript might not send at all —
 # keep the stored value in that case instead of letting sanitize() reset it to empty/zero.
 _PROTECT_IF_MISSING = _DONE_MAPS + ("xpEarned",)
@@ -36,7 +36,7 @@ def sanitize(state) -> dict:
     if not isinstance(state, dict):
         state = {}
     out = {"version": 1, "profile": None, "xp": _int(state.get("xp")), "xpEarned": _int(state.get("xpEarned")),
-           "woorden": {}, "lijsten": [], "lessen": {}, "scenarios": {}, "nieuws": {}}
+           "woorden": {}, "lijsten": [], "lessen": {}, "scenarios": {}, "nieuws": {}, "cultuur": {}}
 
     profile = state.get("profile")
     if isinstance(profile, dict) and isinstance(profile.get("name"), str) and profile["name"].strip():

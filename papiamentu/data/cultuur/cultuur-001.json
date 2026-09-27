@@ -1,0 +1,128 @@
+{
+  "id": "cultuur-001",
+  "titel": "Tambú: muziek uit het hart van Curaçao",
+  "kategoria": "Muziek & dans",
+  "beschrijving": "Tambú is de traditionele muziek en dans van Curaçao, met wortels in West-Afrika.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Tambú ta un stilo di música i baile ku a nase entre e katibunan riba Kòrsou.",
+          "nl": "Tambú is een muziek- en dansstijl die ontstond onder de tot slaaf gemaakten op Curaçao.",
+          "opties": [
+            "Tambú is een instrument dat alleen in de kerk gebruikt wordt.",
+            "Tambú ontstond als muziek en dans onder de tot slaaf gemaakten op Curaçao.",
+            "Tambú is een dans die recent is uitgevonden voor toeristen.",
+            "Tambú komt oorspronkelijk uit Nederland."
+          ],
+          "correct": 1,
+          "uitleg": "'Nase' = ontstaan, 'katibu' = tot slaaf gemaakte. Tambú droeg Afrikaanse ritmes en tradities door in een moeilijke periode."
+        },
+        {
+          "pap": "E nòmber \"tambú\" ta referí na e tambú mes, e instrumento di ritmo.",
+          "nl": "De naam \"tambú\" verwijst naar de trommel zelf, het ritme-instrument.",
+          "opties": [
+            "De naam betekent \"feest\" in het Papiamentu.",
+            "De naam komt van een Nederlands woord.",
+            "De naam verwijst naar de trommel, het instrument zelf.",
+            "De naam verwijst naar een dorp op Curaçao."
+          ],
+          "correct": 2,
+          "uitleg": "'Referí na' = verwijzen naar."
+        },
+        {
+          "pap": "Awendia tambú ta wòrdu balia durante fiesta i tambe den kompetensia.",
+          "nl": "Tegenwoordig wordt tambú gedanst tijdens feesten en ook in wedstrijden.",
+          "opties": [
+            "Tambú mag tegenwoordig alleen nog in musea getoond worden.",
+            "Tambú wordt niet meer gedanst.",
+            "Tambú is verboden tijdens officiële feesten.",
+            "Tegenwoordig wordt tambú gedanst bij feesten en in wedstrijden."
+          ],
+          "correct": 3,
+          "uitleg": "'Awendia' = tegenwoordig, 'durante' = tijdens."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "De oorsprong van tambú en hoe het vandaag nog leeft",
+        "Een verbod op tambú-muziek",
+        "Een nieuw muziekinstrument uit Nederland",
+        "Waarom tambú is uitgestorven"
+      ],
+      "correct": 0,
+      "uitleg": "Tambú ontstond onder tot slaaf gemaakten en wordt nu nog gedanst bij feesten en wedstrijden."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E ritmo di tambú ta bini for di dominá ku man i vout.",
+          "nl": "Het ritme van tambú komt van het slaan met de hand en de trommel (vout).",
+          "opties": [
+            "Er wordt geen instrument bij gebruikt.",
+            "Het ritme komt van het slaan met de hand op de trommel.",
+            "Het ritme komt alleen van fluiten.",
+            "Het ritme wordt met een gitaar gemaakt."
+          ],
+          "correct": 1,
+          "uitleg": "'Dominá' = slaan/kloppen, 'man' = hand."
+        },
+        {
+          "pap": "Un grupo di hende ta kanta i bati man rònt di e baladó.",
+          "nl": "Een groep mensen zingt en klapt in de handen rond de danser.",
+          "opties": [
+            "Alleen één persoon zingt, zonder publiek.",
+            "Er wordt niet gezongen bij tambú.",
+            "Een groep zingt en klapt terwijl iemand in het midden danst.",
+            "Iedereen danst tegelijk zonder muziek."
+          ],
+          "correct": 2,
+          "uitleg": "'Kanta' = zingen, 'bati man' = klappen, 'baladó' = danser."
+        },
+        {
+          "pap": "Hopi famia ta siña e baile aki di generashon pa generashon.",
+          "nl": "Veel families leren deze dans van generatie op generatie.",
+          "opties": [
+            "De dans mag alleen door professionals geleerd worden.",
+            "De dans wordt niet meer doorgegeven.",
+            "Alleen toeristen leren deze dans.",
+            "Veel families geven de dans door van generatie op generatie."
+          ],
+          "correct": 3,
+          "uitleg": "'Siña' = leren, 'generashon' = generatie."
+        }
+      ],
+      "vraag": "Hoe wordt tambú in de praktijk gedanst?",
+      "opties": [
+        "In een groep, met zang, geklap en trommelritme, doorgegeven binnen families",
+        "Alleen individueel en in stilte",
+        "Uitsluitend door professionele dansers op een podium",
+        "Nooit in familieverband"
+      ],
+      "correct": 0,
+      "uitleg": "Een groep zingt en klapt rond de danser(s); het wordt van generatie op generatie geleerd."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "tambú",
+      "uitspraak": "tam-boe",
+      "vertaling": "trommel/tambú-muziek"
+    },
+    {
+      "woord": "baila",
+      "uitspraak": "bai-la",
+      "vertaling": "dansen"
+    },
+    {
+      "woord": "ritmo",
+      "uitspraak": "rit-mo",
+      "vertaling": "ritme"
+    },
+    {
+      "woord": "herensia",
+      "uitspraak": "he-ren-sia",
+      "vertaling": "erfenis"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "cultuur-003",
+  "titel": "Waar komt het Papiamentu vandaan?",
+  "kategoria": "Taal & geschiedenis",
+  "beschrijving": "Papiamentu is een creoletaal met wortels in het Iberisch, West-Afrikaanse talen en meer.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Papiamentu no ta un mesklá lòs di palabra, ma un idioma kompletu ku su mes reglanan.",
+          "nl": "Papiamentu is geen los mengsel van woorden, maar een volwaardige taal met eigen regels.",
+          "opties": [
+            "Papiamentu wordt nog steeds ontwikkeld en heeft geen vaste regels.",
+            "Papiamentu is een volwaardige taal met eigen regels, geen los mengsel.",
+            "Papiamentu heeft geen eigen grammatica.",
+            "Papiamentu is een dialect van het Nederlands."
+          ],
+          "correct": 1,
+          "uitleg": "'Mesklá lòs' = los mengsel, 'reglanan' = regels."
+        },
+        {
+          "pap": "E nucleo di e idioma ta di orígen ibériko: pòrtugues i spañó.",
+          "nl": "De kern van de taal is van Iberische oorsprong: Portugees en Spaans.",
+          "opties": [
+            "De taal heeft geen Europese invloeden.",
+            "De kern komt uit het Engels.",
+            "De kern van de taal komt uit het Portugees en Spaans.",
+            "De kern van de taal komt uit het Frans."
+          ],
+          "correct": 2,
+          "uitleg": "'Nucleo' = kern, 'orígen' = oorsprong."
+        },
+        {
+          "pap": "Over e base ei a bini influensia di hulandes, idioma afrikano i arawak.",
+          "nl": "Daarbovenop kwamen invloeden van het Nederlands, Afrikaanse talen en het Arowaks.",
+          "opties": [
+            "Er kwamen geen andere invloeden bij.",
+            "De taal bestaat alleen uit Nederlandse woorden.",
+            "Arowaks is de enige invloed geweest.",
+            "Daarbovenop kwamen invloeden van het Nederlands, Afrikaanse talen en het Arowaks."
+          ],
+          "correct": 3,
+          "uitleg": "'Influensia' = invloed. Arowaks is de taal van de oorspronkelijke bewoners van het gebied."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "De Iberische kern van het Papiamentu en de latere invloeden",
+        "Het bewijs dat Papiamentu een dialect is",
+        "Een taal die niets met Europa te maken heeft",
+        "De opkomst van het Engels op Curaçao"
+      ],
+      "correct": 0,
+      "uitleg": "De kern is Iberisch (Portugees/Spaans), met latere invloeden van Nederlands, Afrikaanse talen en Arowaks."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "E alfabeto ta usa e mesun lèternan ku hulandes, ku algun aksènt tí.",
+          "nl": "Het alfabet gebruikt dezelfde letters als het Nederlands, met een paar accenten erbij.",
+          "opties": [
+            "Het alfabet heeft twee keer zoveel letters als het Nederlands.",
+            "Het alfabet lijkt op het Nederlandse, met een paar extra accenten.",
+            "Het alfabet gebruikt een heel ander schrift.",
+            "Er zijn geen accenten in het Papiamentu."
+          ],
+          "correct": 1,
+          "uitleg": "'Lèter' = letter, 'aksènt' = accent (bv. è, ò, ó)."
+        },
+        {
+          "pap": "E aksèntnan ta mustra kon bo mester pronunsiá e palabra, no unda e stress ta.",
+          "nl": "De accenten laten zien hoe je het woord moet uitspreken, niet waar de klemtoon ligt.",
+          "opties": [
+            "De accenten hebben geen enkele functie.",
+            "De accenten zijn alleen decoratief.",
+            "De accenten geven de uitspraak aan, niet de klemtoon.",
+            "De accenten geven altijd de klemtoon aan."
+          ],
+          "correct": 2,
+          "uitleg": "'Pronunsiá' = uitspreken, 'stress' = klemtoon."
+        },
+        {
+          "pap": "Kòrsou, Aruba i Boneiru kada un tin nan mes manera di skirbi e idioma.",
+          "nl": "Curaçao, Aruba en Bonaire hebben elk hun eigen manier van het schrijven van de taal.",
+          "opties": [
+            "Alle eilanden schrijven de taal precies hetzelfde.",
+            "Alleen Curaçao heeft een geschreven vorm.",
+            "Aruba noemt de taal anders dan Papiamentu.",
+            "Curaçao, Aruba en Bonaire schrijven de taal elk op hun eigen manier."
+          ],
+          "correct": 3,
+          "uitleg": "Aruba spelt vaak dichter bij het Spaans (bv. \"Papiamento\"), Curaçao en Bonaire meer fonetisch."
+        }
+      ],
+      "vraag": "Hoe zit het met het schrift en de spelling?",
+      "opties": [
+        "Het alfabet lijkt op het Nederlandse; elk eiland heeft een eigen spelling",
+        "Er bestaat geen geschreven vorm van het Papiamentu",
+        "Het schrift is identiek aan het Arabisch",
+        "Alle drie de eilanden spellen precies gelijk"
+      ],
+      "correct": 0,
+      "uitleg": "Het alfabet is Nederlands-achtig met accenten voor uitspraak; Curaçao, Aruba en Bonaire spellen verschillend."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "kreol",
+      "uitspraak": "kre-ol",
+      "vertaling": "creools"
+    },
+    {
+      "woord": "idioma",
+      "uitspraak": "i-djo-ma",
+      "vertaling": "taal"
+    },
+    {
+      "woord": "mesklá",
+      "uitspraak": "mes-kla",
+      "vertaling": "mengsel"
+    },
+    {
+      "woord": "orígen",
+      "uitspraak": "o-ri-gen",
+      "vertaling": "oorsprong"
+    }
+  ]
+}

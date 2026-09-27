@@ -1,0 +1,128 @@
+{
+  "id": "cultuur-004",
+  "titel": "Eten op Curaçao: van kadushi tot keshi yena",
+  "kategoria": "Eten & drinken",
+  "beschrijving": "Curaçaose keuken mengt Caribische, Afrikaanse, Nederlandse en Zuid-Amerikaanse invloeden.",
+  "paragrafen": [
+    {
+      "zinnen": [
+        {
+          "pap": "Kadushi ta un sòpi trahá di kaktus, un plato tradishonal di Kòrsou.",
+          "nl": "Kadushi is een soep gemaakt van cactus, een traditioneel gerecht van Curaçao.",
+          "opties": [
+            "Kadushi bestaat uit alleen vis.",
+            "Kadushi is een traditionele soep gemaakt van cactus.",
+            "Kadushi is een dessert met chocolade.",
+            "Kadushi is een soort brood."
+          ],
+          "correct": 1,
+          "uitleg": "'Sòpi' = soep, 'trahá di' = gemaakt van."
+        },
+        {
+          "pap": "Keshi yena ta un keshi bashí yená ku karni, orso i speserei.",
+          "nl": "Keshi yena is een uitgeholde kaas gevuld met vlees, rozijnen en kruiden.",
+          "opties": [
+            "Keshi yena bevat geen kaas.",
+            "Keshi yena is een drankje.",
+            "Keshi yena is een kaas gevuld met vlees, rozijnen en kruiden.",
+            "Keshi yena is een soort ijs."
+          ],
+          "correct": 2,
+          "uitleg": "'Bashí' = leeg/uitgehold, 'yená' = gevuld, 'karni' = vlees."
+        },
+        {
+          "pap": "Stobá ta un stoba di karni, kabritu òf piska, kushiná ku speserei lokal.",
+          "nl": "Stobá is een stoofpot van vlees, geit of vis, gekookt met lokale kruiden.",
+          "opties": [
+            "Stobá is alleen een groentesalade.",
+            "Stobá wordt koud geserveerd.",
+            "Stobá bevat nooit vlees.",
+            "Stobá is een stoofpot van vlees, geit of vis met lokale kruiden."
+          ],
+          "correct": 3,
+          "uitleg": "'Kushiná' = koken, 'speserei' = kruiden."
+        }
+      ],
+      "vraag": "Waar gaat deze alinea over?",
+      "opties": [
+        "Drie traditionele gerechten en waar ze van gemaakt zijn",
+        "Een restaurant dat sluit",
+        "Een verbod op bepaalde gerechten",
+        "Een nieuw internationaal gerecht zonder lokale wortels"
+      ],
+      "correct": 0,
+      "uitleg": "Kadushi (cactussoep), keshi yena (gevulde kaas) en stobá (stoofpot) zijn traditionele gerechten."
+    },
+    {
+      "zinnen": [
+        {
+          "pap": "Hopi di e resètnan aki ta bini for di tempu di katibunan, ora hende mester a traha ku loke tabatin.",
+          "nl": "Veel van deze recepten komen uit de tijd van de tot slaaf gemaakten, toen mensen moesten koken met wat er was.",
+          "opties": [
+            "Er is geen geschiedenis achter deze gerechten.",
+            "Veel recepten komen uit een tijd waarin mensen met weinig moesten koken.",
+            "Alle recepten zijn recent uitgevonden door chef-koks.",
+            "De recepten komen oorspronkelijk uit Frankrijk."
+          ],
+          "correct": 1,
+          "uitleg": "'Tempu di katibunan' = de tijd van de slavernij, 'traha ku loke tabatin' = werken met wat er was."
+        },
+        {
+          "pap": "Awendia e platonan aki ta wòrdu sirbí den restorant i també na kas pa fiesta.",
+          "nl": "Tegenwoordig worden deze gerechten geserveerd in restaurants en ook thuis bij feesten.",
+          "opties": [
+            "Niemand kookt deze gerechten nog thuis.",
+            "Deze gerechten zijn verboden bij feesten.",
+            "Deze gerechten worden nu in restaurants én thuis bij feesten geserveerd.",
+            "Deze gerechten mogen alleen in restaurants gegeten worden."
+          ],
+          "correct": 2,
+          "uitleg": "'Sirbí' = serveren, 'na kas' = thuis."
+        },
+        {
+          "pap": "Bo por haña e speserei tipiko na e mèrkatnan lokal.",
+          "nl": "Je kunt de typische kruiden vinden op de lokale markten.",
+          "opties": [
+            "De kruiden worden niet meer verkocht.",
+            "Je kunt de kruiden alleen online bestellen.",
+            "Er zijn geen lokale markten meer.",
+            "De typische kruiden zijn te vinden op lokale markten."
+          ],
+          "correct": 3,
+          "uitleg": "'Haña' = vinden, 'mèrkat' = markt."
+        }
+      ],
+      "vraag": "Hoe leeft deze keuken vandaag voort?",
+      "opties": [
+        "De gerechten komen uit een tijd van schaarste en leven voort in restaurants en thuis",
+        "De gerechten zijn helemaal uit de mode",
+        "Ze worden alleen nog in musea getoond",
+        "De kruiden zijn niet meer verkrijgbaar"
+      ],
+      "correct": 0,
+      "uitleg": "Ontstaan uit noodzaak, nu nog steeds geserveerd in restaurants en thuis; kruiden op lokale markten te koop."
+    }
+  ],
+  "sleutelwoorden": [
+    {
+      "woord": "kuminda",
+      "uitspraak": "koe-min-da",
+      "vertaling": "eten"
+    },
+    {
+      "woord": "kadushi",
+      "uitspraak": "ka-doe-shi",
+      "vertaling": "cactussoep"
+    },
+    {
+      "woord": "keshi yena",
+      "uitspraak": "ke-shi je-na",
+      "vertaling": "gevulde kaas"
+    },
+    {
+      "woord": "stobá",
+      "uitspraak": "sto-ba",
+      "vertaling": "stoofpot"
+    }
+  ]
+}

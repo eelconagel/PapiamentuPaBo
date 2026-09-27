@@ -38,7 +38,7 @@ def message_count(app):
 # ---------- pages & content ----------
 
 @pytest.mark.parametrize("path", [
-    "/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/profiel", "/eerste-week",
+    "/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/cultuur", "/profiel", "/eerste-week",
     "/contact", "/privacy", "/instellingen", "/healthz",
 ])
 def test_pages_ok(client, path):
@@ -78,6 +78,14 @@ def test_content_integrity(app):
     for sid, s in c.scenarios.items():
         for q in s["quiz"] + s["grammar"]["exercises"]:
             assert q["question"].strip() and 0 <= q["correct"] < len(q["options"]), (sid, q)
+        if "dialoog" in s:
+            knopen = s["dialoog"]["knopen"]
+            assert s["dialoog"]["start"] in knopen, sid
+            for kid, k in knopen.items():
+                assert k["npc"].strip() and k["npc_nl"].strip(), (sid, kid)
+                for keuze in k["keuzes"]:
+                    assert keuze["pap"].strip() and keuze["nl"].strip(), (sid, kid)
+                    assert keuze["gaat_naar"] in knopen, (sid, kid, keuze["gaat_naar"])
         for sid in les.get("scenario_links", []):
             assert sid in c.scenarios and sid in listed
     word_ids = [w["id"] for l in c.woordenlijsten for w in l["woorden"]]
@@ -143,6 +151,34 @@ def test_home_and_sitemap_link_nieuws(app, client):
     assert 'href="/nieuws"' in client.get("/").get_data(as_text=True)
     sitemap = client.get("/sitemap.xml").get_data(as_text=True)
     assert "/nieuws/nieuws-001" in sitemap
+
+
+def test_cultuur_integrity(app, client):
+    c = app.extensions["content"]
+    assert c.cultuur, "op zijn minst één cultuurstuk"
+
+    def check_question(where, q):
+        assert 3 <= len(q["opties"]) <= 6 and 0 <= q["correct"] < len(q["opties"]), where
+        assert len({o.strip().lower() for o in q["opties"]}) == len(q["opties"]), where
+        assert all(o.strip() for o in q["opties"]), where
+
+    assert list(c.cultuur) == [f"cultuur-{i:03d}" for i in range(1, len(c.cultuur) + 1)]
+    for cid, a in c.cultuur.items():
+        assert a["titel"].strip() and a["beschrijving"].strip() and a["kategoria"].strip(), cid
+        assert a["paragrafen"], cid
+        for pi, p in enumerate(a["paragrafen"]):
+            check_question((cid, pi), p)
+            assert p["vraag"].strip() and p["uitleg"].strip(), (cid, pi)
+            for z in p["zinnen"]:
+                assert z["pap"].strip() and z["nl"].strip() and z["uitleg"].strip(), (cid, z["pap"])
+                check_question((cid, z["pap"]), z)
+        for w in a.get("sleutelwoorden", []):
+            assert w["woord"] and w["uitspraak"] and w["vertaling"], cid
+
+    assert 'href="/cultuur"' in client.get("/").get_data(as_text=True)
+    assert client.get("/cultuur/cultuur-001").status_code == 200
+    sitemap = client.get("/sitemap.xml").get_data(as_text=True)
+    assert "/cultuur/cultuur-001" in sitemap
 
 
 def test_profiel_medal_thresholds_match_content(app, client):

@@ -330,6 +330,21 @@ def test_old_client_without_nieuws_keeps_it():
     assert new["nieuws"] == {}
 
 
+def test_cultuur_sanitized_merged_and_protected():
+    # Zelfde behandeling als "nieuws": id -> ISO-timestamp, gemerged met min(), en
+    # beschermd tegen een verouderde tab die het veld niet meestuurt.
+    a = sanitize({"cultuur": {"cultuur-001": "2026-03-02", "": "x"}})
+    assert a["cultuur"] == {"cultuur-001": "2026-03-02"}
+    b = sanitize({"cultuur": {"cultuur-001": "2026-03-01", "cultuur-002": "2026-04-01"}})
+    assert merge(a, b)["cultuur"] == {"cultuur-001": "2026-03-01", "cultuur-002": "2026-04-01"}
+
+    stored = json.dumps(sanitize({"xp": 5, "cultuur": {"cultuur-001": "2026-03-01"}}))
+    new, _ = resolve(stored, 2, {"xp": 6}, 2, replace=False)
+    assert new["cultuur"] == {"cultuur-001": "2026-03-01"}
+    new, _ = resolve(stored, 2, {"xp": 6, "cultuur": {}}, 2, replace=False)
+    assert new["cultuur"] == {}
+
+
 def test_xp_earned_sanitized_merged_and_protected():
     # xpEarned is the lifetime, spend-proof total the medal system is based on: it only ever
     # grows, sanitizes/merges like xp, and — like "nieuws" — is never wiped by a stale client.
