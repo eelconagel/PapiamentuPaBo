@@ -1,6 +1,6 @@
 // Uitspraak-knop op basis van de browser's ingebouwde spraaksynthese (Web Speech API).
 // Geen server, geen audiobestanden nodig — maar ook geen browser heeft een Papiamentu-stem.
-// We kiezen de dichtstbijzijnde beschikbare stem (Spaans/Portugees benaderen de klank beter
+// We kiezen de dichtstbijzijnde beschikbare stem (Portugees/Spaans benaderen de klank beter
 // dan Nederlands of Engels) en zijn daar in de tooltip eerlijk over.
 (function () {
   const available = 'speechSynthesis' in window;
@@ -13,7 +13,7 @@
     if (!voices.length) return null;
     voicesReady = true;
     const byPrefix = (prefix) => voices.find((v) => v.lang && v.lang.toLowerCase().startsWith(prefix));
-    return byPrefix('es') || byPrefix('pt') || byPrefix('nl') || voices[0];
+    return byPrefix('pt') || byPrefix('es') || byPrefix('nl') || voices[0];
   }
 
   if (available) {
