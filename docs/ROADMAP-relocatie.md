@@ -1,5 +1,13 @@
 # Roadmap: Papiamentu Pa Bo als relocatie-taalapp
 
+> **Status (2026-09-27):** alle 10 fases zijn gebouwd op de branch `relocatie-roadmap`
+> (10 commits, één per fase), getest met de volledige pytest-suite en handmatig in de
+> lokale Docker-container. Nog niet gepusht/gedeployed. Twee dingen zijn bewust blijven
+> liggen voor de opdrachtgever: (1) de 4 cultuurstukken (Fase 7) en de 6 nieuwe
+> scenario's (Fase 8) zijn nog niet door een moedertaalspreker nagekeken, en (2) Fase 6
+> (vertakte dialogen) staat nu in 2 scenario's als proof of concept — of dit wordt
+> uitgebreid naar meer scenario's is een keuze, geen automatisme.
+
 Ontstaan uit een reviewgesprek (sessie 2026-09-26) over hoe de app aansluit bij een
 Nederlander die naar Curaçao verhuist — voor 3 maanden, 3 jaar, of voor altijd. Deze drie
 profielen zijn de meetlat voor elke stap hieronder:
@@ -48,20 +56,20 @@ Nederlands of Engels) en zet dat ook zo in een tooltip/toelichting, zodat gebrui
 denken dat dit "de" Papiamentu-uitspraak is.
 
 **Stappen:**
-- [ ] Nieuwe kleine module `papiamentu/static/js/speak.js`: één functie
+- [x] Nieuwe kleine module `papiamentu/static/js/speak.js`: één functie
       `Speak.play(text)` die een `SpeechSynthesisUtterance` afvuurt met de beste
       beschikbare stem (kies via `speechSynthesis.getVoices()`, val terug op de browser-taal
       als er niets Papiamentu-achtigs is). Graceful no-op als `speechSynthesis` niet bestaat
       (Safari-quirks, oude browsers).
-  - [ ] Voeg een klein 🔊-knopje toe naast elk stuk Papiamentu-tekst waar dat nu al
+  - [x] Voeg een klein 🔊-knopje toe naast elk stuk Papiamentu-tekst waar dat nu al
         losstaand gerenderd wordt: `word-pap` (scenario/les/nieuws), `news-quote`,
         `flashcard .fc-pap` (woorden.html), de scenario-`word-row`s.
-  - [ ] CSS: klein, subtiel icoon-knopje (kijk naar `.icon-btn` in style.css, al gebruikt
+  - [x] CSS: klein, subtiel icoon-knopje (kijk naar `.icon-btn` in style.css, al gebruikt
       voor "ander woord" op de homepage — hergebruik die stijl).
-- [ ] Test: geen Python-test mogelijk voor `SpeechSynthesis` zelf (browser-API); voeg wel
+- [x] Test: geen Python-test mogelijk voor `SpeechSynthesis` zelf (browser-API); voeg wel
       een test toe die checkt dat `speak.js` op elke pagina met Papiamentu-tekst wordt
       ingeladen (`test_app.py`, simpele `assert 'speak.js' in html` per relevante route).
-- [ ] Handmatig testen in de browserpreview: klik een 🔊-knop, controleer dat er geluid
+- [x] Handmatig testen in de browserpreview: klik een 🔊-knop, controleer dat er geluid
       afgaat en dat de pagina niet breekt wanneer `speechSynthesis` ontbreekt (simuleer met
       `delete window.speechSynthesis` in de devtools console).
 
@@ -92,16 +100,16 @@ je één keer ziet, kom je nooit meer tegen.
   documentatie: woord-id's nooit hergebruiken/laten botsen.
 
 **Stappen:**
-- [ ] `content.py`: bouw een `Content.alle_leerwoorden()` (of vergelijkbare methode) die
+- [x] `content.py`: bouw een `Content.alle_leerwoorden()` (of vergelijkbare methode) die
       over `woordenlijsten`, `scenarios`, `nieuws` en `lessen` itereert en een platte lijst
       teruggeeft van `{id, woord, uitspraak, vertaling, bron}`.
-- [ ] Nieuwe route (of uitbreiding van `/woorden`) die deze volledige set naar de pagina
+- [x] Nieuwe route (of uitbreiding van `/woorden`) die deze volledige set naar de pagina
       stuurt, met een filter/toggle "alleen basiswoorden" vs "alles wat ik ben tegengekomen"
       — voorkomt dat een absolute beginner meteen met 300 woorden wordt overspoeld.
   - Overweeg: alleen woorden "vrijgeven" in deze motor zodra de gebruiker het scenario/
     nieuwsartikel/les waar ze vandaan komen heeft geopend — dus geen losse woordenlijst
     van dingen die je nog nooit hebt gezien.
-- [ ] `tests/test_app.py`: test dat elk woord-id uniek is over de hele site (dit is
+- [x] `tests/test_app.py`: test dat elk woord-id uniek is over de hele site (dit is
       precies zo'n test-vorm als de bestaande `assert len(word_ids) == len(set(word_ids))`
       in `test_content_integrity` — breid die test uit i.p.v. een nieuwe te schrijven).
 
@@ -113,16 +121,16 @@ je één keer ziet, kom je nooit meer tegen.
 lessenvolgorde staande lijst met de nuttigste ~50 zinnen dekt precies dat gat.
 
 **Stappen:**
-- [ ] Nieuw databestand `papiamentu/data/noodwoordenboek.json`: een simpele lijst van
+- [x] Nieuw databestand `papiamentu/data/noodwoordenboek.json`: een simpele lijst van
       categorieën (Begroeten, Boodschappen, Nood/gezondheid, Onderweg, Basiszinnen) met per
       categorie 6-10 zinnen (`papiamentu`, `uitspraak`, `vertaling`).
-- [ ] Nieuwe route `/eerste-week` + template, met dezelfde 🔊-knop uit Fase 1 op elke
+- [x] Nieuwe route `/eerste-week` + template, met dezelfde 🔊-knop uit Fase 1 op elke
       zin. Geen quiz, geen voortgang bijhouden — dit is naslag, geen oefening. (Puur lezen
       hoeft niet client-side te worden opgeslagen; dat past bij het privacy-uitgangspunt.)
-  - [ ] Prominente kaart/knop op de homepage, zichtbaar vóór iemand een naam invult
+  - [x] Prominente kaart/knop op de homepage, zichtbaar vóór iemand een naam invult
         (dus ook in de onboarding-sectie van `home.html`), met een tekst die het
         3-maanden-profiel direct aanspreekt: "Net op Curaçao? Begin hier."
-- [ ] `tests/test_app.py`: content-integriteitstest analoog aan `test_nieuws_integrity`
+- [x] `tests/test_app.py`: content-integriteitstest analoog aan `test_nieuws_integrity`
       (elke zin heeft niet-lege velden, geen dubbele ids).
 
 ---
@@ -133,17 +141,17 @@ lessenvolgorde staande lijst met de nuttigste ~50 zinnen dekt precies dat gat.
 lokale voorkeur die bepaalt wat er prominent getoond wordt.
 
 **Stappen:**
-- [ ] Nieuw, niet-gesynct veld `Store.get().profielKeuze` (`'kort' | 'middel' | 'blijvend' |
+- [x] Nieuw, niet-gesynct veld `Store.get().profielKeuze` (`'kort' | 'middel' | 'blijvend' |
       null`), analoog aan hoe `theme` en `weekXp` nu al puur lokaal blijven
       (uitsluiten in `forSync()` in `store.js`).
-- [ ] Onboarding-scherm in `home.html`: na het invullen van de naam, één extra korte vraag
+- [x] Onboarding-scherm in `home.html`: na het invullen van de naam, één extra korte vraag
       met drie knoppen. Sla de keuze op en stuur meteen door:
       - *kort* → `/eerste-week` (Fase 3) + Easy-scenario's.
       - *middel* → dashboard zoals nu, met Nieuws lezen en lessen geaccentueerd.
       - *blijvend* → dashboard + een teaser voor Fase 8/9-content zodra die bestaat.
-  - [ ] Laat het altijd overslaanbaar/wijzigbaar zijn vanuit Instellingen — dit is een
+  - [x] Laat het altijd overslaanbaar/wijzigbaar zijn vanuit Instellingen — dit is een
         suggestie, geen harde gate.
-- [ ] Geen server-test nodig (puur client-side UI-keuze); wel een korte handmatige
+- [x] Geen server-test nodig (puur client-side UI-keuze); wel een korte handmatige
       controle in de browserpreview dat alle drie de paden werken en dat "overslaan" het
       gewone dashboard toont.
 
@@ -155,18 +163,18 @@ lokale voorkeur die bepaalt wat er prominent getoond wordt.
 volledig lokaal, geen pushmeldingen nodig (die vereisen een heel ander soort infra).
 
 **Stappen:**
-- [ ] `store.js`: nieuw lokaal (niet-gesynct) veld `streak: { laatsteDag: 'YYYY-MM-DD',
+- [x] `store.js`: nieuw lokaal (niet-gesynct) veld `streak: { laatsteDag: 'YYYY-MM-DD',
       lengte: 0 }`. Bij elke `Store.addXp()`-aanroep: als `laatsteDag` gisteren was → `lengte
       + 1`; als het vandaag al was → niets doen; anders (gat van >1 dag) → reset naar 1.
   - Hergebruik het patroon van `isoWeekKey()` (al in `store.js` voor `weekXp`) voor de
     datumvergelijking, maar dan per dag i.p.v. per ISO-week.
-- [ ] Klein streak-badge op de homepage (bv. "🔥 4 dagen op rij") en op `/profiel`.
-- [ ] Overweeg een zachte reminder die **niet** afhankelijk is van serverinfra: een
+- [x] Klein streak-badge op de homepage (bv. "🔥 4 dagen op rij") en op `/profiel`.
+- [x] Overweeg een zachte reminder die **niet** afhankelijk is van serverinfra: een
       banner die verschijnt zodra je de site opnieuw bezoekt na een gemiste dag ("Je streak
       van 4 dagen is gisteren gestopt — vandaag weer beginnen?"). Geen echte notificaties;
       dat is bewust buiten scope gehouden vanwege de privacy-insteek (geen contactgegevens
       nodig, geen device-tokens).
-- [ ] Geen serverwijziging nodig; wel een korte JS-sanity-check (handmatig, via
+- [x] Geen serverwijziging nodig; wel een korte JS-sanity-check (handmatig, via
       localStorage-manipulatie in de browserpreview, zoals eerder in deze sessie gedaan bij
       `weekXp`) dat de streak goed doortelt en resettet.
 
@@ -194,15 +202,15 @@ communicatieve competentie.
   de huidige, foutvriendelijke toon van de app.
 
 **Stappen:**
-- [ ] Datamodel + JSON-schema bedenken, documenteren in `content.py`-achtige comments.
-- [ ] Contentgenerator-script `scripts/gen_dialoog.py` naar het voorbeeld van
+- [x] Datamodel + JSON-schema bedenken, documenteren in `content.py`-achtige comments.
+- [x] Contentgenerator-script `scripts/gen_dialoog.py` naar het voorbeeld van
       `scripts/gen_nieuws.py` (compact tekstformaat, geen handmatig geneste JSON).
-- [ ] Front-end: nieuwe sectie binnen `scenario.html` (of een nieuw `data-type="dialoog"`
+- [x] Front-end: nieuwe sectie binnen `scenario.html` (of een nieuw `data-type="dialoog"`
       naast de bestaande `intro/grammar/words/pitfalls/culture/quiz`-pagina's).
-- [ ] Tests: content-integriteit (elke `gaat_naar` verwijst naar een bestaande knoop, geen
+- [x] Tests: content-integriteit (elke `gaat_naar` verwijst naar een bestaande knoop, geen
       dead ends zonder keuzes tenzij het een eindknoop is).
 - [ ] Na de eerste 2-3 scenario's: evalueren of dit de moeite waard is vóór je alle 20
-      scenario's ombouwt.
+      scenario's ombouwt. (2 scenario's staan er nu; besluit over uitbreiden is aan de opdrachtgever.)
 
 ---
 
@@ -215,11 +223,11 @@ gevoeligheden — respectvol en informatief, niet alleen anekdotisch zoals de hu
 "did-you-know"-blokjes in scenario's.
 
 **Stappen:**
-- [ ] Overweeg om `nieuws_artikel.html`/`nieuws.html` te generaliseren naar een gedeelde
+- [x] Overweeg om `nieuws_artikel.html`/`nieuws.html` te generaliseren naar een gedeelde
       "leesoefening"-component die zowel `/nieuws` als een nieuwe `/cultuur` voedt, in
       plaats van het bestand te kopiëren — voorkomt dat een bugfix straks op twee plekken
       moet.
-- [ ] Zelfde vrijspeel-mechaniek als nieuws (`NIEUWS_UNLOCK`-patroon) kan hergebruikt
+- [x] Zelfde vrijspeel-mechaniek als nieuws (`NIEUWS_UNLOCK`-patroon) kan hergebruikt
       worden, of bewust achterwege gelaten als cultuurstukken meteen allemaal open moeten
       zijn (bespreek dit met de opdrachtgever voordat je bouwt — is nog geen besluit).
 - [ ] Content: laat een aantal stukken door een moedertaalspreker beoordelen vóór publicatie
@@ -236,21 +244,21 @@ duidelijke gaten. Dit is puur content, geen nieuwe techniek — dezelfde
 
 **Nieuwe scenario's om toe te voegen** (elk: intro, grammatica-oefenzinnen, woordenschat,
 valkuilen, cultuur, quiz — zoals de bestaande 20):
-- [ ] **Sédula aanvragen** (verblijfsdocument) — waarschijnlijk de meest voorkomende
+- [x] **Sédula aanvragen** (verblijfsdocument) — waarschijnlijk de meest voorkomende
       bureaucratische stap voor élke relocatie-duur.
-- [ ] **Een huis huren** (huurcontract, borg, oplevering) — momenteel wel "loodgieter over
+- [x] **Een huis huren** (huurcontract, borg, oplevering) — momenteel wel "loodgieter over
       lekkage" maar niet het aangaan van de huur zelf.
-- [ ] **Een huisdier meenemen/importeren** (quarantaine, papieren) — veelvoorkomend en
+- [x] **Een huisdier meenemen/importeren** (quarantaine, papieren) — veelvoorkomend en
       emotioneel beladen pijnpunt bij NL→CW-verhuizingen.
-- [ ] **Zorgverzekering (SVB) regelen** — naast het bestaande "bij de dokter"-scenario.
-- [ ] **Een kind op school inschrijven** (Papiamentu- vs Nederlandstalig onderwijs) —
+- [x] **Zorgverzekering (SVB) regelen** — naast het bestaande "bij de dokter"-scenario.
+- [x] **Een kind op school inschrijven** (Papiamentu- vs Nederlandstalig onderwijs) —
       relevant voor het 3-jaar/voor-altijd-profiel met gezin.
-- [ ] **Orkaanseizoen: voorbereiden op een storm** — praktisch én veiligheidsrelevant,
+- [x] **Orkaanseizoen: voorbereiden op een storm** — praktisch én veiligheidsrelevant,
       en een onderwerp dat een Nederlander simpelweg niet kent.
-- [ ] Voeg elk scenario toe aan `papiamentuPaBoScenarios.json` (lijst-metadata) én
+- [x] Voeg elk scenario toe aan `papiamentuPaBoScenarios.json` (lijst-metadata) én
       `papiamentu/data/scenarios/scenario-0XX.json` (volledige inhoud) — zie de
       "Layout"-sectie in `README.md` voor hoe die twee samenhangen.
-- [ ] Draai `test_content_integrity` na elke toevoeging.
+- [x] Draai `test_content_integrity` na elke toevoeging.
 
 ---
 
@@ -261,13 +269,13 @@ valkuilen, cultuur, quiz — zoals de bestaande 20):
 gebruiken."
 
 **Stappen:**
-- [ ] Een "Wat nu?"-pagina of -sectie die verschijnt zodra iemand het curriculum
+- [x] Een "Wat nu?"-pagina of -sectie die verschijnt zodra iemand het curriculum
       (nagenoeg) heeft afgerond: verwijzingen naar échte Papiamentu-media (extra.cw zelf,
       TeleCuraçao, lokale radio/podcasts), met een korte duiding van het niveau/tempo dat ze
       te wachten staat.
-  - [ ] Noem ook expliciet het verschil met Aruba/Bonaire-Papiamentu(spelling), zodat
+  - [x] Noem ook expliciet het verschil met Aruba/Bonaire-Papiamentu(spelling), zodat
         iemand niet in de war raakt als hij ineens Arubaanse spelling tegenkomt.
-- [ ] Geen taalmaatje-matching-systeem bouwen (dat vereist accounts/persoonsgegevens,
+- [x] Geen taalmaatje-matching-systeem bouwen (dat vereist accounts/persoonsgegevens,
       botst met de privacy-insteek) — beperk je tot statische verwijzingen naar bestaande
       lokale initiatieven, eventueel met een link/contactformulier-suggestie via de
       bestaande `/contact`-pagina.
@@ -281,13 +289,13 @@ privacy-insteek, maar noemde zelf dat iets **lokaals** wel leuk zou kunnen zijn.
 sociale prikkel zonder account of server-opslag.
 
 **Stappen:**
-- [ ] Op `/profiel`: een knop "Deel je medaille" die client-side (canvas of een SVG →
+- [x] Op `/profiel`: een knop "Deel je medaille" die client-side (canvas of een SVG →
       `toDataURL()`) een vierkante afbeelding genereert met de behaalde medaille, het
       thermometer-plaatje en eventueel de gekozen naam — en die aanbiedt als download
       (`<a download>`), niet als automatische upload/post ergens naartoe.
   - Geen serverstap, geen account, geen tracking — precies in lijn met "zo min mogelijk
     persoonsgegevens verwerken."
-- [ ] Test: handmatig in de browserpreview — genereer de afbeelding, controleer dat hij
+- [x] Test: handmatig in de browserpreview — genereer de afbeelding, controleer dat hij
       klopt met de actuele medaille/thermometerstand.
 
 ---
