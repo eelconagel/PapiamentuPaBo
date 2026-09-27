@@ -1,0 +1,189 @@
+{
+  "id": "scenario-024",
+  "title": "Zorgverzekering regelen",
+  "difficulty": "Intermediate",
+  "category": "Gezondheid",
+  "intro": "Je bent nieuw op Curaçao en gaat bij een verzekeringskantoor langs om je basiszorgverzekering (SVB) te regelen.",
+  "introWords": [
+    {
+      "papiamentu": "Siguransa di salú",
+      "pronunciation": "si-goe-ran-sa di sa-loe",
+      "dutch": "zorgverzekering"
+    },
+    {
+      "papiamentu": "SVB",
+      "pronunciation": "es-ve-be",
+      "dutch": "basisverzekering"
+    },
+    {
+      "papiamentu": "Prima",
+      "pronunciation": "pri-ma",
+      "dutch": "premie"
+    },
+    {
+      "papiamentu": "Kubridura",
+      "pronunciation": "koe-bri-doe-ra",
+      "dutch": "dekking"
+    }
+  ],
+  "grammar": {
+    "title": "Vragen stellen met 'kiko' en 'kua'",
+    "explanation": [
+      "'Kiko' gebruik je voor 'wat': 'Kiko e siguransa ta kubri?' (wat dekt de verzekering?).",
+      "'Kua' gebruik je voor 'welke': 'Kua dokumento mi mester trese?' (welk document moet ik meebrengen?).",
+      "'Kuantu' gebruik je voor 'hoeveel': 'Kuantu e prima ta kosta?' (hoeveel kost de premie?)."
+    ],
+    "exercises": [
+      {
+        "question": "Hoe vraag je 'wat dekt deze verzekering'?",
+        "options": [
+          "Kua e siguransa ta kubri?",
+          "Kiko e siguransa ta kubri?",
+          "Kuantu e siguransa ta kubri?",
+          "Ken e siguransa ta kubri?"
+        ],
+        "correct": 1,
+        "explanation": "'Kiko' = wat."
+      },
+      {
+        "question": "Hoe vraag je naar de prijs van de premie?",
+        "options": [
+          "Kiko e prima ta kosta?",
+          "Kua e prima ta kosta?",
+          "Kuantu e prima ta kosta?",
+          "Unda e prima ta kosta?"
+        ],
+        "correct": 2,
+        "explanation": "'Kuantu' = hoeveel."
+      },
+      {
+        "question": "Welk vraagwoord gebruik je voor 'welk document'?",
+        "options": [
+          "Kiko dokumento",
+          "Kua dokumento",
+          "Kuantu dokumento",
+          "Unda dokumento"
+        ],
+        "correct": 1,
+        "explanation": "'Kua' = welke/welk."
+      }
+    ]
+  },
+  "words": [
+    {
+      "papiamentu": "Siguransa di salú",
+      "pronunciation": "si-goe-ran-sa di sa-loe",
+      "dutch": "zorgverzekering",
+      "example": "Mi mester registrá pa siguransa di salú."
+    },
+    {
+      "papiamentu": "Prima",
+      "pronunciation": "pri-ma",
+      "dutch": "premie",
+      "example": "E prima ta wòrdu paga kada luna."
+    },
+    {
+      "papiamentu": "Kubridura",
+      "pronunciation": "koe-bri-doe-ra",
+      "dutch": "dekking",
+      "example": "Kua tratamentu e kubridura ta inkluí?"
+    },
+    {
+      "papiamentu": "Dòkter di kas",
+      "pronunciation": "dok-ter di kas",
+      "dutch": "huisarts",
+      "example": "Mi mester eskohe un dòkter di kas."
+    },
+    {
+      "papiamentu": "Reklamo",
+      "pronunciation": "re-kla-mo",
+      "dutch": "declaratie",
+      "example": "Unda mi mester manda e reklamo?"
+    },
+    {
+      "papiamentu": "Sertifikado di trabou",
+      "pronunciation": "ser-ti-fi-ka-do di tra-bou",
+      "dutch": "werkverklaring",
+      "example": "Trese bo sertifikado di trabou tambe."
+    }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Denken dat alle zorg automatisch gedekt is",
+      "detail": "De basisverzekering (SVB) dekt niet alles — sommige behandelingen vragen een aanvullende verzekering.",
+      "remember": "Vraag specifiek: 'E kubridura básiko ta inkluí tur tratamentu?' (dekt de basisdekking alle behandelingen?)."
+    },
+    {
+      "trap": "Geen huisarts kiezen bij aankomst",
+      "detail": "Zonder geregistreerde huisarts kan het lastiger zijn om snel geholpen te worden bij klachten.",
+      "remember": "Regel meteen een 'dòkter di kas' (huisarts) bij je in de buurt."
+    }
+  ],
+  "culture": {
+    "title": "Gezondheidszorg op Curaçao",
+    "intro": "De gezondheidszorg combineert een basisverzekering (SVB) met de mogelijkheid tot aanvullende private verzekeringen.",
+    "facts": [
+      "Het ziekenhuis Curaçao Medical Center (CMC) is het grootste ziekenhuis van het eiland.",
+      "Werkgevers zijn vaak verantwoordelijk voor het (mede) regelen van de basisverzekering van werknemers.",
+      "Voor gespecialiseerde behandelingen wordt soms doorverwezen naar Colombia of Nederland."
+    ],
+    "didYouKnow": "Curaçao heeft een relatief hoge dichtheid aan tandartsenpraktijken vergeleken met andere Caribische eilanden."
+  },
+  "quiz": [
+    {
+      "question": "Waar staat SVB voor in deze context?",
+      "options": [
+        "Een ziekenhuis",
+        "De basiszorgverzekering",
+        "Een huisartsenpraktijk",
+        "Een medicijn"
+      ],
+      "correct": 1,
+      "explanation": "SVB is de organisatie achter de basiszorgverzekering."
+    },
+    {
+      "question": "Welk vraagwoord gebruik je voor 'hoeveel kost het'?",
+      "options": [
+        "Kiko",
+        "Kua",
+        "Kuantu",
+        "Kon"
+      ],
+      "correct": 2,
+      "explanation": "'Kuantu' = hoeveel."
+    },
+    {
+      "question": "Wat is een 'dòkter di kas'?",
+      "options": [
+        "Tandarts",
+        "Huisarts",
+        "Specialist",
+        "Apotheker"
+      ],
+      "correct": 1,
+      "explanation": "'Dòkter di kas' = huisarts."
+    },
+    {
+      "question": "Wat is een verstandige eerste stap na aankomst voor de gezondheidszorg?",
+      "options": [
+        "Wachten tot je ziek wordt",
+        "Een huisarts regelen",
+        "Meteen naar het ziekenhuis gaan",
+        "Niets, dat regelt zich vanzelf"
+      ],
+      "correct": 1,
+      "explanation": "Op tijd een huisarts regelen zorgt voor snellere hulp bij klachten."
+    },
+    {
+      "question": "Waarheen wordt soms doorverwezen voor gespecialiseerde zorg?",
+      "options": [
+        "Aruba en Bonaire",
+        "Colombia of Nederland",
+        "Alleen binnen Curaçao",
+        "Verenigde Staten"
+      ],
+      "correct": 1,
+      "explanation": "Voor bepaalde specialistische zorg wordt soms naar Colombia of Nederland doorverwezen."
+    }
+  ]
+}

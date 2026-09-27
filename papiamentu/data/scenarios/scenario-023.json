@@ -1,0 +1,189 @@
+{
+  "id": "scenario-023",
+  "title": "Je huisdier meenemen",
+  "difficulty": "Hard",
+  "category": "Praktisch",
+  "intro": "Je verhuist met je hond naar Curaçao en belt de dierenarts om de regels voor import en quarantaine te bespreken.",
+  "introWords": [
+    {
+      "papiamentu": "Bestia doméstiko",
+      "pronunciation": "bes-tia do-mes-ti-ko",
+      "dutch": "huisdier"
+    },
+    {
+      "papiamentu": "Kuarantena",
+      "pronunciation": "kwa-ran-te-na",
+      "dutch": "quarantaine"
+    },
+    {
+      "papiamentu": "Vakuna",
+      "pronunciation": "va-koe-na",
+      "dutch": "vaccinatie"
+    },
+    {
+      "papiamentu": "Importashon",
+      "pronunciation": "im-por-ta-shon",
+      "dutch": "import"
+    }
+  ],
+  "grammar": {
+    "title": "De voltooid tegenwoordige tijd met 'a'",
+    "explanation": [
+      "Om te zeggen dat iets al gebeurd is, gebruik je het aspect-teken 'a' vlak voor het werkwoord: 'mi kachó a haña su vakuna' (mijn hond heeft zijn vaccinatie gehad).",
+      "'Kaba' (al/klaar) versterkt dat iets voltooid is: 'e dokumento ta kla kaba' (het document is al klaar).",
+      "'Promé ku' betekent 'voordat': 'promé ku e biahe' (voordat de reis begint)."
+    ],
+    "exercises": [
+      {
+        "question": "Hoe zeg je 'mijn hond heeft de vaccinatie al gehad'?",
+        "options": [
+          "Mi kachó ta haña vakuna",
+          "Mi kachó a haña vakuna kaba",
+          "Mi kachó lo haña vakuna",
+          "Mi kachó mester haña vakuna"
+        ],
+        "correct": 1,
+        "explanation": "'A ... kaba' drukt uit dat iets al is voltooid."
+      },
+      {
+        "question": "Wat betekent 'promé ku e biahe'?",
+        "options": [
+          "Na de reis",
+          "Tijdens de reis",
+          "Voordat de reis",
+          "Zonder de reis"
+        ],
+        "correct": 2,
+        "explanation": "'Promé ku' = voordat."
+      },
+      {
+        "question": "Welke zin gebruik je om te vragen of documenten al klaar zijn?",
+        "options": [
+          "E dokumentonan ta kla kaba?",
+          "E dokumentonan lo ta kla?",
+          "Mi ke dokumento",
+          "Kiko ta e dokumento?"
+        ],
+        "correct": 0,
+        "explanation": "'Ta kla kaba?' = is het al klaar?"
+      }
+    ]
+  },
+  "words": [
+    {
+      "papiamentu": "Bestia doméstiko",
+      "pronunciation": "bes-tia do-mes-ti-ko",
+      "dutch": "huisdier",
+      "example": "Nos tin dos bestia doméstiko."
+    },
+    {
+      "papiamentu": "Kuarantena",
+      "pronunciation": "kwa-ran-te-na",
+      "dutch": "quarantaine",
+      "example": "Kuantu tempu e kuarantena ta dura?"
+    },
+    {
+      "papiamentu": "Vakuna",
+      "pronunciation": "va-koe-na",
+      "dutch": "vaccinatie",
+      "example": "E kachó mester tin tur su vakuna."
+    },
+    {
+      "papiamentu": "Sertifikado di salú",
+      "pronunciation": "ser-ti-fi-ka-do di sa-loe",
+      "dutch": "gezondheidscertificaat",
+      "example": "Bo mester trese e sertifikado di salú."
+    },
+    {
+      "papiamentu": "Chip",
+      "pronunciation": "tsjip",
+      "dutch": "chip",
+      "example": "E gatu tin un chip kaba."
+    },
+    {
+      "papiamentu": "Reglanan di importashon",
+      "pronunciation": "re-gla-nan di im-por-ta-shon",
+      "dutch": "importregels",
+      "example": "Sinja bo di e reglanan di importashon promé."
+    }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Te laat beginnen met de voorbereiding",
+      "detail": "Vaccinaties en certificaten moeten vaak weken tot maanden van tevoren geregeld worden — te laat beginnen kan de verhuizing vertragen.",
+      "remember": "Vraag meteen: 'Kuantu tempu di antemano mi mester kuminsá?' (hoeveel tijd van tevoren moet ik beginnen?)."
+    },
+    {
+      "trap": "Denken dat de regels overal hetzelfde zijn",
+      "detail": "De importregels kunnen verschillen tussen Curaçao, Aruba en Bonaire, en wijzigen soms.",
+      "remember": "Controleer de regels specifiek voor Curaçao, niet alleen algemene Caribische informatie."
+    }
+  ],
+  "culture": {
+    "title": "Dieren en het eiland",
+    "intro": "Straathonden en -katten zijn op Curaçao niet ongewoon; dierenwelzijnsorganisaties zetten zich actief voor hen in.",
+    "facts": [
+      "Verschillende stichtingen op Curaçao helpen bij het herplaatsen van zwerfdieren.",
+      "De hitte kan zwaar zijn voor huisdieren die aan een koeler klimaat gewend zijn — voldoende schaduw en water zijn belangrijk.",
+      "Diervriendelijke stranden en wandelroutes zijn er, maar niet overal zijn honden welkom."
+    ],
+    "didYouKnow": "Curaçao heeft een eigen inheemse hagedissoort, de 'blauwe' Curaçaose anolis, die je bijna overal kunt tegenkomen."
+  },
+  "quiz": [
+    {
+      "question": "Wat betekent 'kuarantena'?",
+      "options": [
+        "Vaccinatie",
+        "Quarantaine",
+        "Certificaat",
+        "Chip"
+      ],
+      "correct": 1,
+      "explanation": "'Kuarantena' = quarantaine."
+    },
+    {
+      "question": "Hoe zeg je dat iets al gebeurd is in het Papiamentu?",
+      "options": [
+        "Met 'lo' voor het werkwoord",
+        "Met 'a' voor het werkwoord",
+        "Met 'ta' na het werkwoord",
+        "Met 'mester' erachter"
+      ],
+      "correct": 1,
+      "explanation": "Het aspect-teken 'a' voor het werkwoord drukt de voltooide tijd uit."
+    },
+    {
+      "question": "Wat is een belangrijk aandachtspunt bij het meenemen van een huisdier?",
+      "options": [
+        "Op tijd beginnen met vaccinaties en certificaten",
+        "Alles pas op de luchthaven regelen",
+        "Het huisdier hoeft nergens aan te voldoen",
+        "Alleen honden mogen mee, geen katten"
+      ],
+      "correct": 0,
+      "explanation": "Vaccinaties en documenten kosten tijd — op tijd beginnen is essentieel."
+    },
+    {
+      "question": "Wat betekent 'promé ku'?",
+      "options": [
+        "Na",
+        "Tijdens",
+        "Voordat",
+        "In plaats van"
+      ],
+      "correct": 2,
+      "explanation": "'Promé ku' betekent 'voordat'."
+    },
+    {
+      "question": "Waarom is schaduw en water belangrijk voor huisdieren op Curaçao?",
+      "options": [
+        "Vanwege de hitte",
+        "Vanwege de regen",
+        "Vanwege het lawaai",
+        "Vanwege andere dieren"
+      ],
+      "correct": 0,
+      "explanation": "De hitte kan zwaar zijn voor dieren die een koeler klimaat gewend zijn."
+    }
+  ]
+}

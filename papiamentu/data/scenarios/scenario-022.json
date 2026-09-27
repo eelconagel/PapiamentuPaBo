@@ -1,0 +1,189 @@
+{
+  "id": "scenario-022",
+  "title": "Een huis huren",
+  "difficulty": "Intermediate",
+  "category": "Wonen",
+  "intro": "Je hebt een woning gevonden op Curaçao en spreekt af met de verhuurder om het huurcontract te bespreken.",
+  "introWords": [
+    {
+      "papiamentu": "Kas di hür",
+      "pronunciation": "kas di hoer",
+      "dutch": "huurhuis"
+    },
+    {
+      "papiamentu": "Kontrakt",
+      "pronunciation": "kon-trakt",
+      "dutch": "contract"
+    },
+    {
+      "papiamentu": "Depósito",
+      "pronunciation": "de-po-si-to",
+      "dutch": "borg"
+    },
+    {
+      "papiamentu": "Alkiler",
+      "pronunciation": "al-ki-ler",
+      "dutch": "huur"
+    }
+  ],
+  "grammar": {
+    "title": "Afspraken maken met 'mester' en 'por'",
+    "explanation": [
+      "'Mester' (moeten) gebruik je voor verplichtingen: 'Mi mester paga alkiler kada luna' (ik moet elke maand huur betalen).",
+      "'Por' (kunnen/mogen) gebruik je voor mogelijkheden of toestemming: 'Mi por muda drenta dia prome di luna?' (mag ik op de eerste van de maand verhuizen?).",
+      "'Kada' betekent 'elke': kada luna (elke maand), kada siman (elke week)."
+    ],
+    "exercises": [
+      {
+        "question": "Hoe zeg je 'ik moet volgende week betalen'?",
+        "options": [
+          "Mi por paga otro siman",
+          "Mi mester paga otro siman",
+          "Mi ta paga kada dia",
+          "Mi ke paga awor"
+        ],
+        "correct": 1,
+        "explanation": "'Mester' drukt een verplichting uit: 'ik moet'."
+      },
+      {
+        "question": "Hoe vraag je toestemming om iets te doen?",
+        "options": [
+          "Mi mester ...",
+          "Mi por ...?",
+          "Mi tin ku ...",
+          "Mi ta bai ..."
+        ],
+        "correct": 1,
+        "explanation": "'Mi por ...?' = mag ik ...? (toestemming vragen)."
+      },
+      {
+        "question": "Wat betekent 'kada luna'?",
+        "options": [
+          "Elke dag",
+          "Elke week",
+          "Elke maand",
+          "Elk jaar"
+        ],
+        "correct": 2,
+        "explanation": "'Luna' betekent hier 'maand' (net als 'maan')."
+      }
+    ]
+  },
+  "words": [
+    {
+      "papiamentu": "Kas di hür",
+      "pronunciation": "kas di hoer",
+      "dutch": "huurhuis",
+      "example": "Nos a haña un bon kas di hür na Otrobanda."
+    },
+    {
+      "papiamentu": "Kontrakt",
+      "pronunciation": "kon-trakt",
+      "dutch": "contract",
+      "example": "Firma e kontrakt aki, por fabor."
+    },
+    {
+      "papiamentu": "Depósito",
+      "pronunciation": "de-po-si-to",
+      "dutch": "borg",
+      "example": "E depósito ta dos luna di alkiler."
+    },
+    {
+      "papiamentu": "Alkiler",
+      "pronunciation": "al-ki-ler",
+      "dutch": "huur",
+      "example": "Kuantu e alkiler ta pa luna?"
+    },
+    {
+      "papiamentu": "Kondishon",
+      "pronunciation": "kon-di-shon",
+      "dutch": "staat/voorwaarde",
+      "example": "E kas ta na bon kondishon."
+    },
+    {
+      "papiamentu": "Entregá yabi",
+      "pronunciation": "en-tre-ga ja-bi",
+      "dutch": "sleutel overhandigen",
+      "example": "Nan lo entregá bo e yabi djaluna."
+    }
+  ],
+  "pitfalls": [
+    {
+      "trap": "De borg niet goed vastleggen",
+      "detail": "'Depósito' (borg) staat soms los van het huurcontract vermeld — vraag altijd expliciet naar het bedrag en de voorwaarden voor teruggave.",
+      "remember": "Vraag: 'Ki kondishon mi mester kumpli pa haña e depósito bèk?' (aan welke voorwaarden moet ik voldoen om de borg terug te krijgen?)."
+    },
+    {
+      "trap": "Mondelinge afspraken zonder schriftelijke bevestiging",
+      "detail": "Een mondelinge toezegging is niet altijd bindend — vraag om alles op papier te zetten, ook kleine afspraken zoals onderhoud.",
+      "remember": "Zeg: 'Nos por pone esaki tambe den e kontrakt?' (kunnen we dit ook in het contract zetten?)."
+    }
+  ],
+  "culture": {
+    "title": "Wonen op Curaçao",
+    "intro": "De woningmarkt varieert sterk per wijk, van historische huizen in Otrobanda tot moderne appartementen.",
+    "facts": [
+      "Veel huurcontracten vragen een borg van één tot twee maanden huur.",
+      "Elektriciteit en water worden vaak apart geregeld bij Aqualectra, los van de huur.",
+      "Sommige wijken hebben te maken met wateroverlast tijdens het regenseizoen — vraag hiernaar bij bezichtiging."
+    ],
+    "didYouKnow": "Veel oudere huizen op Curaçao zijn gebouwd met dikke muren van koraalsteen, wat ze van nature koeler houdt."
+  },
+  "quiz": [
+    {
+      "question": "Wat betekent 'mester'?",
+      "options": [
+        "Kunnen",
+        "Moeten",
+        "Willen",
+        "Mogen"
+      ],
+      "correct": 1,
+      "explanation": "'Mester' drukt een verplichting uit: moeten."
+    },
+    {
+      "question": "Wat is een 'depósito' bij het huren van een huis?",
+      "options": [
+        "De huurprijs",
+        "Een borgsom",
+        "Een soort belasting",
+        "Een sleutel"
+      ],
+      "correct": 1,
+      "explanation": "'Depósito' = borg, vaak één of twee maanden huur."
+    },
+    {
+      "question": "Bij welk bedrijf regel je vaak elektriciteit en water apart?",
+      "options": [
+        "Aqualectra",
+        "Kantoor Sivil",
+        "SVB",
+        "De bank"
+      ],
+      "correct": 0,
+      "explanation": "Aqualectra levert elektriciteit en water op Curaçao."
+    },
+    {
+      "question": "Wat is een verstandige vraag over de borg?",
+      "options": [
+        "Niets vragen, dat komt later wel",
+        "Vragen onder welke voorwaarden je de borg terugkrijgt",
+        "Vragen of je de borg contant mag betalen aan de buren",
+        "Net doen of er geen borg is"
+      ],
+      "correct": 1,
+      "explanation": "Het is verstandig vooraf te weten onder welke voorwaarden de borg wordt terugbetaald."
+    },
+    {
+      "question": "Waarom zijn veel oude huizen op Curaçao van koraalsteen gebouwd?",
+      "options": [
+        "Om ze van nature koeler te houden",
+        "Omdat het de goedkoopste optie was",
+        "Voor de bouwvoorschriften",
+        "Om ze lichter te maken"
+      ],
+      "correct": 0,
+      "explanation": "De dikke koraalstenen muren houden de huizen van nature koeler."
+    }
+  ]
+}

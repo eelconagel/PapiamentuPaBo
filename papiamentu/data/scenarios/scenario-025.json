@@ -1,0 +1,189 @@
+{
+  "id": "scenario-025",
+  "title": "Een kind op school inschrijven",
+  "difficulty": "Intermediate",
+  "category": "Onderwijs",
+  "intro": "Je gaat met je kind naar een basisschool om te informeren over inschrijving en de keuze tussen Papiamentu- en Nederlandstalig onderwijs.",
+  "introWords": [
+    {
+      "papiamentu": "Skol básiko",
+      "pronunciation": "skol ba-si-ko",
+      "dutch": "basisschool"
+    },
+    {
+      "papiamentu": "Enskribí",
+      "pronunciation": "en-skri-bi",
+      "dutch": "inschrijven"
+    },
+    {
+      "papiamentu": "Idioma di instrukshon",
+      "pronunciation": "i-djo-ma di in-stroek-shon",
+      "dutch": "onderwijstaal"
+    },
+    {
+      "papiamentu": "Grado",
+      "pronunciation": "gra-do",
+      "dutch": "leerjaar/groep"
+    }
+  ],
+  "grammar": {
+    "title": "Vergelijkingen maken met 'mas' en 'ménos'",
+    "explanation": [
+      "'Mas ... ku' betekent 'meer ... dan': 'e skol aki tin mas studiante ku e otro' (deze school heeft meer leerlingen dan de andere).",
+      "'Ménos ... ku' betekent 'minder ... dan'.",
+      "Voor een oordeel gebruik je vaak 'mihó' (beter): 'kua skol ta mihó pa mi yu?' (welke school is beter voor mijn kind?)."
+    ],
+    "exercises": [
+      {
+        "question": "Hoe zeg je 'deze school heeft meer leerlingen dan die andere'?",
+        "options": [
+          "E skol aki tin ménos studiante",
+          "E skol aki tin mas studiante ku e otro",
+          "E skol aki tin mesun studiante",
+          "E skol aki no tin studiante"
+        ],
+        "correct": 1,
+        "explanation": "'Mas ... ku' = meer ... dan."
+      },
+      {
+        "question": "Hoe vraag je welke school beter is?",
+        "options": [
+          "Kua skol ta mihó?",
+          "Kua skol ta mas chikí?",
+          "Kua skol ta bieu?",
+          "Kua skol ta serka?"
+        ],
+        "correct": 0,
+        "explanation": "'Mihó' betekent 'beter'."
+      },
+      {
+        "question": "Wat betekent 'idioma di instrukshon'?",
+        "options": [
+          "Vreemde taal",
+          "Onderwijstaal",
+          "Moedertaal",
+          "Vertaling"
+        ],
+        "correct": 1,
+        "explanation": "'Idioma di instrukshon' = de taal waarin onderwijs gegeven wordt."
+      }
+    ]
+  },
+  "words": [
+    {
+      "papiamentu": "Skol básiko",
+      "pronunciation": "skol ba-si-ko",
+      "dutch": "basisschool",
+      "example": "Mi ke enskribí mi yu na un skol básiko."
+    },
+    {
+      "papiamentu": "Enskribí",
+      "pronunciation": "en-skri-bi",
+      "dutch": "inschrijven",
+      "example": "Ki dokumento mi mester pa enskribí?"
+    },
+    {
+      "papiamentu": "Idioma di instrukshon",
+      "pronunciation": "i-djo-ma di in-stroek-shon",
+      "dutch": "onderwijstaal",
+      "example": "E skol aki tin papiamentu komo idioma di instrukshon."
+    },
+    {
+      "papiamentu": "Grado",
+      "pronunciation": "gra-do",
+      "dutch": "groep/leerjaar",
+      "example": "Mi yu ta bai grado dos."
+    },
+    {
+      "papiamentu": "Oudernan",
+      "pronunciation": "ou-der-nan",
+      "dutch": "ouders",
+      "example": "Oudernan mester bin na e reunion."
+    },
+    {
+      "papiamentu": "Reglanan di skol",
+      "pronunciation": "re-gla-nan di skol",
+      "dutch": "schoolregels",
+      "example": "Lesa e reglanan di skol bon."
+    }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Geen rekening houden met de onderwijstaal",
+      "detail": "Scholen kunnen Papiamentu-, Nederlands- of tweetalig onderwijs geven — dit maakt een groot verschil voor de aansluiting van je kind.",
+      "remember": "Vraag expliciet: 'Kua idioma di instrukshon e skol aki ta usa?' (welke onderwijstaal gebruikt deze school?)."
+    },
+    {
+      "trap": "Inschrijving te laat regelen",
+      "detail": "Populaire scholen kunnen wachtlijsten hebben, zeker halverwege het schooljaar.",
+      "remember": "Informeer zo vroeg mogelijk naar wachtlijsten en inschrijfdata."
+    }
+  ],
+  "culture": {
+    "title": "Onderwijs op Curaçao",
+    "intro": "Het onderwijssysteem kent scholen met Papiamentu, Nederlands of een combinatie als voertaal.",
+    "facts": [
+      "De meeste openbare basisscholen geven les in het Papiamentu, met Nederlands als vak.",
+      "Er zijn ook internationale en Nederlandstalige scholen, vooral in en rond Willemstad.",
+      "De overstap tussen onderwijstalen kan voor kinderen wennen zijn, maar wordt vaak begeleid door de school."
+    ],
+    "didYouKnow": "Sinds enkele jaren wordt er in het onderwijsbeleid steeds meer aandacht besteed aan meertaligheid als kracht, in plaats van een obstakel."
+  },
+  "quiz": [
+    {
+      "question": "Wat betekent 'mihó'?",
+      "options": [
+        "Groter",
+        "Beter",
+        "Ouder",
+        "Dichterbij"
+      ],
+      "correct": 1,
+      "explanation": "'Mihó' betekent 'beter'."
+    },
+    {
+      "question": "Wat is een belangrijk verschil tussen scholen op Curaçao?",
+      "options": [
+        "De kleur van het gebouw",
+        "De onderwijstaal",
+        "Het aantal ramen",
+        "De naam van de directeur"
+      ],
+      "correct": 1,
+      "explanation": "Scholen verschillen onder andere in de gebruikte onderwijstaal (Papiamentu, Nederlands of gecombineerd)."
+    },
+    {
+      "question": "Wat betekent 'enskribí'?",
+      "options": [
+        "Afmelden",
+        "Inschrijven",
+        "Verhuizen",
+        "Afstuderen"
+      ],
+      "correct": 1,
+      "explanation": "'Enskribí' = inschrijven."
+    },
+    {
+      "question": "Waarom is het slim om vroeg naar inschrijving te informeren?",
+      "options": [
+        "Scholen kunnen wachtlijsten hebben",
+        "Scholen zijn altijd vol",
+        "Inschrijven kan alleen 's ochtends",
+        "Er is geen inschrijving nodig"
+      ],
+      "correct": 0,
+      "explanation": "Populaire scholen kunnen wachtlijsten hebben, zeker halverwege het jaar."
+    },
+    {
+      "question": "Wat geven de meeste openbare basisscholen als voertaal?",
+      "options": [
+        "Alleen Engels",
+        "Papiamentu, met Nederlands als vak",
+        "Alleen Spaans",
+        "Alleen Nederlands"
+      ],
+      "correct": 1,
+      "explanation": "De meeste openbare basisscholen geven les in het Papiamentu."
+    }
+  ]
+}

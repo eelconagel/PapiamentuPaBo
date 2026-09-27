@@ -178,5 +178,59 @@
     "category": "Formeel",
     "description": "Leer hoe je beleefd, duidelijk en professioneel communiceert.",
     "status": "outline"
+  },
+  {
+    "id": "scenario-021",
+    "title": "Een sédula aanvragen",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Hard",
+    "category": "Overheid",
+    "description": "Regel je verplichte identiteitsbewijs bij het Kantoor Sivil.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-022",
+    "title": "Een huis huren",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Intermediate",
+    "category": "Wonen",
+    "description": "Bespreek een huurcontract, borg en huurvoorwaarden.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-023",
+    "title": "Je huisdier meenemen",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Hard",
+    "category": "Praktisch",
+    "description": "Regel vaccinaties, quarantaine en documenten voor je huisdier.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-024",
+    "title": "Zorgverzekering regelen",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Intermediate",
+    "category": "Gezondheid",
+    "description": "Regel je basiszorgverzekering (SVB) en kies een huisarts.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-025",
+    "title": "Een kind op school inschrijven",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Intermediate",
+    "category": "Onderwijs",
+    "description": "Kies een school en regel de inschrijving van je kind.",
+    "status": "outline"
+  },
+  {
+    "id": "scenario-026",
+    "title": "Je voorbereiden op orkaanseizoen",
+    "theme": "Papiamentu pa Bo",
+    "difficulty": "Easy",
+    "category": "Veiligheid",
+    "description": "Leer hoe je je huis en gezin voorbereidt op een naderende storm.",
+    "status": "outline"
   }
 ]

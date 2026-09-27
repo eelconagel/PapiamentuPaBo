@@ -66,7 +66,7 @@ def test_not_found(client, path):
 
 def test_content_integrity(app):
     c = app.extensions["content"]
-    assert len(c.scenarios) == 20 and len(c.lessen) == 40 and len(c.woordenlijsten) == 6
+    assert len(c.scenarios) == 26 and len(c.lessen) == 40 and len(c.woordenlijsten) == 6
     listed = {s["id"] for s in c.scenario_list}
     for les in c.lessen:
         assert len(les["eindoefening"]) >= 14, "pass mark is 14"

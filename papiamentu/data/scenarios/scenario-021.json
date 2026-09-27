@@ -1,0 +1,189 @@
+{
+  "id": "scenario-021",
+  "title": "Een sédula aanvragen",
+  "difficulty": "Hard",
+  "category": "Overheid",
+  "intro": "Je bent net verhuisd naar Curaçao en moet je inschrijven voor een sédula, het verplichte identiteitsbewijs. Je gaat naar het Kantoor Sivil om je aan te melden.",
+  "introWords": [
+    {
+      "papiamentu": "Sédula",
+      "pronunciation": "se-doe-la",
+      "dutch": "identiteitsbewijs"
+    },
+    {
+      "papiamentu": "Enskripshon",
+      "pronunciation": "en-skrip-shon",
+      "dutch": "inschrijving"
+    },
+    {
+      "papiamentu": "Dokumento",
+      "pronunciation": "do-koe-men-to",
+      "dutch": "document"
+    },
+    {
+      "papiamentu": "Adrès",
+      "pronunciation": "a-dres",
+      "dutch": "adres"
+    }
+  ],
+  "grammar": {
+    "title": "Formeel taalgebruik bij de overheid",
+    "explanation": [
+      "Bij de overheid gebruik je 'bo' iets formeler, of spreek je iemand aan met 'señor'/'señora' gevolgd door hun naam.",
+      "De constructie 'mi ta desea di ...' (ik zou graag ...) klinkt beleefder dan een directe vraag.",
+      "Documenten worden vaak aangeduid met 'e dokumento' (het document) — gebruik 'e' voor iets specifieks dat al genoemd is."
+    ],
+    "exercises": [
+      {
+        "question": "Je wilt beleefd vragen om iets te mogen doen bij een loket. Wat past het beste?",
+        "options": [
+          "Mi ta desea di ...",
+          "Duna mi ...",
+          "Ke ku bo duna mi ...",
+          "Mi mester awor mes"
+        ],
+        "correct": 0,
+        "explanation": "'Mi ta desea di' (ik zou graag) is de beleefdste, meest formele vorm."
+      },
+      {
+        "question": "Hoe verwijs je terug naar een document dat net genoemd is?",
+        "options": [
+          "un dokumento",
+          "e dokumento",
+          "dokumentonan",
+          "mi dokumento"
+        ],
+        "correct": 1,
+        "explanation": "'E' (het) verwijst naar iets specifieks dat al bekend is in het gesprek."
+      },
+      {
+        "question": "Welke aanspreekvorm past bij een ambtenaar die je niet kent?",
+        "options": [
+          "Bo",
+          "Señor/señora",
+          "Ruman",
+          "Amigu"
+        ],
+        "correct": 1,
+        "explanation": "'Señor'/'señora' is de formele aanspreekvorm bij onbekenden en de overheid."
+      }
+    ]
+  },
+  "words": [
+    {
+      "papiamentu": "Sédula",
+      "pronunciation": "se-doe-la",
+      "dutch": "identiteitsbewijs",
+      "example": "Mi mester bin busca mi sédula."
+    },
+    {
+      "papiamentu": "Enskripshon",
+      "pronunciation": "en-skrip-shon",
+      "dutch": "inschrijving",
+      "example": "Unda mi por hasi mi enskripshon?"
+    },
+    {
+      "papiamentu": "Prueba di adrès",
+      "pronunciation": "proe-ba di a-dres",
+      "dutch": "adresbewijs",
+      "example": "Mi tin mi prueba di adrès kaba."
+    },
+    {
+      "papiamentu": "Sita",
+      "pronunciation": "si-ta",
+      "dutch": "afspraak",
+      "example": "Mi tin un sita pa dies or."
+    },
+    {
+      "papiamentu": "Number di identifikashon",
+      "pronunciation": "noem-ber di i-den-ti-fi-ka-shon",
+      "dutch": "identificatienummer",
+      "example": "Kua ta mi number di identifikashon?"
+    },
+    {
+      "papiamentu": "Bal",
+      "pronunciation": "bal",
+      "dutch": "geldig",
+      "example": "Bo pasporte mester ta bal ainda."
+    }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Verwarring tussen 'sédula' en paspoort",
+      "detail": "Een sédula is een lokaal identiteitsbewijs, geen vervanging van je paspoort — je hebt vaak beide nodig.",
+      "remember": "Neem bij een afspraak altijd zowel je paspoort als eventuele eerdere documenten mee."
+    },
+    {
+      "trap": "Te informeel zijn bij een loket",
+      "detail": "Bij de overheid wordt formeel Papiamentu of Nederlands op prijs gesteld, zeker bij een eerste bezoek.",
+      "remember": "Gebruik 'señor'/'señora' en 'mi ta desea di' totdat de ambtenaar zelf informeler wordt."
+    }
+  ],
+  "culture": {
+    "title": "Bureaucratie op Curaçao",
+    "intro": "Als nieuwkomer krijg je te maken met verschillende overheidsloketten — geduld en de juiste papieren zijn essentieel.",
+    "facts": [
+      "Het Kantoor Sivil (burgerzaken) regelt geboorte, huwelijk en de sédula.",
+      "Afspraken maken via internet kan vaak wachttijden flink verkorten.",
+      "Documenten in het Nederlands worden meestal geaccepteerd, maar een Papiamentu-woordje wordt zeer gewaardeerd."
+    ],
+    "didYouKnow": "Veel ambtenaren spreken drie of vier talen: Papiamentu, Nederlands, Engels en Spaans — vraag gerust in welke taal het jou het beste uitkomt."
+  },
+  "quiz": [
+    {
+      "question": "Wat is een sédula?",
+      "options": [
+        "Een lokaal identiteitsbewijs",
+        "Een soort paspoort voor toeristen",
+        "Een belastingformulier",
+        "Een rijbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Een sédula is het verplichte lokale identiteitsbewijs, los van je paspoort."
+    },
+    {
+      "question": "Welke zin is het meest beleefd bij een overheidsloket?",
+      "options": [
+        "Duna mi e dokumento!",
+        "Mi ta desea di risibí informashon, por fabor",
+        "Mi mester esaki awor",
+        "Kiko bo ke?"
+      ],
+      "correct": 1,
+      "explanation": "'Mi ta desea di' is de meest formele, beleefde formulering."
+    },
+    {
+      "question": "Wat betekent 'prueba di adrès'?",
+      "options": [
+        "Identiteitsbewijs",
+        "Afspraak",
+        "Adresbewijs",
+        "Geboorteakte"
+      ],
+      "correct": 2,
+      "explanation": "'Prueba' = bewijs, 'adrès' = adres."
+    },
+    {
+      "question": "Waar regel je zaken als geboorte, huwelijk en de sédula?",
+      "options": [
+        "Bij de haven",
+        "Bij het Kantoor Sivil",
+        "Bij de bank",
+        "Bij de school"
+      ],
+      "correct": 1,
+      "explanation": "Het Kantoor Sivil (burgerzaken) is hiervoor het juiste loket."
+    },
+    {
+      "question": "Wat is een verstandige voorbereiding op een afspraak bij de overheid?",
+      "options": [
+        "Alleen je telefoon meenemen",
+        "Zowel paspoort als eerdere documenten meenemen",
+        "Niets meenemen, alles gaat digitaal",
+        "Een tolk verplicht meenemen"
+      ],
+      "correct": 1,
+      "explanation": "Neem paspoort en relevante documenten mee; dat voorkomt een tweede bezoek."
+    }
+  ]
+}

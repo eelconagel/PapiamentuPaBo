@@ -1,0 +1,189 @@
+{
+  "id": "scenario-026",
+  "title": "Je voorbereiden op orkaanseizoen",
+  "difficulty": "Easy",
+  "category": "Veiligheid",
+  "intro": "Het is orkaanseizoen en de lokale radio waarschuwt voor een naderende storm. Je buurvrouw legt uit hoe je je moet voorbereiden.",
+  "introWords": [
+    {
+      "papiamentu": "Tormenta",
+      "pronunciation": "tor-men-ta",
+      "dutch": "storm"
+    },
+    {
+      "papiamentu": "Warda",
+      "pronunciation": "war-da",
+      "dutch": "bewaren/wachten"
+    },
+    {
+      "papiamentu": "Sera",
+      "pronunciation": "se-ra",
+      "dutch": "sluiten"
+    },
+    {
+      "papiamentu": "Peliger",
+      "pronunciation": "pe-li-ger",
+      "dutch": "gevaar"
+    }
+  ],
+  "grammar": {
+    "title": "Waarschuwingen met 'mester' en 'no mag'",
+    "explanation": [
+      "'Mester' gebruik je voor wat je móet doen: 'bo mester sera bentana' (je moet de ramen sluiten).",
+      "'No mag' of 'no ta bon pa' gebruik je om iets af te raden: 'no ta bon pa bo sali afó' (het is niet goed om naar buiten te gaan).",
+      "'Lo tin' (er zal zijn) gebruik je voor een voorspelling: 'lo tin hopi bientu' (er komt veel wind)."
+    ],
+    "exercises": [
+      {
+        "question": "Hoe zeg je 'je moet de ramen sluiten'?",
+        "options": [
+          "Bo por sera bentana",
+          "Bo mester sera bentana",
+          "Bo ta sera bentana",
+          "Bo lo sera bentana"
+        ],
+        "correct": 1,
+        "explanation": "'Mester' drukt hier de noodzaak/opdracht uit."
+      },
+      {
+        "question": "Hoe raad je iets af?",
+        "options": [
+          "Bo mester hasi esaki",
+          "No ta bon pa bo hasi esaki",
+          "Bo por hasi esaki",
+          "Bo ke hasi esaki"
+        ],
+        "correct": 1,
+        "explanation": "'No ta bon pa' = het is niet goed om (afraden)."
+      },
+      {
+        "question": "Hoe zeg je 'er komt veel wind'?",
+        "options": [
+          "Tin hopi bientu ayera",
+          "Lo tin hopi bientu",
+          "Bientu ta kaba",
+          "No tin bientu"
+        ],
+        "correct": 1,
+        "explanation": "'Lo tin' = er zal zijn (toekomstige verwachting)."
+      }
+    ]
+  },
+  "words": [
+    {
+      "papiamentu": "Tormenta",
+      "pronunciation": "tor-men-ta",
+      "dutch": "storm",
+      "example": "Un tormenta ta bin e fin di siman aki."
+    },
+    {
+      "papiamentu": "Warda awa",
+      "pronunciation": "war-da a-wa",
+      "dutch": "water bewaren",
+      "example": "Warda sufisiente awa pa vários dia."
+    },
+    {
+      "papiamentu": "Sera bentana",
+      "pronunciation": "se-ra ben-ta-na",
+      "dutch": "ramen sluiten",
+      "example": "Sera tur bentana i porta bon."
+    },
+    {
+      "papiamentu": "Peliger",
+      "pronunciation": "pe-li-ger",
+      "dutch": "gevaar",
+      "example": "E kaminda ta peliger ora awa kai."
+    },
+    {
+      "papiamentu": "Kòrtenan di koriente",
+      "pronunciation": "kor-te-nan di ko-rien-te",
+      "dutch": "stroomstoringen",
+      "example": "Lo tin kòrtenan di koriente durante e tormenta."
+    },
+    {
+      "papiamentu": "Refugio",
+      "pronunciation": "re-foe-gi-o",
+      "dutch": "schuilplaats",
+      "example": "Konosé unda e refugio mas serka ta."
+    }
+  ],
+  "pitfalls": [
+    {
+      "trap": "Voorbereiding uitstellen tot het laatste moment",
+      "detail": "Winkels kunnen snel uitverkocht raken vlak voor een storm — vroeg voorbereiden voorkomt stress.",
+      "remember": "Zorg dat je op tijd water, eten en batterijen in huis hebt, niet pas de dag zelf."
+    },
+    {
+      "trap": "Buiten blijven tijdens waarschuwingen",
+      "detail": "Ook als het nog rustig lijkt, kan een storm snel heftiger worden.",
+      "remember": "Volg lokale waarschuwingen op de radio of via de overheid, en blijf binnen zodra daarom gevraagd wordt."
+    }
+  ],
+  "culture": {
+    "title": "Orkaanseizoen op Curaçao",
+    "intro": "Het orkaanseizoen loopt officieel van juni tot november, al ligt Curaçao relatief buiten de meest actieve orkaanroute.",
+    "facts": [
+      "Curaçao wordt minder vaak direct getroffen dan eilanden noordelijker in de Caraïben, maar stormen en hevige regen komen wel voor.",
+      "Lokale radiozenders en de overheid geven waarschuwingen en updates tijdens het seizoen.",
+      "Veel huizen zijn gebouwd met stevige, lage constructies die beter bestand zijn tegen wind."
+    ],
+    "didYouKnow": "Curaçao ligt net buiten de zogeheten 'hurricane belt', wat het eiland relatief minder kwetsbaar maakt dan bijvoorbeeld Aruba's noordelijker buren in de Caraïben — al blijft voorzichtigheid nodig."
+  },
+  "quiz": [
+    {
+      "question": "Wanneer loopt het orkaanseizoen ongeveer?",
+      "options": [
+        "Januari tot maart",
+        "Juni tot november",
+        "Het hele jaar door",
+        "Alleen december"
+      ],
+      "correct": 1,
+      "explanation": "Het orkaanseizoen loopt officieel van juni tot november."
+    },
+    {
+      "question": "Wat betekent 'mester' in een waarschuwing zoals 'bo mester sera bentana'?",
+      "options": [
+        "Kunnen",
+        "Moeten",
+        "Willen",
+        "Mogen niet"
+      ],
+      "correct": 1,
+      "explanation": "'Mester' drukt hier een noodzaak/opdracht uit: je moet de ramen sluiten."
+    },
+    {
+      "question": "Wat is een verstandige voorbereiding op een storm?",
+      "options": [
+        "Wachten tot de storm er is voor je iets doet",
+        "Op tijd water, eten en batterijen in huis halen",
+        "Naar buiten gaan om te kijken",
+        "Niets, want Curaçao wordt nooit getroffen"
+      ],
+      "correct": 1,
+      "explanation": "Op tijd voorbereiden voorkomt paniek en tekorten vlak voor de storm."
+    },
+    {
+      "question": "Wat geeft updates tijdens het orkaanseizoen?",
+      "options": [
+        "Alleen buitenlandse zenders",
+        "Lokale radio en de overheid",
+        "Alleen sociale media van toeristen",
+        "Niemand, je moet het zelf uitzoeken"
+      ],
+      "correct": 1,
+      "explanation": "Lokale radiozenders en de overheid geven waarschuwingen en updates."
+    },
+    {
+      "question": "Waarom is Curaçao relatief minder kwetsbaar voor orkanen dan sommige andere Caraïbische eilanden?",
+      "options": [
+        "Het ligt net buiten de meest actieve orkaanroute",
+        "Er zijn geen stormen mogelijk",
+        "Het eiland heeft orkaanschuilkelders overal",
+        "Er is een speciale orkaanmuur"
+      ],
+      "correct": 0,
+      "explanation": "Curaçao ligt relatief buiten de drukste orkaanroute, al blijft voorzichtigheid nodig."
+    }
+  ]
+}
