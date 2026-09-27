@@ -51,6 +51,11 @@
     XP uit lessen of woorden telt mee, en wie meteen de moeilijke opdrachten doet, is sneller door brons
     en zilver heen.
   </p>
+
+  <a class="ew-teaser" id="verder-teaser" href="{{ url_for('verder_leren') }}" hidden>
+    <div class="ew-teaser-title">🥇 Goud behaald — wat nu?</div>
+    <div class="ew-teaser-sub">Tips om verder te gaan: echte Papiamentu-media en hoe je de taal in het echt blijft oefenen.</div>
+  </a>
 </div>
 {% endblock %}
 
@@ -74,6 +79,7 @@
     document.getElementById('medal-icon').textContent = medaille ? MEDAL_ICON[medaille] : '—';
     document.getElementById('medal-label').textContent = medaille
       ? `${MEDAL_NAAM[medaille]} behaald!` : 'Nog geen medaille';
+    document.getElementById('verder-teaser').hidden = medaille !== 'goud';
 
     // Each row shows how much of ITS OWN share of the ladder your total XP has covered so
     // far: brons is the first tiers.brons XP, zilver the tiers.zilver after that, goud the

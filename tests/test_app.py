@@ -38,7 +38,7 @@ def message_count(app):
 # ---------- pages & content ----------
 
 @pytest.mark.parametrize("path", [
-    "/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/cultuur", "/profiel", "/eerste-week",
+    "/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/cultuur", "/profiel", "/eerste-week", "/verder-leren",
     "/contact", "/privacy", "/instellingen", "/healthz",
 ])
 def test_pages_ok(client, path):

@@ -26,6 +26,7 @@ SCREEN_TITLES = {
     "cultuur": "Cultuur lezen",
     "cultuur_artikel": "Cultuur",
     "profiel": "Profiel",
+    "verder_leren": "Verder na de app",
     "contact": "Contact",
     "privacy": "Privacy",
     "instellingen": "Instellingen",
@@ -231,6 +232,13 @@ def create_app(test_config=None):
                   for a in content.nieuws.values()]
         return render_template("profiel.html", items=items)
 
+    @app.get("/verder-leren")
+    def verder_leren():
+        # Statische verwijspagina, geen persoonlijke data nodig: geen taalmaatje-matching
+        # (dat zou een account/contactgegevens vergen), puur verwijzingen naar bestaand,
+        # echt Papiamentu-media en -initiatieven.
+        return render_template("verder_leren.html")
+
     def site_url(path=""):
         base = app.config.get("PUBLIC_BASE_URL") or request.url_root
         return base.rstrip("/") + path
@@ -249,7 +257,7 @@ def create_app(test_config=None):
     @app.get("/sitemap.xml")
     def sitemap():
         paths = ["/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/cultuur", "/eerste-week",
-                 "/privacy", "/contact"]
+                 "/verder-leren", "/privacy", "/contact"]
         paths += [url_for("scenario", scenario_id=sid) for sid in content.scenarios]
         paths += [url_for("les", les_id=l["id"]) for l in content.lessen]
         paths += [url_for("nieuws_artikel", artikel_id=aid) for aid in content.nieuws]

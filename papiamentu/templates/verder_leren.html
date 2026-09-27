@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Verder na de app · Papiamentu Pa Bo{% endblock %}
+{% block description %}Deze app is een opstap. Zo kom je verder: echte Papiamentu-media, het verschil met Aruba en Bonaire, en hoe je de taal in het echt blijft oefenen.{% endblock %}
+{% block content %}
+<h1 class="title left">Verder na de app</h1>
+<p class="subtitle" style="text-align:left">Deze app leert je de basis. De taal écht leren gebruiken doe je uiteindelijk buiten de app — hier zijn een paar aanknopingspunten.</p>
+
+<h2 class="settings-title">Echt Papiamentu lezen en horen</h2>
+<div class="option-group">
+  <a class="option-row" href="https://extra.cw" target="_blank" rel="noopener" style="text-decoration:none">
+    <span class="ico">📰</span>
+    <span class="lbl">extra.cw — lokale nieuwswebsite in het Papiamentu<br><span class="small muted">De nieuwsartikelen in Nieuws lezen zijn hierdoor geïnspireerd, maar verzonnen. Dit is het echte werk.</span></span>
+  </a>
+  <div class="option-row" style="cursor:default">
+    <span class="ico">📺</span>
+    <span class="lbl">Regionale tv- en radiozenders zoals TeleCuraçao zenden in het Papiamentu uit.<br><span class="small muted">Zoek zelf naar de actuele naam en frequentie/livestream — die veranderen wel eens.</span></span>
+  </div>
+</div>
+
+<h2 class="settings-title">Let op: Curaçao ≠ Aruba ≠ Bonaire</h2>
+<div class="option-group">
+  <div class="option-row" style="cursor:default">
+    <span class="ico">🗺️</span>
+    <span class="lbl">Deze app leert de Curaçaose spelling. Aruba spelt vaak dichter bij het Spaans (bv. "Papiamento" i.p.v. "Papiamentu"), Bonaire ligt dicht bij Curaçao maar niet identiek.<br><span class="small muted">Kom je Arubaans of Bonaireaans geschreven Papiamentu tegen? Dat is geen fout — het is een andere, net zo geldige spellingtraditie.</span></span>
+  </div>
+</div>
+
+<h2 class="settings-title">Zelf verder oefenen</h2>
+<div class="option-group">
+  <div class="option-row" style="cursor:default">
+    <span class="ico">💬</span>
+    <span class="lbl">De beste oefening is een echt gesprek. Vraag gerust aan buren, collega's of winkeliers om Papiamentu met je te oefenen — de meeste mensen waarderen de moeite enorm.</span>
+  </div>
+  <div class="option-row" style="cursor:default">
+    <span class="ico">🎉</span>
+    <span class="lbl">Ga naar lokale evenementen (seú, tambú-optredens, buurtfeesten) — je hoort de taal dan in de praktijk, in tempo en met echte spreektaal.</span>
+  </div>
+</div>
+<p class="small muted">We bieden bewust geen "vind een taalmaatje"-matching aan: dat zou accounts en contactgegevens vereisen, en dat past niet bij hoe deze app met je gegevens omgaat. Heb je een tip voor een goede, betrouwbare bron die hier thuishoort? Laat het ons weten via <a href="{{ url_for('contact') }}">het contactformulier</a>.</p>
+{% endblock %}
