@@ -19,6 +19,7 @@
     <div class="medal-current-icon" id="medal-icon">—</div>
     <div class="medal-current-label" id="medal-label">Nog geen medaille</div>
     <div class="muted small">Totaal verdiend: <span id="total-xp">0</span> XP</div>
+    <button type="button" class="btn btn-secondary btn-sm" id="deel-medaille" style="margin-top:10px">📤 Deel je medaille</button>
   </div>
 
   <div class="thermo-row">
@@ -108,6 +109,76 @@
     document.getElementById('thermo-cover').style.height = (100 - overallPct) + '%';
     document.getElementById('thermo-bulb').textContent = medaille ? MEDAL_ICON[medaille] : '🌡️';
   }
+
+  // Deelbaar plaatje: puur client-side getekend op een <canvas> en als download aangeboden.
+  // Geen server, geen account, geen upload — precies zoals bij een lokale afbeelding hoort.
+  function tekenMedailleAfbeelding() {
+    const { tiers, thresholds, xp, medaille } = Store.medailleVoortgang(ITEMS);
+    const naam = (Store.get().profile && Store.get().profile.name) || null;
+
+    const canvas = document.createElement('canvas');
+    canvas.width = 800;
+    canvas.height = 800;
+    const ctx = canvas.getContext('2d');
+
+    const dark = document.documentElement.dataset.theme !== 'light';
+    ctx.fillStyle = dark ? '#101820' : '#f5f5f5';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ctx.textAlign = 'center';
+    ctx.fillStyle = dark ? '#f5f7fa' : '#333333';
+    ctx.font = '700 34px system-ui, sans-serif';
+    ctx.fillText('Papiamentu Pa Bo', 400, 90);
+
+    ctx.font = '160px system-ui, sans-serif';
+    ctx.fillText(medaille ? MEDAL_ICON[medaille] : '🌡️', 400, 300);
+
+    ctx.font = '700 44px system-ui, sans-serif';
+    ctx.fillText(medaille ? `${MEDAL_NAAM[medaille]} behaald!` : 'Onderweg naar brons', 400, 380);
+
+    if (naam) {
+      ctx.font = '28px system-ui, sans-serif';
+      ctx.fillStyle = dark ? '#b8c2cc' : '#666666';
+      ctx.fillText(naam, 400, 425);
+    }
+
+    // Mini-thermometer: drie balken (brons/zilver/goud) met hun eigen vulling.
+    const shares = {
+      brons: Math.min(xp, tiers.brons),
+      zilver: Math.min(Math.max(xp - thresholds.brons, 0), tiers.zilver),
+      goud: Math.min(Math.max(xp - thresholds.zilver, 0), tiers.goud),
+    };
+    const kleuren = { brons: '#a86a3d', zilver: '#9aa5b1', goud: '#d4a017' };
+    const labels = { goud: '🥇 Goud', zilver: '🥈 Zilver', brons: '🥉 Brons' };
+    let y = 500;
+    ['goud', 'zilver', 'brons'].forEach((tier) => {
+      const pct = tiers[tier] ? shares[tier] / tiers[tier] : 0;
+      ctx.textAlign = 'left';
+      ctx.font = '24px system-ui, sans-serif';
+      ctx.fillStyle = dark ? '#f5f7fa' : '#333333';
+      ctx.fillText(labels[tier], 120, y - 12);
+      ctx.fillStyle = dark ? '#263544' : '#f7f7f7';
+      ctx.fillRect(120, y, 560, 20);
+      ctx.fillStyle = kleuren[tier];
+      ctx.fillRect(120, y, 560 * pct, 20);
+      y += 70;
+    });
+
+    ctx.textAlign = 'center';
+    ctx.font = '20px system-ui, sans-serif';
+    ctx.fillStyle = dark ? '#b8c2cc' : '#666666';
+    ctx.fillText('papiamentupabo — leer Papiamentu stap voor stap', 400, 760);
+
+    return canvas;
+  }
+
+  document.getElementById('deel-medaille').addEventListener('click', () => {
+    const canvas = tekenMedailleAfbeelding();
+    const link = document.createElement('a');
+    link.download = 'papiamentu-pa-bo-medaille.png';
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+  });
 
   render();
   document.addEventListener('papiamentu:synced', render);
