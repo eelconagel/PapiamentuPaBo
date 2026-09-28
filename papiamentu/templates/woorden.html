@@ -170,7 +170,7 @@
     const box = document.createElement('div');
     box.className = 'feedback ' + (ok ? 'ok' : 'bad');
     box.textContent = text;
-    if (papWoord) box.append(Speak.button(papWoord));
+    if (papWoord && Speak.available) box.append(Speak.button(papWoord));
     if (ok) {
       const pr = document.createElement('div');
       pr.className = 'fb-progress';

@@ -1,9 +1,13 @@
 // Uitspraak-knop op basis van de browser's ingebouwde spraaksynthese (Web Speech API).
-// Geen server, geen audiobestanden nodig — maar ook geen browser heeft een Papiamentu-stem.
-// We kiezen de dichtstbijzijnde beschikbare stem (Portugees/Spaans benaderen de klank beter
-// dan Nederlands of Engels) en zijn daar in de tooltip eerlijk over.
+// Geen server, geen audiobestanden nodig — maar ook geen browser heeft een Papiamentu-stem,
+// en de dichtstbijzijnde beschikbare stem (Portugees/Spaans) bleek in de praktijk geen goede
+// benadering. TIJDELIJK UITGEZET (FEATURE_ENABLED = false) tot er echte, door een moedertaal-
+// spreker ingesproken audio is — zie docs/ROADMAP-relocatie.md Fase 1. De aanroepen
+// (Speak.attach/attachAll) blijven overal in de templates staan; zet FEATURE_ENABLED hier
+// terug op true (of vervang play() door echte audioclips) om de knop weer te laten zien.
 (function () {
-  const available = 'speechSynthesis' in window;
+  const FEATURE_ENABLED = false;
+  const available = FEATURE_ENABLED && 'speechSynthesis' in window;
   let cachedVoice = null;
   let voicesReady = false;
 
@@ -55,7 +59,7 @@
   // Gebruikt `el`'s eigen tekst als uit te spreken tekst, tenzij `textOverride` is gegeven.
   // Doet niets als er al een knopje in zit (voorkomt dubbele knoppen bij herhaald renderen).
   function attach(el, textOverride) {
-    if (!el || el.querySelector(':scope > .speak-btn')) return;
+    if (!available || !el || el.querySelector(':scope > .speak-btn')) return;
     const text = textOverride ?? el.textContent;
     el.appendChild(button(text));
   }
