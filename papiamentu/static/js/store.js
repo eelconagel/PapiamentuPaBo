@@ -284,17 +284,23 @@
   // level (lessen and woordenlijsten don't), so those two are what the medals are based on.
   const MEDAL_TIER = { Easy: 'brons', Intermediate: 'zilver', Hard: 'goud', 'Native Speaker': 'goud' };
 
-  // items: [{ nivo, punten }] — the XP value of every scenario and news article on the site
-  // (their difficulty and how many questions they're worth). A medal's threshold is the total
-  // XP of everything at that level or below, so it doesn't matter WHICH content earned your XP:
-  // doing the hard scenarios first still counts toward brons and zilver, just like it would
-  // toward goud — it's the total, not which specific items you've finished.
+  // Brons en zilver zijn BEVROREN op de omvang van de content zoals die was vóór de 6
+  // relocatie-scenario's van Fase 8 werden toegevoegd (20 scenario's + alle nieuwsberichten).
+  // Reden: die drempels worden anders live herberekend uit de actuele content, en nieuwe
+  // content zou dan de lat voor bestaande gebruikers kunnen verhogen — iemand met exact
+  // hetzelfde XP-getal zou zijn medaille kunnen "verliezen". Vast houdt dat onmogelijk.
+  // Goud mag wél meegroeien: dat is bewust het topniveau, en blijft de totale XP-waarde van
+  // alle huidige moeilijke content (incl. expert-scenario's) — zie ook docs/ROADMAP-relocatie.md.
+  const BRONS_VAST = 134;       // XP-waarde van alle "Easy" content vóór Fase 8
+  const ZILVER_BAND_VAST = 185; // XP-waarde van alle "Intermediate" content vóór Fase 8
+
+  // items: [{ nivo, punten }] — de XP-waarde van elk scenario/nieuwsbericht op de site.
+  // Alleen de "goud"-tier (Hard + Native Speaker) wordt hieruit nog live opgeteld.
   Store.medailleVoortgang = function (items) {
     const s = load();
-    const tiers = { brons: 0, zilver: 0, goud: 0 };
+    const tiers = { brons: BRONS_VAST, zilver: ZILVER_BAND_VAST, goud: 0 };
     items.forEach((it) => {
-      const tier = MEDAL_TIER[it.nivo];
-      if (tier) tiers[tier] += it.punten;
+      if (MEDAL_TIER[it.nivo] === 'goud') tiers.goud += it.punten;
     });
     const thresholds = {
       brons: tiers.brons,
