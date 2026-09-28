@@ -6,8 +6,8 @@
   "intro": "Je hebt een auto nodig om het eiland te verkennen of naar je werk te gaan. Het huren van een auto op Curaçao vereist aandacht voor voorwaarden, verzekeringen en de staat van de auto bij vertrek.",
   "introWords": [
     { "papiamentu": "Mi ke hür un outo", "dutch": "Ik wil een auto huren", "pronunciation": "mie ke huer oen ow-to" },
-    { "papiamentu": "Kuantu e ta kosta pa dia?", "dutch": "Wat kost het per dag?", "pronunciation": "kwan-toe e ta kos-ta pa dee-a" },
-    { "papiamentu": "E tin seguro?", "dutch": "Is het verzekerd?", "pronunciation": "e tin se-goo-ro" },
+    { "papiamentu": "Kuantu e ta kosta pa dia?", "dutch": "Wat kost het per dag?", "pronunciation": "kwan-toe e ta kos-ta pa die-a" },
+    { "papiamentu": "E tin seguro?", "dutch": "Is het verzekerd?", "pronunciation": "e tin se-goe-ro" },
     { "papiamentu": "Mi mester di airco", "dutch": "Ik heb airconditioning nodig", "pronunciation": "mie mes-ter die air-ko" }
   ],
   "grammar": {
@@ -41,7 +41,7 @@
   "words": [
     { "papiamentu": "Outo", "dutch": "Auto", "pronunciation": "ow-to", "example": "Mi tin mester di un outo." },
     { "papiamentu": "Hür", "dutch": "Huren", "pronunciation": "huer", "example": "Kuantu e hür ta?" },
-    { "papiamentu": "Seguro", "dutch": "Verzekering", "pronunciation": "se-goo-ro", "example": "E seguro ta kompletu." },
+    { "papiamentu": "Seguro", "dutch": "Verzekering", "pronunciation": "se-goe-ro", "example": "E seguro ta kompletu." },
     { "papiamentu": "Airco", "dutch": "Airconditioning", "pronunciation": "air-ko", "example": "E outo tin airco?" },
     { "papiamentu": "Borg", "dutch": "Borgsom", "pronunciation": "borg", "example": "Mi mester paga un borg." },
     { "papiamentu": "Gasolina", "dutch": "Benzine", "pronunciation": "ga-so-lie-na", "example": "Mi mester yena gasolina." }

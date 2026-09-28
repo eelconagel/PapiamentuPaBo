@@ -18,12 +18,12 @@
     {
       "papiamentu": "For di ki dia?",
       "dutch": "Sinds wanneer?",
-      "pronunciation": "for die kie dee-a"
+      "pronunciation": "for die kie die-a"
     },
     {
       "papiamentu": "Mi tin keintura",
       "dutch": "Ik heb koorts",
-      "pronunciation": "mie tin ke-in-too-ra"
+      "pronunciation": "mie tin ke-in-toe-ra"
     }
   ],
   "grammar": {
@@ -97,7 +97,7 @@
     {
       "papiamentu": "Keintura",
       "dutch": "Koorts",
-      "pronunciation": "ke-in-too-ra",
+      "pronunciation": "ke-in-toe-ra",
       "example": "E tin hopi keintura."
     },
     {

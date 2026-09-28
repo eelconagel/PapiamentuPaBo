@@ -5,7 +5,7 @@
   "category": "Praktisch",
   "intro": "Je moet een afspraak plannen voor werk of privé. Op Curaçao is flexibiliteit belangrijk, maar ook duidelijkheid over tijd. Men waardeert het als je direct en beleefd je verzoek doet.",
   "introWords": [
-    { "papiamentu": "Kiko ta un bon momento?", "dutch": "Wat is een goed moment?", "pronunciation": "kee-ko ta oen bon mo-men-to" },
+    { "papiamentu": "Kiko ta un bon momento?", "dutch": "Wat is een goed moment?", "pronunciation": "kie-ko ta oen bon mo-men-to" },
     { "papiamentu": "Mi ke traha un sita", "dutch": "Ik wil een afspraak maken", "pronunciation": "mie ke tra-ha oen si-ta" },
     { "papiamentu": "Por kambia e ora?", "dutch": "Kunnen we de tijd veranderen?", "pronunciation": "por kam-bi-a e o-ra" },
     { "papiamentu": "E ora ta firme?", "dutch": "Staat de tijd vast?", "pronunciation": "e o-ra ta fir-me" }
@@ -44,7 +44,7 @@
     { "papiamentu": "Firme", "dutch": "Vast/Zeker", "pronunciation": "fir-me", "example": "E sita ta firme." },
     { "papiamentu": "Plania", "dutch": "Plannen", "pronunciation": "pla-ni-a", "example": "Nos mester plania esaki." },
     { "papiamentu": "Ki ora?", "dutch": "Hoe laat? / Wanneer?", "pronunciation": "kie o-ra", "example": "Ki ora bo por bin?" },
-    { "papiamentu": "Djaluna", "dutch": "Maandag", "pronunciation": "dja-loo-na", "example": "Djaluna ta bon pa mi." }
+    { "papiamentu": "Djaluna", "dutch": "Maandag", "pronunciation": "dja-loe-na", "example": "Djaluna ta bon pa mi." }
   ],
   "pitfalls": [
     {

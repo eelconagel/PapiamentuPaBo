@@ -5,8 +5,8 @@
   "category": "Dagelijks contact",
   "intro": "Je bent net gearriveerd op Curaçao en loopt een toko (buurtwinkel) binnen. Iedereen kijkt je aan. Op dit eiland begroet je altijd — het is een teken van respect en verbondenheid.",
   "introWords": [
-    { "papiamentu": "Bon dia", "dutch": "Goedemorgen", "pronunciation": "bon dee-a" },
-    { "papiamentu": "Bonbiní", "dutch": "Welkom", "pronunciation": "bon-bi-nee" },
+    { "papiamentu": "Bon dia", "dutch": "Goedemorgen", "pronunciation": "bon die-a" },
+    { "papiamentu": "Bonbiní", "dutch": "Welkom", "pronunciation": "bon-bi-nie" },
     { "papiamentu": "Danki", "dutch": "Dank je", "pronunciation": "dan-ki" },
     { "papiamentu": "Pasa denter", "dutch": "Kom binnen", "pronunciation": "pa-sa den-ter" }
   ],
@@ -39,10 +39,10 @@
     ]
   },
   "words": [
-    { "papiamentu": "Bon dia", "dutch": "Goedemorgen", "pronunciation": "bon dee-a", "example": "Bon dia! Kon ta bai?" },
+    { "papiamentu": "Bon dia", "dutch": "Goedemorgen", "pronunciation": "bon die-a", "example": "Bon dia! Kon ta bai?" },
     { "papiamentu": "Bon tardi", "dutch": "Goedemiddag", "pronunciation": "bon tar-di", "example": "Bon tardi, tur kos ta bon?" },
-    { "papiamentu": "Bon nochi", "dutch": "Goedenavond", "pronunciation": "bon no-chi", "example": "Bon nochi, te mayan." },
-    { "papiamentu": "Bonbiní", "dutch": "Welkom", "pronunciation": "bon-bi-nee", "example": "Bonbiní na Kòrsou!" },
+    { "papiamentu": "Bon nochi", "dutch": "Goedenavond", "pronunciation": "bon no-tsji", "example": "Bon nochi, te mayan." },
+    { "papiamentu": "Bonbiní", "dutch": "Welkom", "pronunciation": "bon-bi-nie", "example": "Bonbiní na Kòrsou!" },
     { "papiamentu": "Kon ta bai?", "dutch": "Hoe gaat het?", "pronunciation": "kon ta bay", "example": "Bon dia! Kon ta bai?" },
     { "papiamentu": "Tur kos ta bon", "dutch": "Alles gaat goed", "pronunciation": "tur kos ta bon", "example": "Tur kos ta bon, danki!" },
     { "papiamentu": "Pasa denter", "dutch": "Kom binnen", "pronunciation": "pa-sa den-ter", "example": "Pasa denter, por fabor." },

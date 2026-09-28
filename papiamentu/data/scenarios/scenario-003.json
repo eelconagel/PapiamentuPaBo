@@ -7,7 +7,7 @@
   "introWords": [
     { "papiamentu": "Mi nòmber ta...", "dutch": "Mijn naam is...", "pronunciation": "mie nom-ber ta" },
     { "papiamentu": "Kon ta bai?", "dutch": "Hoe gaat het?", "pronunciation": "kon ta bay" },
-    { "papiamentu": "Muchu gustu", "dutch": "Aangenaam (kennis te maken)", "pronunciation": "moe-choe goes-toe" },
+    { "papiamentu": "Muchu gustu", "dutch": "Aangenaam (kennis te maken)", "pronunciation": "moe-tsjoe goes-toe" },
     { "papiamentu": "Di unda bo ta?", "dutch": "Waar kom je vandaan?", "pronunciation": "die oen-da bo ta" }
   ],
   "grammar": {
@@ -40,7 +40,7 @@
   },
   "words": [
     { "papiamentu": "Mi nòmber ta", "dutch": "Mijn naam is", "pronunciation": "mie nom-ber ta", "example": "Mi nòmber ta Eelco." },
-    { "papiamentu": "Muchu gustu", "dutch": "Aangenaam", "pronunciation": "moe-choe goes-toe", "example": "Muchu gustu di konosé bo." },
+    { "papiamentu": "Muchu gustu", "dutch": "Aangenaam", "pronunciation": "moe-tsjoe goes-toe", "example": "Muchu gustu di konosé bo." },
     { "papiamentu": "Di unda bo ta?", "dutch": "Waar kom je vandaan?", "pronunciation": "die oen-da bo ta", "example": "Di unda bo ta? Mi ta di Hulanda." },
     { "papiamentu": "Bo ta biba akí?", "dutch": "Woon je hier?", "pronunciation": "bo ta bie-ba a-kie", "example": "Bo ta biba akí na Kòrsou?" },
     { "papiamentu": "Kon ta bai?", "dutch": "Hoe gaat het?", "pronunciation": "kon ta bay", "example": "Bon dia, kon ta bai?" },

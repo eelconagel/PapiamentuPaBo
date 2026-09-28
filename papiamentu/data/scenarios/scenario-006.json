@@ -8,7 +8,7 @@
     { "papiamentu": "Kome", "dutch": "Eten", "pronunciation": "ko-me" },
     { "papiamentu": "Bebe", "dutch": "Drinken", "pronunciation": "be-be" },
     { "papiamentu": "Karni", "dutch": "Vlees", "pronunciation": "kar-ni" },
-    { "papiamentu": "Dushi", "dutch": "Lekker / Mooi / Schattig", "pronunciation": "doo-shi" }
+    { "papiamentu": "Dushi", "dutch": "Lekker / Mooi / Schattig", "pronunciation": "doe-shi" }
   ],
   "grammar": {
     "title": "Mi gustá — zeggen wat je lekker vindt",
@@ -39,14 +39,14 @@
     ]
   },
   "words": [
-    { "papiamentu": "Karta di kuminda", "dutch": "Menukaart", "pronunciation": "kar-ta di koo-MIN-da", "example": "Por fabor, mi ke e karta di kuminda." },
-    { "papiamentu": "Piska fritu", "dutch": "Gebakken vis", "pronunciation": "PIS-ka FREE-too", "example": "E piska fritu ta dushi basta." },
-    { "papiamentu": "Batido", "dutch": "Smoothie / Milkshake", "pronunciation": "ba-TEE-do", "example": "Mi ke un batido di mango." },
-    { "papiamentu": "Mi ke ordena", "dutch": "Ik wil bestellen", "pronunciation": "mi ke or-DE-na", "example": "Bon tardi, mi ke ordena awe." },
-    { "papiamentu": "Sin pika", "dutch": "Zonder hete saus / zonder peper", "pronunciation": "sin PI-ka", "example": "Sin pika, por fabor, mi no por kome pika." },
-    { "papiamentu": "Por fabor", "dutch": "Alstublieft", "pronunciation": "por fa-BOR", "example": "Un awa fríu, por fabor." },
-    { "papiamentu": "Ta dushi", "dutch": "Het is lekker", "pronunciation": "ta DOO-shi", "example": "Ai, e kuminda ta dushi basta!" },
-    { "papiamentu": "La nota", "dutch": "De rekening", "pronunciation": "la NO-ta", "example": "Por fabor, mi ke la nota." }
+    { "papiamentu": "Karta di kuminda", "dutch": "Menukaart", "pronunciation": "kar-ta di koe-min-da", "example": "Por fabor, mi ke e karta di kuminda." },
+    { "papiamentu": "Piska fritu", "dutch": "Gebakken vis", "pronunciation": "pis-ka frie-toe", "example": "E piska fritu ta dushi basta." },
+    { "papiamentu": "Batido", "dutch": "Smoothie / Milkshake", "pronunciation": "ba-tie-do", "example": "Mi ke un batido di mango." },
+    { "papiamentu": "Mi ke ordena", "dutch": "Ik wil bestellen", "pronunciation": "mi ke or-de-na", "example": "Bon tardi, mi ke ordena awe." },
+    { "papiamentu": "Sin pika", "dutch": "Zonder hete saus / zonder peper", "pronunciation": "sin pi-ka", "example": "Sin pika, por fabor, mi no por kome pika." },
+    { "papiamentu": "Por fabor", "dutch": "Alstublieft", "pronunciation": "por fa-bor", "example": "Un awa fríu, por fabor." },
+    { "papiamentu": "Ta dushi", "dutch": "Het is lekker", "pronunciation": "ta doe-shi", "example": "Ai, e kuminda ta dushi basta!" },
+    { "papiamentu": "La nota", "dutch": "De rekening", "pronunciation": "la no-ta", "example": "Por fabor, mi ke la nota." }
   ],
   "pitfalls": [
     {

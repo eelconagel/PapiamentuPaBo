@@ -5,10 +5,10 @@
   "category": "Transport",
   "intro": "Je hebt een gezellige avond gehad in Pietermaai en je auto staat bij het hotel. Je stapt op een taxichauffeur (koredor) af om een ritprijs af te spreken.",
   "introWords": [
-    { "papiamentu": "Koredor", "dutch": "Chauffeur / Bestuurder", "pronunciation": "ko-re-DOR" },
-    { "papiamentu": "Plaka", "dutch": "Geld", "pronunciation": "PLA-ka" },
-    { "papiamentu": "Warda", "dutch": "Wachten", "pronunciation": "WAR-da" },
-    { "papiamentu": "Baha", "dutch": "Uitstappen", "pronunciation": "BA-ha" }
+    { "papiamentu": "Koredor", "dutch": "Chauffeur / Bestuurder", "pronunciation": "ko-re-dor" },
+    { "papiamentu": "Plaka", "dutch": "Geld", "pronunciation": "pla-ka" },
+    { "papiamentu": "Warda", "dutch": "Wachten", "pronunciation": "war-da" },
+    { "papiamentu": "Baha", "dutch": "Uitstappen", "pronunciation": "ba-ha" }
   ],
   "grammar": {
     "title": "Toekomende tijd met 'lo'",
@@ -39,14 +39,14 @@
     ]
   },
   "words": [
-    { "papiamentu": "Koredor", "dutch": "Taxichauffeur", "pronunciation": "ko-re-DOR", "example": "E koredor ta konosé tur kaminda." },
-    { "papiamentu": "Kuantu e viahe ta kosta?", "dutch": "Hoeveel kost de rit?", "pronunciation": "KWAN-too e VIA-he ta KOS-ta", "example": "Bon nochi! Kuantu e viahe ta kosta?" },
-    { "papiamentu": "Warda", "dutch": "Wachten", "pronunciation": "WAR-da", "example": "Por fabor, warda un momentu." },
-    { "papiamentu": "Baha", "dutch": "Uitstappen / Afstappen", "pronunciation": "BA-ha", "example": "Mi ke baha na e hotel." },
-    { "papiamentu": "Pura pura", "dutch": "Snel snel / Gehaast", "pronunciation": "POO-ra POO-ra", "example": "Por fabor, mi ta pura pura!" },
-    { "papiamentu": "Destinashon", "dutch": "Bestemming", "pronunciation": "des-ti-na-SHON", "example": "Ki ta bo destinashon?" },
-    { "papiamentu": "Plaka", "dutch": "Geld", "pronunciation": "PLA-ka", "example": "Mi tin plaka sufisiente." },
-    { "papiamentu": "Florin", "dutch": "Gulden (Antilliaans)", "pronunciation": "flo-RIN", "example": "Kuantu florin e viahe ta kosta?" }
+    { "papiamentu": "Koredor", "dutch": "Taxichauffeur", "pronunciation": "ko-re-dor", "example": "E koredor ta konosé tur kaminda." },
+    { "papiamentu": "Kuantu e viahe ta kosta?", "dutch": "Hoeveel kost de rit?", "pronunciation": "kwan-toe e via-he ta kos-ta", "example": "Bon nochi! Kuantu e viahe ta kosta?" },
+    { "papiamentu": "Warda", "dutch": "Wachten", "pronunciation": "war-da", "example": "Por fabor, warda un momentu." },
+    { "papiamentu": "Baha", "dutch": "Uitstappen / Afstappen", "pronunciation": "ba-ha", "example": "Mi ke baha na e hotel." },
+    { "papiamentu": "Pura pura", "dutch": "Snel snel / Gehaast", "pronunciation": "poe-ra poe-ra", "example": "Por fabor, mi ta pura pura!" },
+    { "papiamentu": "Destinashon", "dutch": "Bestemming", "pronunciation": "des-ti-na-shon", "example": "Ki ta bo destinashon?" },
+    { "papiamentu": "Plaka", "dutch": "Geld", "pronunciation": "pla-ka", "example": "Mi tin plaka sufisiente." },
+    { "papiamentu": "Florin", "dutch": "Gulden (Antilliaans)", "pronunciation": "flo-rin", "example": "Kuantu florin e viahe ta kosta?" }
   ],
   "pitfalls": [
     {

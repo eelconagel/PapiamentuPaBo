@@ -7,7 +7,7 @@
   "introWords": [
     { "papiamentu": "Kon ta bai?", "dutch": "Hoe gaat het?", "pronunciation": "kon ta bay" },
     { "papiamentu": "Tur kos bon?", "dutch": "Alles goed?", "pronunciation": "toer kos bon" },
-    { "papiamentu": "Kon ta ku bo?", "dutch": "Hoe is het met jou?", "pronunciation": "kon ta koo bo" },
+    { "papiamentu": "Kon ta ku bo?", "dutch": "Hoe is het met jou?", "pronunciation": "kon ta koe bo" },
     { "papiamentu": "Tur kos ta bon", "dutch": "Alles is goed", "pronunciation": "toer kos ta bon" }
   ],
   "grammar": {
@@ -41,7 +41,7 @@
   },
   "words": [
     { "papiamentu": "Kon ta bai?", "dutch": "Hoe gaat het?", "pronunciation": "kon ta bay", "example": "Bon dia! Kon ta bai?" },
-    { "papiamentu": "Kon ta ku bo?", "dutch": "Hoe is het met jou?", "pronunciation": "kon ta koo bo", "example": "Hola, kon ta ku bo?" },
+    { "papiamentu": "Kon ta ku bo?", "dutch": "Hoe is het met jou?", "pronunciation": "kon ta koe bo", "example": "Hola, kon ta ku bo?" },
     { "papiamentu": "Tur kos bon?", "dutch": "Alles goed?", "pronunciation": "toer kos bon", "example": "Hey, tur kos bon?" },
     { "papiamentu": "Tur kos ta bon", "dutch": "Alles is goed", "pronunciation": "toer kos ta bon", "example": "Tur kos ta bon, danki." },
     { "papiamentu": "Bon, danki", "dutch": "Goed, dank je", "pronunciation": "bon, dan-ki", "example": "Kon ta bai? Bon, danki!" },

@@ -5,8 +5,8 @@
   "category": "Onderweg",
   "intro": "Je bent aan het toeren richting Westpunt maar weet niet zeker of je de goede afslag hebt gepakt. Je stopt om de weg te vragen aan een voorbijganger.",
   "introWords": [
-    { "papiamentu": "Kaminda", "dutch": "Weg / Straat", "pronunciation": "ka-MIN-da" },
-    { "papiamentu": "Drechi", "dutch": "Rechts", "pronunciation": "dre-chi" },
+    { "papiamentu": "Kaminda", "dutch": "Weg / Straat", "pronunciation": "ka-min-da" },
+    { "papiamentu": "Drechi", "dutch": "Rechts", "pronunciation": "dre-tsji" },
     { "papiamentu": "Robes", "dutch": "Links", "pronunciation": "ro-bes" },
     { "papiamentu": "Playa", "dutch": "Strand", "pronunciation": "pla-ya" }
   ],
@@ -39,14 +39,14 @@
     ]
   },
   "words": [
-    { "papiamentu": "Unda mi por haña...?", "dutch": "Waar kan ik ... vinden?", "pronunciation": "UN-da mi por ha-NYA", "example": "Unda mi por haña un farmasia?" },
-    { "papiamentu": "Drechi", "dutch": "Rechts", "pronunciation": "DRE-chi", "example": "Bira na man drechi na e rotònd." },
-    { "papiamentu": "Robes", "dutch": "Links", "pronunciation": "RO-bes", "example": "E supermerka ta na man robes." },
-    { "papiamentu": "Siga derechi", "dutch": "Ga rechtdoor", "pronunciation": "SI-ga de-RE-chi", "example": "Siga derechi te na e snèk." },
-    { "papiamentu": "Bira", "dutch": "Afslaan / Draaien", "pronunciation": "BEE-ra", "example": "Bira robes na e semafó." },
-    { "papiamentu": "Rotònd", "dutch": "Rotonde", "pronunciation": "ro-TOND", "example": "Pasa e rotònd i bira drechi." },
+    { "papiamentu": "Unda mi por haña...?", "dutch": "Waar kan ik ... vinden?", "pronunciation": "un-da mi por ha-nya", "example": "Unda mi por haña un farmasia?" },
+    { "papiamentu": "Drechi", "dutch": "Rechts", "pronunciation": "dre-tsji", "example": "Bira na man drechi na e rotònd." },
+    { "papiamentu": "Robes", "dutch": "Links", "pronunciation": "ro-bes", "example": "E supermerka ta na man robes." },
+    { "papiamentu": "Siga derechi", "dutch": "Ga rechtdoor", "pronunciation": "si-ga de-re-tsji", "example": "Siga derechi te na e snèk." },
+    { "papiamentu": "Bira", "dutch": "Afslaan / Draaien", "pronunciation": "bie-ra", "example": "Bira robes na e semafó." },
+    { "papiamentu": "Rotònd", "dutch": "Rotonde", "pronunciation": "ro-tond", "example": "Pasa e rotònd i bira drechi." },
     { "papiamentu": "Kon leu e ta?", "dutch": "Hoe ver is het?", "pronunciation": "kon lew e ta", "example": "Kon leu e playa ta di aki?" },
-    { "papiamentu": "Na unda bo ta bai?", "dutch": "Waar ga je naartoe?", "pronunciation": "na UN-da bo ta by", "example": "Na unda bo ta bai awe?" }
+    { "papiamentu": "Na unda bo ta bai?", "dutch": "Waar ga je naartoe?", "pronunciation": "na un-da bo ta by", "example": "Na unda bo ta bai awe?" }
   ],
   "pitfalls": [
     {

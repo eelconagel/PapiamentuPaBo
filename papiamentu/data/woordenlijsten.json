@@ -4,9 +4,9 @@
       "id": 1,
       "naam": "Basiswoorden",
       "woorden": [
-        { "id": "w1_01", "woord": "Bon dia", "uitspraak": "bon dee-a", "vertaling": "Goedemorgen" },
+        { "id": "w1_01", "woord": "Bon dia", "uitspraak": "bon die-a", "vertaling": "Goedemorgen" },
         { "id": "w1_02", "woord": "Bon tardi", "uitspraak": "bon tar-di", "vertaling": "Goedemiddag" },
-        { "id": "w1_03", "woord": "Bon nochi", "uitspraak": "bon no-chi", "vertaling": "Goedenavond" },
+        { "id": "w1_03", "woord": "Bon nochi", "uitspraak": "bon no-tsji", "vertaling": "Goedenavond" },
         { "id": "w1_04", "woord": "Danki", "uitspraak": "dan-ki", "vertaling": "Dank je" },
         { "id": "w1_05", "woord": "Por fabor", "uitspraak": "por fa-bor", "vertaling": "Alsjeblieft" },
         { "id": "w1_06", "woord": "Si", "uitspraak": "si", "vertaling": "Ja" },

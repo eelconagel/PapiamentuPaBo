@@ -6,8 +6,8 @@
   "intro": "Je verlaat de toko of bent op bezoek bij vrienden. Op Curaçao is het niet de bedoeling dat je zomaar wegloopt; je neemt op een hartelijke manier afscheid van iedereen die aanwezig is.",
   "introWords": [
     { "papiamentu": "Te mañan", "dutch": "Tot morgen", "pronunciation": "te ma-jan" },
-    { "papiamentu": "Ayo", "dutch": "Doei / Tot ziens", "pronunciation": "a-joo" },
-    { "papiamentu": "Pasa bon dia", "dutch": "Nog een fijne dag", "pronunciation": "pa-sa bon dee-a" },
+    { "papiamentu": "Ayo", "dutch": "Doei / Tot ziens", "pronunciation": "a-joe" },
+    { "papiamentu": "Pasa bon dia", "dutch": "Nog een fijne dag", "pronunciation": "pa-sa bon die-a" },
     { "papiamentu": "Danki pa tur kos", "dutch": "Bedankt voor alles", "pronunciation": "dan-ki pa tur kos" }
   ],
   "grammar": {
@@ -39,11 +39,11 @@
     ]
   },
   "words": [
-    { "papiamentu": "Ayo", "dutch": "Doei / Tot ziens", "pronunciation": "a-joo", "example": "Ayo, te despues!" },
+    { "papiamentu": "Ayo", "dutch": "Doei / Tot ziens", "pronunciation": "a-joe", "example": "Ayo, te despues!" },
     { "papiamentu": "Te mañan", "dutch": "Tot morgen", "pronunciation": "te ma-jan", "example": "Bon nochi, te mañan." },
     { "papiamentu": "Te despues", "dutch": "Tot later", "pronunciation": "te des-pues", "example": "Ayo, te despues!" },
-    { "papiamentu": "Pasa bon dia", "dutch": "Nog een fijne dag", "pronunciation": "pa-sa bon dee-a", "example": "Danki, pasa bon dia!" },
-    { "papiamentu": "Pasa bon anochi", "dutch": "Nog een fijne avond", "pronunciation": "pa-sa bon a-no-chi", "example": "Ayo, pasa bon anochi." },
+    { "papiamentu": "Pasa bon dia", "dutch": "Nog een fijne dag", "pronunciation": "pa-sa bon die-a", "example": "Danki, pasa bon dia!" },
+    { "papiamentu": "Pasa bon anochi", "dutch": "Nog een fijne avond", "pronunciation": "pa-sa bon a-no-tsji", "example": "Ayo, pasa bon anochi." },
     { "papiamentu": "Danki pa tur kos", "dutch": "Bedankt voor alles", "pronunciation": "dan-ki pa tur kos", "example": "Danki pa tur kos, ayo!" },
     { "papiamentu": "Kuida bo mes", "dutch": "Pas goed op jezelf", "pronunciation": "kwi-da bo mes", "example": "Ayo, kuida bo mes." }
   ],

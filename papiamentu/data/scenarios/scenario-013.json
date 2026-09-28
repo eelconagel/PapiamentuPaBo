@@ -5,8 +5,8 @@
   "category": "Overheid",
   "intro": "Je moet je inschrijven of officiële documenten aanvragen bij Kranshi (de burgerlijke stand). Het proces kan formeel en bureaucratisch zijn, dus een goede voorbereiding en beleefdheid zijn essentieel.",
   "introWords": [
-    { "papiamentu": "Mi mester di un sédula", "dutch": "Ik heb een ID-kaart nodig", "pronunciation": "mie mes-ter die oen se-doo-la" },
-    { "papiamentu": "Kiko ta e rekisitonan?", "dutch": "Wat zijn de vereisten?", "pronunciation": "kee-ko ta e re-ki-si-to-nan" },
+    { "papiamentu": "Mi mester di un sédula", "dutch": "Ik heb een ID-kaart nodig", "pronunciation": "mie mes-ter die oen se-doe-la" },
+    { "papiamentu": "Kiko ta e rekisitonan?", "dutch": "Wat zijn de vereisten?", "pronunciation": "kie-ko ta e re-ki-si-to-nan" },
     { "papiamentu": "Mi ke inskribí mi mes", "dutch": "Ik wil me inschrijven", "pronunciation": "mie ke in-skri-bie mie mes" },
     { "papiamentu": "Ki ora e ta kla?", "dutch": "Wanneer is het klaar?", "pronunciation": "kie o-ra e ta kla" }
   ],
@@ -39,12 +39,12 @@
     ]
   },
   "words": [
-    { "papiamentu": "Sédula", "dutch": "ID-kaart", "pronunciation": "se-doo-la", "example": "Mi mester renová mi sédula." },
+    { "papiamentu": "Sédula", "dutch": "ID-kaart", "pronunciation": "se-doe-la", "example": "Mi mester renová mi sédula." },
     { "papiamentu": "Rekisito", "dutch": "Vereiste", "pronunciation": "re-ki-si-to", "example": "Kiko ta e rekisitonan?" },
-    { "papiamentu": "Dokumento", "dutch": "Document", "pronunciation": "do-koo-men-to", "example": "Mi tin tur e dokumentonan." },
+    { "papiamentu": "Dokumento", "dutch": "Document", "pronunciation": "do-koe-men-to", "example": "Mi tin tur e dokumentonan." },
     { "papiamentu": "Inskribí", "dutch": "Inschrijven", "pronunciation": "in-skri-bie", "example": "Mi ke inskribí mi mes." },
     { "papiamentu": "Kla", "dutch": "Klaar", "pronunciation": "kla", "example": "E ta kla awor?" },
-    { "papiamentu": "Prosedimentu", "dutch": "Procedure", "pronunciation": "pro-se-die-men-too", "example": "Kiko ta e prosedimentu?" }
+    { "papiamentu": "Prosedimentu", "dutch": "Procedure", "pronunciation": "pro-se-die-men-toe", "example": "Kiko ta e prosedimentu?" }
   ],
   "pitfalls": [
     {

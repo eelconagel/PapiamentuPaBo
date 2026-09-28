@@ -5,10 +5,10 @@
   "category": "Wonen",
   "intro": "Je ontdekt een waterlekkage in huis en moet direct een loodgieter inschakelen. Op Curaçao is snelle actie bij lekkages cruciaal vanwege de waterschaarste en de kans op schade door vocht.",
   "introWords": [
-    { "papiamentu": "Tin un fuga di awa", "dutch": "Er is een waterlekkage", "pronunciation": "tin oen foo-ga die a-wa" },
+    { "papiamentu": "Tin un fuga di awa", "dutch": "Er is een waterlekkage", "pronunciation": "tin oen foe-ga die a-wa" },
     { "papiamentu": "E awa ta sali hopi", "dutch": "Het water lekt hard", "pronunciation": "e a-wa ta sa-lie ho-pie" },
-    { "papiamentu": "Por bin drecha esaki?", "dutch": "Kun je dit repareren?", "pronunciation": "por bin dre-cha e-sa-kie" },
-    { "papiamentu": "Ki dia bo por bin?", "dutch": "Welke dag kun je komen?", "pronunciation": "kie dee-a bo por bin" }
+    { "papiamentu": "Por bin drecha esaki?", "dutch": "Kun je dit repareren?", "pronunciation": "por bin dre-tsja e-sa-kie" },
+    { "papiamentu": "Ki dia bo por bin?", "dutch": "Welke dag kun je komen?", "pronunciation": "kie die-a bo por bin" }
   ],
   "grammar": {
     "title": "Lekkages en reparaties",
@@ -39,11 +39,11 @@
     ]
   },
   "words": [
-    { "papiamentu": "Fuga", "dutch": "Lek", "pronunciation": "foo-ga", "example": "Tin un fuga grandi." },
-    { "papiamentu": "Drecha", "dutch": "Repareren", "pronunciation": "dre-cha", "example": "Bo por drecha e tiña?" },
+    { "papiamentu": "Fuga", "dutch": "Lek", "pronunciation": "foe-ga", "example": "Tin un fuga grandi." },
+    { "papiamentu": "Drecha", "dutch": "Repareren", "pronunciation": "dre-tsja", "example": "Bo por drecha e tiña?" },
     { "papiamentu": "Awa", "dutch": "Water", "pronunciation": "a-wa", "example": "E awa ta kore tur kaminda." },
     { "papiamentu": "Pipa", "dutch": "Leiding/Buis", "pronunciation": "pie-pa", "example": "E pipa tin un buraku." },
-    { "papiamentu": "Kusina", "dutch": "Keuken", "pronunciation": "koo-sie-na", "example": "E fuga ta den kusina." },
+    { "papiamentu": "Kusina", "dutch": "Keuken", "pronunciation": "koe-sie-na", "example": "E fuga ta den kusina." },
     { "papiamentu": "Dòktor di kas (metaphor)", "dutch": "Loodgieter (loodgieter = 'plomber')", "pronunciation": "plom-ber", "example": "Mi mester di un plomber." }
   ],
   "pitfalls": [
