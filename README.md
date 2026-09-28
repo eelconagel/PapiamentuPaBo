@@ -2,7 +2,7 @@
 
 Flask version of the Papiamentu Pa Bo app: practical scenarios, word practice and structured lessons for learning Papiamentu (in Dutch).
 
-- **Content** (26 scenarios, 40 lessons, 6 word lists, plus news and culture reading practice) is JSON in `papiamentu/data/`, originally copied from the mobile app and extended since.
+- **Content** (26 scenarios, 40 lessons, 6 word lists, plus news reading practice) is JSON in `papiamentu/data/`, originally copied from the mobile app and extended since.
 - **Progress** (name, XP, lessons, scenarios, words) is kept in the visitor's browser (`localStorage`), like the app kept it on-device. Visitors can export and import a backup under *Instellingen*.
 - **Optional login** with Google, Microsoft, Apple or Facebook. Logged-in visitors get their progress stored on the server and synced across devices. Without keys configured, the site works exactly the same, just without login buttons.
 - **Contact messages** are stored in SQLite on the `/data` volume, optionally with an e-mail notification.

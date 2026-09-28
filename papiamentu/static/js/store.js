@@ -13,7 +13,6 @@
     lessen: {},             // lesId -> [completed step numbers 1..4]
     scenarios: {},          // scenarioId -> completedAt ISO string
     nieuws: {},             // artikelId -> completedAt ISO string
-    cultuur: {},            // cultuurstukId -> completedAt ISO string
     theme: 'dark',          // 'system' | 'light' | 'dark' (per device, not synced)
     weekXp: { week: '', xp: 0 },  // XP earned in the current ISO week (per device, not synced)
     profielKeuze: null,     // 'kort' | 'middel' | 'blijvend' — hoe lang iemand op Curaçao
@@ -207,10 +206,6 @@
 
     completeNieuws(id) {
       update((s) => { if (!s.nieuws[id]) s.nieuws[id] = new Date().toISOString(); });
-    },
-
-    completeCultuur(id) {
-      update((s) => { if (!s.cultuur[id]) s.cultuur[id] = new Date().toISOString(); });
     },
 
     setTheme(theme) {

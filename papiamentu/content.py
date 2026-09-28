@@ -67,13 +67,6 @@ class Content:
         self.nieuws = {
             a["id"]: a for a in (_load(p) for p in sorted((data_dir / "nieuws").glob("nieuws-*.json")))
         }
-        # Cultuur lezen: dezelfde leesmotor als Nieuws lezen, maar dan lokale gewoontes,
-        # muziek, eten en taalgeschiedenis. Geen niveau, geen vrijspeelsysteem — alles staat
-        # meteen open (kleinere, curated set, geen "meer XP = meer content"-opzet nodig).
-        cultuur_dir = data_dir / "cultuur"
-        self.cultuur = {
-            a["id"]: a for a in (_load(p) for p in sorted(cultuur_dir.glob("cultuur-*.json")))
-        } if cultuur_dir.exists() else {}
         self.woordenlijsten = _load(data_dir / "woordenlijsten.json")["lijsten"]
         # Vaste naslag-lijst met de nuttigste zinnen, buiten de lessenvolgorde om — voor
         # iemand die zich geen 40 lessen kan permitteren voor het vliegtuig vertrekt.

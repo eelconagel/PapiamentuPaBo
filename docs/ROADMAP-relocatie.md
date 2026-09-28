@@ -1,12 +1,15 @@
 # Roadmap: Papiamentu Pa Bo als relocatie-taalapp
 
-> **Status (2026-09-27):** alle 10 fases zijn gebouwd op de branch `relocatie-roadmap`
-> (10 commits, één per fase), getest met de volledige pytest-suite en handmatig in de
-> lokale Docker-container. Nog niet gepusht/gedeployed. Twee dingen zijn bewust blijven
-> liggen voor de opdrachtgever: (1) de 4 cultuurstukken (Fase 7) en de 6 nieuwe
-> scenario's (Fase 8) zijn nog niet door een moedertaalspreker nagekeken, en (2) Fase 6
-> (vertakte dialogen) staat nu in 2 scenario's als proof of concept — of dit wordt
-> uitgebreid naar meer scenario's is een keuze, geen automatisme.
+> **Status (2026-09-28):** alle 10 fases zijn gebouwd op de branch `relocatie-roadmap`,
+> getest met de volledige pytest-suite en handmatig in de lokale Docker-container. Nog
+> niet gepusht/gedeployed. **Fase 7 (cultuurmodule) is daarna weer teruggedraaid** op
+> verzoek van de opdrachtgever ("dont like it") — de route, templates, content en
+> sync-ondersteuning zijn verwijderd; zie de git-historie voor hoe het werkte als het
+> ooit terugkomt. De uitspraak-knop (Fase 1) staat bovendien tijdelijk uit
+> (`speak.js` → `FEATURE_ENABLED = false`): de browser-TTS-benadering gaf geen goede
+> uitspraak, dit wacht op echte, door een moedertaalspreker ingesproken audio. De 6
+> nieuwe scenario's (Fase 8) zijn nog niet door een moedertaalspreker nagekeken, en
+> Fase 6 (vertakte dialogen) staat nog in 2 scenario's als proof of concept.
 
 Ontstaan uit een reviewgesprek (sessie 2026-09-26) over hoe de app aansluit bij een
 Nederlander die naar Curaçao verhuist — voor 3 maanden, 3 jaar, of voor altijd. Deze drie

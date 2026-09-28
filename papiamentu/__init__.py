@@ -23,8 +23,6 @@ SCREEN_TITLES = {
     "nieuws": "Nieuws lezen",
     "eerste_week": "Eerste week op Curaçao",
     "nieuws_artikel": "Nieuws",
-    "cultuur": "Cultuur lezen",
-    "cultuur_artikel": "Cultuur",
     "profiel": "Profiel",
     "verder_leren": "Verder na de app",
     "updates": "Updates",
@@ -101,7 +99,7 @@ def create_app(test_config=None):
             words=content.all_words(),
             lessen=[{"id": l["id"], "titel": l["titel"]} for l in content.lessen],
             totals={"scenarios": len(content.scenarios), "woorden": len(content.all_words()),
-                    "nieuws": len(content.nieuws), "cultuur": len(content.cultuur)},
+                    "nieuws": len(content.nieuws)},
             updates=content.updates,
         )
 
@@ -138,21 +136,6 @@ def create_app(test_config=None):
             abort(404)
         return render_template("nieuws_artikel.html", a=data, ids=list(content.nieuws), unlock=NIEUWS_UNLOCK,
                                screen_title=f"Nieuws · {NIVEAU_LABEL.get(data['nivo'], '')}")
-
-    @app.get("/cultuur")
-    def cultuur():
-        items = [{"id": a["id"], "number": i, "titel": a["titel"], "kategoria": a["kategoria"],
-                  "beschrijving": a["beschrijving"],
-                  "alineas": len(a["paragrafen"]), "zinnen": sum(len(p["zinnen"]) for p in a["paragrafen"])}
-                 for i, a in enumerate(content.cultuur.values(), start=1)]
-        return render_template("cultuur.html", stukken=items)
-
-    @app.get("/cultuur/<stuk_id>")
-    def cultuur_artikel(stuk_id):
-        data = content.cultuur.get(stuk_id)
-        if not data:
-            abort(404)
-        return render_template("cultuur_artikel.html", a=data, screen_title=f"Cultuur · {data['kategoria']}")
 
     @app.get("/eerste-week")
     def eerste_week():
@@ -262,12 +245,11 @@ def create_app(test_config=None):
 
     @app.get("/sitemap.xml")
     def sitemap():
-        paths = ["/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/cultuur", "/eerste-week",
+        paths = ["/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/eerste-week",
                  "/verder-leren", "/privacy", "/contact"]
         paths += [url_for("scenario", scenario_id=sid) for sid in content.scenarios]
         paths += [url_for("les", les_id=l["id"]) for l in content.lessen]
         paths += [url_for("nieuws_artikel", artikel_id=aid) for aid in content.nieuws]
-        paths += [url_for("cultuur_artikel", stuk_id=sid) for sid in content.cultuur]
         urls = "".join(f"<url><loc>{escape(site_url(p))}</loc></url>" for p in paths)
         xml = f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>'
         return app.response_class(xml, mimetype="application/xml")

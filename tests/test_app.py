@@ -38,7 +38,7 @@ def message_count(app):
 # ---------- pages & content ----------
 
 @pytest.mark.parametrize("path", [
-    "/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/cultuur", "/profiel", "/eerste-week", "/verder-leren", "/updates",
+    "/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/profiel", "/eerste-week", "/verder-leren", "/updates",
     "/contact", "/privacy", "/instellingen", "/healthz",
 ])
 def test_pages_ok(client, path):
@@ -169,34 +169,6 @@ def test_home_and_sitemap_link_nieuws(app, client):
     assert 'href="/nieuws"' in client.get("/").get_data(as_text=True)
     sitemap = client.get("/sitemap.xml").get_data(as_text=True)
     assert "/nieuws/nieuws-001" in sitemap
-
-
-def test_cultuur_integrity(app, client):
-    c = app.extensions["content"]
-    assert c.cultuur, "op zijn minst één cultuurstuk"
-
-    def check_question(where, q):
-        assert 3 <= len(q["opties"]) <= 6 and 0 <= q["correct"] < len(q["opties"]), where
-        assert len({o.strip().lower() for o in q["opties"]}) == len(q["opties"]), where
-        assert all(o.strip() for o in q["opties"]), where
-
-    assert list(c.cultuur) == [f"cultuur-{i:03d}" for i in range(1, len(c.cultuur) + 1)]
-    for cid, a in c.cultuur.items():
-        assert a["titel"].strip() and a["beschrijving"].strip() and a["kategoria"].strip(), cid
-        assert a["paragrafen"], cid
-        for pi, p in enumerate(a["paragrafen"]):
-            check_question((cid, pi), p)
-            assert p["vraag"].strip() and p["uitleg"].strip(), (cid, pi)
-            for z in p["zinnen"]:
-                assert z["pap"].strip() and z["nl"].strip() and z["uitleg"].strip(), (cid, z["pap"])
-                check_question((cid, z["pap"]), z)
-        for w in a.get("sleutelwoorden", []):
-            assert w["woord"] and w["uitspraak"] and w["vertaling"], cid
-
-    assert 'href="/cultuur"' in client.get("/").get_data(as_text=True)
-    assert client.get("/cultuur/cultuur-001").status_code == 200
-    sitemap = client.get("/sitemap.xml").get_data(as_text=True)
-    assert "/cultuur/cultuur-001" in sitemap
 
 
 def test_profiel_medal_thresholds_match_content(app, client):
