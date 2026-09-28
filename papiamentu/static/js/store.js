@@ -19,6 +19,8 @@
     profielKeuze: null,     // 'kort' | 'middel' | 'blijvend' — hoe lang iemand op Curaçao
                             // blijft (per device, niet gesynct: puur een UI-voorkeur)
     streak: { laatsteDag: '', lengte: 0 },  // opeenvolgende dagen met XP (per device, niet gesynct)
+    gezienUpdate: null,     // id van de laatste "wat is er nieuw"-update die is weggeklikt
+                            // (per device, niet gesynct — puur een UI-dismiss-status)
   });
 
   // "YYYY-MM-DD" van een lokale datum (geen tijdzone-gedoe: puur voor dag-vergelijking).
@@ -87,6 +89,7 @@
     delete copy.weekXp;
     delete copy.profielKeuze;
     delete copy.streak;
+    delete copy.gezienUpdate;
     return copy;
   }
 
@@ -117,7 +120,7 @@
         retryDelay = 5000;
         if (!dirty) {
           // Nothing changed while we were saving: adopt the server's (possibly merged) state.
-          writeJson(KEY, Object.assign(DEFAULTS(), data.state, { theme: load().theme, weekXp: load().weekXp, profielKeuze: load().profielKeuze, streak: load().streak }));
+          writeJson(KEY, Object.assign(DEFAULTS(), data.state, { theme: load().theme, weekXp: load().weekXp, profielKeuze: load().profielKeuze, streak: load().streak, gezienUpdate: load().gezienUpdate }));
           writeJson(SYNC_KEY, { uid: USER.id, rev: data.rev });
         }
         // If something did change meanwhile, keep the old revision so the next save merges.
@@ -223,6 +226,12 @@
       writeJson(KEY, s);  // device preference: no sync needed
     },
 
+    setGezienUpdate(id) {
+      const s = load();
+      s.gezienUpdate = id;
+      writeJson(KEY, s);  // dismiss-status: no sync needed
+    },
+
     exportJson() {
       return JSON.stringify(Object.assign({ exportedAt: new Date().toISOString() }, load()), null, 2);
     },
@@ -231,7 +240,7 @@
       try { data = JSON.parse(text); } catch (e) { throw new Error('Dit is geen geldig back-upbestand.'); }
       if (!data || data.version !== 1) throw new Error('Onbekend back-upformaat.');
       delete data.exportedAt;
-      writeJson(KEY, Object.assign(DEFAULTS(), data, { theme: load().theme, weekXp: load().weekXp, profielKeuze: load().profielKeuze, streak: load().streak }));
+      writeJson(KEY, Object.assign(DEFAULTS(), data, { theme: load().theme, weekXp: load().weekXp, profielKeuze: load().profielKeuze, streak: load().streak, gezienUpdate: load().gezienUpdate }));
       if (USER) await push({ replace: true });
     },
     async reset() {

@@ -78,6 +78,10 @@ class Content:
         # Vaste naslag-lijst met de nuttigste zinnen, buiten de lessenvolgorde om — voor
         # iemand die zich geen 40 lessen kan permitteren voor het vliegtuig vertrekt.
         self.noodwoordenboek = _load(data_dir / "noodwoordenboek.json")["categorieen"]
+        # Changelog voor eindgebruikers, nieuwste eerst. "id" is een oplopende string
+        # (ISO-datum) — de browser onthoudt tot welke id iemand de updates al heeft gezien.
+        updates_path = data_dir / "updates.json"
+        self.updates = sorted(_load(updates_path), key=lambda u: u["id"], reverse=True) if updates_path.exists() else []
         # Flat list used for the word of the day, in the same order as the app.
         self._all_words = [
             {"word": w["woord"], "pronunciation": w["uitspraak"], "translation": w["vertaling"]}

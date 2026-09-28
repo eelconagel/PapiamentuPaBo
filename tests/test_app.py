@@ -38,7 +38,7 @@ def message_count(app):
 # ---------- pages & content ----------
 
 @pytest.mark.parametrize("path", [
-    "/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/cultuur", "/profiel", "/eerste-week", "/verder-leren",
+    "/", "/scenarios", "/woorden", "/lessen", "/nieuws", "/cultuur", "/profiel", "/eerste-week", "/verder-leren", "/updates",
     "/contact", "/privacy", "/instellingen", "/healthz",
 ])
 def test_pages_ok(client, path):
@@ -117,6 +117,24 @@ def test_noodwoordenboek_integrity(app, client):
             assert z["papiamentu"].strip() and z["uitspraak"].strip() and z["vertaling"].strip()
     html = client.get("/eerste-week").get_data(as_text=True)
     assert c.noodwoordenboek[0]["zinnen"][0]["papiamentu"] in html
+
+
+def test_updates_integrity(app, client):
+    c = app.extensions["content"]
+    assert c.updates, "op zijn minst één update"
+    ids = [u["id"] for u in c.updates]
+    assert ids == sorted(ids, reverse=True), "nieuwste eerst"
+    for u in c.updates:
+        assert u["id"].strip() and u["titel"].strip() and u["punten"]
+        for p in u["punten"]:
+            assert p.strip()
+
+    html = client.get("/updates").get_data(as_text=True)
+    assert c.updates[0]["titel"] in html
+
+    # De homepage stuurt dezelfde updates mee (voor het eenmalige "wat is er nieuw"-scherm).
+    home_html = client.get("/").get_data(as_text=True)
+    assert c.updates[0]["id"] in home_html
 
 
 def test_nieuws_integrity(app):

@@ -1,0 +1,13 @@
+{% macro updates_list(updates) %}
+  {% for u in updates %}
+    <div class="update-release">
+      <p class="page-label">{{ u.id }}</p>
+      <h2 class="section-title" style="margin-top:0">{{ u.titel }}</h2>
+      <ul class="bullets">
+        {% for p in u.punten %}<li>{{ p }}</li>{% endfor %}
+      </ul>
+    </div>
+  {% else %}
+    <p class="muted">Nog geen updates.</p>
+  {% endfor %}
+{% endmacro %}

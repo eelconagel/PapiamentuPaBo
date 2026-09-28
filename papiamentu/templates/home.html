@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% from "_providers.html" import provider_buttons %}
+{% from "_updates_list.html" import updates_list %}
 {% block title %}Papiamentu Pa Bo — Leer Papiamentu stap voor stap{% endblock %}
 {% block content %}
 <section id="onboarding" class="onboarding">
@@ -138,6 +139,14 @@
   </div>
   <button type="button" class="btn-link" id="intake-skip" style="margin-top:8px">Liever meteen naar het overzicht</button>
 </section>
+
+<div class="modal-overlay" id="updates-modal" hidden>
+  <div class="modal-card">
+    <h2 class="title left" style="margin-top:0">Wat is er nieuw</h2>
+    {{ updates_list(updates) }}
+    <button type="button" class="btn btn-primary block" id="updates-close">Sluiten</button>
+  </div>
+</div>
 {% endblock %}
 
 {% block scripts %}
@@ -146,6 +155,8 @@
   const WORDS = {{ words | tojson }};
   const LESSEN = {{ lessen | tojson }};
   const TOTALS = {{ totals | tojson }};
+  const UPDATES = {{ updates | tojson }};
+  const LATEST_UPDATE_ID = UPDATES.length ? UPDATES[0].id : null;
   const lesUrl = (id) => {{ url_for('lessen') | tojson }} + '/' + id;
   const onboarding = document.getElementById('onboarding');
   const dashboard = document.getElementById('dashboard');
@@ -212,7 +223,20 @@
     renderIntakeNote(s.profielKeuze);
     renderStreak();
     renderProgress(s);
+    renderUpdatesModal(s);
   }
+
+  // Eén keer tonen: zodra iemand 'm wegklikt, onthouden we tot welke update-id we zijn
+  // (Store.gezienUpdate, puur lokaal/niet-gesynct) en verschijnt het scherm niet meer.
+  function renderUpdatesModal(s) {
+    const modal = document.getElementById('updates-modal');
+    if (!LATEST_UPDATE_ID) { modal.hidden = true; return; }
+    modal.hidden = s.gezienUpdate === LATEST_UPDATE_ID;
+  }
+  document.getElementById('updates-close').addEventListener('click', () => {
+    Store.setGezienUpdate(LATEST_UPDATE_ID);
+    document.getElementById('updates-modal').hidden = true;
+  });
 
   // Geen pushmeldingen (geen contactgegevens/device-tokens nodig): alleen een badge zolang
   // de streak leeft, en een zachte uitnodiging als die net is gestopt.
@@ -248,6 +272,8 @@
     const name = document.getElementById('name-input').value.trim();
     if (!name) { Store.toast('Vul je naam in om te beginnen.'); return; }
     Store.setName(name);
+    // Gloednieuw account: niets is voor deze gebruiker "nieuw", dus meteen als gezien tellen.
+    if (LATEST_UPDATE_ID) Store.setGezienUpdate(LATEST_UPDATE_ID);
     render();
   });
 

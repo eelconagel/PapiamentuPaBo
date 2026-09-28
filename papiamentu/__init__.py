@@ -27,6 +27,7 @@ SCREEN_TITLES = {
     "cultuur_artikel": "Cultuur",
     "profiel": "Profiel",
     "verder_leren": "Verder na de app",
+    "updates": "Updates",
     "contact": "Contact",
     "privacy": "Privacy",
     "instellingen": "Instellingen",
@@ -101,7 +102,12 @@ def create_app(test_config=None):
             lessen=[{"id": l["id"], "titel": l["titel"]} for l in content.lessen],
             totals={"scenarios": len(content.scenarios), "woorden": len(content.all_words()),
                     "nieuws": len(content.nieuws), "cultuur": len(content.cultuur)},
+            updates=content.updates,
         )
+
+    @app.get("/updates")
+    def updates():
+        return render_template("updates.html", updates=content.updates)
 
     @app.get("/scenarios")
     def scenarios():

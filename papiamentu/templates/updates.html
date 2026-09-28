@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% from "_updates_list.html" import updates_list %}
+{% block title %}Updates · Papiamentu Pa Bo{% endblock %}
+{% block description %}Wat er de laatste tijd is toegevoegd aan Papiamentu Pa Bo.{% endblock %}
+{% block back_url %}{{ url_for('instellingen') }}{% endblock %}
+{% block content %}
+<h1 class="title left">Updates</h1>
+<p class="muted small">Wat er de laatste tijd is toegevoegd.</p>
+{{ updates_list(updates) }}
+{% endblock %}
